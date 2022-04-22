@@ -1,0 +1,63 @@
+- CollapseLauncher [PREVIEW] - v1.0.9-pre (March 11th, 2022)
+  ► What's new?
+      ├ ▪ Add Social Media Side Panel at Home page.
+      ├ ▪ Add adaptive color accent support.
+      ├ ▪ Add Steam to Global version conversion.
+      ├ ▪ Add ErrorHandler Event for sending Unhandled Exceptions.
+      ├ ▪ Disable Change Region button while the region is still loading.
+      ├ ▪ Use events to navigate LauncherFrame.
+      ├ ▪ Use DirectX 11 (FL 11.0) by default.
+      ├ ▪ Add sections for caches date in Caches Download.
+      └ ▪ Better Region loading time-out handling.
+
+  ► What's Fixed and Changed?
+      ├ ▪ Fix significant Storage usage while extracting.
+      ├ ▪ Fix app to crash caused by default BG path & disable console by default.
+      ├ ▪ Fix uncancelled token in SevenZipTool.
+      ├ ▪ Fix launcher to apply config prematurely while update is getting cancelled.
+      └ ▪ Fix summary to return 0 byte if only generic files are missing.
+
+
+- CollapseLauncher [PREVIEW] - v1.0.7-pre (February 19th, 2022)
+  ► What's new?
+      ├ ▪ Adding support for migrating Game installed with BetterHI3Launcher.
+      ├ ▪ Revoke the target location if the folder choosen while installing doesn't allow the user to have a write permission.
+      │     E.g: C:\Program Files.
+      ├ ▪ Adding feature to update the game caches.
+      ├ ▪ Removing "Mirror Changer" dropdown at the titlebar since the feature isn't yet implemented.
+      ├ ▪ Adding Console Window toggle. Now you can hide/show the Console Window in the Settings menu.
+      └ ▪ Removing "Additional Download" while installing the game since the feature isn't yet implemented.
+
+
+- CollapseLauncher [PREVIEW] - v1.0.6-rc1-pre (February 6th, 2022)
+  ► What's new?
+      └ ▪ Adding support for migrating Game installed with BetterHI3Launcher.
+
+  ► What's Fixed and Changed?
+      └ ▪ Fixing CollapseLauncher.Invoker compiled to .NET Core 5 instead of .NET Core 6.
+
+
+- CollapseLauncher [PREVIEW] - v1.0.5-pre (February 5th, 2022)
+  ► What's new?
+      ├ ▪ The program now runs as a normal Win32 app.
+      │     └ ▫ Prequesties is needed to be installed in need to run it.
+      ├ ▪ Adding an ability to open the Game Folder.
+      ├ ▪ Adding Game log monitoring feature while game is running.
+      ├ ▪ Adding Game Repair feature.
+      ├ ▪ Adding Game Settings feature.
+      └ ▪ Hi3Helper Project is now completely merged to CollapseLauncher Project.
+
+
+- CollapseLauncher [PREVIEW] - v1.0.3-pre (January 11th, 2022)
+  ► What's new?
+      └ ▪ Minor and Runtime fixes.
+
+
+- CollapseLauncher [PREVIEW] - v1.0.2-pre (December 26th, 2021)
+  ► What's new?
+      └ ▪ Minor and Runtime fixes.
+
+
+- CollapseLauncher [PREVIEW] - v1.0.0-pre (December 22nd, 2021)
+  ► What's new?
+      └ ▪ The first preview version released.

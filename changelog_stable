@@ -1,0 +1,17 @@
+- CollapseLauncher [Dread Life] - v1.0.10.0 (March 14th, 2022)
+  ► What's new?
+      ├ ▪ The first stable version released.
+      ├ ▪ Adding Image Carousel on Home Page.
+      ├ ▪ Adding Support for Genshin Impact Game Client.
+      │   Including these supported releases:
+      │     ├ ▫ Genshin Impact (Global Release)
+      │     └ ▫ 原神 (Mainland China's Release)
+      ├ ▪ Adding extraction support for .zip file.
+      └ ▪ Adding HPatchUtil for Genshin's Update Delta Patch mechanism.
+
+  ► What's Fixed and Changed?
+      ├ ▪ Change Fatal Error URL.
+      ├ ▪ Increment 2 seconds on retrying to load region.
+      ├ ▪ Fix CheckRunningGameInstance() not watching game other than Honkai.
+      ├ ▪ Adding flag for Preview build.
+      └ ▪ Fix launcher throwing an exception while file isn't exist in Genshin.
