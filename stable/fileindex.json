@@ -1,6 +1,6 @@
 {
   "ver": "1.0.11.0",
-  "time": 1650607837,
+  "time": 1650612061,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -14,7 +14,7 @@
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "298F598ACF0CC14AF7C76BFECBB7D8E9",
+      "crc": "6E476D70BB5BEF3418BC9849811E75B8",
       "s": 1342464
     },
     {
@@ -234,8 +234,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "24ABC8520C43B81D0DD54A6EC1541844",
-      "s": 289392
+      "crc": "87FFF65AC021406BE75EA1001C6B5715",
+      "s": 289496
     },
     {
       "p": "SharpCompress.dll",
