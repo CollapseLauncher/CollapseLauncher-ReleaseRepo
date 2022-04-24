@@ -1,6 +1,6 @@
 {
   "ver": "1.0.11.0",
-  "time": 1650607822,
+  "time": 1650808139,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -9,17 +9,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "048C552805E0B5040CFD560AF1DAA75E",
+      "crc": "39B38254CD5311F5E0E0C4BFD87B0242",
       "s": 77477
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "EC8FA5D2E9CF201F81C9601666A77C68",
-      "s": 698880
+      "crc": "F4D18A96353310536D7AA83125FD9961",
+      "s": 718336
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "F43084301D83298736A6D8AEA4DCAF60",
+      "crc": "A7F5A9E9B051B84CC0B9BCF2B4901D85",
       "s": 471552
     },
     {
@@ -44,8 +44,8 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "EBE491DBB3F964AF407CFAE0AEB15910",
-      "s": 107992
+      "crc": "FE41AC0AA32B1B900E8464AC7D0D257D",
+      "s": 109336
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -129,13 +129,13 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "22783F5E3B3878FD7C7BB99F215754B6",
-      "s": 539136
+      "crc": "A031BB5B0E15B49B23982C89D8FD0411",
+      "s": 539648
     },
     {
       "p": "Hi3HelperCore.pdb",
-      "crc": "5D2C0BEBCB9AA3E43D9C8367146D0AF3",
-      "s": 221520
+      "crc": "2D30FBB6518DB4AE10712D7785C39BA0",
+      "s": 221616
     },
     {
       "p": "Microsoft.Graphics.Canvas.dll",
@@ -244,8 +244,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "24ABC8520C43B81D0DD54A6EC1541844",
-      "s": 289392
+      "crc": "001806B4972586D90E56E60FA0D7A417",
+      "s": 292256
     },
     {
       "p": "SharpCompress.dll",
