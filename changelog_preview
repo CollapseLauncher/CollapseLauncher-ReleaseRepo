@@ -1,5 +1,10 @@
 - CollapseLauncher [PREVIEW] - v1.0.11-pre (April 22nd, 2022)
   ► What's new?
+      ├ ▪ Add options to change App Theme.
+      └ ▪ Add options to change Download and Extraction Threads.
+
+- CollapseLauncher [PREVIEW] - v1.0.11-pre (April 22nd, 2022)
+  ► What's new?
       ├ ▪ Migrated to WinUI 3 1.1-preview2.
       ├ ▪ Add Update Mechanism for the launcher.
       ├ ▪ Use SevenZipExtractor by adoconnection for .7z file extraction.
