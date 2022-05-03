@@ -1,3 +1,34 @@
+- CollapseLauncher [PREVIEW] - v1.0.20-pre (May 3rd, 2022)
+  ► What's new?
+      ├ ▪ Adding feature to convert region version. For now, it only supports these versions:
+      │     └ ▫ Supported regions are:
+      │         - Southeast Asia
+      │         - Global
+      ├ ▪ Use event based MainFrameChangerInvoker_FrameEvent() to hide frame background.
+      ├ ▪ Use per-revision compare for comparing app version.
+      ├ ▪ Moving from legacy HttpClientTool to new HttpClientHelper class on these parts:
+      │     ├ ▫ Caches Update Mechanism.
+      │     ├ ▫ Repair Game Mechanism.
+      │     └ ▫ Steam to Global Converter Mechanism.
+      ├ ▪ Don't seek if using DisposeStream = false in HttpClientHelper.
+      ├ ▪ Repair process for block files (on Honkai) will be directly using its own FileStream instead of buffering it first to MemoryStream.
+      ├ ▪ A few adjustment on the background transition while changing the region.
+      ├ ▪ Move to HttpClientHelper entirely for downloading files.
+      └ ▪ Moving to .NET Core 7.0-preview3. This release will include the runtime of it.
+
+  ► What's Fixed?
+      ├ ▪ Reduce logging to cancellation on HttpClientHelper to prevent file conflict and making the app to crash.
+      ├ ▪ Fix the "Caches Update"'s Time Estimation to get updated aggressively.
+      ├ ▪ Fix the background to not loaded in rare condition after reloading region from different menu.
+      │   Thanks to event based MainFrameChangerInvoker_FrameEvent(), now we are able to fix it.
+      ├ ▪ Reduce events refresh rate to 50ms on "Repair Game" mechanism to prevent it for chugging performance of the app.
+      ├ ▪ Prevent the TryRetryableContainer() to throw ArgumentOutOfRangeException while setting StartOffset on
+      │   RequestRange with value >= 0 on HttpClientHelper.
+      ├ ▪ Fix the area around "Image Carousel" on HomePage still getting clickable.
+      ├ ▪ Fix the background to always getting downloaded while loading the region.
+      └ ▪ Fix Steam Installation of Honkai Impact 3rd cannot be detected if it's installed in different SteamLibrary.
+
+
 - CollapseLauncher [PREVIEW] - v1.0.13-pre (April 25th, 2022)
   ► What's new?
       └ ▪ Now you can choose which Voice Language you want to use while installing Genshin,
@@ -22,7 +53,7 @@
       ├ ▪ Add GenshinDispatchHelper class to read Genshin's dispatcher data.
       ├ ▪ Add repair mechanism for Genshin Impact (only supported on Global Release for now).
       ├ ▪ Use entirely re-written HttpClientHelper class for Installation Download mechanism.
-      ├ ▪ Change default background to this sprite.
+      ├ ▪ Change default background to "Paimon Sleeping" sprite.
       └ ▪ And some minor UI Tweaks.
 
   ► What's Fixed?
