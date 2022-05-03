@@ -30,7 +30,7 @@
 			"Severity": "Warning",
 			"RegionProfile": "Hi3CN",
 			"Title": "Announcement: This is a Test!",
-			"Message": "This announcement is a test for the new notification system. You can check on \"Never show this again\" to ignore this announcement"
+			"Message": "This announcement is a test for the new notification system. You can check on \"Never show me this again\" to ignore this announcement"
 		},
 		{
 			"MsgId": 5000000,
@@ -38,7 +38,7 @@
 			"Severity": "Warning",
 			"RegionProfile": "GIGlb",
 			"Title": "Announcement: This is a Test!",
-			"Message": "This announcement is a test for the new notification system. You can check on \"Never show this again\" to ignore this announcement"
+			"Message": "This announcement is a test for the new notification system. You can check on \"Never show me this again\" to ignore this announcement"
 		},
 	]
 }
