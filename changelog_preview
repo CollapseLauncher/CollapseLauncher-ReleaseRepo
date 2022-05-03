@@ -1,4 +1,4 @@
-- CollapseLauncher [PREVIEW] - v1.0.20-pre (May 3rd, 2022)
+- CollapseLauncher [PREVIEW] - v1.0.20.1-pre (May 3rd, 2022)
   ► What's new?
       ├ ▪ Adding feature to convert region version. For now, it only supports these versions:
       │     └ ▫ Supported regions are:
@@ -14,8 +14,9 @@
       ├ ▪ Repair process for block files (on Honkai) will be directly using its own FileStream instead
       │   of buffering it first to MemoryStream.
       ├ ▪ A few adjustment on the background transition while changing the region.
-      ├ ▪ Move to HttpClientHelper entirely for downloading files.
-      └ ▪ Moving to .NET Core 7.0-preview3. This release will include the runtime of it.
+      ├ ▪ Removing SharpCompress library completely due to replacement to SevenZipExtractor.
+      ├ ▪ Update some NuGet packages.
+      └ ▪ Move to HttpClientHelper entirely for downloading files.
 
   ► What's Fixed?
       ├ ▪ Reduce logging to cancellation on HttpClientHelper to prevent file conflict and making the app to crash.
