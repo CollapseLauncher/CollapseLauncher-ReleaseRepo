@@ -1,3 +1,12 @@
+- CollapseLauncher [PREVIEW] - v1.0.21.0-pre (May 4th, 2022)
+  ► What's new?
+      └ ▪ Implement Notification System.
+      
+  ► What's Fixed?
+      └ ▪ Fix the app to not checking running game process because CheckRunningGameInstance() was
+          accidentally removed on v1.0.20.1-preview build.
+      
+
 - CollapseLauncher [PREVIEW] - v1.0.20.1-pre (May 3rd, 2022)
   ► What's new?
       ├ ▪ Adding feature to convert region version. For now, it only supports these versions:
