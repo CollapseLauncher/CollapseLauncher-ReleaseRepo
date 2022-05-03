@@ -1,0 +1,44 @@
+{
+	"AppPush": [
+		// App notification MsgId starts from -1000000 to -1
+		{
+			"MsgId": 0,
+			"IsDisposable": false,
+			"Severity": "Success",
+			"Title": "Welcome to Collapse Launcher",
+			"Message": "You can now install or migrate your existing game here. For more information/guides, please visit: https://github.com/neon-nyan/CollapseLauncher/Wiki"
+		},
+		{
+			"MsgId": 1,
+			"IsDisposable": true,
+			"Severity": "Informational",
+			"Title": "Announcement: You are using Preview build",
+			"Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues\r\n\r\nSincerely,\r\nneon-nyan"
+		},
+	],
+	"RegionPush": [
+		// Region Push notification MsgId for Hi3SEA starts from 1 to 999999
+		// Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999
+		// Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999
+		// Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
+		// Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
+		// Region Push notification MsgId for GIGlb starts from 5000000 to 5999999
+		// Region Push notification MsgId for GICN starts from 6000000 to 6999999
+		{
+			"MsgId": 2000000,
+			"IsDisposable": true,
+			"Severity": "Warning",
+			"RegionProfile": "Hi3CN",
+			"Title": "Announcement: This is a Test!",
+			"Message": "This announcement is a test for the new notification system. You can check on \"Never show this again\" to ignore this announcement"
+		},
+		{
+			"MsgId": 5000000,
+			"IsDisposable": true,
+			"Severity": "Warning",
+			"RegionProfile": "GIGlb",
+			"Title": "Announcement: This is a Test!",
+			"Message": "This announcement is a test for the new notification system. You can check on \"Never show this again\" to ignore this announcement"
+		},
+	]
+}
