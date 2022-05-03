@@ -11,7 +11,8 @@
       │     ├ ▫ Repair Game Mechanism.
       │     └ ▫ Steam to Global Converter Mechanism.
       ├ ▪ Don't seek if using DisposeStream = false in HttpClientHelper.
-      ├ ▪ Repair process for block files (on Honkai) will be directly using its own FileStream instead of buffering it first to MemoryStream.
+      ├ ▪ Repair process for block files (on Honkai) will be directly using its own FileStream instead
+      │   of buffering it first to MemoryStream.
       ├ ▪ A few adjustment on the background transition while changing the region.
       ├ ▪ Move to HttpClientHelper entirely for downloading files.
       └ ▪ Moving to .NET Core 7.0-preview3. This release will include the runtime of it.
