@@ -17,21 +17,5 @@
 		// Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
 		// Region Push notification MsgId for GIGlb starts from 5000000 to 5999999
 		// Region Push notification MsgId for GICN starts from 6000000 to 6999999
-		{
-			"MsgId": 2000000,
-			"IsDisposable": true,
-			"Severity": "Warning",
-			"RegionProfile": "Hi3CN",
-			"Title": "Announcement: This is a Test!",
-			"Message": "This announcement is a test for the new notification system. You can check on \"Never show me this again\" to ignore this announcement"
-		},
-		{
-			"MsgId": 5000000,
-			"IsDisposable": true,
-			"Severity": "Warning",
-			"RegionProfile": "GIGlb",
-			"Title": "Announcement: This is a Test!",
-			"Message": "This announcement is a test for the new notification system. You can check on \"Never show me this again\" to ignore this announcement"
-		},
 	]
 }
