@@ -13,7 +13,7 @@
 			"IsDisposable": true,
 			"Severity": "Informational",
 			"Title": "Announcement: You are using Preview build",
-			"Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues\r\n\r\nSincerely,\r\nneon-nyan"
+			"Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues"
 		},
 	],
 	"RegionPush": [
