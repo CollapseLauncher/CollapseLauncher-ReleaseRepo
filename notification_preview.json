@@ -38,7 +38,7 @@
             "RegionProfile": "GIGlb",
 			"Severity": "Informational",
 			"Title": "Announcement: Recent Updates Regarding to v2.7 Update delay",
-			"Message": "In regard of official statement, v2.7 was delayed due to \"project progress\". Compensation will be issued to every players in every week.\r\nThe compensation includes: 400 Primogems, 1 Fragile Resin, 7 Hero's Wits, 16 Mystic Enhancement Ores, and 120000 Mora. This compensation will be issued from May 11th, 2022 until further announcement.\r\nFor more information, please visit HoYoLab, Game Social Media or In-Game Announcement."
+			"Message": "In regard of official statement, v2.7 was delayed due to \"project progress\". Compensation will be issued to every players in every week.\r\nThe compensation includes: 400 Primogems, 1 Fragile Resin, 7 Hero's Wits, 16 Mystic Enhancement Ores, and 120000 Mora.\r\nThis compensation will be issued from May 11th, 2022 until further announcement.\r\nFor more information, please visit HoYoLab or In-Game Announcement."
 		},
 		{
 			"MsgId": 6000000,
@@ -46,7 +46,7 @@
             "RegionProfile": "GICN",
 			"Severity": "Informational",
 			"Title": "Announcement: Recent Updates Regarding to v2.7 Update delay",
-			"Message": "In regard of official statement, v2.7 was delayed due to \"project progress\". Compensation will be issued to every players in every week.\r\nThe compensation includes: 400 Primogems, 1 Fragile Resin, 7 Hero's Wits, 16 Mystic Enhancement Ores, and 120000 Mora. This compensation will be issued from May 11th, 2022 until further announcement.\r\nFor more information, please visit HoYoLab or In-Game Announcement."
+			"Message": "In regard of official statement, v2.7 was delayed due to \"project progress\". Compensation will be issued to every players in every week.\r\nThe compensation includes: 400 Primogems, 1 Fragile Resin, 7 Hero's Wits, 16 Mystic Enhancement Ores, and 120000 Mora.\r\nThis compensation will be issued from May 11th, 2022 until further announcement.\r\nFor more information, please visit HoYoLab or In-Game Announcement."
 		},
 	]
 }
