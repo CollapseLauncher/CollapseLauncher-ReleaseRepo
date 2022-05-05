@@ -20,7 +20,7 @@
 			"IsDisposable": true,
 			"Severity": "Warning",
 			"Title": "Warning: Changes on Build: 1.0.20.3 Preview",
-			"Message": "Hi there, there are breaking changes on 1.0.20.3 that make the update not work if you update the launcher from your current version. Regarding to this, we recommend you to reinstall the launcher using the latest version instead.",
+			"Message": "Regarding to changes on update mechanism for 1.0.20.3 build, you may expect that the update for future update after 1.0.20.3 build would not work. We recommend you to reinstall your launcher using the latest version to mitigate this.\r\nThank you.",
             "ValidForVerBelowOrEqu": "1.0.20.3"
 		},
 	],
