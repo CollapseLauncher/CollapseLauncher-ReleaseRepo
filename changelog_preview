@@ -6,7 +6,7 @@
       ├ ▪ Notification Push will now able to show a notification based on their version.
       ├ ▪ Simplify process for adding default value for App Config if the file/value doesn't exist.
       ├ ▪ Adding revert mechanism if the version conversion has failed.
-      └ ▪ Apply Exclusive Window fix for Honkai Impact 3rd.
+      └ ▪ Apply simple Exclusive Window fix for Honkai Impact 3rd.
           This auto minimize-maximize mechanism will simply prevent thread lock/freeze on the game.
 
   ► What's Fixed?
