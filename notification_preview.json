@@ -9,11 +9,19 @@
 			"Message": "You can now install or migrate your existing game here. For more information/guides, please visit: https://github.com/neon-nyan/CollapseLauncher/Wiki"
 		},
 		{
-			"MsgId": 1,
+			"MsgId": -1,
 			"IsDisposable": true,
 			"Severity": "Informational",
 			"Title": "Announcement: You are using Preview build",
 			"Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues"
+		},
+		{
+			"MsgId": -2,
+			"IsDisposable": true,
+			"Severity": "Warning",
+			"Title": "Warning: Changes on Build: 1.0.20.3 Preview",
+			"Message": "Hi there, there are breaking changes on 1.0.20.3 that make the update not work if you update the launcher from your current version. Regarding to this, we recommend you to reinstall the launcher using the latest version instead.",
+            "ValidForVerBelowOrEqu": "1.0.20.3"
 		},
 	],
 	"RegionPush": [
