@@ -48,5 +48,13 @@
 			"Title": "Announcement Regarding to v2.7 Update Delay",
 			"Message": "In regard of official statement, v2.7 was delayed due to \"project progress\". Compensation will be issued to every players in every week.\r\nThe compensation includes: 400 Primogems, 1 Fragile Resin, 7 Hero's Wits, 16 Mystic Enhancement Ores, and 120000 Mora.\r\nThis compensation will be issued from May 11th, 2022 until further announcement.\r\nFor more information, please visit HoYoLab or In-Game Announcement."
 		},
+		{
+			"MsgId": 2000000,
+			"IsDisposable": true,
+            "RegionProfile": "Hi3CN",
+			"Severity": "Warning",
+			"Title": "Game Repair for Mainland China Region is Temporarily Unavailable",
+			"Message": "Game Repair functionality for Mainland China region is temporarily available due to difficulties on our back-end server. However, this feature will be back in the next update.\r\nApologize for the inconvenience."
+		},
 	]
 }

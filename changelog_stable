@@ -1,5 +1,67 @@
+- CollapseLauncher [Happy ENDing] - v1.0.21.0 (May 6th, 2022)
+  ► What's New?
+      ├ ▪ Migrated to WinUI 3 1.1-preview2.
+      ├ ▪ Add Update Mechanism for the launcher.
+      ├ ▪ Use SevenZipExtractor by adoconnection for .7z file extraction.
+      ├ ▪ Add GenshinDispatchHelper class to read Genshin's dispatcher data.
+      ├ ▪ Add repair mechanism for Genshin Impact (only supported on Global Release for now).
+      ├ ▪ Use entirely re-written HttpClientHelper class for Installation Download mechanism.
+      ├ ▪ Change default background to "Paimon Sleeping" sprite.
+      ├ ▪ And some minor UI Tweaks.
+      ├ ▪ Add options to change App Theme.
+      ├ ▪ Add options to change Download and Extraction Threads.
+      ├ ▪ Now you can choose which Voice Language you want to use while installing Genshin for the first 
+      │   time.
+      ├ ▪ Adding feature to convert region version. For now, it only supports these versions:
+      │     └ ▫ Supported regions are:
+      │         - Southeast Asia
+      │         - Global
+      ├ ▪ Use event based MainFrameChangerInvoker_FrameEvent() to hide frame background.
+      ├ ▪ Use per-revision compare for comparing app version.
+      ├ ▪ Moving from legacy HttpClientTool to new HttpClientHelper class on these parts:
+      │     ├ ▫ Caches Update Mechanism.
+      │     ├ ▫ Repair Game Mechanism.
+      │     └ ▫ Steam to Global Converter Mechanism.
+      ├ ▪ Don't seek if using DisposeStream = false in HttpClientHelper.
+      ├ ▪ Repair process for block files (on Honkai) will be directly using its own FileStream instead
+      │   of buffering it first to MemoryStream.
+      ├ ▪ A few adjustment on the background transition while changing the region.
+      ├ ▪ Removing SharpCompress library completely due to replacement to SevenZipExtractor.
+      ├ ▪ Update some NuGet packages.
+      ├ ▪ Move to HttpClientHelper entirely for downloading files.
+      ├ ▪ Implement Notification System.
+      ├ ▪ Adding build timestamp on the Update menu.
+      ├ ▪ Adding social media button on the Settings menu.
+      ├ ▪ Adding an ability for updater to update itself via elevated process.
+      ├ ▪ Notification Push will now able to show a notification based on their version.
+      ├ ▪ Simplify process for adding default value for App Config if the file/value doesn't exist.
+      ├ ▪ Adding revert mechanism if the version conversion has failed.
+      └ ▪ Apply simple Exclusive Window fix for Honkai Impact 3rd.
+          This auto minimize-maximize mechanism will simply prevent thread lock/freeze on the game.
+
+  ► What's Fixed?
+      ├ ▪ Fix logger to crash while writing to log on multi-thread task.
+      ├ ▪ Fix white Titlebar Rectangle around drag area.
+      ├ ▪ Fix typo at some dialogs.
+      ├ ▪ Fix the accent color selector to crash because there's just one color in light mode.
+      ├ ▪ Fix the migration process to fail if some files are already exist in target folder.
+      ├ ▪ Reduce logging to cancellation on HttpClientHelper to prevent file conflict and making the app to crash.
+      ├ ▪ Fix the "Caches Update"'s Time Estimation to get updated aggressively.
+      ├ ▪ Fix the background to not loaded in rare condition after reloading region from different menu.
+      │   Thanks to event based MainFrameChangerInvoker_FrameEvent(), now we are able to fix it.
+      ├ ▪ Reduce events refresh rate to 50ms on "Repair Game" mechanism to prevent it for chugging performance of the app.
+      ├ ▪ Prevent the TryRetryableContainer() to throw ArgumentOutOfRangeException while setting StartOffset on
+      │   RequestRange with value >= 0 on HttpClientHelper.
+      ├ ▪ Fix the area around "Image Carousel" on HomePage still getting clickable.
+      ├ ▪ Fix the background to always getting downloaded while loading the region.
+      ├ ▪ Fix Steam Installation of Honkai Impact 3rd cannot be detected if it's installed in different SteamLibrary.
+      ├ ▪ Fix the app to not checking running game process because CheckRunningGameInstance() was
+      │   accidentally removed on v1.0.20.1-preview build.
+      └ ▪ Fix some grammar errors.
+
+
 - CollapseLauncher [Dread Life] - v1.0.10.0 (March 14th, 2022)
-  ► What's new?
+  ► What's New?
       ├ ▪ The first stable version released.
       ├ ▪ Adding Image Carousel on Home Page.
       ├ ▪ Adding Support for Genshin Impact Game Client.
@@ -9,9 +71,12 @@
       ├ ▪ Adding extraction support for .zip file.
       └ ▪ Adding HPatchUtil for Genshin's Update Delta Patch mechanism.
 
-  ► What's Fixed and Changed?
+  ► What's Fixed?
       ├ ▪ Change Fatal Error URL.
       ├ ▪ Increment 2 seconds on retrying to load region.
       ├ ▪ Fix CheckRunningGameInstance() not watching game other than Honkai.
       ├ ▪ Adding flag for Preview build.
-      └ ▪ Fix launcher throwing an exception while file isn't exist in Genshin.
+      ├ ▪ Fix launcher throwing an exception while file isn't exist in Genshin.
+      ├ ▪ Fix restart warning for App Theme to appear early even the setting isn't changed.
+      ├ ▪ Fix thread setting to reset if you re-enter Settings menu.
+      └ ▪ Fix some typo at Thread setting.

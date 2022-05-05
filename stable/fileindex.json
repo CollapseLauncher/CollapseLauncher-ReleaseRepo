@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.11.0",
-  "time": 1650612061,
+  "ver": "1.0.21.0",
+  "time": 1651762708,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -9,17 +9,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "048C552805E0B5040CFD560AF1DAA75E",
-      "s": 77477
+      "crc": "BF906B3FA63DABAC977E91280C7234D9",
+      "s": 77419
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "6E476D70BB5BEF3418BC9849811E75B8",
-      "s": 1342464
+      "crc": "6730991ADC85487A63D9C1F6357044D6",
+      "s": 1494016
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "F43084301D83298736A6D8AEA4DCAF60",
+      "crc": "AAD14190BB7E0804C4D63D7E6D18186F",
       "s": 471552
     },
     {
@@ -29,8 +29,8 @@
     },
     {
       "p": "CollapseLauncher.Invoker.dll",
-      "crc": "8C67758D7BA3A2080C3AB556898CAEFF",
-      "s": 21504
+      "crc": "E0B18F9FE373231CEEAF4E9065A55057",
+      "s": 32256
     },
     {
       "p": "CollapseLauncher.Invoker.exe",
@@ -119,13 +119,13 @@
     },
     {
       "p": "Google.Protobuf.dll",
-      "crc": "17F75A99C8170C4FED9400AFA1DBFA9B",
-      "s": 1160704
+      "crc": "E3EB7202D09F82A60D1E2D6BF417A5C8",
+      "s": 1161216
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "B83B96EFE1B1A2A071E3AAA36ECB25DB",
-      "s": 1479680
+      "crc": "4F0CCF7CD5C7B185A389E793871ED032",
+      "s": 1469952
     },
     {
       "p": "Microsoft.Graphics.Canvas.dll",
@@ -234,13 +234,13 @@
     },
     {
       "p": "resources.pri",
-      "crc": "87FFF65AC021406BE75EA1001C6B5715",
-      "s": 289496
+      "crc": "76AA94759073CC74E11D6C46EF6006D6",
+      "s": 299472
     },
     {
-      "p": "SharpCompress.dll",
-      "crc": "5D04691245DC489B51E79E49C89F04FD",
-      "s": 1375744
+      "p": "System.Collections.Immutable.dll",
+      "crc": "096510A9205BB1513A9A7F7BAF4BF04E",
+      "s": 566272
     },
     {
       "p": "System.Drawing.Common.dll",
@@ -264,8 +264,8 @@
     },
     {
       "p": "config/fileconfig.json",
-      "crc": "D1F979186B682B7E711878885F861802",
-      "s": 13629
+      "crc": "55926A684B602A3AF08078A245C27C4F",
+      "s": 13961
     },
     {
       "p": "Lib/7z.dll",
@@ -274,8 +274,8 @@
     },
     {
       "p": "Lib/HPatchZ.dll",
-      "crc": "4C8A76268E905DC0312078FA38C3F91C",
-      "s": 369664
+      "crc": "857C55611BD29A8D4B4CD29C02B7CC22",
+      "s": 345600
     },
     {
       "p": "Assets/BG/AiHappy.png",
@@ -286,6 +286,11 @@
       "p": "Assets/BG/default.png",
       "crc": "8327DA308617B6B9431153907BDE69DA",
       "s": 24263
+    },
+    {
+      "p": "Assets/Fonts/FontAwesomeBrand6.otf",
+      "crc": "2C058B94A3A5D3EC92C22B7374DB4327",
+      "s": 496360
     }
   ]
 }
