@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/win10-x64": {
-      "CollapseLauncher/1.0.21.0": {
+      "CollapseLauncher/1.0.21.1": {
         "dependencies": {
           "Aiursoft.HSharp": "2.2.2",
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
@@ -946,7 +946,7 @@
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.21.0": {
+    "CollapseLauncher/1.0.21.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

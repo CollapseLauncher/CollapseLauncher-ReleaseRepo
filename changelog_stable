@@ -1,4 +1,4 @@
-- CollapseLauncher [Happy ENDing] - v1.0.21.0 (May 6th, 2022)
+- CollapseLauncher [Happy Ending] - v1.0.21.1 (May 6th, 2022)
   ► What's New?
       ├ ▪ Migrated to WinUI 3 1.1-preview2.
       ├ ▪ Add Update Mechanism for the launcher.
@@ -57,7 +57,8 @@
       ├ ▪ Fix Steam Installation of Honkai Impact 3rd cannot be detected if it's installed in different SteamLibrary.
       ├ ▪ Fix the app to not checking running game process because CheckRunningGameInstance() was
       │   accidentally removed on v1.0.20.1-preview build.
-      └ ▪ Fix some grammar errors.
+      ├ ▪ Fix some grammar errors.
+      └ ▪ Fix some settings to not getting saved.
 
 
 - CollapseLauncher [Dread Life] - v1.0.10.0 (March 14th, 2022)
