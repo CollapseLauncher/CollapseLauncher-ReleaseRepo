@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.20.2",
-  "time": 1651608607,
+  "ver": "1.0.20.3",
+  "time": 1651746843,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -9,17 +9,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "BAE3C26B683411F97794C15591157018",
+      "crc": "A1C5F612A7BB0E3746183052BD7C0CAF",
       "s": 77419
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "E693DDEE1534ED11838C3BAAC41023ED",
-      "s": 760320
+      "crc": "87F368C3ADABDB1405576DA494988279",
+      "s": 761344
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "1725F29017954837AB555DFCDC164982",
+      "crc": "363FFBB3D6D2B56F4675891B520CDAD1",
       "s": 471552
     },
     {
@@ -44,8 +44,8 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "F1A15C9ABDD6B999A931547A88DA63B6",
-      "s": 118824
+      "crc": "11F99627D18FE9369C401EF151C7E85E",
+      "s": 119284
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -129,13 +129,13 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "D9C6AB52552EC4436524B1B6ED9C6096",
-      "s": 541696
+      "crc": "0C493F7A26D779A2FE88C246F321FF7B",
+      "s": 542720
     },
     {
       "p": "Hi3HelperCore.pdb",
-      "crc": "71B916DEE8FBB5636E42E1CFFC5683F7",
-      "s": 222056
+      "crc": "C8B87A0ECE4758B86E349901FCE50AD7",
+      "s": 222272
     },
     {
       "p": "Microsoft.Graphics.Canvas.dll",
@@ -244,8 +244,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "1C3552909B7A9BD5C06D1504576245CA",
-      "s": 297032
+      "crc": "B8A9088B94E79398340CDD504ECD67B0",
+      "s": 299472
     },
     {
       "p": "System.Collections.Immutable.dll",
@@ -296,6 +296,11 @@
       "p": "Assets/BG/default.png",
       "crc": "8327DA308617B6B9431153907BDE69DA",
       "s": 24263
+    },
+    {
+      "p": "Assets/Fonts/FontAwesomeBrand6.otf",
+      "crc": "2C058B94A3A5D3EC92C22B7374DB4327",
+      "s": 496360
     }
   ]
 }
