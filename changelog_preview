@@ -1,11 +1,24 @@
+- CollapseLauncher [PREVIEW] - v1.0.20.3-pre (May 5th, 2022)
+  ► What's new?
+      ├ ▪ Adding build timestamp on the Update menu.
+      ├ ▪ Adding social media button on the Settings menu.
+      ├ ▪ Adding an ability for updater to update itself via elevated process.
+      ├ ▪ Notification Push will now able to show a notification based on their version.
+      └ ▪ Apply Exclusive Window fix for Honkai Impact 3rd.
+          This auto minimize-maximize mechanism will simply prevent thread lock/freeze on the game.
+
+  ► What's Fixed?
+      └ ▪ Fix some grammar errors.
+
+
 - CollapseLauncher [PREVIEW] - v1.0.20.2-pre (May 4th, 2022)
   ► What's new?
       └ ▪ Implement Notification System.
-      
+
   ► What's Fixed?
       └ ▪ Fix the app to not checking running game process because CheckRunningGameInstance() was
           accidentally removed on v1.0.20.1-preview build.
-      
+
 
 - CollapseLauncher [PREVIEW] - v1.0.20.1-pre (May 3rd, 2022)
   ► What's new?
@@ -55,6 +68,7 @@
   ► What's new?
       ├ ▪ Add options to change App Theme.
       └ ▪ Add options to change Download and Extraction Threads.
+
 
 - CollapseLauncher [PREVIEW] - v1.0.11-pre (April 22nd, 2022)
   ► What's new?
