@@ -1,3 +1,10 @@
+- CollapseLauncher [PREVIEW] - v1.0.21.2-pre (May 6th, 2022)
+  ► What's Fixed?
+      ├ ▪ Fix the updater to not started if the app is installed in path with spaces.
+      │   For example: C:\Program Files\Collapse Launcher
+      └ ▪ Fix some settings to not getting saved.
+
+
 - CollapseLauncher [PREVIEW] - v1.0.20.3-pre (May 5th, 2022)
   ► What's New?
       ├ ▪ Adding build timestamp on the Update menu.
