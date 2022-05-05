@@ -16,12 +16,12 @@
 			"Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues"
 		},
 		{
-			"MsgId": -2,
+			"MsgId": -3,
 			"IsDisposable": true,
 			"Severity": "Warning",
-			"Title": "Warning: Changes on Build: 1.0.20.3 Preview",
-			"Message": "Regarding to changes on update mechanism for 1.0.20.3 build, you may expect that the update after 1.0.20.3 build would not work.\r\nWe recommend you to reinstall your launcher using the latest version to mitigate this.\r\n\r\nThank you.",
-			"ValidForVerBelow": "1.0.20.3"
+			"Title": "Issue with Update mechanism on 1.0.20.3 and below",
+			"Message": "There are some reports explaining the update mechanism on 1.0.20.3 and below aren't working.\r\nTo mitigate this, please reinstall your launcher with 1.0.21.2-preview build.\r\n\r\nThank you.",
+			"ValidForVerBelow": "1.0.21.2"
 		},
 	],
 	"RegionPush": [

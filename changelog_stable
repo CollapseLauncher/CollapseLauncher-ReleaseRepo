@@ -1,4 +1,4 @@
-- CollapseLauncher [Happy Ending] - v1.0.21.1 (May 6th, 2022)
+- CollapseLauncher [Happy Ending] - v1.0.21.2 (May 6th, 2022)
   ► What's New?
       ├ ▪ Migrated to WinUI 3 1.1-preview2.
       ├ ▪ Add Update Mechanism for the launcher.
@@ -58,6 +58,8 @@
       ├ ▪ Fix the app to not checking running game process because CheckRunningGameInstance() was
       │   accidentally removed on v1.0.20.1-preview build.
       ├ ▪ Fix some grammar errors.
+      ├ ▪ Fix the updater to not started if the app is installed in path with spaces.
+      │   For example: C:\Program Files\Collapse Launcher
       └ ▪ Fix some settings to not getting saved.
 
 
