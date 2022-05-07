@@ -1,4 +1,16 @@
-- CollapseLauncher [PREVIEW] - v1.0.21.3-pre (May 7th, 2022)
+- CollapseLauncher [PREVIEW] - v1.0.21.4-pre (May 7th, 2022)
+  ► What's New?
+      ├ ▪ Update pre-compiled Updater executable.
+      ├ ▪ Always return true if the chunk is already downloaded and check for unintended chunk size.
+      ├ ▪ Log will now back to use old new StreamWriter().
+      └ ▪ Return false if the directory doesn't exist in IsUserHasPermission().
+
+  ► What's Fixed?
+      ├ ▪ Fix the GameFolder to not updated while getting relocated.
+      └ ▪ Fix the app to not using proper folder path while updating.
+
+
+- CollapseLauncher [PREVIEW] - v1.0.21.3-pre (May 7th, 2022) (Temporal Experimental Build)
   ► What's New?
       ├ ▪ Moving to WinUI 3 1.1-preview3.
       ├ ▪ Update pre-compiled Updater executable.
