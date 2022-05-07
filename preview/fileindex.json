@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.21.2",
-  "time": 1651766861,
+  "ver": "1.0.21.3",
+  "time": 1651897181,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -9,17 +9,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "6FEB250E0B5BC9CCCF09936A0721E61E",
+      "crc": "975B7A3EA8826EAD78EF3F7B420B421C",
       "s": 77419
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "CC798222427D02A2AAC9C85C4FE9F140",
-      "s": 762880
+      "crc": "6BA878937879A841667E529E4FBE4071",
+      "s": 765440
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "C293CB30E88A6FA7AE75875608DAB980",
+      "crc": "B56C71A3B15C38EAB89A5B22A8C58CE3",
       "s": 471552
     },
     {
@@ -44,8 +44,8 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "2E5E096ED0AAF503BC46625F7B711D96",
-      "s": 119548
+      "crc": "DEB1D86DE4F2F1122C9D15125DDD7634",
+      "s": 120432
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -129,13 +129,13 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "EE4295CA29E7EE560486DF72ADE2EFB3",
-      "s": 542720
+      "crc": "B2B2F7BF41BD0383E96DF924ABBB0E48",
+      "s": 543232
     },
     {
       "p": "Hi3HelperCore.pdb",
-      "crc": "803D909D241F216800B8F77DD29D100A",
-      "s": 222272
+      "crc": "631F6CB40E56040D0C2EE582A2D1AD80",
+      "s": 222320
     },
     {
       "p": "Microsoft.Graphics.Canvas.dll",
@@ -149,8 +149,8 @@
     },
     {
       "p": "Microsoft.InteractiveExperiences.Projection.dll",
-      "crc": "796DE4D32D65157ABCAAE8129B61F3DE",
-      "s": 1289136
+      "crc": "143274E313366EDA07464E63A184AD8C",
+      "s": 1307568
     },
     {
       "p": "Microsoft.Win32.SystemEvents.dll",
@@ -159,33 +159,33 @@
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll",
-      "crc": "13FFB06A0BABD44DE282AFBB98EB3DBE",
-      "s": 57760
+      "crc": "30AD844F8785B7663FA712D9895CC2F4",
+      "s": 57768
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.Resources.Projection.dll",
-      "crc": "03B3AB92643F851ED8B8838A57BA2759",
-      "s": 74144
+      "crc": "F328FA565584909F62C40D16770B37FD",
+      "s": 74152
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll",
-      "crc": "0B47DB151642FF830C916223969044AC",
-      "s": 43936
+      "crc": "00EA27F014B3D5A66443ABCBF61BCF1E",
+      "s": 43944
     },
     {
       "p": "Microsoft.Windows.AppLifecycle.Projection.dll",
-      "crc": "325AC70181D468FD26B57436F0AFB329",
-      "s": 51616
+      "crc": "2E08D9C743DD9474F2013F4D9A8A1214",
+      "s": 51624
     },
     {
       "p": "Microsoft.Windows.AppNotifications.Projection.dll",
-      "crc": "1AAAA8CB75231704FF125EE19D904916",
-      "s": 65440
+      "crc": "D64433707C726444C7B7E2C1512F7034",
+      "s": 65448
     },
     {
       "p": "Microsoft.Windows.PushNotifications.Projection.dll",
-      "crc": "1EE4D7EF719FEA4055BBBE6589323F83",
-      "s": 54688
+      "crc": "71CA3AFFF27CB1538FEA79852DCEC9B8",
+      "s": 54696
     },
     {
       "p": "Microsoft.Windows.SDK.NET.dll",
@@ -194,28 +194,28 @@
     },
     {
       "p": "Microsoft.Windows.System.Power.Projection.dll",
-      "crc": "B95AD4A547765E47D53F3478B0F95B14",
-      "s": 53152
+      "crc": "E24257EAB7CAE95787E9F60A2AD6B2A8",
+      "s": 53160
     },
     {
       "p": "Microsoft.Windows.System.Projection.dll",
-      "crc": "C9E5422DADC488C40024E94BA35C44DC",
-      "s": 39328
+      "crc": "C12C7242D03CA09D6BC7C70F32A75479",
+      "s": 39336
     },
     {
       "p": "Microsoft.WindowsAppRuntime.Bootstrap.dll",
-      "crc": "0D5C891FADAFB8A2940D38A524CC9540",
-      "s": 152992
+      "crc": "075B1083C4930DE3B01534484BAC95B0",
+      "s": 153000
     },
     {
       "p": "Microsoft.WindowsAppRuntime.Bootstrap.Net.dll",
-      "crc": "CE27D972DCE4E56E5E4782533C8E17EE",
-      "s": 16800
+      "crc": "8C5F2C1A3D1851C601379B848B170D88",
+      "s": 16808
     },
     {
       "p": "Microsoft.WinUI.dll",
-      "crc": "FA57C893636759DF9E9DDC0C7444617E",
-      "s": 8089520
+      "crc": "8A468EF62F05B362300055A0086E0554",
+      "s": 8089488
     },
     {
       "p": "Newtonsoft.Json.dll",
@@ -244,8 +244,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "76AA94759073CC74E11D6C46EF6006D6",
-      "s": 299472
+      "crc": "D4D1982CE39833044621339918795D91",
+      "s": 299672
     },
     {
       "p": "System.Collections.Immutable.dll",
