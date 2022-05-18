@@ -47,7 +47,7 @@
             "Severity": "Warning",
             "Title": "Announcement regarding to maintenance for v5.7",
             "Message": "In regard of official announcement, the maintenance for EU and NA region will be happen on 05:00 - 11:00 (GMT+1 For EU) and 23:00 - 05:00 (GMT-5 For NA). For more information, please check on each official media or Discord at: discord.gg/hi3"
-        }, v  
+        },
 		{
 			"MsgId": 5000000,
 			"IsDisposable": true,
