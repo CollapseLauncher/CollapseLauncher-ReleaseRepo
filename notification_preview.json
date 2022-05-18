@@ -46,7 +46,7 @@
     "RegionProfile": "Hi3Global",
     "Severity": "Warning",
     "Title": "Announcement regarding to maintenance for v5.7",
-    "Message": "In regard of official announcement, the maintenance for EU and NA region will be happen on 05:00 - 11:00 (GMT+1 For EU) and 23:00 - 05:00 (GMT-5)"
+    "Message": "In regard of official announcement, the maintenance for EU and NA region will be happen on 05:00 - 11:00 (GMT+1 For EU) and 23:00 - 05:00 (GMT-5 For NA)"
 },
 		{
 			"MsgId": 5000000,
