@@ -33,6 +33,22 @@
 		// Region Push notification MsgId for GIGlb starts from 5000000 to 5999999
 		// Region Push notification MsgId for GICN starts from 6000000 to 6999999
 		{
+			"MsgId": 2,
+			"IsDisposable": true,
+            "RegionProfile": "Hi3SEA",
+			"Severity": "Warning",
+			"Title": "Conversion Feature for Southeast Asia Region is Temporarily Unavailable",
+			"Message": "In regard of recent maintenance time, we are still preparing the files required for conversion feature. We are apologize for this inconvenience and we are trying to finish this as soon as possible.\r\nThank you for your support and patience!"
+		},
+		{
+			"MsgId": 1000001,
+			"IsDisposable": true,
+            "RegionProfile": "Hi3Global",
+			"Severity": "Warning",
+			"Title": "Conversion Feature for Global Region is Temporarily Unavailable",
+			"Message": "In regard of recent maintenance time, we are still preparing the files required for conversion feature. We are apologize for this inconvenience and we are trying to finish this as soon as possible.\r\nThank you for your support and patience!"
+		},
+		{
 			"MsgId": 5000000,
 			"IsDisposable": true,
             "RegionProfile": "GIGlb",
