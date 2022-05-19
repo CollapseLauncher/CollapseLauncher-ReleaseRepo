@@ -49,6 +49,14 @@
 			"Message": "In regard of recent maintenance time, we are still preparing the files required for conversion feature. We are apologize for this inconvenience and we are trying to finish this as soon as possible.\r\nThank you for your support and patience!"
 		},
 		{
+			"MsgId": 1000002,
+			"IsDisposable": true,
+            "RegionProfile": "Hi3Global",
+			"Severity": "Warning",
+			"Title": "Issues Regarding to Armada System on the EU Server",
+			"Message": "Armada System is currently malfunctioning on EU Server. You might found that your account has kicked out from the armada or you can't access armada menu or parts of it. We would like to recommend you to not doing anything related to armada to prevent more problems and don't worry, it will be recovered soon. Please follow the official announcement on each platforms and wait for further announcement."
+		},
+		{
 			"MsgId": 5000000,
 			"IsDisposable": true,
             "RegionProfile": "GIGlb",
