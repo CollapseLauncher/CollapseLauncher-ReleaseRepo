@@ -54,7 +54,7 @@
             "RegionProfile": "Hi3CN",
 			"Severity": "Warning",
 			"Title": "Game Repair for Mainland China Region is Temporarily Unavailable",
-			"Message": "Game Repair functionality for Mainland China region is temporarily available due to difficulties on our back-end server. However, this feature will be back in the next update.\r\nApologize for the inconvenience."
+			"Message": "Game Repair functionality for Mainland China region is temporarily unavailable due to difficulties on our back-end server. However, this feature will be back in the next update.\r\nApologize for the inconvenience."
 		},
 	]
 }
