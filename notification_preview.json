@@ -32,22 +32,6 @@
 		// Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
 		// Region Push notification MsgId for GIGlb starts from 5000000 to 5999999
 		// Region Push notification MsgId for GICN starts from 6000000 to 6999999
-        {
-            "MsgId": 1,
-            "IsDisposable": true,
-            "RegionProfile": "Hi3SEA",
-            "Severity": "Warning",
-            "Title": "Announcement regarding to maintenance for v5.7",
-            "Message": "In regard of official announcement, the maintenance for SEA region will be happen on 10:00 - 16:00 (GMT+8). For more information, please check on each official media or Discord at: discord.gg/hi3"
-        },
-        {
-            "MsgId": 1000000,
-            "IsDisposable": true,
-            "RegionProfile": "Hi3Global",
-            "Severity": "Warning",
-            "Title": "Announcement regarding to maintenance for v5.7",
-            "Message": "In regard of official announcement, the maintenance for EU and NA region will be happen on 05:00 - 11:00 (GMT+1 For EU) and 23:00 - 05:00 (GMT-5 For NA). For more information, please check on each official media or Discord at: discord.gg/hi3"
-        },
 		{
 			"MsgId": 5000000,
 			"IsDisposable": true,
