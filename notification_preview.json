@@ -15,14 +15,14 @@
 			"Title": "Announcement: You are using Preview build",
 			"Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues"
 		},
-		{
-			"MsgId": -3,
-			"IsDisposable": true,
-			"Severity": "Warning",
-			"Title": "Issue with Update mechanism on 1.0.20.3 and below",
-			"Message": "There are some reports explaining the update mechanism on 1.0.20.3 and below aren't working.\r\nTo mitigate this, please reinstall your launcher with 1.0.21.2-preview build.\r\n\r\nThank you.",
-			"ValidForVerBelow": "1.0.21.2"
-		},
+		// {
+		// 	"MsgId": -3,
+		// 	"IsDisposable": true,
+		// 	"Severity": "Warning",
+		// 	"Title": "Issue with Update mechanism on 1.0.20.3 and below",
+		// 	"Message": "There are some reports explaining the update mechanism on 1.0.20.3 and below aren't working.\r\nTo mitigate this, please reinstall your launcher with 1.0.21.2-preview build.\r\n\r\nThank you.",
+		// 	"ValidForVerBelow": "1.0.21.2"
+		// },
 	],
 	"RegionPush": [
 		// Region Push notification MsgId for Hi3SEA starts from 1 to 999999
