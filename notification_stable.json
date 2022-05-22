@@ -18,30 +18,6 @@
 		// Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000000 Used
 		// Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
 		{
-			"MsgId": 1000002,
-			"IsDisposable": true,
-            "RegionProfile": "Hi3Global",
-			"Severity": "Warning",
-			"Title": "Issues Regarding to Armada System on the EU Server",
-			"Message": "Armada System is currently malfunctioning on EU Server. You might found that your account has kicked out from the armada or you can't access armada menu or parts of it. We would like to recommend you to not doing anything related to armada to prevent more problems and don't worry, it will be recovered soon. Please follow the official announcement on each platforms and wait for further announcement."
-		},
-		{
-			"MsgId": 5000000,
-			"IsDisposable": true,
-            "RegionProfile": "GIGlb",
-			"Severity": "Informational",
-			"Title": "Announcement Regarding to v2.7 Update Delay",
-			"Message": "In regard of official statement, v2.7 was delayed due to \"project progress\". Compensation will be issued to every players in every week.\r\nThe compensation includes: 400 Primogems, 1 Fragile Resin, 7 Hero's Wits, 16 Mystic Enhancement Ores, and 120000 Mora.\r\nThis compensation will be issued from May 11th, 2022 until further announcement.\r\nFor more information, please visit HoYoLab or In-Game Announcement."
-		},
-		{
-			"MsgId": 6000000,
-			"IsDisposable": true,
-            "RegionProfile": "GICN",
-			"Severity": "Informational",
-			"Title": "Announcement Regarding to v2.7 Update Delay",
-			"Message": "In regard of official statement, v2.7 was delayed due to \"project progress\". Compensation will be issued to every players in every week.\r\nThe compensation includes: 400 Primogems, 1 Fragile Resin, 7 Hero's Wits, 16 Mystic Enhancement Ores, and 120000 Mora.\r\nThis compensation will be issued from May 11th, 2022 until further announcement.\r\nFor more information, please visit HoYoLab or In-Game Announcement."
-		},
-		{
 			"MsgId": 2000000,
 			"IsDisposable": true,
             "RegionProfile": "Hi3CN",
