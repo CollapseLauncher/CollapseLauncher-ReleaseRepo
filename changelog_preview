@@ -1,27 +1,35 @@
-- CollapseLauncher [PREVIEW] - v1.0.21.4-pre (May 7th, 2022)
+- CollapseLauncher [PREVIEW] - v1.0.22.3-RC1 [Codename: Till the end of me] (May 7th, 2022)
   ► What's New?
-      ├ ▪ Update pre-compiled Updater executable.
-      ├ ▪ Always return true if the chunk is already downloaded and check for unintended chunk size.
-      ├ ▪ Log will now back to use old new StreamWriter().
-      └ ▪ Return false if the directory doesn't exist in IsUserHasPermission().
+      ├ ▪ Update pre-compiled Updater executable
+      ├ ▪ Moving to WinUI 3 1.1-preview3 and .NET Core 7-preview4 Runtime
+      ├ ▪ Adding support for Acrylic and Mica Backdrop (Thanks to the new WinUI 3 1.1-preview3 runtime)
+      ├ ▪ Adding localization support
+      ├ ▪ Adding Delta Patch Update support for Honkai Impact 3rd
+      ├ ▪ Adding .NET Core Runtime components to the build
+      ├ ▪ Rewrite the HttpClientHelper logic, especially on ThreadController
+      ├ ▪ The app config will be initialized first before Logger component
+      ├ ▪ Remove WinForms attribute from Invoker since it's unused
+      ├ ▪ Set minimum size for using parallel download on Repair Mechanism to 4 MiB
+      ├ ▪ Set time delay for app update check to 1 hour
+      ├ ▪ Log will now back to use old new StreamWriter()
+      ├ ▪ Return false if the directory doesn't exist in IsUserHasPermission()
+      └ ▪ While relocating the app or use it for the first time and if you choose another location,
+          the app will now append the permission to the selected location.
 
   ► What's Fixed?
-      ├ ▪ Fix the GameFolder to not updated while getting relocated.
-      └ ▪ Fix the app to not using proper folder path while updating.
-
-
-- CollapseLauncher [PREVIEW] - v1.0.21.3-pre (May 7th, 2022) (Temporal Experimental Build)
-  ► What's New?
-      ├ ▪ Moving to WinUI 3 1.1-preview3.
-      ├ ▪ Update pre-compiled Updater executable.
-      ├ ▪ Always return true if the chunk is already downloaded and check for unintended chunk size.
-      ├ ▪ Adding Acrylic effect to the app. This feature is experimental and will be removed in
-      │   the next version.
-      └ ▪ Return false if the directory doesn't exist in IsUserHasPermission().
-
-  ► What's Fixed?
-      ├ ▪ Fix the GameFolder to not updated while getting relocated.
-      └ ▪ Fix the app to not using proper folder path while updating.
+      ├ ▪ Fix the GameFolder to get ignored while getting relocated.
+      ├ ▪ Fix the app to not using proper folder path while updating.
+      ├ ▪ Fix the updater to not started if the app is installed in path with spaces.
+      │   For example: C:\Program Files\Collapse Launcher
+      ├ ▪ Fix some settings to not getting saved.
+      ├ ▪ Fix the launcher to crash while getting time-out on loading the region.
+      ├ ▪ Fix the launcher to reset AppFolder everytime it restarted.
+      ├ ▪ Fix the updater to crash while running on PC with non-english language
+      │   (Thanks to my friend Delta to report this issue :vodkahug:)
+      ├ ▪ Fix the launcher to keep detecting delta patch file and crash, even the file is actually not exist.
+      ├ ▪ Fix the app to crash if AppPush and RegionPush becoming null.
+      └ ▪ Fix the ThreadController to miss the last range or more than expected, making the downloaded
+          file to get corrupted after resuming.
 
 
 - CollapseLauncher [PREVIEW] - v1.0.21.2-pre (May 6th, 2022)
