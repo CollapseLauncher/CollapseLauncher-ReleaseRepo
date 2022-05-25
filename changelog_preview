@@ -1,12 +1,13 @@
 - CollapseLauncher [PREVIEW] - v1.0.22.4 (May 25th, 2022)
   ► What's New?
-      ├ ▪ Updater and Invoker app is now merged into main app.
+      ├ ▪ Updater and Invoker app is now merged into main app
       ├ ▪ Using custom Main() Entry Point to the app. Making the possibility to use
-      │   additional arguments on the app.
-      └ ▪ New updater UI using the same WinUI 3 Runtime.
+      │   additional arguments on the app
+      └ ▪ New updater UI using the same WinUI 3 Runtime
 
   ► What's Fixed?
-      └ ▪ Fix the Update Notification UI to get overlaped with frames behind it.
+      ├ ▪ Fix the 7th column header name on Caches Page went blank
+      └ ▪ Fix the Update Notification UI to get overlaped with frames behind it
 
 
 - CollapseLauncher [PREVIEW] - v1.0.22.3-RC1 [Codename: Till the end of me] (May 22nd, 2022)
@@ -25,22 +26,22 @@
       ├ ▪ Log will now back to use old new StreamWriter()
       ├ ▪ Return false if the directory doesn't exist in IsUserHasPermission()
       └ ▪ While relocating the app or use it for the first time and if you choose another location,
-          the app will now append the permission to the selected location.
+          the app will now append the permission to the selected location
 
   ► What's Fixed?
-      ├ ▪ Fix the GameFolder to get ignored while getting relocated.
-      ├ ▪ Fix the app to not using proper folder path while updating.
-      ├ ▪ Fix the updater to not started if the app is installed in path with spaces.
+      ├ ▪ Fix the GameFolder to get ignored while getting relocated
+      ├ ▪ Fix the app to not using proper folder path while updating
+      ├ ▪ Fix the updater to not started if the app is installed in path with spaces
       │   For example: C:\Program Files\Collapse Launcher
-      ├ ▪ Fix some settings to not getting saved.
-      ├ ▪ Fix the launcher to crash while getting time-out on loading the region.
-      ├ ▪ Fix the launcher to reset AppFolder everytime it restarted.
+      ├ ▪ Fix some settings to not getting saved
+      ├ ▪ Fix the launcher to crash while getting time-out on loading the region
+      ├ ▪ Fix the launcher to reset AppFolder everytime it restarted
       ├ ▪ Fix the updater to crash while running on PC with non-english language
       │   (Thanks to my friend Delta to report this issue :vodkahug:)
-      ├ ▪ Fix the launcher to keep detecting delta patch file and crash, even the file is actually not exist.
-      ├ ▪ Fix the app to crash if AppPush and RegionPush becoming null.
+      ├ ▪ Fix the launcher to keep detecting delta patch file and crash, even the file is actually not exist
+      ├ ▪ Fix the app to crash if AppPush and RegionPush becoming null
       └ ▪ Fix the ThreadController to miss the last range or more than expected, making the downloaded
-          file to get corrupted after resuming.
+          file to get corrupted after resuming
 
 
 - CollapseLauncher [PREVIEW] - v1.0.21.2-pre (May 6th, 2022)
