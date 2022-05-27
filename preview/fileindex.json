@@ -1,11 +1,31 @@
 {
-  "ver": "1.0.22.5",
-  "time": 1653622900,
+  "ver": "1.0.22.6",
+  "time": 1653649203,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
       "crc": "EEA213D3C26DA20CB487AFBF33526EF5",
       "s": 13312
+    },
+    {
+      "p": "ApplyUpdate.deps.json",
+      "crc": "04AEFC1CD05CA7CADD8F3A6C921D514A",
+      "s": 28525
+    },
+    {
+      "p": "ApplyUpdate.dll",
+      "crc": "8A28E86FA4A8893BA989C834DEFD25B8",
+      "s": 11264
+    },
+    {
+      "p": "ApplyUpdate.exe",
+      "crc": "37328A09E8F31408983595A9F9C8953B",
+      "s": 147968
+    },
+    {
+      "p": "ApplyUpdate.runtimeconfig.json",
+      "crc": "1B8EF5ADDD555B7772A71A1A0B11E46D",
+      "s": 302
     },
     {
       "p": "clretwrc.dll",
@@ -19,23 +39,23 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "791F8FE008AF3939F0843BB23340E457",
+      "crc": "3486AF59B32BC928F30F2AD543BF30F0",
       "s": 50022
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "1BD368D033CD01EE4AE74F21434E6F02",
-      "s": 854016
+      "crc": "D0DFF403E6C52132D617710E1BFCDB5A",
+      "s": 857600
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "BD8427BABEC872F929500C094E9E38C2",
+      "crc": "4C77836049DC783F333978BD75CC1E1D",
       "s": 470528
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "9200A73F631B1620007A667FD880C073",
-      "s": 153376
+      "crc": "43F9A9BF27AEA4B8671684389861C193",
+      "s": 153908
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -129,13 +149,13 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "2F73414D85B18B23A59828389F62BB4C",
-      "s": 345600
+      "crc": "A830B3A9DCB52C1EE5A5EE8795CE5C9E",
+      "s": 346112
     },
     {
       "p": "Hi3HelperCore.pdb",
-      "crc": "CA3380BF46E81DE4422D20E13B6707B8",
-      "s": 100960
+      "crc": "7442BBA0D650D27BA4CFBDDD245F4FD9",
+      "s": 101056
     },
     {
       "p": "hostfxr.dll",
@@ -294,8 +314,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "0343E96833D4BD2C900B381BBE54B736",
-      "s": 299296
+      "crc": "BE2EB78B015A012FD284A77863C46BFF",
+      "s": 299600
     },
     {
       "p": "System.AppContext.dll",
