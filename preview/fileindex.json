@@ -1,6 +1,6 @@
 {
   "ver": "1.0.22.6",
-  "time": 1653649203,
+  "time": 1653651707,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -14,7 +14,7 @@
     },
     {
       "p": "ApplyUpdate.dll",
-      "crc": "8A28E86FA4A8893BA989C834DEFD25B8",
+      "crc": "8A5CEB4436541E44C66B499C72629375",
       "s": 11264
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "D0DFF403E6C52132D617710E1BFCDB5A",
+      "crc": "B572345A89FAC24CFF09240ED97FD69E",
       "s": 857600
     },
     {
@@ -54,8 +54,8 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "43F9A9BF27AEA4B8671684389861C193",
-      "s": 153908
+      "crc": "1CB0CC5D90F495C85A1474E14BD17564",
+      "s": 153964
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -149,13 +149,13 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "A830B3A9DCB52C1EE5A5EE8795CE5C9E",
-      "s": 346112
+      "crc": "8D9BD2B9A4EC7153E5F187C93993E149",
+      "s": 346624
     },
     {
       "p": "Hi3HelperCore.pdb",
-      "crc": "7442BBA0D650D27BA4CFBDDD245F4FD9",
-      "s": 101056
+      "crc": "6D060FF283B0068D2E6AB309C7F76C72",
+      "s": 101172
     },
     {
       "p": "hostfxr.dll",
@@ -1151,6 +1151,11 @@
       "p": "Lang/en.json",
       "crc": "BF9CB0657333159E149BBD0FFED43730",
       "s": 23784
+    },
+    {
+      "p": "Lang/id.json",
+      "crc": "9AA084AD614DA1358C61DA6E18072413",
+      "s": 23776
     },
     {
       "p": "Lib/7z.dll",
