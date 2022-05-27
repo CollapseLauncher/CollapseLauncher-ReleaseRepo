@@ -1,6 +1,10 @@
-- CollapseLauncher [PREVIEW] - v1.0.22.5 (May 27th, 2022)
+- CollapseLauncher [PREVIEW] - v1.0.22.6 (May 28th, 2022)
+  ► What's New?
+      └ ▪ Adding ApplyUpdate for elevating updater executable and launcher executable if available
+
   ► What's Fixed?
       ├ ▪ Fix the image carousel not getting hidden while downloading pre-load
+      ├ ▪ Fix executable elevation issue on updater which cause the updater to stuck
       └ ▪ Fix some thread-lock issue while waiting for pre-load download to be initialized
 
 
