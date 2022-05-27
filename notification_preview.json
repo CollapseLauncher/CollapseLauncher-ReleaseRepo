@@ -15,6 +15,13 @@
 			"Title": "Announcement: You are using Preview build",
 			"Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues"
 		},
+                {
+			"MsgId": -2,
+			"IsDisposable": true,
+			"Severity": "Warning",
+			"Title": "Updater Issue on 1.0.22.4-preview and 1.0.22.5-preview Build",
+			"Message": "We got a report that Update mechanism on 1.0.22.4-preview and 1.0.22.5-preview builds might fail due to an issue on executable elevation that cause the updater to stuck. We would like to recommend you to ignore the update notification at the moment to avoid further issue on the launcher. Thank you and apologise for the inconvenience."
+		},
 		// {
 		// 	"MsgId": -3,
 		// 	"IsDisposable": true,
