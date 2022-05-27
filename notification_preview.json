@@ -1,51 +1,52 @@
 {
-	"AppPush": [
-		// App notification MsgId starts from -1000000 to -1
-		{
-			"MsgId": 0,
-			"IsDisposable": false,
-			"Severity": "Success",
-			"Title": "Welcome to Collapse Launcher",
-			"Message": "Now you can install or migrate your existing game here. For more information/guides, please visit: https://github.com/neon-nyan/CollapseLauncher/Wiki"
-		},
-		{
-			"MsgId": -1,
-			"IsDisposable": true,
-			"Severity": "Informational",
-			"Title": "Announcement: You are using Preview build",
-			"Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues"
-		},
-		{
-			"MsgId": -2,
-			"IsDisposable": false,
-			"Severity": "Error",
-			"Title": "Update Issue on 1.0.22.4-preview and 1.0.22.5-preview Build",
-			"Message": "We got a report that Update mechanism on 1.0.22.4-preview and 1.0.22.5-preview builds might fail due to an issue on executable elevation that cause the updater to stuck. We would like to recommend you to ignore the update notification at the moment and wait until further announcement to avoid further issue on the launcher. Thank you and apologise for the inconvenience."
-		},
-		// {
-		// 	"MsgId": -3,
-		// 	"IsDisposable": true,
-		// 	"Severity": "Warning",
-		// 	"Title": "Issue with Update mechanism on 1.0.20.3 and below",
-		// 	"Message": "There are some reports explaining the update mechanism on 1.0.20.3 and below aren't working.\r\nTo mitigate this, please reinstall your launcher with 1.0.21.2-preview build.\r\n\r\nThank you.",
-		// 	"ValidForVerBelow": "1.0.21.2"
-		// },
-	],
-	"RegionPush": [
-		// Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 2 Used
-		// Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999 : 1000002 Used
-		// Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000000 Used
-		// Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
-		// Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
-		// Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000000 Used
-		// Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
-		{
-			"MsgId": 2000000,
-			"IsDisposable": true,
+    "AppPush": [
+        // App notification MsgId starts from -1000000 to -1
+        {
+            "MsgId": 0,
+            "IsDisposable": false,
+            "Severity": "Success",
+            "Title": "Welcome to Collapse Launcher",
+            "Message": "Now you can install or migrate your existing game here. For more information/guides, please visit: https://github.com/neon-nyan/CollapseLauncher/Wiki"
+        },
+        {
+            "MsgId": -1,
+            "IsDisposable": true,
+            "Severity": "Informational",
+            "Title": "Announcement: You are using Preview build",
+            "Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues"
+        },
+        {
+            "MsgId": -2,
+            "IsDisposable": false,
+            "Severity": "Error",
+            "Title": "Update Issue on 1.0.22.4-preview and 1.0.22.5-preview Build",
+            "Message": "We got a report that Update mechanism on 1.0.22.4-preview and 1.0.22.5-preview builds might fail due to an issue on executable elevation that cause the updater to stuck. We would like to recommend you to ignore the update notification at the moment and wait until further announcement to avoid further issue on the launcher. Thank you and apologise for the inconvenience."
+            "ValidForVerBelow": "1.0.22.6"
+        },
+        // {
+        //  "MsgId": -3,
+        //  "IsDisposable": true,
+        //  "Severity": "Warning",
+        //  "Title": "Issue with Update mechanism on 1.0.20.3 and below",
+        //  "Message": "There are some reports explaining the update mechanism on 1.0.20.3 and below aren't working.\r\nTo mitigate this, please reinstall your launcher with 1.0.21.2-preview build.\r\n\r\nThank you.",
+        //  "ValidForVerBelow": "1.0.21.2"
+        // },
+    ],
+    "RegionPush": [
+        // Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 2 Used
+        // Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999 : 1000002 Used
+        // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000000 Used
+        // Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
+        // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
+        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000000 Used
+        // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
+        {
+            "MsgId": 2000000,
+            "IsDisposable": true,
             "RegionProfile": "Hi3CN",
-			"Severity": "Warning",
-			"Title": "Game Repair for Mainland China Region is Temporarily Unavailable",
-			"Message": "Game Repair functionality for Mainland China region is temporarily unavailable due to difficulties on our back-end server. However, this feature will be back in the next update.\r\nApologize for the inconvenience."
-		},
-	]
+            "Severity": "Warning",
+            "Title": "Game Repair for Mainland China Region is Temporarily Unavailable",
+            "Message": "Game Repair functionality for Mainland China region is temporarily unavailable due to difficulties on our back-end server. However, this feature will be back in the next update.\r\nApologize for the inconvenience."
+        },
+    ]
 }
