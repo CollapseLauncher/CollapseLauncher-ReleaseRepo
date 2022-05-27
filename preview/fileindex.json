@@ -1,6 +1,6 @@
 {
   "ver": "1.0.22.5",
-  "time": 1653622450,
+  "time": 1653622900,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -1131,11 +1131,6 @@
       "p": "Lang/en.json",
       "crc": "BF9CB0657333159E149BBD0FFED43730",
       "s": 23784
-    },
-    {
-      "p": "Lang/id.json",
-      "crc": "9AA084AD614DA1358C61DA6E18072413",
-      "s": 23776
     },
     {
       "p": "Lib/7z.dll",
