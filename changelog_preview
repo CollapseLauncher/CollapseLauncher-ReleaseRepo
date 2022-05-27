@@ -1,5 +1,7 @@
 - CollapseLauncher [PREVIEW] - v1.0.22.6 (May 28th, 2022)
   ► What's New?
+      ├ ▪ Disable Pause button while verifying on Pre-load downloading
+      ├ ▪ Change Pause Download/Resume Download text to just Pause/Resume
       └ ▪ Adding ApplyUpdate for elevating updater executable and launcher executable if available
 
   ► What's Fixed?
