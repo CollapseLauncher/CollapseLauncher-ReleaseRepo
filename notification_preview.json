@@ -19,8 +19,8 @@
             "MsgId": -2,
             "IsDisposable": false,
             "Severity": "Error",
-            "Title": "Update Issue on 1.0.22.4-preview and 1.0.22.5-preview Build",
-            "Message": "We got a report that Update mechanism on 1.0.22.4-preview and 1.0.22.5-preview builds might fail due to an issue on executable elevation that cause the updater to stuck. We would like to recommend you to ignore the update notification at the moment and wait until further announcement to avoid further issue on the launcher. Thank you and apologise for the inconvenience.",
+            "Title": "Update Issue on 1.0.22.4-preview Build",
+            "Message": "We got a report that Update mechanism on 1.0.22.4-preview builds might fail due to an issue on executable elevation that cause the updater to stuck. We would like to recommend you to reinstall your launcher with the new 1.0.22.6-preview build in order to fix it. Thank you and apologise for the inconvenience.",
             "ValidForVerBelow": "1.0.22.6"
         },
         // {
