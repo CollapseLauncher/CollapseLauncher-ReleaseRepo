@@ -1,3 +1,9 @@
+- CollapseLauncher [PREVIEW] - v1.0.22.7 (May 30th, 2022)
+  ► What's Fixed?
+      └ ▪ Fix the Copy All to Clipboard button on Unhandled Exception error page
+          causing the app to crash
+          
+
 - CollapseLauncher [PREVIEW] - v1.0.22.6 (May 28th, 2022)
   ► What's New?
       ├ ▪ Disable Pause button while verifying on Pre-load downloading
