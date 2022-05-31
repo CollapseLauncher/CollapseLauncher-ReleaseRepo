@@ -54,7 +54,7 @@
             "RegionProfile": "GIGlb",
             "Severity": "Error",
             "Title": "IMPORTANT: Please Update your Launcher to 1.0.22.9 Build to Update your Game!",
-            "Message": "We have detected that the dispatcher key of our launcher has been mismatched with current 2.7 vevrsion client and may cause the update to fail.\r\nRegarding to this, we have fixed this in the next build 1.0.22.9-preview and will be deployed in couple of hours. We are apologize for this inconvenience but don't worry, your update files won't be deleted if the update failed and you can try again after this :D",
+            "Message": "We have detected that the dispatcher key of our launcher has been mismatched with current 2.7 vevrsion client and may cause the update to fail.\r\nRegarding to this, we have fixed this in the next build 1.0.22.9-preview and will be deployed in couple of hours. We are apologize for this inconvenience but don't worry, your update files won't be deleted if the update failed and you can try again after this :D\r\nIf you already updated it to 1.0.22.9-preview build, please ignore this message.",
             "ValidForVerBelow": "1.0.22.9"
         },
     ]
