@@ -38,7 +38,7 @@
         // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000000 Used
         // Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
         // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
-        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000001 Used
+        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000002 Used
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
         {
             "MsgId": 2000000,
@@ -54,8 +54,17 @@
             "RegionProfile": "GIGlb",
             "Severity": "Error",
             "Title": "IMPORTANT: Please Update your Launcher to 1.0.22.9 Build to Update your Game!",
-            "Message": "We have detected that the dispatcher key of our launcher has been mismatched with current 2.7 vevrsion client and may cause the update to fail.\r\nRegarding to this, we have fixed this in the next build 1.0.22.9-preview and will be deployed in couple of hours. We are apologize for this inconvenience but don't worry, your update files won't be deleted if the update failed and you can try again after this :D\r\nIf you already updated it to 1.0.22.9-preview build, please ignore this message.",
+            "Message": "We have detected that the dispatcher key of our launcher has been mismatched with current 2.7 vevrsion client and may cause the update to fail.\r\nRegarding to this. We are apologize for this inconvenience but don't worry, your update files won't be deleted if the update failed and you can try again after this :D\r\nIf you already updated it to 1.0.22.9-preview build, please ignore this message.",
             "ValidForVerBelow": "1.0.22.9"
+        },
+        {
+            "MsgId": 5000002,
+            "IsDisposable": true,
+            "RegionProfile": "GIGlb",
+            "Severity": "Warning",
+            "Title": "Issue Regarding tg Bug on Additional Download Feature for Genshin Impact Update",
+            "Message": "We have received a report that the Additional Download feature while updating Genshin Impact to crash on 1.0.22.9 build. Regarding to this, we have published the new build (1.0.23.1-RC2) which is including the fix for Additional Download feature. We would like to recommend you to update your launcher to 1.0.23.1-RC2 via App Settings. Thank you.",
+            "ValidForVerBelow": "1.0.23.1"
         },
     ]
 }
