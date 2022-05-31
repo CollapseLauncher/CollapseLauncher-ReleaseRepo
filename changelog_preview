@@ -1,4 +1,4 @@
-- CollapseLauncher [PREVIEW] - v1.0.23.1-RC2 [Codename: Till the end of me] (May 31st, 2022)
+- CollapseLauncher [PREVIEW] - v1.0.23.1 (May 31st, 2022)
   ► What's Fixed?
       ├ ▪ Fix the HttpClientHelper to not disposing the first chunk while error occur at the
       │   Send Request phase. Making the file to get locked
