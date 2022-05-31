@@ -63,7 +63,7 @@
             "RegionProfile": "GIGlb",
             "Severity": "Warning",
             "Title": "Issue Regarding tg Bug on Additional Download Feature for Genshin Impact Update",
-            "Message": "We have received a report that the Additional Download feature while updating Genshin Impact to crash on 1.0.22.9 build. Regarding to this, we have published the new build (1.0.23.1-RC2) which is including the fix for Additional Download feature. We would like to recommend you to update your launcher to 1.0.23.1-RC2 via App Settings. Thank you.",
+            "Message": "We have received a report that the Additional Download feature while updating Genshin Impact to crash on 1.0.22.9 build. Regarding to this, we have published the new build (1.0.23.1-RC2) which is including the fix for Additional Download feature. We would like to recommend you to update your launcher to 1.0.23.1-RC2 manually here: https://github.com/neon-nyan/CollapseLauncher/releases",
             "ValidForVerBelow": "1.0.23.1"
         },
     ]
