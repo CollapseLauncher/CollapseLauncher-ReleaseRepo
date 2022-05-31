@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.22.8",
-  "time": 1653974218,
+  "ver": "1.0.22.9",
+  "time": 1653975657,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -39,22 +39,22 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "508302254096FE7998FB6F6DDC5E63C7",
+      "crc": "DC6E0D4E90C7F0932ED3260BDBBD9C4A",
       "s": 50022
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "193DB04B7A39E5A4F2061B2D4B148998",
+      "crc": "D3922208FD76B148D533AC4993A9B909",
       "s": 855040
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "71B2A60B7BADCB1436CEEFEDE64F093A",
+      "crc": "591E104B46A3CB73091532B172AC85A9",
       "s": 470528
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "14BCDEE7CED9E5F242E12591C00168F8",
+      "crc": "8A81974D39958A9E36B2A0B452508E90",
       "s": 153404
     },
     {
@@ -149,13 +149,13 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "FFC43C605A199D6113E8D75283AEF2D2",
-      "s": 347136
+      "crc": "A82B7CA45508CF61FC692F634B74A455",
+      "s": 357888
     },
     {
       "p": "Hi3HelperCore.pdb",
-      "crc": "D0213A75CCB522831BA4D5D4A0044624",
-      "s": 101220
+      "crc": "F333568977855490D42168A946A663EF",
+      "s": 101388
     },
     {
       "p": "hostfxr.dll",
@@ -314,8 +314,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "4402D80D02B2240596164498063B199F",
-      "s": 299616
+      "crc": "68FE9D32892D30FF32A8B24CA00718B7",
+      "s": 299512
     },
     {
       "p": "System.AppContext.dll",
@@ -1141,11 +1141,6 @@
       "p": "Assets/ironmaiden_logo_256.png",
       "crc": "B5B2CC70C19A797F8CD498D7DC68E34A",
       "s": 34541
-    },
-    {
-      "p": "config/fileconfig.json",
-      "crc": "8E50395C1E74B7B5DF85E48221F7108B",
-      "s": 13961
     },
     {
       "p": "Lang/en.json",
