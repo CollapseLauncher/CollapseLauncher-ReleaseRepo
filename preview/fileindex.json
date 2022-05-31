@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.22.7",
-  "time": 1653886383,
+  "ver": "1.0.22.8",
+  "time": 1653974218,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -39,23 +39,23 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "64BA7D44B13C253A3C0976D1038F4DBA",
+      "crc": "508302254096FE7998FB6F6DDC5E63C7",
       "s": 50022
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "3665492F32549FD57BE8CAD6D88488D7",
-      "s": 858624
+      "crc": "193DB04B7A39E5A4F2061B2D4B148998",
+      "s": 855040
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "3594B18C4814971887FF1F6DC9192D46",
+      "crc": "71B2A60B7BADCB1436CEEFEDE64F093A",
       "s": 470528
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "FB2C9BF6E4DE28E5C49C57728D7C68EC",
-      "s": 154396
+      "crc": "14BCDEE7CED9E5F242E12591C00168F8",
+      "s": 153404
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -149,12 +149,12 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "2A22C346C7AD02E6F0680A75641890A7",
+      "crc": "FFC43C605A199D6113E8D75283AEF2D2",
       "s": 347136
     },
     {
       "p": "Hi3HelperCore.pdb",
-      "crc": "42E3CC7A515B2EE92582AC6A1986DF67",
+      "crc": "D0213A75CCB522831BA4D5D4A0044624",
       "s": 101220
     },
     {
@@ -1144,7 +1144,7 @@
     },
     {
       "p": "config/fileconfig.json",
-      "crc": "55926A684B602A3AF08078A245C27C4F",
+      "crc": "8E50395C1E74B7B5DF85E48221F7108B",
       "s": 13961
     },
     {
