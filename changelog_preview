@@ -2,8 +2,9 @@
   ► What's New?
       ├ ▪ Adding Custom Background feature.
       ├ ▪ The app will now redirect you to Disconnected Page while you're disconnected
-      │   from the internet.
+      │   from the internet
       ├ ▪ Add "Force Update" button to perform Force Update on the app if applicable
+      ├ ▪ The app will now detect your existing game if you locate the existing path
       ├ ▪ New updater UI using the same WinUI 3 Runtime
       ├ ▪ Moving fileconfig.json to hard-coded config
       ├ ▪ Update the Dispatcher key file for Genshin 2.7 Update
@@ -17,6 +18,7 @@
   ► What's Fixed?
       ├ ▪ Fix the HttpClientHelper to not disposing the first chunk while error occur at the
       │   Send Request phase. Making the file to get locked
+      ├ ▪ Fix the updater to not apply files rather than located in top directory
       ├ ▪ Fix the HttpClientHelper to slipped one byte for the last chuck if the EndOffset isn't
       │   rounded enough. Causing the 416 error (RequestNotSatisable) to occur
       ├ ▪ Fix the version comparer to give the wrong true boolean if the 4th value is 1
