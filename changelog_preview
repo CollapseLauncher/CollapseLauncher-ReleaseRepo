@@ -1,6 +1,38 @@
+- CollapseLauncher [PREVIEW] - v1.0.22.3-RC2 [Codename: Till the end of me] (June 1st, 2022)
+  ► What's New?
+      ├ ▪ Adding Custom Background feature.
+      ├ ▪ The app will now redirect you to Disconnected Page while you're disconnected
+      │   from the internet.
+      ├ ▪ New updater UI using the same WinUI 3 Runtime
+      ├ ▪ Moving fileconfig.json to hard-coded config
+      ├ ▪ Update the Dispatcher key file for Genshin 2.7 Update
+      ├ ▪ Disable Pause button while verifying on Pre-load downloading
+      ├ ▪ Change Pause Download/Resume Download text to just Pause/Resume
+      ├ ▪ Adding ApplyUpdate for elevating updater executable and launcher executable if available
+      ├ ▪ Updater and Invoker apps are now merged into main app
+      └ ▪ Using custom Main() Entry Point to the app. Making the possibility to use
+          additional arguments on the app
+
+  ► What's Fixed?
+      ├ ▪ Fix the HttpClientHelper to not disposing the first chunk while error occur at the
+      │   Send Request phase. Making the file to get locked
+      ├ ▪ Fix the HttpClientHelper to slipped one byte for the last chuck if the EndOffset isn't
+      │   rounded enough. Causing the 416 error (RequestNotSatisable) to occur
+      ├ ▪ Fix the version comparer to give the wrong true boolean if the 4th value is 1
+      ├ ▪ Fix Genshin Update to crash while downloading additional files caused by wrong URL path
+      │   for .pck with "isPatch" inside of the manifest. Hope this is the last fix for this
+      ├ ▪ Fix the Copy All to Clipboard button on Unhandled Exception error page
+      │   causing the app to crash
+      ├ ▪ Fix the image carousel not getting hidden while downloading pre-load
+      ├ ▪ Fix executable elevation issue on updater which cause the updater to stuck
+      ├ ▪ Fix some thread-lock issue while waiting for pre-load download to be initialized
+      ├ ▪ Fix the 7th column header name on Caches Page went blank
+      └ ▪ Fix the Update Notification UI to get overlaped with frames behind it
+
+
 - CollapseLauncher [PREVIEW] - v1.0.23.1 (May 31st, 2022)
   ► What's New?
-      ├ ▪ Moving fileconfig.json to hard-coded config.
+      ├ ▪ Moving fileconfig.json to hard-coded config
       └ ▪ Update the Dispatcher key file for Genshin 2.7 Update
 
   ► What's Fixed?
@@ -34,7 +66,7 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
 
 - CollapseLauncher [PREVIEW] - v1.0.22.4 (May 25th, 2022)
   ► What's New?
-      ├ ▪ Updater and Invoker app is now merged into main app
+      ├ ▪ Updater and Invoker apps are now merged into main app
       ├ ▪ Using custom Main() Entry Point to the app. Making the possibility to use
       │   additional arguments on the app
       └ ▪ New updater UI using the same WinUI 3 Runtime
