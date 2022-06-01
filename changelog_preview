@@ -3,6 +3,7 @@
       ├ ▪ Adding Custom Background feature.
       ├ ▪ The app will now redirect you to Disconnected Page while you're disconnected
       │   from the internet.
+      ├ ▪ Add "Force Update" button to perform Force Update on the app if applicable
       ├ ▪ New updater UI using the same WinUI 3 Runtime
       ├ ▪ Moving fileconfig.json to hard-coded config
       ├ ▪ Update the Dispatcher key file for Genshin 2.7 Update
