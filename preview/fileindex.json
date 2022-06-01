@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.23.1",
-  "time": 1654011463,
+  "ver": "1.0.23.2",
+  "time": 1654083490,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -39,23 +39,23 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "9C1CFFB5F9FFD9F5C347DC8275765C2D",
+      "crc": "3D9C11584413D28DA5F3297233A7BFD1",
       "s": 50022
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "01FB86774155CDC181ED83A6DFC5DCE5",
-      "s": 855040
+      "crc": "CD23A57C6D7A502A324509820B8AEBEB",
+      "s": 873472
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "7750211D2C4F3825E610100432BD231A",
+      "crc": "F702997A4E499B5A396F831651AE1995",
       "s": 470528
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "05233875D2EDD1D259944B5D3E6E1275",
-      "s": 153536
+      "crc": "F02756E0370C3B68A7E91326429AF4B0",
+      "s": 158776
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -149,13 +149,13 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "C1C16935B457CF7D371E676CA6579370",
-      "s": 361472
+      "crc": "C0D1B0B85695446AD9155D4913250811",
+      "s": 364544
     },
     {
       "p": "Hi3HelperCore.pdb",
-      "crc": "2F5BCCB663E9E89543A3DF9E0CF90A75",
-      "s": 102012
+      "crc": "F323590AB73BBB009509107F8A5E66CC",
+      "s": 102796
     },
     {
       "p": "hostfxr.dll",
@@ -314,8 +314,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "68FE9D32892D30FF32A8B24CA00718B7",
-      "s": 299512
+      "crc": "491E47B815B27B6B31DF2C3725B8C623",
+      "s": 301840
     },
     {
       "p": "System.AppContext.dll",
@@ -1144,8 +1144,8 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "4D0917DC3AA4C629271685E2B0E7D78D",
-      "s": 23757
+      "crc": "1F5085B3718AE6522B80E6493EDD2406",
+      "s": 24300
     },
     {
       "p": "Lib/7z.dll",
@@ -1166,6 +1166,11 @@
       "p": "Assets/BG/default.png",
       "crc": "8327DA308617B6B9431153907BDE69DA",
       "s": 24263
+    },
+    {
+      "p": "Assets/BG/PaimonSleep.png",
+      "crc": "EE77C8AE0BABB62EBBAFB8BE6BF49699",
+      "s": 56251
     },
     {
       "p": "Assets/Fonts/FontAwesomeBrand6.otf",
