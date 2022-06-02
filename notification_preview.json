@@ -20,7 +20,7 @@
             "IsDisposable": false,
             "Severity": "Error",
             "Title": "Update Issue on 1.0.22.4-preview Build",
-            "Message": "We got a report that Update mechanism on 1.0.23.2-RC2-preview builds might fail due to an issue on executable elevation that cause the updater to stuck. We would like to recommend you to reinstall your launcher with the new 1.0.22.6-preview build in order to fix it. Thank you and apologise for the inconvenience.",
+            "Message": "We got a report that Update mechanism on 1.0.22.4-preview builds might fail due to an issue on executable elevation that cause the updater to stuck. We would like to recommend you to reinstall your launcher with the new 1.0.22.6-preview build in order to fix it. Thank you and apologise for the inconvenience.",
             "ValidForVerBelow": "1.0.22.6"
         },
         {
@@ -28,7 +28,7 @@
             "IsDisposable": false,
             "Severity": "Error",
             "Title": "Update Issue on 1.0.23.2-RC2-preview Build for Honkai Impact 3rd",
-            "Message": "We got a report that Update mechanism on 1.0.22.4-preview builds might fail due to an issue on one of the method mistakenly bypassed and causing throw. We would like to recommend you to reinstall your launcher with the new 1.0.23.3-RC2-preview build in order to fix it. Thank you and apologise for the inconvenience.",
+            "Message": "We got a report that Update mechanism on 1.0.23.2-RC2-preview builds might fail due to an issue on one of the method mistakenly bypassed and causing throw. We would like to recommend you to update your launcher with the new 1.0.23.3-RC2-preview build in order to fix it. Thank you and apologise for the inconvenience.",
             "ValidForVerBelow": "1.0.23.3"
         },
         // {
