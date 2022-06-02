@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.23.2",
-  "time": 1654095320,
+  "ver": "1.0.23.3",
+  "time": 1654180746,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -39,23 +39,23 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "3D9C11584413D28DA5F3297233A7BFD1",
+      "crc": "F90EE11C869691B51C78FEA8A2CEBC9C",
       "s": 50022
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "DC832F2DA477BDC9C2A13BC15CF00D30",
+      "crc": "84352A84F0726B828DCE096D8C86C892",
       "s": 873472
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "F702997A4E499B5A396F831651AE1995",
+      "crc": "A81F464A66243B263ED2E54D0F2AFE2A",
       "s": 470528
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "BD0128CFE2F1F9C0128D89857D82CF7D",
-      "s": 158764
+      "crc": "2BFE2658E5EFF946B8A756A97E3596D5",
+      "s": 158768
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
