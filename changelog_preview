@@ -1,4 +1,4 @@
-- CollapseLauncher [PREVIEW] - v1.0.23.2-RC2 [Codename: Till the end of me] (June 1st, 2022)
+- CollapseLauncher [PREVIEW] - v1.0.23.3-RC2 [Codename: Till the end of me] (June 2nd, 2022)
   ► What's New?
       ├ ▪ Adding Custom Background feature.
       ├ ▪ The app will now redirect you to Disconnected Page while you're disconnected
@@ -31,7 +31,8 @@
       ├ ▪ Fix executable elevation issue on updater which cause the updater to stuck
       ├ ▪ Fix some thread-lock issue while waiting for pre-load download to be initialized
       ├ ▪ Fix the 7th column header name on Caches Page went blank
-      └ ▪ Fix the Update Notification UI to get overlaped with frames behind it
+      ├ ▪ Fix the Update Notification UI to get overlaped with frames behind it
+      └ ▪ Fix the update for Honkai Impact 3rd to get potentially failed
 
 
 - CollapseLauncher [PREVIEW] - v1.0.23.1 (May 31st, 2022)
