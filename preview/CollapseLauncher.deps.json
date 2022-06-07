@@ -12,8 +12,8 @@
           "Aiursoft.HSharp": "2.2.2",
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
           "Hi3HelperCore": "1.0.0",
-          "Microsoft.Windows.SDK.BuildTools": "10.0.22621-preview",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.25131-preview",
+          "Microsoft.WindowsAppSDK": "1.1.0",
           "System.CommandLine": "2.0.0-beta3.22114.1",
           "System.Drawing.Common": "7.0.0-preview.4.22229.4",
           "ksemenenko.ColorThief": "1.1.1.4",
@@ -771,7 +771,7 @@
       "ColorCode.WinUI/2.0.13": {
         "dependencies": {
           "ColorCode.Core": "2.0.13",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/ColorCode.WinUI.dll": {
@@ -791,7 +791,7 @@
       "CommunityToolkit.WinUI/7.1.2": {
         "dependencies": {
           "CommunityToolkit.Common": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.dll": {
@@ -803,7 +803,7 @@
       "CommunityToolkit.WinUI.UI/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.dll": {
@@ -821,14 +821,14 @@
           "CommunityToolkit.WinUI.UI.Controls.Markdown": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls.Media": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls.Primitives": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         }
       },
       "CommunityToolkit.WinUI.UI.Controls.Core/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls.Primitives": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Core.dll": {
@@ -839,7 +839,7 @@
       },
       "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
         "dependencies": {
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
@@ -851,7 +851,7 @@
       "CommunityToolkit.WinUI.UI.Controls.Input/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI.UI.Controls.Primitives": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Input.dll": {
@@ -863,7 +863,7 @@
       "CommunityToolkit.WinUI.UI.Controls.Layout/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI.UI": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Layout.dll": {
@@ -877,7 +877,7 @@
           "ColorCode.WinUI": "2.0.13",
           "CommunityToolkit.WinUI.UI": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls.Core": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Markdown.dll": {
@@ -890,7 +890,7 @@
         "dependencies": {
           "CommunityToolkit.WinUI.UI": "7.1.2",
           "Microsoft.Graphics.Win2D": "1.0.0.30",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3",
+          "Microsoft.WindowsAppSDK": "1.1.0",
           "System.Text.Json": "5.0.2"
         },
         "runtime": {
@@ -903,7 +903,7 @@
       "CommunityToolkit.WinUI.UI.Controls.Primitives/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI.UI": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.0-preview3"
+          "Microsoft.WindowsAppSDK": "1.1.0"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Primitives.dll": {
@@ -923,11 +923,11 @@
           }
         }
       },
-      "Google.Protobuf/3.21.0-rc2": {
+      "Google.Protobuf/3.21.1": {
         "runtime": {
           "lib/net5.0/Google.Protobuf.dll": {
-            "assemblyVersion": "3.21.0.0",
-            "fileVersion": "3.21.0.0"
+            "assemblyVersion": "3.21.1.0",
+            "fileVersion": "3.21.1.0"
           }
         }
       },
@@ -956,19 +956,19 @@
           }
         }
       },
-      "Microsoft.Windows.SDK.BuildTools/10.0.22621-preview": {},
-      "Microsoft.WindowsAppSDK/1.1.0-preview3": {
+      "Microsoft.Windows.SDK.BuildTools/10.0.25131-preview": {},
+      "Microsoft.WindowsAppSDK/1.1.0": {
         "dependencies": {
-          "Microsoft.Windows.SDK.BuildTools": "10.0.22621-preview"
+          "Microsoft.Windows.SDK.BuildTools": "10.0.25131-preview"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25087.1003"
+            "fileVersion": "10.0.22621.1000"
           },
           "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.2204"
+            "fileVersion": "3.0.0.2206"
           },
           "lib/net5.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
             "assemblyVersion": "1.1.0.0",
@@ -1045,7 +1045,7 @@
         "dependencies": {
           "Aiursoft.HSharp": "2.2.2",
           "Crc32.NET": "1.2.0",
-          "Google.Protobuf": "3.21.0-rc2",
+          "Google.Protobuf": "3.21.1",
           "Newtonsoft.Json": "13.0.2-beta1"
         },
         "runtime": {
@@ -1175,12 +1175,12 @@
       "path": "crc32.net/1.2.0",
       "hashPath": "crc32.net.1.2.0.nupkg.sha512"
     },
-    "Google.Protobuf/3.21.0-rc2": {
+    "Google.Protobuf/3.21.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OaAbRkKszq4bRubWrDGCtB5fSxr7bFutE+yShD3fENVXui7SQiY8ZVIelE51nHObjvJ085wwJrjLArbOxQJJYQ==",
-      "path": "google.protobuf/3.21.0-rc2",
-      "hashPath": "google.protobuf.3.21.0-rc2.nupkg.sha512"
+      "sha512": "sha512-tYT6ez1N/ecOdxaaYFu9KxADHdAmRzwt9o4i4tO4wGYsGo2mAPDeHJKO2erfnCsL/Z+6C29o0QUJUJnlG2iDAA==",
+      "path": "google.protobuf/3.21.1",
+      "hashPath": "google.protobuf.3.21.1.nupkg.sha512"
     },
     "ksemenenko.ColorThief/1.1.1.4": {
       "type": "package",
@@ -1210,19 +1210,19 @@
       "path": "microsoft.win32.systemevents/7.0.0-preview.4.22229.4",
       "hashPath": "microsoft.win32.systemevents.7.0.0-preview.4.22229.4.nupkg.sha512"
     },
-    "Microsoft.Windows.SDK.BuildTools/10.0.22621-preview": {
+    "Microsoft.Windows.SDK.BuildTools/10.0.25131-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0t8BkUmdvTprhzTk997v8Uih8y++6Mp2m7wpNMqAjmOtVsTKje1HEXJdZ8eNO23G1XlJJEh+OybxkIV/O0c9AQ==",
-      "path": "microsoft.windows.sdk.buildtools/10.0.22621-preview",
-      "hashPath": "microsoft.windows.sdk.buildtools.10.0.22621-preview.nupkg.sha512"
+      "sha512": "sha512-bnhVEfymMSYLNrET75fMF69OJkMMjQyOmTa6ICQ7tO/clk6lzwgtr40ak/6bb6gKkDWOxhYpzHHB5ovB5/ewWQ==",
+      "path": "microsoft.windows.sdk.buildtools/10.0.25131-preview",
+      "hashPath": "microsoft.windows.sdk.buildtools.10.0.25131-preview.nupkg.sha512"
     },
-    "Microsoft.WindowsAppSDK/1.1.0-preview3": {
+    "Microsoft.WindowsAppSDK/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CvXncf87ZjP7ortAmuW6Ww3csduC8kIsvmzCLbz6kaHseg23taAlVhlUWCOHfyw5q8zi+oH3/S0kVa1mUiT49Q==",
-      "path": "microsoft.windowsappsdk/1.1.0-preview3",
-      "hashPath": "microsoft.windowsappsdk.1.1.0-preview3.nupkg.sha512"
+      "sha512": "sha512-yc3j78WEFqmARLE0USyq0xdW2IEMNsToXAMF47vJ7zfMlCqzfrKsivKrcnIUHDrsJJkruR5lwZZ35JwVKh3AHQ==",
+      "path": "microsoft.windowsappsdk/1.1.0",
+      "hashPath": "microsoft.windowsappsdk.1.1.0.nupkg.sha512"
     },
     "NETStandard.Library/2.0.0": {
       "type": "package",
