@@ -1,4 +1,19 @@
-- CollapseLauncher [PREVIEW] - v1.0.23.3-RC2 [Codename: Till the end of me] (June 2nd, 2022)
+- CollapseLauncher [PREVIEW] - v1.0.23.4 (June 7th, 2022)
+  ► What's New?
+      ├ ▪ Adding "Level Of Detail" option on Game Settings page for new chapter
+      ├ ▪ Moving to WinUI 3 1.1 Stable Runtime with Self-Contained build
+      ├ ▪ Updating NuGet packages required for this build
+      ├ ▪ Caches Update Endpoint is now moving from Hi3Mirror to Official server
+      └ ▪ Removing prequesties files to be installed since we are now using self-contained
+          runtime in the build
+
+  ► What's Fixed?
+      ├ ▪ Fix the InstallationMigrate page to still shows background behind it
+      ├ ▪ Fix the Migration Invoker to potentially crashed because of null on the Options<T>
+      └ ▪ Fix the app to crash while transitioning to random page in rare occasion
+
+
+- CollapseLauncher [PREVIEW] - v1.0.23.2-RC2 [Codename: Till the end of me] (June 2nd, 2022)
   ► What's New?
       ├ ▪ Adding Custom Background feature.
       ├ ▪ The app will now redirect you to Disconnected Page while you're disconnected
