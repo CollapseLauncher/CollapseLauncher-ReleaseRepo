@@ -1,6 +1,6 @@
 {
   "ver": "1.0.23.6",
-  "time": 1655151370,
+  "time": 1655152105,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -9,7 +9,7 @@
     },
     {
       "p": "ApplyUpdate.exe",
-      "crc": "D8C23C08423696DCA234B96F669EB31B",
+      "crc": "C8BC089A2E752CE192D550ECF4AC5A3B",
       "s": 6656
     },
     {
