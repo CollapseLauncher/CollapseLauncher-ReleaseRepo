@@ -1,3 +1,18 @@
+- CollapseLauncher [PREVIEW] - v1.0.23.6 (June 14th, 2022)
+  ► What's New?
+      ├ ▪ Some few adjustments on NavigationPanel, SocMed Panel and App Settings Page.
+      ├ ▪ Adding Custom Start-Up Argument feature for Honkai Impact 3rd.
+      ├ ▪ Moving the ApplyUpdate from using .NET 7 to .NET Framework 4.6.2 independently.
+      └ ▪ Moving the Genshin Dispatch URL outside from GenshinDispatchHelper.
+
+  ► What's Fixed?
+      ├ ▪ Fix the ApplyUpdate to use working directory instead of target path.
+      ├ ▪ Fix Repair Game functionality on Genshin to stuck because of throw while
+      │   failing on deleting persistent manifest files.
+      └ ▪ Fix the possibility of Thread Lock while waiting for the launcher to build
+          manifest on Repair Game functionality for Genshin.
+
+
 - CollapseLauncher [PREVIEW] - v1.0.23.4 (June 7th, 2022)
   ► What's New?
       ├ ▪ Adding "Level Of Detail" option on Game Settings page for new chapter
