@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.23.5",
-  "time": 1655022625,
+  "ver": "1.0.23.6",
+  "time": 1655150591,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -8,24 +8,14 @@
       "s": 36864
     },
     {
-      "p": "ApplyUpdate.deps.json",
-      "crc": "04AEFC1CD05CA7CADD8F3A6C921D514A",
-      "s": 28525
-    },
-    {
-      "p": "ApplyUpdate.dll",
-      "crc": "E0CE076185AB80A26A851B31AAD921F9",
-      "s": 11264
-    },
-    {
       "p": "ApplyUpdate.exe",
-      "crc": "37328A09E8F31408983595A9F9C8953B",
-      "s": 147968
+      "crc": "E4CFF0D066A39573BE082ECFE06A407D",
+      "s": 6656
     },
     {
-      "p": "ApplyUpdate.runtimeconfig.json",
-      "crc": "1B8EF5ADDD555B7772A71A1A0B11E46D",
-      "s": 302
+      "p": "ApplyUpdate.exe.config",
+      "crc": "07C7BD25442B92D5E654D2B47EA63EC0",
+      "s": 176
     },
     {
       "p": "clretwrc.dll",
@@ -39,23 +29,23 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "C3937DBA1FAAAB83281EEEF01F65A6B9",
+      "crc": "2716A0CAF1C7B4A6C49E81A89A431B4A",
       "s": 49858
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "2B663A6B6FA582EAD928C5A2AED7C860",
-      "s": 1904640
+      "crc": "A860578CF7B6C83248C13F0BD8D9831A",
+      "s": 1908736
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "6EA2EB7F170157131D21A81C1C43226A",
+      "crc": "BC4E5634F18907650B850D70E60FAFB0",
       "s": 625152
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "3A97BE3855ACE8561230E245B90E3C0D",
-      "s": 160212
+      "crc": "0F590215A2EBF6869F5BE3EC864F7C15",
+      "s": 160320
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -179,8 +169,8 @@
     },
     {
       "p": "Hi3HelperCore.pdb",
-      "crc": "83EA640E4ED1E17FDD61F40C2F671FF6",
-      "s": 102692
+      "crc": "67DD1478610E5A1E8863A2DDED1E0C32",
+      "s": 103192
     },
     {
       "p": "hostfxr.dll",
@@ -514,8 +504,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "1EEEA5B48726716A814CE738CEA04BDA",
-      "s": 1352560
+      "crc": "0DAFECFEBCE69BBB8E16AC77384923F5",
+      "s": 1352400
     },
     {
       "p": "System.AppContext.dll",
