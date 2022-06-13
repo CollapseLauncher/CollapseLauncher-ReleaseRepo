@@ -1,6 +1,6 @@
 {
   "ver": "1.0.23.6",
-  "time": 1655155508,
+  "time": 1655156112,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -34,7 +34,7 @@
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "F46E723CB4DF4D3AC5A211DC0B526DD6",
+      "crc": "263DD73C830E343B8CA96C4026653F1B",
       "s": 1921024
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "49BC1FA7AB4E86119EE3DDF7DD590301",
+      "crc": "80D6C7BCFE647E264C7F1751F678A34A",
       "s": 160828
     },
     {
