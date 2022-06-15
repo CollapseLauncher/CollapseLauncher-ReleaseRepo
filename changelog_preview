@@ -1,9 +1,12 @@
-- CollapseLauncher [PREVIEW] - v1.0.23.6 (June 14th, 2022)
+- CollapseLauncher [PREVIEW] - v1.0.23.7 (June 15th, 2022)
   ► What's New?
-      ├ ▪ Some few adjustments on NavigationPanel, SocMed Panel and App Settings Page.
+      ├ ▪ Some few adjustments on NavigationPanel, Image Carousel, SocMed Panel
+      │   and App Settings Page.
       ├ ▪ Adding Custom Start-Up Argument feature for Honkai Impact 3rd.
       ├ ▪ Moving the ApplyUpdate from using .NET 7 to .NET Framework 4.6.2 independently.
-      └ ▪ Moving the Genshin Dispatch URL outside from GenshinDispatchHelper.
+      ├ ▪ Moving the Genshin Dispatch URL outside from GenshinDispatchHelper.
+      │ ▪ Moving to WinUI 3 1.1.1 runtime.
+      └ ▪ Move debug (.pdb) file to be embedded on preview build.
 
   ► What's Fixed?
       ├ ▪ Fix the ApplyUpdate to use working directory instead of target path.
