@@ -15,7 +15,8 @@
       │   failing on deleting persistent manifest files.
       ├ ▪ Fix the possibility of Thread Lock while waiting for the launcher to build
       │   manifest on Repair Game functionality for Genshin.
-      └ ▪ Fix the App Settings page name on NavigationItem to not use localized label.
+      ├ ▪ Fix the App Settings page name on NavigationItem to not use localized label.
+      └ ▪ Fix some unlocalized label in App Settings Page.
 
 
 - CollapseLauncher [PREVIEW] - v1.0.23.4 (June 7th, 2022)
