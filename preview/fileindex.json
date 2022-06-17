@@ -1,6 +1,6 @@
 {
   "ver": "1.0.23.8",
-  "time": 1655502535,
+  "time": 1655505757,
   "f": [
     {
       "p": "Aiursoft.HSharp.dll",
@@ -34,7 +34,7 @@
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "8A8C25EB64D2362730C9CA81C9D19057",
+      "crc": "F30C52F963915E986ADB61AACA2C44BC",
       "s": 1994752
     },
     {
@@ -159,7 +159,7 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "4828747E98D8DF5E5E1CFF0B094594E5",
+      "crc": "D486CE1F6702D419C977E5FBFAE48C0D",
       "s": 819200
     },
     {
@@ -494,8 +494,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "2BD786A54499B67751B3E961104B14FF",
-      "s": 1352296
+      "crc": "C867BB9DAA7F151B650026041CB0FCF6",
+      "s": 1352240
     },
     {
       "p": "System.AppContext.dll",
@@ -1674,8 +1674,8 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "715E0EA5E57142FF9987ED1352D2597D",
-      "s": 25489
+      "crc": "2D9B66F8706941E19DE140E490E940CE",
+      "s": 25529
     },
     {
       "p": "Lib/7z.dll",
