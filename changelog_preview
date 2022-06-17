@@ -1,4 +1,4 @@
-- CollapseLauncher [PREVIEW] - v1.0.23.7 (June 15th, 2022)
+- CollapseLauncher [PREVIEW] - v1.0.23.8 (June 18th, 2022)
   ► What's New?
       ├ ▪ Some few adjustments on NavigationPanel, Image Carousel, SocMed Panel
       │   and App Settings Page.
@@ -6,6 +6,7 @@
       ├ ▪ Moving the ApplyUpdate from using .NET 7 to .NET Framework 4.6.2 independently.
       ├ ▪ Moving the Genshin Dispatch URL outside from GenshinDispatchHelper.
       │ ▪ Moving to WinUI 3 1.1.1 runtime.
+      ├ ▪ Moving localization for UpdatePage and some parts to localization file.
       └ ▪ Move debug (.pdb) file to be embedded on preview build.
 
   ► What's Fixed?
