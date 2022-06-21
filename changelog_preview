@@ -1,3 +1,25 @@
+- CollapseLauncher [PREVIEW] - v1.0.30.0 (June 21st, 2022)
+  ► What's New?
+      ├ ▪ Navigation Panel UI is now Minimized.
+      ├ ▪ New Pop-Transparent Theme.
+      ├ ▪ Adding News Panel and QR Code Overview (For Applicable Regions) (PR: #10)
+      ├ ▪ Adding Language Selection Dialog for First-Time Install.
+      │ ▪ Adding Custom Start-Up Argument (For Honkai Impact 3rd).
+      ├ ▪ Adding Chinese (Simplified) Translation (by: @misaka10843) (PR: #9).
+      ├ ▪ Adding Bahasa Indonesia Translation (by: @neon-nyan) (PR: #11).
+      ├ ▪ Updating NuGet packages and Libraries required for this build.
+      ├ ▪ Removing HSharp Dependency.
+      └ ▪ Change Resource Prop from HTML-based data to Directly API JSON-based data.
+
+  ► What's Fixed?
+      ├ ▪ Fix some unlocalized strings at some parts.
+      ├ ▪ Fix potential closed stream while parsing background data from API.
+      ├ ▪ Fix the app to crash while clicking SocMed buttons with no link.
+      ├ ▪ Fix the Update/Repair mechanism on Genshin to potentially fail and stuck because
+      ├   of Read-Only persistent files.
+      └ ▪ Fix the app to crash and stuck in the background while exiting.
+
+
 - CollapseLauncher [PREVIEW] - v1.0.23.8 (June 18th, 2022)
   ► What's New?
       ├ ▪ Some few adjustments on NavigationPanel, Image Carousel, SocMed Panel
