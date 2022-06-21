@@ -1,6 +1,6 @@
 {
     "AppPush": [
-        // App notification MsgId starts from -1000000 to -4
+        // App notification MsgId starts from -1000000 to -5
         {
             "MsgId": 0,
             "IsDisposable": false,
@@ -32,11 +32,11 @@
             "ValidForVerBelow": "1.0.23.3"
         },
         {
-            "MsgId": -4,
+            "MsgId": -5,
             "IsDisposable": true,
-            "Severity": "Error",
-            "Title": "Announcement Regarding to Hi3Mirror Services Suspension",
-            "Message": "We are really sorry that Hi3Mirror Services is temporarily stopped and suspend all its services (including Game Private Mirror, Caches API, Game Repair API, and Game Version Conversion API) and make some functionalities on Collapse Launcher unusable. Once again, we are apologize regarding to this inconvenience. We are trying to bring this service up as soon as possible and hope we can bring this service up before June 22nd 2022. Thank you for your understanding and support.\n\nSincerely,\n@neon-nyan"
+            "Severity": "Success",
+            "Title": "Announcement: Hi3Mirror Services are now Back to Online!",
+            "Message": "We would like to inform you that Hi3Mirror services are now back to online! You can now back to use features like Caches Update, Cross-version Conversion and Game Repair in Collapse Launcher.\n\nThank you for your patience and support to this project.\n\nSincerely,\n@neon-nyan"
         },
     ],
     "RegionPush": [
