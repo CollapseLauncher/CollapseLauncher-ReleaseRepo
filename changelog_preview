@@ -9,6 +9,7 @@
       ├ ▪ Adding Bahasa Indonesia Translation (by: @neon-nyan) (PR: #11).
       ├ ▪ Updating NuGet packages and Libraries required for this build.
       ├ ▪ Removing HSharp Dependency.
+      ├ ▪ New Launcher logo.
       └ ▪ Change Resource Prop from HTML-based data to Directly API JSON-based data.
 
   ► What's Fixed?
