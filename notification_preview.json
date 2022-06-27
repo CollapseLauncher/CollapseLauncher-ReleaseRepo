@@ -15,29 +15,6 @@
             "Title": "Announcement: You are using Preview build",
             "Message": "Hi there, this app is still in preview phase. You might expect some bugs here and there. If you find any bugs or issues, please open an issue on GitHub at:\r\nhttps://github.com/neon-nyan/CollapseLauncher/issues"
         },
-        {
-            "MsgId": -2,
-            "IsDisposable": false,
-            "Severity": "Error",
-            "Title": "Update Issue on 1.0.22.4-preview Build",
-            "Message": "We got a report that Update mechanism on 1.0.22.4-preview builds might fail due to an issue on executable elevation that cause the updater to stuck. We would like to recommend you to reinstall your launcher with the new 1.0.22.6-preview build in order to fix it. Thank you and apologise for the inconvenience.",
-            "ValidForVerBelow": "1.0.22.6"
-        },
-        {
-            "MsgId": -3,
-            "IsDisposable": false,
-            "Severity": "Error",
-            "Title": "Update Issue on 1.0.23.2-RC2-preview Build for Honkai Impact 3rd",
-            "Message": "We got a report that Update mechanism on 1.0.23.2-RC2-preview builds might fail due to an issue on one of the method mistakenly bypassed and causing throw. We would like to recommend you to update your launcher with the new 1.0.23.3-RC2-preview build in order to fix it. Thank you and apologise for the inconvenience.",
-            "ValidForVerBelow": "1.0.23.3"
-        },
-        {
-            "MsgId": -5,
-            "IsDisposable": true,
-            "Severity": "Success",
-            "Title": "Announcement: Hi3Mirror Services are now Back to Online!",
-            "Message": "We would like to inform you that Hi3Mirror services are now back to online! You can now back to use features like Caches Update, Cross-version Conversion and Game Repair in Collapse Launcher.\n\nThank you for your patience and support to this project.\n\nSincerely,\n@neon-nyan"
-        },
     ],
     "RegionPush": [
         // Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 2 Used
@@ -47,31 +24,5 @@
         // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
         // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000002 Used
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
-        {
-            "MsgId": 2000001,
-            "IsDisposable": true,
-            "RegionProfile": "Hi3CN",
-            "Severity": "Success",
-            "Title": "Game Repair for Mainland China Region is Back to Online!",
-            "Message": "Game Repair functionality for Mainland China region is now back to online! Thank you for your patience and now you can try this feature back again."
-        },
-        {
-            "MsgId": 5000001,
-            "IsDisposable": true,
-            "RegionProfile": "GIGlb",
-            "Severity": "Error",
-            "Title": "IMPORTANT: Please Update your Launcher to 1.0.23.1 Build to Update your Game!",
-            "Message": "We have detected that the dispatcher key of our launcher has been mismatched with current 2.7 vevrsion client and may cause the update to fail.\r\nRegarding to this. We are apologize for this inconvenience but don't worry, your update files won't be deleted if the update failed and you can try again after this :D\r\nIf you already updated it to 1.0.23.1-preview build, please ignore this message.",
-            "ValidForVerBelow": "1.0.22.9"
-        },
-        {
-            "MsgId": 5000002,
-            "IsDisposable": true,
-            "RegionProfile": "GIGlb",
-            "Severity": "Warning",
-            "Title": "Issue Regarding tg Bug on Additional Download Feature for Genshin Impact Update",
-            "Message": "We have received a report that the Additional Download feature while updating Genshin Impact to crash on 1.0.22.9 build. Regarding to this, we have published the new build (1.0.23.1-RC2) which is including the fix for Additional Download feature. We would like to recommend you to update your launcher to 1.0.23.1-RC2 manually here: https://github.com/neon-nyan/CollapseLauncher/releases",
-            "ValidForVerBelow": "1.0.23.1"
-        },
     ]
 }
