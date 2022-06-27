@@ -8,13 +8,6 @@
             "Title": "Welcome to Collapse Launcher",
             "Message": "Now you can install or migrate your existing game here. For more information/guides, please visit: https://github.com/neon-nyan/CollapseLauncher/Wiki"
         },
-        {
-            "MsgId": -5,
-            "IsDisposable": true,
-            "Severity": "Success",
-            "Title": "Announcement: Hi3Mirror Services are now Back to Online!",
-            "Message": "We would like to inform you that Hi3Mirror services are now back to online! You can now back to use features like Caches Update, Cross-version Conversion and Game Repair in Collapse Launcher.\n\nThank you for your patience and support to this project.\n\nSincerely,\n@neon-nyan"
-        },
     ],
     "RegionPush": [
         // Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 2 Used
@@ -24,13 +17,5 @@
         // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
         // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000000 Used
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
-        {
-            "MsgId": 2000001,
-            "IsDisposable": true,
-            "RegionProfile": "Hi3CN",
-            "Severity": "Success",
-            "Title": "Game Repair for Mainland China Region is Back to Online!",
-            "Message": "Game Repair functionality for Mainland China region is now back to online! Thank you for your patience and now you can try this feature back again."
-        },
     ]
 }

@@ -1,3 +1,17 @@
+- CollapseLauncher [PREVIEW] - v1.0.32.0 (June 27th, 2022)
+  ► What's New?
+      ├ ▪ Adding Event button for applicable region.
+      ├ ▪ Replacing HttpClientHelper with Hi3HelperCore.Http for HTTP Downloader.
+      ├ ▪ Cleaning up some unused codes.
+      ├ ▪ Minor changes to the launcher logo.
+      ├ ▪ Moving Hi3HelperCore from .NET 7 to .NET Standard 2.1 library.
+      └ ▪ Remove ReadyToBuild flag on the preview build only.
+
+  ► What's Fixed?
+      ├ ▪ Fix conversion process to fail due to corrupted cookbook from previous download.
+      └ ▪ Fix Volumetric Lighting option on Game Settings not getting applied.
+
+
 - CollapseLauncher [PREVIEW] - v1.0.30.0 (June 21st, 2022)
   ► What's New?
       ├ ▪ Navigation Panel UI is now Minimized.
