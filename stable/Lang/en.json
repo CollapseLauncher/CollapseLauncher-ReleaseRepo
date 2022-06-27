@@ -1,7 +1,7 @@
 {
   // Translation Metadata
   "LanguageName": "English",
-  "LanguageID": "en",
+  "LanguageID": "en-US",
   "Author": "neon-nyan",
 
   // StartupPage Content
@@ -81,7 +81,11 @@
     "GameSettings_Panel2": "Game Installation",
     "GameSettings_Panel2RepairGame": "Repair Game",
     "GameSettings_Panel2UninstallGame": "Uninstall Game",
-    "GameSettings_Panel2ConvertVersion": "Convert Version"
+    "GameSettings_Panel2ConvertVersion": "Convert Version",
+    "GameSettings_Panel3": "Custom Start-up Args",
+    "PostPanel_Events": "Events",
+    "PostPanel_Notices": "Notices",
+    "PostPanel_Info": "Info"
   },
 
   // GameRepairPage
@@ -202,7 +206,7 @@
     "SpecMaximum": "Maximum",
 
     "Audio_Title": "Audio Settings",
-    // Audio: Audio Panel 1
+    // Audio: Audio Panel
     "Audio_BGM": "BGM Volume",
     "Audio_SFX": "Sound Effects Volume",
     "Audio_VOLang": "Voice Over Language",
@@ -221,10 +225,17 @@
     "OverlayGameRunningTitle": "Game is Currently Running!",
     "OverlayGameRunningSubtitle": "Please close the game first to use this feature!",
     "OverlayFirstTimeTitle": "You haven't play this game for the first time!",
-    "OverlayFirstTimeSubtitle": "Please run the game first and then come back to use this feature."
+    "OverlayFirstTimeSubtitle": "Please run the game first and then come back to use this feature.",
+
+    "CustomArgs_Title": "Custom Start-up Arguments (Advanced)",
+    // Custom Arguments: Custom Arguments Panel
+    "CustomArgs_Subtitle": "Start-up Arguments",
+    "CustomArgs_Footer1": "For more information about the Start-up Argument, please check",
+    "CustomArgs_Footer2": "Unity Standalone Command-line documentation",
+    "CustomArgs_Footer3": "to see more parameters."
   },
 
-  // CutscenesPage
+  // SettingsPage
   "_SettingsPage": {
     "PageTitle": "App Settings",
 
@@ -258,6 +269,7 @@
     "Update": "Check Updates",
     "Update_CurVer": "Current Version:",
     "Update_CheckBtn": "Check Update",
+    "Update_ForceBtn": "Force Update",
     "Update_NewVer1": "Update to",
     "Update_NewVer2": "is available!",
     "Update_LatestVer": "You are using the latest version.",
@@ -279,7 +291,7 @@
 
     "Disclaimer": "Disclaimer",
     "Disclaimer1": "This app is not affiliated with",
-    "Disclaimer2": " by any means",
+    "Disclaimer2": "by any means",
     "Disclaimer3": "and completely open-sourced. Any contribution is welcomed."
   },
 
@@ -338,6 +350,7 @@
     "Downloading": "Downloading",
     "Merging": "Merging",
     "Idle": "Idle",
+    "Change": "Change",
     "Cancelled": "Cancelled",
     "Extracting": "Extracting",
     "Converting": "Converting",
@@ -350,7 +363,12 @@
     "MovingFile": "Moving File",
     "CheckingFile": "Checking File",
     "RepairingFile": "Repairing File",
-    "ApplyingPatch": "Applying Patch"
+    "ApplyingPatch": "Applying Patch",
+    "Disabled": "Disabled",
+    "Enabled": "Enabled",
+
+    "BuildChannelPreview": "Preview",
+    "BuildChannelStable": "Stable"
   },
 
   // Dialogs Content
@@ -369,16 +387,16 @@
     "AddtDownloadNeededTitle": "Additional Download is Needed",
     "AddtDownloadNeededSubtitle": "You have to download atleast {0} of additional/persistent files. Although you can skip and download it in-game instead.\nDo you want to continue?",
     "AddtDownloadCompletedTitle": "Additional Download is Completed!",
-    "AddtDownloadCompletedSubtitle": "Aditional/Persistent Download has been completed! You can now enjoy your game.\nHappy gaming!",
+    "AddtDownloadCompletedSubtitle": "Additonal/Persistent Download has been completed! You can now enjoy your game.\nHappy gaming!",
     "RepairCompletedTitle": "Repair Process is Completed!",
     "RepairCompletedSubtitle": "{0} file(s) have been repaired.",
     "RepairCompletedSubtitleNoBroken": "No files are broken.",
     "ExtremeGraphicsSettingsWarnTitle": "Very High Setting Selected!",
     "ExtremeGraphicsSettingsWarnSubtitle": "You are about to set the setting to Very High!\r\nRemember that Very High setting is basically 2x Render Scale with MSAA Enabled and it's VERY UNOPTIMIZED! (unless you have a NASA Super Computer to run it).\r\n\r\nAre you sure to use this setting?",
     "ExistingInstallTitle": "Existing Installation is Detected!",
-    "ExistingInstallSubtitle": "Game is already been installed on this location:\r\n\r\n{0}\r\n\r\nIt's recommended to migrate the game to CollapseLauncher.\r\nHowever, you can still use Official Launcher to start the game.\r\n\r\nDo you want to continue?",
+    "ExistingInstallSubtitle": "Game is already been installed on this location:\r\n\r\n{0}\r\n\r\nIt's recommended to migrate the game to Collapse Launcher.\r\nHowever, you can still use Official Launcher to start the game.\r\n\r\nDo you want to continue?",
     "ExistingInstallBHI3LTitle": "Existing Installation on BetterHI3Launcher is Detected!",
-    "ExistingInstallBHI3LSubtitle": "Game is already been installed on this location:\r\n\r\n{0}\r\n\r\nIt's recommended to migrate the game to CollapseLauncher.\r\nHowever, you can still use BetterHi3Launcher to start the game.\r\n\r\nDo you want to continue?",
+    "ExistingInstallBHI3LSubtitle": "Game is already been installed on this location:\r\n\r\n{0}\r\n\r\nIt's recommended to migrate the game to Collapse Launcher.\r\nHowever, you can still use BetterHi3Launcher to start the game.\r\n\r\nDo you want to continue?",
     "ExistingInstallSteamTitle": "Existing Installation on Steam is Detected!",
     "ExistingInstallSteamSubtitle": "Game is already been installed on Steam in this location:\r\n\r\n{0}\r\n\r\nDo you want to convert this version to Normal Global version?\nNote: Once you converted it, you can't log-in with your steam account and only miHoYo/HoYoverse account login method is available.\r\n\r\nDo you want to continue?",
     "SteamConvertNeedMigrateTitle": "Folder Migration is Needed",
@@ -480,5 +498,21 @@
     "PageFooter1": "Please",
     "PageFooter2": "DO NOT",
     "PageFooter3": "switch to another page or close the launcher while the process is running"
+  },
+
+  // UpdatePage Content
+  "_UpdatePage": {
+    "PageTitle1": "UPDATE",
+    "PageTitle2": "IS AVAILABLE!",
+    "VerCurLabel": "Current Version:",
+    "VerNewLabel": "New Version:",
+    "VerChannelLabel": "Update Channel:",
+    "VerDateLabel": "Compiled on:",
+    "ReleaseNote": "Release Notes",
+    "NeverShowNotification": "Never show me this update notification again",
+    "RemindLaterBtn": "Remind me later",
+    "UpdateNowBtn": "Update Now",
+    "LoadingRelease": "Loading Release Notes...",
+    "LoadingReleaseFailed": "Error while fetching Release Notes.\r\n{0}"
   }
 }
