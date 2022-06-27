@@ -7,10 +7,11 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win-x64": {
-      "CollapseLauncher/1.0.30.0": {
+      "CollapseLauncher/1.0.32.0": {
         "dependencies": {
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
           "Hi3HelperCore": "1.0.0",
+          "Hi3HelperCore.Http": "1.0.0",
           "Microsoft.Windows.SDK.BuildTools": "10.0.25140-preview",
           "Microsoft.WindowsAppSDK": "1.1.1",
           "System.CommandLine": "2.0.0-beta3.22114.1",
@@ -939,6 +940,12 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.Win32.Registry/6.0.0-preview.5.21301.5": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.5.21301.5",
+          "System.Security.Principal.Windows": "6.0.0-preview.5.21301.5"
+        }
+      },
       "Microsoft.Win32.SystemEvents/7.0.0-preview.5.22301.12": {
         "runtime": {
           "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
@@ -1031,21 +1038,34 @@
           }
         }
       },
+      "System.Security.AccessControl/6.0.0-preview.5.21301.5": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "6.0.0-preview.5.21301.5"
+        }
+      },
+      "System.Security.Principal.Windows/6.0.0-preview.5.21301.5": {},
       "System.Text.Json/5.0.2": {},
       "Hi3HelperCore/1.0.0": {
         "dependencies": {
           "Crc32.NET": "1.2.0",
           "Google.Protobuf": "3.21.1",
+          "Hi3HelperCore.Http": "1.0.0",
+          "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
           "Newtonsoft.Json": "13.0.2-beta1"
         },
         "runtime": {
           "Hi3HelperCore.dll": {}
         }
+      },
+      "Hi3HelperCore.Http/1.0.0": {
+        "runtime": {
+          "Hi3HelperCore.Http.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.30.0": {
+    "CollapseLauncher/1.0.32.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1186,6 +1206,13 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
+    "Microsoft.Win32.Registry/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qYLtJIAEJJmY2vXxlVO8x4uXfgq7DFOHjpmnHlLm7kmAvyNFckYY/Dx5CZythBXvI2/7sratbIGKqSTysfgZ8A==",
+      "path": "microsoft.win32.registry/6.0.0-preview.5.21301.5",
+      "hashPath": "microsoft.win32.registry.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
     "Microsoft.Win32.SystemEvents/7.0.0-preview.5.22301.12": {
       "type": "package",
       "serviceable": true,
@@ -1235,6 +1262,20 @@
       "path": "system.drawing.common/7.0.0-preview.5.22301.12",
       "hashPath": "system.drawing.common.7.0.0-preview.5.22301.12.nupkg.sha512"
     },
+    "System.Security.AccessControl/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EA9ul7nGN8oggMvloILnR+wnrbgLNZZQBYHq5nEq/ixwnKLV3M3Tbd1Jbj8oGck3XMj0owq81e4Jxp3s0IMICw==",
+      "path": "system.security.accesscontrol/6.0.0-preview.5.21301.5",
+      "hashPath": "system.security.accesscontrol.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ywwCqFAaRVbgqqORqYg8jdaX6NUEpzbuhxyUhAs+7mZ8AFAO4PzFYrZ5JPkYejXwougDldtbi0zOkk1lLzugLw==",
+      "path": "system.security.principal.windows/6.0.0-preview.5.21301.5",
+      "hashPath": "system.security.principal.windows.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
     "System.Text.Json/5.0.2": {
       "type": "package",
       "serviceable": true,
@@ -1243,6 +1284,11 @@
       "hashPath": "system.text.json.5.0.2.nupkg.sha512"
     },
     "Hi3HelperCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hi3HelperCore.Http/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
