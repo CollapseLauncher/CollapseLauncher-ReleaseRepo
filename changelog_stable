@@ -1,3 +1,36 @@
+- CollapseLauncher [Antipathy World] - v1.0.32.0 (June 27th, 2022)
+  ► What's New?
+      ├ ▪ [Genshin Impact] Adding Event Icon for applicable region
+      ├ ▪ [Launcher/Runtime] Replacing HttpClientHelper with Hi3HelperCore.Http for HTTP Downloader.
+      ├ ▪ [Runtime] Cleaning up some unused codes.
+      ├ ▪ [Launcher] Minor changes to the launcher logo.
+      ├ ▪ [Runtime] Moving Hi3HelperCore from .NET 7 to .NET Standard 2.1 library.
+      ├ ▪ [Runtime] Remove ReadyToBuild flag on the preview build only.
+      ├ ▪ [Launcher] Navigation Panel UI is now Minimized
+      ├ ▪ [Launcher] New Pop-Transparent Theme
+      ├ ▪ [Launcher] Adding News Panel and QR Code Overview (For Applicable Regions) (PR: #10)
+      ├ ▪ [Launcher] Adding Language Selection Dialog for First-Time Install
+      ├ ▪ [Honkai Impact 3rd] Adding Custom Start-Up Argument (For Honkai Impact 3rd)
+      ├ ▪ [Launcher] Adding Chinese (Simplified) Translation (by: @misaka10843) (PR: #9)
+      ├ ▪ [Launcher] Adding Bahasa Indonesia Translation (by: @neon-nyan) (PR: #11)
+      ├ ▪ [Runtime] Updating NuGet packages and Libraries
+      ├ ▪ [Runtime] Removing HSharp Dependency.
+      ├ ▪ [Runtime] Change Resource Prop from HTML-based data to Directly API JSON-based data.
+      ├ ▪ [Runtime] Updating API keys for all regions.
+      └ ▪ [Launcher] New Launcher Logo
+
+  ► What's Fixed?
+      ├ ▪ [Honkai Impact 3rd] Fix conversion process to fail due to corrupted cookbook
+      │   from previous download.
+      ├ ▪ [Honkai Impact 3rd] Fix Volumetric Lighting option on Game Settings not getting applied.
+      ├ ▪ [Runtime] Fix some unlocalized strings at some parts.
+      ├ ▪ [Runtime] Fix potential closed stream while parsing background data from API.
+      ├ ▪ [Runtime] Fix the app to crash while clicking SocMed buttons with no link.
+      ├ ▪ [Runtime] Fix the Update/Repair mechanism on Genshin to potentially fail and stuck
+      │   because of Read-Only persistent files.
+      └ ▪ [Runtime] Fix the app to crash and stuck in the background while exiting.
+
+
 - CollapseLauncher [Till the end] - v1.0.23.4 (June 7th, 2022)
   ► What's New?
       ├ ▪ Adding "Level Of Detail" option on Game Settings page for new chapter.
