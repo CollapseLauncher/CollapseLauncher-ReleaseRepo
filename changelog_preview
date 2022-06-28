@@ -1,3 +1,12 @@
+- CollapseLauncher [PREVIEW] - v1.0.32.1-Hotfix (June 29th, 2022)
+  ► What's New?
+      └ ▪ Using build-in DeleteMultisessionChunks() to reset download.
+  
+  ► What's Fixed?
+      ├ ▪ Fix the download to reset while choosing to continue.
+      └ ▪ Fix multisession issue on Hi3HelperCore.Http submodule.
+
+
 - CollapseLauncher [PREVIEW] - v1.0.32.0 (June 27th, 2022)
   ► What's New?
       ├ ▪ Adding Event button for applicable region.
