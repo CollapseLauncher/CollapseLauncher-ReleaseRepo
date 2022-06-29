@@ -1,4 +1,4 @@
-- CollapseLauncher [Antipathy World] - v1.0.32.0 - .1-Hotfix (June 27th, 2022)
+- CollapseLauncher [Antipathy World] - v1.0.32.0 - .2-Hotfix (June 27th, 2022)
   ► What's New?
       ├ ▪ [Genshin Impact] Adding Event Icon for applicable region
       ├ ▪ [Launcher/Runtime] Replacing HttpClientHelper with Hi3HelperCore.Http for HTTP Downloader.
@@ -19,7 +19,7 @@
       ├ ▪ [Runtime] Updating API keys for all regions.
       └ ▪ [Launcher] New Launcher Logo
       
-  ► What's New? (From v1.0.32.1-Hotfix (June 29th, 2022))
+  ► What's New? (From v1.0.32.2-Hotfix (June 29th, 2022))
       └ ▪ [Runtime] Using build-in DeleteMultisessionChunks() to reset download.
 
   ► What's Fixed?
@@ -33,8 +33,9 @@
       │   because of Read-Only persistent files.
       └ ▪ [Runtime] Fix the app to crash and stuck in the background while exiting.
   
-  ► What's Fixed? (From v1.0.32.1-Hotfix (June 29th, 2022))
+  ► What's Fixed? (From v1.0.32.2-Hotfix (June 29th, 2022))
       ├ ▪ [Runtime] Fix the download to reset while choosing to continue.
+      ├ ▪ [Runtime] Fix the 7z file extraction to fail due to async thread.
       └ ▪ [Runtime] Fix multisession issue on Hi3HelperCore.Http submodule.
 
 
