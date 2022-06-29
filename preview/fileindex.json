@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.32.1",
-  "time": 1656444605,
+  "ver": "1.0.32.2",
+  "time": 1656469593,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -24,17 +24,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "5EFA4F4742101A468E108A45DF46C9B8",
+      "crc": "0413FB91BC9BB651DA630E6E9F807B08",
       "s": 51366
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "7B598784F821A1710727A1F60360518A",
-      "s": 1116672
+      "crc": "3DD3754D769B92FA9F15C128AF436294",
+      "s": 1118208
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "4F87EDF0A0B7DE55CAAE6320E01C71D3",
+      "crc": "D66BBF1C751779BB9FE59CB0675B3DBC",
       "s": 622592
     },
     {
@@ -154,8 +154,8 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "8638D130A53CB40C0F1ECB63D2A66D37",
-      "s": 371200
+      "crc": "1D24DA476C7465C6AAC879E66B3614C6",
+      "s": 368640
     },
     {
       "p": "Hi3HelperCore.Http.dll",
@@ -494,8 +494,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "F1278F38E480124B0A0BFFBF9B1ACB84",
-      "s": 1355608
+      "crc": "9E2F152B94F304B4AC9CE040B7BB9163",
+      "s": 1355600
     },
     {
       "p": "System.AppContext.dll",
