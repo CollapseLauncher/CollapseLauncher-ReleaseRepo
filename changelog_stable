@@ -1,3 +1,12 @@
+- CollapseLauncher [Antipathy World] - v1.0.32.4-Hotfix (June 30th, 2022)
+  ► What's New?
+      └ ▪ [Launcher] Adding WebView2 window to open some Image Carousel infos.
+	  
+  ► What's Fixed?
+      ├ ▪ [Runtime] Fix the Installation step to be skipped causing the launcher to crash.
+      └ ▪ [Runtime] Fix crash while using Game Repair feature.
+
+
 - CollapseLauncher [Antipathy World] - v1.0.32.0 - .2-Hotfix (June 27th, 2022)
   ► What's New?
       ├ ▪ [Genshin Impact] Adding Event Icon for applicable region
