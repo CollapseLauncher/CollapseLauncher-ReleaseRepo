@@ -10,12 +10,33 @@
         },
     ],
     "RegionPush": [
-        // Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 2 Used
-        // Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999 : 1000002 Used
-        // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000001 Used
+        // Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 3 Used
+        // Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999 : 1000003 Used
+        // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000002 Used
         // Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
         // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
-        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000000 Used
+        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000002 Used
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
+        {
+            "MsgId": 3,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "Title": "Update Cache is Temporarily Unavailable",
+            "Message": "We are sorry to announce you that the Update Cache feature will be temporarily unavailable due to emergency maintenance on Hi3Mirror Service. The feature will be back in couple of hours."
+        },
+        {
+            "MsgId": 1000003,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "Title": "Update Cache is Temporarily Unavailable",
+            "Message": "We are sorry to announce you that the Update Cache feature will be temporarily unavailable due to emergency maintenance on Hi3Mirror Service. The feature will be back in couple of hours."
+        },
+        {
+            "MsgId": 2000002,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "Title": "Update Cache is Temporarily Unavailable",
+            "Message": "We are sorry to announce you that the Update Cache feature will be temporarily unavailable due to emergency maintenance on Hi3Mirror Service. The feature will be back in couple of hours."
+        },
     ]
 }
