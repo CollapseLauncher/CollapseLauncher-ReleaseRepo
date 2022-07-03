@@ -1,13 +1,18 @@
-- CollapseLauncher [Antipathy World] - v1.0.32.4-Hotfix (June 30th, 2022)
+- Collapse [Antipathy World] - v1.0.32.5-Hotfix (July 3rd, 2022)
+  ► What's Fixed?
+      └ ▪ [Runtime] Fix crash while doing repair on Game Repair feature caused by Infinity progress.
+
+
+- Collapse [Antipathy World] - v1.0.32.4-Hotfix (June 30th, 2022)
   ► What's New?
       └ ▪ [Launcher] Adding WebView2 window to open some Image Carousel infos.
-	  
+      
   ► What's Fixed?
       ├ ▪ [Runtime] Fix the Installation step to be skipped causing the launcher to crash.
       └ ▪ [Runtime] Fix crash while using Game Repair feature.
 
 
-- CollapseLauncher [Antipathy World] - v1.0.32.0 - .2-Hotfix (June 27th, 2022)
+- Collapse [Antipathy World] - v1.0.32.0 - .2-Hotfix (June 27th, 2022)
   ► What's New?
       ├ ▪ [Genshin Impact] Adding Event Icon for applicable region
       ├ ▪ [Launcher/Runtime] Replacing HttpClientHelper with Hi3HelperCore.Http for HTTP Downloader.
@@ -48,7 +53,7 @@
       └ ▪ [Runtime] Fix multisession issue on Hi3HelperCore.Http submodule.
 
 
-- CollapseLauncher [Till the end] - v1.0.23.4 (June 7th, 2022)
+- Collapse [Till the end] - v1.0.23.4 (June 7th, 2022)
   ► What's New?
       ├ ▪ Adding "Level Of Detail" option on Game Settings page for new chapter.
       ├ ▪ Moving to WinUI 3 1.1 Stable Runtime with Self-Contained build.
@@ -118,7 +123,7 @@
           downloaded file to get corrupted after resuming.
 
 
-- CollapseLauncher [Happy Ending] - v1.0.21.2 (May 6th, 2022)
+- Collapse [Happy Ending] - v1.0.21.2 (May 6th, 2022)
   ► What's New?
       ├ ▪ Migrated to WinUI 3 1.1-preview2.
       ├ ▪ Add Update Mechanism for the launcher.
@@ -183,7 +188,7 @@
       └ ▪ Fix some settings to not getting saved.
 
 
-- CollapseLauncher [Dread Life] - v1.0.10.0 (March 14th, 2022)
+- Collapse [Dread Life] - v1.0.10.0 (March 14th, 2022)
   ► What's New?
       ├ ▪ The first stable version released.
       ├ ▪ Adding Image Carousel on Home Page.
