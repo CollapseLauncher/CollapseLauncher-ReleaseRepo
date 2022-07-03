@@ -1,13 +1,18 @@
-- CollapseLauncher [PREVIEW] - v1.0.32.4-Hotfix (June 30th, 2022)
+- Collapse [PREVIEW] - v1.0.32.5-Hotfix (July 3rd, 2022)
+  ► What's Fixed?
+      └ ▪ [Runtime] Fix crash while doing repair on Game Repair feature caused by Infinity progress.
+
+
+- Collapse [PREVIEW] - v1.0.32.4-Hotfix (June 30th, 2022)
   ► What's New?
       └ ▪ [Launcher] Adding WebView2 window to open some Image Carousel infos.
-	  
+      
   ► What's Fixed?
       ├ ▪ [Runtime] Fix the Installation step to be skipped causing the launcher to crash.
       └ ▪ [Runtime] Fix crash while using Game Repair feature.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.32.2-Hotfix (June 29th, 2022)
+- Collapse [PREVIEW] - v1.0.32.2-Hotfix (June 29th, 2022)
   ► What's New?
       └ ▪ Using build-in DeleteMultisessionChunks() to reset download.
   
@@ -17,7 +22,7 @@
       └ ▪ Fix multisession issue on Hi3HelperCore.Http submodule.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.32.0 (June 27th, 2022)
+- Collapse [PREVIEW] - v1.0.32.0 (June 27th, 2022)
   ► What's New?
       ├ ▪ Adding Event button for applicable region.
       ├ ▪ Replacing HttpClientHelper with Hi3HelperCore.Http for HTTP Downloader.
@@ -31,7 +36,7 @@
       └ ▪ Fix Volumetric Lighting option on Game Settings not getting applied.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.30.0 (June 21st, 2022)
+- Collapse [PREVIEW] - v1.0.30.0 (June 21st, 2022)
   ► What's New?
       ├ ▪ Navigation Panel UI is now Minimized.
       ├ ▪ New Pop-Transparent Theme.
@@ -54,7 +59,7 @@
       └ ▪ Fix the app to crash and stuck in the background while exiting.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.23.8 (June 18th, 2022)
+- Collapse [PREVIEW] - v1.0.23.8 (June 18th, 2022)
   ► What's New?
       ├ ▪ Some few adjustments on NavigationPanel, Image Carousel, SocMed Panel
       │   and App Settings Page.
@@ -75,7 +80,7 @@
       └ ▪ Fix some unlocalized label in App Settings Page.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.23.4 (June 7th, 2022)
+- Collapse [PREVIEW] - v1.0.23.4 (June 7th, 2022)
   ► What's New?
       ├ ▪ Adding "Level Of Detail" option on Game Settings page for new chapter
       ├ ▪ Moving to WinUI 3 1.1 Stable Runtime with Self-Contained build
@@ -90,7 +95,7 @@
       └ ▪ Fix the app to crash while transitioning to random page in rare occasion
 
 
-- CollapseLauncher [PREVIEW] - v1.0.23.2-RC2 [Codename: Till the end of me] (June 2nd, 2022)
+- Collapse [PREVIEW] - v1.0.23.2-RC2 [Codename: Till the end of me] (June 2nd, 2022)
   ► What's New?
       ├ ▪ Adding Custom Background feature.
       ├ ▪ The app will now redirect you to Disconnected Page while you're disconnected
@@ -127,7 +132,7 @@
       └ ▪ Fix the update for Honkai Impact 3rd to get potentially failed
 
 
-- CollapseLauncher [PREVIEW] - v1.0.23.1 (May 31st, 2022)
+- Collapse [PREVIEW] - v1.0.23.1 (May 31st, 2022)
   ► What's New?
       ├ ▪ Moving fileconfig.json to hard-coded config
       └ ▪ Update the Dispatcher key file for Genshin 2.7 Update
@@ -144,7 +149,7 @@
           causing the app to crash
 
 
-- CollapseLauncher [PREVIEW] - v1.0.22.6 (May 28th, 2022)
+- Collapse [PREVIEW] - v1.0.22.6 (May 28th, 2022)
   ► What's New?
       ├ ▪ Disable Pause button while verifying on Pre-load downloading
       ├ ▪ Change Pause Download/Resume Download text to just Pause/Resume
@@ -158,10 +163,10 @@
 Note for 1.0.22.4-preview users:
 Since there's a known issue with the update mechanism on v1.0.22.4-preview that make the update
 process to fail/stuck, please reinstall your launcher with this new build if you want to update it:
-https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
+https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.0.22.6-pre
 
 
-- CollapseLauncher [PREVIEW] - v1.0.22.4 (May 25th, 2022)
+- Collapse [PREVIEW] - v1.0.22.4 (May 25th, 2022)
   ► What's New?
       ├ ▪ Updater and Invoker apps are now merged into main app
       ├ ▪ Using custom Main() Entry Point to the app. Making the possibility to use
@@ -173,7 +178,7 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
       └ ▪ Fix the Update Notification UI to get overlaped with frames behind it
 
 
-- CollapseLauncher [PREVIEW] - v1.0.22.3-RC1 [Codename: Till the end of me] (May 22nd, 2022)
+- Collapse [PREVIEW] - v1.0.22.3-RC1 [Codename: Till the end of me] (May 22nd, 2022)
   ► What's New?
       ├ ▪ Update pre-compiled Updater executable
       ├ ▪ Moving to WinUI 3 1.1-preview3 and .NET Core 7-preview4 Runtime
@@ -207,14 +212,14 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
           file to get corrupted after resuming
 
 
-- CollapseLauncher [PREVIEW] - v1.0.21.2-pre (May 6th, 2022)
+- Collapse [PREVIEW] - v1.0.21.2-pre (May 6th, 2022)
   ► What's Fixed?
       ├ ▪ Fix the updater to not started if the app is installed in path with spaces.
       │   For example: C:\Program Files\Collapse Launcher
       └ ▪ Fix some settings to not getting saved.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.20.3-pre (May 5th, 2022)
+- Collapse [PREVIEW] - v1.0.20.3-pre (May 5th, 2022)
   ► What's New?
       ├ ▪ Adding build timestamp on the Update menu.
       ├ ▪ Adding social media button on the Settings menu.
@@ -229,7 +234,7 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
       └ ▪ Fix some grammar errors.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.20.2-pre (May 4th, 2022)
+- Collapse [PREVIEW] - v1.0.20.2-pre (May 4th, 2022)
   ► What's New?
       └ ▪ Implement Notification System.
 
@@ -238,7 +243,7 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
           accidentally removed on v1.0.20.1-preview build.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.20.1-pre (May 3rd, 2022)
+- Collapse [PREVIEW] - v1.0.20.1-pre (May 3rd, 2022)
   ► What's New?
       ├ ▪ Adding feature to convert region version. For now, it only supports these versions:
       │     └ ▫ Supported regions are:
@@ -271,7 +276,7 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
       └ ▪ Fix Steam Installation of Honkai Impact 3rd cannot be detected if it's installed in different SteamLibrary.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.13-pre (April 25th, 2022)
+- Collapse [PREVIEW] - v1.0.13-pre (April 25th, 2022)
   ► What's New?
       └ ▪ Now you can choose which Voice Language you want to use while installing Genshin,
           so you don't have to download it twice in-game.
@@ -282,13 +287,13 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
       └ ▪ Fix some typo at Thread setting.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.12-pre (April 24th, 2022)
+- Collapse [PREVIEW] - v1.0.12-pre (April 24th, 2022)
   ► What's New?
       ├ ▪ Add options to change App Theme.
       └ ▪ Add options to change Download and Extraction Threads.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.11-pre (April 22nd, 2022)
+- Collapse [PREVIEW] - v1.0.11-pre (April 22nd, 2022)
   ► What's New?
       ├ ▪ Migrated to WinUI 3 1.1-preview2.
       ├ ▪ Add Update Mechanism for the launcher.
@@ -307,7 +312,7 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
       └ ▪ Fix the migration process to fail if some files are already exist in target folder.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.9-pre (March 11th, 2022)
+- Collapse [PREVIEW] - v1.0.9-pre (March 11th, 2022)
   ► What's New?
       ├ ▪ Add Social Media Side Panel at Home page.
       ├ ▪ Add adaptive color accent support.
@@ -327,7 +332,7 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
       └ ▪ Fix summary to return 0 byte if only generic files are missing.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.7-pre (February 19th, 2022)
+- Collapse [PREVIEW] - v1.0.7-pre (February 19th, 2022)
   ► What's New?
       ├ ▪ Adding support for migrating Game installed with BetterHI3Launcher.
       ├ ▪ Revoke the target location if the folder choosen while installing doesn't allow the user to have a write permission.
@@ -338,15 +343,15 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
       └ ▪ Removing "Additional Download" while installing the game since the feature isn't yet implemented.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.6-rc1-pre (February 6th, 2022)
+- Collapse [PREVIEW] - v1.0.6-rc1-pre (February 6th, 2022)
   ► What's New?
       └ ▪ Adding support for migrating Game installed with BetterHI3Launcher.
 
   ► What's Fixed?
-      └ ▪ Fixing CollapseLauncher.Invoker compiled to .NET Core 5 instead of .NET Core 6.
+      └ ▪ Fixing Collapse.Invoker compiled to .NET Core 5 instead of .NET Core 6.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.5-pre (February 5th, 2022)
+- Collapse [PREVIEW] - v1.0.5-pre (February 5th, 2022)
   ► What's New?
       ├ ▪ The program now runs as a normal Win32 app.
       │     └ ▫ Prequesties is needed to be installed in need to run it.
@@ -354,19 +359,19 @@ https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.6-pre
       ├ ▪ Adding Game log monitoring feature while game is running.
       ├ ▪ Adding Game Repair feature.
       ├ ▪ Adding Game Settings feature.
-      └ ▪ Hi3Helper Project is now completely merged to CollapseLauncher Project.
+      └ ▪ Hi3Helper Project is now completely merged to Collapse Project.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.3-pre (January 11th, 2022)
+- Collapse [PREVIEW] - v1.0.3-pre (January 11th, 2022)
   ► What's New?
       └ ▪ Minor and Runtime fixes.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.2-pre (December 26th, 2021)
+- Collapse [PREVIEW] - v1.0.2-pre (December 26th, 2021)
   ► What's New?
       └ ▪ Minor and Runtime fixes.
 
 
-- CollapseLauncher [PREVIEW] - v1.0.0-pre (December 22nd, 2021)
+- Collapse [PREVIEW] - v1.0.0-pre (December 22nd, 2021)
   ► What's New?
       └ ▪ The first preview version released.
