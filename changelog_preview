@@ -1,3 +1,21 @@
+- Collapse [PREVIEW] - v1.0.33.0 (July 8th, 2022)
+  ► What's New?
+      ├ ▪ [Runtime] Use ordered argument for IniFile module.
+      ├ ▪ [Runtime] NuGet packages and Libraries required for this build.
+      ├ ▪ [Launcher] Some minor UI tweaks, including more transparent on light theme for Navigation
+      │   panel, News panel and using transparent background for Update Notification page.
+      └ ▪ [Launcher] Adding WebView2 window to open News Panel items and Event Image.
+      
+  ► What's Fixed?
+      ├ ▪ [Submodule - Hi3HelperCore.Http]
+      │   ├ ▪ Prevent HttpHelperSessionHTTPError416 exception to be called whether the offset range
+      │   │   is invalid or the file has been completely downloaded.
+      │   ├ ▪ Fix the session offset on the single-session download to possibly overflowed
+      │   ├ ▪ Fix the download to go beyond 100% while retrying happened
+      │   └ ▪ Fix some state on Multi-session download never get updated
+      └ ▪ [i18N - id-ID] Simplify id-ID i18N for "PEMBARUAN TELAH TERSEDIA!" to just "UPDATE TERSEDIA!"
+
+
 - Collapse [PREVIEW] - v1.0.32.5-Hotfix (July 3rd, 2022)
   ► What's Fixed?
       └ ▪ [Runtime] Fix crash while doing repair on Game Repair feature caused by Infinity progress.
@@ -42,7 +60,7 @@
       ├ ▪ New Pop-Transparent Theme.
       ├ ▪ Adding News Panel and QR Code Overview (For Applicable Regions) (PR: #10)
       ├ ▪ Adding Language Selection Dialog for First-Time Install.
-      │ ▪ Adding Custom Start-Up Argument (For Honkai Impact 3rd).
+      ├ ▪ Adding Custom Start-Up Argument (For Honkai Impact 3rd).
       ├ ▪ Adding Chinese (Simplified) Translation (by: @misaka10843) (PR: #9).
       ├ ▪ Adding Bahasa Indonesia Translation (by: @neon-nyan) (PR: #11).
       ├ ▪ Updating NuGet packages and Libraries required for this build.
