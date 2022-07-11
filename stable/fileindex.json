@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.33.1",
-  "time": 1657529757,
+  "ver": "1.0.33.2",
+  "time": 1657541103,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -24,17 +24,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "4B3AD356F6FE20F5B0965DECB5A7FDC0",
+      "crc": "D8D8FEF933EDC959BF76D4EFC4E721E4",
       "s": 51366
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "E69A9DD24346EA42885B46F5DA8ECB65",
+      "crc": "2E2E7D56F47F6B92388076A227ED8C85",
       "s": 2068480
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "63E25E9A0A22BCB765D6043FB0CF03CC",
+      "crc": "8F7815A7F53150DF7E98EAA5F6E3D639",
       "s": 622592
     },
     {
@@ -1684,8 +1684,8 @@
     },
     {
       "p": "Lang/zh-cn.json",
-      "crc": "217620ABE3C5625E407203A7C9D951C3",
-      "s": 24154
+      "crc": "B5996844F00B36CEE289B307CD1B5584",
+      "s": 24451
     },
     {
       "p": "Lib/7z.dll",

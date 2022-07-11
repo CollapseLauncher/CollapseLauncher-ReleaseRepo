@@ -1,4 +1,4 @@
-- Collapse [Thunder] - v1.0.33.1 (July 11th, 2022)
+- Collapse [Thunder] - v1.0.33.2 (July 11th, 2022)
   ► What's New?
       ├ ▪ [Runtime] Use ordered argument for IniFile module.
       ├ ▪ [Runtime] NuGet packages and Libraries required for this build.
@@ -9,7 +9,8 @@
       ├ ▪ [Launcher] Adding Paimon to indicate if there's no news available.
       ├ ▪ [Launcher] Some minor UI tweaks, including more transparent on light theme for Navigation
       │   panel, News panel and using transparent background for Update Notification page.
-      └ ▪ [Launcher] Adding WebView2 window to open News Panel items and Event Image.
+      ├ ▪ [Launcher] Adding WebView2 window to open News Panel items and Event Image.
+      └ ▪ [i18N - zh-CN] Update Chinese (Simplified) translation (Thanks to @misaka10843).
       
   ► What's Fixed?
       ├ ▪ [Submodule - Hi3HelperCore.Http]
