@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.33.0",
-  "time": 1657288060,
+  "ver": "1.0.33.1",
+  "time": 1657524439,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -24,17 +24,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "3B4707370F111739AB010E26EA11EC37",
+      "crc": "4B3AD356F6FE20F5B0965DECB5A7FDC0",
       "s": 51366
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "BD351E974A2B131ED23D722B68B4E221",
-      "s": 1124864
+      "crc": "7C647C220E9A1D0228D3ADB45BFEF015",
+      "s": 1131008
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "B3748C782223C0F810D393222D6DE3B7",
+      "crc": "63E25E9A0A22BCB765D6043FB0CF03CC",
       "s": 622592
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "9C35407C9A5F9A7D330B9590A6D681F3",
+      "crc": "38D96307092F2BF208838C97B3528519",
       "s": 369152
     },
     {
@@ -494,8 +494,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "34FEB50B6CA3B72BCCB05DA6D8889908",
-      "s": 1357648
+      "crc": "724569C1D0E338295D6D65B6B0DF0BE3",
+      "s": 1358840
     },
     {
       "p": "System.AppContext.dll",
@@ -1674,13 +1674,13 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "E2DB64B132D65E32C5A4E73F1FF1114E",
-      "s": 25661
+      "crc": "676B9AC120F51ECA379B76CB0A746BF6",
+      "s": 25824
     },
     {
       "p": "Lang/id-ID.json",
-      "crc": "2C87E6312120C30785DE66843452A31F",
-      "s": 25880
+      "crc": "E4D9952170DA9842E5DDEEB4E55D933B",
+      "s": 26038
     },
     {
       "p": "Lang/zh-cn.json",
@@ -1941,6 +1941,11 @@
       "p": "Assets/BG/PaimonSleep.png",
       "crc": "EE77C8AE0BABB62EBBAFB8BE6BF49699",
       "s": 56251
+    },
+    {
+      "p": "Assets/BG/PaimonWhat.png",
+      "crc": "5049A3325CEB9A0E5E067BF11F051B32",
+      "s": 17404
     },
     {
       "p": "Assets/Fonts/FontAwesomeBrand6.otf",
