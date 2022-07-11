@@ -83,9 +83,12 @@
     "GameSettings_Panel2UninstallGame": "Uninstall Game",
     "GameSettings_Panel2ConvertVersion": "Convert Version",
     "GameSettings_Panel3": "Custom Start-up Args",
+    "GameSettings_Panel4": "Miscellaneous",
+    "GameSettings_Panel4ShowEventsPanel": "Show Events Panel",
     "PostPanel_Events": "Events",
     "PostPanel_Notices": "Notices",
-    "PostPanel_Info": "Info"
+    "PostPanel_Info": "Info",
+    "PostPanel_NoNews": "What?\nNo news for today?"
   },
 
   // GameRepairPage

@@ -56,7 +56,7 @@
     "PageTitle": "Launcher",
     "PreloadTitle": "Pra-unduh Telah Tersedia!",
     "PreloadNotifTitle": "Pra-unduh untuk v{0} sudah tersedia!",
-    "PreloadNotifSubtitle": "Pra-unduh untuk v{0} sudah tersediae! Kamu bisa mengunduhnya sekaligus bermain game secara bersamaan.",
+    "PreloadNotifSubtitle": "Pra-unduh untuk v{0} sudah tersedia! Kamu bisa mengunduhnya sekaligus bermain game secara bersamaan.",
     "PreloadNotifCompleteTitle": "Praunduh sudah terunduh!",
     "PreloadNotifCompleteSubtitle": "Kamu sudah mengunduh pra-unduh untuk v{0}!",
     "PreloadNotifIntegrityCheckBtn": "Cek Integritas",
@@ -83,9 +83,12 @@
     "GameSettings_Panel2UninstallGame": "Hapus Game",
     "GameSettings_Panel2ConvertVersion": "Ubah Versi",
     "GameSettings_Panel3": "Penyesuaian Argumen Pemulaian",
+    "GameSettings_Panel4": "Lainnya",
+    "GameSettings_Panel4ShowEventsPanel": "Munculkan Panel Event",
     "PostPanel_Events": "Event",
     "PostPanel_Notices": "Pemberitahuan",
-    "PostPanel_Info": "Informasi"
+    "PostPanel_Info": "Informasi",
+    "PostPanel_NoNews": "Hah?\nNggak ada berita?"
   },
 
   // GameRepairPage

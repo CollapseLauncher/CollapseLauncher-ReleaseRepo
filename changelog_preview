@@ -1,7 +1,10 @@
-- Collapse [PREVIEW] - v1.0.33.0 (July 8th, 2022)
+- Collapse [PREVIEW] - v1.0.33.1 (July 11th, 2022)
   ► What's New?
       ├ ▪ [Runtime] Use ordered argument for IniFile module.
       ├ ▪ [Runtime] NuGet packages and Libraries required for this build.
+      ├ ▪ [Runtime] Run launcher API fetching asynchronously in background.
+      ├ ▪ [Runtime] Some minor app Performance improvement.
+      ├ ▪ [Launcher] Adding an ability to hide Events Side Panel.
       ├ ▪ [Launcher] Some minor UI tweaks, including more transparent on light theme for Navigation
       │   panel, News panel and using transparent background for Update Notification page.
       └ ▪ [Launcher] Adding WebView2 window to open News Panel items and Event Image.
@@ -13,6 +16,9 @@
       │   ├ ▪ Fix the session offset on the single-session download to possibly overflowed
       │   ├ ▪ Fix the download to go beyond 100% while retrying happened
       │   └ ▪ Fix some state on Multi-session download never get updated
+      ├ ▪ [Runtime] Fix potential broken INI Structure while saving
+      │   Also Simplify some methods and remove IEnumerable<T> since it's no longer used.
+      │   This commit is focused on fix for Issue No: #12
       └ ▪ [i18N - id-ID] Simplify id-ID i18N for "PEMBARUAN TELAH TERSEDIA!" to just "UPDATE TERSEDIA!"
 
 
