@@ -1,3 +1,12 @@
+- Collapse [PREVIEW] - v1.0.33.3-Hotfix (July 14th, 2022)
+  ► What's New?
+      └ ▪ [Runtime] Temporarily re-route .zip extractor to use Auto7Zip from SevenZipExtractor.
+      
+  ► What's Fixed?
+      └ ▪ [Runtime] We temporarily disable repair and post-verification download mechanism
+          since data structure changes on Genshin's dispatcher Protobuf.
+
+
 - Collapse [PREVIEW] - v1.0.33.2 (July 11th, 2022)
   ► What's New?
       ├ ▪ [Runtime] Use ordered argument for IniFile module.
