@@ -15,7 +15,7 @@
         // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000002 Used
         // Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
         // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
-        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000002 Used
+        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000003 Used
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
         {
             "MsgId": 3,
@@ -37,6 +37,14 @@
             "Severity": "Warning",
             "Title": "Update Cache is Temporarily Unavailable",
             "Message": "We are sorry to announce you that the Update Cache feature will be temporarily unavailable due to emergency maintenance on Hi3Mirror Service. The feature will be back in couple of hours."
+        },
+        {
+            "MsgId": 5000003,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "Title": "Important Announcement Regarding to Genshin 2.8 Update Issue",
+            "Message": "We would like to announce you that due to changes on Genshin's Dispatcher data structure, the repair mechanism on Collapse Launcher will be unusable in the next 1.0.33.3 and will be released in the next 1-2 hours (17:00 - 18:00 GMT+7). This also will fix the issue on update mechanism on Genshin (at least for now) that causing the failure. Thank you for your attention and apologize for the inconvenience.",
+            "ValidForVerBelow": "1.0.33.3"
         },
     ]
 }
