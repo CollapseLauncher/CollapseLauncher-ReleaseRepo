@@ -19,11 +19,11 @@
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
         {
             "MsgId": 5000003,
-            "IsDisposable": true,
+            "IsDisposable": false,
             "Severity": "Error",
             "RegionProfile": "GIGlb",
             "Title": "Important Announcement Regarding to Genshin 2.8 Update Issue",
-            "Message": "We would like to announce you that due to changes on Genshin's Dispatcher data structure, the repair mechanism on Collapse Launcher will be unusable in the next 1.0.33.3 and will be released in the next 1-2 hours (17:00 - 18:00 GMT+7). This also will fix the issue on update mechanism on Genshin (at least for now) that causing the failure. Thank you for your attention and apologize for the inconvenience.",
+            "Message": "We would like to announce you that due to changes on Genshin's Dispatcher data structure, the repair mechanism on Collapse Launcher will be unusable in 1.0.33.3 version and will be released in the next 1-2 hours (17:00 - 18:00 GMT+7). This also will fix the issue on update mechanism on Genshin (at least for now) that causing the failure. Thank you for your attention and apologize for the inconvenience.",
             "ValidForVerBelow": "1.0.33.3"
         },
     ]
