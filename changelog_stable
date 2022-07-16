@@ -2,7 +2,7 @@
   ► What's Fixed?
       ├ ▪ [Runtime] Fixed the "Start Game" button to not disabled if the game is running.
       └ ▪ [Runtime] Fixed the issue where the game cannot run caused by INIFile class changes
-	       on v1.0.33.2 build.
+           on v1.0.33.2 build.
 
 
 - Collapse [Thunder] - v1.0.33.3-Hotfix (July 14th, 2022)
