@@ -29,7 +29,7 @@
             "MsgId": 1000004,
             "IsDisposable": true,
             "Severity": "Warning",
-            "RegionProfile": "Hi3SEA",
+            "RegionProfile": "Hi3Global",
             "Title": "Announcement Regarding to Hi3Mirror Services Shutdown (2nd Time)",
             "Message": "We would like to announce you that regarding to Hi3Mirror Services Shutdown, some features like Cross-version Conversion, Steam to Global Version Conversion, Game Data Repair and Caches Update would be unusable and causing the launcher to crash. For now, we are just hoping that the services could be back again on July 21st, 2022. At this moment, we really thank to you so much for your support to give this project a try. I hope we could reduce this kind of interruption in the future.\r\n\r\nSincerely,\r\nneon-nyan"
         },
@@ -37,7 +37,7 @@
             "MsgId": 2000003,
             "IsDisposable": true,
             "Severity": "Warning",
-            "RegionProfile": "Hi3SEA",
+            "RegionProfile": "Hi3CN",
             "Title": "Announcement Regarding to Hi3Mirror Services Shutdown (For the 2nd Time)",
             "Message": "We would like to announce you that regarding to Hi3Mirror Services Shutdown, some features like Cross-version Conversion, Steam to Global Version Conversion, Game Data Repair and Caches Update would be unusable and causing the launcher to crash. For now, we are just hoping that the services could be back again on July 21st, 2022. At this moment, we really thank to you so much for your support to give this project a try. I hope we could reduce this kind of interruption in the future.\r\n\r\nSincerely,\r\nneon-nyan"
         },
