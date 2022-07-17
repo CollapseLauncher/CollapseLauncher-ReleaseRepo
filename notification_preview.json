@@ -50,7 +50,7 @@
         },
         {
             "MsgId": 5000003,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "GIGlb",
             "Title": "Important Announcement Regarding to Genshin 2.8 Update Issue",
@@ -59,7 +59,7 @@
         },
         {
             "MsgId": 5000004,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Success",
             "RegionProfile": "GIGlb",
             "Title": "Update: Important Announcement Regarding to Genshin 2.8 Update Issue",
