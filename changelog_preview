@@ -1,3 +1,11 @@
+- Collapse [PREVIEW] - v1.0.33.5-Hotfix (July 17th, 2022)
+  ► What's Fixed?
+      ├ ▪ [Runtime] Fixed the launcher to crash while installing Genshin caused by
+      │    Read-only files.
+      └ ▪ [Runtime] Fixed the stable release of launcher get built using
+           .NET 7-preview6 runtime accidentally.
+
+
 - Collapse [PREVIEW] - v1.0.33.4-Hotfix (July 16th, 2022)
   ► What's Fixed?
       ├ ▪ [Runtime] Fixed the "Start Game" button to not disabled if the game is running.
