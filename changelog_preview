@@ -1,7 +1,9 @@
-- Collapse [PREVIEW] - v1.0.33.5-Hotfix (July 17th, 2022)
+- Collapse [PREVIEW] - v1.0.33.6-Hotfix (July 17th, 2022)
   ► What's Fixed?
       ├ ▪ [Runtime] Fixed the launcher to crash while installing Genshin caused by
       │    Read-only files.
+      ├ ▪ [Runtime] Fixed the launcher to crash while calculating uncompressed size
+      │    on zip files during installation.
       └ ▪ [Runtime] Fixed the stable release of launcher get built using
            .NET 7-preview6 runtime accidentally.
 
