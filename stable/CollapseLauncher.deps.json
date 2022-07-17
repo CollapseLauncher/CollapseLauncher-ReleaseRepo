@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win-x64": {
-      "CollapseLauncher/1.0.33.5": {
+      "CollapseLauncher/1.0.33.6": {
         "dependencies": {
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
           "Hi3HelperCore": "1.0.0",
@@ -1065,7 +1065,7 @@
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.33.5": {
+    "CollapseLauncher/1.0.33.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
