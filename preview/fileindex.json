@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.33.4",
-  "time": 1657971666,
+  "ver": "1.0.33.5",
+  "time": 1658064911,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -24,17 +24,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "43F6F160AEE9DA44B1EF817281F0FF60",
+      "crc": "C82BD3A4247030A00CF49AD6079D2808",
       "s": 51366
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "01FF8F9661C5F786F52030FC9E3169B2",
+      "crc": "306452DB99C17F7E53DE12031EE77DEE",
       "s": 1130496
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "0DDE3863EC8F3C3BFB3149F7F484EAF1",
+      "crc": "EAABA1174ACC70DA2841CC797458EEAA",
       "s": 622592
     },
     {
@@ -154,13 +154,13 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "03BB88ED8EFE04CD1D2AE841A1189C0C",
-      "s": 369152
+      "crc": "A8D114E13595BAE8FEDD6B3EAC698B4F",
+      "s": 371712
     },
     {
       "p": "Hi3HelperCore.Http.dll",
-      "crc": "D396501BFB62916D50BA40A19FFDEF99",
-      "s": 45056
+      "crc": "4E6FD19D70513F2BB2A5C116B54F3EEA",
+      "s": 44544
     },
     {
       "p": "hostfxr.dll",
@@ -494,7 +494,7 @@
     },
     {
       "p": "resources.pri",
-      "crc": "32B26ED96F81CAF5B7ADDE13D61EB6FB",
+      "crc": "724569C1D0E338295D6D65B6B0DF0BE3",
       "s": 1358840
     },
     {
