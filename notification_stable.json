@@ -15,7 +15,7 @@
         // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000003 Used
         // Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
         // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
-        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000003 Used
+        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000004 Used
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
         {
             "MsgId": 4,
@@ -49,6 +49,14 @@
             "Title": "Important Announcement Regarding to Genshin 2.8 Update Issue",
             "Message": "We would like to announce you that due to changes on Genshin's Dispatcher data structure, We have published 1.0.33.3-Hotfix build for both Stable and Preview channel to fix update failure issue for Genshin (at least for now). Thank you for your attention and apologize for the inconvenience.",
             "ValidForVerBelow": "1.0.33.3"
+        },
+        {
+            "MsgId": 5000004,
+            "IsDisposable": false,
+            "Severity": "Success",
+            "RegionProfile": "GIGlb",
+            "Title": "Update: Important Announcement Regarding to Genshin 2.8 Update Issue",
+            "Message": "We would like to announce some good news for you. We finally figured out how to read the dispatcher data of the latest Genshin 2.8 update. Yep, you heard it right!. That means, the Pre-Install Verification process and Repair Game feature would be back soon. Also, we will also add a support for these features on 原神 [Mainland China's Genshin Client] So, stay tune for the next follow-up news!"
         },
     ]
 }
