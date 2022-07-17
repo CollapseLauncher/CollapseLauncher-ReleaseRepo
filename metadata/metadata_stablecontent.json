@@ -1,0 +1,175 @@
+{
+  "Metadata": [
+    {
+      "ProfileName": "Hi3SEA",
+      "ZoneName": "Southeast Asia",
+      "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Honkai Impact 3",
+      "ConfigRegistryLocation": "Software\\miHoYo\\Honkai Impact 3",
+      "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3 sea",
+      "DictionaryHost": "http://data.in.seanew.ironmaid.xyz:14000/",
+      "UpdateDictionaryAddress": "update_sea/",
+      "BlockDictionaryAddress": "com.miHoYo.bh3oversea/",
+      "BetterHi3LauncherVerInfoReg": "VersionInfoSEA",
+      "FallbackLanguage": "en",
+      "GameDirectoryName": "Games",
+      "GameExecutableName": "BH3.exe",
+      "ZipFileURL": "https://prophost.ironmaid.xyz/_shared/_zipfiles/sea/{0}/",
+      "CachesListAPIURL": "https://prophost.ironmaid.xyz/api/updatepackage?platform=0&datatype={0}&gamever={1}&usenewformat=true",
+      "CachesListGameVerID": 0,
+      "CachesEndpointURL": "http://ali-hk-bundle-os01.oss-cn-hongkong.aliyuncs.com/asset_bundle/overseas01/1.1/{0}/editor_compressed/",
+      "IsConvertible": true,
+      "LanguageAvailable": [
+        "en",
+        "cn",
+        "vn",
+        "th",
+        "id"
+      ],
+      "ConvertibleTo": [
+        "Hi3Global"
+      ],
+      "ConvertibleCookbookURL": "https://prophost.ironmaid.xyz/_shared/_diffrepo/{0}",
+      "LauncherSpriteURL": "https://sdk-os-static.mihoyo.com/bh3_global/mdk/launcher/api/content?key=tEGNtVhN&filter_adv=false&language=en-us&launcher_id=9",
+      "LauncherResourceURL": "https://sdk-os-static.mihoyo.com/bh3_global/mdk/launcher/api/resource?channel_id=1&key=tEGNtVhN&launcher_id=9&sub_channel_id=1"
+    },
+    {
+      "ProfileName": "Hi3Global",
+      "ZoneName": "Global",
+      "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Honkai Impact 3rd",
+      "ConfigRegistryLocation": "Software\\miHoYo\\Honkai Impact 3rd",
+      "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3rd glb",
+      "DictionaryHost": "http://data.in.seanew.ironmaid.xyz:14000/",
+      "UpdateDictionaryAddress": "update_global/",
+      "BlockDictionaryAddress": "tmp/com.miHoYo.bh3global/",
+      "BetterHi3LauncherVerInfoReg": "VersionInfoGlobal",
+      "FallbackLanguage": "en",
+      "SteamInstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam App 1671200",
+      "SteamGameID": 1671200,
+      "GameDirectoryName": "Games",
+      "GameExecutableName": "BH3.exe",
+      "ZipFileURL": "https://prophost.ironmaid.xyz/_shared/_zipfiles/global/{0}/",
+      "CachesListAPIURL": "https://prophost.ironmaid.xyz/api/updatepackage?platform=0&datatype={0}&gamever={1}&usenewformat=true",
+      "CachesListGameVerID": 1,
+      "CachesEndpointURL": "http://d2wztyirwsuyyo.cloudfront.net/asset_bundle/eur01/1.1/{0}/editor_compressed/",
+      "IsConvertible": true,
+      "LanguageAvailable": [
+        "en",
+        "cn",
+        "fr",
+        "de"
+      ],
+      "ConvertibleTo": [
+        "Hi3SEA"
+      ],
+      "ConvertibleCookbookURL": "https://prophost.ironmaid.xyz/_shared/_diffrepo/{0}",
+      "LauncherSpriteURL": "https://sdk-os-static.mihoyo.com/bh3_global/mdk/launcher/api/content?key=dpz65xJ3&filter_adv=false&language=en-us&launcher_id=10",
+      "LauncherResourceURL": "https://sdk-os-static.mihoyo.com/bh3_global/mdk/launcher/api/resource?key=dpz65xJ3&channel_id=1&launcher_id=10&sub_channel_id=1"
+    },
+    {
+      "ProfileName": "Hi3CN",
+      "ZoneName": "Mainland China",
+      "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩坏3",
+      "ConfigRegistryLocation": "Software\\miHoYo\\崩坏3",
+      "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3",
+      "DictionaryHost": "http://data.in.seanew.ironmaid.xyz:14000/",
+      "UpdateDictionaryAddress": "update_cn/",
+      "BlockDictionaryAddress": "tmp/Original/",
+      "BetterHi3LauncherVerInfoReg": "VersionInfoCN",
+      "FallbackLanguage": "cn",
+      "GameDirectoryName": "Games",
+      "GameExecutableName": "BH3.exe",
+      "ZipFileURL": "https://prophost.ironmaid.xyz/_shared/_zipfiles/{0}/",
+      "CachesListAPIURL": "https://prophost.ironmaid.xyz/api/updatepackage?platform=0&datatype={0}&gamever={1}&usenewformat=true",
+      "CachesListGameVerID": 2,
+      "CachesEndpointURL": "http://bh3rd.oss-cn-shanghai.aliyuncs.com/asset_bundle/pc01/1.0/{0}/editor_compressed/",
+      "IsHideSocMedDesc": false,
+      "LanguageAvailable": [
+        "cn"
+      ],
+      "UseRightSideProgress": true,
+      "LauncherSpriteURL": "https://sdk-static.mihoyo.com/bh3_cn/mdk/launcher/api/content?key=SyvuPnqL&filter_adv=false&language=zh-cn&launcher_id=4",
+      "LauncherResourceURL": "https://sdk-static.mihoyo.com/bh3_cn/mdk/launcher/api/resource?channel_id=1&key=SyvuPnqL&launcher_id=4&sub_channel_id=1"
+    },
+    {
+      "ProfileName": "Hi3TW",
+      "ZoneName": "TW/HK/MO",
+      "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩壞3rd",
+      "ConfigRegistryLocation": "Software\\miHoYo\\崩壞3rd",
+      "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3rd tw",
+      "DictionaryHost": "http://data.in.seanew.ironmaid.xyz:14000/",
+      "UpdateDictionaryAddress": "update_cn/",
+      "BlockDictionaryAddress": "tmp/Original/",
+      "BetterHi3LauncherVerInfoReg": "VersionInfoTW",
+      "FallbackLanguage": "cn",
+      "GameDirectoryName": "Games",
+      "GameExecutableName": "BH3.exe",
+      "LanguageAvailable": [
+        "cn"
+      ],
+      "LauncherSpriteURL": "https://sdk-os-static.mihoyo.com/bh3_global/mdk/launcher/api/content?key=demhUTcW&filter_adv=false&language=zh-tw&launcher_id=8",
+      "LauncherResourceURL": "https://sdk-os-static.mihoyo.com/bh3_global/mdk/launcher/api/resource?channel_id=1&key=demhUTcW&launcher_id=8&sub_channel_id=1"
+    },
+    {
+      "ProfileName": "Hi3KR",
+      "ZoneName": "Korean",
+      "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\붕괴3rd",
+      "ConfigRegistryLocation": "Software\\miHoYo\\붕괴3rd",
+      "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3rd kr",
+      "DictionaryHost": "http://data.in.seanew.ironmaid.xyz:14000/",
+      "UpdateDictionaryAddress": "update_cn/",
+      "BlockDictionaryAddress": "tmp/Original/",
+      "BetterHi3LauncherVerInfoReg": "VersionInfoKR",
+      "FallbackLanguage": "cn",
+      "GameDirectoryName": "Games",
+      "GameExecutableName": "BH3.exe",
+      "LanguageAvailable": [
+        "cn"
+      ],
+      "LauncherSpriteURL": "https://sdk-os-static.mihoyo.com/bh3_global/mdk/launcher/api/content?key=PRg571Xh&filter_adv=false&language=ko-kr&launcher_id=11",
+      "LauncherResourceURL": "https://sdk-os-static.mihoyo.com/bh3_global/mdk/launcher/api/resource?channel_id=1&key=PRg571Xh&launcher_id=11&sub_channel_id=1"
+    },
+    {
+      "ProfileName": "GIGlb",
+      "ZoneName": "Genshin Impact",
+      "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Genshin Impact",
+      "ConfigRegistryLocation": "Software\\miHoYo\\Genshin Impact",
+      "DefaultGameLocation": "C:\\Program Files\\Genshin Impact",
+      "FallbackLanguage": "en",
+      "GameDirectoryName": "Genshin Impact game",
+      "GameExecutableName": "GenshinImpact.exe",
+      "GameDispatchURL": "https://{0}.yuanshen.com/query_cur_region?version={1}&platform=3&binary=1&time=256&channel_id=1&sub_channel_id=1&account_type=1&dispatchSeed={2}&key_id=3",
+      "ProtoDispatchKey": "caffbdd6d7460dff",
+      "IsGenshin": true,
+      "IsHideSocMedDesc": false,
+      "LanguageAvailable": [
+        "en"
+      ],
+      "UseRightSideProgress": true,
+      "LauncherSpriteURLMultiLang": true,
+      "LauncherSpriteURL": "https://sdk-os-static.mihoyo.com/hk4e_global/mdk/launcher/api/content?filter_adv=false&key=gcStgarh&language={0}&launcher_id=10",
+      "LauncherResourceURL": "https://sdk-os-static.mihoyo.com/hk4e_global/mdk/launcher/api/resource?channel_id=1&key=gcStgarh&launcher_id=10&sub_channel_id=0",
+      "DispatcherKey": "9AE1F490FCDFAFE6D2B5EEB5AB9AF48284C4D3F0F3D1D9F386CCCAB2ECEDD3EEFF89D0D5909DE28384E697B7A98BE0EEABCEF2A6EECBA2CDE19AC6CDDECBACBF8DC287DBEB9BECB7BEF8CBDFFB9F9AD4EE8BD6FDBAE1C088EACBB2F8D79BF9E686D8B486C7EFA5ECBE9BF0E1BCE4C8B2F1CDBBCAE4D5CCDE85F9E3B7C9CE8ED7D2D0D0D39EE4A8D5CFEEB9EBC0ADE8FEDCF3E9D2DADFD1F6EBA1B3EE9BFAB4CCCBC1A0DBF582D8F4A19EC5BDC7CDD7C3EB82FBDD89C6C8BFD49B84B3F0A7AEECDDE6E1B18BED8EE5D6A1D3FEBA9BE8B4D3FDB5D1FEB5D4F1B2E4EA86F7C085E8CDD3E9B49F9FD08CEBE493F5CF85CDFE9EE6B0A9F293A2B4FFADF1D5BDC4DEB3EAC5ACB0BF81CEC6A6CFF780D6C7D5C9BE88CCFDADEEB6808EC091F0F4A0D5B183EFE4BFDACDCCF6D2A2C4E384E4CC9F929992D8B2A1E4CAA0EBFFD6C9C6B7B6FF90C7E690F3E4AE85F3D5F5DFD4CFC0DEC4E6A4E49CB4F0F2A5B1C28BCDD297F2C292C4E392F1AF91CFD0D6E4FD99EBFC99B7B7AFDBED8A8FF882DAC9B5B9B49FEBB79FCFCED5B5EBA4B1F3C39EC68FF7DEDBB6E982D8BD80C9E4DF8EE8A5BAEEA6E5B2DED2C8A0F0FF91E3E7AFD0C68AC8D2A1F9DDDBB7C4A4B4CE8FDFCEABC8CDAFE7ECBAE3AF90FEE5C8C4CEC8E6CFD2F2EFDDF9EAB0D1DFD1E9EEB5B0EDA09AD0A0F7C987EECFABCBDD81CBCED2D7F382B1F5BAFBE0D0CBF58192C7ADCED4DBECF2B2EEACB18C9AB9C6B785CFED87E7BF8BE9CFA8ECEC8EF9B3D1FBD189E8EBB6B1F3DAB1E69BEBD2D48EF9B9CFE29AC3ABA4E2C28DFBD2A5E3FEA5F8CAA3FFE5BEF1FEA1D8BE88D4D0D0C7F181C7C386FBCBC8C3C6ABE7D494F2E6D1E9C497E8D5BDC0C394D4CE80F7CCD7B6B4BCF2D083C5EBA0E1CDDBC4F0A998E2D6DAC597B2F7A9D4F698CCF5968CEBB0EAB180B0B5BA99A88CDCC3ADFAC394B2E1ACC7C5B2F09DD0F0EE80E6E5DECBE893FEC6AFF1E3A1C3B091F8D484D49385F1B788DBEF98EDC185CF9BAFE1B095EEEBD9DCB7A88FE4A9EDEB8CD5B783E7F784F4C8A9E5D2D5EBEBA9E3D1D3FCE0B7EBE4B6ECC0DED3C2A1D3CDA5D0EC81AADDD1C4C0D58FEDB2B1B68CCBEE90E3FDD0F2FDA1B1F0B2D5EE8DEED6B6C9E9BBEFCFB3EFE6BC92AC9EFFE18FB7F5A0B7F7C7DCC1D3FBCEA1EACEABD3E2BE9FFEA6F8859BF2BFD5C0D299F2EA82C5E7B4B1FF97EBCB98D2A893E9FF8CBBECB0CEF1BEE9F6CCC4EBBAB6F5A0D7E6D8D8E985DCCDB6B6FEB1D7EAA5FBD6ABE5EFA9E4C2A7DBECD8DDCDA1D9CDA8D0C28DF6B19DE9E9ADC79CBBC5A9B2C0E08FF0DFA9DCE889F6D4B7D7B292ECB09EF8C1B1F5E29BF3EDADE5B28DFFECBBB4F6A4CFD7DAE3EDA1D89285CDD1A8D4C59998C8B3D3DB97E8E3A6F2CDBFFECAB392CCABCDCE94E6E0A3FAE5B4F9DF8FCAD58FC8B0D9E2DF96CCE490B6D4AAEAF0A9F0EFB6DB9BA1D5D497C2F791C5C1A2D7FCD6D6F5A0CFEEAEFDDD88DAE9ADF2CAB6CFE086F0C696CCC68EE3F289CFB18699ECA0C8C4A1DBC882D1C7BCD2C8D1CE81A0DBADB0E0D182F0F7B18CE589CFD199F5EE9B9DDDAF89D892BBB492EAD09FFABF84FBD98BC8B484ECF49B93D78CD5C4B7F1B38BCCE88D85F5859285D7B4B29BD3FCAEE0F092C7D2ABD6B68DEED0D1FDD6BFFAD9B5F0F489B7B1D0C8CE83D9DDAACDF7BBFBC0DFCCB0A889FCA4D6B7BBF3F3B1C7E895D8CFB9CBDE90FBC9B0CCEF8FFAE7CCDABE85D4D79AE5F18AE8C894F7CEA2D4CD81E2CEA38FFFA9B4EE8ACDB1AA9BE89DFF9E8AC6B6ABD7F7AA9CD5B0EFDC87D3C8D7D9FDADFCCDB1D2C7AAE5ADD3B5FC90EBFDAFFBEED3CCFCA2F0FEBBE8C38CEA819BD0EC81D8FD98CDB5D2F6CF8FE1FF8CC4F19C92C39196E2DBD8B3D2CFE89D85DEAAE4CB8FD1D091E0EEA285CA88969EB4D3DFDBF8EBAAE9B490CEDCA0B3E1A0E8ECDA98E483E5EFD7D6D4DAF4FCC3DDC095F1FB94B0DEB3CFE1BECBEA91CC92B6F8B68CE2CC98C7D4AEDEC3B5D1D3D7CCCABD81F7A4EE8592F1C9A9CFD18092B5B5E8DB8FE7E382ECAFA0D9EA8DF0F095F6ADA0D2F3DAD3FDB3EC9E9AC0BE99D1EA90DAFE84C7E2B2E6EDB1C8C5D0C9D7A0C4E9ACD0FCD5E5E7DDF9F689FBF3A7F1EEB6F5DC86FFD3A4ECF08FE3F1BBD7D780E5D4B4EACD88F2CD86B2ABDE9FBEAF8BF0D6EDE1DBB8D381C9E692CFDC84D2E9DBF3B5AC92B5CCFEE790F1D4ABF9ABBAFFECCCCE9AA9F3D2DBF6D7DD9FE6A9E7E3A0F1BEA1C6D0A093E5D6D1F28CF3D394E2C687E1C3CCE8C692EEB0C8ECD2ABEEC994F6E08CF2E2D0C6FEBC9AE2B5EEED9BEAC0BAC5B381F8E3ACCEE98DCED1B5CCF683C5CBA48FEE91F7E1C8E0EEBEFFE08DEACF89B7D6CCD0C78FF0DD8BF3FAB4EFD5BBEFB19FE4F5B7F69E84B3E28BD7DEA993DF8A89FFD2A9B1A6CFB28A92FFA1F9DDA6E6EE9BB9AFBEE2E3AAFEC9A8F0E8AED9FDDEFDD595DCF390F3B49AC5C6B29DB7D1F2F992B1B6B7E5E2D1C7CA858C8199F7C599CCFC83E6E6B78C92D7D5ADB1D1F787EBC496FFC0B5D0CAA0EFDDBFF3EEA0FAEF95BAECB1ECE6AFC4D38EFFFCA2B3D0CCC0CCADEBE4AFEBEDB9C3D2A5DBF5D9DFE99F8EDC8ED1E9ADB3E5BEF2E38FEAD9A9C3B0BBE2E087FBE6AE8B9ADACBDFB5B9C5A2E2D683CC9FB7CDFC91CCC591C8EFB6E5E88BF8EC85B7CA9DF9E2B4D4D8D0EDB593C9FDD0D3E6A68CDDA0D0E584CCCDDF81E4B1EDC980B3C4B4C0D0DFFFCCB7FEF9A4CAD4ACE0C5A39FD7D5DA9EADB4F3C8B0C1DA99BF86859CA8E5F0D3C5FDB89DE4D4C4DB8DDBB4AED6D58EFDE0B2C7DA91BAE9A7CDABD0C5D3B0CDC7B9D6E29BB6BCA4C9C592FEEDA8CFE593DBF792FAD6B68C9EAACCF5AFECFE82CCE5D1EDC589D7BFACEFBC9CC5FDB2FACDCCB2CFAEB5D1999BEBBDF899A0CED6B1CFE9A1D9F595F8CDBBE5C3AEF1CEACE4FD8CF09D8EB0F19ACDC6ADF2D790F6FED7EBC78FF5D58A9ACBD2F69E81FAB686D7AB91F0EF93CEFEAAF6C58FCEDDAED2F4AD8ECCD4BACBD5C7F581EEC185F4DDB6EAD192C5DC92C3ECAEE4D0A2ECF681B5F3D9FBFDD688C6B7B1C4D7F9AFDEC6C0BFEEF2AFD5E799B1D2B8E8C6DE8ED988B4EDA9CCB39DFABEB6CBDD93FAEBA9E8FCBBDCC3A0D89985D6C092B1B5A2DBF2AD96DEA7E4CCB6F5C3C3CCBEA2C5C588B3CAD2E3F090FCDEACE7E397ADECD2E2F39AD0ACA3F2FDA6C7EAA6E6CBB1E4F4BDCDEBB3B6E5AFD0B084DEDE9088929ACDE4B4C7B2DAE4C2A2FFE880FAE9B7F7D69BCDFE88EF9DD1B5C5A5CDC58BD2B2AD8AC9ADB1CAA9E5F3BCF8B7B5F9EBD7F0E8D2E7F2A6C6CFBF8DC488C8C781C5EB8EC6CBB4CD859BF6EFACE9D4A1EFCBAEDADBACD5C98ED3EEADEFECACDBFF8DD2F3DAB5CC8ACBD08A8ADFB3ECE28BCDC98CC3C1D48593B5FAC481B8DD90EDE1AF88FC8BF5CBABC0E0DCFAF2D2D0DFB5C1DC8AFBC08BE5D29EDADCB5B1C597B6B49DE7F7D18BE3B5F8E4DBB4FDBBC8C290D1D9B4D3C9A2CAE8DEDDBEDEF7FD80B1DCD3B0BDDBE8F088D4EB96CBB094ECC1A6DEB69EE5E7D0CEC4D6E0E3B1C0C6D0F6DDACC7E88CCCEF9BE9CDABC9F8D5C1F4A2EEDCBEECC282D0C897C5E889F2B291DBA895DBD0A8F7DC94EAC189CCF4BEF9C690E9B1ABB2C99B98E0B6",
+      "DispatcherKeyBitLength": 256
+    },
+    {
+      "ProfileName": "GICN",
+      "ZoneName": "原神",
+      "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\原神",
+      "ConfigRegistryLocation": "Software\\miHoYo\\原神",
+      "DefaultGameLocation": "C:\\Program Files\\Genshin Impact",
+      "FallbackLanguage": "en",
+      "GameDirectoryName": "Genshin Impact game",
+      "GameExecutableName": "YuanShen.exe",
+      "IsGenshin": true,
+      "IsHideSocMedDesc": false,
+      "LanguageAvailable": [
+        "en"
+      ],
+      "UseRightSideProgress": true,
+      "LauncherSpriteURL": "https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/content?filter_adv=false&key=eYd89JmJ&language=zh-cn&launcher_id=18",
+      "LauncherResourceURL": "https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?channel_id=1&key=eYd89JmJ&launcher_id=18&sub_channel_id=1"
+    }
+  ],
+  "MasterKey": "D4F8D4A6F6CF9AD4E78FF4E1D696CA88D9DF8FF7F5DDF3DC87E1D08A8598A9D1DED7D4DD81C2EC938FECB0E8F493B2F4B2DBD39FC99CA2FBCCD3DBE190E2F494EEDEBAE7F5A0C7F1BDE5EAA3FFD888B2E89BD1D0B198F5D0D2E8D7D8C5DAF5C080E2FD8AFC9CD5CFE3D6B7F383EEB3D0E79985C1C3A1E7C8AED2EAA2EBCEB6C1F0AEB0D6A1ECE3B6C5FBA0C0B1A0CCE5AEFDDFAFD2FC85C0EEADE2C0DE9AC893E5EED4B3F0A5F4F7AAE6EE88DC9CABC6CE81CAEFD0E6E380EACEB5B3B6ACD6E5AD97BBC8F0C587F7EA96F2BAD4EFFF97D2C486ECF2DDC4D5D597BBC8F8D293EDE886EFF0D696D7D98C9CA4EBF191E6C7AFDCE4BEDFCDB0D8C9A1CBD6909EC0DED6C38CC5E186F9C8BBD3D0D18FC3A8B6C396D5B4B0DFBE9FC4CC8FC0C282C2B091C5E8A1D6D291E4EA92C4C5A1C3C281E9DBADC5EABAE4CE83D9ACD2CCDDDEBFBACCD1BAD4FBB99DDBFBBAB6E2B4E8ABACC6E8D485D3D5FAF0BBB5F4BDEFC68D8CC281E7C08CAED581D3B0AF8D9AB3B2BEDAD6B4A3E9B1AAD9C3C8C5DFD7D4F1BAEDCD93DAF2D4D7DC85C6D58CE2D58D85C7A1E8EF89C7FD80FFEBD3CA97DEBEA9B2BFB8ACFAB984D4C28FCDE389F8C083CBD283D3D88DF6C3BBF7C0D8F9F1978ADC8FD7BF87FBCED0C3F2A9C781ACEDCC87D4C983E1CF8EECDEDBFBF092B9C89E99C0938DDAD1DAF5D1B1FC9BF3BE90F9C2B0EBB4BBE7E5D1CEEEB4CA97DEBEA9A7D1BAD4EED6D9FAEE91D4F1A7E5C5BFCFEE8E8AF980EEC5A5EAF7BC9CB6ABE5E98AC6C9D2D9F4BDD2D5B4ED8191FBFCB9AEF7AFE3F38FF0DD93F5F2D4DBE791C4F6AECFEBA0B2CCD4E4C59EE2CAADD0E2AAD2D686E0F0DA9EE8A2D9FBDEBFBACCC5D5D696CE89CBCF91F1E3B2BFD4DC85F180CC9BBBC4B1D4CFBCA385C89FE9C880E8D1A5C2C7D9CEAC918EFDD6FAD1B2CBE685FFB4ACDBFCA5B0F1ACD2F0B2CFCEABE998BBB3B490B6C5A0EEAC92E8CCADBBC9CCF9E0ADE8CE82CCC9B0CED09BD6EE9F97BADB92E38DF4E391F2E1B994BBA383C5D3D5F0B9C2FC9EE7E0B0D8CB97F0FF81C3F2A1DCEBB0EC9ABBB4C5AFC7DDB1CFB5928998A4DAF6AACDEF8ADAB4B7FBDF99CAF08DEAF19FC3F7C8C4EDD0B7D48FEDD7DACFE1A0D7CCABC7B68BE6C5DBC9E69DCFE484CFB084C3C08BECE6D0D4D08DF4EFAAE8D5BCD3D49FFBDF99FBB58ED9F482F9D6A1DCED84E6F08EF4D1B9E6E08088DB82EAE587C6E3BC9EB2D2FBD08CB7C1B0F4AFA1D3D397F98187CCE9A8F8B3D1E4CBB3DFDC89C7BBDFAEC0D696A8B5EEEBA8E7FFB5E0E89DCFB9",
+  "MasterKeyBitLength": 128
+}
