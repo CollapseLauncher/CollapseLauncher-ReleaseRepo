@@ -1,6 +1,6 @@
-- Collapse [PREVIEW] - v1.0.35.0 (July 19th, 2022)
+- Collapse [PREVIEW] - v1.0.35.1 (July 19th, 2022)
   ► What's New?
-      ├ ▪ [Runtime] Update NuGet packages.
+      ├ ▪ [Runtime] Revert NuGet packages to stable release.
       ├ ▪ [Runtime] For now on, we will stick with .NET 6 Runtime.
       │    This will reduce dependencies size and inconsistencies in the future.
       │    Once .NET 7 has hit stable release, then we will go-on to move to .NET 7.
