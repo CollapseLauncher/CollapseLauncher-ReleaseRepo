@@ -1,3 +1,23 @@
+- Collapse [PREVIEW] - v1.0.35.0 (July 19th, 2022)
+  ► What's New?
+      ├ ▪ [Runtime] Update NuGet packages.
+      ├ ▪ [Runtime] For now on, we will stick with .NET 6 Runtime.
+      │    This will reduce dependencies size and inconsistencies in the future.
+      │    Once .NET 7 has hit stable release, then we will go-on to move to .NET 7.
+      ├ ▪ [i18n - en] Update English translation.
+      ├ ▪ [i18n - id-ID] Update Bahasa Indonesia translation and fix some typos.
+      ├ ▪ [Launcher] We are now using updatable metadata for each game/region.
+      │    In this way, we can update the launcher key without updating the launcher executable.
+      ├ ▪ [Launcher] Minor Update on UI.
+      └ ▪ [Launcher/Genshin] Repair Game feature and Pre-Install Verification process is now back
+           to live and ready to try.
+
+  ► What's Fixed?
+      ├ ▪ [Runtime/Genshin] Fixed the possibility for the launcher to crash while running Repair
+      │    Game feature in Genshin due to Read-Only files.
+      └ ▪ [Runtime] Fixed the repair mechanism taking so long to get cancelled.
+
+
 - Collapse [PREVIEW] - v1.0.33.6-Hotfix (July 17th, 2022)
   ► What's Fixed?
       ├ ▪ [Runtime] Fixed the launcher to crash while installing Genshin caused by
