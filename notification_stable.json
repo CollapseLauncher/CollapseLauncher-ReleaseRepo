@@ -10,36 +10,36 @@
         },
     ],
     "RegionPush": [
-        // Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 4 Used
-        // Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999 : 1000004 Used
-        // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000003 Used
+        // Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 5 Used
+        // Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999 : 1000005 Used
+        // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000004 Used
         // Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
         // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
         // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000004 Used
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
         {
-            "MsgId": 4,
+            "MsgId": 5,
             "IsDisposable": true,
-            "Severity": "Warning",
+            "Severity": "Success",
             "RegionProfile": "Hi3SEA",
-            "Title": "Announcement Regarding to Hi3Mirror Services Shutdown (2nd Time)",
-            "Message": "We would like to announce you that regarding to Hi3Mirror Services Shutdown, some features like Cross-version Conversion, Steam to Global Version Conversion, Game Data Repair and Caches Update would be unusable and causing the launcher to crash. For now, we are just hoping that the services could be back again on July 21st, 2022. At this moment, we really thank to you so much for your support to give this project a try. I hope we could reduce this kind of interruption in the future.\r\n\r\nSincerely,\r\nneon-nyan"
+            "Title": "Update: Hi3Mirror Services are Back to Online",
+            "Message": "We would like to announce that Hi3Mirror is back to online! The features that require this service like: Game Repair, Caches Update, Cross-version Conversion and Steam to Global Version Conversion are now accessible. We really thank to you so much for your patience and apologize for the inconvenience that occurred.\r\n\r\nSincerely,\r\nneon-nyan"
         },
         {
-            "MsgId": 1000004,
+            "MsgId": 1000005,
             "IsDisposable": true,
-            "Severity": "Warning",
+            "Severity": "Success",
             "RegionProfile": "Hi3Global",
-            "Title": "Announcement Regarding to Hi3Mirror Services Shutdown (2nd Time)",
-            "Message": "We would like to announce you that regarding to Hi3Mirror Services Shutdown, some features like Cross-version Conversion, Steam to Global Version Conversion, Game Data Repair and Caches Update would be unusable and causing the launcher to crash. For now, we are just hoping that the services could be back again on July 21st, 2022. At this moment, we really thank to you so much for your support to give this project a try. I hope we could reduce this kind of interruption in the future.\r\n\r\nSincerely,\r\nneon-nyan"
+            "Title": "Update: Hi3Mirror Services are Back to Online",
+            "Message": "We would like to announce that Hi3Mirror is back to online! The features that require this service like: Game Repair, Caches Update, Cross-version Conversion and Steam to Global Version Conversion are now accessible. We really thank to you so much for your patience and apologize for the inconvenience that occurred.\r\n\r\nSincerely,\r\nneon-nyan"
         },
         {
-            "MsgId": 2000003,
+            "MsgId": 2000004,
             "IsDisposable": true,
-            "Severity": "Warning",
+            "Severity": "Success",
             "RegionProfile": "Hi3CN",
-            "Title": "Announcement Regarding to Hi3Mirror Services Shutdown (For the 2nd Time)",
-            "Message": "We would like to announce you that regarding to Hi3Mirror Services Shutdown, some features like Cross-version Conversion, Steam to Global Version Conversion, Game Data Repair and Caches Update would be unusable and causing the launcher to crash. For now, we are just hoping that the services could be back again on July 21st, 2022. At this moment, we really thank to you so much for your support to give this project a try. I hope we could reduce this kind of interruption in the future.\r\n\r\nSincerely,\r\nneon-nyan"
+            "Title": "Update: Hi3Mirror Services are Back to Online",
+            "Message": "We would like to announce that Hi3Mirror is back to online! The features that require this service like: Game Repair, Caches Update, Cross-version Conversion and Steam to Global Version Conversion are now accessible. We really thank to you so much for your patience and apologize for the inconvenience that occurred.\r\n\r\nSincerely,\r\nneon-nyan"
         },
         {
             "MsgId": 5000003,
