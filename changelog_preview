@@ -1,3 +1,12 @@
+- Collapse [PREVIEW] - v1.0.35.2 (July 24th, 2022)
+  ► What's New?
+      ├ ▪ [Launcher] The launcher will auto-detect if the Media Feature Pack exist on your PC
+      │    If it doesn't, it will ask you to install the feature to prevent cri_ware_unity error.
+      ├ ▪ [Runtime] Update NuGet packages.
+      ├ ▪ [i18n - en] Update English translation.
+      └ ▪ [i18n - id-ID] Update Bahasa Indonesia translation.
+
+
 - Collapse [PREVIEW] - v1.0.35.1 (July 19th, 2022)
   ► What's New?
       ├ ▪ [Runtime] Revert NuGet packages to stable release.
