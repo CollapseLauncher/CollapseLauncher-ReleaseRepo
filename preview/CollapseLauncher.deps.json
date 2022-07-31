@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/win-x64": {
-      "CollapseLauncher/1.0.35.2": {
+      "CollapseLauncher/1.0.35.5": {
         "dependencies": {
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
           "Hi3HelperCore": "1.0.0",
@@ -1040,11 +1040,11 @@
           }
         }
       },
-      "Google.Protobuf/3.21.2": {
+      "Google.Protobuf/3.21.4": {
         "runtime": {
           "lib/net5.0/Google.Protobuf.dll": {
-            "assemblyVersion": "3.21.2.0",
-            "fileVersion": "3.21.2.0"
+            "assemblyVersion": "3.21.4.0",
+            "fileVersion": "3.21.4.0"
           }
         }
       },
@@ -1174,7 +1174,7 @@
       "Hi3HelperCore/1.0.0": {
         "dependencies": {
           "Crc32.NET": "1.2.0",
-          "Google.Protobuf": "3.21.2",
+          "Google.Protobuf": "3.21.4",
           "Hi3HelperCore.Http": "1.0.0",
           "Microsoft.Win32.Registry": "5.0.0",
           "Newtonsoft.Json": "13.0.1"
@@ -1199,7 +1199,7 @@
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.35.2": {
+    "CollapseLauncher/1.0.35.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1312,12 +1312,12 @@
       "path": "crc32.net/1.2.0",
       "hashPath": "crc32.net.1.2.0.nupkg.sha512"
     },
-    "Google.Protobuf/3.21.2": {
+    "Google.Protobuf/3.21.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-91vdjMcbesfibUtE2n6bVWelT+7J7hExMb9WAEQXuM748+aoIrrUECkIBCmQG+RiM4KvEccVgutFdzl1l6G+Rw==",
-      "path": "google.protobuf/3.21.2",
-      "hashPath": "google.protobuf.3.21.2.nupkg.sha512"
+      "sha512": "sha512-2dmAaFK3brEBdte0vZDP7L/UZV8SgZXYweNPy5qHCbTzj+eTvQpRRAAmd4ErGXCPn6x5rZxEBSINGUJiGms4WA==",
+      "path": "google.protobuf/3.21.4",
+      "hashPath": "google.protobuf.3.21.4.nupkg.sha512"
     },
     "ksemenenko.ColorThief/1.1.1.4": {
       "type": "package",

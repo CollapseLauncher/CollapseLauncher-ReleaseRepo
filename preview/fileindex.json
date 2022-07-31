@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.35.2",
-  "time": 1658719572,
+  "ver": "1.0.35.5",
+  "time": 1659261248,
   "f": [
     {
       "p": "api-ms-win-core-console-l1-1-0.dll",
@@ -234,17 +234,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "8CA5CE8346422D51EEC0D292A0B17082",
+      "crc": "B9B72DEC4AAD60604F05AF0382C8D8CD",
       "s": 55884
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "D962576E98A505BAEF0880CF22763D1D",
-      "s": 1141760
+      "crc": "774368A4346612BC25B13608A64B1B4C",
+      "s": 1137664
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "DB1621AE2FD920ADF5318E1D6E24D3F0",
+      "crc": "F752E00382E6A8518699901C6130BA91",
       "s": 617984
     },
     {
@@ -364,23 +364,23 @@
     },
     {
       "p": "Google.Protobuf.dll",
-      "crc": "74585C740B4A227F5C51A13AD45C653D",
+      "crc": "B11F43B10B3E564502BE5DFC93BBE754",
       "s": 409416
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "BBB717F62F1409794618D24FCD55DE01",
-      "s": 356864
+      "crc": "DDD3E7478848024C391033F8B9276E22",
+      "s": 357376
     },
     {
       "p": "Hi3HelperCore.EncTool.dll",
-      "crc": "5937C9039EE97DF963CC7FEB9DE267C3",
+      "crc": "D47B0A91E9DAFD58F62666020FCDBA28",
       "s": 14848
     },
     {
       "p": "Hi3HelperCore.Http.dll",
-      "crc": "3AE951BC1D375392409E661288A86261",
-      "s": 44544
+      "crc": "2E5DB1D196DC58592198F8AD1CFF8387",
+      "s": 45056
     },
     {
       "p": "hostfxr.dll",
@@ -673,11 +673,6 @@
       "s": 1321888
     },
     {
-      "p": "mscordaccore_amd64_amd64_6.0.622.26707.dll",
-      "crc": "FDC73728A6DC11E82A0848F1927F4F69",
-      "s": 1321864
-    },
-    {
       "p": "mscordaccore_amd64_amd64_6.0.722.32202.dll",
       "crc": "5B80593983E2C369ABB8F322E9C5EE28",
       "s": 1321880
@@ -719,7 +714,7 @@
     },
     {
       "p": "resources.pri",
-      "crc": "AAAD2B74A6DFC28ACFD82704CE57B789",
+      "crc": "8C3ACAC340BB41362356B4DE2409413B",
       "s": 1359040
     },
     {
@@ -1904,8 +1899,8 @@
     },
     {
       "p": "Lang/zh-cn.json",
-      "crc": "B5996844F00B36CEE289B307CD1B5584",
-      "s": 24451
+      "crc": "F237E82259DFA526F8D216A5F3A6F0F9",
+      "s": 25774
     },
     {
       "p": "Lib/7z.dll",
@@ -1939,8 +1934,8 @@
     },
     {
       "p": "Misc/InstallMediaPack.cmd",
-      "crc": "AB7623335FDC6AA89476202E4E3D72CC",
-      "s": 249
+      "crc": "A751482B29C3D5B4442483ECFF54644C",
+      "s": 247
     },
     {
       "p": "ms-MY/Microsoft.ui.xaml.dll.mui",
