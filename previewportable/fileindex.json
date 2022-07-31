@@ -1,6 +1,6 @@
 {
   "ver": "1.0.35.5",
-  "time": 1659259099,
+  "time": 1659259682,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -19,7 +19,7 @@
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "F9783AEB1186FADB60E14B00ACEA499C",
+      "crc": "D153BAA80C3D72F1DEDA623346A0FE73",
       "s": 1137664
     },
     {
