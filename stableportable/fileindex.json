@@ -1,0 +1,1096 @@
+{
+  "ver": "1.0.36.0",
+  "time": 1659434731,
+  "f": [
+    {
+      "p": "ApplyUpdate.exe",
+      "crc": "E4F0234AA046AFA6616E5FDD902DD490",
+      "s": 6656
+    },
+    {
+      "p": "ApplyUpdate.exe.config",
+      "crc": "07C7BD25442B92D5E654D2B47EA63EC0",
+      "s": 176
+    },
+    {
+      "p": "CollapseLauncher.deps.json",
+      "crc": "BC2553666C0FA0E33F3B240327C41772",
+      "s": 27161
+    },
+    {
+      "p": "CollapseLauncher.dll",
+      "crc": "CF7EF61404513DA19C020C66DFC35195",
+      "s": 2089472
+    },
+    {
+      "p": "CollapseLauncher.exe",
+      "crc": "4CC161639A8029986790E127C2DA6745",
+      "s": 617984
+    },
+    {
+      "p": "CollapseLauncher.Hi3CacheUpdater.cmd",
+      "crc": "4790893BE7EF44BE9B64319193D3C21A",
+      "s": 73
+    },
+    {
+      "p": "CollapseLauncher.runtimeconfig.json",
+      "crc": "31FE29CEA8122852EA2D9917AD703932",
+      "s": 459
+    },
+    {
+      "p": "ColorCode.Core.dll",
+      "crc": "86E80772620F2512F633E7C9918E68AB",
+      "s": 189952
+    },
+    {
+      "p": "ColorCode.WinUI.dll",
+      "crc": "2711E2479C843B8CC5BBF7C436435291",
+      "s": 17408
+    },
+    {
+      "p": "ColorThief.Netstandard.v20.dll",
+      "crc": "059498364AA8256A222CF7AF5C8A2884",
+      "s": 44544
+    },
+    {
+      "p": "CommunityToolkit.Common.dll",
+      "crc": "8724D651D07399F3EE96CE89B29D54B4",
+      "s": 63488
+    },
+    {
+      "p": "CommunityToolkit.WinUI.dll",
+      "crc": "43346AF8DE4F79CDD7664808527C5536",
+      "s": 271872
+    },
+    {
+      "p": "CommunityToolkit.WinUI.UI.Controls.Core.dll",
+      "crc": "E3CF45BAED808277A61439995585C6B8",
+      "s": 600064
+    },
+    {
+      "p": "CommunityToolkit.WinUI.UI.Controls.DataGrid.dll",
+      "crc": "794CB721E8B2CD0B04EC8C6FB606FC30",
+      "s": 1149952
+    },
+    {
+      "p": "CommunityToolkit.WinUI.UI.Controls.Input.dll",
+      "crc": "9006F206F092F12562B2CBABCF61E185",
+      "s": 661504
+    },
+    {
+      "p": "CommunityToolkit.WinUI.UI.Controls.Layout.dll",
+      "crc": "46F8FAA277D9279B1242C89FDA5EAC07",
+      "s": 392704
+    },
+    {
+      "p": "CommunityToolkit.WinUI.UI.Controls.Markdown.dll",
+      "crc": "D6C4E2C16F0F3411D68065AC9B018FBF",
+      "s": 513536
+    },
+    {
+      "p": "CommunityToolkit.WinUI.UI.Controls.Media.dll",
+      "crc": "D17F1F5571EE3319D0699809223065B3",
+      "s": 381952
+    },
+    {
+      "p": "CommunityToolkit.WinUI.UI.Controls.Primitives.dll",
+      "crc": "A1E0CF370670D06E0F7E81CAFD0B77FA",
+      "s": 146944
+    },
+    {
+      "p": "CommunityToolkit.WinUI.UI.dll",
+      "crc": "2DD0DB8A297B97DAEF2EDBB3F2A331FE",
+      "s": 446464
+    },
+    {
+      "p": "CoreMessagingXP.dll",
+      "crc": "A8A60EA6385BA84A5C81A82713CC52DB",
+      "s": 1038224
+    },
+    {
+      "p": "Crc32.NET.dll",
+      "crc": "0AD12E41AAEE5EB829339C6BADEBB9BA",
+      "s": 15360
+    },
+    {
+      "p": "dcompi.dll",
+      "crc": "53C4B5A824D0FCBBB9CD578F683A7D61",
+      "s": 1890192
+    },
+    {
+      "p": "dwmcorei.dll",
+      "crc": "2056EFE10D6939643FB2D2709E82DCC0",
+      "s": 3430288
+    },
+    {
+      "p": "DwmSceneI.dll",
+      "crc": "CDA9D368B5832D4FCD0DFB682FC081A3",
+      "s": 2344840
+    },
+    {
+      "p": "DWriteCore.dll",
+      "crc": "2E77E17FB53EE73B55DF3C94A243AC54",
+      "s": 2879392
+    },
+    {
+      "p": "Google.Protobuf.dll",
+      "crc": "1711A7BE4B08138D6497D92E17F11682",
+      "s": 1163776
+    },
+    {
+      "p": "Hi3HelperCore.dll",
+      "crc": "921A5315120CE701BFD8E874553163EB",
+      "s": 670720
+    },
+    {
+      "p": "Hi3HelperCore.EncTool.dll",
+      "crc": "D2626B87D04BAA03CB205C9F477C69A0",
+      "s": 26112
+    },
+    {
+      "p": "Hi3HelperCore.Http.dll",
+      "crc": "2CDFA30CA7A20B72B5CE9ACAA79F5260",
+      "s": 99840
+    },
+    {
+      "p": "marshal.dll",
+      "crc": "BEB05566100CD4CB98A482128EE1CED3",
+      "s": 493448
+    },
+    {
+      "p": "Microsoft.DirectManipulation.dll",
+      "crc": "1DAD46480EF3DEC9A8372ED4FE04B63F",
+      "s": 681864
+    },
+    {
+      "p": "Microsoft.Foundation.winmd",
+      "crc": "96534E1FF8769FB39D0AFF9B4A411486",
+      "s": 11656
+    },
+    {
+      "p": "Microsoft.Graphics.Canvas.Interop.dll",
+      "crc": "76D05815E4EEEE75DDBF4F067B60EBEC",
+      "s": 3278336
+    },
+    {
+      "p": "Microsoft.Graphics.winmd",
+      "crc": "BACD7BE81D4023D46F710CAD2FF42883",
+      "s": 16776
+    },
+    {
+      "p": "Microsoft.InputStateManager.dll",
+      "crc": "D4ED477761323718D7EEE35D052947EA",
+      "s": 460680
+    },
+    {
+      "p": "Microsoft.InteractiveExperiences.Projection.dll",
+      "crc": "91058C2303443BE0024B3E3987F8C840",
+      "s": 2732032
+    },
+    {
+      "p": "Microsoft.Internal.FrameworkUdk.dll",
+      "crc": "4539E31D3A8A38087325D2E2FC5FBBAD",
+      "s": 923528
+    },
+    {
+      "p": "Microsoft.UI.Composition.OSSupport.dll",
+      "crc": "95E7E37884518484FE3E7B5C91F7A099",
+      "s": 63368
+    },
+    {
+      "p": "Microsoft.UI.Input.dll",
+      "crc": "55344C8C7AEDDBE1792BD4E037B9C186",
+      "s": 1079176
+    },
+    {
+      "p": "Microsoft.UI.Text.winmd",
+      "crc": "DB57EB23E9A564F35B0D127881E4FC4A",
+      "s": 34736
+    },
+    {
+      "p": "Microsoft.UI.Windowing.Core.dll",
+      "crc": "E9DD28E95AAB4D54CF7A0C327AC2B3CA",
+      "s": 649104
+    },
+    {
+      "p": "Microsoft.UI.winmd",
+      "crc": "7B390DAC8A1A7BADB28958E6BD05BF48",
+      "s": 271248
+    },
+    {
+      "p": "Microsoft.UI.Xaml.Controls.dll",
+      "crc": "6D80F722BAEE397A49EBAF4F856DBC8E",
+      "s": 5767072
+    },
+    {
+      "p": "Microsoft.UI.Xaml.Controls.pri",
+      "crc": "6261930C150F340CBEA2F48F2289CEA9",
+      "s": 1050464
+    },
+    {
+      "p": "Microsoft.ui.xaml.dll",
+      "crc": "68E004E4627F53FE1488CDBD40EF2C85",
+      "s": 20299168
+    },
+    {
+      "p": "Microsoft.UI.Xaml.Internal.dll",
+      "crc": "0A4F102BC6F19B2087EA3BB821244C2E",
+      "s": 1237920
+    },
+    {
+      "p": "Microsoft.UI.Xaml.Phone.dll",
+      "crc": "9825313A721D82B50FCDC9BB78CE1443",
+      "s": 1940896
+    },
+    {
+      "p": "Microsoft.ui.xaml.resources.19h1.dll",
+      "crc": "ED1952C283866969D0BF4A79350F3444",
+      "s": 555424
+    },
+    {
+      "p": "Microsoft.ui.xaml.resources.common.dll",
+      "crc": "F781D5DEBD98B73DE0E4C1226113838C",
+      "s": 55216
+    },
+    {
+      "p": "Microsoft.UI.Xaml.winmd",
+      "crc": "52467FE04B16EB441A6A9B52E7ECF178",
+      "s": 1469360
+    },
+    {
+      "p": "Microsoft.Web.WebView2.Core.dll",
+      "crc": "59F07AE3F5F8E6439E6C12DDF5A6472E",
+      "s": 499656
+    },
+    {
+      "p": "Microsoft.Web.WebView2.Core.winmd",
+      "crc": "6F7C763FC2CEB9BC5CB387BD29BCDD73",
+      "s": 92104
+    },
+    {
+      "p": "Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll",
+      "crc": "0035F570166C8BC7B18952EB6806B0EA",
+      "s": 104448
+    },
+    {
+      "p": "Microsoft.Windows.ApplicationModel.DynamicDependency.winmd",
+      "crc": "E6EF63D047EB0A6BCB310DC78CC6BE13",
+      "s": 17808
+    },
+    {
+      "p": "Microsoft.Windows.ApplicationModel.Resources.dll",
+      "crc": "D93EAA3D75FE478ECF9318CAFBB1DFC8",
+      "s": 117680
+    },
+    {
+      "p": "Microsoft.Windows.ApplicationModel.Resources.Projection.dll",
+      "crc": "44E9A6124A227664776AEDFEE65DFC97",
+      "s": 140800
+    },
+    {
+      "p": "Microsoft.Windows.ApplicationModel.Resources.winmd",
+      "crc": "D8AE2D64D8E3F22657DB8E10BF0BB0D3",
+      "s": 19344
+    },
+    {
+      "p": "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll",
+      "crc": "0F09A843A184D4AEDBF32D0CA8BA62E6",
+      "s": 74752
+    },
+    {
+      "p": "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd",
+      "crc": "1F2D89A80BA5D3EFBB2CCEB32D30328A",
+      "s": 14736
+    },
+    {
+      "p": "Microsoft.Windows.AppLifecycle.Projection.dll",
+      "crc": "79F28601F9ADCDA87B8A59329C2722FB",
+      "s": 89088
+    },
+    {
+      "p": "Microsoft.Windows.AppLifecycle.winmd",
+      "crc": "5F2EEDD8407531258F35FF78DC9B7C87",
+      "s": 17296
+    },
+    {
+      "p": "Microsoft.Windows.AppNotifications.Projection.dll",
+      "crc": "A89DED81222E6E63ED0F6CE1031E2F94",
+      "s": 121856
+    },
+    {
+      "p": "Microsoft.Windows.AppNotifications.winmd",
+      "crc": "2ED3BCE0067D737C86DC097BE2026727",
+      "s": 18832
+    },
+    {
+      "p": "Microsoft.Windows.PushNotifications.Projection.dll",
+      "crc": "BA21E8A2BEDD508067468F329CB6FE9F",
+      "s": 101376
+    },
+    {
+      "p": "Microsoft.Windows.PushNotifications.winmd",
+      "crc": "D98BBD3FC3346C5A8042E9D8465B9AC0",
+      "s": 15792
+    },
+    {
+      "p": "Microsoft.Windows.SDK.NET.dll",
+      "crc": "895D1710BFA8E94F6A04A60CC7215821",
+      "s": 24241568
+    },
+    {
+      "p": "Microsoft.Windows.System.Power.Projection.dll",
+      "crc": "09E257E8A52913D7EC2686481BAC3BAE",
+      "s": 91136
+    },
+    {
+      "p": "Microsoft.Windows.System.Power.winmd",
+      "crc": "FFA743AE7A7766E6C18478187DA840F1",
+      "s": 17296
+    },
+    {
+      "p": "Microsoft.Windows.System.Projection.dll",
+      "crc": "A63F2EB92200324FC01A6D71A17129A5",
+      "s": 62976
+    },
+    {
+      "p": "Microsoft.Windows.System.winmd",
+      "crc": "EF82856DC99E3FC738E7DDF87F9C7E5D",
+      "s": 13200
+    },
+    {
+      "p": "Microsoft.WindowsAppRuntime.Bootstrap.dll",
+      "crc": "BDC4F170B10B020AAC2F11CE2B02A39C",
+      "s": 198544
+    },
+    {
+      "p": "Microsoft.WindowsAppRuntime.Bootstrap.Net.dll",
+      "crc": "7412B4EADE9FC37B47A9FB419054D497",
+      "s": 9216
+    },
+    {
+      "p": "Microsoft.WindowsAppRuntime.dll",
+      "crc": "384EAFB92E79D62D72A2B995C5883700",
+      "s": 1214864
+    },
+    {
+      "p": "Microsoft.WindowsAppRuntime.Insights.Resource.dll",
+      "crc": "324DCDCB898C75EB8B900754FAEAB621",
+      "s": 104848
+    },
+    {
+      "p": "Microsoft.WindowsAppRuntime.Release.Net.dll",
+      "crc": "34C9C8B58ABC62A986788142734A91CE",
+      "s": 16784
+    },
+    {
+      "p": "Microsoft.WinUI.dll",
+      "crc": "0FE480DCE9FC2158DB70054BE1362506",
+      "s": 16965120
+    },
+    {
+      "p": "MRM.dll",
+      "crc": "50C738AB0DD88C17A028EFBE520B1CF2",
+      "s": 354224
+    },
+    {
+      "p": "Newtonsoft.Json.dll",
+      "crc": "3421B2FB443335F5396B50A80F6EB280",
+      "s": 1845248
+    },
+    {
+      "p": "PushNotificationsLongRunningTask.ProxyStub.dll",
+      "crc": "2033A9D21744F4F1A87493C47E4EA734",
+      "s": 35728
+    },
+    {
+      "p": "resources.pri",
+      "crc": "FB7F014D92435523C274FD4F44BD5A9A",
+      "s": 1359144
+    },
+    {
+      "p": "System.CommandLine.dll",
+      "crc": "6F1E4007148D04C72295AD0BA907432C",
+      "s": 538112
+    },
+    {
+      "p": "WinCopies.Util.dll",
+      "crc": "DD50CDDE33973A3374912F88DA1CE74A",
+      "s": 1661952
+    },
+    {
+      "p": "WinCopies.WindowsAPICodePack.COMNative.dll",
+      "crc": "B1FFEDF10A9A79194897E625D526C738",
+      "s": 414208
+    },
+    {
+      "p": "WinCopies.WindowsAPICodePack.Consts.dll",
+      "crc": "D1BC86E707441DE7ACCB78E4AE00FAED",
+      "s": 135680
+    },
+    {
+      "p": "WinCopies.WindowsAPICodePack.dll",
+      "crc": "02B9490A2728B551F6BD6C6DE8C5312D",
+      "s": 233472
+    },
+    {
+      "p": "WinCopies.WindowsAPICodePack.Shell.dll",
+      "crc": "E8C2AF76FE3AF759EEB510CEE2AB8E99",
+      "s": 970240
+    },
+    {
+      "p": "WinCopies.WindowsAPICodePack.Win32Native.dll",
+      "crc": "6C36684983DFD845A89D8B5ADBA72826",
+      "s": 199680
+    },
+    {
+      "p": "WindowsAppRuntime.png",
+      "crc": "0C611D40AA8095AE7F100E96BAD42E74",
+      "s": 232
+    },
+    {
+      "p": "WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll",
+      "crc": "D5190259446DC66DE73F4CD36C37F92D",
+      "s": 590088
+    },
+    {
+      "p": "WinRT.Runtime.dll",
+      "crc": "9B5A0545764F7CBDC362FA5FE9D104A1",
+      "s": 387496
+    },
+    {
+      "p": "WinUIEdit.dll",
+      "crc": "FA63609441D944E7FFAC3CADA849F83C",
+      "s": 3683760
+    },
+    {
+      "p": "wuceffectsi.dll",
+      "crc": "F5529980F1914F91068CD98333901541",
+      "s": 468872
+    },
+    {
+      "p": "af-ZA/Microsoft.ui.xaml.dll.mui",
+      "crc": "7C565401B95E0ED633038690C372F802",
+      "s": 15872
+    },
+    {
+      "p": "af-ZA/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "0FBDD71C5A322516B1A5802C90436560",
+      "s": 4608
+    },
+    {
+      "p": "ar-SA/Microsoft.ui.xaml.dll.mui",
+      "crc": "DC4279F6B0107A0F0082C6FB50285F45",
+      "s": 16384
+    },
+    {
+      "p": "ar-SA/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "353ECB087F3FE6FFA99D8CA99E8927AA",
+      "s": 4608
+    },
+    {
+      "p": "Assets/CollapseLauncherLogo.png",
+      "crc": "44A037F02BDC09624C876A516ED1DEC6",
+      "s": 248468
+    },
+    {
+      "p": "az-Latn-AZ/Microsoft.ui.xaml.dll.mui",
+      "crc": "89AC09B72634445298B432C27E9678A4",
+      "s": 16384
+    },
+    {
+      "p": "az-Latn-AZ/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "948A992599D1EC31301BE0F31B7875C2",
+      "s": 4608
+    },
+    {
+      "p": "bg-BG/Microsoft.ui.xaml.dll.mui",
+      "crc": "885C74512748B7F453BB5492CBEAF9C3",
+      "s": 17408
+    },
+    {
+      "p": "bg-BG/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "E4E16FDCABC5C524F07E2A009730263B",
+      "s": 5120
+    },
+    {
+      "p": "bs-Latn-BA/Microsoft.ui.xaml.dll.mui",
+      "crc": "B6C4EAA5038C8B79ADD98571CC1B0E3D",
+      "s": 16896
+    },
+    {
+      "p": "bs-Latn-BA/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "D01532E85062C8B91B01109B2DF54F03",
+      "s": 4608
+    },
+    {
+      "p": "ca-ES/Microsoft.ui.xaml.dll.mui",
+      "crc": "082231511E77E77E0AEA914A7693B902",
+      "s": 17408
+    },
+    {
+      "p": "ca-ES/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "74840F11481B99E3CD8684AB74D502C3",
+      "s": 5120
+    },
+    {
+      "p": "cs-CZ/Microsoft.ui.xaml.dll.mui",
+      "crc": "758353FF566D46F279A65049B3513F61",
+      "s": 16384
+    },
+    {
+      "p": "cs-CZ/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "4CDD71D90A30D4C34A6FFFA85311A385",
+      "s": 4608
+    },
+    {
+      "p": "cy-GB/Microsoft.ui.xaml.dll.mui",
+      "crc": "A6CF63E4C039DA82F6EAFCE2A58441F8",
+      "s": 16384
+    },
+    {
+      "p": "cy-GB/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "7A740D17611BB50352A1EC7DB34ECAB3",
+      "s": 5120
+    },
+    {
+      "p": "da-DK/Microsoft.ui.xaml.dll.mui",
+      "crc": "7F8328B19F44440316AB9E90A06196E9",
+      "s": 15872
+    },
+    {
+      "p": "da-DK/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "CB6E257C7784152BFDB850C954F7D6AF",
+      "s": 4608
+    },
+    {
+      "p": "de-DE/Microsoft.ui.xaml.dll.mui",
+      "crc": "18C4A3C99D7D388C4EC7238498BBAA53",
+      "s": 16896
+    },
+    {
+      "p": "de-DE/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "4DE11D6E1742A1C933EBD6DD6E3BD25E",
+      "s": 5120
+    },
+    {
+      "p": "el-GR/Microsoft.ui.xaml.dll.mui",
+      "crc": "54171CE9329C16A9A6950A7C2A1DC122",
+      "s": 17920
+    },
+    {
+      "p": "el-GR/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "FC005E2A2F6CC138F7311018E7978547",
+      "s": 5120
+    },
+    {
+      "p": "en-GB/Microsoft.ui.xaml.dll.mui",
+      "crc": "1C493F8B6E338F31D56354B228BB3D4C",
+      "s": 14848
+    },
+    {
+      "p": "en-GB/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "F309405E3313301042AC3A1786B2893D",
+      "s": 4608
+    },
+    {
+      "p": "en-us/Microsoft.ui.xaml.dll.mui",
+      "crc": "BBE31DC55C4AC62EE55635C98635C1E1",
+      "s": 15360
+    },
+    {
+      "p": "en-us/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "F3B86961B8FBF968C611C5AF659E7CCA",
+      "s": 4608
+    },
+    {
+      "p": "es-ES/Microsoft.ui.xaml.dll.mui",
+      "crc": "7DE609A4296AB34DBE416D2D747835B9",
+      "s": 17408
+    },
+    {
+      "p": "es-ES/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "DC6D00E42E01EB1928BB26CC52BF8239",
+      "s": 5120
+    },
+    {
+      "p": "es-MX/Microsoft.ui.xaml.dll.mui",
+      "crc": "1305031985D8900FB229292ABBA3D9D4",
+      "s": 17408
+    },
+    {
+      "p": "es-MX/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "475E3FDABE8BF451220ABEAEEDADC2D7",
+      "s": 5120
+    },
+    {
+      "p": "et-EE/Microsoft.ui.xaml.dll.mui",
+      "crc": "2219F3D0DFCBE1C8D469AEBCD3E3184A",
+      "s": 16384
+    },
+    {
+      "p": "et-EE/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "B0EEA790CE03BCFAF9C28C023A4850B3",
+      "s": 4608
+    },
+    {
+      "p": "eu-ES/Microsoft.ui.xaml.dll.mui",
+      "crc": "5DC9094B9FF8876A1B1CCC6F0226A157",
+      "s": 17408
+    },
+    {
+      "p": "eu-ES/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "FD4BBEFF13149E94E1AFA12B620F482D",
+      "s": 5120
+    },
+    {
+      "p": "fa-IR/Microsoft.ui.xaml.dll.mui",
+      "crc": "3F7F09C01A669C8871B79A27D0F66E29",
+      "s": 16384
+    },
+    {
+      "p": "fa-IR/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "E21B34F9A0E5E4E72F4FE3D05FB2280B",
+      "s": 5120
+    },
+    {
+      "p": "fi-FI/Microsoft.ui.xaml.dll.mui",
+      "crc": "0E055D69C7E3779AD2112A855C282D22",
+      "s": 16896
+    },
+    {
+      "p": "fi-FI/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "E8469F151DFD7BB74EE94C5F1F5FC9E1",
+      "s": 4608
+    },
+    {
+      "p": "fr-CA/Microsoft.ui.xaml.dll.mui",
+      "crc": "8030CEDC428AB1B7E93E97E7D9B24653",
+      "s": 16896
+    },
+    {
+      "p": "fr-CA/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "5053007C1FA925D1D2FC85C208B8968E",
+      "s": 5120
+    },
+    {
+      "p": "fr-FR/Microsoft.ui.xaml.dll.mui",
+      "crc": "E2FF057432F2561EFA704DBA46732432",
+      "s": 16896
+    },
+    {
+      "p": "fr-FR/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "4530275C76E111FB258F6A0B52F56699",
+      "s": 5120
+    },
+    {
+      "p": "gl-ES/Microsoft.ui.xaml.dll.mui",
+      "crc": "508FAA7C6B8B40D45F005F391EC1EAA8",
+      "s": 16896
+    },
+    {
+      "p": "gl-ES/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "3AB9DF6B677AC234711CE99612DE6BAB",
+      "s": 5120
+    },
+    {
+      "p": "he-IL/Microsoft.ui.xaml.dll.mui",
+      "crc": "95979BED8EC4092F13F3F320537F4961",
+      "s": 15360
+    },
+    {
+      "p": "he-IL/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "96B92E7C6EF6EC71E7FA5FF4F97C5A9A",
+      "s": 4608
+    },
+    {
+      "p": "hi-IN/Microsoft.ui.xaml.dll.mui",
+      "crc": "001ACBFC29EF0C58F38190F8CCCA8F18",
+      "s": 15872
+    },
+    {
+      "p": "hi-IN/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "D60024814FE6A3E6884CAB4249DAA8BC",
+      "s": 4608
+    },
+    {
+      "p": "hr-HR/Microsoft.ui.xaml.dll.mui",
+      "crc": "A480A242D82BB04DBC843E38A4911F1F",
+      "s": 16896
+    },
+    {
+      "p": "hr-HR/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "4471407749AF6FBBA945621F24EF405A",
+      "s": 4608
+    },
+    {
+      "p": "hu-HU/Microsoft.ui.xaml.dll.mui",
+      "crc": "A4C14394DB2004B409808AA0DB486434",
+      "s": 16384
+    },
+    {
+      "p": "hu-HU/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "F737FE77822DD5987C9BD3D711BD7890",
+      "s": 4608
+    },
+    {
+      "p": "id-ID/Microsoft.ui.xaml.dll.mui",
+      "crc": "BE945A17858F24D19BC7DE9443B4F441",
+      "s": 16384
+    },
+    {
+      "p": "id-ID/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "D306EA97507DCB87545B85A4D0284263",
+      "s": 4608
+    },
+    {
+      "p": "is-IS/Microsoft.ui.xaml.dll.mui",
+      "crc": "94E69E25B281161B6605CB2C50094091",
+      "s": 15872
+    },
+    {
+      "p": "is-IS/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "13DAB7E4EA561659F9B662D7374B5E72",
+      "s": 4608
+    },
+    {
+      "p": "it-IT/Microsoft.ui.xaml.dll.mui",
+      "crc": "F2CFA070DE1CFD95F141D415CD67DABE",
+      "s": 16896
+    },
+    {
+      "p": "it-IT/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "39ECF7EEDBF6E8B50E72A25D72DC6876",
+      "s": 5120
+    },
+    {
+      "p": "ja-JP/Microsoft.ui.xaml.dll.mui",
+      "crc": "306EFA74B9DAC614D3AEB3E619FFA43F",
+      "s": 12800
+    },
+    {
+      "p": "ja-JP/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "3BDDABBFA97AFD34D4A05E99D3123B8D",
+      "s": 4096
+    },
+    {
+      "p": "ka-GE/Microsoft.ui.xaml.dll.mui",
+      "crc": "79355DD1F37088977E8ADCCD2F2B7F49",
+      "s": 16896
+    },
+    {
+      "p": "ka-GE/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "4D64FD632325185B1DD683C7CEBC3BD1",
+      "s": 5120
+    },
+    {
+      "p": "kk-KZ/Microsoft.ui.xaml.dll.mui",
+      "crc": "D78D6397DB1B10E426DB784094D9A774",
+      "s": 16896
+    },
+    {
+      "p": "kk-KZ/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "63D48F3A01419DA9553A1C26A08F4233",
+      "s": 5120
+    },
+    {
+      "p": "ko-KR/Microsoft.ui.xaml.dll.mui",
+      "crc": "1FFB89EE78C380903797F51D0CC40692",
+      "s": 12288
+    },
+    {
+      "p": "ko-KR/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "BB646953666FBE7425ADE263577EDAF2",
+      "s": 4096
+    },
+    {
+      "p": "Lang/en.json",
+      "crc": "18138EBCB318B882692E1728CFD79604",
+      "s": 27265
+    },
+    {
+      "p": "Lang/id-ID.json",
+      "crc": "6F76D8E8ADA0EBCC0F1AC963445AFC0C",
+      "s": 27522
+    },
+    {
+      "p": "Lang/zh-cn.json",
+      "crc": "F237E82259DFA526F8D216A5F3A6F0F9",
+      "s": 25774
+    },
+    {
+      "p": "Lib/7z.dll",
+      "crc": "42336B5FC6BE24BABFB87699C858FB27",
+      "s": 1697280
+    },
+    {
+      "p": "Lib/HPatchZ.dll",
+      "crc": "857C55611BD29A8D4B4CD29C02B7CC22",
+      "s": 345600
+    },
+    {
+      "p": "lt-LT/Microsoft.ui.xaml.dll.mui",
+      "crc": "C2B339BC6E2DE387D28108DDC32EA9C7",
+      "s": 17408
+    },
+    {
+      "p": "lt-LT/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "1DC7816B3CD3F58AEF5E936C6F962C85",
+      "s": 5120
+    },
+    {
+      "p": "lv-LV/Microsoft.ui.xaml.dll.mui",
+      "crc": "90EBB84E5624E81587C8F5AA27672876",
+      "s": 16384
+    },
+    {
+      "p": "lv-LV/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "9DB021D979A6C7EC457EB03993D6D9F8",
+      "s": 5120
+    },
+    {
+      "p": "Misc/InstallMediaPack.cmd",
+      "crc": "A751482B29C3D5B4442483ECFF54644C",
+      "s": 247
+    },
+    {
+      "p": "ms-MY/Microsoft.ui.xaml.dll.mui",
+      "crc": "6761A79C2FCD58417EE8AC13A92638A9",
+      "s": 16384
+    },
+    {
+      "p": "ms-MY/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "43B57CB1D014E16B52E57D3614088693",
+      "s": 4608
+    },
+    {
+      "p": "nb-NO/Microsoft.ui.xaml.dll.mui",
+      "crc": "007EC3C711FA756024B5A138E06D784D",
+      "s": 15360
+    },
+    {
+      "p": "nb-NO/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "622BBC285178B3587B22C9BBF2AF1563",
+      "s": 4608
+    },
+    {
+      "p": "nl-NL/Microsoft.ui.xaml.dll.mui",
+      "crc": "E8D2FADBE02B6D57203B3EEFED96E18B",
+      "s": 16384
+    },
+    {
+      "p": "nl-NL/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "65CB5A9E0FD2E3818893A30DA97B7C80",
+      "s": 4608
+    },
+    {
+      "p": "nn-NO/Microsoft.ui.xaml.dll.mui",
+      "crc": "8DE656844814A00407B630B68842FF5A",
+      "s": 15360
+    },
+    {
+      "p": "nn-NO/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "C1958B098B8AAD54130CD1F9A7F86EA6",
+      "s": 4608
+    },
+    {
+      "p": "pl-PL/Microsoft.ui.xaml.dll.mui",
+      "crc": "7CCF811A66206E17FCCD66468CB98BE4",
+      "s": 16896
+    },
+    {
+      "p": "pl-PL/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "8D35179C5D8070B6B1A9A98FF6874701",
+      "s": 5120
+    },
+    {
+      "p": "pt-BR/Microsoft.ui.xaml.dll.mui",
+      "crc": "E1CC6032DF4BDC886128C91B327708D8",
+      "s": 16384
+    },
+    {
+      "p": "pt-BR/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "EAE3B1B47FCB5B5BE7DE1594A24B8262",
+      "s": 5120
+    },
+    {
+      "p": "pt-PT/Microsoft.ui.xaml.dll.mui",
+      "crc": "C6ED71EB56435A5A2AA39081E8252C8C",
+      "s": 16896
+    },
+    {
+      "p": "pt-PT/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "C6F948F032E081749D82EE1457FF3E0E",
+      "s": 5120
+    },
+    {
+      "p": "ro-RO/Microsoft.ui.xaml.dll.mui",
+      "crc": "73217D22C735AE4F9FEFD69B137DDD20",
+      "s": 16896
+    },
+    {
+      "p": "ro-RO/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "1707EE45CCFB6FFC5086ECE38D1EDC78",
+      "s": 5120
+    },
+    {
+      "p": "ru-RU/Microsoft.ui.xaml.dll.mui",
+      "crc": "33C2DC30FC7FF62ED0DBDBBDD7AD5B49",
+      "s": 17920
+    },
+    {
+      "p": "ru-RU/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "173C918AAA5DC1FC55652BBE2E9D173A",
+      "s": 5120
+    },
+    {
+      "p": "sk-SK/Microsoft.ui.xaml.dll.mui",
+      "crc": "8F0CB20365642BDCA63DC584D5BE36FB",
+      "s": 17408
+    },
+    {
+      "p": "sk-SK/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "22B4A20064D120AA18D5DF7FFCD20BA8",
+      "s": 4608
+    },
+    {
+      "p": "sl-SI/Microsoft.ui.xaml.dll.mui",
+      "crc": "33E2F0D00D9EBDD42E126DB3E66BA8CD",
+      "s": 16896
+    },
+    {
+      "p": "sl-SI/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "65A914AB4BBB4505E51CA58B5133B075",
+      "s": 4608
+    },
+    {
+      "p": "sq-AL/Microsoft.ui.xaml.dll.mui",
+      "crc": "A09E6CFAF91AEC0306B6DD7284D75D69",
+      "s": 17408
+    },
+    {
+      "p": "sq-AL/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "34F0E5A15B97BFC63DC967154811821B",
+      "s": 5120
+    },
+    {
+      "p": "sr-Cyrl-RS/Microsoft.ui.xaml.dll.mui",
+      "crc": "96699213A83CEBA034E65F98C13916E0",
+      "s": 16896
+    },
+    {
+      "p": "sr-Cyrl-RS/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "2F5C9612F9DA8BBBDBF385A2A5ADBA6F",
+      "s": 4608
+    },
+    {
+      "p": "sr-Latn-RS/Microsoft.ui.xaml.dll.mui",
+      "crc": "79FFB2081BA5DF0358F2830F4FB66303",
+      "s": 16896
+    },
+    {
+      "p": "sr-Latn-RS/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "CA268609FE82098AAB5F0793BB2F8F1E",
+      "s": 5120
+    },
+    {
+      "p": "sv-SE/Microsoft.ui.xaml.dll.mui",
+      "crc": "4CEEF4B730799175213E0CD262BABDEB",
+      "s": 15360
+    },
+    {
+      "p": "sv-SE/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "2DC32145D27F23C32F8D6E20BE8F9AD3",
+      "s": 4608
+    },
+    {
+      "p": "th-TH/Microsoft.ui.xaml.dll.mui",
+      "crc": "CDDDD37E3A23499108F841528C84722A",
+      "s": 15360
+    },
+    {
+      "p": "th-TH/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "4112B57070FA8DFDB307431D9888B321",
+      "s": 4608
+    },
+    {
+      "p": "tr-TR/Microsoft.ui.xaml.dll.mui",
+      "crc": "18F00580975AB81DDA2CEB4A55BFA7E8",
+      "s": 15360
+    },
+    {
+      "p": "tr-TR/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "2ABD00505BC7B304323E83D6FEE58AD5",
+      "s": 4608
+    },
+    {
+      "p": "uk-UA/Microsoft.ui.xaml.dll.mui",
+      "crc": "BAF03387C4C07704B9294D3E44758B29",
+      "s": 17408
+    },
+    {
+      "p": "uk-UA/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "D14B0A95103764CA6414E8059D1BCB01",
+      "s": 4608
+    },
+    {
+      "p": "vi-VN/Microsoft.ui.xaml.dll.mui",
+      "crc": "CED7190DBA4B130E3F1331DE4371B1F0",
+      "s": 16384
+    },
+    {
+      "p": "vi-VN/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "46A07E5DBF79A2A66C6BB025ED4E20FC",
+      "s": 4608
+    },
+    {
+      "p": "zh-CN/Microsoft.ui.xaml.dll.mui",
+      "crc": "0D821541086C92954F561C30BD290E1F",
+      "s": 11264
+    },
+    {
+      "p": "zh-CN/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "37477AE8F35F856FB1F003FB12C92CEA",
+      "s": 4096
+    },
+    {
+      "p": "zh-TW/Microsoft.ui.xaml.dll.mui",
+      "crc": "967411FFC33961E0C9F63C13804849A5",
+      "s": 11264
+    },
+    {
+      "p": "zh-TW/Microsoft.UI.Xaml.Phone.dll.mui",
+      "crc": "EA6A964C114C958FEF12585CFC59F84C",
+      "s": 4096
+    },
+    {
+      "p": "Assets/BG/AiHappy.png",
+      "crc": "66B35258016EFF2D34D01AB1764A67F8",
+      "s": 165513
+    },
+    {
+      "p": "Assets/BG/default.png",
+      "crc": "8327DA308617B6B9431153907BDE69DA",
+      "s": 24263
+    },
+    {
+      "p": "Assets/BG/PaimonSleep.png",
+      "crc": "EE77C8AE0BABB62EBBAFB8BE6BF49699",
+      "s": 56251
+    },
+    {
+      "p": "Assets/BG/PaimonWhat.png",
+      "crc": "5049A3325CEB9A0E5E067BF11F051B32",
+      "s": 17404
+    },
+    {
+      "p": "Assets/Fonts/FontAwesomeBrand6.otf",
+      "crc": "2C058B94A3A5D3EC92C22B7374DB4327",
+      "s": 496360
+    },
+    {
+      "p": "Microsoft.UI.Xaml/Assets/NoiseAsset_256x256_PNG.png",
+      "crc": "81F27726C45346351ECA125BD062E9A7",
+      "s": 3241
+    }
+  ]
+}
