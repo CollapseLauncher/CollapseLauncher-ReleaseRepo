@@ -1,3 +1,44 @@
+- Collapse [Realm] - v1.0.36.0 (August 2nd, 2022)
+  ► What's Fixed?
+      ├ ▪ [Honkai Impact 3rd] For all Honkai Impact 3rd players,
+      │    you can now run the launcher in Caches Update Mode only to update the caches.
+      ├ ▪ [Runtime] Remove Ingredient and Output path after reverting on conversion.
+      ├ ▪ [Launcher/Runtime] Now the region change mechanism taking much less
+      │    time to load while using large custom background.
+      ├ ▪ [Honkai Impact 3rd] Media Feature Pack install suggestion if it doesn't exist.
+      ├ ▪ [Runtime] Refactor Region Load code.
+      ├ ▪ [Runtime] Reduce DispatcherQueue usage on Cache Update and some parts.
+      ├ ▪ [Runtime] Remove unused mhySHASaltTool class.
+      ├ ▪ [Runtime] Use straight to Stream method for writing the image.
+      ├ ▪ [Runtime] Update NuGet packages.
+      ├ ▪ [i18n - zh-CN] Update Simplified Chinese translation (Thanks to @misaka10843).
+      ├ ▪ [Runtime] Revert NuGet packages to stable release.
+      ├ ▪ [Runtime] For now on, we will stick with .NET 6 Runtime.
+      │    This will reduce dependencies size and inconsistencies in the future.
+      │    Once .NET 7 has hit stable release, then we will go-on to move to .NET 7.
+      ├ ▪ [i18n - en] Update English translation.
+      ├ ▪ [i18n - id-ID] Update Bahasa Indonesia translation and fix some typos.
+      ├ ▪ [Launcher] We are now using updatable metadata for each game/region.
+      │    In this way, we can update the launcher key without updating the launcher executable.
+      ├ ▪ [Launcher] Minor Update on UI.
+      └ ▪ [Launcher/Genshin] Repair Game feature and Pre-Install Verification process is now back
+           to live and ready to try.
+
+  ► What's Fixed?
+      ├ ▪ [Runtime] Fix crash while choosing file/folder with launcher running from elevated user (As Administrator).
+      ├ ▪ [Runtime] Fix the launcher to crash if the metadata file is broken or just empty.
+      ├ ▪ [Runtime] Fix Revert Back mechanism on "Cross-version Conversion" feature not working if the process is failed.
+      ├ ▪ [Runtime] Fix the launcher to crash if region index is out-of-bound.
+      ├ ▪ [Runtime] Fixed the background image got pixelated if it has large size and loaded
+      │    on low-resolution screen.
+      ├ ▪ [Runtime/Genshin] Fixed thread lock while starting Repair Data on Genshin.
+      ├ ▪ [Submodule - Hi3HelperCore.Http]
+      │   └ ▪ Ensure all sessions to be disposed before merging.
+      ├ ▪ [Runtime/Genshin] Fixed the possibility for the launcher to crash while running Repair
+      │    Game feature in Genshin due to Read-Only files.
+      └ ▪ [Runtime] Fixed the repair mechanism taking so long to get cancelled.
+
+
 - Collapse [Thunder] - v1.0.33.6-Hotfix (July 17th, 2022)
   ► What's Fixed?
       ├ ▪ [Runtime] Fixed the launcher to crash while installing Genshin caused by
