@@ -1,6 +1,19 @@
+- Collapse [PREVIEW] - v1.0.36.0 (August 2nd, 2022)
+  ► What's New?
+      ├ ▪ [Honkai Impact 3rd] For all Honkai Impact 3rd players,
+      │    you can now run the launcher in Caches Update Mode only to update the caches.
+      └ ▪ [Runtime] Remove Ingredient and Output path after reverting on conversion.
+
+  ► What's Fixed?
+      ├ ▪ [Runtime] Fix crash while choosing file/folder with launcher running from elevated user (As Administrator).
+      ├ ▪ [Runtime] Fix the launcher to crash if the metadata file is broken or just empty.
+      ├ ▪ [Runtime] Fix Revert Back mechanism on "Cross-version Conversion" feature not working if the process is failed.
+      └ ▪ [Runtime] Fix the launcher to crash if region index is out-of-bound
+
+
 - Collapse [PREVIEW] - v1.0.35.5 (July 30th, 2022)
   ► What's New?
-      ├ ▪ [Launcher] [Launcher/Runtime] Now the region change mechanism taking much less
+      ├ ▪ [Launcher/Runtime] Now the region change mechanism taking much less
       │    time to load while using large custom background.
       ├ ▪ [Honkai Impact 3rd] Media Feature Pack install suggestion if it doesn't exist.
       ├ ▪ [Runtime] Refactor Region Load code.
