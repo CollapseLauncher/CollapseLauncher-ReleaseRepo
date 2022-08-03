@@ -1,3 +1,10 @@
+- Collapse [PREVIEW] - v1.0.36.1 (August 3rd, 2022)
+  ► What's New?
+      ├ ▪ [Runtime] The launcher will now running as administrator by default.
+      └ ▪ [Runtime] Remove WinCopies.WindowsAPICodePack.Shell and switch to Win32 Calls Wrapper to be
+           used for File/Folder Picker.
+
+
 - Collapse [PREVIEW] - v1.0.36.0 (August 2nd, 2022)
   ► What's New?
       ├ ▪ [Honkai Impact 3rd] For all Honkai Impact 3rd players,
