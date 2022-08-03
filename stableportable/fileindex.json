@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.36.0",
-  "time": 1659434731,
+  "ver": "1.0.36.1",
+  "time": 1659516389,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -14,17 +14,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "BC2553666C0FA0E33F3B240327C41772",
-      "s": 27161
+      "crc": "0607424DC6C8B005010B63D8DB176EC4",
+      "s": 23236
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "CF7EF61404513DA19C020C66DFC35195",
-      "s": 2089472
+      "crc": "A786DEC05570A3F200EFF2D28857A6EB",
+      "s": 2110976
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "4CC161639A8029986790E127C2DA6745",
+      "crc": "CBEA954798E0F26F5B646864F2084D32",
       "s": 617984
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
-      "crc": "31FE29CEA8122852EA2D9917AD703932",
-      "s": 459
+      "crc": "8C88CF0C6F912BA8598FCA08650F74B9",
+      "s": 340
     },
     {
       "p": "ColorCode.Core.dll",
@@ -49,7 +49,7 @@
     },
     {
       "p": "ColorThief.Netstandard.v20.dll",
-      "crc": "059498364AA8256A222CF7AF5C8A2884",
+      "crc": "A4B09E443F1753ECFEFA42CBB1C97EE3",
       "s": 44544
     },
     {
@@ -139,17 +139,17 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "921A5315120CE701BFD8E874553163EB",
+      "crc": "1B6D4F833BE4FC36A9F4ACCF2337BDCA",
       "s": 670720
     },
     {
       "p": "Hi3HelperCore.EncTool.dll",
-      "crc": "D2626B87D04BAA03CB205C9F477C69A0",
+      "crc": "7189775C54D6A5CC3F353D6980A9C342",
       "s": 26112
     },
     {
       "p": "Hi3HelperCore.Http.dll",
-      "crc": "2CDFA30CA7A20B72B5CE9ACAA79F5260",
+      "crc": "2B7ACB9F1E950304F883C9FDA18BF678",
       "s": 99840
     },
     {
@@ -266,6 +266,11 @@
       "p": "Microsoft.Web.WebView2.Core.winmd",
       "crc": "6F7C763FC2CEB9BC5CB387BD29BCDD73",
       "s": 92104
+    },
+    {
+      "p": "Microsoft.Win32.SystemEvents.dll",
+      "crc": "CFA50BE5A26712F61A95D1E9B07CE03E",
+      "s": 76288
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll",
@@ -404,7 +409,7 @@
     },
     {
       "p": "resources.pri",
-      "crc": "FB7F014D92435523C274FD4F44BD5A9A",
+      "crc": "2C261024FB2018DF66F713D897920577",
       "s": 1359144
     },
     {
@@ -413,34 +418,9 @@
       "s": 538112
     },
     {
-      "p": "WinCopies.Util.dll",
-      "crc": "DD50CDDE33973A3374912F88DA1CE74A",
-      "s": 1661952
-    },
-    {
-      "p": "WinCopies.WindowsAPICodePack.COMNative.dll",
-      "crc": "B1FFEDF10A9A79194897E625D526C738",
-      "s": 414208
-    },
-    {
-      "p": "WinCopies.WindowsAPICodePack.Consts.dll",
-      "crc": "D1BC86E707441DE7ACCB78E4AE00FAED",
-      "s": 135680
-    },
-    {
-      "p": "WinCopies.WindowsAPICodePack.dll",
-      "crc": "02B9490A2728B551F6BD6C6DE8C5312D",
-      "s": 233472
-    },
-    {
-      "p": "WinCopies.WindowsAPICodePack.Shell.dll",
-      "crc": "E8C2AF76FE3AF759EEB510CEE2AB8E99",
-      "s": 970240
-    },
-    {
-      "p": "WinCopies.WindowsAPICodePack.Win32Native.dll",
-      "crc": "6C36684983DFD845A89D8B5ADBA72826",
-      "s": 199680
+      "p": "System.Drawing.Common.dll",
+      "crc": "842B6798EFFA430A12015105336BADA3",
+      "s": 1032192
     },
     {
       "p": "WindowsAppRuntime.png",
