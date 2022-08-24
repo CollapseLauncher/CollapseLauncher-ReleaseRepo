@@ -1,3 +1,13 @@
+- Collapse [Realm] - v1.0.36.2-Hotfix (August 25th, 2022)
+  ► What's New?
+      └ ▪ [Runtime] Update NuGet packages.
+
+  ► What's Fixed?
+      └ ▪ [Genshin Impact] Fix the update left unchanged if crash while Install finalization happened
+          (Thank you for Discord User: DarkRiot and TencentDimepiece to report this issue in Honkai Impact 3rd Official's
+          #technical-help channel)
+
+
 - Collapse [Realm] - v1.0.36.1 (August 3rd, 2022)
   ► What's New?
       ├ ▪ [Runtime] The launcher will now running as administrator by default.
