@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.36.2",
-  "time": 1661372275,
+  "ver": "1.0.40.0",
+  "time": 1662321948,
   "f": [
     {
       "p": "api-ms-win-core-console-l1-1-0.dll",
@@ -234,17 +234,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "8301E474E13D414478234F323C6E37A2",
+      "crc": "4C18D40C7095267E3C649EFECEC83D4E",
       "s": 56143
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "7CE3F0A57E4774EA6A7EEDBE9AAD03AA",
-      "s": 1150976
+      "crc": "D4936F6700D4A048E266487CFF1820EB",
+      "s": 1171456
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "820F453D8752E80096A231E7B5E7E40E",
+      "crc": "BCC2A1572E0930B72FBBC81970EF40C1",
       "s": 617984
     },
     {
@@ -374,17 +374,17 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "0F85DE3E18F50FAE959D78E4D3BF809E",
-      "s": 355840
+      "crc": "F27FFA929272656971972C63B5306068",
+      "s": 359424
     },
     {
       "p": "Hi3HelperCore.EncTool.dll",
-      "crc": "E60B95B0F7872ABE63F41FBD4AE3EDB0",
+      "crc": "BE49236F794513A25E272F5D5F3D826D",
       "s": 13312
     },
     {
       "p": "Hi3HelperCore.Http.dll",
-      "crc": "32A0461C442CC02EEB4A4B1EC62FD940",
+      "crc": "9104F74C930FE1A4E09B0ECB010B2608",
       "s": 44544
     },
     {
@@ -614,8 +614,8 @@
     },
     {
       "p": "Microsoft.Windows.SDK.NET.dll",
-      "crc": "895D1710BFA8E94F6A04A60CC7215821",
-      "s": 24241568
+      "crc": "C6AF942D694F38E0A2BE4DE1BC0899CD",
+      "s": 24700832
     },
     {
       "p": "Microsoft.Windows.System.Power.Projection.dll",
@@ -719,8 +719,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "5DFF58728FC840920A489098337AC949",
-      "s": 1359144
+      "crc": "930A851446C0AEB64C7FA7D284AF1656",
+      "s": 1362488
     },
     {
       "p": "System.AppContext.dll",
@@ -1894,13 +1894,13 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "18138EBCB318B882692E1728CFD79604",
-      "s": 27265
+      "crc": "535CB04EF3962150251FA7DD2C6DBE61",
+      "s": 28701
     },
     {
       "p": "Lang/id-ID.json",
-      "crc": "6F76D8E8ADA0EBCC0F1AC963445AFC0C",
-      "s": 27522
+      "crc": "C2CC9DB1566F3DB894C3A36416A37192",
+      "s": 29064
     },
     {
       "p": "Lang/zh-cn.json",
@@ -2154,8 +2154,13 @@
     },
     {
       "p": "Assets/BG/AiHappy.png",
-      "crc": "66B35258016EFF2D34D01AB1764A67F8",
-      "s": 165513
+      "crc": "BC0033CC9CCC12B768D6B2E45A89FD25",
+      "s": 158200
+    },
+    {
+      "p": "Assets/BG/AponiaFly.png",
+      "crc": "BC8FDB99FB1FB24F235BFF86D1D3AD10",
+      "s": 129101
     },
     {
       "p": "Assets/BG/default.png",
@@ -2164,13 +2169,13 @@
     },
     {
       "p": "Assets/BG/PaimonSleep.png",
-      "crc": "EE77C8AE0BABB62EBBAFB8BE6BF49699",
-      "s": 56251
+      "crc": "B0418A2463F809FD8DBF74F82EA0C947",
+      "s": 21913
     },
     {
       "p": "Assets/BG/PaimonWhat.png",
-      "crc": "5049A3325CEB9A0E5E067BF11F051B32",
-      "s": 17404
+      "crc": "F34F8B0C7E0BBA3914BFB12313B5D9ED",
+      "s": 6462
     },
     {
       "p": "Assets/Fonts/FontAwesomeBrand6.otf",
