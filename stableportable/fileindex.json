@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.36.2",
-  "time": 1661372310,
+  "ver": "1.0.36.3",
+  "time": 1662905140,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -14,17 +14,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "FBA5A71639DE87861F63DC7FC55CDBBE",
+      "crc": "BD4BA9D29F8D3AA2409CFEDCD7CDDF79",
       "s": 23495
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "53C6A6CD502A6C97EDBE9FA8178AE840",
-      "s": 2114048
+      "crc": "7E683D45ED2D4EF4FBD0F818975A87AC",
+      "s": 2110976
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "820F453D8752E80096A231E7B5E7E40E",
+      "crc": "4CBA51879E99D7E8EAFC49F9B46C8E1C",
       "s": 617984
     },
     {
@@ -139,17 +139,17 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "F912898E51DB381BFAA88B0406A2CFC1",
-      "s": 668160
+      "crc": "EDD1CF4EC46F3D193BE1E930C1B46AE4",
+      "s": 665088
     },
     {
       "p": "Hi3HelperCore.EncTool.dll",
-      "crc": "E3A28572A9BFA38783AF690688C364CB",
-      "s": 22528
+      "crc": "33945BEE0123C5F2E58F2C78A06E5B58",
+      "s": 22016
     },
     {
       "p": "Hi3HelperCore.Http.dll",
-      "crc": "EF6658437388A69741807CF1CF9413F0",
+      "crc": "4D6158A8163FFD79A810296ADC8F5E6C",
       "s": 99328
     },
     {

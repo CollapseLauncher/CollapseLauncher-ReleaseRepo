@@ -1,3 +1,10 @@
+- Collapse [Realm] - v1.0.36.3 (September 11th, 2022)
+  ► What's Fixed?
+      ├ ▪ [Genshin Impact] Fix the Repair Game feature cause the launcher to crash.
+      │    This is a regression from the changes of the PresetConfigClasses in code.
+      └ ▪ [Honkai Impact 3rd] Fix the Repair Game feature to fail caused by invalid range on EndOffset.
+
+
 - Collapse [Realm] - v1.0.36.2-Hotfix (August 25th, 2022)
   ► What's New?
       └ ▪ [Runtime] Update NuGet packages.
