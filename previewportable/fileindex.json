@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.40.0",
-  "time": 1662321937,
+  "ver": "1.0.36.3",
+  "time": 1662901680,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -14,17 +14,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "B7F22B2D61ED9B332079463C077683AC",
+      "crc": "BD4BA9D29F8D3AA2409CFEDCD7CDDF79",
       "s": 23495
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "D5828B5B580C6F4950BA219633B15718",
-      "s": 1171456
+      "crc": "0F96605E0913178E131060822651A1B0",
+      "s": 1149952
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "BCC2A1572E0930B72FBBC81970EF40C1",
+      "crc": "4CBA51879E99D7E8EAFC49F9B46C8E1C",
       "s": 617984
     },
     {
@@ -139,17 +139,17 @@
     },
     {
       "p": "Hi3HelperCore.dll",
-      "crc": "F27FFA929272656971972C63B5306068",
-      "s": 359424
+      "crc": "8364C48E993852FFF05D9DA15A66A010",
+      "s": 355328
     },
     {
       "p": "Hi3HelperCore.EncTool.dll",
-      "crc": "BE49236F794513A25E272F5D5F3D826D",
+      "crc": "0772729D070C86EC28FECB079A05CA18",
       "s": 13312
     },
     {
       "p": "Hi3HelperCore.Http.dll",
-      "crc": "9104F74C930FE1A4E09B0ECB010B2608",
+      "crc": "A7A81853FCFA4ACC6DF34C83BD2A31A9",
       "s": 44544
     },
     {
@@ -409,8 +409,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "930A851446C0AEB64C7FA7D284AF1656",
-      "s": 1362488
+      "crc": "5DFF58728FC840920A489098337AC949",
+      "s": 1359144
     },
     {
       "p": "System.CommandLine.dll",
@@ -784,13 +784,13 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "535CB04EF3962150251FA7DD2C6DBE61",
-      "s": 28701
+      "crc": "18138EBCB318B882692E1728CFD79604",
+      "s": 27265
     },
     {
       "p": "Lang/id-ID.json",
-      "crc": "C2CC9DB1566F3DB894C3A36416A37192",
-      "s": 29064
+      "crc": "6F76D8E8ADA0EBCC0F1AC963445AFC0C",
+      "s": 27522
     },
     {
       "p": "Lang/zh-cn.json",
@@ -1044,13 +1044,8 @@
     },
     {
       "p": "Assets/BG/AiHappy.png",
-      "crc": "BC0033CC9CCC12B768D6B2E45A89FD25",
-      "s": 158200
-    },
-    {
-      "p": "Assets/BG/AponiaFly.png",
-      "crc": "BC8FDB99FB1FB24F235BFF86D1D3AD10",
-      "s": 129101
+      "crc": "66B35258016EFF2D34D01AB1764A67F8",
+      "s": 165513
     },
     {
       "p": "Assets/BG/default.png",
@@ -1059,13 +1054,13 @@
     },
     {
       "p": "Assets/BG/PaimonSleep.png",
-      "crc": "B0418A2463F809FD8DBF74F82EA0C947",
-      "s": 21913
+      "crc": "EE77C8AE0BABB62EBBAFB8BE6BF49699",
+      "s": 56251
     },
     {
       "p": "Assets/BG/PaimonWhat.png",
-      "crc": "F34F8B0C7E0BBA3914BFB12313B5D9ED",
-      "s": 6462
+      "crc": "5049A3325CEB9A0E5E067BF11F051B32",
+      "s": 17404
     },
     {
       "p": "Assets/Fonts/FontAwesomeBrand6.otf",

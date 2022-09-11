@@ -1,5 +1,12 @@
+- Collapse [PREVIEW] - v1.0.36.3 (September 11th, 2022)
+  ► What's Fixed?
+      ├ ▪ [Genshin Impact] Fix the Repair Game feature cause the launcher to crash.
+      │    This is a regression from the changes of the PresetConfigClasses in code.
+      └ ▪ [Honkai Impact 3rd] Fix the Repair Game feature to fail caused by invalid range on EndOffset.
+
+
 - Collapse [PREVIEW] - v1.0.40.0 (September 9th, 2022)
-  ► [Changelog isn't available yet. Please check it again later]
+  ► [The release has been pulled from public and rolled back to 1.0.36.3-Hotfix]
 
 
 - Collapse [PREVIEW] - v1.0.36.2-Hotfix (August 25th, 2022)
