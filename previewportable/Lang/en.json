@@ -24,21 +24,7 @@
     "ChooseFolderDialogPrimary": "Yes, please",
     "ChooseFolderDialogSecondary": "No, choose folder",
     "OverlayPrepareFolderTitle": "Preparing App Folder",
-    "OverlayPrepareFolderSubtitle": "Applying permission...",
-    "Pg1NextBtn": "Next - Select Game",
-    "Pg1LoadingTitle1": "Loading Game List",
-    "Pg1LoadingSubitle1": "We are preparing the list of the supported games for you",
-    "Pg1LoadingSubitle2": "Completed! Move on to the next step!",
-    "Pg2NextBtn": "Finish - Enter the Launcher",
-    "Pg2PrevBtn": "Back - Select Folder",
-    "Pg2Title": "Time to fly~",
-    "Pg2Subtitle1_1": "Just one more step to play your game from",
-    "Pg2Subtitle1_2": "Collapse Launcher.",
-    "Pg2Subtitle2_1": "We have few",
-    "Pg2Subtitle2_2": "miHoYo/HoYoverse",
-    "Pg2Subtitle2_3": "games to be supported. Please select your game below to start using",
-    "Pg2Subtitle2_4": "Collapse Launcher.",
-    "Pg2ComboBox": "Select Game"
+    "OverlayPrepareFolderSubtitle": "Applying permission..."
   },
 
   // DisconnectedPage Content
@@ -48,21 +34,7 @@
     "Header2": "Disconnected",
     "Footer1": "Please check your internet connection and click",
     "Footer2": "Paimon",
-    "Footer3": "to Retry.",
-    "ShowErrorBtn": "Show Error Message"
-  },
-
-  // UnhandledExceptionPage Content
-  "_UnhandledExceptionPage": {
-    "UnhandledTitle1": "Unhandled Error",
-    "UnhandledSubtitle1": "An Unhandled Error has occured with an Exception Throw below:",
-    "UnhandledTitle2": "Connection Issue",
-    "UnhandledSubtitle2": "Oops, seems like you've been disconnected from the internet~ Or is it?",
-    "UnhandledTitle3": "Game Crashed",
-    "UnhandledSubtitle3": "The game has crashed with error details below:",
-    "CopyClipboardBtn1": "Copy All to Clipboard",
-    "CopyClipboardBtn2": "Copied to Clipboard!",
-    "GoBackPageBtn1": "Go Back to Previous Page"
+    "Footer3": "to Retry."
   },
 
   // MainPage Content
@@ -327,10 +299,7 @@
     "Disclaimer": "Disclaimer",
     "Disclaimer1": "This app is not affiliated with",
     "Disclaimer2": "by any means",
-    "Disclaimer3": "and completely open-sourced. Any contribution is welcomed.",
-
-    "DiscordBtn1": "Join our Armada Discord",
-    "DiscordBtn2": "Visit Honkai Impact 3rd Discord"
+    "Disclaimer3": "and completely open-sourced. Any contribution is welcomed."
   },
 
   // Misc Content
@@ -414,10 +383,6 @@
   "_Dialogs": {
     "DeltaPatchDetectedTitle": "Warning: Delta Patch Update is Detected!",
     "DeltaPatchDetectedSubtitle": "Delta patch will be used to update your game from {0} to {1}.\r\nRemember, you might still need to download some files in-game as usual.\r\n\r\nDo you want to continue?",
-    "DeltaPatchPrevFailedTitle": "Previous Delta Patch was Failed/Incompleted!",
-    "DeltaPatchPrevFailedSubtitle": "The previous Delta Patch was failed/incompleted! Do you want to restore your game to prevent from redownloading?",
-    "GameConversionPrevFailedTitle": "Previous Game Conversion was Failed/Incompleted!",
-    "GameConversionPrevFailedSubtitle": "The previous Game Conversion was failed/incompleted! Do you want to restore your game to prevent from redownloading?",
     "PreloadVerifiedTitle": "Pre-Download Package is Verified!",
     "PreloadVerifiedSubtitle": "Your Pre-Download Package is Ready and Verified!",
     "LocateInstallTitle": "Locating Installation Folder",
@@ -474,10 +439,7 @@
   "_InstallMgmt": {
     "IntegrityCheckTitle": "Integrity Check",
     "PreparePatchTitle": "Preparing Patch",
-    "AddtDownloadTitle": "Addt. Download: {0}/{1}",
-    "RepairFilesRequiredShowFilesBtn": "Show list of broken files",
-    "RepairFilesRequiredTitle": "{0} files need to be repaired!",
-    "RepairFilesRequiredSubtitle": "You have at least {0} files ({1} in size) need to be repaired before updating!\r\n\r\nNote: This process may takes longer than expected (depends on how fast and stable your connection is). Also, consider to use VPN (free VPN like ProtonVPN is good enough) if you have slow download speed :)"
+    "AddtDownloadTitle": "Addt. Download: {0}/{1}"
   },
 
   // InstallConvert Content
@@ -506,12 +468,7 @@
     "ConvertSuccessTitle": "Conversion Successful",
     "ConvertSuccessSubtitle": "Game Conversion from {0} to {1} has been successfully completed!",
     "CookbookDownloadTitle": "Downloading Recipe",
-    "CookbookDownloadSubtitle": "Downloading recipe for conversion from {0} to {1}",
-
-    "CancelBtn": "Cancel Conversion",
-    "CancelMsgTitle": "Cancelling Conversion...",
-    "CancelMsgSubtitle1": "You're about to cancel the conversion process. Any conversion progress will be aborted.\r\n\r\nAre you sure?",
-    "CancelMsgSubtitle2": "You're about to cancel the conversion process but your game has been already converted to {0}. You'll be skipping the \"Post-Conversion Integrity Verification\" phase.\r\n\r\nAre you sure?"
+    "CookbookDownloadSubtitle": "Downloading recipe for conversion from {0} to {1}"
   },
 
   // InstallMigrateSteam Content
@@ -572,21 +529,6 @@
     "RemindLaterBtn": "Remind me later",
     "UpdateNowBtn": "Update Now",
     "LoadingRelease": "Loading Release Notes...",
-    "LoadingReleaseFailed": "Error while fetching Release Notes.\r\n{0}",
-
-    "UpdateHeader1": "Progress:",
-    "UpdateHeader2": "Time Elapsed:",
-    "UpdateHeader3": "Download Size:",
-    "UpdateHeader4": "Speed:",
-    "UpdateHeader5PlaceHolder": "Downloading Update [- / -]:",
-
-    "UpdateStatus1": "Fetching Update:",
-    "UpdateMessage1": "Connecting to Update Repository...",
-    "UpdateStatus2": "Verifying:",
-    "UpdateStatus3": "Downloading Update [{0} / {1}]:",
-    "UpdateStatus4": "You're using the latest version ({0}) now!",
-    "UpdateMessage4": "Back to the launcher shortly...",
-    "UpdateStatus5": "Version has been updated to {0}!",
-    "UpdateMessage5": "We will re-open your launcher shortly..."
+    "LoadingReleaseFailed": "Error while fetching Release Notes.\r\n{0}"
   }
 }
