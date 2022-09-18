@@ -7,17 +7,17 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/win-x64": {
-      "CollapseLauncher/1.0.40.5": {
+      "CollapseLauncher/1.0.36.3": {
         "dependencies": {
-          "ColorThief": "1.0.0",
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
-          "Hi3Helper.Core": "1.0.0",
-          "Hi3Helper.EncTool": "1.0.0",
-          "Hi3Helper.Http": "1.0.0",
+          "Hi3HelperCore": "1.0.0",
+          "Hi3HelperCore.EncTool": "1.0.0",
+          "Hi3HelperCore.Http": "1.0.0",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1",
           "Microsoft.WindowsAppSDK": "1.1.4",
           "System.CommandLine": "2.0.0-beta3.22114.1",
           "System.Drawing.Common": "6.0.0",
+          "ksemenenko.ColorThief": "1.1.1.4",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.7",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.26"
         },
@@ -1048,6 +1048,14 @@
           }
         }
       },
+      "ksemenenko.ColorThief/1.1.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/ColorThief.Netstandard.v20.dll": {
+            "assemblyVersion": "1.1.0.1",
+            "fileVersion": "1.1.0.1"
+          }
+        }
+      },
       "Microsoft.Graphics.Win2D/1.0.0.30": {
         "runtime": {
           "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {
@@ -1162,43 +1170,35 @@
       },
       "System.Security.Principal.Windows/6.0.0-preview.5.21301.5": {},
       "System.Text.Json/5.0.2": {},
-      "ColorThief/1.0.0": {
-        "dependencies": {
-          "System.Drawing.Common": "6.0.0"
-        },
-        "runtime": {
-          "ColorThief.dll": {}
-        }
-      },
-      "Hi3Helper.Core/1.0.0": {
+      "Hi3HelperCore/1.0.0": {
         "dependencies": {
           "Crc32.NET": "1.2.0",
           "Google.Protobuf": "3.21.4",
-          "Hi3Helper.Http": "1.0.0",
+          "Hi3HelperCore.Http": "1.0.0",
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
           "Newtonsoft.Json": "13.0.2-beta1"
         },
         "runtime": {
-          "Hi3Helper.Core.dll": {}
+          "Hi3HelperCore.dll": {}
         }
       },
-      "Hi3Helper.EncTool/1.0.0": {
+      "Hi3HelperCore.EncTool/1.0.0": {
         "dependencies": {
-          "Hi3Helper.Core": "1.0.0"
+          "Hi3HelperCore": "1.0.0"
         },
         "runtime": {
-          "Hi3Helper.EncTool.dll": {}
+          "Hi3HelperCore.EncTool.dll": {}
         }
       },
-      "Hi3Helper.Http/1.0.0": {
+      "Hi3HelperCore.Http/1.0.0": {
         "runtime": {
-          "Hi3Helper.Http.dll": {}
+          "Hi3HelperCore.Http.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.40.5": {
+    "CollapseLauncher/1.0.36.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1318,6 +1318,13 @@
       "path": "google.protobuf/3.21.4",
       "hashPath": "google.protobuf.3.21.4.nupkg.sha512"
     },
+    "ksemenenko.ColorThief/1.1.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-970sWLIXgBOldyxatU2zGK3+nSLZER0xFW9uSjUkgNR2pvTqyjJp8yEFFKEnf1Tp7DzhmMAfFs9j/UvdM5pKcw==",
+      "path": "ksemenenko.colorthief/1.1.1.4",
+      "hashPath": "ksemenenko.colorthief.1.1.1.4.nupkg.sha512"
+    },
     "Microsoft.Graphics.Win2D/1.0.0.30": {
       "type": "package",
       "serviceable": true,
@@ -1409,22 +1416,17 @@
       "path": "system.text.json/5.0.2",
       "hashPath": "system.text.json.5.0.2.nupkg.sha512"
     },
-    "ColorThief/1.0.0": {
+    "Hi3HelperCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Hi3Helper.Core/1.0.0": {
+    "Hi3HelperCore.EncTool/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Hi3Helper.EncTool/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Hi3Helper.Http/1.0.0": {
+    "Hi3HelperCore.Http/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

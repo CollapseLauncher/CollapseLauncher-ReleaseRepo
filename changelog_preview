@@ -1,47 +1,3 @@
-- Collapse [PREVIEW] - v1.0.40.5 (September 19th, 2022)
-  ► What's New?
-      ├ ▪ [Launcher] New Rounded Buttons and UI Minor Adjustment.
-      ├ ▪ [Launcher] Minor UI Adjustment for Notification on Dark Theme.
-      ├ ▪ [Launcher] Implement Instant Region Load with Asynchronous Background Loading.
-      ├ ▪ [Launcher] Instant Migration Mechanism.
-      ├ ▪ [Launcher] New First-Install Walkthrough.
-      ├ ▪ [Honkai Impact 3rd] Rollback Mechanism on Delta Patch Update Mechanism.
-      ├ ▪ [Honkai Impact 3rd] Add an Ability to Cancel Game Conversion.
-      ├ ▪ [Launcher] Add Zone detail attributes.
-      ├ ▪ [Launcher] Change default theme to dark and change default accent color.
-      ├ ▪ [Launcher] Localize Unhandled Exception page.
-      ├ ▪ [Launcher] Move all ThemeDictionaries to App.xaml.
-      ├ ▪ [Launcher] Add an ability to pause Image Carousel when hovered
-      ├ ▪ [Launcher] Add Rollback Check for Game Conversion
-      ├ ▪ [Runtime/Code Quality] Reduce usages of DispatcherQueue at some cases.
-      ├ ▪ [Runtime/Code Quality] Add nullable check for Game Installation and Logger.
-      ├ ▪ [Submodule - ColorThief] Move to local fork for ColorThief submodule, including these changes:
-      │   ├ ▪ Removing unused alpha calculation.
-      │   ├ ▪ Renaming ColorThiefDotNet.Color to ColorThiefDotNet.CTColor to avoid ambiguity with System.Drawing.Color.
-      │   ├ ▪ Using int casting instead of Convert.ToInt32().
-      │   ├ ▪ Using byte[][] instead of IEnumerable<byte[]> at some parts
-      │   └ ▪ Adding GeneratePaletteList() method (returns List<QuantizedColor>) and GetPaletteEnumeration()
-      │       method (returns IEnumerable<QuantizedColor>)
-      ├ ▪ [Runtime] Logging NullReferenceException on install/update.
-      └ ▪ [Runtime] Force show console outside of launcher scope.
-
-  ► What's Fixed?
-      ├ ▪ [Launcher/Runtime] Fixed the WebView2 not Terminated while Unused.
-      ├ ▪ [Launcher] Fixed the "Install Game" button still visible behind the "Update Game" button
-      ├ ▪ [Launcher] Fixed delta patch to break the game while failure occur by reverting previous data
-      ├ ▪ [Launcher] Fixed bright overlay while transitioning to the next background
-      ├ ▪ [Launcher] Fixed color oddness on dark and light theme
-      ├ ▪ [Runtime] Fixed the downloader getting invalid EndOffset while repairing
-      │    Issue #17 - Thank you @DarkXonline for reporting the issue
-      ├ ▪ [Runtime] Fixed crash while checking non-existing folder for game conversion revert back mechanism
-      ├ ▪ [Runtime] Fixed crash while cancelling selection on Game Conversion
-      ├ ▪ [Runtime] Fixed rare crash while checking non-Genshin Server ID
-      ├ ▪ [Runtime] Fixed crash while disconnected and add "Show error message" button
-      ├ ▪ [Runtime] Fixed outdated Delta Patch still used in latest update
-      └ ▪ [Submodule - Hi3Helper.Http] Fixed the possibility of thread lock while downloading using high-speed internet
-           Issue #19 - Thank you @muscularcandy67 for reporting this issue
-
-
 - Collapse [PREVIEW] - v1.0.36.3 (September 11th, 2022)
   ► What's Fixed?
       ├ ▪ [Genshin Impact] Fix the Repair Game feature cause the launcher to crash.
@@ -81,3 +37,476 @@
       ├ ▪ [Runtime] Fix the launcher to crash if the metadata file is broken or just empty.
       ├ ▪ [Runtime] Fix Revert Back mechanism on "Cross-version Conversion" feature not working if the process is failed.
       └ ▪ [Runtime] Fix the launcher to crash if region index is out-of-bound
+
+
+- Collapse [PREVIEW] - v1.0.35.5 (July 30th, 2022)
+  ► What's New?
+      ├ ▪ [Launcher/Runtime] Now the region change mechanism taking much less
+      │    time to load while using large custom background.
+      ├ ▪ [Honkai Impact 3rd] Media Feature Pack install suggestion if it doesn't exist.
+      ├ ▪ [Runtime] Refactor Region Load code.
+      ├ ▪ [Runtime] Reduce DispatcherQueue usage on Cache Update and some parts.
+      ├ ▪ [Runtime] Remove unused mhySHASaltTool class.
+      ├ ▪ [Runtime] Use straight to Stream method for writing the image.
+      ├ ▪ [Runtime] Update NuGet packages.
+      └ ▪ [i18n - zh-CN] Update Simplified Chinese translation (Thanks to @misaka10843).
+
+  ► What's Fixed?
+      ├ ▪ [Runtime] Fixed the background image got pixelated if it has large size and loaded
+      │    on low-resolution screen.
+      ├ ▪ [Runtime/Genshin] Fixed thread lock while starting Repair Data on Genshin.
+      └ ▪ [Submodule - Hi3HelperCore.Http]
+          └ ▪ Ensure all sessions to be disposed before merging.
+
+
+- Collapse [PREVIEW] - v1.0.35.1 (July 19th, 2022)
+  ► What's New?
+      ├ ▪ [Runtime] Revert NuGet packages to stable release.
+      ├ ▪ [Runtime] For now on, we will stick with .NET 6 Runtime.
+      │    This will reduce dependencies size and inconsistencies in the future.
+      │    Once .NET 7 has hit stable release, then we will go-on to move to .NET 7.
+      ├ ▪ [i18n - en] Update English translation.
+      ├ ▪ [i18n - id-ID] Update Bahasa Indonesia translation and fix some typos.
+      ├ ▪ [Launcher] We are now using updatable metadata for each game/region.
+      │    In this way, we can update the launcher key without updating the launcher executable.
+      ├ ▪ [Launcher] Minor Update on UI.
+      └ ▪ [Launcher/Genshin] Repair Game feature and Pre-Install Verification process is now back
+           to live and ready to try.
+
+  ► What's Fixed?
+      ├ ▪ [Runtime/Genshin] Fixed the possibility for the launcher to crash while running Repair
+      │    Game feature in Genshin due to Read-Only files.
+      └ ▪ [Runtime] Fixed the repair mechanism taking so long to get cancelled.
+
+
+- Collapse [PREVIEW] - v1.0.33.6-Hotfix (July 17th, 2022)
+  ► What's Fixed?
+      ├ ▪ [Runtime] Fixed the launcher to crash while installing Genshin caused by
+      │    Read-only files.
+      ├ ▪ [Runtime] Fixed the launcher to crash while calculating uncompressed size
+      │    on zip files during installation.
+      └ ▪ [Runtime] Fixed the stable release of launcher get built using
+           .NET 7-preview6 runtime accidentally.
+
+
+- Collapse [PREVIEW] - v1.0.33.4-Hotfix (July 16th, 2022)
+  ► What's Fixed?
+      ├ ▪ [Runtime] Fixed the "Start Game" button to not disabled if the game is running.
+      └ ▪ [Runtime] Fixed the issue where the game cannot run caused by INIFile class changes
+           on v1.0.33.2 build.
+
+
+- Collapse [PREVIEW] - v1.0.33.3-Hotfix (July 14th, 2022)
+  ► What's New?
+      └ ▪ [Runtime] Temporarily re-route .zip extractor to use Auto7Zip from SevenZipExtractor.
+      
+  ► What's Fixed?
+      └ ▪ [Runtime] We temporarily disable repair and post-verification download mechanism
+          since data structure changes on Genshin's dispatcher Protobuf.
+
+
+- Collapse [PREVIEW] - v1.0.33.2 (July 11th, 2022)
+  ► What's New?
+      ├ ▪ [Runtime] Use ordered argument for IniFile module.
+      ├ ▪ [Runtime] NuGet packages and Libraries required for this build.
+      ├ ▪ [Runtime] Run launcher API fetching asynchronously in background.
+      ├ ▪ [Runtime] Some minor app Performance improvement.
+      ├ ▪ [Launcher] Adding an ability to hide Events Side Panel.
+      ├ ▪ [Launcher] Navigation pane is now transparent, following the style of the launcher.
+      ├ ▪ [Launcher] Adding Paimon to indicate if there's no news available.
+      ├ ▪ [Launcher] Some minor UI tweaks, including more transparent on light theme for Navigation
+      │   panel, News panel and using transparent background for Update Notification page.
+      ├ ▪ [Launcher] Adding WebView2 window to open News Panel items and Event Image.
+      └ ▪ [i18N - zh-CN] Update Chinese (Simplified) translation (Thanks to @misaka10843).
+      
+  ► What's Fixed?
+      ├ ▪ [Submodule - Hi3HelperCore.Http]
+      │   ├ ▪ Prevent HttpHelperSessionHTTPError416 exception to be called whether the offset range
+      │   │   is invalid or the file has been completely downloaded.
+      │   ├ ▪ Fix the session offset on the single-session download to potentially overflowed.
+      │   ├ ▪ Fix the download to go beyond 100% while retrying happened.
+      │   └ ▪ Fix some state on Multi-session download never get updated.
+      ├ ▪ [Runtime] Fix potential broken INI Structure while saving
+      │   Also Simplify some methods and remove IEnumerable<T> since it's no longer used.
+      │   This commit is focused on fix for Issue No: #12
+      ├ ▪ [i18N - id-ID] Fix some typos.
+      └ ▪ [i18N - id-ID] Simplify id-ID i18N for "PEMBARUAN TELAH TERSEDIA!" to just "UPDATE TERSEDIA!"
+
+
+- Collapse [PREVIEW] - v1.0.32.5-Hotfix (July 3rd, 2022)
+  ► What's Fixed?
+      └ ▪ [Runtime] Fix crash while doing repair on Game Repair feature caused by Infinity progress.
+
+
+- Collapse [PREVIEW] - v1.0.32.4-Hotfix (June 30th, 2022)
+  ► What's New?
+      └ ▪ [Launcher] Adding WebView2 window to open some Image Carousel infos.
+      
+  ► What's Fixed?
+      ├ ▪ [Runtime] Fix the Installation step to be skipped causing the launcher to crash.
+      └ ▪ [Runtime] Fix crash while using Game Repair feature.
+
+
+- Collapse [PREVIEW] - v1.0.32.2-Hotfix (June 29th, 2022)
+  ► What's New?
+      └ ▪ Using build-in DeleteMultisessionChunks() to reset download.
+  
+  ► What's Fixed?
+      ├ ▪ Fix the download to reset while choosing to continue.
+      ├ ▪ Fix the 7z file extraction to fail due to async thread.
+      └ ▪ Fix multisession issue on Hi3HelperCore.Http submodule.
+
+
+- Collapse [PREVIEW] - v1.0.32.0 (June 27th, 2022)
+  ► What's New?
+      ├ ▪ Adding Event button for applicable region.
+      ├ ▪ Replacing HttpClientHelper with Hi3HelperCore.Http for HTTP Downloader.
+      ├ ▪ Cleaning up some unused codes.
+      ├ ▪ Minor changes to the launcher logo.
+      ├ ▪ Moving Hi3HelperCore from .NET 7 to .NET Standard 2.1 library.
+      └ ▪ Remove ReadyToBuild flag on the preview build only.
+
+  ► What's Fixed?
+      ├ ▪ Fix conversion process to fail due to corrupted cookbook from previous download.
+      └ ▪ Fix Volumetric Lighting option on Game Settings not getting applied.
+
+
+- Collapse [PREVIEW] - v1.0.30.0 (June 21st, 2022)
+  ► What's New?
+      ├ ▪ Navigation Panel UI is now Minimized.
+      ├ ▪ New Pop-Transparent Theme.
+      ├ ▪ Adding News Panel and QR Code Overview (For Applicable Regions) (PR: #10)
+      ├ ▪ Adding Language Selection Dialog for First-Time Install.
+      ├ ▪ Adding Custom Start-Up Argument (For Honkai Impact 3rd).
+      ├ ▪ Adding Chinese (Simplified) Translation (by: @misaka10843) (PR: #9).
+      ├ ▪ Adding Bahasa Indonesia Translation (by: @neon-nyan) (PR: #11).
+      ├ ▪ Updating NuGet packages and Libraries required for this build.
+      ├ ▪ Removing HSharp Dependency.
+      ├ ▪ New Launcher logo.
+      └ ▪ Change Resource Prop from HTML-based data to Directly API JSON-based data.
+
+  ► What's Fixed?
+      ├ ▪ Fix some unlocalized strings at some parts.
+      ├ ▪ Fix potential closed stream while parsing background data from API.
+      ├ ▪ Fix the app to crash while clicking SocMed buttons with no link.
+      ├ ▪ Fix the Update/Repair mechanism on Genshin to potentially fail and stuck because
+      ├   of Read-Only persistent files.
+      └ ▪ Fix the app to crash and stuck in the background while exiting.
+
+
+- Collapse [PREVIEW] - v1.0.23.8 (June 18th, 2022)
+  ► What's New?
+      ├ ▪ Some few adjustments on NavigationPanel, Image Carousel, SocMed Panel
+      │   and App Settings Page.
+      ├ ▪ Adding Custom Start-Up Argument feature for Honkai Impact 3rd.
+      ├ ▪ Moving the ApplyUpdate from using .NET 7 to .NET Framework 4.6.2 independently.
+      ├ ▪ Moving the Genshin Dispatch URL outside from GenshinDispatchHelper.
+      │ ▪ Moving to WinUI 3 1.1.1 runtime.
+      ├ ▪ Moving localization for UpdatePage and some parts to localization file.
+      └ ▪ Move debug (.pdb) file to be embedded on preview build.
+
+  ► What's Fixed?
+      ├ ▪ Fix the ApplyUpdate to use working directory instead of target path.
+      ├ ▪ Fix Repair Game functionality on Genshin to stuck because of throw while
+      │   failing on deleting persistent manifest files.
+      ├ ▪ Fix the possibility of Thread Lock while waiting for the launcher to build
+      │   manifest on Repair Game functionality for Genshin.
+      ├ ▪ Fix the App Settings page name on NavigationItem to not use localized label.
+      └ ▪ Fix some unlocalized label in App Settings Page.
+
+
+- Collapse [PREVIEW] - v1.0.23.4 (June 7th, 2022)
+  ► What's New?
+      ├ ▪ Adding "Level Of Detail" option on Game Settings page for new chapter
+      ├ ▪ Moving to WinUI 3 1.1 Stable Runtime with Self-Contained build
+      ├ ▪ Updating NuGet packages required for this build
+      ├ ▪ Caches Update Endpoint is now moving from Hi3Mirror to Official server
+      └ ▪ Removing prequesties files to be installed since we are now using self-contained
+          runtime in the build
+
+  ► What's Fixed?
+      ├ ▪ Fix the InstallationMigrate page to still shows background behind it
+      ├ ▪ Fix the Migration Invoker to potentially crashed because of null on the Options<T>
+      └ ▪ Fix the app to crash while transitioning to random page in rare occasion
+
+
+- Collapse [PREVIEW] - v1.0.23.2-RC2 [Codename: Till the end of me] (June 2nd, 2022)
+  ► What's New?
+      ├ ▪ Adding Custom Background feature.
+      ├ ▪ The app will now redirect you to Disconnected Page while you're disconnected
+      │   from the internet
+      ├ ▪ Add "Force Update" button to perform Force Update on the app if applicable
+      ├ ▪ The app will now detect your existing game if you locate the existing path
+      ├ ▪ New updater UI using the same WinUI 3 Runtime
+      ├ ▪ Moving fileconfig.json to hard-coded config
+      ├ ▪ Update the Dispatcher key file for Genshin 2.7 Update
+      ├ ▪ Disable Pause button while verifying on Pre-load downloading
+      ├ ▪ Change Pause Download/Resume Download text to just Pause/Resume
+      ├ ▪ Adding ApplyUpdate for elevating updater executable and launcher executable if available
+      ├ ▪ Updater and Invoker apps are now merged into main app
+      └ ▪ Using custom Main() Entry Point to the app. Making the possibility to use
+          additional arguments on the app
+
+  ► What's Fixed?
+      ├ ▪ Fix the HttpClientHelper to not disposing the first chunk while error occur at the
+      │   Send Request phase. Making the file to get locked
+      ├ ▪ Fix the updater to not apply files rather than located in top directory
+      ├ ▪ Fix the HttpClientHelper to slipped one byte for the last chuck if the EndOffset isn't
+      │   rounded enough. Causing the 416 error (RequestNotSatisable) to occur
+      ├ ▪ Fix the version comparer to give the wrong true boolean if the 4th value is 1
+      ├ ▪ Fix the Image Carousel will only hide after pre-load download is completed
+      ├ ▪ Fix Genshin Update to crash while downloading additional files caused by wrong URL path
+      │   for .pck with "isPatch" inside of the manifest. Hope this is the last fix for this
+      ├ ▪ Fix the Copy All to Clipboard button on Unhandled Exception error page
+      │   causing the app to crash
+      ├ ▪ Fix the image carousel not getting hidden while downloading pre-load
+      ├ ▪ Fix executable elevation issue on updater which cause the updater to stuck
+      ├ ▪ Fix some thread-lock issue while waiting for pre-load download to be initialized
+      ├ ▪ Fix the 7th column header name on Caches Page went blank
+      ├ ▪ Fix the Update Notification UI to get overlaped with frames behind it
+      └ ▪ Fix the update for Honkai Impact 3rd to get potentially failed
+
+
+- Collapse [PREVIEW] - v1.0.23.1 (May 31st, 2022)
+  ► What's New?
+      ├ ▪ Moving fileconfig.json to hard-coded config
+      └ ▪ Update the Dispatcher key file for Genshin 2.7 Update
+
+  ► What's Fixed?
+      ├ ▪ Fix the HttpClientHelper to not disposing the first chunk while error occur at the
+      │   Send Request phase. Making the file to get locked
+      ├ ▪ Fix the HttpClientHelper to slipped one byte for the last chuck if the EndOffset isn't
+      │   rounded enough. Causing the 416 error (RequestNotSatisable) to occur
+      ├ ▪ Fix the version comparer to give the wrong true boolean if the 4th value is 1
+      ├ ▪ Fix Genshin Update to crash while downloading additional files caused by wrong URL path
+      │   for .pck with "isPatch" inside of the manifest. Hope this is the last fix for this
+      └ ▪ Fix the Copy All to Clipboard button on Unhandled Exception error page
+          causing the app to crash
+
+
+- Collapse [PREVIEW] - v1.0.22.6 (May 28th, 2022)
+  ► What's New?
+      ├ ▪ Disable Pause button while verifying on Pre-load downloading
+      ├ ▪ Change Pause Download/Resume Download text to just Pause/Resume
+      └ ▪ Adding ApplyUpdate for elevating updater executable and launcher executable if available
+
+  ► What's Fixed?
+      ├ ▪ Fix the image carousel not getting hidden while downloading pre-load
+      ├ ▪ Fix executable elevation issue on updater which cause the updater to stuck
+      └ ▪ Fix some thread-lock issue while waiting for pre-load download to be initialized
+
+Note for 1.0.22.4-preview users:
+Since there's a known issue with the update mechanism on v1.0.22.4-preview that make the update
+process to fail/stuck, please reinstall your launcher with this new build if you want to update it:
+https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.0.22.6-pre
+
+
+- Collapse [PREVIEW] - v1.0.22.4 (May 25th, 2022)
+  ► What's New?
+      ├ ▪ Updater and Invoker apps are now merged into main app
+      ├ ▪ Using custom Main() Entry Point to the app. Making the possibility to use
+      │   additional arguments on the app
+      └ ▪ New updater UI using the same WinUI 3 Runtime
+
+  ► What's Fixed?
+      ├ ▪ Fix the 7th column header name on Caches Page went blank
+      └ ▪ Fix the Update Notification UI to get overlaped with frames behind it
+
+
+- Collapse [PREVIEW] - v1.0.22.3-RC1 [Codename: Till the end of me] (May 22nd, 2022)
+  ► What's New?
+      ├ ▪ Update pre-compiled Updater executable
+      ├ ▪ Moving to WinUI 3 1.1-preview3 and .NET Core 7-preview4 Runtime
+      ├ ▪ Adding support for Acrylic and Mica Backdrop (Thanks to the new WinUI 3 1.1-preview3 runtime)
+      ├ ▪ Adding localization support
+      ├ ▪ Adding Delta Patch Update support for Honkai Impact 3rd
+      ├ ▪ Adding .NET Core Runtime components to the build
+      ├ ▪ Rewrite the HttpClientHelper logic, especially on ThreadController
+      ├ ▪ The app config will be initialized first before Logger component
+      ├ ▪ Remove WinForms attribute from Invoker since it's unused
+      ├ ▪ Set minimum size for using parallel download on Repair Mechanism to 4 MiB
+      ├ ▪ Set time delay for app update check to 1 hour
+      ├ ▪ Log will now back to use old new StreamWriter()
+      ├ ▪ Return false if the directory doesn't exist in IsUserHasPermission()
+      └ ▪ While relocating the app or use it for the first time and if you choose another location,
+          the app will now append the permission to the selected location
+
+  ► What's Fixed?
+      ├ ▪ Fix the GameFolder to get ignored while getting relocated
+      ├ ▪ Fix the app to not using proper folder path while updating
+      ├ ▪ Fix the updater to not started if the app is installed in path with spaces
+      │   For example: C:\Program Files\Collapse Launcher
+      ├ ▪ Fix some settings to not getting saved
+      ├ ▪ Fix the launcher to crash while getting time-out on loading the region
+      ├ ▪ Fix the launcher to reset AppFolder everytime it restarted
+      ├ ▪ Fix the updater to crash while running on PC with non-english language
+      │   (Thanks to my friend Delta to report this issue :vodkahug:)
+      ├ ▪ Fix the launcher to keep detecting delta patch file and crash, even the file is actually not exist
+      ├ ▪ Fix the app to crash if AppPush and RegionPush becoming null
+      └ ▪ Fix the ThreadController to miss the last range or more than expected, making the downloaded
+          file to get corrupted after resuming
+
+
+- Collapse [PREVIEW] - v1.0.21.2-pre (May 6th, 2022)
+  ► What's Fixed?
+      ├ ▪ Fix the updater to not started if the app is installed in path with spaces.
+      │   For example: C:\Program Files\Collapse Launcher
+      └ ▪ Fix some settings to not getting saved.
+
+
+- Collapse [PREVIEW] - v1.0.20.3-pre (May 5th, 2022)
+  ► What's New?
+      ├ ▪ Adding build timestamp on the Update menu.
+      ├ ▪ Adding social media button on the Settings menu.
+      ├ ▪ Adding an ability for updater to update itself via elevated process.
+      ├ ▪ Notification Push will now able to show a notification based on their version.
+      ├ ▪ Simplify process for adding default value for App Config if the file/value doesn't exist.
+      ├ ▪ Adding revert mechanism if the version conversion has failed.
+      └ ▪ Apply simple Exclusive Window fix for Honkai Impact 3rd.
+          This auto minimize-maximize mechanism will simply prevent thread lock/freeze on the game.
+
+  ► What's Fixed?
+      └ ▪ Fix some grammar errors.
+
+
+- Collapse [PREVIEW] - v1.0.20.2-pre (May 4th, 2022)
+  ► What's New?
+      └ ▪ Implement Notification System.
+
+  ► What's Fixed?
+      └ ▪ Fix the app to not checking running game process because CheckRunningGameInstance() was
+          accidentally removed on v1.0.20.1-preview build.
+
+
+- Collapse [PREVIEW] - v1.0.20.1-pre (May 3rd, 2022)
+  ► What's New?
+      ├ ▪ Adding feature to convert region version. For now, it only supports these versions:
+      │     └ ▫ Supported regions are:
+      │         - Southeast Asia
+      │         - Global
+      ├ ▪ Use event based MainFrameChangerInvoker_FrameEvent() to hide frame background.
+      ├ ▪ Use per-revision compare for comparing app version.
+      ├ ▪ Moving from legacy HttpClientTool to new HttpClientHelper class on these parts:
+      │     ├ ▫ Caches Update Mechanism.
+      │     ├ ▫ Repair Game Mechanism.
+      │     └ ▫ Steam to Global Converter Mechanism.
+      ├ ▪ Don't seek if using DisposeStream = false in HttpClientHelper.
+      ├ ▪ Repair process for block files (on Honkai) will be directly using its own FileStream instead
+      │   of buffering it first to MemoryStream.
+      ├ ▪ A few adjustment on the background transition while changing the region.
+      ├ ▪ Removing SharpCompress library completely due to replacement to SevenZipExtractor.
+      ├ ▪ Update some NuGet packages.
+      └ ▪ Move to HttpClientHelper entirely for downloading files.
+
+  ► What's Fixed?
+      ├ ▪ Reduce logging to cancellation on HttpClientHelper to prevent file conflict and making the app to crash.
+      ├ ▪ Fix the "Caches Update"'s Time Estimation to get updated aggressively.
+      ├ ▪ Fix the background to not loaded in rare condition after reloading region from different menu.
+      │   Thanks to event based MainFrameChangerInvoker_FrameEvent(), now we are able to fix it.
+      ├ ▪ Reduce events refresh rate to 50ms on "Repair Game" mechanism to prevent it for chugging performance of the app.
+      ├ ▪ Prevent the TryRetryableContainer() to throw ArgumentOutOfRangeException while setting StartOffset on
+      │   RequestRange with value >= 0 on HttpClientHelper.
+      ├ ▪ Fix the area around "Image Carousel" on HomePage still getting clickable.
+      ├ ▪ Fix the background to always getting downloaded while loading the region.
+      └ ▪ Fix Steam Installation of Honkai Impact 3rd cannot be detected if it's installed in different SteamLibrary.
+
+
+- Collapse [PREVIEW] - v1.0.13-pre (April 25th, 2022)
+  ► What's New?
+      └ ▪ Now you can choose which Voice Language you want to use while installing Genshin,
+          so you don't have to download it twice in-game.
+
+  ► What's Fixed?
+      ├ ▪ Fix restart warning for App Theme to appear early even the setting isn't changed.
+      ├ ▪ Fix thread setting to reset if you re-enter Settings menu.
+      └ ▪ Fix some typo at Thread setting.
+
+
+- Collapse [PREVIEW] - v1.0.12-pre (April 24th, 2022)
+  ► What's New?
+      ├ ▪ Add options to change App Theme.
+      └ ▪ Add options to change Download and Extraction Threads.
+
+
+- Collapse [PREVIEW] - v1.0.11-pre (April 22nd, 2022)
+  ► What's New?
+      ├ ▪ Migrated to WinUI 3 1.1-preview2.
+      ├ ▪ Add Update Mechanism for the launcher.
+      ├ ▪ Use SevenZipExtractor by adoconnection for .7z file extraction.
+      ├ ▪ Add GenshinDispatchHelper class to read Genshin's dispatcher data.
+      ├ ▪ Add repair mechanism for Genshin Impact (only supported on Global Release for now).
+      ├ ▪ Use entirely re-written HttpClientHelper class for Installation Download mechanism.
+      ├ ▪ Change default background to "Paimon Sleeping" sprite.
+      └ ▪ And some minor UI Tweaks.
+
+  ► What's Fixed?
+      ├ ▪ Fix logger to crash while writing to log on multi-thread task.
+      ├ ▪ Fix white Titlebar Rectangle around drag area.
+      ├ ▪ Fix typo at some dialogs.
+      ├ ▪ Fix the accent color selector to crash because there's just one color in light mode.
+      └ ▪ Fix the migration process to fail if some files are already exist in target folder.
+
+
+- Collapse [PREVIEW] - v1.0.9-pre (March 11th, 2022)
+  ► What's New?
+      ├ ▪ Add Social Media Side Panel at Home page.
+      ├ ▪ Add adaptive color accent support.
+      ├ ▪ Add Steam to Global version conversion.
+      ├ ▪ Add ErrorHandler Event for sending Unhandled Exceptions.
+      ├ ▪ Disable Change Region button while the region is still loading.
+      ├ ▪ Use events to navigate LauncherFrame.
+      ├ ▪ Use DirectX 11 (FL 11.0) by default.
+      ├ ▪ Add sections for caches date in Caches Download.
+      └ ▪ Better Region loading time-out handling.
+
+  ► What's Fixed?
+      ├ ▪ Fix significant Storage usage while extracting.
+      ├ ▪ Fix app to crash caused by default BG path & disable console by default.
+      ├ ▪ Fix uncancelled token in SevenZipTool.
+      ├ ▪ Fix launcher to apply config prematurely while update is getting cancelled.
+      └ ▪ Fix summary to return 0 byte if only generic files are missing.
+
+
+- Collapse [PREVIEW] - v1.0.7-pre (February 19th, 2022)
+  ► What's New?
+      ├ ▪ Adding support for migrating Game installed with BetterHI3Launcher.
+      ├ ▪ Revoke the target location if the folder choosen while installing doesn't allow the user to have a write permission.
+      │     E.g: C:\Program Files.
+      ├ ▪ Adding feature to update the game caches.
+      ├ ▪ Removing "Mirror Changer" dropdown at the titlebar since the feature isn't yet implemented.
+      ├ ▪ Adding Console Window toggle. Now you can hide/show the Console Window in the Settings menu.
+      └ ▪ Removing "Additional Download" while installing the game since the feature isn't yet implemented.
+
+
+- Collapse [PREVIEW] - v1.0.6-rc1-pre (February 6th, 2022)
+  ► What's New?
+      └ ▪ Adding support for migrating Game installed with BetterHI3Launcher.
+
+  ► What's Fixed?
+      └ ▪ Fixing Collapse.Invoker compiled to .NET Core 5 instead of .NET Core 6.
+
+
+- Collapse [PREVIEW] - v1.0.5-pre (February 5th, 2022)
+  ► What's New?
+      ├ ▪ The program now runs as a normal Win32 app.
+      │     └ ▫ Prequesties is needed to be installed in need to run it.
+      ├ ▪ Adding an ability to open the Game Folder.
+      ├ ▪ Adding Game log monitoring feature while game is running.
+      ├ ▪ Adding Game Repair feature.
+      ├ ▪ Adding Game Settings feature.
+      └ ▪ Hi3Helper Project is now completely merged to Collapse Project.
+
+
+- Collapse [PREVIEW] - v1.0.3-pre (January 11th, 2022)
+  ► What's New?
+      └ ▪ Minor and Runtime fixes.
+
+
+- Collapse [PREVIEW] - v1.0.2-pre (December 26th, 2021)
+  ► What's New?
+      └ ▪ Minor and Runtime fixes.
+
+
+- Collapse [PREVIEW] - v1.0.0-pre (December 22nd, 2021)
+  ► What's New?
+      └ ▪ The first preview version released.
