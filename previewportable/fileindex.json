@@ -1,6 +1,6 @@
 {
   "ver": "1.0.40.5",
-  "time": 1663535272,
+  "time": 1663537075,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -14,17 +14,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "EDBE11BB56CD88C069BF81D737E94B99",
+      "crc": "7868872A5D5F3E74C7722DBA508C552C",
       "s": 23173
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "2A1A07D84421814FB95270B12C6C5438",
+      "crc": "E70BF0E50C41DB47E3D1A63930B44A04",
       "s": 1172480
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "80ADF70A2B31745C60CED51A7D5E5A9A",
+      "crc": "07DF2ADC3B46FDEF42CED53E21043CB7",
       "s": 617984
     },
     {
