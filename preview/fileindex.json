@@ -1,6 +1,6 @@
 {
   "ver": "1.0.40.5",
-  "time": 1663535282,
+  "time": 1663537086,
   "f": [
     {
       "p": "api-ms-win-core-console-l1-1-0.dll",
@@ -234,17 +234,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "C0C238B33B69732497D4547BEB6DA653",
+      "crc": "60D279B472D946EFDE3A139D17EF18FB",
       "s": 55821
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "E2C9F6C6C7EA688EB20504E1F8DE8AD8",
+      "crc": "FCA50AC2905C41CDF214C5E2552CFE94",
       "s": 1172480
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "80ADF70A2B31745C60CED51A7D5E5A9A",
+      "crc": "07DF2ADC3B46FDEF42CED53E21043CB7",
       "s": 617984
     },
     {
