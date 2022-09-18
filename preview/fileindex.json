@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.36.3",
-  "time": 1662901562,
+  "ver": "1.0.40.5",
+  "time": 1663532787,
   "f": [
     {
       "p": "api-ms-win-core-console-l1-1-0.dll",
@@ -234,17 +234,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "68E938B6ACFC63ECAE210C11E0AFB3E7",
-      "s": 56143
+      "crc": "60D279B472D946EFDE3A139D17EF18FB",
+      "s": 55821
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "E48FDF74ACDD3E9A5993DEB8A21A0F72",
-      "s": 1149952
+      "crc": "9CF7F2ED0E5FDAF22B485E1AD2E9252B",
+      "s": 1171968
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "4CBA51879E99D7E8EAFC49F9B46C8E1C",
+      "crc": "07DF2ADC3B46FDEF42CED53E21043CB7",
       "s": 617984
     },
     {
@@ -268,9 +268,9 @@
       "s": 19152
     },
     {
-      "p": "ColorThief.Netstandard.v20.dll",
-      "crc": "A2AB4D98E2A4BB214EF95B31815E06F7",
-      "s": 18944
+      "p": "ColorThief.dll",
+      "crc": "9EF27EBFA1548FBBC0261B9E6AC68183",
+      "s": 25088
     },
     {
       "p": "CommunityToolkit.Common.dll",
@@ -373,19 +373,19 @@
       "s": 409416
     },
     {
-      "p": "Hi3HelperCore.dll",
-      "crc": "8364C48E993852FFF05D9DA15A66A010",
-      "s": 355328
+      "p": "Hi3Helper.Core.dll",
+      "crc": "41EFDDF668C27840ACAAF8BA1433F99A",
+      "s": 369664
     },
     {
-      "p": "Hi3HelperCore.EncTool.dll",
-      "crc": "0772729D070C86EC28FECB079A05CA18",
-      "s": 13312
+      "p": "Hi3Helper.EncTool.dll",
+      "crc": "87086839CDAAA2FAD3711766CA00CD32",
+      "s": 14848
     },
     {
-      "p": "Hi3HelperCore.Http.dll",
-      "crc": "A7A81853FCFA4ACC6DF34C83BD2A31A9",
-      "s": 44544
+      "p": "Hi3Helper.Http.dll",
+      "crc": "CA80A2F597CF62400306FDC2D8C95C04",
+      "s": 46080
     },
     {
       "p": "hostfxr.dll",
@@ -719,8 +719,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "5DFF58728FC840920A489098337AC949",
-      "s": 1359144
+      "crc": "BF7C816597DB56F928D51BC0BFF6A4FB",
+      "s": 1365512
     },
     {
       "p": "System.AppContext.dll",
@@ -1894,13 +1894,13 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "18138EBCB318B882692E1728CFD79604",
-      "s": 27265
+      "crc": "D22F050D3DD559B19FC4FD5079545FE4",
+      "s": 30835
     },
     {
       "p": "Lang/id-ID.json",
-      "crc": "6F76D8E8ADA0EBCC0F1AC963445AFC0C",
-      "s": 27522
+      "crc": "05C5B0451E10FC26056F27DBC251777A",
+      "s": 31285
     },
     {
       "p": "Lang/zh-cn.json",
@@ -1939,8 +1939,8 @@
     },
     {
       "p": "Misc/InstallMediaPack.cmd",
-      "crc": "AB7623335FDC6AA89476202E4E3D72CC",
-      "s": 249
+      "crc": "A751482B29C3D5B4442483ECFF54644C",
+      "s": 247
     },
     {
       "p": "ms-MY/Microsoft.ui.xaml.dll.mui",
@@ -2154,8 +2154,13 @@
     },
     {
       "p": "Assets/BG/AiHappy.png",
-      "crc": "66B35258016EFF2D34D01AB1764A67F8",
-      "s": 165513
+      "crc": "BC0033CC9CCC12B768D6B2E45A89FD25",
+      "s": 158200
+    },
+    {
+      "p": "Assets/BG/AponiaFly.png",
+      "crc": "BC8FDB99FB1FB24F235BFF86D1D3AD10",
+      "s": 129101
     },
     {
       "p": "Assets/BG/default.png",
@@ -2164,18 +2169,28 @@
     },
     {
       "p": "Assets/BG/PaimonSleep.png",
-      "crc": "EE77C8AE0BABB62EBBAFB8BE6BF49699",
-      "s": 56251
+      "crc": "B0418A2463F809FD8DBF74F82EA0C947",
+      "s": 21913
     },
     {
       "p": "Assets/BG/PaimonWhat.png",
-      "crc": "5049A3325CEB9A0E5E067BF11F051B32",
-      "s": 17404
+      "crc": "F34F8B0C7E0BBA3914BFB12313B5D9ED",
+      "s": 6462
     },
     {
       "p": "Assets/Fonts/FontAwesomeBrand6.otf",
-      "crc": "2C058B94A3A5D3EC92C22B7374DB4327",
-      "s": 496360
+      "crc": "E371184929B169A8AFDCAA84CF7CA676",
+      "s": 515644
+    },
+    {
+      "p": "Assets/Fonts/FontAwesomeRegular6.otf",
+      "crc": "53E9EABC50454B71C8DDE36CC20703BE",
+      "s": 173956
+    },
+    {
+      "p": "Assets/Fonts/FontAwesomeSolid6.otf",
+      "crc": "5673B69641242492D7A33D4CDB27721B",
+      "s": 999396
     },
     {
       "p": "Microsoft.UI.Xaml/Assets/NoiseAsset_256x256_PNG.png",
