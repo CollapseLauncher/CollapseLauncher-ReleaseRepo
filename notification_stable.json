@@ -10,21 +10,36 @@
         },
     ],
     "RegionPush": [
-        // Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 5 Used
-        // Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999 : 1000005 Used
-        // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000004 Used
+        // Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 6 Used
+        // Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999 : 1000006 Used
+        // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000005 Used
         // Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
         // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
-        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000005 Used
+        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000004 Used
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
         {
-            "MsgId": 5000005,
+            "MsgId": 6,
             "IsDisposable": true,
-            "Severity": "Success",
-            "RegionProfile": "GIGlb",
-            "Title": "Game Repair Feature for Genshin is Back on v1.0.36.0 build",
-            "Message": "Game Repair feature and Post-Install Verification mechanism for Genshin is now back on v1.0.36.0 build. Please update your launcher to use this feature.",
-            "ValidForVerBelow": "1.0.36.0"
+            "Severity": "Error",
+            "RegionProfile": "Hi3SEA",
+            "Title": "Important announcement regarding to Hi3Mirror issues",
+            "Message": "We would like to announce you that due to outages on Hi3Mirror services until September 25, the user wouldn't be able to use Update Caches, Game Repair and Version Conversion features at the moment. We are terribly sorry for this inconvenience and hope we could bring it back on as soon as possible."
+        },
+        {
+            "MsgId": 1000006,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "RegionProfile": "Hi3Global",
+            "Title": "Important announcement regarding to Hi3Mirror issues",
+            "Message": "We would like to announce you that due to outages on Hi3Mirror services until September 25, the user wouldn't be able to use Update Caches, Game Repair and Version Conversion features at the moment. We are terribly sorry for this inconvenience and hope we could bring it back on as soon as possible."
+        },
+        {
+            "MsgId": 2000005,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "RegionProfile": "Hi3CN",
+            "Title": "Important announcement regarding to Hi3Mirror issues",
+            "Message": "We would like to announce you that due to outages on Hi3Mirror services until September 25, the user wouldn't be able to use Update Caches, Game Repair and Version Conversion features at the moment. We are terribly sorry for this inconvenience and hope we could bring it back on as soon as possible."
         },
     ]
 }
