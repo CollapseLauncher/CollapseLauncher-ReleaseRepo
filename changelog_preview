@@ -1,3 +1,28 @@
+- Collapse [PREVIEW] - v1.0.40.8 (September 26, 2022)
+  ► What's New?
+      ├ ▪ [Launcher/Runtime] Per-category based game & region selection (based on PR: #24).
+      ├ ▪ [Honkai Impact 3rd] New 崩壊3rd (Japanese PC Client) Support.
+      ├ ▪ [Launcher] Update translation of Simplified Chinese (based on PR: #21)
+      │    Big thanks @misaka10843 for your continuous contribution ❤️.
+      ├ ▪ [Runtime] Reduce usage of async and delayed tasks
+      ├ ▪ [Runtime] Execute routine if only all components are loaded
+      ├ ▪ [Runtime] Moving the runtime to .NET Core 7-rc1 and WinUI 3 1.1.5
+      └ ▪ [Runtime] Update NuGet packages.
+
+  ► What's Fixed?
+      ├ ▪ [Runtime] Fix the language not applied after selected from start-up
+      ├ ▪ [Runtime] Fix the cache update thrown an exception (Issue: #22)
+      │    Thank you @muscularcandy67 for reporting this issue.
+      ├ ▪ [Runtime] Fix potential crash if path isn't exist while checking game settings
+      ├ ▪ [Runtime] Fix crash while choosing image with initial bg gone missing
+      ├ ▪ [Launcher] Fix the cache update to show the date even it hasn't been downloaded
+      ├ ▪ [Launcher] Fix theme got transparent if Windows transparent effect is disabled
+      ├ ▪ [Launcher] Show prompt to locate directory if game_install_path is empty (Issue: #20)
+      │    Thank you for @KorewaLidesu for reporting this issue)
+      └ ▪ [Launcher] Fix cache update, game download and game preload to crash
+           Thank you @bagusnl for reporting this issue on Discord
+
+
 - Collapse [PREVIEW] - v1.0.40.5 (September 19th, 2022)
   ► What's New?
       ├ ▪ [Launcher] New Rounded Buttons and UI Minor Adjustment.
