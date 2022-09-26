@@ -1,4 +1,4 @@
-- Collapse [PREVIEW] - v1.0.40.8 (September 26, 2022)
+- Collapse [PREVIEW] - v1.0.40.9 (September 26, 2022)
   ► What's New?
       ├ ▪ [Launcher/Runtime] Per-category based game & region selection (based on PR: #24).
       ├ ▪ [Honkai Impact 3rd] New 崩壊3rd (Japanese PC Client) Support.
@@ -10,6 +10,7 @@
       └ ▪ [Runtime] Update NuGet packages.
 
   ► What's Fixed?
+      ├ ▪ [Runtime] Fix the launcher not running as administrator by default in 1.0.40.8 build.
       ├ ▪ [Runtime] Fix the language not applied after selected from start-up
       ├ ▪ [Runtime] Fix the cache update thrown an exception (Issue: #22)
       │    Thank you @muscularcandy67 for reporting this issue.
@@ -21,6 +22,10 @@
       │    Thank you for @KorewaLidesu for reporting this issue)
       └ ▪ [Launcher] Fix cache update, game download and game preload to crash
            Thank you @bagusnl for reporting this issue on Discord
+
+
+- Collapse [PREVIEW] - v1.0.40.8 (September 26, 2022)
+  ► [The release has been pulled from public due to launcher not running as administrator by default]
 
 
 - Collapse [PREVIEW] - v1.0.40.5 (September 19th, 2022)
