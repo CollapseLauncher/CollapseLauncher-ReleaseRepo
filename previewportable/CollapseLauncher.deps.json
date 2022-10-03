@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win-x64": {
-      "CollapseLauncher/1.0.40.9": {
+      "CollapseLauncher/1.0.50.2": {
         "dependencies": {
           "ColorThief": "1.0.0",
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
@@ -202,11 +202,11 @@
           }
         }
       },
-      "Google.Protobuf/3.21.6": {
+      "Google.Protobuf/3.21.7": {
         "runtime": {
           "lib/net5.0/Google.Protobuf.dll": {
-            "assemblyVersion": "3.21.6.0",
-            "fileVersion": "3.21.6.0"
+            "assemblyVersion": "3.21.7.0",
+            "fileVersion": "3.21.7.0"
           }
         }
       },
@@ -335,7 +335,7 @@
       "Hi3Helper.Core/1.0.0": {
         "dependencies": {
           "Crc32.NET": "1.2.0",
-          "Google.Protobuf": "3.21.6",
+          "Google.Protobuf": "3.21.7",
           "Hi3Helper.Http": "1.0.0",
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
           "Newtonsoft.Json": "13.0.2-beta2"
@@ -353,6 +353,9 @@
         }
       },
       "Hi3Helper.Http/1.0.0": {
+        "dependencies": {
+          "Crc32.NET": "1.2.0"
+        },
         "runtime": {
           "Hi3Helper.Http.dll": {}
         }
@@ -360,7 +363,7 @@
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.40.9": {
+    "CollapseLauncher/1.0.50.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -468,12 +471,12 @@
       "path": "crc32.net/1.2.0",
       "hashPath": "crc32.net.1.2.0.nupkg.sha512"
     },
-    "Google.Protobuf/3.21.6": {
+    "Google.Protobuf/3.21.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HSYHFnfuTu/O4Ijy0mCW9zxLI8MJfCZJ10dk3JGPrkLaRR4LsiPKzZrrnapf2G0tP2yRMkHCl+2LKLTXqGBn2A==",
-      "path": "google.protobuf/3.21.6",
-      "hashPath": "google.protobuf.3.21.6.nupkg.sha512"
+      "sha512": "sha512-0Q+wYqtEVjRxVbtfxXzTUzwLGMZJKqhmIgdDpwWyg8J4ykYqfPn0M60FPBcZkjiGgtJqvZp+8t2van9rxTCLWQ==",
+      "path": "google.protobuf/3.21.7",
+      "hashPath": "google.protobuf.3.21.7.nupkg.sha512"
     },
     "Microsoft.Graphics.Win2D/1.0.0.30": {
       "type": "package",
