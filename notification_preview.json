@@ -22,31 +22,7 @@
         // Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000007 Used
         // Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
         // Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
-        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000004 Used
+        // Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000005 Used
         // Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
-        {
-            "MsgId": 8,
-            "IsDisposable": true,
-            "Severity": "Success",
-            "RegionProfile": "Hi3SEA",
-            "Title": "Update: Important announcement regarding to Hi3Mirror issues",
-            "Message": "Hi3Mirror is now back online. Update Caches, Game Repair and Version Conversion features are now accessible. Thank you for all you patience and once again, apologize for all"
-        },
-        {
-            "MsgId": 1000008,
-            "IsDisposable": true,
-            "Severity": "Success",
-            "RegionProfile": "Hi3Global",
-            "Title": "Update: Important announcement regarding to Hi3Mirror issues",
-            "Message": "Hi3Mirror is now back online. Update Caches, Game Repair and Version Conversion features are now accessible."
-        },
-        {
-            "MsgId": 2000007,
-            "IsDisposable": true,
-            "Severity": "Success",
-            "RegionProfile": "Hi3CN",
-            "Title": "Update: Important announcement regarding to Hi3Mirror issues",
-            "Message": "Hi3Mirror is now back online. Update Caches, Game Repair and Version Conversion features are now accessible."
-        },
     ]
 }
