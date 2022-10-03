@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.40.9",
-  "time": 1664200105,
+  "ver": "1.0.50.2",
+  "time": 1664822218,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -29,17 +29,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "41C423CD39E2806A339B3C6D88641F38",
-      "s": 51605
+      "crc": "5A0784AA7A497C49765EC39FB27FFBA8",
+      "s": 51676
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "1CEF4FA118D6D1163E94B7A7D998CFB8",
-      "s": 1171456
+      "crc": "DBFDCFC7FEAF6054FD7ED8C6C6E147AD",
+      "s": 1172480
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "250206C82862EF9845B168E627EAD681",
+      "crc": "BB4EEC64709404F11DE37742E199F88C",
       "s": 622592
     },
     {
@@ -159,23 +159,23 @@
     },
     {
       "p": "Google.Protobuf.dll",
-      "crc": "9EB0F5595DC2FA6E682DC3BB4D0CD2A3",
-      "s": 409376
+      "crc": "68C5D5C08D9FADC15043A074EAA68F4A",
+      "s": 409368
     },
     {
       "p": "Hi3Helper.Core.dll",
-      "crc": "CAD901E010A2CF6DF794B8E595D2DB8B",
-      "s": 369152
+      "crc": "B1240427F25F6FE3C9404EE9FA9CA716",
+      "s": 369664
     },
     {
       "p": "Hi3Helper.EncTool.dll",
-      "crc": "76DAE7E26455DCF0DAA9981E4C32DB32",
+      "crc": "53A9EF7BF8F3620A51372E35009CFD1C",
       "s": 14848
     },
     {
       "p": "Hi3Helper.Http.dll",
-      "crc": "087ED2A8A40B6344253A886DCC446B39",
-      "s": 46080
+      "crc": "205F60F9CEE07D57A664B32A045D1E80",
+      "s": 49152
     },
     {
       "p": "hostfxr.dll",
@@ -509,8 +509,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "42A0C69224E26E25CC67E6C77243F8FD",
-      "s": 1366128
+      "crc": "5CD4F567AEF18C4E1F8A9C718C13E6FC",
+      "s": 1366368
     },
     {
       "p": "System.AppContext.dll",
@@ -1694,13 +1694,13 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "23ECFBF225FC2214923ECC1938AD14B2",
-      "s": 31413
+      "crc": "475BBE82D5407409F4A4F4DE233B4883",
+      "s": 31480
     },
     {
       "p": "Lang/id-ID.json",
-      "crc": "7DED27F3834F67AA5E34F905B65659CF",
-      "s": 31890
+      "crc": "6144AE8216C7A71F6D501C1BF9281115",
+      "s": 31957
     },
     {
       "p": "Lang/zh-cn.json",
