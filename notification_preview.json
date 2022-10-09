@@ -15,7 +15,7 @@
             "Title": "You are using Preview build",
             "Message": "You're using preview build and might be unstable. To report any issues, please visit: https://github.com/neon-nyan/CollapseLauncher/issues",
             "Show": true
-        },
+        }
     ],
     "RegionPush": [
         {
