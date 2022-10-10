@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win-x64": {
-      "CollapseLauncher/1.0.51.0": {
+      "CollapseLauncher/1.0.51.1": {
         "dependencies": {
           "ColorThief": "1.0.0",
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
@@ -1031,47 +1031,6 @@
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.22.11401"
           }
-        },
-        "resources": {
-          "lib/net6.0/cs/System.CommandLine.resources.dll": {
-            "locale": "cs"
-          },
-          "lib/net6.0/de/System.CommandLine.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net6.0/es/System.CommandLine.resources.dll": {
-            "locale": "es"
-          },
-          "lib/net6.0/fr/System.CommandLine.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net6.0/it/System.CommandLine.resources.dll": {
-            "locale": "it"
-          },
-          "lib/net6.0/ja/System.CommandLine.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net6.0/ko/System.CommandLine.resources.dll": {
-            "locale": "ko"
-          },
-          "lib/net6.0/pl/System.CommandLine.resources.dll": {
-            "locale": "pl"
-          },
-          "lib/net6.0/pt-BR/System.CommandLine.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/net6.0/ru/System.CommandLine.resources.dll": {
-            "locale": "ru"
-          },
-          "lib/net6.0/tr/System.CommandLine.resources.dll": {
-            "locale": "tr"
-          },
-          "lib/net6.0/zh-Hans/System.CommandLine.resources.dll": {
-            "locale": "zh-Hans"
-          },
-          "lib/net6.0/zh-Hant/System.CommandLine.resources.dll": {
-            "locale": "zh-Hant"
-          }
         }
       },
       "System.Drawing.Common/7.0.0-rc.1.22426.10": {
@@ -1133,7 +1092,7 @@
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.51.0": {
+    "CollapseLauncher/1.0.51.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
