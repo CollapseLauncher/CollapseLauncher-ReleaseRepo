@@ -1,4 +1,4 @@
-- Collapse [Release Candidate] - v1.0.52.0 (October 16th, 2022 - 16:51)
+- Collapse [Release Candidate] - v1.0.52.1 RC1 (October 16th, 2022 - 16:51)
   ► What's New?
       ├ ▪ [Launcher] New Centered Game Selector for Windows 11
       ├ ▪ [Launcher] New Rounded Buttons and UI Minor Adjustment.
@@ -87,7 +87,6 @@
           ├ ▪ Fixing thread lock while downloading with high speed internet (above 50 MB/s or more). (Issue #19 - Thank
           │   you @muscularcandy67 for reporting this issue)
           └ ▪ Fixing incorrect downloaded size status by locking the SizeAttributes to avoid race condition.
-
 
 
 - Collapse [PREVIEW] - v1.0.36.3 (September 11th, 2022)

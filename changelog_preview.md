@@ -1,4 +1,4 @@
-# Welcome to 1.0.52.0 RC1 Update!
+# Welcome to 1.0.52.1 RC1 Update!
 
 # Attention
 This preview build is a Release Candidate for the next stable version. Some of the feature isn't yet final and need to be polished (for example: Translataion).
