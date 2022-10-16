@@ -1,54 +1,28 @@
-- Collapse [TESTBUILD] - v1.0.51.2 (October 11th, 2022 - 21:58 UTC+7)
-  ► [This is a test build to fix these issues: #29, #32, #28]
-    [Release note is not available for now]
-
-
-- Collapse [PREVIEW] - v1.0.40.9 (September 26, 2022)
+- Collapse [Release Candidate] - v1.0.52.0 (October 16th, 2022 - 16:51)
   ► What's New?
+      ├ ▪ [Launcher] New Centered Game Selector for Windows 11
+      ├ ▪ [Launcher] New Rounded Buttons and UI Minor Adjustment.
       ├ ▪ [Launcher/Runtime] Per-category based game & region selection (based on PR: #24).
       ├ ▪ [Honkai Impact 3rd] New 崩壊3rd (Japanese PC Client) Support.
-      ├ ▪ [Launcher] Update translation of Simplified Chinese (based on PR: #21)
-      │    Big thanks @misaka10843 for your continuous contribution ❤️.
-      ├ ▪ [Runtime] Reduce usage of async and delayed tasks
-      ├ ▪ [Runtime] Execute routine if only all components are loaded
-      ├ ▪ [Runtime] Moving the runtime to .NET Core 7-rc1 and WinUI 3 1.1.5
-      └ ▪ [Runtime] Update NuGet packages.
-
-  ► What's Fixed?
-      ├ ▪ [Runtime] Fix the launcher not running as administrator by default in 1.0.40.8 build.
-      ├ ▪ [Runtime] Fix the language not applied after selected from start-up
-      ├ ▪ [Runtime] Fix the cache update thrown an exception (Issue: #22)
-      │    Thank you @muscularcandy67 for reporting this issue.
-      ├ ▪ [Runtime] Fix potential crash if path isn't exist while checking game settings
-      ├ ▪ [Runtime] Fix crash while choosing image with initial bg gone missing
-      ├ ▪ [Launcher] Fix the cache update to show the date even it hasn't been downloaded
-      ├ ▪ [Launcher] Fix theme got transparent if Windows transparent effect is disabled
-      ├ ▪ [Launcher] Show prompt to locate directory if game_install_path is empty (Issue: #20)
-      │    Thank you for @KorewaLidesu for reporting this issue)
-      └ ▪ [Launcher] Fix cache update, game download and game preload to crash
-           Thank you @bagusnl for reporting this issue on Discord
-
-
-- Collapse [PREVIEW] - v1.0.40.8 (September 26, 2022)
-  ► [The release has been pulled from public due to launcher not running as administrator by default]
-
-
-- Collapse [PREVIEW] - v1.0.40.5 (September 19th, 2022)
-  ► What's New?
-      ├ ▪ [Launcher] New Rounded Buttons and UI Minor Adjustment.
-      ├ ▪ [Launcher] Minor UI Adjustment for Notification on Dark Theme.
+      ├ ▪ [Launcher] Markdown based Release Notes on self-update menu.
       ├ ▪ [Launcher] New Update Experience using the same In-Launcher Update Page.
-      ├ ▪ [Launcher] Implement Instant Region Load with Asynchronous Background Loading.
-      ├ ▪ [Launcher] Instant Migration Mechanism.
-      ├ ▪ [Launcher] New First-Install Walkthrough.
-      ├ ▪ [Honkai Impact 3rd] Rollback Mechanism on Delta Patch Update Mechanism.
-      ├ ▪ [Honkai Impact 3rd] Add an Ability to Cancel Game Conversion.
+      ├ ▪ [Launcher] Instant Migration Mechanism
+      ├ ▪ [Launcher] Conversion process will now asking you to download the Cookbook file manually.
+      ├ ▪ [Launcher] New First-Install Walkthrough
+      ├ ▪ [Honkai Impact 3rd] Rollback Mechanism on Delta Patch Update and Game Conversion Mechanism
+      ├ ▪ [Honkai Impact 3rd] Add an Ability to Cancel Game Conversion (Also Rollback Mechanism if the Conversion has Failed)
+      ├ ▪ [Runtime] Switching from Newtonsoft.Json to Source Generated System.Text.Json for De/Serialization.
+      ├ ▪ [Runtime] Move Repo List for Repair, Conversion and Delta Patch mechanism from Hi3Mirror to CollapseLauncher-Repo Repository.
+      ├ ▪ [Runtime] Reduce usage of async and delayed tasks.
+      ├ ▪ [Runtime] Execute routine if only all components are loaded.
+      ├ ▪ [Runtime] Moving the runtime to .NET Core 7-rc1 and WinUI 3 1.2-preview 2
+      ├ ▪ [Runtime] Separate Hi3HelperCore to each sub-part (like Hi3Helper.Http, Hi3Helper.Core and Hi3Helper.EncTool)
       ├ ▪ [Launcher] Add Zone detail attributes.
       ├ ▪ [Launcher] Change default theme to dark and change default accent color.
       ├ ▪ [Launcher] Localize Unhandled Exception page.
       ├ ▪ [Launcher] Move all ThemeDictionaries to App.xaml.
-      ├ ▪ [Launcher] Add an ability to pause Image Carousel when hovered
-      ├ ▪ [Launcher] Add Rollback Check for Game Conversion
+      ├ ▪ [Launcher] Add an ability to pause Image Carousel when hovered.
+      ├ ▪ [Launcher] Add Rollback Check for Game Conversion. 
       ├ ▪ [Runtime/Code Quality] Reduce usages of DispatcherQueue at some cases.
       ├ ▪ [Runtime/Code Quality] Add nullable check for Game Installation and Logger.
       ├ ▪ [Submodule - ColorThief] Move to local fork for ColorThief submodule, including these changes:
@@ -58,24 +32,62 @@
       │   ├ ▪ Using byte[][] instead of IEnumerable<byte[]> at some parts
       │   └ ▪ Adding GeneratePaletteList() method (returns List<QuantizedColor>) and GetPaletteEnumeration()
       │       method (returns IEnumerable<QuantizedColor>)
+      ├ ▪ [Submodule - Hi3Helper.Http] Refactor the whole Hi3Helper.Http codes:
+      │   ├ ▪ All download methods will be merged into one overloaded Download() method.
+      │   ├ ▪ Async method DownloadAsync() will only be available for Multi-session mode with awaiters:
+      │   │   WaitUntilAllSessionDownloaded(), WaitUntilAllSessionReady()
+      │   ├ ▪ Method for merging Multi-session mode will be renamed to Merge() with Async name MergeAsync()
+      │   │   with awaiters: WaitUntilAllMerged().
+      │   ├ ▪ We added an ability to set the user-agent while initializing the class.
+      │   ├ ▪ Using XOR'ed session file number to avoid conflict while switching to the new session number.
+      │   └ ▪ Disable compression by default.
       ├ ▪ [Runtime] Logging NullReferenceException on install/update.
-      └ ▪ [Runtime] Force show console outside of launcher scope.
+      ├ ▪ [Runtime] Force show console outside of launcher scope.
+      └ ▪ [Runtime] Update and Use New NuGet packages
+          ├ ▪ runtimepack.Microsoft.NETCore.App.Runtime.win-x64 (New/7.0.0-rc.1.22426.10)
+          ├ ▪ CommunityToolkit.WinUI.UI (New/7.1.2)
+          ├ ▪ System.Text.Json (New/7.0.0-rc.2.22472.3)
+          ├ ▪ Microsoft.Windows.CsWinRT (New/2.0.0)
+          ├ ▪ Newtonsoft.Json (Removed)
+          ├ ▪ Microsoft.NETCore.App (6.0.7 -> 7.0.0-rc.1.22426.10)
+          ├ ▪ Microsoft.Windows.SDK.BuildTools (10.0.22621.1 -> 10.0.25211-preview)
+          ├ ▪ Microsoft.WindowsAppSDK (1.1.4 -> 1.2.220930.4-preview2)
+          ├ ▪ System.Drawing.Common (6.0.0 -> 7.0.0-rc.2.22472.3)
+          ├ ▪ runtimepack.Microsoft.NETCore.App.Runtime.win-x64 (6.0.7 -> 7.0.0-rc.1.22426.10)
+          └ ▪ 7-zip (7z.dll) (21.06 -> 22.01)
 
   ► What's Fixed?
+      ├ ▪ [Runtime] Fix window title doesn't applied on stable release.
+      ├ ▪ [Launcher] Fix the News Panel doesn't fade-out if toggle is set to off.
+      ├ ▪ [Runtime/Genshin Impact] Fix the language setter to throw while regvalue isn't exist while migrating existing game.
+      ├ ▪ [Runtime] Fix the launcher not running as administrator by default in 1.0.40.8 build.
+      ├ ▪ [Runtime] Fix the voice language setter not applied after selected from start-up.
+      ├ ▪ [Runtime] Fix the cache update thrown an exception (Issue: #22 - Thank you @muscularcandy67 for reporting this issue).
+      ├ ▪ [Runtime] Fix potential crash if path isn't exist while checking game settings.
+      ├ ▪ [Runtime] Fix crash while choosing image with initial bg gone missing.
+      ├ ▪ [Launcher] Fix the cache update to show the date even it hasn't been downloaded.
+      ├ ▪ [Launcher] Fix theme got transparent if Windows transparent effect is disabled.
+      ├ ▪ [Launcher] Show prompt to locate directory if game_install_path is empty (Issue: #20 - Thank you @KorewaLidesu for reporting this issue).
+      ├ ▪ [Launcher] Fix cache update, game download and game preload to crash (Thank you @bagusnl for reporting this issue on Discord).
       ├ ▪ [Launcher/Runtime] Fixed the WebView2 not Terminated while Unused.
       ├ ▪ [Launcher] Fixed the "Install Game" button still visible behind the "Update Game" button
-      ├ ▪ [Launcher] Fixed delta patch to break the game while failure occur by reverting previous data
-      ├ ▪ [Launcher] Fixed bright overlay while transitioning to the next background
-      ├ ▪ [Launcher] Fixed color oddness on dark and light theme
-      ├ ▪ [Runtime] Fixed the downloader getting invalid EndOffset while repairing
-      │    Issue #17 - Thank you @DarkXonline for reporting the issue
-      ├ ▪ [Runtime] Fixed crash while checking non-existing folder for game conversion revert back mechanism
-      ├ ▪ [Runtime] Fixed crash while cancelling selection on Game Conversion
-      ├ ▪ [Runtime] Fixed rare crash while checking non-Genshin Server ID
-      ├ ▪ [Runtime] Fixed crash while disconnected and add "Show error message" button
-      ├ ▪ [Runtime] Fixed outdated Delta Patch still used in latest update
-      └ ▪ [Submodule - Hi3Helper.Http] Fixed the possibility of thread lock while downloading using high-speed internet
-           Issue #19 - Thank you @muscularcandy67 for reporting this issue
+      ├ ▪ [Launcher] Fixed delta patch to break the game while failure occur by reverting previous data. ddffa58
+      ├ ▪ [Launcher] Fixed bright overlay while transitioning to the next background. d1d9a64
+      ├ ▪ [Launcher] Fixed color oddness on dark and light theme. 82d24c7
+      ├ ▪ [Runtime] Fixed the downloader getting invalid EndOffset while repairing. (Issue #17 - Thank you @DarkXonline
+      │   for reporting the issue) d867321
+      ├ ▪ [Runtime] Fixed crash while checking non-existing folder for game conversion revert back mechanism. fe45f79
+      ├ ▪ [Runtime] Fixed crash while cancelling selection on Game Conversion. 8e05154
+      ├ ▪ [Runtime] Fixed rare crash while checking non-Genshin Server ID. aa87157
+      ├ ▪ [Runtime] Fixed crash while disconnected and add "Show error message" button. 94fff1f
+      ├ ▪ [Runtime] Fixed outdated Delta Patch still used in latest update. eed9d83
+      └ ▪ [Submodule - Hi3Helper.Http] Refactor the whole Hi3Helper.Http codes:
+          ├ ▪ Problems with disposing Input and Output Stream causing crash on the application.
+          ├ ▪ Simplifying throw without using this own exceptions implementation.
+          ├ ▪ Fixing thread lock while downloading with high speed internet (above 50 MB/s or more). (Issue #19 - Thank
+          │   you @muscularcandy67 for reporting this issue)
+          └ ▪ Fixing incorrect downloaded size status by locking the SizeAttributes to avoid race condition.
+
 
 
 - Collapse [PREVIEW] - v1.0.36.3 (September 11th, 2022)

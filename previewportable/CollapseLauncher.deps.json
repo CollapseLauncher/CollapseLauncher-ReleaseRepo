@@ -7,9 +7,10 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win-x64": {
-      "CollapseLauncher/1.0.51.2": {
+      "CollapseLauncher/1.0.50.0": {
         "dependencies": {
           "ColorThief": "1.0.0",
+          "CommunityToolkit.WinUI.UI": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
           "Hi3Helper.Core": "1.0.0",
           "Hi3Helper.EncTool": "1.0.0",
@@ -18,8 +19,8 @@
           "Microsoft.Windows.SDK.BuildTools": "10.0.25211-preview",
           "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2",
           "System.CommandLine": "2.0.0-beta3.22114.1",
-          "System.Drawing.Common": "7.0.0-rc.1.22426.10",
-          "System.Text.Json": "7.0.0-rc.1.22426.10",
+          "System.Drawing.Common": "7.0.0-rc.2.22472.3",
+          "System.Text.Json": "7.0.0-rc.2.22472.3",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.26"
         },
         "runtime": {
@@ -168,7 +169,7 @@
           "CommunityToolkit.WinUI.UI": "7.1.2",
           "Microsoft.Graphics.Win2D": "1.0.0.30",
           "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2",
-          "System.Text.Json": "7.0.0-rc.1.22426.10"
+          "System.Text.Json": "7.0.0-rc.2.22472.3"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Media.dll": {
@@ -223,11 +224,11 @@
           "System.Security.Principal.Windows": "6.0.0-preview.5.21301.5"
         }
       },
-      "Microsoft.Win32.SystemEvents/7.0.0-rc.1.22426.10": {
+      "Microsoft.Win32.SystemEvents/7.0.0-rc.2.22472.3": {
         "runtime": {
           "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
             "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.42610"
+            "fileVersion": "7.0.22.47203"
           }
         }
       },
@@ -312,14 +313,14 @@
           }
         }
       },
-      "System.Drawing.Common/7.0.0-rc.1.22426.10": {
+      "System.Drawing.Common/7.0.0-rc.2.22472.3": {
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "7.0.0-rc.1.22426.10"
+          "Microsoft.Win32.SystemEvents": "7.0.0-rc.2.22472.3"
         },
         "runtime": {
           "runtimes/win/lib/net7.0/System.Drawing.Common.dll": {
             "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.42610"
+            "fileVersion": "7.0.22.47203"
           }
         }
       },
@@ -329,15 +330,28 @@
         }
       },
       "System.Security.Principal.Windows/6.0.0-preview.5.21301.5": {},
-      "System.Text.Encodings.Web/7.0.0-rc.1.22426.10": {},
-      "System.Text.Json/7.0.0-rc.1.22426.10": {
+      "System.Text.Encodings.Web/7.0.0-rc.2.22472.3": {
+        "runtime": {
+          "lib/net7.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.Text.Json/7.0.0-rc.2.22472.3": {
         "dependencies": {
-          "System.Text.Encodings.Web": "7.0.0-rc.1.22426.10"
+          "System.Text.Encodings.Web": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Json.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
         }
       },
       "ColorThief/1.0.0": {
         "dependencies": {
-          "System.Drawing.Common": "7.0.0-rc.1.22426.10"
+          "System.Drawing.Common": "7.0.0-rc.2.22472.3"
         },
         "runtime": {
           "ColorThief.dll": {}
@@ -349,16 +363,13 @@
           "Google.Protobuf": "3.21.7",
           "Hi3Helper.Http": "1.0.0",
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
-          "System.Text.Json": "7.0.0-rc.1.22426.10"
+          "System.Text.Json": "7.0.0-rc.2.22472.3"
         },
         "runtime": {
           "Hi3Helper.Core.dll": {}
         }
       },
       "Hi3Helper.EncTool/1.0.0": {
-        "dependencies": {
-          "Hi3Helper.Core": "1.0.0"
-        },
         "runtime": {
           "Hi3Helper.EncTool.dll": {}
         }
@@ -371,7 +382,7 @@
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.51.2": {
+    "CollapseLauncher/1.0.50.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -507,12 +518,12 @@
       "path": "microsoft.win32.registry/6.0.0-preview.5.21301.5",
       "hashPath": "microsoft.win32.registry.6.0.0-preview.5.21301.5.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/7.0.0-rc.1.22426.10": {
+    "Microsoft.Win32.SystemEvents/7.0.0-rc.2.22472.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wvD1vizCIyvNskOZefHZUKPMZyTD8bhksW6ha79Sjb6vMgCpxgVwCsJDxN5RAY6KXAJigJTf1nIawLRiUjDgbw==",
-      "path": "microsoft.win32.systemevents/7.0.0-rc.1.22426.10",
-      "hashPath": "microsoft.win32.systemevents.7.0.0-rc.1.22426.10.nupkg.sha512"
+      "sha512": "sha512-/1Q4EliHYtAwVNBSB/qByvayhKV+1PYkpKF1VMKz67twIGjRcnw8UfvYrl7xWE426MiLl/fOsT/ql/7ii/HoTA==",
+      "path": "microsoft.win32.systemevents/7.0.0-rc.2.22472.3",
+      "hashPath": "microsoft.win32.systemevents.7.0.0-rc.2.22472.3.nupkg.sha512"
     },
     "Microsoft.Windows.CsWinRT/2.0.0": {
       "type": "package",
@@ -549,12 +560,12 @@
       "path": "system.commandline/2.0.0-beta3.22114.1",
       "hashPath": "system.commandline.2.0.0-beta3.22114.1.nupkg.sha512"
     },
-    "System.Drawing.Common/7.0.0-rc.1.22426.10": {
+    "System.Drawing.Common/7.0.0-rc.2.22472.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wWYXAQ6EaQpmHM9LHg/jRUu6rXZklPTYcwTmPSXDCOlyMW6Q41hEKEAh1XmMBBhDfpBF0UeysVwXVkWZLdyIqQ==",
-      "path": "system.drawing.common/7.0.0-rc.1.22426.10",
-      "hashPath": "system.drawing.common.7.0.0-rc.1.22426.10.nupkg.sha512"
+      "sha512": "sha512-3rIg2KRI+DqQysJ8mcpyOcNRaBR0L5gmVt91y7VOEBbTmK1jnfTXdm+zWHwv4SSCXRSOtYUKNW7iEnPuI6O9dw==",
+      "path": "system.drawing.common/7.0.0-rc.2.22472.3",
+      "hashPath": "system.drawing.common.7.0.0-rc.2.22472.3.nupkg.sha512"
     },
     "System.Security.AccessControl/6.0.0-preview.5.21301.5": {
       "type": "package",
@@ -570,19 +581,19 @@
       "path": "system.security.principal.windows/6.0.0-preview.5.21301.5",
       "hashPath": "system.security.principal.windows.6.0.0-preview.5.21301.5.nupkg.sha512"
     },
-    "System.Text.Encodings.Web/7.0.0-rc.1.22426.10": {
+    "System.Text.Encodings.Web/7.0.0-rc.2.22472.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-a7bPfGycEOz3UADZ1407Le4fodZZrhrcXUjs7MdQNR9OfKGO3iSSudwDiX6RUQ+D+rg1ANMUIuGbxx5yT3R5dA==",
-      "path": "system.text.encodings.web/7.0.0-rc.1.22426.10",
-      "hashPath": "system.text.encodings.web.7.0.0-rc.1.22426.10.nupkg.sha512"
+      "sha512": "sha512-o9O/FcXxh8L3Y9k4rPRPc5zp8c0DO4YUUDbOYnrLKufMGn/K4ZHYNURYbCqoMmYRiviiny6EYC4r2YMrf8SIYQ==",
+      "path": "system.text.encodings.web/7.0.0-rc.2.22472.3",
+      "hashPath": "system.text.encodings.web.7.0.0-rc.2.22472.3.nupkg.sha512"
     },
-    "System.Text.Json/7.0.0-rc.1.22426.10": {
+    "System.Text.Json/7.0.0-rc.2.22472.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wPjtxKQvr1d2uOVIfnErgHCBH/PTUOC6R3i/b06lmrv+OSQ/kmBow+tXNeThbuehQQEdAlb8f82Krs7KqZ135Q==",
-      "path": "system.text.json/7.0.0-rc.1.22426.10",
-      "hashPath": "system.text.json.7.0.0-rc.1.22426.10.nupkg.sha512"
+      "sha512": "sha512-/fSjSM1v79RTMCn9PjifYevLdOKwo37+KrNKYJES+UeqxHuNmGt3syOdCYikE6/MDOKnii65bBygG2MsCtyP1A==",
+      "path": "system.text.json/7.0.0-rc.2.22472.3",
+      "hashPath": "system.text.json.7.0.0-rc.2.22472.3.nupkg.sha512"
     },
     "ColorThief/1.0.0": {
       "type": "project",
