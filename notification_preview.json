@@ -19,76 +19,13 @@
     ],
     "RegionPush": [
         {
-            "MsgId": 8,
-            "IsDisposable": true,
-            "Severity": "Informational",
-            "RegionProfile": "Hi3SEA",
-            "Title": "Dummy Title",
-            "Message": "Hello, nothing to show here",
-            "Show": false
-        },
-        {
-            "MsgId": 1000008,
-            "IsDisposable": true,
-            "Severity": "Informational",
-            "RegionProfile": "Hi3Global",
-            "Title": "Dummy Title",
-            "Message": "Hello, nothing to show here",
-            "Show": false
-        },
-        {
-            "MsgId": 2000007,
-            "IsDisposable": true,
-            "Severity": "Informational",
-            "RegionProfile": "Hi3CN",
-            "Title": "Dummy Title",
-            "Message": "Hello, nothing to show here",
-            "Show": false
-        },
-        {
-            "MsgId": 3000000,
-            "IsDisposable": true,
-            "Severity": "Informational",
-            "RegionProfile": "Hi3TW",
-            "Title": "Dummy Title",
-            "Message": "Hello, nothing to show here",
-            "Show": false
-        },
-        {
-            "MsgId": 4000000,
-            "IsDisposable": true,
-            "Severity": "Informational",
-            "RegionProfile": "Hi3KR",
-            "Title": "Dummy Title",
-            "Message": "Hello, nothing to show here",
-            "Show": false
-        },
-        {
-            "MsgId": 7000000,
+            "MsgId": 7000001,
             "IsDisposable": true,
             "Severity": "Informational",
             "RegionProfile": "Hi3JP",
-            "Title": "Dummy Title",
-            "Message": "Hello, nothing to show here",
-            "Show": false
-        },
-        {
-            "MsgId": 5000005,
-            "IsDisposable": true,
-            "Severity": "Informational",
-            "RegionProfile": "GIGlb",
-            "Title": "Dummy Title",
-            "Message": "Hello, nothing to show here",
-            "Show": false
-        },
-        {
-            "MsgId": 6000000,
-            "IsDisposable": true,
-            "Severity": "Informational",
-            "RegionProfile": "GICN",
-            "Title": "Dummy Title",
-            "Message": "Hello, nothing to show here",
-            "Show": false
+            "Title": "Welcome to Houkai 3rd (Honkai Impact 3rd Japan) PC Client",
+            "Message": "Hi there, We glad to announce you that Houkai 3rd is now availabe in Collapse Launcher! Hope you can enjoy to play in this new supported server.",
+            "Show": true
         }
     ]
 }
