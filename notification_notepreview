@@ -1,0 +1,8 @@
+Region Push notification MsgId for Hi3SEA starts from 1 to 999999 : 8 Used
+Region Push notification MsgId for Hi3Global starts from 1000000 to 1999999 : 1000008 Used
+Region Push notification MsgId for Hi3CN starts from 2000000 to 2999999 : 2000007 Used
+Region Push notification MsgId for Hi3TW starts from 3000000 to 3999999
+Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
+Region Push notification MsgId for Hi3JP starts from 7000001 to 7999999
+Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000005 Used
+Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000000 Used
