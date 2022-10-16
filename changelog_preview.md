@@ -1,7 +1,7 @@
 # Welcome to 1.0.52.1 RC1 Update!
 
 # Attention
-This preview build is a Release Candidate for the next stable version. Some of the feature isn't yet final and need to be polished (for example: Translataion).
+This preview build is a Release Candidate for the next stable version. Some of the features aren't yet final and need to be polished (for example: Translation).
 Yet, this build has the most changes so far and lots of fixes and changes being made.
 
 Don't forget to thank you so much for all of your support to keep this project alive.
