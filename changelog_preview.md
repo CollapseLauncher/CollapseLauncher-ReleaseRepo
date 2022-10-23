@@ -41,8 +41,6 @@ Previously, the 3rd number was marked as "**major changes**" number and 4th numb
 
 ### - [Launcher] Fix flashing while changing different region background image ``029f706``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/029f706850092f42688fcb9bec24a819614440a3)
 
-> The region will be retained if the the game has the same region as previous one.
-
 [**Click here for the preview video**](https://user-images.githubusercontent.com/30566970/197395709-dea15d15-7d2e-4681-8dda-4dfaa2bbd4d7.mp4)
 
 ### - [Genshin Impact/Launcher] Implement Custom Launch Argument support for Genshin (Request: [**#35**](https://github.com/neon-nyan/CollapseLauncher/issues/35)) ``091b8ed``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/091b8ede4746c999b55f689d67e96dc3f03a40dd)
