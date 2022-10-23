@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.52.1",
-  "time": 1665915046,
+  "ver": "1.0.52.2",
+  "time": 1666536223,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -14,17 +14,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "C6400D6316EC010EFAAEBFF1635BB8F3",
+      "crc": "ADAAF70E1820612A61CA51600A580C2F",
       "s": 24947
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "31ABD2670D015D87AB1CCCA2D4F79EDE",
-      "s": 2269184
+      "crc": "6EDE2F443B36B04837B7C5C970415D3A",
+      "s": 2351104
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "C1AD22442B385DA270173367462BC429",
+      "crc": "8870FFD3B4EB6E0E0266CC088C0CE003",
       "s": 624640
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "69BC1D39150AFC5A88D36238BE5C26F5",
-      "s": 212908
+      "crc": "5D91DE269D5C40C4D67B1B8F948550B5",
+      "s": 224356
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -54,12 +54,12 @@
     },
     {
       "p": "ColorThief.dll",
-      "crc": "7F52E092780B0A41463ADFAF10B778DC",
+      "crc": "17002CB6897A7BA6B956D29AF07C47CE",
       "s": 49152
     },
     {
       "p": "ColorThief.pdb",
-      "crc": "5FE8CC66F12E46D9D536AB054223C974",
+      "crc": "753E0FD75BAD639155D071017F43D93A",
       "s": 13420
     },
     {
@@ -74,12 +74,12 @@
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Core.dll",
-      "crc": "733DE1BE4F58A20D46E03771AEB21B9A",
+      "crc": "CAC18A44E666276D9BFAD32358B75C9A",
       "s": 606208
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.DataGrid.dll",
-      "crc": "518524354A69BE542A3D5437B22F46B9",
+      "crc": "42BEF4A7E1FB5B0F65585E01135C8085",
       "s": 1150976
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Layout.dll",
-      "crc": "AEBD687A8A2137812579CE92E6126F1D",
+      "crc": "6C07ECD7C6E0BDC23538755C23788E06",
       "s": 401408
     },
     {
@@ -149,33 +149,33 @@
     },
     {
       "p": "Hi3Helper.Core.dll",
-      "crc": "C9021AF74C735C45BC73C7D375AB8151",
+      "crc": "86F1287D5A3227BC28A58DD4D5FE37C8",
       "s": 1929216
     },
     {
       "p": "Hi3Helper.Core.pdb",
-      "crc": "2157201B380D64C85CD0E4B23E97BA64",
-      "s": 381660
+      "crc": "1FAC5364E982E26FD3959D8D4DA60FD6",
+      "s": 381640
     },
     {
       "p": "Hi3Helper.EncTool.dll",
-      "crc": "F9F4FFDA4DCE2483629310B800DF74C8",
+      "crc": "6353C62554DD7B2BB06A494D975F938F",
       "s": 28672
     },
     {
       "p": "Hi3Helper.EncTool.pdb",
-      "crc": "BBD665F9EB1A1D0233B70A376C3F3829",
+      "crc": "E7B3EDD387848B6C3B622CC589ABC1A1",
       "s": 9252
     },
     {
       "p": "Hi3Helper.Http.dll",
-      "crc": "F03FDD6534FF793FDC48A91BBD8D699B",
-      "s": 102400
+      "crc": "A2D9B2FB969F2AAE4E423CB6AD3716BD",
+      "s": 90112
     },
     {
       "p": "Hi3Helper.Http.pdb",
-      "crc": "A74C26A1FF1E2B0AD773D866EC984BB1",
-      "s": 16816
+      "crc": "373DA8D79C9FBD348542E046310D4BD7",
+      "s": 19200
     },
     {
       "p": "icon.ico",
@@ -469,8 +469,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "45386FFEB788619C5EE531597A6B40C6",
-      "s": 1518008
+      "crc": "2F1DF5C57448AB39B38CF25D80D282F5",
+      "s": 1519536
     },
     {
       "p": "System.CommandLine.dll",
@@ -864,8 +864,8 @@
     },
     {
       "p": "Lang/zh-cn.json",
-      "crc": "531AE1EAC9982A16C6D9CC9379C43448",
-      "s": 27942
+      "crc": "DD86EA4D2031B0CA9165FB479BF965FD",
+      "s": 29067
     },
     {
       "p": "Lib/7z.dll",
