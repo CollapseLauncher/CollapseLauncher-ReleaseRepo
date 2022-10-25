@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win-x64": {
-      "CollapseLauncher/1.0.52.2": {
+      "CollapseLauncher/1.0.52.3": {
         "dependencies": {
           "ColorThief": "1.0.0",
           "CommunityToolkit.WinUI.UI": "7.1.2",
@@ -382,7 +382,7 @@
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.52.2": {
+    "CollapseLauncher/1.0.52.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
