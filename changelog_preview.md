@@ -1,4 +1,4 @@
-# Welcome to 1.0.52.3 RC2 Update!
+# Welcome to 1.0.52.4 RC2 Update!
 
 # Attention
 This preview build is a Release Candidate for the next stable version. Some of the features aren't yet final and need to be polished.
