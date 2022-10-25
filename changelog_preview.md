@@ -1,4 +1,4 @@
-# Welcome to 1.0.52 RC2 Update!
+# Welcome to 1.0.52.3 RC2 Update!
 
 # Attention
 This preview build is a Release Candidate for the next stable version. Some of the features aren't yet final and need to be polished.
@@ -56,6 +56,11 @@ Previously, the 3rd number was marked as "**major changes**" number and 4th numb
 - **[Launcher/Runtime]** Moving to CollapseLauncher-Repo's ``repair_index`` as Data Index for Repair and Game Conversion feature ``5f2914e``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/5f2914e313dd4aa6eae41c53839463acea307aec)
 
 ***
+
+# What's Fixed (since 1.0.52.2 RC2 release)?
+- **[Launcher]** Fixed preload check to fail in 1.0.52 RC 1 and RC 2 build. ``323b674``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/323b67468b179ed2d01211153d4858594ba6455c) ``0044ce2``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/0044ce2a88c58c22903b14317664676d9933876e)
+- **[Runtime]** Fixed log writing conflict if the method called more than once at the same time. ``3091675``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/309167532c09baac632fd4e1bd140c7e4e1cee3c)
+
 
 # What's Fixed (since 1.0.52.1 RC1 release)?
 
