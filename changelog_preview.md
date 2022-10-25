@@ -57,6 +57,10 @@ Previously, the 3rd number was marked as "**major changes**" number and 4th numb
 
 ***
 
+# What's Fixed (since 1.0.52.3 RC2 release)?
+- **[Launcher]** Fixed the release note won't get loaded because of local path for debugging. ``151b754``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/151b75462e6aeaed8ab5c8d99768369477bbec89)
+
+
 # What's Fixed (since 1.0.52.2 RC2 release)?
 - **[Launcher]** Fixed preload check to fail in 1.0.52 RC 1 and RC 2 build. ``323b674``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/323b67468b179ed2d01211153d4858594ba6455c) ``0044ce2``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/0044ce2a88c58c22903b14317664676d9933876e)
 - **[Runtime]** Fixed log writing conflict if the method called more than once at the same time. ``3091675``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/309167532c09baac632fd4e1bd140c7e4e1cee3c)
