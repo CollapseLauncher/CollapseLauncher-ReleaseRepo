@@ -1,10 +1,8 @@
 {
-  // Translation Metadata
   "LanguageName": "Bahasa Indonesia",
   "LanguageID": "id-ID",
   "Author": "neon-nyan",
 
-  // StartupPage Content
   "_StartupPage": {
     "PageTitle": "Halaman Startup Awal",
     "Title1": "Selamat Datang",
@@ -24,20 +22,46 @@
     "ChooseFolderDialogPrimary": "Iya dong",
     "ChooseFolderDialogSecondary": "Nggak, pilih folder",
     "OverlayPrepareFolderTitle": "Menyiapkan Folder Launcher",
-    "OverlayPrepareFolderSubtitle": "Menerapkan izin..."
+    "OverlayPrepareFolderSubtitle": "Menerapkan izin...",
+    "Pg1NextBtn": "Selanjutnya - Memilih Game",
+    "Pg1LoadingTitle1": "Membaca List Game",
+    "Pg1LoadingSubitle1": "Menyiapkan list game yang didukung untukmu",
+    "Pg1LoadingSubitle2": "Selesai! Pindah ke bagian selanjutnya!",
+    "Pg2NextBtn": "Selesai - Masuk ke Launcher",
+    "Pg2PrevBtn": "Sebelumnya - Memilih Folder",
+    "Pg2Title": "Waktunya terbang~",
+    "Pg2Subtitle1_1": "Hanya satu langkah lagi untuk memainkan game-mu dari",
+    "Pg2Subtitle1_2": "Collapse Launcher.",
+    "Pg2Subtitle2_1": "Kami memiliki beberapa daftar game dari",
+    "Pg2Subtitle2_2": "miHoYo/HoYoverse",
+    "Pg2Subtitle2_3": "yang didukung. Silahkan pilih game-mu di bawah ini untuk memulainya dengan",
+    "Pg2Subtitle2_4": "Collapse Launcher.",
+    "Pg2ComboBox": "Pilih Game",
+    "Pg2ComboBoxRegion": "Pilih Region"
   },
 
-  // DisconnectedPage Content
   "_DisconnectedPage": {
     "PageTitle": "Halaman Terputus",
     "Header1": "Koneksi Internetmu",
     "Header2": "Terputus",
     "Footer1": "Mohon periksa koneksi internetmu dan klik",
     "Footer2": "Paimon",
-    "Footer3": "untuk mencoba lagi."
+    "Footer3": "untuk mencoba lagi.",
+    "ShowErrorBtn": "Perlihatkan Pesan Error"
   },
 
-  // MainPage Content
+  "_UnhandledExceptionPage": {
+    "UnhandledTitle1": "Error Tidak Tertangani",
+    "UnhandledSubtitle1": "Telah terjadi error yang tidak dapat ditangani dengan exception throw berikut:",
+    "UnhandledTitle2": "Isu Koneksi",
+    "UnhandledSubtitle2": "Oops, sepertinya koneksi internetmu terputus. apakah betul?",
+    "UnhandledTitle3": "Game Crash",
+    "UnhandledSubtitle3": "Telah terjadi crash pada game dengan error sebagai berikut:",
+    "CopyClipboardBtn1": "Salin Semua ke Clipboard",
+    "CopyClipboardBtn2": "Telah Tersalin ke Clipboard!",
+    "GoBackPageBtn1": "Kembali ke Halaman Sebelumnya"
+  },
+
   "_MainPage": {
     "PageTitle": "Halaman Awal",
     "RegionChangeConfirm": "Wilayah game akan diubah. Lanjutkan?",
@@ -55,7 +79,6 @@
     "MetadataUpdateBtnUpdating": "Memperbarui Metadata..."
   },
 
-  // HomePage Content
   "_HomePage": {
     "PageTitle": "Launcher",
     "PreloadTitle": "Pra-unduh Telah Tersedia!",
@@ -66,7 +89,7 @@
     "PreloadNotifIntegrityCheckBtn": "Cek Integritas",
     "StartBtn": "Mulai Game",
     "StartBtnRunning": "Game Sedang Berjalan",
-    "VerifyingPkgTitle": "Memeriksa Berkas",
+    "VerifyingPkgTitle": "Memeriksa",
     "PreloadDownloadNotifbarTitle": "Mengunduh Pra-unduh",
     "PreloadDownloadNotifbarVerifyTitle": "Memeriksa Pra-unduh",
     "PreloadDownloadNotifbarSubtitle": "Berkas yang Diperlukan",
@@ -82,6 +105,7 @@
     "GameSettings_Panel1": "Pengaturan Cepat",
     "GameSettings_Panel1OpenGameFolder": "Buka Folder Game",
     "GameSettings_Panel1OpenCacheFolder": "Buka Folder Cache",
+    "GameSettings_Panel1OpenScreenshotFolder": "Buka Screenshot",
     "GameSettings_Panel2": "Instalasi Game",
     "GameSettings_Panel2RepairGame": "Perbaiki Game",
     "GameSettings_Panel2UninstallGame": "Hapus Game",
@@ -95,7 +119,6 @@
     "PostPanel_NoNews": "Hah?\nNggak ada berita?"
   },
 
-  // GameRepairPage
   "_GameRepairPage": {
     "PageTitle": "Perbaikan Game",
     "ListCol1": "Nama",
@@ -128,7 +151,6 @@
     "OverlayGameRunningSubtitle": "Mohon tutup game terlebih dahulu sebelum menggunakan fitur ini!"
   },
 
-  // CachesPage Content
   "_CachesPage": {
     "PageTitle": "Pembaruan Cache",
     "ListCol1": "Name",
@@ -155,17 +177,14 @@
     "OverlayGameRunningSubtitle": "Mohon tutup game terlebih dahulu sebelum menggunakan fitur ini!"
   },
 
-  // CutscenesPage
   "_CutscenesPage": {
     "PageTitle": "Cutscene"
   },
 
-  // GameSettingsPage
   "_GameSettingsPage": {
     "PageTitle": "Pengaturan Game",
 
     "Graphics_Title": "Pengaturan Grafis",
-    // Graphics: Resolution Panel
     "Graphics_ResolutionPanel": "Resolusi Game",
     "Graphics_Fullscreen": "Layar Penuh",
     "Graphics_ExclusiveFullscreen": "Gunakan Layar Penuh Eksklusif",
@@ -174,18 +193,15 @@
     "Graphics_ResCustomW": "P",
     "Graphics_ResCustomH": "T",
 
-    // Graphics: FPS Panel
     "Graphics_FPSPanel": "FPS Maksimal",
     "Graphics_FPSInCombat": "Dalam Pertarungan",
     "Graphics_FPSInMenu": "Menu Awal",
 
-    // Graphics: API Panel
     "Graphics_APIPanel": "API Grafis",
     "Graphics_APIHelp1": "Ada beberapa API yang didukung untuk game ini antara lain:",
     "Graphics_APIHelp2": "Catatan:",
     "Graphics_APIHelp3": "Menggunakan DirectX 12 akan menyebabkan crash pada beberapa arena mengingat game tidak menggunakan DirectX 12 API secara bawaan.",
 
-    // Graphics: Global Graphics Settings Panel
     "Graphics_SpecPanel": "Pengaturan Grafis Keseluruhan",
     "Graphics_Render": "Akurasi Rendering",
     "Graphics_Shadow": "Kualitas Bayangan",
@@ -198,7 +214,6 @@
     "Graphics_FXAA": "FXAA",
     "Graphics_FXDistort": "Distorsi",
 
-    // Graphics: APHO2 Graphics Settings Panel
     "Graphics_APHO2Panel": "Pengaturan Grafis APHO2 dan Chapter Baru",
     "Graphics_APHO2GI": "Global Illumination",
     "Graphics_APHO2VL": "Volumetric Lighting",
@@ -213,7 +228,6 @@
     "SpecMaximum": "Maksimum",
 
     "Audio_Title": "Pengaturan Suara",
-    // Audio: Audio Panel 1
     "Audio_BGM": "Volume BGM",
     "Audio_SFX": "Volume Efek Suara",
     "Audio_VOLang": "Bahasa Pengisi Suara",
@@ -235,14 +249,12 @@
     "OverlayFirstTimeSubtitle": "Mohon jalankan game ini untuk pertama kalinya terlebih dahulu dan kembali lagi untuk menggunakan fitur ini.",
 
     "CustomArgs_Title": "Penyesuaian Argumen Pemulaian",
-    // Custom Arguments: Custom Arguments Panel
     "CustomArgs_Subtitle": "Argumen Pemulaian",
     "CustomArgs_Footer1": "Untuk informasi lebih lanjut mengenai Argumen Pemulaian, silahkan cek dokumentasi",
     "CustomArgs_Footer2": "\"Unity Standalone Command-line\"",
     "CustomArgs_Footer3": "berikut."
   },
 
-  // SettingsPage
   "_SettingsPage": {
     "PageTitle": "Pengaturan Aplikasi",
 
@@ -299,10 +311,12 @@
     "Disclaimer": "Sanggahan",
     "Disclaimer1": "Aplikasi ini tidak berkaitan dengan",
     "Disclaimer2": "dengan cara apapun",
-    "Disclaimer3": "dan sepenuhnya \"Open-Source\". Kontribusi apapun dipersilahkan."
+    "Disclaimer3": "dan sepenuhnya \"Open-Source\". Kontribusi apapun dipersilahkan.",
+
+    "DiscordBtn1": "Gabung Discord Armada Kami",
+    "DiscordBtn2": "Kunjungi Discord Honkai Impact 3rd"
   },
 
-  // Misc Content
   "_Misc": {
     "UpdateCompleteTitle": "Pembaruan Selesai!",
     "UpdateCompleteSubtitle": "Launchermu telah diperbarui ke {0}! (Kanal Rilis: {1})",
@@ -317,7 +331,6 @@
     "PerFromTo": "{0} / {1}",
     "PerFromToPlaceholder": "- / -",
 
-    // Buttons Texts
     "Cancel": "Batal",
     "Close": "Tutup",
     "UseCurrentDir": "Pakai lokasi saat ini",
@@ -368,9 +381,9 @@
     "Skipped": "Dilewati",
     "Select": "Pilih",
     "NotRunning": "Tidak Jalan",
-    "MovingFile": "Memindahkan Berkas",
-    "CheckingFile": "Memeriksa Berkas",
-    "RepairingFile": "Memperbaiki Berkas",
+    "MovingFile": "Memindah File",
+    "CheckingFile": "Memeriksa File",
+    "RepairingFile": "Memperbaiki File",
     "ApplyingPatch": "Menerapkan Patch",
     "Disabled": "Mati",
     "Enabled": "Nyala",
@@ -379,10 +392,13 @@
     "BuildChannelStable": "Stable"
   },
 
-  // Dialogs Content
   "_Dialogs": {
     "DeltaPatchDetectedTitle": "Pemberitahuan: Pembaruan Delta Patch Terdeteksi!",
     "DeltaPatchDetectedSubtitle": "Delta patch akan digunakan untuk pemperbarui game dari {0} ke {1}.\r\nPerlu diingat bahwa kamu mungkin masih perlu mengunduh beberapa berkas di dalam game.\r\n\r\nMau dilanjutkan?",
+    "DeltaPatchPrevFailedTitle": "Pembaruan Delta Patch sebelumnya telah Gagal/Belum Selesai!",
+    "DeltaPatchPrevFailedSubtitle": "Pembaruan Delta Patch sebelumnya telah Gagal/Belum Selesai! Apakah kamu ingin mengembalikan game? agar kamu tidak perlu mengunduh ulang.",
+    "GameConversionPrevFailedTitle": "Pengubahan Game sebelumnya telah Gagal/Belum Selesai!",
+    "GameConversionPrevFailedSubtitle": "Pengubahan Game sebelumnya telah Gagal/Belum Selesai! Apakah kamu ingin mengembalikan game? agar kamu tidak perlu mengunduh ulang.",
     "PreloadVerifiedTitle": "Pra-unduh telah terverifikasi!",
     "PreloadVerifiedSubtitle": "Pra-unduhmu telah siap dan terverifikasi!",
     "LocateInstallTitle": "Arahkan Folder Pemasangan",
@@ -432,17 +448,30 @@
     "InstallMediaPackCompleteSubtitle": "Media Feature Pack sudah selesai dipasang dalam PC-mu.\r\nTapi kamu perlu restart PC-mu terlebih dahulu sebelum main :)",
     "InstallingMediaPackTitle": "Memasang Media Feature Pack",
     "InstallingMediaPackSubtitle": "Menunggu hingga proses selesai...",
-    "InstallingMediaPackSubtitleFinished": "Selesai"
+    "InstallingMediaPackSubtitleFinished": "Selesai",
+    "GameConfigBrokenTitle1": "Konfigurasi Game Rusak",
+    "GameConfigBrokenSubtitle1": "Bagian dari konfigurasi Launcher telah rusak dan kamu perlu memilih lokasi game sebelumnya secara manual.",
+    "GameConfigBrokenSubtitle2": "\r\nPastikan bahwa lokasi game-mu tidak sama dengan lokasi dari file config.ini milik launcher yang terletak pada path ini:\r\n\r\n{0}\r\n\r\n",
+    "GameConfigBrokenSubtitle3": "Apabila iya, maka kamu perlu memindahkan semua file gamenya ke lokasi lain. Setelahnya, klik \"Arahkan direkktori\" untuk memilih lokasi gamenya.",
+    "CookbookLocateTitle": "Pilih File Cookbook",
+    "CookbookLocateSubtitle1": "Pilih file Cookbook yang sudah terunduh sebelum memulai proses konversi.\r\nApabila kamu belum mengunduhnya, ",
+    "CookbookLocateSubtitle2": "KLIK DI SINI",
+    "CookbookLocateSubtitle3": " untuk mengunduh file Cookbook dan klik",
+    "CookbookLocateSubtitle4": "Selanjutnya",
+    "CookbookLocateSubtitle5": "untuk memilih file Cookbook yang sudah terunduh dan memulai proses konversi.\r\n\r\n",
+    "CookbookLocateSubtitle6": "Catatan:\r\n",
+    "CookbookLocateSubtitle7": "Berikut adalah nama file Cookbook yang perlu kamu unduh:\r\n"
   },
 
-  // InstallMgmt Content
   "_InstallMgmt": {
     "IntegrityCheckTitle": "Cek Integritas",
     "PreparePatchTitle": "Menyiapkan Patch",
-    "AddtDownloadTitle": "Mengunduh: {0}/{1}"
+    "AddtDownloadTitle": "Mengunduh: {0}/{1}",
+    "RepairFilesRequiredShowFilesBtn": "Tampilkan daftar file yang rusak",
+    "RepairFilesRequiredTitle": "{0} file perlu diperbaiki!",
+    "RepairFilesRequiredSubtitle": "Kamu memiliki setidaknya {0} file (ukuran: {1}) yang perlu diperbaiki sebelum diupdate!\r\n\r\nCatatan: Process ini akan memakan waktu (tergantung seberapa cepat dan stabilnya koneksimu). Kamu direkomendasikan untuk gunakan VPN (VPN gratis seperti ProtonVPN sudah cukup) apabila kamu tidak punya koneksi yang cepat :)"
   },
 
-  // InstallConvert Content
   "_InstallConvert": {
     "PageTitle": "Pengubahan Antar-Versi",
     "Step1Title": "Memilih Game dan Mendapatkan Depensi",
@@ -468,10 +497,14 @@
     "ConvertSuccessTitle": "Pengubahan Berhasil",
     "ConvertSuccessSubtitle": "Pengubahan Game dari {0} ke {1} telah berhasil dilakukan!",
     "CookbookDownloadTitle": "Mengunduh Resep",
-    "CookbookDownloadSubtitle": "Mengunduh resep untuk pengubahan dari {0} ke {1}"
+    "CookbookDownloadSubtitle": "Mengunduh resep untuk pengubahan dari {0} ke {1}",
+
+    "CancelBtn": "Batalkan Pengubahan",
+    "CancelMsgTitle": "Membatalkan Pengubahan...",
+    "CancelMsgSubtitle1": "Kamu akan membatalkan proses pengubahan. Proses pengubahan akan dikembalikan ulang.\r\n\r\nKamu yakin?",
+    "CancelMsgSubtitle2": "Kamu akan membatalkan proses pengubahan namun game-mu sudah terlanjur diubah ke {0}. Kamu akan melewati fase \"Verifikasi Integritas Setelah Pengubahan\".\r\n\r\nKamu yakin?"
   },
 
-  // InstallMigrateSteam Content
   "_InstallMigrateSteam": {
     "PageTitle": "Pengubahan Steam",
     "Step1Title": "Memeriksa Izin Folder",
@@ -504,7 +537,6 @@
     "InnerConvertFile3": "Mengunduh {0} [{1}/{2}]: {3} -> (0x{4} | Ukuran: 0x{5})"
   },
 
-  // InstallMigrate Content
   "_InstallMigrate": {
     "PageTitle": "Migrasi Game",
     "Step1Title": "Proses akan dimulai dalam 5 detik. Mohon \"Accept\" perintah UAC untuk memulai proses migrasi.",
@@ -516,7 +548,6 @@
     "PageFooter3": "launcher pada saat proses sedang berjalan"
   },
 
-  // UpdatePage Content
   "_UpdatePage": {
     "PageTitle1": "UPDATE",
     "PageTitle2": "TERSEDIA!",
@@ -529,6 +560,21 @@
     "RemindLaterBtn": "Ingatkan Nanti",
     "UpdateNowBtn": "Perbarui Sekarang",
     "LoadingRelease": "Memuat Catatan Rilis...",
-    "LoadingReleaseFailed": "Terjadi kesalahan saat memuat Catatan Rilis.\r\n{0}"
+    "LoadingReleaseFailed": "Terjadi kesalahan saat memuat Catatan Rilis.\r\n{0}",
+
+    "UpdateHeader1": "Progress:",
+    "UpdateHeader2": "Waktu Tersisa:",
+    "UpdateHeader3": "Ukuran Unduhan:",
+    "UpdateHeader4": "Kecepatan:",
+    "UpdateHeader5PlaceHolder": "Mengunduh Update [- / -]:",
+
+    "UpdateStatus1": "Memuat Update:",
+    "UpdateMessage1": "Menghubungkan dengan Repository Update...",
+    "UpdateStatus2": "Memverifikasi:",
+    "UpdateStatus3": "Mengunduh Update [{0} / {1}]:",
+    "UpdateStatus4": "Kamu sedang menggunakan versi terbaru sekarang! ({0})",
+    "UpdateMessage4": "Kembali ke launcher sebentar lagi...",
+    "UpdateStatus5": "Versi launcher telah diperbarui ke {0}!",
+    "UpdateMessage5": "Kita akan kembali ke launcher sebentar lagi..."
   }
 }
