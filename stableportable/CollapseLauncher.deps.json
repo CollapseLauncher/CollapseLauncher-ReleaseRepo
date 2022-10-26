@@ -1,23 +1,26 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0/win-x64",
+    "name": ".NETCoreApp,Version=v7.0/win-x64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {},
-    ".NETCoreApp,Version=v6.0/win-x64": {
-      "CollapseLauncher/1.0.36.3": {
+    ".NETCoreApp,Version=v7.0": {},
+    ".NETCoreApp,Version=v7.0/win-x64": {
+      "CollapseLauncher/1.0.52.5": {
         "dependencies": {
+          "ColorThief": "1.0.0",
+          "CommunityToolkit.WinUI.UI": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls": "7.1.2",
-          "Hi3HelperCore": "1.0.0",
-          "Hi3HelperCore.EncTool": "1.0.0",
-          "Hi3HelperCore.Http": "1.0.0",
-          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1",
-          "Microsoft.WindowsAppSDK": "1.1.4",
+          "Hi3Helper.Core": "1.0.0",
+          "Hi3Helper.EncTool": "1.0.0",
+          "Hi3Helper.Http": "1.0.0",
+          "Microsoft.Windows.CsWinRT": "2.0.0",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.25211-preview",
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2",
           "System.CommandLine": "2.0.0-beta3.22114.1",
-          "System.Drawing.Common": "6.0.0",
-          "ksemenenko.ColorThief": "1.1.1.4",
+          "System.Drawing.Common": "7.0.0-rc.2.22472.3",
+          "System.Text.Json": "7.0.0-rc.2.22472.3",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.26"
         },
         "runtime": {
@@ -29,10 +32,6 @@
           "Microsoft.Windows.SDK.NET.dll": {
             "assemblyVersion": "10.0.19041.24",
             "fileVersion": "10.0.19041.26"
-          },
-          "WinRT.Runtime.dll": {
-            "assemblyVersion": "1.6.0.0",
-            "fileVersion": "1.6.4.39141"
           }
         }
       },
@@ -50,7 +49,7 @@
       "ColorCode.WinUI/2.0.13": {
         "dependencies": {
           "ColorCode.Core": "2.0.13",
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/ColorCode.WinUI.dll": {
@@ -70,7 +69,7 @@
       "CommunityToolkit.WinUI/7.1.2": {
         "dependencies": {
           "CommunityToolkit.Common": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.dll": {
@@ -82,7 +81,7 @@
       "CommunityToolkit.WinUI.UI/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.dll": {
@@ -100,14 +99,14 @@
           "CommunityToolkit.WinUI.UI.Controls.Markdown": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls.Media": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls.Primitives": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         }
       },
       "CommunityToolkit.WinUI.UI.Controls.Core/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls.Primitives": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Core.dll": {
@@ -118,7 +117,7 @@
       },
       "CommunityToolkit.WinUI.UI.Controls.DataGrid/7.1.2": {
         "dependencies": {
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.DataGrid.dll": {
@@ -130,7 +129,7 @@
       "CommunityToolkit.WinUI.UI.Controls.Input/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI.UI.Controls.Primitives": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Input.dll": {
@@ -142,7 +141,7 @@
       "CommunityToolkit.WinUI.UI.Controls.Layout/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI.UI": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Layout.dll": {
@@ -156,7 +155,7 @@
           "ColorCode.WinUI": "2.0.13",
           "CommunityToolkit.WinUI.UI": "7.1.2",
           "CommunityToolkit.WinUI.UI.Controls.Core": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Markdown.dll": {
@@ -169,8 +168,8 @@
         "dependencies": {
           "CommunityToolkit.WinUI.UI": "7.1.2",
           "Microsoft.Graphics.Win2D": "1.0.0.30",
-          "Microsoft.WindowsAppSDK": "1.1.4",
-          "System.Text.Json": "5.0.2"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2",
+          "System.Text.Json": "7.0.0-rc.2.22472.3"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Media.dll": {
@@ -182,7 +181,7 @@
       "CommunityToolkit.WinUI.UI.Controls.Primitives/7.1.2": {
         "dependencies": {
           "CommunityToolkit.WinUI.UI": "7.1.2",
-          "Microsoft.WindowsAppSDK": "1.1.4"
+          "Microsoft.WindowsAppSDK": "1.2.220930.4-preview2"
         },
         "runtime": {
           "lib/net5.0-windows10.0.18362/CommunityToolkit.WinUI.UI.Controls.Primitives.dll": {
@@ -202,19 +201,11 @@
           }
         }
       },
-      "Google.Protobuf/3.21.4": {
+      "Google.Protobuf/3.21.7": {
         "runtime": {
           "lib/net5.0/Google.Protobuf.dll": {
-            "assemblyVersion": "3.21.4.0",
-            "fileVersion": "3.21.4.0"
-          }
-        }
-      },
-      "ksemenenko.ColorThief/1.1.1.4": {
-        "runtime": {
-          "lib/netstandard2.0/ColorThief.Netstandard.v20.dll": {
-            "assemblyVersion": "1.1.0.1",
-            "fileVersion": "1.1.0.1"
+            "assemblyVersion": "3.21.7.0",
+            "fileVersion": "3.21.7.0"
           }
         }
       },
@@ -233,77 +224,85 @@
           "System.Security.Principal.Windows": "6.0.0-preview.5.21301.5"
         }
       },
-      "Microsoft.Win32.SystemEvents/6.0.0": {
+      "Microsoft.Win32.SystemEvents/7.0.0-rc.2.22472.3": {
         "runtime": {
-          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
           }
         }
       },
-      "Microsoft.Windows.SDK.BuildTools/10.0.22621.1": {},
-      "Microsoft.WindowsAppSDK/1.1.4": {
+      "Microsoft.Windows.CsWinRT/2.0.0": {
+        "runtime": {
+          "lib/net6.0/WinRT.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.39961"
+          }
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.25211-preview": {},
+      "Microsoft.WindowsAppSDK/1.2.220930.4-preview2": {
         "dependencies": {
-          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.1"
+          "Microsoft.Windows.SDK.BuildTools": "10.0.25211-preview"
         },
         "runtime": {
-          "lib/net5.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
+          "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.22621.1006"
+            "fileVersion": "10.0.22622.1027"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
+          "lib/net6.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.2208"
+            "fileVersion": "3.0.0.2209"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.Windows.AppNotifications.Projection.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppNotifications.Builder.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppNotifications.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.Resources.Projection.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.Resources.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.Windows.PushNotifications.Projection.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.Windows.System.Power.Projection.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.PushNotifications.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.Windows.System.Projection.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Security.AccessControl.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           },
-          "lib/net5.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Power.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Projection.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           }
         }
       },
       "NETStandard.Library/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
-        }
-      },
-      "Newtonsoft.Json/13.0.2-beta1": {
-        "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.2.26916"
-          }
         }
       },
       "System.CommandLine/2.0.0-beta3.22114.1": {
@@ -314,14 +313,14 @@
           }
         }
       },
-      "System.Drawing.Common/6.0.0": {
+      "System.Drawing.Common/7.0.0-rc.2.22472.3": {
         "dependencies": {
-          "Microsoft.Win32.SystemEvents": "6.0.0"
+          "Microsoft.Win32.SystemEvents": "7.0.0-rc.2.22472.3"
         },
         "runtime": {
-          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
+          "runtimes/win/lib/net7.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
           }
         }
       },
@@ -331,36 +330,59 @@
         }
       },
       "System.Security.Principal.Windows/6.0.0-preview.5.21301.5": {},
-      "System.Text.Json/5.0.2": {},
-      "Hi3HelperCore/1.0.0": {
+      "System.Text.Encodings.Web/7.0.0-rc.2.22472.3": {
+        "runtime": {
+          "lib/net7.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.Text.Json/7.0.0-rc.2.22472.3": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Json.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "ColorThief/1.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "ColorThief.dll": {}
+        }
+      },
+      "Hi3Helper.Core/1.0.0": {
         "dependencies": {
           "Crc32.NET": "1.2.0",
-          "Google.Protobuf": "3.21.4",
-          "Hi3HelperCore.Http": "1.0.0",
+          "Google.Protobuf": "3.21.7",
+          "Hi3Helper.Http": "1.0.0",
           "Microsoft.Win32.Registry": "6.0.0-preview.5.21301.5",
-          "Newtonsoft.Json": "13.0.2-beta1"
+          "System.Text.Json": "7.0.0-rc.2.22472.3"
         },
         "runtime": {
-          "Hi3HelperCore.dll": {}
+          "Hi3Helper.Core.dll": {}
         }
       },
-      "Hi3HelperCore.EncTool/1.0.0": {
-        "dependencies": {
-          "Hi3HelperCore": "1.0.0"
-        },
+      "Hi3Helper.EncTool/1.0.0": {
         "runtime": {
-          "Hi3HelperCore.EncTool.dll": {}
+          "Hi3Helper.EncTool.dll": {}
         }
       },
-      "Hi3HelperCore.Http/1.0.0": {
+      "Hi3Helper.Http/1.0.0": {
         "runtime": {
-          "Hi3HelperCore.Http.dll": {}
+          "Hi3Helper.Http.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.36.3": {
+    "CollapseLauncher/1.0.52.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -468,19 +490,12 @@
       "path": "crc32.net/1.2.0",
       "hashPath": "crc32.net.1.2.0.nupkg.sha512"
     },
-    "Google.Protobuf/3.21.4": {
+    "Google.Protobuf/3.21.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2dmAaFK3brEBdte0vZDP7L/UZV8SgZXYweNPy5qHCbTzj+eTvQpRRAAmd4ErGXCPn6x5rZxEBSINGUJiGms4WA==",
-      "path": "google.protobuf/3.21.4",
-      "hashPath": "google.protobuf.3.21.4.nupkg.sha512"
-    },
-    "ksemenenko.ColorThief/1.1.1.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-970sWLIXgBOldyxatU2zGK3+nSLZER0xFW9uSjUkgNR2pvTqyjJp8yEFFKEnf1Tp7DzhmMAfFs9j/UvdM5pKcw==",
-      "path": "ksemenenko.colorthief/1.1.1.4",
-      "hashPath": "ksemenenko.colorthief.1.1.1.4.nupkg.sha512"
+      "sha512": "sha512-0Q+wYqtEVjRxVbtfxXzTUzwLGMZJKqhmIgdDpwWyg8J4ykYqfPn0M60FPBcZkjiGgtJqvZp+8t2van9rxTCLWQ==",
+      "path": "google.protobuf/3.21.7",
+      "hashPath": "google.protobuf.3.21.7.nupkg.sha512"
     },
     "Microsoft.Graphics.Win2D/1.0.0.30": {
       "type": "package",
@@ -503,26 +518,33 @@
       "path": "microsoft.win32.registry/6.0.0-preview.5.21301.5",
       "hashPath": "microsoft.win32.registry.6.0.0-preview.5.21301.5.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/6.0.0": {
+    "Microsoft.Win32.SystemEvents/7.0.0-rc.2.22472.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
-      "path": "microsoft.win32.systemevents/6.0.0",
-      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+      "sha512": "sha512-/1Q4EliHYtAwVNBSB/qByvayhKV+1PYkpKF1VMKz67twIGjRcnw8UfvYrl7xWE426MiLl/fOsT/ql/7ii/HoTA==",
+      "path": "microsoft.win32.systemevents/7.0.0-rc.2.22472.3",
+      "hashPath": "microsoft.win32.systemevents.7.0.0-rc.2.22472.3.nupkg.sha512"
     },
-    "Microsoft.Windows.SDK.BuildTools/10.0.22621.1": {
+    "Microsoft.Windows.CsWinRT/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Sp1DkYvg7yxuhamwxv+qFC66KC3paKQpwK8Q1J6XuAh6nzXIInmsDcpJ3szr0XGud4ysXojqwTfGdW01gvZ/0g==",
-      "path": "microsoft.windows.sdk.buildtools/10.0.22621.1",
-      "hashPath": "microsoft.windows.sdk.buildtools.10.0.22621.1.nupkg.sha512"
+      "sha512": "sha512-Z4NdAGpXQbe8bu1amMfqqwjntQy8VsTWYPhcY8KTQCLcxIKzPZm8gsJPt6qIJIJeZd8cR9ig4DQylXNfiXGbaw==",
+      "path": "microsoft.windows.cswinrt/2.0.0",
+      "hashPath": "microsoft.windows.cswinrt.2.0.0.nupkg.sha512"
     },
-    "Microsoft.WindowsAppSDK/1.1.4": {
+    "Microsoft.Windows.SDK.BuildTools/10.0.25211-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oPoDtk7As7PPDX+R9iloJI2qimYFSE35puWgFxxSnKG1JBOaj/VOA9QJPIxn4jACMjOspSfS47wP8lFBJvlF0Q==",
-      "path": "microsoft.windowsappsdk/1.1.4",
-      "hashPath": "microsoft.windowsappsdk.1.1.4.nupkg.sha512"
+      "sha512": "sha512-qTzj/1TzHUNfMqD04+D2nZzyeHMzFwbzTPdlaqKB3aH1byZbx0x4bRmfXyVnB3pka7aEMq/w0VMa/R8iGN1OJQ==",
+      "path": "microsoft.windows.sdk.buildtools/10.0.25211-preview",
+      "hashPath": "microsoft.windows.sdk.buildtools.10.0.25211-preview.nupkg.sha512"
+    },
+    "Microsoft.WindowsAppSDK/1.2.220930.4-preview2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SkdQV61MaTKvSp5mmCul/8awO7SMgJPTPj9ITmsLzKQf6NkTZqxR5Hy+CGUCsgU2UQgfeYrGoi2IiP3tZny+FQ==",
+      "path": "microsoft.windowsappsdk/1.2.220930.4-preview2",
+      "hashPath": "microsoft.windowsappsdk.1.2.220930.4-preview2.nupkg.sha512"
     },
     "NETStandard.Library/2.0.0": {
       "type": "package",
@@ -531,13 +553,6 @@
       "path": "netstandard.library/2.0.0",
       "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/13.0.2-beta1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-lrHT3bmqM13QHvgtj2Y30BCRsq6lX07klW5tScx2B7ihqWeG6aVXrHxVALN34+boed9ybVtlRFLOuKD44Xuttg==",
-      "path": "newtonsoft.json/13.0.2-beta1",
-      "hashPath": "newtonsoft.json.13.0.2-beta1.nupkg.sha512"
-    },
     "System.CommandLine/2.0.0-beta3.22114.1": {
       "type": "package",
       "serviceable": true,
@@ -545,12 +560,12 @@
       "path": "system.commandline/2.0.0-beta3.22114.1",
       "hashPath": "system.commandline.2.0.0-beta3.22114.1.nupkg.sha512"
     },
-    "System.Drawing.Common/6.0.0": {
+    "System.Drawing.Common/7.0.0-rc.2.22472.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
-      "path": "system.drawing.common/6.0.0",
-      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+      "sha512": "sha512-3rIg2KRI+DqQysJ8mcpyOcNRaBR0L5gmVt91y7VOEBbTmK1jnfTXdm+zWHwv4SSCXRSOtYUKNW7iEnPuI6O9dw==",
+      "path": "system.drawing.common/7.0.0-rc.2.22472.3",
+      "hashPath": "system.drawing.common.7.0.0-rc.2.22472.3.nupkg.sha512"
     },
     "System.Security.AccessControl/6.0.0-preview.5.21301.5": {
       "type": "package",
@@ -566,24 +581,36 @@
       "path": "system.security.principal.windows/6.0.0-preview.5.21301.5",
       "hashPath": "system.security.principal.windows.6.0.0-preview.5.21301.5.nupkg.sha512"
     },
-    "System.Text.Json/5.0.2": {
+    "System.Text.Encodings.Web/7.0.0-rc.2.22472.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
-      "path": "system.text.json/5.0.2",
-      "hashPath": "system.text.json.5.0.2.nupkg.sha512"
+      "sha512": "sha512-o9O/FcXxh8L3Y9k4rPRPc5zp8c0DO4YUUDbOYnrLKufMGn/K4ZHYNURYbCqoMmYRiviiny6EYC4r2YMrf8SIYQ==",
+      "path": "system.text.encodings.web/7.0.0-rc.2.22472.3",
+      "hashPath": "system.text.encodings.web.7.0.0-rc.2.22472.3.nupkg.sha512"
     },
-    "Hi3HelperCore/1.0.0": {
+    "System.Text.Json/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/fSjSM1v79RTMCn9PjifYevLdOKwo37+KrNKYJES+UeqxHuNmGt3syOdCYikE6/MDOKnii65bBygG2MsCtyP1A==",
+      "path": "system.text.json/7.0.0-rc.2.22472.3",
+      "hashPath": "system.text.json.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "ColorThief/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Hi3HelperCore.EncTool/1.0.0": {
+    "Hi3Helper.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Hi3HelperCore.Http/1.0.0": {
+    "Hi3Helper.EncTool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hi3Helper.Http/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
