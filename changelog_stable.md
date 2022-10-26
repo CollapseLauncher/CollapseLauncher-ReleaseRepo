@@ -7,7 +7,7 @@ We have lots of code changes in this release to bring you more stability while u
 And I would like to say that this release has the most changes being made so far compared to the previous version.
 Of course, with a lot of bug fixes coming, performance improvement and some minor UI Revamp for your better experience with this launcher.
 
-Without further ado, Let's see what's been changed so far!
+Without further ado, Let's see what changes being made so far!
 
 ![](https://cdn.discordapp.com/emojis/775742235433500682.gif?size=512&quality=lossless)
 
