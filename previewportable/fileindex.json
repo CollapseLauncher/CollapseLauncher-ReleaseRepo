@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.52.4",
-  "time": 1666714438,
+  "ver": "1.0.52.5",
+  "time": 1666814396,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -14,17 +14,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "5D65FD3BE3DB65627D0121544094DDE8",
+      "crc": "D0DA5E4465AD1E75C0541FF5F81A15C8",
       "s": 24947
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "9FA9A4FF5864CBD2FB568BBB591F40B7",
-      "s": 2355200
+      "crc": "95040F08A5B139717AE1B5F25FBC8B00",
+      "s": 2359296
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "CFC67069F64A15B0B4890165A497682F",
+      "crc": "2D00C49EB6FD31EC5294F32DDFD36FF9",
       "s": 624640
     },
     {
@@ -34,8 +34,8 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "994A122A07FFA13923A5A8B2B9F661BA",
-      "s": 225736
+      "crc": "490E7674CDB959203EC85D816367BCBA",
+      "s": 225860
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -74,12 +74,12 @@
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Core.dll",
-      "crc": "44D466E452C5AE1AAF3BE41AC09DB9B1",
+      "crc": "DFE44F6BA9D2ED4A78233A5E828BBFEF",
       "s": 606208
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.DataGrid.dll",
-      "crc": "D1E7B81EF203D53415A748C8A2C7872D",
+      "crc": "24A9B0EC476265B2AF12C425683073EA",
       "s": 1150976
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Layout.dll",
-      "crc": "BBEBE5BBFD38FC4DFBA429CCD4C6A510",
+      "crc": "931F71A96961908216F78DD1F6705856",
       "s": 401408
     },
     {
@@ -149,13 +149,13 @@
     },
     {
       "p": "Hi3Helper.Core.dll",
-      "crc": "FDFE940B5C93FA61B0547902A870C985",
+      "crc": "4F07872E243E679114A8E5277E195221",
       "s": 1929216
     },
     {
       "p": "Hi3Helper.Core.pdb",
-      "crc": "012D07B7AB250B5551D23814A8ECA15D",
-      "s": 381632
+      "crc": "B02C7E6D13D1E73973ADB872FC09EA5F",
+      "s": 381660
     },
     {
       "p": "Hi3Helper.EncTool.dll",
@@ -469,8 +469,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "FB5053E0F522852A9947EE7A026242C6",
-      "s": 1521192
+      "crc": "93BD71B458983C42A02A38DF59DD6021",
+      "s": 1521656
     },
     {
       "p": "System.CommandLine.dll",
