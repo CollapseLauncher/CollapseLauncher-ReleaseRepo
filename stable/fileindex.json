@@ -1,6 +1,6 @@
 {
   "ver": "1.0.52.6",
-  "time": 1666841366,
+  "time": 1666845866,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -34,7 +34,7 @@
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "492696E19D93494B5BABB2EB6778D62F",
+      "crc": "2AFE95D07587C9EB0BE6046FF176710D",
       "s": 2359296
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "934668E079D107506D4A21FE3B20CC12",
+      "crc": "2B0185E5350B268F127F3CB8FCBC6C6B",
       "s": 225812
     },
     {
@@ -89,12 +89,12 @@
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Core.dll",
-      "crc": "9CAE2290FDD5C0745815CA4DC2B9F8AA",
+      "crc": "D1BC6B8D44ED7A408A7C80ACD7A28FF9",
       "s": 606208
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.DataGrid.dll",
-      "crc": "E8FD0A13A213CCB2F49C2375BFEBFB7A",
+      "crc": "AFDB2D2DEC20C0A497CEE54DF95A2AB1",
       "s": 1150976
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Layout.dll",
-      "crc": "B05B396F45F3762CAF1B7D74F4E57F75",
+      "crc": "E445CADCD7DCFF74C30A5C05B706FAEE",
       "s": 401408
     },
     {
