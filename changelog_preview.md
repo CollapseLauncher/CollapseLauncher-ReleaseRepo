@@ -9,5 +9,8 @@ This preview build is the last Release Candidate for the next stable version. Th
 
 ***
 
+# What's Fixed (since 1.0.52.5 RC3 release)?
+- **[Launcher/Honkai Impact 3rd]** Fixed the delta patch to use wrong ``repair_index`` version ``c715efc``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/c715efcc3b2aa67b1d487ffb0041d703c3c02bbf)
+
 # What's Fixed (since 1.0.52.3 RC2 release)?
 - **[Launcher]** Fixed the release note won't get loaded because of local path for debugging. ``151b754``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/151b75462e6aeaed8ab5c8d99768369477bbec89)
