@@ -26,7 +26,7 @@
             "Title": "Important Note before doing Delta Patch Update",
             "Message": "We have a report that the launcher might false detect verified files and causing them to be redownloaded. In this case, please update your launcher to 1.0.52.6 version. If you haven't receive the update notification, please go to App Settings menu > Click on \"Check Update\".",
             "Show": true,
-            "ValidForVerBelow": "1.0.52.5"
+            "ValidForVerBelow": "1.0.52.4"
         },
         {
             "MsgId": 1000009,
@@ -36,7 +36,7 @@
             "Title": "Important Note before doing Delta Patch Update",
             "Message": "We have a report that the launcher might false detect verified files and causing them to be redownloaded. In this case, please update your launcher to 1.0.52.6 version. If you haven't receive the update notification, please go to App Settings menu > Click on \"Check Update\".",
             "Show": true,
-            "ValidForVerBelow": "1.0.52.5"
+            "ValidForVerBelow": "1.0.52.4"
         },
         {
             "MsgId": 2000008,
@@ -46,7 +46,7 @@
             "Title": "Important Note before doing Delta Patch Update",
             "Message": "We have a report that the launcher might false detect verified files and causing them to be redownloaded. In this case, please update your launcher to 1.0.52.6 version. If you haven't receive the update notification, please go to App Settings menu > Click on \"Check Update\".",
             "Show": true,
-            "ValidForVerBelow": "1.0.52.5"
+            "ValidForVerBelow": "1.0.52.4"
         },
         {
             "MsgId": 3000000,
@@ -56,7 +56,7 @@
             "Title": "Important Note before doing Delta Patch Update",
             "Message": "We have a report that the launcher might false detect verified files and causing them to be redownloaded. In this case, please update your launcher to 1.0.52.6 version. If you haven't receive the update notification, please go to App Settings menu > Click on \"Check Update\".",
             "Show": true,
-            "ValidForVerBelow": "1.0.52.5"
+            "ValidForVerBelow": "1.0.52.4"
         },
         {
             "MsgId": 4000001,
@@ -66,7 +66,7 @@
             "Title": "Important Note before doing Delta Patch Update",
             "Message": "We have a report that the launcher might false detect verified files and causing them to be redownloaded. In this case, please update your launcher to 1.0.52.6 version. If you haven't receive the update notification, please go to App Settings menu > Click on \"Check Update\".",
             "Show": true,
-            "ValidForVerBelow": "1.0.52.5"
+            "ValidForVerBelow": "1.0.52.4"
         },
         {
             "MsgId": 7000002,
@@ -76,7 +76,7 @@
             "Title": "Important Note before doing Delta Patch Update",
             "Message": "We have a report that the launcher might false detect verified files and causing them to be redownloaded. In this case, please update your launcher to 1.0.52.6 version. If you haven't receive the update notification, please go to App Settings menu > Click on \"Check Update\".",
             "Show": true,
-            "ValidForVerBelow": "1.0.52.5"
+            "ValidForVerBelow": "1.0.52.4"
         }
     ]
 }
