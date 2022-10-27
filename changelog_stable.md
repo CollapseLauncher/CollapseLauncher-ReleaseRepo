@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/34d1913533b0a9b328fdee6be457f240915b5381/images/Banner_update_1.0.52.5.webp)
 
-# Welcome to 1.0.52.5 Update!
+# Welcome to 1.0.52.6 Update!
 
 Hi there, It's been a while and welcome to another stable release of **Collapse**!.
 We have lots of code changes in this release to bring you more stability while using our launcher.
@@ -157,6 +157,9 @@ Previously, the 3rd number was marked as "**major changes**" number and 4th numb
     - **7-zip (7z.dll)** (21.06 -> **22.01**)
 
 ***
+
+# What's Fixed (since 1.0.52.5 release)?
+- **[Launcher/Honkai Impact 3rd]** Fixed the delta patch to use wrong ``repair_index`` version ``c715efc``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/c715efcc3b2aa67b1d487ffb0041d703c3c02bbf)
 
 # What's Fixed (since 1.0.52.3 RC2 release)?
 - **[Launcher]** Fixed the release note won't get loaded because of local path for debugging. ``151b754``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/151b75462e6aeaed8ab5c8d99768369477bbec89)
