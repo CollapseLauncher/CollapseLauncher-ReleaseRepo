@@ -13,6 +13,7 @@
 > Now, we are proud to say that this launcher is now fully capable to get all the reference data for Honkai Impact 3rd's Cache update, Repair mechanism and Cross-Version Conversion features **directly from the game data**.
 >
 > Yaaayyyy! 🎉 🎉 
+
 ### **[Honkai Impact 3rd]** Adding Cache Update feature for all Game Regions ``4fc948f``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/4fc948f55cfa1d8cd7a224e30405ca9c27077301)
 
 ### Other new minor changes:
