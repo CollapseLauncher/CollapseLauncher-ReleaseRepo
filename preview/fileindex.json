@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.52.8",
-  "time": 1668085087,
+  "ver": "1.0.53.0",
+  "time": 1668339116,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -9,8 +9,8 @@
     },
     {
       "p": "ApplyUpdate.exe.config",
-      "crc": "07C7BD25442B92D5E654D2B47EA63EC0",
-      "s": 176
+      "crc": "EAD250A0ADEF5E648A9079CF440DA101",
+      "s": 171
     },
     {
       "p": "clretwrc.dll",
@@ -29,102 +29,102 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "1674150F40FDB714E40B3F53880BD545",
-      "s": 50612
+      "crc": "4D56A519C0299D2015529CE5A9C61130",
+      "s": 50839
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "AB2CADC448734A5330A1AA402BA39B2B",
-      "s": 2363392
+      "crc": "1A1F21F5BE057408DC64C78601B6C5E6",
+      "s": 2375680
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "A56AA450EC184EF541E7FE8661D7A079",
-      "s": 625664
+      "crc": "8635F4D5F7386757A7775260D6C4886C",
+      "s": 624640
     },
     {
       "p": "CollapseLauncher.Hi3CacheUpdater.cmd",
-      "crc": "4790893BE7EF44BE9B64319193D3C21A",
-      "s": 73
+      "crc": "582979558F039BFDFDD38B87CF2B944B",
+      "s": 70
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "6A5C8FCF9F3A808600141A2BB13C9F1C",
-      "s": 225824
+      "crc": "69F768ED9310DD9BF530E53891A42094",
+      "s": 226356
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
-      "crc": "C3BC22544F98810BD2D7E30E01F57239",
-      "s": 371
+      "crc": "6A69BAECB5F47AFC2EDF7F1B1AA8393E",
+      "s": 385
     },
     {
       "p": "ColorCode.Core.dll",
-      "crc": "46CFE93405A183689E9957082616A714",
+      "crc": "B607128DDED0FB8C68F524911127B0C3",
       "s": 200704
     },
     {
       "p": "ColorCode.WinUI.dll",
-      "crc": "2E72ECEB5E6BFDACF711A90255F343C9",
+      "crc": "B50E7FCF98172C2E7FBBF4F7D892466C",
       "s": 28672
     },
     {
       "p": "ColorThief.dll",
-      "crc": "97B633384E57B435151B1D55CAC6A81C",
+      "crc": "AB8408DE07D7B17474C869956C37CB8A",
       "s": 49152
     },
     {
       "p": "ColorThief.pdb",
-      "crc": "98A62EC215BF2A57066A5626941FB7D9",
+      "crc": "7153D90F0803E0C8B6CEF313DB642A79",
       "s": 13420
     },
     {
       "p": "CommunityToolkit.Common.dll",
-      "crc": "1816EEBEF441B2308CB8B04D4BC8CC2C",
+      "crc": "8E7A1A79921211308BFB054F388BA09B",
       "s": 73728
     },
     {
       "p": "CommunityToolkit.WinUI.dll",
-      "crc": "78347D800FC926F79914C8FC662691E3",
+      "crc": "78300CED2DED71DD95D99585D1677004",
       "s": 282624
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Core.dll",
-      "crc": "7B809AA0105A0EEBC638BC003FF83536",
+      "crc": "A0FA052E041E32D704F62ACAABC6AAE5",
       "s": 606208
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.DataGrid.dll",
-      "crc": "931ABC0C886E086FB30EA2C133A3CC30",
+      "crc": "7654BB135B1511DA1B235612DF3D0351",
       "s": 1150976
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Input.dll",
-      "crc": "2CD9610CFE27C38CCEA936CA5852D5D4",
+      "crc": "E910CF7E333BF5E9EC5D47BD68727049",
       "s": 671744
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Layout.dll",
-      "crc": "D9DEE9FDA46A6CC4507C7FAFF8E40E10",
+      "crc": "C314C1F10A7A4446B830439810231945",
       "s": 401408
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Markdown.dll",
-      "crc": "86664BA96E0FAE3EC1DDCCE2DB31B977",
+      "crc": "7076CFC4E8E3BCC0EE6EC8F595F84896",
       "s": 516096
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Media.dll",
-      "crc": "3CA4C484A7B395F5E65960F60A04033C",
+      "crc": "B275E444794772948DB866C1AD838BF9",
       "s": 389120
     },
     {
       "p": "CommunityToolkit.WinUI.UI.Controls.Primitives.dll",
-      "crc": "3E7DA84BDEE40625975308D227F0EB35",
+      "crc": "BBF1B5F2D5FDF102E5BF6D5153AB97FC",
       "s": 151552
     },
     {
       "p": "CommunityToolkit.WinUI.UI.dll",
-      "crc": "1F2CB523E766F7DA54B3459E80F1F002",
+      "crc": "8DCB91392D65F38627078179B93EF0E1",
       "s": 454656
     },
     {
@@ -134,12 +134,12 @@
     },
     {
       "p": "CoreMessagingXP.dll",
-      "crc": "89003D174482655B3A6C74B5B083E585",
+      "crc": "036DD6539B584246EB4BB3E975EF3239",
       "s": 1058704
     },
     {
       "p": "Crc32.NET.dll",
-      "crc": "06BD9F4D584BC197F31FE7630FD33A47",
+      "crc": "C3496F9762AB7E639F1AC4DC259E5A04",
       "s": 28672
     },
     {
@@ -149,57 +149,57 @@
     },
     {
       "p": "dcompi.dll",
-      "crc": "CA6FF6F940CFA8AF52A06093CAF27518",
-      "s": 1918880
+      "crc": "1844041E17293C66C21A119AA4C05812",
+      "s": 1918864
     },
     {
       "p": "dwmcorei.dll",
-      "crc": "226DDC1C218BABC0F90A3E1933AD1446",
-      "s": 3270560
+      "crc": "FA864852F132925E2A66AF9D8835682C",
+      "s": 3270544
     },
     {
       "p": "DwmSceneI.dll",
-      "crc": "D46BF4595A5B841D05B3150EED84BFD3",
+      "crc": "FA77FD698D525CE1375E7C4A9D6729CF",
       "s": 2344864
     },
     {
       "p": "DWriteCore.dll",
-      "crc": "6A09779B427480F243FF41006FE48C79",
-      "s": 2892176
+      "crc": "F79F85658AB96277B5AA2F9C6F2AA375",
+      "s": 2910608
     },
     {
       "p": "Google.Protobuf.dll",
-      "crc": "C5FD57D70A1B9630387CA7E502EE7189",
+      "crc": "4F3E2FA888080C10BF5143BA7E303242",
       "s": 1167360
     },
     {
       "p": "Hi3Helper.Core.dll",
-      "crc": "332A05E7A3AA1C8B056912C02F24BF20",
-      "s": 1937408
+      "crc": "ABEF2E1E96637D2AA41D31436B634A06",
+      "s": 2768896
     },
     {
       "p": "Hi3Helper.Core.pdb",
-      "crc": "7926BF7A975BAAC826A35336E7A2A274",
-      "s": 380084
+      "crc": "68B007D00095E801592BF2844DD88C92",
+      "s": 538584
     },
     {
       "p": "Hi3Helper.EncTool.dll",
-      "crc": "DBB0F19D4C7B360630C92D73A3E3B767",
-      "s": 28672
+      "crc": "8818267EA9FFF11C9DE3AB780436AAEA",
+      "s": 32768
     },
     {
       "p": "Hi3Helper.EncTool.pdb",
-      "crc": "D376D2636CE2A924ACE8DCD364951125",
-      "s": 12420
+      "crc": "D228CBB68F059E991202AFC3C94AE33D",
+      "s": 13424
     },
     {
       "p": "Hi3Helper.Http.dll",
-      "crc": "F976A00F70B78C77604B2DA5171ED48B",
+      "crc": "68897A9C156F7F60CD49423F9F33A6D7",
       "s": 90112
     },
     {
       "p": "Hi3Helper.Http.pdb",
-      "crc": "0FC5A046E661939B4C4E06E9271F97BA",
+      "crc": "56560C27432FB5CEAB8A9D28A6184BA5",
       "s": 19200
     },
     {
@@ -219,7 +219,7 @@
     },
     {
       "p": "marshal.dll",
-      "crc": "7B36611A0CD08B2B1802E24FD1316FC4",
+      "crc": "A4658D2A06815F0F89EE302FBE587877",
       "s": 567200
     },
     {
@@ -234,107 +234,107 @@
     },
     {
       "p": "Microsoft.DirectManipulation.dll",
-      "crc": "E5ABF667D3A4A5919A1BB4FAD43D6C66",
+      "crc": "F2406E2799D222E8C377D7C258AEA1B4",
       "s": 710560
     },
     {
       "p": "Microsoft.Foundation.winmd",
-      "crc": "E6A38B9C5C0EC34B2D9E8951A62E2073",
-      "s": 11688
+      "crc": "C612C4695DF757E3623DCC456B793D1C",
+      "s": 11680
     },
     {
       "p": "Microsoft.Graphics.Canvas.Interop.dll",
-      "crc": "F94714AD5B4CEC30E855E1454D1E6F36",
+      "crc": "B8B24755DB3CA42244DA7012F2E5745C",
       "s": 3440640
     },
     {
       "p": "Microsoft.Graphics.Display.dll",
-      "crc": "4F4591E6EBD1D8DA2270C9055FFDB06F",
+      "crc": "95066D739125D8801AC7DAFEC33230E7",
       "s": 227232
     },
     {
       "p": "Microsoft.Graphics.winmd",
-      "crc": "61E3837ABEF1CEE716A4205C1E91C32E",
+      "crc": "95055FDDAFCF890C0485B1C17089A305",
       "s": 22432
     },
     {
       "p": "Microsoft.InputStateManager.dll",
-      "crc": "531637DC7BD79C908ABF189CCBEDF17D",
+      "crc": "D40C01255F9DFD15C802297ED7DC0A60",
       "s": 505760
     },
     {
       "p": "Microsoft.InteractiveExperiences.Projection.dll",
-      "crc": "5A67868B710FDC3C61162A1D571CC22A",
+      "crc": "6BB2DED5FDC0AB3CC4997F340BEC259C",
       "s": 2158592
     },
     {
       "p": "Microsoft.Internal.FrameworkUdk.dll",
-      "crc": "D2C82DD6C709B1ACCE29D653D1B45FFE",
-      "s": 1066896
+      "crc": "5A4E56E071A82A0815C84AB964C96B2D",
+      "s": 1054624
     },
     {
       "p": "Microsoft.UI.Composition.OSSupport.dll",
-      "crc": "BD93C4AF138A911914D38E75919295AE",
+      "crc": "BC2A959D40B205354EF7E41C67CD0332",
       "s": 63376
     },
     {
       "p": "Microsoft.UI.Input.dll",
-      "crc": "B7C905A9A814B9DBC13C74E0C522CF48",
+      "crc": "629346EAA684C40B86166E881076EE06",
       "s": 1185696
     },
     {
       "p": "Microsoft.UI.Text.winmd",
-      "crc": "E388143D3C39BD5FF367FA1FF56D5F57",
+      "crc": "77C1D2D9F0267903D21444542599A424",
       "s": 34704
     },
     {
       "p": "Microsoft.UI.Windowing.Core.dll",
-      "crc": "99B78FC9BA375D506A1A8BDCE704D969",
-      "s": 751520
+      "crc": "2B141FEAC6887175535AA2B068177DF4",
+      "s": 747408
     },
     {
       "p": "Microsoft.UI.winmd",
-      "crc": "9A124A670E59D2E7BF49D3656598EC8C",
-      "s": 274840
+      "crc": "3197A7C6E629D0AF90B789A01CB94823",
+      "s": 274832
     },
     {
       "p": "Microsoft.UI.Xaml.Controls.dll",
-      "crc": "513170B1CE4D90019DFA91FC013147D0",
-      "s": 5907344
+      "crc": "B577EE39913535D1107A1432129EAA4C",
+      "s": 5910416
     },
     {
       "p": "Microsoft.UI.Xaml.Controls.pri",
-      "crc": "F242BCB3C8EDEEB5FCD53AC98850D685",
-      "s": 1200488
+      "crc": "FEC3EC7653D22B20301A767162271C67",
+      "s": 1200456
     },
     {
       "p": "Microsoft.ui.xaml.dll",
-      "crc": "E49CEA707ABDF775683283AD6FDA44E9",
-      "s": 14875016
+      "crc": "4F5BDE35B4091CEAFD57FB85902A747E",
+      "s": 14875024
     },
     {
       "p": "Microsoft.UI.Xaml.Internal.dll",
-      "crc": "4651BDEE5435A617C912D5DC25589973",
-      "s": 928648
+      "crc": "3405B38EA7AE132A29DFABA60F2D9331",
+      "s": 928656
     },
     {
       "p": "Microsoft.UI.Xaml.Phone.dll",
-      "crc": "084DB6EBE1F5405D488A9676AB787D4B",
-      "s": 1102232
+      "crc": "F23C657FCD2D72D132F49A7D7B45166D",
+      "s": 1102224
     },
     {
       "p": "Microsoft.ui.xaml.resources.19h1.dll",
-      "crc": "AA6EA420FA1D402F36BF06B603EA2EF5",
-      "s": 568736
+      "crc": "F19BEEE55506B6427E78FF1EBD2734CA",
+      "s": 568720
     },
     {
       "p": "Microsoft.ui.xaml.resources.common.dll",
-      "crc": "26C7F2723A137AEE0EDFB824230ADDC4",
+      "crc": "77891383943BC020EE800EE88B67D30F",
       "s": 55184
     },
     {
       "p": "Microsoft.UI.Xaml.winmd",
-      "crc": "7CDC21B3EE31A6BA2F9628A267E8383D",
+      "crc": "E512FE2A0FE1F1282ABE4D2F6C7695F5",
       "s": 1497488
     },
     {
@@ -369,168 +369,178 @@
     },
     {
       "p": "Microsoft.Win32.SystemEvents.dll",
-      "crc": "D76B1FD7A49537E156E507845BE32F50",
+      "crc": "1FCF45D0AABDA0621D966347BCF7E1DD",
       "s": 102400
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll",
-      "crc": "EAAFBD140C87FF3E1AD227673958153F",
+      "crc": "1AEAF2CE739884A1488BF7F6F6084DBD",
       "s": 102400
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.DynamicDependency.winmd",
-      "crc": "FF7FB172F45AD90954AC43F1D46A22BF",
-      "s": 17832
+      "crc": "11BA3071D29BE82164703CC134B19CB0",
+      "s": 17856
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.Resources.dll",
-      "crc": "223A155D47DE2942D8F479E5D518AD97",
-      "s": 117672
+      "crc": "52ACCD0ED7963837C3DCE59BFCC6974C",
+      "s": 117648
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.Resources.Projection.dll",
-      "crc": "47555A8FF528AE8004C8047D75985730",
+      "crc": "ECBAC68A790940DE1D993D24075A2A7C",
       "s": 135168
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.Resources.winmd",
-      "crc": "25A15CE27C60334A35AAC281D87F326E",
-      "s": 19360
+      "crc": "D77930A8CB14A6E2C076B25644435B4B",
+      "s": 19344
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll",
-      "crc": "062396E2BF1F904F6AC000B0B90CF916",
-      "s": 86016
+      "crc": "39068BD547FB581BF61CF60DCBB5D764",
+      "s": 81920
     },
     {
       "p": "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.winmd",
-      "crc": "7D5C2DFE4B1A410FFD89A814901AE94F",
-      "s": 16808
+      "crc": "292E9BF8D5FE65D61F84532B4684D0FC",
+      "s": 15248
     },
     {
       "p": "Microsoft.Windows.AppLifecycle.Projection.dll",
-      "crc": "FBCAE04E82BD6AC166268DE4A4F2826B",
+      "crc": "F544918BE9A7E9ED3BBC9349ABAEAD7C",
       "s": 86016
     },
     {
       "p": "Microsoft.Windows.AppLifecycle.winmd",
-      "crc": "30018FD6E3A607F4AA3DCEF982849721",
-      "s": 17320
+      "crc": "A0D7B525A5CE2BBA6FF7A4E9DA4F202B",
+      "s": 17344
     },
     {
       "p": "Microsoft.Windows.AppNotifications.Builder.Projection.dll",
-      "crc": "CA44E4783B1FBD3C59339171922379EF",
+      "crc": "B633DF8F7A1402B550FBF38E30C8305D",
       "s": 131072
     },
     {
       "p": "Microsoft.Windows.AppNotifications.Builder.winmd",
-      "crc": "B0A3B9B51945E955380329E265D52E34",
-      "s": 24488
+      "crc": "FBEC0233BFB2CCE26C43CB9957AF7B20",
+      "s": 24464
     },
     {
       "p": "Microsoft.Windows.AppNotifications.Projection.dll",
-      "crc": "F29F2D52AEBAB4B832874A760147B911",
+      "crc": "A1FA3A5C2104D1BCA55366854F0E5385",
       "s": 114688
     },
     {
       "p": "Microsoft.Windows.AppNotifications.winmd",
-      "crc": "BFE2280FF706653C8CC6E71FCEBEF6C7",
-      "s": 19872
+      "crc": "FAA9F63D4B4F29557DE5529C099A4C42",
+      "s": 19904
     },
     {
       "p": "Microsoft.Windows.PushNotifications.Projection.dll",
-      "crc": "6DA52D3FC12D2026A2A3BD5A5006F2F5",
+      "crc": "BA45EBCBA66AF3AAF878F5F3791FF541",
       "s": 102400
     },
     {
       "p": "Microsoft.Windows.PushNotifications.winmd",
-      "crc": "F0B200715FF48AC6E1EAF9081BE26D4F",
-      "s": 15784
+      "crc": "C7ECE73375C19D2D6A2E16ADBAB0F56F",
+      "s": 15760
     },
     {
       "p": "Microsoft.Windows.SDK.NET.dll",
-      "crc": "E062BD063C633888E5B323069057E865",
-      "s": 41033728
+      "crc": "E842FAF383ED0421DB6456726E682E9B",
+      "s": 53522432
     },
     {
       "p": "Microsoft.Windows.Security.AccessControl.Projection.dll",
-      "crc": "650F73EEF3F6230A6BED1A08BE817F6F",
+      "crc": "E7C64DCA87898271AA0DE03A72AFAF33",
       "s": 61440
     },
     {
       "p": "Microsoft.Windows.Security.AccessControl.winmd",
-      "crc": "CF1D192A8DF22DCE2971A5FE2EDB1A87",
-      "s": 12704
+      "crc": "F89A9FB0391937341BB8CA49061CCA18",
+      "s": 12688
     },
     {
       "p": "Microsoft.Windows.System.Power.Projection.dll",
-      "crc": "82CE02D042587C3AEE0A0C3A4ED675E3",
+      "crc": "A237A7F73975D6FBFEC105FB9BFC97A9",
       "s": 81920
     },
     {
       "p": "Microsoft.Windows.System.Power.winmd",
-      "crc": "D8B553F312AD642DB87BAD9989B3CCCF",
-      "s": 17312
+      "crc": "8126A96C5F94E2861B994281D0D31F36",
+      "s": 17344
     },
     {
       "p": "Microsoft.Windows.System.Projection.dll",
-      "crc": "070910A25C97C491433FD7FF8194C26E",
+      "crc": "3133643BEF643A50D357D42CB7A51E00",
       "s": 69632
     },
     {
       "p": "Microsoft.Windows.System.winmd",
-      "crc": "FF16F65CBF847D3FF0156F0E5E7E9954",
-      "s": 13216
+      "crc": "F2441DECFBDD2BADAE0717C5A5B89828",
+      "s": 13248
     },
     {
       "p": "Microsoft.Windows.Widgets.dll",
-      "crc": "7393D5E040FB100F11E677506385FEFC",
+      "crc": "F7DA8571DAC76637583C6E42FDC7FD63",
       "s": 841104
     },
     {
+      "p": "Microsoft.Windows.Widgets.Projection.dll",
+      "crc": "4C681D89A1F18349727B1E9FAC1D822C",
+      "s": 118784
+    },
+    {
       "p": "Microsoft.Windows.Widgets.winmd",
-      "crc": "009161079C0B696B72228816795F2575",
-      "s": 16800
+      "crc": "78531454BEC83EEC21681B61F61568D6",
+      "s": 16792
     },
     {
       "p": "Microsoft.WindowsAppRuntime.Bootstrap.dll",
-      "crc": "0D8569B78870444F9443E9988B837F73",
-      "s": 183712
+      "crc": "AF2D79D138A8E4FC87AA38744EF9EB52",
+      "s": 183696
     },
     {
       "p": "Microsoft.WindowsAppRuntime.Bootstrap.Net.dll",
-      "crc": "64D8DC4B897D1D12D1217C3264A5D3D1",
+      "crc": "C8643726B362E5A69BAA41ECEEDFF1C4",
       "s": 20480
     },
     {
       "p": "Microsoft.WindowsAppRuntime.dll",
-      "crc": "8C80223BBBD906A7D9321DB2F8909FB7",
-      "s": 852384
+      "crc": "FD22B08BEE7C30610DEB0D2ADCAC1927",
+      "s": 852928
     },
     {
       "p": "Microsoft.WindowsAppRuntime.Insights.Resource.dll",
-      "crc": "31B430DDFF7CCABC694560E9762F34E6",
-      "s": 33696
+      "crc": "8CC5117C1106602412189DE5BAB47D8D",
+      "s": 33216
     },
     {
       "p": "Microsoft.WindowsAppRuntime.Release.Net.dll",
-      "crc": "C2BD0EA596DF1965A880E4CE4FF40E5E",
-      "s": 16288
+      "crc": "F0FCC433AD0BFB7998FEAFF7F5EC12E7",
+      "s": 16320
     },
     {
       "p": "Microsoft.WinUI.dll",
-      "crc": "69FDA8E8010F88A08B8EB0C62F475373",
+      "crc": "1B6023F57B11388078E0538DA4DDB7DB",
       "s": 13111296
     },
     {
       "p": "MRM.dll",
-      "crc": "315C80F6E9FAFD75FA2B81C4B27EB5BF",
-      "s": 293800
+      "crc": "76FECE08E4BCA25E1D3F72ED8B8C1453",
+      "s": 293824
     },
     {
       "p": "mscordaccore.dll",
       "crc": "7141A3E6FDFE53AAD6E31DD37C0E5444",
       "s": 1315248
+    },
+    {
+      "p": "mscordaccore_amd64_amd64_7.0.22.42610.dll",
+      "crc": "14DE429F6E6A0D5A92F5D934E89666F8",
+      "s": 1311632
     },
     {
       "p": "mscordaccore_amd64_amd64_7.0.22.51805.dll",
@@ -564,13 +574,13 @@
     },
     {
       "p": "PushNotificationsLongRunningTask.ProxyStub.dll",
-      "crc": "7520CAC677EF55901A8EC426BFFA1B22",
-      "s": 36768
+      "crc": "020D41474104C068916BCA578D8D98C5",
+      "s": 36752
     },
     {
       "p": "resources.pri",
-      "crc": "CE18D6E7A4F554759A8F8CA4B7C16694",
-      "s": 1521768
+      "crc": "853847357E0EFC0E0A01D5ACE72BCA16",
+      "s": 1521656
     },
     {
       "p": "System.AppContext.dll",
@@ -609,7 +619,7 @@
     },
     {
       "p": "System.CommandLine.dll",
-      "crc": "097E76327298AB9136B8EE58C2A720F4",
+      "crc": "08572F185E3CCA475FADE493F46C170F",
       "s": 544768
     },
     {
@@ -729,7 +739,7 @@
     },
     {
       "p": "System.Drawing.Common.dll",
-      "crc": "FBB47E0776442210709F62F3CFA86051",
+      "crc": "29BE54422DADDD42CB0B87E262E637A8",
       "s": 1482752
     },
     {
@@ -1249,13 +1259,13 @@
     },
     {
       "p": "System.Text.Encodings.Web.dll",
-      "crc": "5A6640F185A1F9CD8D1E9C5BD623B6BF",
-      "s": 137384
+      "crc": "93F560302EF841A3080D5FB30C339358",
+      "s": 126976
     },
     {
       "p": "System.Text.Json.dll",
-      "crc": "579462C6AF9D2BD8297BEF74B36535BE",
-      "s": 1493136
+      "crc": "1E253D73386A6080C9867E3C6DA7FAD7",
+      "s": 1458176
     },
     {
       "p": "System.Text.RegularExpressions.dll",
@@ -1394,8 +1404,8 @@
     },
     {
       "p": "WindowsAppSdk.AppxDeploymentExtensions.Desktop.dll",
-      "crc": "CED642D89327E3D84E57CF56751C3874",
-      "s": 617208
+      "crc": "B00D9AA7A44D7DD88D9C007B177C4434",
+      "s": 617256
     },
     {
       "p": "WindowsBase.dll",
@@ -1404,18 +1414,18 @@
     },
     {
       "p": "WinRT.Runtime.dll",
-      "crc": "F2F768A0D686AA27CBC3CA1235A84CD6",
+      "crc": "65B4328371469AB69ABB4BCD65718C18",
       "s": 1568768
     },
     {
       "p": "WinUIEdit.dll",
-      "crc": "2614F0001769FF01CB27C1C675F02DAE",
-      "s": 3480472
+      "crc": "DF15C91F276D714060FF58ACEBC568BA",
+      "s": 3480464
     },
     {
       "p": "wuceffectsi.dll",
-      "crc": "D4E0AD028F6509A730F911DEC68CDBD1",
-      "s": 485288
+      "crc": "65417039DD588F7C5F3232E2F05885CA",
+      "s": 485264
     },
     {
       "p": "af-ZA/Microsoft.ui.xaml.dll.mui",
@@ -1544,12 +1554,12 @@
     },
     {
       "p": "en-us/Microsoft.ui.xaml.dll.mui",
-      "crc": "988F62D68A619EB280C04CC17A072AA0",
+      "crc": "5E2D88EF01D15C340F1D1FD737C3474A",
       "s": 15360
     },
     {
       "p": "en-us/Microsoft.UI.Xaml.Phone.dll.mui",
-      "crc": "BF0430E4E422ACDFC84AB8888FD65AF4",
+      "crc": "D92F4DB4D4D1160BC37E92517AACCA33",
       "s": 4608
     },
     {
@@ -1754,13 +1764,13 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "9F4D7EC58373E4667429CFFEEF4FABF9",
-      "s": 31277
+      "crc": "072300379F5251FA5F1CDF828ACA5AAC",
+      "s": 30698
     },
     {
       "p": "Lang/id-ID.json",
-      "crc": "C30BB799BB900C35133AF4C18461F2F9",
-      "s": 31840
+      "crc": "11B6A969EDA3144EBB689D47A4377102",
+      "s": 31261
     },
     {
       "p": "Lang/pt-pt.json",
@@ -1769,8 +1779,8 @@
     },
     {
       "p": "Lang/zh-cn.json",
-      "crc": "DD86EA4D2031B0CA9165FB479BF965FD",
-      "s": 29067
+      "crc": "D12B9C91B8E566CBA90828DE412F7C88",
+      "s": 28534
     },
     {
       "p": "Lib/7z.dll",
