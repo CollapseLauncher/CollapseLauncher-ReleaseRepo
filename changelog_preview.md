@@ -3,7 +3,7 @@
 # What's New?
 
 ### **[Launcher]** Move the launcher to the center of the screen on launch ``a4b0700``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/a4b070011f6aa49a4cda3ef642743309d3454807)
-> The launcher now will be positioned to the center of the screen automatically.z
+> The launcher now will be positioned to the center of the screen automatically.
 
 ### **[Runtime]** Adding the description of each games on the first setup page ``14b7c22``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/14b7c2253dbe91eced60cf98762b716ff3765307)
 
