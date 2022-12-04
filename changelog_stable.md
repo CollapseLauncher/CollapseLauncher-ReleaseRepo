@@ -1,39 +1,59 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/34d1913533b0a9b328fdee6be457f240915b5381/images/Banner_update_1.0.52.5.webp)
 
-# Note:
-This is a minor update release for **Collapse v1.0.52 [Codename: Elysia]**. We are focusing on fixes and some minor changes from previous stable and preview release.
-This time, the preview and stable releases are based on the same code. So we will merge the preview and stable release notes here.
+Welcome to another release of **Collapse!**
+In this release, we are focusing to the stability and bug fixes from previous release (**1.0.52.8 - Codename: Elysia**). But of course, we are also bringing some major changes here.
+
+Let's see what's being changed~
 
 # What's New?
-- ### **[i18n - pt-PT]** Adding Português - Portugal Translation by @gablm 🎉 ``9a33544``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/9a33544b2dd81c7cce93862a91ad735e2747d078)
-- ### **[Runtime]** Moving the runtime to .NET 7 STS (Stable) Release
-> As previously announced by Microsoft on [**.NET Conf 2022**](https://www.dotnetconf.net/), .NET 7 is now on Stable Release!
-> That means the runtime will be used until the next LTS release of .NET, which is .NET 8 (expected to be released on November 2023)
 
-- **[Launcher]** Adding support for multilang API on Honkai Impact ``b231dd4``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/b231dd487729596c66d4dbb49683885d710fdaff)
-- **[Launcher]** Hide version event icon if Preload dialog is showing ``64eb63b``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/64eb63b2a2cc9778e47ca2bd4da66ca1404b102c)
-- **[Code Quality]** Remove unused backdrop code ``495f408``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/495f4088c08ddc8311d970d77f6c4079ffdd96aa)
-- **[Code Quality]** Log Genshin Dispatcher Output to make diagnostic easier (With Debug only) ``695d951``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/695d951aa77aaeeaae26167703ac71f4ce3657cf)
-- **[Code Quality]** Refactor Game Status Checker Methods ``c2ff9f5``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/c2ff9f5b39224391ce83690486f696f48860e14a)
-- **[Code Quality]** Rename Pre-load dialog box variable to a proper name ``72dc4c8``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/72dc4c8d76bdd4f84e8031148dd1372b8d308f07)
-- **[Runtime]** Log disk space while installing for better diagnostic ``f3959d6``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/f3959d6f7ef5ae902050a6f9a196b642958e9989)
-- **[Runtime]** Use path while downloading small files on repair ``8583675``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/8583675c3542afffd5fe1114a63b7ccb2dc12b7d)
-- **[Runtime]** Show remote hash in log ``2e3edc8``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/2e3edc87ba54ff1ef2ffaece978338d5101f3520)
-- **[Runtime]** Log current downloading file and use path instead to download ``7c4cfea``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/7c4cfeafeeddc01aad4239db788d9be10a884aee)
-- **[Runtime]** Update and Use New NuGet packages
-    - **Microsoft.Windows.SDK.BuildTools** (10.0.25211-preview -> **10.0.22621.755**)
-    - **Google.Protobuf** (3.21.7 -> **3.21.9**)
-    - **Microsoft.Win32.Registry** (**Removed**)
+### **[Launcher]** Move the launcher to the center of the screen on launch ``a4b0700``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/a4b070011f6aa49a4cda3ef642743309d3454807)
+> The launcher now will be positioned to the center of the screen automatically.
+
+### **[Runtime]** Adding the description of each games on the first setup page ``14b7c22``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/14b7c2253dbe91eced60cf98762b716ff3765307)
+
+[**Click here to see the preview**](https://user-images.githubusercontent.com/30566970/205476498-a6301de0-1a1c-43eb-b3a8-39ad6169c03c.mp4)
+
+### **[Runtime]** Reducing build size by disabling [**ReadyToRun**](https://learn.microsoft.com/en-us/dotnet/core/deploying/ready-to-run) compilation
+
+### Other new minor changes:
+- **[Runtime]** Use IsCacheUpdateEnabled for cache update check support ``4fc948f``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/4fc948f55cfa1d8cd7a224e30405ca9c27077301)
+- **[Runtime]** Use ``ThemeResource`` instead of ``StaticResource`` ``6842997``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/6842997f1f4b25aa1d5ede98cdc07fabca09cbb9)
+- **[Runtime]** Reduce Memory overhead after generating ``ColorPalette`` by forcing Garbage Collection ``e0b75ab``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/e0b75ab215b1980d138d46f9421d81e7e2c1509d)
+- **[Runtime]** Use IsCacheUpdateEnabled for cache update check support ``4fc948f``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/4fc948f55cfa1d8cd7a224e30405ca9c27077301)
+- **[Runtime]** Use ``ConfigureAwait(false)`` on external hashing method ``467a534``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/467a53494b6347ba9c803c1f640fcfefc0ff9e50)
+- **[Runtime]** Change to full drag area if exit from ``MainPage`` ``4a5b986``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/4a5b98676c41dfa6c6e3c4c42403ff50a1b1431c)
+- **[Runtime]** Use the right enumeration for file listing ``366f95d``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/366f95d4e049c22377b7bb365a4b313551cfb769)
+- **[Runtime]** Make sure to redownload empty/corrupted sprite files ``f34e5e8``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/f34e5e8c6108be230fbc291eadc6de20728757e4)
+- **[Runtime]** Make sure to set the status of ``CustomBG`` while changing background ``f6a1f97``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/f6a1f97db2f798e53b6f94978940cece9d903ea8)
+- **[Runtime]** Separate ``WebView2`` frame to its own page ``0370dfa``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/0370dfa1e8c68886dee07959a51a381c9189fd36)
+
+# What's New? (since 1.0.53.0-pre)
+
+### **[Launcher]** Applying Centered Title-Bar for Windows 10 ``8407165``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/84071656021b64c6243378d685afc19085704b28)
+> As Microsoft had released WinUI 3 1.2 Stable and they have fixed full title-bar customization bug on Windows 10.
+> Finally, we are now being able to put this new Centered Title-Bar style for Windows 10 users.
+
+![image](https://user-images.githubusercontent.com/30566970/201518640-3b425693-3788-4d4b-810d-445912f4d305.png)
+
+### **[Runtime]** Moving WinUI 3 Runtime to 1.2 Stable ``37d4739``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/37d4739c4b79881e6645c91c547979ec5803a95a)
+### **[Runtime]** Adding an ability to read Honkai Impact 3rd's Cache List directly from game data
+> As we are moving forward from depending on Hi3Mirror Project to provide reference data.
+> Now, we are proud to say that this launcher is now fully capable to get all the reference data for Honkai Impact 3rd's Cache update, Repair mechanism and Cross-Version Conversion features **directly from the game data**.
+>
+> Yaaayyyy! 🎉 🎉 
+### **[Honkai Impact 3rd]** Adding Cache Update feature for all Game Regions ``4fc948f``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/4fc948f55cfa1d8cd7a224e30405ca9c27077301)
+
+### Other new minor changes:
+- **[Runtime]** Use original ``Bitmap`` for Palette generation if size is less than resized one ``c85c155``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/c85c155696f927a7bde8fc85979864b7c47776e7)
+- **[Runtime]** Remove refresh limit at some progress events ``b817f39``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/b817f39dd29d0978cdab2e8972360cd9d5355233)
 
 ***
 
 # What's Fixed?
-- ### **[Launcher]** Fixed layout getting cut while Pre-load box is shown ``9a33544``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/9a33544b2dd81c7cce93862a91ad735e2747d078)
 
-![image](https://user-images.githubusercontent.com/30566970/201099254-09e394d4-04cb-4341-bb93-6c4df50a263e.png)
-
-- ### **[Runtime/Genshin Impact]** Fixed patching on Genshin skipped other file list in diff package ``1ce6e60``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/1ce6e6087cf4fdf0ce243e322f1eac5d74cd53f1)
-- **[Launcher]** Fixed failing on install while the launcher found the registry key with empty value (Issue No: [**#46**](https://github.com/neon-nyan/CollapseLauncher/issues/46)) ``c4254d9``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/c4254d9b16d9cb9b7fc5a31a16629d3d6a1847c5)
-- **[Launcher]** Fixed language not using fallback lang if API doesn't support it (Issue No: [**#51**](https://github.com/neon-nyan/CollapseLauncher/issues/51)) ``0a11800``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/0a118008e4656747c32573414d88be31237c76dd)
-- **[Runtime]** Fixed crash if ``@NoExtraction`` file exist to skip extraction ``f6f157c``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/f6f157cf0727a0ecbaf387dcfca26ac6593d29c6)
-- **[Runtime]** Fixed incorrect formatting in logger ``f820eec``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/f820eec525d6fa79bde6c83c9f27097c06cd6d96) ``39a7ac9``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/39a7ac90ac98cefba41190c77c7dca5a31a72d40)
+- **[Launcher]** Fix cut for text on Game Conversion page ``b7e2091``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/b7e20913c8b5d03e8ca33e9a4e6b30fbaeb7770a)
+- **[Launcher]** Fix the timeout number didn't incremented on status ``daa73e9``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/daa73e9d82629993ba30d8c9b801662dc15d8b8e)
+- **[Runtime]** Fix crash caused by wrong resource given on Game Settings page ``97e064b``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/97e064b304f98d985a17086dd398b2c63a96cbe4)
+- **[Runtime]** Fix the inner Http Session doesn't get disposed properly (Issue: [**#53**](https://github.com/neon-nyan/CollapseLauncher/issues/53) by @tilsgee) ``f3300b7``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/f3300b789a71589277c3ad0fb5a798767c39a1e7) ``8317ba9``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/8317ba9f8c6b31c375004231ecf1ae0f1eb11be4) ``071627f``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/071627f420aa903cc5ce7bffc6e96b03ec392e0d)
+- **[i18n - pt-PT]** Correction of syntax (by: @gablm) ``466a3a2``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/466a3a263061f96c02b04bebdd7f3e428ffeac04)
