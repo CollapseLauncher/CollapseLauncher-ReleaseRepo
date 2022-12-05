@@ -30,3 +30,8 @@
 - **[Runtime]** Fix crash caused by wrong resource given on Game Settings page ``97e064b``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/97e064b304f98d985a17086dd398b2c63a96cbe4)
 - **[Runtime]** Fix the inner Http Session doesn't get disposed properly (Issue: [**#53**](https://github.com/neon-nyan/CollapseLauncher/issues/53) by @tilsgee) ``f3300b7``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/f3300b789a71589277c3ad0fb5a798767c39a1e7) ``8317ba9``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/8317ba9f8c6b31c375004231ecf1ae0f1eb11be4) ``071627f``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/071627f420aa903cc5ce7bffc6e96b03ec392e0d)
 - **[i18n - pt-PT]** Correction of syntax (by: @gablm) ``466a3a2``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/466a3a263061f96c02b04bebdd7f3e428ffeac04)
+
+# What's Fixed? (Since 1.0.55.1)
+
+- **[Launcher]** Fix resume button on pre-load gets disabled after pausing for the second time ``424b1a2``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/424b1a2cad4771f9bfac104f62dbde9fc4e06c60)
+- **[Runtime]** Force to use fallback if exception happen in ``GetVoiceLanguageID()`` ``6bbedb5``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/6bbedb504e58f1a6931527daf77522f926a150e7)
