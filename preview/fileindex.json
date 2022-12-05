@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.55.1",
-  "time": 1670136295,
+  "ver": "1.0.55.2",
+  "time": 1670249063,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -29,17 +29,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "E64103E3FF1DD1D75A634C12AD8CECA4",
+      "crc": "E4CA8A7DC399E8F8E099FA70E009D1DB",
       "s": 50702
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "7C82B6BF4F557504D544BCDC452FC11A",
+      "crc": "AEBFD51946183B9EB9CA461363F0DE32",
       "s": 1225216
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "2F7074721CA20C152E593C0A26D1039B",
+      "crc": "796E14E462B9E6215694B8829D02B1E9",
       "s": 625664
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "215C630525D331CFABCEB6CBDA5C6EDB",
+      "crc": "DAA923BB3BE51E08AB0A5A9803D488C4",
       "s": 230624
     },
     {
@@ -174,13 +174,13 @@
     },
     {
       "p": "Hi3Helper.Core.dll",
-      "crc": "E853CA6D1D3BF9506C18281B700556ED",
-      "s": 1076736
+      "crc": "D5792123764AE5AED77C5B703504CF89",
+      "s": 1077248
     },
     {
       "p": "Hi3Helper.Core.pdb",
-      "crc": "6A3960B11F1A1FD65589086122119AA1",
-      "s": 504320
+      "crc": "9CBA0396AD26B53551F84AA8AB3CC7C0",
+      "s": 504496
     },
     {
       "p": "Hi3Helper.EncTool.dll",
@@ -1759,8 +1759,8 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "072300379F5251FA5F1CDF828ACA5AAC",
-      "s": 30698
+      "crc": "9F4D7EC58373E4667429CFFEEF4FABF9",
+      "s": 31277
     },
     {
       "p": "Lang/id-ID.json",
