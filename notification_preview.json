@@ -1,21 +1,5 @@
 {
     "AppPush": [
-        {
-            "MsgId": 0,
-            "IsDisposable": false,
-            "Severity": "Success",
-            "Title": "Welcome to Collapse Launcher",
-            "Message": "Now you can install or migrate your existing game here. For more information/guides, please visit: https://github.com/neon-nyan/CollapseLauncher/Wiki",
-            "Show": true
-        },
-        {
-            "MsgId": -1,
-            "IsDisposable": true,
-            "Severity": "Informational",
-            "Title": "You are using Preview build",
-            "Message": "You're using preview build and might be unstable. To report any issues, please visit: https://github.com/neon-nyan/CollapseLauncher/issues",
-            "Show": true
-        }
     ],
     "RegionPush": [
     ]
