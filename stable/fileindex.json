@@ -1,6 +1,6 @@
 {
-  "ver": "1.0.55.2",
-  "time": 1670249067,
+  "ver": "1.0.55.4",
+  "time": 1670503006,
   "f": [
     {
       "p": "ApplyUpdate.exe",
@@ -29,17 +29,17 @@
     },
     {
       "p": "CollapseLauncher.deps.json",
-      "crc": "E4CA8A7DC399E8F8E099FA70E009D1DB",
+      "crc": "20F2FAB9A1FAACE5EC3C7728B96D4588",
       "s": 50702
     },
     {
       "p": "CollapseLauncher.dll",
-      "crc": "E5BF71E62BCAA3789C49E0AE8FC8962F",
-      "s": 1225216
+      "crc": "58C5A76437A3209466BBAFBFA2BDC82A",
+      "s": 1229824
     },
     {
       "p": "CollapseLauncher.exe",
-      "crc": "796E14E462B9E6215694B8829D02B1E9",
+      "crc": "342EE5AB91E9585FE88CE9615848375F",
       "s": 625664
     },
     {
@@ -49,8 +49,8 @@
     },
     {
       "p": "CollapseLauncher.pdb",
-      "crc": "5CF049931D4F0DFA3ACCBBF304A0878E",
-      "s": 230608
+      "crc": "3026FED2AB66F164F5730A1723D15DC8",
+      "s": 231216
     },
     {
       "p": "CollapseLauncher.runtimeconfig.json",
@@ -174,13 +174,13 @@
     },
     {
       "p": "Hi3Helper.Core.dll",
-      "crc": "E2A00E9F01C2283CE0A1B9ACF997DF9C",
-      "s": 1077248
+      "crc": "5AA9F1E274F4D865775ABCC56C2E0725",
+      "s": 1103872
     },
     {
       "p": "Hi3Helper.Core.pdb",
-      "crc": "D701171E5886FCF39560A5C8F8FA9D2F",
-      "s": 504496
+      "crc": "05AD7A397A8D32D8BEEB56A50FC88D42",
+      "s": 512896
     },
     {
       "p": "Hi3Helper.EncTool.dll",
@@ -574,8 +574,8 @@
     },
     {
       "p": "resources.pri",
-      "crc": "0A641D4E90BCCCCFD24468EE78CD3847",
-      "s": 1525104
+      "crc": "317C5B9281B2C0B99CC26490B40DE7DD",
+      "s": 1525536
     },
     {
       "p": "System.AppContext.dll",
@@ -1759,23 +1759,23 @@
     },
     {
       "p": "Lang/en.json",
-      "crc": "9F4D7EC58373E4667429CFFEEF4FABF9",
-      "s": 31277
+      "crc": "3A19CB3E26A09F481CAA45A98CE69A5C",
+      "s": 32342
     },
     {
       "p": "Lang/id-ID.json",
-      "crc": "11B6A969EDA3144EBB689D47A4377102",
-      "s": 31261
+      "crc": "DBF7CCB22E15F4126722584469B0DA12",
+      "s": 32250
     },
     {
       "p": "Lang/pt-pt.json",
-      "crc": "4F384E1ED0F465C4434DAE0ED1260E4D",
-      "s": 33751
+      "crc": "79E1B295D103EDE8BE9FA7A047967DA8",
+      "s": 34840
     },
     {
       "p": "Lang/zh-cn.json",
-      "crc": "D12B9C91B8E566CBA90828DE412F7C88",
-      "s": 28534
+      "crc": "7D52DFBE0793B3AEE4B995B36F865D40",
+      "s": 28583
     },
     {
       "p": "Lib/7z.dll",
