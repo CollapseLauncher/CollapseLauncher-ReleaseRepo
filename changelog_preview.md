@@ -1,3 +1,6 @@
+# ATTENTION!
+If you have previously installed **1.0.55.2** build and you're planning to update your Honkai Impact 3rd game using Delta-Patch feature, **PLEASE** update your launcher to this build first (**1.0.55.4**) since we have some bugs in previous build that may cause a failure while using Delta-Patch to update your Honkai Impact 3rd game.
+
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/34d1913533b0a9b328fdee6be457f240915b5381/images/Banner_update_1.0.52.5.webp)
 
 # What's New?
@@ -21,6 +24,28 @@
 - **[Runtime]** Make sure to set the status of ``CustomBG`` while changing background ``f6a1f97``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/f6a1f97db2f798e53b6f94978940cece9d903ea8)
 - **[Runtime]** Separate ``WebView2`` frame to its own page ``0370dfa``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/0370dfa1e8c68886dee07959a51a381c9189fd36)
 
+
+
+# What's New? (since 1.0.55.2)
+### **[i18n]** Localize Welcome and Preview Notification (Issue: [**#57**](https://github.com/neon-nyan/CollapseLauncher/issues/57))
+> Thank you @Cryotechnic for your suggestion on this.
+
+> As an example while using ``Bahasa Indonesia`` localization.
+> 
+> ![image](https://user-images.githubusercontent.com/30566970/206445660-1ccb36b2-f889-43c6-9aff-dcc8094229cc.png)
+
+### Other new minor changes:
+- **[Runtime]** Don't repeat ``GetFileName()`` in ``GetVoiceLanguageID()`` ``dc19def``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/dc19def9815729180a7d619fc13a8ec386c18398)
+- **[Launcher]** Indicate a status if delta-patch pre-load format exists ``5f5dae7``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/5f5dae7d82978a6cd00ae8c1df9c5bc2b5062a52)
+- **[Launcher]** Add an indicator for preview build ``0b57c8b``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/0b57c8b82eae7d88aa9d2861672b6c06c77c7f97)
+
+![image](https://user-images.githubusercontent.com/30566970/206447704-46e89db2-9e6e-4882-b7ff-1f7767f0db2e.png)
+
+- **[Runtime]** Use ``DeleteDownloadedFile()`` to reset download ``518fbf1``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/518fbf1ee3ee85ad0f0bc60b7e106a49b189f16b)
+- **[Runtime]** Always check if ``game_install_path`` is not null ``51fa3f8``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/51fa3f89ba3058a1a5a267672c23554a83a9ac34)
+- **[i18n - en-US]** Fixed typos and missing context in en locale (PR: [**#55**](https://github.com/neon-nyan/CollapseLauncher/pull/55) by @Cryotechnic)
+- **[i18n - pt-PT]** Adding new translated strings (PR: [**#60**](https://github.com/neon-nyan/CollapseLauncher/pull/60) by @gablm)
+
 ***
 
 # What's Fixed?
@@ -35,3 +60,14 @@
 
 - **[Launcher]** Fix resume button on pre-load gets disabled after pausing for the second time ``424b1a2``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/424b1a2cad4771f9bfac104f62dbde9fc4e06c60)
 - **[Runtime]** Force to use fallback if exception happen in ``GetVoiceLanguageID()`` ``6bbedb5``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/6bbedb504e58f1a6931527daf77522f926a150e7)
+
+# What's Fixed? (Since 1.0.55.2)
+
+- **[Launcher]** Fix resume button on pre-load gets disabled after pausing for the second time ``424b1a2``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/424b1a2cad4771f9bfac104f62dbde9fc4e06c60)
+- **[Runtime]** Force to use fallback if exception happen in ``GetVoiceLanguageID()`` ``6bbedb5``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/6bbedb504e58f1a6931527daf77522f926a150e7)
+- **[i18n/Runtime]** Fix i18n doesn't use fallback value if it's not yet translated ``b16cfe5``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/b16cfe5d8e2f8a03aa06377875e2e2d6174aa2c7)
+- **[Runtime/Genshin Impact]** Fix object doesn't get initialized properly in JSON Context (Issue: [**#59**](https://github.com/neon-nyan/CollapseLauncher/issues/59)) ``f767415``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/f76741578062aaf0a35df043a2a04b400898fcf6)
+- **[Runtime]** Fix size overflow while retrying download ``0532ff6``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/0532ff6e5345c49863bc14d1c751f04fc3d6cc2d)
+- **[Runtime/Honkai Impact 3rd]** Fix the delta-patch mechanism to potentially fail ``15e7b56``[**!**](https://github.com/neon-nyan/CollapseLauncher/commit/15e7b56affac3063211ad2ad87820c1223b5534e)
+> This caused by a corrupted file that might need to be repaired. Instead of downloading an old version (let's say: 6.1.0) file, it downloads a new version (6.2.0) file causing difference in the ingredient.
+> Thank you for peps on Honkai Impact Official Discord to report this issue.
