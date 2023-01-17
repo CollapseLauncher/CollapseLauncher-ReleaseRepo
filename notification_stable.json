@@ -4,7 +4,7 @@
     "RegionPush": [
         {
             "MsgId": 5000010,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
             "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update (Part: 1)",
@@ -13,7 +13,7 @@
         },
         {
             "MsgId": 5000011,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
             "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update (Part: 2)",
@@ -22,7 +22,7 @@
         },
         {
             "MsgId": 5000012,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
             "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update (Part: 3)",
