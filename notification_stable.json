@@ -19,6 +19,15 @@
             "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update (Part: 2)",
             "Message": "The update for the metadata will occur on: January 18th 2022 - 00:00 (GMT+7)\r\nOnce again, make sure you've updated the metadata first before applying the game update to avoid any issues!!\r\n\r\nThank you for your attention~ :D",
             "Show": true
+        },
+        {
+            "MsgId": 5000012,
+            "IsDisposable": false,
+            "Severity": "Warning",
+            "RegionProfile": "GIGlb",
+            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update (Part: 3)",
+            "Message": "The metadata update has been rolled out! Please ensure that you have updated the launcher metadata before updating your game later!",
+            "Show": true
         }
     ]
 }
