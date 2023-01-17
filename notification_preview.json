@@ -7,17 +7,8 @@
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
-            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update (Part: 1)",
+            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update",
             "Message": "Hi there! Since v3.4 update is about to come, we are planning to update the metadata for Collapse Launcher in order to keep the launcher able to communicate with the miHoYo/HoYoverse server while applying the pre-load/update. Make sure you have updated the metadata before you update the game. This will avoid any issues that might occur while updating your game to v3.4.",
-            "Show": true
-        },
-        {
-            "MsgId": 5000011,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "GIGlb",
-            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update (Part: 2)",
-            "Message": "The update for the metadata will occur on: January 18th 2022 - 00:00 (GMT+7)\r\nOnce again, make sure you've updated the metadata first before applying the game update to avoid any issues!!\r\n\r\nThank you for your attention~ :D",
             "Show": true
         },
         {
@@ -25,7 +16,7 @@
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
-            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update (Part: 3)",
+            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update",
             "Message": "The metadata update has been rolled out! Please ensure that you have updated the launcher metadata before updating your game later!",
             "Show": true
         }
