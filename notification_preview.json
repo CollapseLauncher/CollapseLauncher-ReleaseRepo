@@ -12,13 +12,14 @@
             "Show": true
         },
         {
-            "MsgId": 5000013,
+            "MsgId": 5000014,
             "IsDisposable": false,
             "Severity": "Error",
             "RegionProfile": "GIGlb",
             "Title": "[EN] Issues regarding to Genshin Impact 3.4 Update",
-            "Message": "Hi there, we have received some issues regarding to Genshin Impact 3.4 update that might cause the delta-patch mechanism to not work as expected. In this regard, please do not update your game using Collapse at the moment and apply your game with Official Launcher instead.\r\nWe are sorry for the inconvenience and we will enrolling a fix update for the launcher as soon as possible.",
-            "Show": true
+            "Message": "Hi there, we have received some issues regarding to Genshin Impact 3.4 update that might cause the patch mechanism to not work as expected. In this regard, we have rolled a new update for the launcher to fix this issue. Please make sure you've updated your launcher to v1.0.55.6 before updating your game!",
+            "Show": true,
+            "ValidForVerBelow": "1.0.55.6"
         }
     ]
 }
