@@ -226,6 +226,7 @@
     "SpecMaximum": "Maximum",
 
     "Audio_Title": "Audio Settings",
+    "Audio_Master": "Master Volume",
     "Audio_BGM": "BGM Volume",
     "Audio_SFX": "Sound Effects Volume",
     "Audio_VOLang": "Voice Over Language",
@@ -235,6 +236,7 @@
     "Audio_VO": "Voice Over Volume",
     "Audio_Elf": "Elf Voice Over Volume",
     "Audio_Cutscenes": "Cutscenes Volume",
+    "Audio_Mute": "Mute Audio",
 
     "ApplyBtn": "Apply Settings",
     "SettingsApplied": "Changes have been saved!",
@@ -243,7 +245,7 @@
     "OverlayNotInstalledSubtitle": "Please download/update the game first on the game's launcher page!",
     "OverlayGameRunningTitle": "Game is Currently Running!",
     "OverlayGameRunningSubtitle": "Please close the game first to use this feature!",
-    "OverlayFirstTimeTitle": "You haven't launched the game yet!",
+    "OverlayFirstTimeTitle": "You have never played this game before!",
     "OverlayFirstTimeSubtitle": "Please run the game first to generate the necessary files, then come back here to use this feature.",
 
     "CustomArgs_Title": "Custom Start-up Arguments (Advanced)",
@@ -573,7 +575,7 @@
     "UpdateStatus4": "You're using the latest version ({0}) now!",
     "UpdateMessage4": "Returning to game launcher scope shortly...",
     "UpdateStatus5": "Version has been updated to {0}!",
-    "UpdateMessage5": "Your launcher will re-open momentarily..."
+    "UpdateMessage5": "Your launcher will re-open shortly..."
   },
 
   "_AppNotification": {
@@ -587,7 +589,7 @@
     "NotifFirstWelcomeBtn": "Visit GitHub Wiki",
 
     "NotifPreviewBuildUsedTitle": "You are using a Preview Build!",
-    "NotifPreviewBuildUsedSubtitle": "You are currently using a PREVIEW build which is still being tested. You may experience some issues if you are using the experimental feature(s) in this build. If you encounter any issues, please report them by using the \"{0}\" button below. Thanks!",
+    "NotifPreviewBuildUsedSubtitle": "You are currently using a PREVIEW build which is still being tested. If you encounter any issues, please report them by using the \"{0}\" button below. Thanks!",
     "NotifPreviewBuildUsedBtn": "Submit an Issue"
   }
 }
