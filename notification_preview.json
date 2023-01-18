@@ -3,21 +3,21 @@
     ],
     "RegionPush": [
         {
-            "MsgId": 5000010,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "GIGlb",
-            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update",
-            "Message": "Hi there! Since v3.4 update is about to come, we are planning to update the metadata for Collapse Launcher in order to keep the launcher able to communicate with the miHoYo/HoYoverse server while applying the pre-load/update. Make sure you have updated the metadata before you update the game. This will avoid any issues that might occur while updating your game to v3.4.",
-            "Show": true
-        },
-        {
             "MsgId": 5000012,
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
             "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update",
             "Message": "The metadata update has been rolled out! Please ensure that you have updated the launcher metadata before updating your game later!",
+            "Show": true
+        },
+        {
+            "MsgId": 5000013,
+            "IsDisposable": false,
+            "Severity": "Error",
+            "RegionProfile": "GIGlb",
+            "Title": "[EN] Issues regarding to Genshin Impact 3.4 Update",
+            "Message": "Hi there, we have received some issues regarding to Genshin Impact 3.4 update that might cause the delta-patch mechanism to not work as expected. In this regard, please do not update your game using Collapse at the moment and apply your game with Official Launcher instead.\r\nWe are sorry for the inconvenience and we will enrolling a fix update for the launcher as soon as possible.",
             "Show": true
         }
     ]
