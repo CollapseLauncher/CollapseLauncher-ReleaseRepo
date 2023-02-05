@@ -123,8 +123,8 @@
     "ListCol2": "Tipe",
     "ListCol3": "Asal",
     "ListCol4": "Ukuran",
-    "ListCol5": "CRC",
-    "ListCol6": "Remote CRC",
+    "ListCol5": "L.CRC",
+    "ListCol6": "R.CRC",
     "Status1": "Klik Periksa File untuk memulai analisa",
     "Status2": "Memuat Index...",
     "Status3": "{0} file mengalami kerusakan (dengan ukuran keseluruhan {1}). Klik Perbaiki Game untuk memulai perbaikan",
@@ -155,8 +155,8 @@
     "ListCol2": "Tipe",
     "ListCol3": "Asal",
     "ListCol4": "Ukuran",
-    "ListCol5": "Tanggal Ubah",
-    "ListCol6": "Tanggal Baru",
+    "ListCol5": "L.CRC",
+    "ListCol6": "R.CRC",
     "ListCol7": "Status",
     "Status1": "Klik \"Periksa\" untuk memeriksa pembaruan",
     "CachesStatusHeader1": "Total Progres",
@@ -240,6 +240,18 @@
 
     "ApplyBtn": "Terapkan Pengaturan",
     "SettingsApplied": "Perubahan telah disimpan!",
+    "SettingsRegExported": "Registry berhasil diekspor!",
+    "SettingsRegExportTitle": "Simpan file Collapse Registry ke...",
+    "SettingsRegImported": "Registry berhasil diimpor! (Mohon restart launcher untuk menerapkan perubahan)",
+    "SettingsRegImportTitle": "Pilih file Collapse Registry...",
+    "SettingsRegErr1": "Lokasi belum ditentukan!",
+    "SettingsRegErr2": "Header dari file Collapse Registry tidak valid!",
+
+    "RegImportExport": "Impor/Ekspor Registry",
+    "RegExportTitle": "Ekspor",
+    "RegExportTooltip": "Ekspor keys registry ke file Collapse Registry",
+    "RegImportTitle": "Impor",
+    "RegImportTooltip": "Impor keys registry dari file Collapse Registry",
 
     "OverlayNotInstalledTitle": "Kamu tidak dapat menggunakan fitur ini karena game tidak terpasang/butuh diperbarui!",
     "OverlayNotInstalledSubtitle": "Mohon pasang/perbarui game terlebih dahulu!",
@@ -460,7 +472,9 @@
     "CookbookLocateSubtitle4": "Selanjutnya",
     "CookbookLocateSubtitle5": "untuk memilih file Cookbook yang sudah terunduh dan memulai proses konversi.\r\n\r\n",
     "CookbookLocateSubtitle6": "Catatan:\r\n",
-    "CookbookLocateSubtitle7": "Berikut adalah nama file Cookbook yang perlu kamu unduh:\r\n"
+    "CookbookLocateSubtitle7": "Berikut adalah nama file Cookbook yang perlu kamu unduh:\r\n",
+    "PrivilegeMustRunTitle": "Collapse membutuhkan elevasi hak akses!",
+    "PrivilegeMustRunSubtitle": "Collapse membutuhkan hak akses sebagai administrator untuk berjalan. Apakah kamu ingin restart Collapse and jalankan sebagai adminisrator?"
   },
 
   "_InstallMgmt": {
