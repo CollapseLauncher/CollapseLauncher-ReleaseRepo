@@ -10,13 +10,18 @@ Anyway, we are hitting 1k commits milestone! Thank you for all of your support!
 ### Minor changes
 - **[Launcher]** Use full-sized title-bar buttons ``9f3142b``[**!**](https://github.com/neon-nyan/Collapse/commit/9f3142bad54147056a473aa2b19594872d4387d0) ``2446b3e``[**!**](https://github.com/neon-nyan/Collapse/commit/2446b3e6eb09827ff6f8a77e019658f0c780456a)
 ![image](https://user-images.githubusercontent.com/30566970/219038397-9375450f-9592-4a17-adea-0ba9c4bd7bab.png)
+
 - **[Launcher]** Add warning for Games that's not officially supported (Beta or DevRelease) ``55f80cb``[**!**](https://github.com/neon-nyan/Collapse/commit/55f80cb6a181724fff69b8a898374f56541160d4)
 ![image](https://user-images.githubusercontent.com/30566970/219037176-b08361ad-45d8-4517-8f6a-35d6b0d0d10d.png)
+
 - **[Launcher]** Change label from "Exper" to each game channel category (Beta or DevRelease) ``6d43cd5``[**!**](https://github.com/neon-nyan/Collapse/commit/6d43cd5537ee8c7611c9ce2ed5e8011d7f3b9110)
+    
     **Before**
     ![image](https://user-images.githubusercontent.com/30566970/219036663-b5415c86-eecd-4b3a-a03a-6aad9471dae9.png)
+    
     **After**
     ![image](https://user-images.githubusercontent.com/30566970/219036712-a77e953c-0871-482d-b27f-eb9f32f7ef58.png)
+    
 - **[Honkai Impact 3rd]** Add exception for ScreenShot folder while doing checking on Game Repair ``901c9df``[**!**](https://github.com/neon-nyan/Collapse/commit/901c9df6eb1dac58ab59ad248ad7edb1ae68b404)
 - **[Honkai: Star Rail]** The first iteration of bringing support for Honkai: Star Rail ``9692060``[**!**](https://github.com/neon-nyan/Collapse/commit/9692060f1f87c43fbaf472b747ce6261a59e42bd) ``ebd8d9b``[**!**](https://github.com/neon-nyan/Collapse/commit/ebd8d9b71f330d93147d8088d95c74926b353981)
 - **[Runtime]** Reinitialize setup while the Game App Data path doesn't exist ``fbd30a0``[**!**](https://github.com/neon-nyan/Collapse/commit/fbd30a03e9b7b3ed2b3356aa5b28ed2680119d1e)
