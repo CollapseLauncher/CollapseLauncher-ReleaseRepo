@@ -1,7 +1,7 @@
 @echo off
 %~d0
 cd "%~dp0"
-set ver=1.0.64.0
+set ver=1.0.69.1
 
 preview\CollapseLauncher.exe reindex --input preview\ --upver %ver%
 previewportable\CollapseLauncher.exe reindex --input previewportable\ --upver %ver%

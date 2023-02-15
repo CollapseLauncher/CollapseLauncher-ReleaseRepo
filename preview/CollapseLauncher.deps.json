@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win-x64": {
-      "CollapseLauncher/1.0.64.0": {
+      "CollapseLauncher/1.0.69.1": {
         "dependencies": {
           "ColorThief": "1.0.0",
           "CommunityToolkit.WinUI.UI": "7.1.2",
@@ -1902,7 +1902,6 @@
       },
       "Hi3Helper.Core/1.0.0": {
         "dependencies": {
-          "Google.Protobuf": "3.21.12",
           "Hi3Helper.EncTool": "1.0.0",
           "Hi3Helper.Http": "1.0.0",
           "System.Text.Json": "7.0.1"
@@ -1912,6 +1911,9 @@
         }
       },
       "Hi3Helper.EncTool/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.12"
+        },
         "runtime": {
           "Hi3Helper.EncTool.dll": {}
         }
@@ -1924,7 +1926,7 @@
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.64.0": {
+    "CollapseLauncher/1.0.69.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
