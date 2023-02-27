@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {},
     ".NETCoreApp,Version=v7.0/win-x64": {
-      "CollapseLauncher/1.0.69.2": {
+      "CollapseLauncher/1.0.69.3": {
         "dependencies": {
           "ColorThief": "1.0.0",
           "CommunityToolkit.WinUI.UI": "7.1.2",
@@ -1090,12 +1090,6 @@
       "System.Text.Json/7.0.1": {
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/System.Text.Json.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.122.56804"
-          }
         }
       },
       "System.Text.RegularExpressions/4.3.0": {
@@ -1209,7 +1203,7 @@
     }
   },
   "libraries": {
-    "CollapseLauncher/1.0.69.2": {
+    "CollapseLauncher/1.0.69.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
