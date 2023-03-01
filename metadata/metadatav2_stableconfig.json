@@ -205,7 +205,7 @@
         "GameExecutableName": "GenshinImpact.exe",
         "GameType": "Genshin",
         "GameDispatchURL": "https://{0}.yuanshen.com/query_cur_region?version={1}&platform=3&binary=1&time=256&channel_id=1&sub_channel_id=1&account_type=1&dispatchSeed={2}&key_id=5",
-        "ProtoDispatchKey": "80d2227185ac2a10",
+        "ProtoDispatchKey": "39f0ecc6d4a1046d",
         "IsGenshin": true,
         "IsHideSocMedDesc": false,
         "UseRightSideProgress": true,
