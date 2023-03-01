@@ -3,23 +3,13 @@
     ],
     "RegionPush": [
         {
-            "MsgId": 5000012,
+            "MsgId": 5000015,
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
-            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.4 Update",
+            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.5 Update",
             "Message": "The metadata update has been rolled out! Please ensure that you have updated the launcher metadata before updating your game later!",
             "Show": true
-        },
-        {
-            "MsgId": 5000014,
-            "IsDisposable": false,
-            "Severity": "Error",
-            "RegionProfile": "GIGlb",
-            "Title": "[EN] Issues regarding to Genshin Impact 3.4 Update",
-            "Message": "Hi there, we have received some issues regarding to Genshin Impact 3.4 update that might cause the patch mechanism to not work as expected. In this regard, we have rolled a new update for the launcher to fix this issue. Please make sure you've updated your launcher to v1.0.55.6 before updating your game!",
-            "Show": true,
-            "ValidForVerBelow": "1.0.55.6"
         }
     ]
 }
