@@ -23,6 +23,7 @@
         "CachesEndpointURL": "https://hk-bundle-os-mihayo.akamaized.net/asset_bundle/overseas01/1.1/{0}/editor_compressed/",
         "IsConvertible": true,
         "IsHideSocMedDesc": true,
+        "ZipFileURL": "https://prophost.ironmaid.xyz/_shared/_zipfiles/sea/{0}/",
         "ConvertibleTo": [
           "Global"
         ],
@@ -60,6 +61,7 @@
         "CachesEndpointURL": "http://d2wztyirwsuyyo.cloudfront.net/asset_bundle/usa01/1.1/{0}/editor_compressed/",
         "IsConvertible": true,
         "IsHideSocMedDesc": true,
+        "ZipFileURL": "https://prophost.ironmaid.xyz/_shared/_zipfiles/global/{0}/",
         "ConvertibleTo": [
           "Southeast Asia"
         ],
