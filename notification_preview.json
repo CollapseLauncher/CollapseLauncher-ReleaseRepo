@@ -10,6 +10,26 @@
             "Title": "[EN] Metadata update in-regard of Genshin Impact 3.5 Update",
             "Message": "The metadata update has been rolled out! Please ensure that you have updated the launcher metadata before updating your game later!",
             "Show": true
+        },
+        {
+            "MsgId": 666,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "Hi3SEA",
+            "Title": "[EN] This is a test!",
+            "Message": "This is a notification test! You can ignore this notification while we are doing some feature tests.",
+            "Show": true,
+            "TimeBegin": "2023-03-19T17:06:49+07:00",
+            "TimeEnd": "2023-03-19T22:00:00+07:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/neon-nyan",
+                    "Description": "Visit neon-nyan's GitHub Page",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeBrand"
+                }
+            }
         }
     ]
 }
