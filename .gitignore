@@ -1,3 +1,5 @@
 preview/_Extract/**
 squirrel/specs/**
 *.exe
+preview-*.*
+packages/**
