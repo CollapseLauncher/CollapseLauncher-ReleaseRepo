@@ -16,6 +16,7 @@ set sevenzip="C:\Program Files\7-Zip\7z.exe"
 :: Remove old folders and old fileindex.json
 if exist "%channel%\fileindex.json" del %channel%\fileindex.json
 if exist "%channel%\ApplyUpdate.exe" del %channel%\ApplyUpdate.exe
+if exist "%channel%\release" del %channel%\release
 if exist "%latestPath%" rmdir /S /Q %latestPath%
 if exist "%buildPath%" rmdir /S /Q %buildPath%
 mkdir "%buildPath%"
@@ -45,14 +46,20 @@ move %squirrelPath%\latest %squirrelPath%\%channel%
 :: Copy the ApplyUpdate tool to channel folder
 rmdir /S /Q %channel% && mkdir %channel%
 copy ApplyUpdate.exe %channel%
+
+:: Write release stamp file
+echo %channel% > %channel%\release
+
 :: Get the size of ApplyUpdate tool
 FOR /F "usebackq" %%A IN ('%channel%\ApplyUpdate.exe') DO set applyupdatesize=%%~zA
+FOR /F "usebackq" %%A IN ('%channel%\release') DO set releasesize=%%~zA
 :: Get the MD5 hash of ApplyUpdate tool
 FOR /F %%B IN ('certutil -hashfile %channel%\ApplyUpdate.exe MD5 ^| find /v "hash"') DO set applyupdatehash=%%B
+FOR /F %%B IN ('certutil -hashfile %channel%\release MD5 ^| find /v "hash"') DO set releasehash=%%B
 :: Get current Unix timestamp
 call :GetUnixTime unixtime
 :: Print out the fileindex.json file
-echo ^{"ver":"%version%.0","time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^}^]^} > %channel%\fileindex.json
+echo ^{"ver":"%version%.0","time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^} > %channel%\fileindex.json
 
 goto :EOF
 
