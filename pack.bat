@@ -26,8 +26,8 @@ xcopy %channel%\ %buildPath% /S /H /C
 
 :: Build latest package file
 mkdir %latestPath%\app-%version%
-move %buildPath%\* %latestPath%\app-%version%\
-rmdir /S /Q %buildPath%
+move %buildPath% %latestPath%
+move %latestPath%\buildKitchen %latestPath%\app-%version%
 
 :: Copy the update and entry launch executable
 copy Update.exe %latestPath%
@@ -44,6 +44,7 @@ if not exist "%squirrelPath%\%channel%" mkdir %squirrelPath%\%channel%
 move %squirrelPath%\latest %squirrelPath%\%channel%
 
 :: Copy the ApplyUpdate tool to channel folder
+rmdir /S /Q %channel% && mkdir %channel%
 copy ApplyUpdate.exe %channel%
 :: Get the size of ApplyUpdate tool
 FOR /F "usebackq" %%A IN ('%channel%\ApplyUpdate.exe') DO set applyupdatesize=%%~zA
