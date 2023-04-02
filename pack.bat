@@ -25,9 +25,8 @@ xcopy %channel%\ %buildPath% /S /H /C
 %app% pack --packId="%name%" --packVersion="%version%" --includePDB --packDir="%buildPath%" --releaseDir="%releasePath%"
 
 :: Build latest package file
-mkdir %latestPath%\app-%version%
-move %buildPath% %latestPath%
-move %latestPath%\buildKitchen %latestPath%\app-%version%
+mkdir %latestPath%
+move %buildPath% %latestPath%\app-%version%
 
 :: Copy the update and entry launch executable
 copy Update.exe %latestPath%
