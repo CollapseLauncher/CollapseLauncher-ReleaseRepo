@@ -13,7 +13,7 @@ This release changelog is going to be structured a bit differently than the othe
 - Added the ability to import and export Registry keys for local machine. This allows the user to back up game settings and restore them should something go wrong. ``2a13a68`` [**!**](https://github.com/neon-nyan/Collapse/commit/2a13a6822548821475b2d1f3b99af3af7b7025ba)
 ***
 ## New Feature: Admin Restart Prompt
-Starting with Collapse 1.69.0, the launcher will prompt you for privilege escalation if you are running it as an unauthorized (without administrator permissions) user. To make it clear: Collapse has always asked you for these privileges and will continue to do so for the foreseeable, because of some Win32 API calls we've made, as well as to read data from the registry, installing games and customising the launcher experience.
+Starting with Collapse 1.69.0, the launcher will prompt you for privilege escalation if you are running it as an unauthorized (without administrator permissions) user. To make it clear: **Collapse has always asked you for these privileges and will continue to do so** for the foreseeable, because of some Win32 API calls we've made, as well as to read data from the registry, installing games and customising the launcher experience.
 
 The prompt looks like so:
 [Image]
