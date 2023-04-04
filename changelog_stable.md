@@ -1,9 +1,9 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/34d1913533b0a9b328fdee6be457f240915b5381/images/Banner_update_1.0.52.5.webp)
 
 # 1.69.0: Version Kiana
-It's been a while since the last major release of Collapse (almost 4 months ago ^.^). We wanted to make sure we get this release right, as its name coincides with one in a game we (hopefully) all hold dear in our hearts. Honkai Impact 3rd was a turning point for a lot of us from the Collapse development team, and so we wanted to take the time to make this version extra special to commemorate its launch. That being said, please take note that we are all volunteers working on this project. This means that Collapse can receive slower, maintenance updates for an extended period of time should we have more pressing matters to attend to in the real world.
-
 We can't believe it's been over 2 years since this project was first launched. A big thank you to all our developers and users for continuing to work and use this application. We hope you're having as much fun using it as we did making it! 
+
+It's been a while since the last major release of Collapse (almost 4 months ago ^.^). We wanted to make sure we get this release right, as its name coincides with one in a game we (hopefully) all hold dear in our hearts. Honkai Impact 3rd was a turning point for a lot of us from the Collapse development team, and so we wanted to take the time to make this version extra special to commemorate its launch. That being said, please take note that we are all volunteers working on this project. This means that Collapse can receive slower, maintenance updates for an extended period of time should we have more pressing matters to attend to in the real world.
 
 This release changelog is going to be structured a bit differently than the other ones (someone else is writing it, *teehee*). Without further ado, buckle up, because this is biiiiiiiig update \o/
 
