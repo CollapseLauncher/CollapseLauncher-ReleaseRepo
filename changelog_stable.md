@@ -20,16 +20,19 @@ It's important to note that you will **no longer be able to downgrade to a versi
 
 This change will allow us to more easily determine version numbers when we release them to you. Thanks for understanding! ❤️
 ***
-## New Feature: Improved Fresh User Experience
+## New Feature: Improved New User Experience
 Shipping with Collapse 1.69.0 is a new setup experience that streamlines the setup process, while also introducing some new features!
 
-## [PLACEHOLDER FOR VIDEO]
+Here's the new setup process for Collapse!
+[**Click here to see the preview**](https://user-images.githubusercontent.com/9833218/229684558-e1ae7149-b4a2-40f1-8a64-0493ff5f3713.mp4)
+
+And here's more UI tweaks!
+[**Click here to see the preview**](https://user-images.githubusercontent.com/9833218/229684678-1a5bef9a-73d4-4c58-9472-b836faa3a44f.mp4)
 
 ``719c21e`` [**!**](https://github.com/neon-nyan/Collapse/commit/719c21e2f810d0acf1a8cad23e2a147f94337a16), ``3249ce1`` [**!**](https://github.com/neon-nyan/Collapse/commit/3249ce1c16e73a8254165c846570756ffd1f9cdc), ``b4f0d2d`` [**!**](https://github.com/neon-nyan/Collapse/commit/b4f0d2d996b6e19bee44485bf9a38cdbb106f9f2), ``0ed5304`` [**!**](https://github.com/neon-nyan/Collapse/commit/0ed5304feff51fc192789896d463fc9b09db590e), ``94a787a`` [**!**](https://github.com/neon-nyan/Collapse/commit/94a787adbf03de5116a56f5ee6fd7de71a77b246)
 ***
 ## New Feature: Window Resizing
 Yet another requested feature that is now available in Collapse 1.69.0. This allows the user to make the launcher window smaller, which means that Collapse now also supports 4:3 monitors! Yay!
-## [PLACEHOLDER FOR IMG]
 
 ``e2db756`` [**!**](https://github.com/neon-nyan/Collapse/commit/e2db7564a90ac443c36d4625ceb0435e54e3c8d3), ``10257f2`` [**!**](https://github.com/neon-nyan/Collapse/commit/10257f28d07807e8d6401e469e8a43d8acddcb6b)
 ***
@@ -45,7 +48,10 @@ Should you consider switching to the experimental branch ("Dev"), please make su
 Starting with Collapse 1.69.0 (originally introduced in Collapse `1.0.64.0-preview`), the launcher will prompt you for privilege escalation if you are running it as an unauthorized (without administrator permissions) user. To make it clear: **Collapse has always asked you for these privileges and will continue to do so** for the foreseeable, because of some Win32 API calls we've made, as well as to read data from the registry, installing games and customising the launcher experience.
 
 The prompt looks like so:
-![video](https://user-images.githubusercontent.com/9833218/229682201-4a4f5408-169b-4167-930f-be4956822d78.mov)
+
+
+[**Click here to see the preview**](https://user-images.githubusercontent.com/9833218/229683996-25a9b6b1-07b0-46f2-9138-9ba9aa962453.mp4)
+
 
 Should you choose to ignore this, Collapse will terminate itself and require you to run it as an administrator. By integrating it into the launcher itself, we hope to make it more user friendly for people that just want to use this as a better alternative to the default launcher.
 
@@ -62,7 +68,13 @@ See you aboard the Astral Express, Trailblazer!
 ``9692060``[**!**](https://github.com/neon-nyan/Collapse/commit/9692060f1f87c43fbaf472b747ce6261a59e42bd), ``ebd8d9b``[**!**](https://github.com/neon-nyan/Collapse/commit/ebd8d9b71f330d93147d8088d95c74926b353981)
 ***
 ## New Feature: Running Multiple Instances of Collapse
-## [PLACEHOLDER FOR IMG]
+
+
+
+[**Click here to see the preview**](https://user-images.githubusercontent.com/9833218/229684247-57d94660-8ae9-4a2e-90df-86d95df7f404.mp4)
+
+
+
 Previously, users were not able to run multiple Collapse processes without running into issues. This has now been resolved! This is a feature that was necessary to implement while we work on implementing background installation for new games and/or updating existing ones. While we understand that the aformentioned feature is highly requested, the implementation for it has proven to be quite a challenge and will require more time to fine-tune before it is made available for the general public. We appreciate your patience and can't wait to show you it in action once it's ready!
 
 To allow Collapse to spawn multiple instances, you must first enable that option in the launcher settings.
