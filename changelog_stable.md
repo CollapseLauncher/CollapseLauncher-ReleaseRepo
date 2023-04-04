@@ -33,6 +33,7 @@ And here's more UI tweaks!
 ***
 ## New Feature: Window Resizing
 Yet another requested feature that is now available in Collapse 1.69.0. This allows the user to make the launcher window smaller, which means that Collapse now also supports 4:3 monitors! Yay!
+![image](https://user-images.githubusercontent.com/9833218/229685165-59750e51-9dea-4bdf-bf35-ff35ee02c84e.png)
 
 ``e2db756`` [**!**](https://github.com/neon-nyan/Collapse/commit/e2db7564a90ac443c36d4625ceb0435e54e3c8d3), ``10257f2`` [**!**](https://github.com/neon-nyan/Collapse/commit/10257f28d07807e8d6401e469e8a43d8acddcb6b)
 ***
