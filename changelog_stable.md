@@ -34,7 +34,7 @@ Yet another requested feature that is now available in Collapse 1.69.0. This all
 ``e2db756`` [**!**](https://github.com/neon-nyan/Collapse/commit/e2db7564a90ac443c36d4625ceb0435e54e3c8d3), ``10257f2`` [**!**](https://github.com/neon-nyan/Collapse/commit/10257f28d07807e8d6401e469e8a43d8acddcb6b)
 ***
 ## New Feature: Release Channel Switching
-## [PLACEHOLDER FOR IMG]
+![image](https://user-images.githubusercontent.com/9833218/229682323-59d04b9d-b069-45a3-b9a2-7af5eb4d9bb1.png)
 As the title says, this enables the user to directly switch from the Stable, battle-tested version of Collapse to a more experimental branch of Collapse, which is updated more frequently but can contain more breaking changes.
 
 Should you consider switching to the experimental branch ("Dev"), please make sure to report any bugs that you may encounter by creating an issue over on GitHub ([https://github.com/neon-nyan/Collapse/issues](https://github.com/neon-nyan/Collapse/issues)). Thanks for helping us make Collapse a better launcher!
@@ -45,7 +45,8 @@ Should you consider switching to the experimental branch ("Dev"), please make su
 Starting with Collapse 1.69.0 (originally introduced in Collapse `1.0.64.0-preview`), the launcher will prompt you for privilege escalation if you are running it as an unauthorized (without administrator permissions) user. To make it clear: **Collapse has always asked you for these privileges and will continue to do so** for the foreseeable, because of some Win32 API calls we've made, as well as to read data from the registry, installing games and customising the launcher experience.
 
 The prompt looks like so:
-## [PLACEHOLDER FOR VIDEO]
+![video](https://user-images.githubusercontent.com/9833218/229682201-4a4f5408-169b-4167-930f-be4956822d78.mov)
+
 Should you choose to ignore this, Collapse will terminate itself and require you to run it as an administrator. By integrating it into the launcher itself, we hope to make it more user friendly for people that just want to use this as a better alternative to the default launcher.
 
 Special thanks to @CryoTechnic for the initial proposal & implementation!
