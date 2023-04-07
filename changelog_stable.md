@@ -23,10 +23,10 @@ This change will allow us to more easily determine version numbers when we relea
 ## New Feature: Improved New User Experience
 Shipping with Collapse 1.69.0 is a new setup experience that streamlines the setup process, while also introducing some new features!
 
-Here's the new setup process for Collapse!
+And here's more UI tweaks!
 [**Click here to see the preview**](https://user-images.githubusercontent.com/9833218/229684558-e1ae7149-b4a2-40f1-8a64-0493ff5f3713.mp4)
 
-And here's more UI tweaks!
+Here's the new setup process for Collapse!
 [**Click here to see the preview**](https://user-images.githubusercontent.com/9833218/229684678-1a5bef9a-73d4-4c58-9472-b836faa3a44f.mp4)
 
 ``719c21e`` [**!**](https://github.com/neon-nyan/Collapse/commit/719c21e2f810d0acf1a8cad23e2a147f94337a16), ``3249ce1`` [**!**](https://github.com/neon-nyan/Collapse/commit/3249ce1c16e73a8254165c846570756ffd1f9cdc), ``b4f0d2d`` [**!**](https://github.com/neon-nyan/Collapse/commit/b4f0d2d996b6e19bee44485bf9a38cdbb106f9f2), ``0ed5304`` [**!**](https://github.com/neon-nyan/Collapse/commit/0ed5304feff51fc192789896d463fc9b09db590e), ``94a787a`` [**!**](https://github.com/neon-nyan/Collapse/commit/94a787adbf03de5116a56f5ee6fd7de71a77b246)
