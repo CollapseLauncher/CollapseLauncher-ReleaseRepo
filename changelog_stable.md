@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/34d1913533b0a9b328fdee6be457f240915b5381/images/Banner_update_1.0.52.5.webp)
+![](https://user-images.githubusercontent.com/9833218/231613401-ce575615-d3f6-4a71-af18-327f74819fac.png)
 
 # 1.69.0: Version Kiana
 We can't believe it's been over 2 years since this project was first launched. A big thank you to all our developers and users for continuing to work and use this application. We hope you're having as much fun using it as we did making it! 
