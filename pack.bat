@@ -1,6 +1,6 @@
 @echo off
 set name=Collapse
-set version=1.69.5
+set version=1.69.6
 
 :: set channel=stable
 set channel=preview
@@ -11,7 +11,7 @@ set latestPath=%squirrelPath%\latestKitchen
 set releasePath=%squirrelPath%\specs\%channel%
 set app=%userprofile%\.nuget\packages\clowd.squirrel\2.9.42\tools\squirrel.exe
 set brotli=brotli.exe
-set sevenzip="C:\Program Files\7-Zip\7z.exe"
+set sevenzip="..\..\7z.exe"
 
 :: Remove old folders and old fileindex.json
 if exist "%channel%\fileindex.json" del %channel%\fileindex.json
