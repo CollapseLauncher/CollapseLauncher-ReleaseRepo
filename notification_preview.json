@@ -3,12 +3,21 @@
     ],
     "RegionPush": [
         {
-            "MsgId": 5000015,
+            "MsgId": 5000020,
             "IsDisposable": true,
-            "Severity": "Warning",
+            "Severity": "Error",
             "RegionProfile": "GIGlb",
-            "Title": "[EN] Metadata update in-regard of Genshin Impact 3.5 Update",
-            "Message": "The metadata update has been rolled out! Please ensure that you have updated the launcher metadata before updating your game later!",
+            "Title": "[EN] Regarding  Issues with Collapse on Genshin Impact 3.6 Update",
+            "Message": "Due to changes on how the game is structured and changes in metadata, Collapse may experience some issues while updating your game. This can manifest in the form of crashes, data corruption, or even causing your game to redownload the entire update package. We apologise for the issues occured in this version of Collapse. We are currently working on releasing the next version of Collapse to you in the coming days. In the meanwhile, we suggest you to update your game using Official Launcher instead. Thank you for your understanding",
+            "Show": true
+        },
+        {
+            "MsgId": 6000015,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "RegionProfile": "GICN",
+            "Title": "[EN] Regarding  Issues with Collapse on Genshin Impact 3.6 Update",
+            "Message": "Due to changes on how the game is structured and changes in metadata, Collapse may experience some issues while updating your game. This can manifest in the form of crashes, data corruption, or even causing your game to redownload the entire update package. We apologise for the issues occured in this version of Collapse. We are currently working on releasing the next version of Collapse to you in the coming days. In the meanwhile, we suggest you to update your game using Official Launcher instead. Thank you for your understanding",
             "Show": true
         },
         {
