@@ -5,16 +5,18 @@ set name=Collapse
 set version=1.69.7
 set channel=1
 
+:sevenZipCheck
 if exist %_7zFast% (
 	set sevenzip=%_7zFast%
 ) else if exist %_7z% (
 	set sevenzip=%_7z%
 ) else (
+	cls
 	echo 7-Zip ^(x64^) does not exist!
 	echo Path: %_7z%
 	echo Please download it from here: https://www.7-zip.org/
-	pause
-	goto :EOF
+	pause | echo Press any key to retry...
+	goto :sevenZipCheck
 )
 
 :buildChoice
@@ -60,14 +62,16 @@ set buildPath=%squirrelPath%\buildKitchen
 set latestPath=%squirrelPath%\latestKitchen
 set releasePath=%squirrelPath%\specs\%channel%
 set app="%userprofile%\.nuget\packages\clowd.squirrel\2.9.42\tools\squirrel.exe"
-set brotli=brotli-mt-w64.exe -T %thread% -k -11 -f -B -v
+:: set brotli=brotli-mt-w64.exe -T %thread% -k -11 -f -B -v
+set brotli=brotli.exe -Z -f -k -v
 
+:squirrelCheck
 if not exist %app% (
 	echo Squirrel NuGet Tool does not exist!
 	echo Path: %app%
 	echo Please restore all the NuGet package from Visual Studio Solution first!
-	pause
-	goto :EOF
+	pause | echo Press any key to retry...
+	goto :squirrelCheck
 )
 
 :: Remove old folders and old fileindex.json

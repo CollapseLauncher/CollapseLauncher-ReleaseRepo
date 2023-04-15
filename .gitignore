@@ -3,3 +3,4 @@ squirrel/specs/**
 *-build/**
 packages/**
 squirrel/latest*
+squirrel/buildKitchen/**
