@@ -176,7 +176,7 @@ Please keep in mind that should things break, we encourage you make a clean inst
 - **[Launcher - Backend]** Rewrite `InstallManagement` in ```d544fcb``` [**!**](https://github.com/neon-nyan/Collapse/commit/d544fcb00687fd1ccf5fe93b202cf8e7083dd93c), ```cf7940f``` [**!**](https://github.com/neon-nyan/Collapse/commit/cf7940f1d63f1e7bd2ce3c8ad94f622212f8fea9), ```fc9cad4``` [**!**](fc9cad449200897a953a75563e359690ea2b2ab7), ```f328e2b``` [**!**](https://github.com/neon-nyan/Collapse/commit/f328e2bf6061e7f3b298ddf59ffb6c06ac51ab57), ```99cad5c``` [**!**](https://github.com/neon-nyan/Collapse/commit/99cad5c291bf9d4ac307040b4aca1bc20f7ee06f), ```e5edbbc``` [**!**](https://github.com/neon-nyan/Collapse/commit/e5edbbc94cb45bb64429fa4523e9abf627937311), ```7792427``` [**!**](https://github.com/neon-nyan/Collapse/commit/779242752fe7b71ce378ddbdc1802bfdc3f761be), ```da119a3``` [**!**](https://github.com/neon-nyan/Collapse/commit/da119a39dc993132eafe4c8b88ada2b6f6e164b6)
 - **[i18n - zh-CN]** Updated Chinese locales ```2a58383``` [**!**](https://github.com/neon-nyan/Collapse/commit/2a58383d792753840374ce653bddda58764d14f0)
 - **[i18n - pt-PT]** Updated Portuguese locales ```e98e371``` [**!**](https://github.com/neon-nyan/Collapse/commit/e98e371a9346d0083228cb2ef4a042f1c5127684)
-- **[Launcher - UI]** Set width of button to scale automatically based on text ```3831050``` [**!**](https://github.com/neon-nyan/Collapse/commit/38310504b7c09179cf9984510a870ecb175525f5)
+- **[Launcher - UI]** Set width of button to scale automatically based on text ```3831050``` [**!**](https://github.com/neon-nyan/Collapse/commit/38310504b7c09179cf9984510a870ecb175525f5), ```0439a7d``` [**!**](https://github.com/neon-nyan/Collapse/commit/0439a7dd7d55ef7d3aeb919a122743762e97a39e)
 - **[Launcher - Backend]** Move to WindowsAppSDK 1.3 (WinUI 3.2) ```edd6ca3``` [**!**](https://github.com/neon-nyan/Collapse/commit/edd6ca3882d2435060897d2058ff69e66ee03b7b)
 
 
@@ -264,9 +264,11 @@ Please keep in mind that should things break, we encourage you make a clean inst
 - **[Launcher - Honkai Impact 3rd]** Fix delta patch file being treated as unused file when repairing ``c6c55a0`` [**!**](https://github.com/neon-nyan/Collapse/commit/c6c55a08b7f856ae364b5081ed3affdc8c6b5f47)
 - **[Launcher - Honkai Impact 3rd]** Fix video files not included in repair index catalog ``c3389da`` [**!**](https://github.com/neon-nyan/Collapse/commit/c3389da3bf19d105ace0c7410ba1460f80263aad)
 - **[Launcher - Backend]** Fixed an issue where Collapse would crash when exiting because the window title would be null ```46893d6``` [**!**](https://github.com/neon-nyan/Collapse/commit/46893d6c966d824d938356b4eaf203511ab10313)
+- [**Launcher - Build]** Set main project profile to default to "CollapseLauncher" instead of "Update" ```b0d7fb3``` [**!**](https://github.com/neon-nyan/Collapse/commit/b0d7fb3742cd0bb1b3d85bd477a8c34de4c095d1)
+- [**Launcher - Build]**  Make versioning automatic in the installer script ```6c01a69``` [**!**](https://github.com/neon-nyan/Collapse/commit/6c01a69f6b204f1c4baf6d392fd1b555befd304b)
 
 
 
 Aaaand that's a wrap (for now). If you read the entire thing, congratulations, you've made it to the bottom! Stay tuned for even more updates from the Collapse team, crazier and cooler than ever before!
 
-Thank you again to all the captains around the world for using Collapse. May all beauty be blessed ❤️!
+Thank you again to all the captains around the world for using Collapse. Fight for all that is beautiful in this world ❤️!
