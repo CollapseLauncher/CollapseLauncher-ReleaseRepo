@@ -176,6 +176,8 @@ Please keep in mind that should things break, we encourage you make a clean inst
 - **[Launcher - Backend]** Rewrite `InstallManagement` in ```d544fcb``` [**!**](https://github.com/neon-nyan/Collapse/commit/d544fcb00687fd1ccf5fe93b202cf8e7083dd93c), ```cf7940f``` [**!**](https://github.com/neon-nyan/Collapse/commit/cf7940f1d63f1e7bd2ce3c8ad94f622212f8fea9), ```fc9cad4``` [**!**](fc9cad449200897a953a75563e359690ea2b2ab7), ```f328e2b``` [**!**](https://github.com/neon-nyan/Collapse/commit/f328e2bf6061e7f3b298ddf59ffb6c06ac51ab57), ```99cad5c``` [**!**](https://github.com/neon-nyan/Collapse/commit/99cad5c291bf9d4ac307040b4aca1bc20f7ee06f), ```e5edbbc``` [**!**](https://github.com/neon-nyan/Collapse/commit/e5edbbc94cb45bb64429fa4523e9abf627937311), ```7792427``` [**!**](https://github.com/neon-nyan/Collapse/commit/779242752fe7b71ce378ddbdc1802bfdc3f761be), ```da119a3``` [**!**](https://github.com/neon-nyan/Collapse/commit/da119a39dc993132eafe4c8b88ada2b6f6e164b6)
 - **[i18n - zh-CN]** Updated Chinese locales ```2a58383``` [**!**](https://github.com/neon-nyan/Collapse/commit/2a58383d792753840374ce653bddda58764d14f0)
 - **[i18n - pt-PT]** Updated Portuguese locales ```e98e371``` [**!**](https://github.com/neon-nyan/Collapse/commit/e98e371a9346d0083228cb2ef4a042f1c5127684)
+- **[Launcher - UI]** Set width of button to scale automatically based on text ```3831050``` [**!**](https://github.com/neon-nyan/Collapse/commit/38310504b7c09179cf9984510a870ecb175525f5)
+- **[Launcher - Backend]** Move to WindowsAppSDK 1.3 (WinUI 3.2) ```edd6ca3``` [**!**](https://github.com/neon-nyan/Collapse/commit/edd6ca3882d2435060897d2058ff69e66ee03b7b)
 
 
 [comment]: <> (#################################################################)
@@ -261,6 +263,7 @@ Please keep in mind that should things break, we encourage you make a clean inst
 - **[Launcher - Honkai Impact 3rd]** Fix Genshin Impact Post-Verification mistakenly launcher when installing HI3 ``564ed33`` [**!**](https://github.com/neon-nyan/Collapse/commit/564ed33eeb8eab9b88fe738c461babdb6a459737)
 - **[Launcher - Honkai Impact 3rd]** Fix delta patch file being treated as unused file when repairing ``c6c55a0`` [**!**](https://github.com/neon-nyan/Collapse/commit/c6c55a08b7f856ae364b5081ed3affdc8c6b5f47)
 - **[Launcher - Honkai Impact 3rd]** Fix video files not included in repair index catalog ``c3389da`` [**!**](https://github.com/neon-nyan/Collapse/commit/c3389da3bf19d105ace0c7410ba1460f80263aad)
+- **[Launcher - Backend]** Fixed an issue where Collapse would crash when exiting because the window title would be null ```46893d6``` [**!**](https://github.com/neon-nyan/Collapse/commit/46893d6c966d824d938356b4eaf203511ab10313)
 
 
 
