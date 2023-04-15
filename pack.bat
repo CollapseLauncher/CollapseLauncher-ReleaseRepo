@@ -1,6 +1,9 @@
 @echo off
 set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
+set name=Collapse
+set version=1.69.7
+set channel=1
 
 if exist %_7zFast% (
 	set sevenzip=%_7zFast%
@@ -14,18 +17,50 @@ if exist %_7zFast% (
 	goto :EOF
 )
 
-set name=Collapse
-set version=1.69.7
+:buildChoice
+echo Please define what build you want to pack.
+set /p channel=Preview^(1^)/Stable^(2^) ^[default: 1^]^> 
+if %channel% == 1 (
+	echo Packing preview build
+	set channel=preview
+) else if %channel% == 2 (
+	echo Packing stable build
+	set channel=stable
+) else (
+    cls
+	echo Input is not valid! Available choice: 1 or 2
+	goto :buildChoice
+)
 
-set channel=stable
-:: set channel=preview
+if not exist "%channel%-build" (
+    cls
+	echo %channel%-build folder does not exist.
+	echo Please publish the build from Visual Studio Solution first!
+	goto :buildChoice
+)
+
+set thread=%NUMBER_OF_PROCESSORS%
+if %thread% == 1 (
+	set thread=1
+) else (
+	set /a thread=%thread%-1
+)
+
+:versionDefine
+echo.
+echo Please define the version.
+set /p versionPrompt=^[default: %version%^]^> 
+if not "%versionPrompt%" == "" (
+	echo Set to defined version: %versionPrompt%
+	set version=%versionPrompt%
+)
 
 set squirrelPath=squirrel
 set buildPath=%squirrelPath%\buildKitchen
 set latestPath=%squirrelPath%\latestKitchen
 set releasePath=%squirrelPath%\specs\%channel%
 set app="%userprofile%\.nuget\packages\clowd.squirrel\2.9.42\tools\squirrel.exe"
-set brotli=brotli.exe
+set brotli=brotli-mt-w64.exe -T %thread% -k -11 -f -B -v
 
 if not exist %app% (
 	echo Squirrel NuGet Tool does not exist!
@@ -58,13 +93,13 @@ copy CollapseLauncher.exe %latestPath%
 
 :: Start archiving the latest package
 cd %latestPath%
-%sevenzip% a -ttar ..\latest.tar .
+%sevenzip% a -ttar ..\latest-%channel%.tar .
 cd ..\..\
 rmdir /S /Q %latestPath%
-brotli -q 11 --verbose -o %squirrelPath%\latest %squirrelPath%\latest.tar
-del %squirrelPath%\latest.tar
 if not exist "%squirrelPath%\%channel%" mkdir %squirrelPath%\%channel%
-move %squirrelPath%\latest %squirrelPath%\%channel%
+echo Packing build into brotli archive...
+%brotli% -o %squirrelPath%\%channel%\latest %squirrelPath%\latest-%channel%.tar
+del %squirrelPath%\latest-%channel%.tar
 
 :: Copy the ApplyUpdate tool to channel folder
 rmdir /S /Q %channel% && mkdir %channel%
