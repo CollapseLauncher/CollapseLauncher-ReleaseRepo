@@ -1,17 +1,39 @@
 @echo off
-set name=Collapse
-set version=1.69.6
+set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
+set _7z="C:\Program Files\7-Zip\7z.exe"
 
-:: set channel=stable
-set channel=preview
+if exist %_7zFast% (
+	set sevenzip=%_7zFast%
+) else if exist %_7z% (
+	set sevenzip=%_7z%
+) else (
+	echo 7-Zip ^(x64^) does not exist!
+	echo Path: %_7z%
+	echo Please download it from here: https://www.7-zip.org/
+	pause
+	goto :EOF
+)
+
+set name=Collapse
+set version=1.69.7
+
+set channel=stable
+:: set channel=preview
 
 set squirrelPath=squirrel
 set buildPath=%squirrelPath%\buildKitchen
 set latestPath=%squirrelPath%\latestKitchen
 set releasePath=%squirrelPath%\specs\%channel%
-set app=%userprofile%\.nuget\packages\clowd.squirrel\2.9.42\tools\squirrel.exe
+set app="%userprofile%\.nuget\packages\clowd.squirrel\2.9.42\tools\squirrel.exe"
 set brotli=brotli.exe
-set sevenzip="..\..\7z.exe"
+
+if not exist %app% (
+	echo Squirrel NuGet Tool does not exist!
+	echo Path: %app%
+	echo Please restore all the NuGet package from Visual Studio Solution first!
+	pause
+	goto :EOF
+)
 
 :: Remove old folders and old fileindex.json
 if exist "%channel%\fileindex.json" del %channel%\fileindex.json
@@ -21,8 +43,9 @@ if exist "%latestPath%" rmdir /S /Q %latestPath%
 if exist "%buildPath%" rmdir /S /Q %buildPath%
 mkdir "%buildPath%"
 if not exist "%releasePath%" mkdir "%releasePath%"
+if not exist "%channel%" mkdir "%channel%"
 
-xcopy %channel%\ %buildPath% /S /H /C 
+xcopy %channel%-build\ %buildPath% /S /H /C 
 %app% pack --packId="%name%" --packVersion="%version%" --includePDB --packDir="%buildPath%" --releaseDir="%releasePath%"
 
 :: Build latest package file
@@ -48,7 +71,7 @@ rmdir /S /Q %channel% && mkdir %channel%
 copy ApplyUpdate.exe %channel%
 
 :: Write release stamp file
-echo %channel% > %channel%\release
+echo %channel%>%channel%\release
 
 :: Get the size of ApplyUpdate tool
 FOR /F "usebackq" %%A IN ('%channel%\ApplyUpdate.exe') DO set applyupdatesize=%%~zA
