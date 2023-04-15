@@ -27,7 +27,7 @@
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
-            "ValidForVerAbove": "1.69.7.0",
+            "ValidForVerBelow": "1.69.7.0",
             "Title": "[EN] Regarding Issues with Collapse on Genshin Impact 3.6 Update",
             "Message": "Collapse 1.69.7 - Codename: Version Kiana was released. Please update to the latest version to ensure that you can continue playing Genshin Impact if you are updating from version 3.5 or earlier. This is to ensure that Collapse is able to properly update your game and prevent many of the issues present on previous Collapse versions. Thanks!",
             "Show": true
