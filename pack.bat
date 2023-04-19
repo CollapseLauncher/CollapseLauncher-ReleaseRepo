@@ -2,7 +2,7 @@
 set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=Collapse
-set version=1.69.8
+set version=1.69.10
 set channel=1
 
 :sevenZipCheck
@@ -58,8 +58,8 @@ if not "%versionPrompt%" == "" (
 )
 
 set squirrelPath=squirrel
-set buildPath=%squirrelPath%\buildKitchen
-set latestPath=%squirrelPath%\latestKitchen
+set buildPath=%squirrelPath%\buildKitchen-%channel%
+set latestPath=%squirrelPath%\latestKitchen-%channel%
 set releasePath=%squirrelPath%\specs\%channel%
 set app="%userprofile%\.nuget\packages\clowd.squirrel\2.9.42\tools\squirrel.exe"
 :: set brotli=brotli-mt-w64.exe -T %thread% -k -11 -f -B -v
@@ -121,7 +121,7 @@ FOR /F %%B IN ('certutil -hashfile %channel%\release MD5 ^| find /v "hash"') DO 
 :: Get current Unix timestamp
 call :GetUnixTime unixtime
 :: Print out the fileindex.json file
-echo ^{"ver":"%version%.0","time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^} > %channel%\fileindex.json
+echo ^{"ver":"%version%.0","time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^}>%channel%\fileindex.json
 
 goto :EOF
 
