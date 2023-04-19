@@ -7,7 +7,7 @@
             "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.10) is up!",
             "Message": "The new v1.69.10 preview patch is up to fix an issue with game installation issue. Please update your launcher to this patch if you have this problem.",
             "Show": true,
-            "ValidForVerBelow": "1.69.10"
+            "ValidForVerBelow": "1.69.10.0"
         },
         {
             "MsgId": 12,
