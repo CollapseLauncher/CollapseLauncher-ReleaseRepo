@@ -4,16 +4,16 @@
             "MsgId": 13,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.8) is up!",
-            "Message": "The new v1.69.8 patch is up to fix an issue with game installation issue. Please update your launcher to this patch if you have this problem.",
+            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.10) is up!",
+            "Message": "The new v1.69.10 preview patch is up to fix an issue with game installation issue. Please update your launcher to this patch if you have this problem.",
             "Show": true,
-            "ValidForVerBelow": "1.69.8"
+            "ValidForVerBelow": "1.69.10"
         },
         {
             "MsgId": 12,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse v1.69.8 - Codename: Version Kiana has arrived!",
+            "Title": "[EN] Collapse v1.69.10 preview - Codename: Version Kiana has arrived!",
             "Message": "Thank you for using Collapse over the last 2 years. You guys are awesome! Click \"Visit Release Notes Page\" button below to see what's new!",
             "Show": true,
             "ValidForVerAbove": "1.0.55.6",
@@ -22,7 +22,7 @@
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.8",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.10",
                     "Description": "Visit Release Notes Page",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
@@ -36,9 +36,9 @@
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
-            "ValidForVerBelow": "1.69.8.0",
+            "ValidForVerBelow": "1.69.10.0",
             "Title": "[EN] Regarding Issues with Collapse on Genshin Impact 3.6 Update",
-            "Message": "Collapse 1.69.8 - Codename: Version Kiana was released. Please update to the latest version to ensure that you can continue playing Genshin Impact if you are updating from version 3.5 or earlier. This is to ensure that Collapse is able to properly update your game and prevent many of the issues present on previous Collapse versions. Thanks!",
+            "Message": "Collapse 1.69.10 preview - Codename: Version Kiana was released. Please update to the latest version to ensure that you can continue playing Genshin Impact if you are updating from version 3.5 or earlier. This is to ensure that Collapse is able to properly update your game and prevent many of the issues present on previous Collapse versions. Thanks!",
             "Show": true
         },
         {
@@ -46,9 +46,9 @@
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GICN",
-            "ValidForVerBelow": "1.69.8.0",
+            "ValidForVerBelow": "1.69.10.0",
             "Title": "[EN] Regarding Issues with Collapse on Genshin Impact 3.6 Update",
-            "Message": "Collapse 1.69.8 - Codename: Version Kiana was released. Please update to the latest version to ensure that you can continue playing Genshin Impact if you are updating from version 3.5 or earlier. This is to ensure that Collapse is able to properly update your game and prevent many of the issues present on previous Collapse versions. Thanks!",
+            "Message": "Collapse 1.69.10 preview - Codename: Version Kiana was released. Please update to the latest version to ensure that you can continue playing Genshin Impact if you are updating from version 3.5 or earlier. This is to ensure that Collapse is able to properly update your game and prevent many of the issues present on previous Collapse versions. Thanks!",
             "Show": true
         }
     ]
