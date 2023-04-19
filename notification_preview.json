@@ -1,16 +1,25 @@
 {
     "AppPush": [
         {
-            "MsgId": 13,
+            "MsgId": 15,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.10) is up!",
+            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.10 preview) is up!",
             "Message": "The new v1.69.10 preview patch is up to fix an issue with game installation issue. Please update your launcher to this patch if you have this problem.",
             "Show": true,
-            "ValidForVerBelow": "1.69.10.0"
+            "ValidForVerBelow": "1.69.10",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.10-pre",
+                    "Description": "See Bug Fixes",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
         },
         {
-            "MsgId": 12,
+            "MsgId": 14,
             "IsDisposable": true,
             "Severity": "Success",
             "Title": "[EN] Collapse v1.69.10 preview - Codename: Version Kiana has arrived!",
@@ -22,7 +31,7 @@
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.10",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.10-pre",
                     "Description": "Visit Release Notes Page",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
