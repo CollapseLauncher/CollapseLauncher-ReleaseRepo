@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.69.8: Version Kiana
+# 1.69.10: Version Kiana
 We can't believe it's been over 2 years since this project was first launched. A big thank you to all our developers and users for continuing to work and use this application. We hope you're having as much fun using it as we did making it! 
 
 It's been a while since the last major release of Collapse (almost 4 months ago ^.^). We wanted to make sure we get this release right, as its name coincides with one in a game we (hopefully) all hold dear in our hearts. Honkai Impact 3rd was a turning point for a lot of us from the Collapse development team, and so we wanted to take the time to make this version extra special to commemorate its launch. That being said, please take note that we are all volunteers working on this project. This means that Collapse can receive slower, maintenance updates for an extended period of time should we have more pressing matters to attend to in the real world.
@@ -101,6 +101,7 @@ Please keep in mind that should things break, we encourage you make a clean inst
 - Collapse now supports downloading Cutscenes (CG) for Honkai Impact 3rd before launching the game. Yay for reduced download sizes in-game! ``0e33017`` [**!**](https://github.com/neon-nyan/Collapse/commit/0e33017a236a5fc4a5aab47fce1c02476837cbd1)
 - You now have the option between running a "Quick Check" or a "Full Check" for the "Game Repair" and "Caches Update" function. Quick Check will only check the required files, while Full Check will check all the installation files for any signs of corruption or to update them ``6c61359`` [**!**](https://github.com/neon-nyan/Collapse/commit/6c61359c072c96e6ebd1c9931d079e140c07c0a6)
 ***
+
 ## Minor changes:
 - **[Launcher - HTTP]** Added `DownloadFromSessionStream()` function ``5673410``[**!**](https://github.com/neon-nyan/Hi3Helper.Http/commit/5673410cd19208dfe14666c5db7200449ae1e2ef)
 - **[Launcher - Backend]** Updated usage for Hi3Helper.Http & cancellable method ``f235f55``[**!**](https://github.com/neon-nyan/Collapse/commit/f235f551cedee75b5865ed38df38dc9e8ecbe68a)
@@ -184,6 +185,21 @@ Please keep in mind that should things break, we encourage you make a clean inst
 [comment]: <> (#################################################################)
 [comment]: <> (#################################################################)
 ***
+
+# What's Fixed? (Since 1.69.7)
+- **[Genshin Impact]** Fixed issues downloading unnecessary persistent files while running Repair feature prior Genshin 3.6 update (Issue: 101) ``c90d58c``[**!**](https://github.com/neon-nyan/Collapse/commit/c90d58cfadeceb527307251f9b7b5f96a79cc836)
+- **[Genshin Impact]** Ensure audio package and video files in ``Persistent`` folder are moved to ``StreamingAssets`` folder ``ffb2042``[**!**](https://github.com/neon-nyan/Collapse/commit/ffb204239c0a8f84a5549285dcda1a1d7c62cfd1)
+- **[Honkai Impact 3rd]** Fixed LOD Grade on Honkai Game Settings gives a wrong value on Low ``16ad4c2``[**!**](https://github.com/neon-nyan/Collapse/commit/16ad4c2695ac50d044462445f895fdce7eadae22) ``46be999``[**!**](https://github.com/neon-nyan/Collapse/commit/46be9999ca26759bc494ca6db7e70907b0217db7)
+- **[Honkai Impact 3rd]** Fixed the delta-patch update deletes previous/secondary files ``6f3273b``[**!**](https://github.com/neon-nyan/Collapse/commit/6f3273bc8bba7dda4a999ae05b40603c4ec1adfd)
+- **[Honkai Impact 3rd]** Fixed "fetching index" not showing progress while updating delta patch ``75c2772``[**!**](https://github.com/neon-nyan/Collapse/commit/75c27721046afe5b5d2d90002b5f22c2438ae3f7)
+- **[Launcher - Backend]** Fixed updater page didn't show build time ``3ce7806``[**!**](https://github.com/neon-nyan/Collapse/commit/3ce7806c7a8fdf06fa3de37c36f8675a0e891ecb)
+- **[Launcher - Backend]** Fixed inconsistent delay for checking update ``8c79855``[**!**](https://github.com/neon-nyan/Collapse/commit/8c79855d5a24c025a3e50d615100463a4f9cb740)
+- **[Launcher - Backend]** Fixed fail safe check while initializing locale (Issue: #103)
+ ``5e312e9``[**!**](https://github.com/neon-nyan/Collapse/commit/5e312e9c20fd67e3bd36dfe137e4f15934b50784)
+- **[Launcher - Backend]** Fixed version still showing 4-numbers format in ``UpdaterWindow``
+ ``c1fbbe7``[**!**](https://github.com/neon-nyan/Collapse/commit/c1fbbe7e9d5186c18b9da85ea3693a01f3cd151d)
+- **[Launcher - Backend]** Fixed Updater page won't quit to ``ExceptionPage`` if the update fails
+ ``0ba90a7``[**!**](https://github.com/neon-nyan/Collapse/commit/0ba90a7c0a666291bfd3dfb8a0293061cb9ca15f)
 
 # What's Fixed?
 - **[Launcher - Backend]** Force GC in Launcher to avoid potential memory leaks ``a40ae49``[**!**](https://github.com/neon-nyan/Collapse/commit/a40ae4909488cf0961e5a73c3771d402f2a5d1e3)
