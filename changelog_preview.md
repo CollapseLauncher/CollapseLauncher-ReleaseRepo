@@ -32,7 +32,8 @@ Here's the new setup process for Collapse!
 ``719c21e`` [**!**](https://github.com/neon-nyan/Collapse/commit/719c21e2f810d0acf1a8cad23e2a147f94337a16), ``3249ce1`` [**!**](https://github.com/neon-nyan/Collapse/commit/3249ce1c16e73a8254165c846570756ffd1f9cdc), ``b4f0d2d`` [**!**](https://github.com/neon-nyan/Collapse/commit/b4f0d2d996b6e19bee44485bf9a38cdbb106f9f2), ``0ed5304`` [**!**](https://github.com/neon-nyan/Collapse/commit/0ed5304feff51fc192789896d463fc9b09db590e), ``94a787a`` [**!**](https://github.com/neon-nyan/Collapse/commit/94a787adbf03de5116a56f5ee6fd7de71a77b246)
 ***
 ## New Feature: Window Resizing
-Yet another requested feature that is now available in Collapse 1.69.0. This allows the user to make the launcher window smaller, which means that Collapse now also supports 4:3 monitors! Yay! <br><br>
+Yet another requested feature that is now available in Collapse 1.69.0. This allows the user to make the launcher window smaller, which means that Collapse now also supports 4:3 monitors! Yay!
+
 ![image](https://user-images.githubusercontent.com/9833218/229685165-59750e51-9dea-4bdf-bf35-ff35ee02c84e.png)
 
 ``e2db756`` [**!**](https://github.com/neon-nyan/Collapse/commit/e2db7564a90ac443c36d4625ceb0435e54e3c8d3), ``10257f2`` [**!**](https://github.com/neon-nyan/Collapse/commit/10257f28d07807e8d6401e469e8a43d8acddcb6b)
@@ -187,7 +188,7 @@ Please keep in mind that should things break, we encourage you make a clean inst
 ***
 
 # What's Fixed? (Since 1.69.7)
-- **[Genshin Impact]** Fixed issues downloading unnecessary persistent files while running Repair feature prior Genshin 3.6 update (Issue: 101) ``c90d58c``[**!**](https://github.com/neon-nyan/Collapse/commit/c90d58cfadeceb527307251f9b7b5f96a79cc836)
+- **[Genshin Impact]** Fixed issues downloading unnecessary persistent files while running Repair feature prior Genshin 3.6 update (Issue: #101) ``c90d58c``[**!**](https://github.com/neon-nyan/Collapse/commit/c90d58cfadeceb527307251f9b7b5f96a79cc836)
 - **[Genshin Impact]** Ensure audio package and video files in ``Persistent`` folder are moved to ``StreamingAssets`` folder ``ffb2042``[**!**](https://github.com/neon-nyan/Collapse/commit/ffb204239c0a8f84a5549285dcda1a1d7c62cfd1)
 - **[Honkai Impact 3rd]** Fixed LOD Grade on Honkai Game Settings gives a wrong value on Low ``16ad4c2``[**!**](https://github.com/neon-nyan/Collapse/commit/16ad4c2695ac50d044462445f895fdce7eadae22) ``46be999``[**!**](https://github.com/neon-nyan/Collapse/commit/46be9999ca26759bc494ca6db7e70907b0217db7)
 - **[Honkai Impact 3rd]** Fixed the delta-patch update deletes previous/secondary files ``6f3273b``[**!**](https://github.com/neon-nyan/Collapse/commit/6f3273bc8bba7dda4a999ae05b40603c4ec1adfd)
