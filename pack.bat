@@ -1,9 +1,30 @@
 @echo off
 set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
+set _Inno="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=Collapse
-set version=1.69.11
+set version=1.69.12
 set channel=1
+
+:checkRepoLocation
+if not exist "..\%name%" (
+	cls
+	echo Collapse Repository does not exist!
+	echo Path: "..\%name%"
+	echo Please clone the repo first as "%name%"
+	pause | echo Press any key to retry...
+	goto :checkRepoLocation
+)
+
+:innoSetupCheck
+if not exist %_Inno% (
+	cls
+	echo Inno Setup 6 does not exist!
+	echo Path: %_Inno%
+	echo Please download it from here: https://jrsoftware.org/isdl.php
+	pause | echo Press any key to retry...
+	goto :innoSetupCheck
+)
 
 :sevenZipCheck
 if exist %_7zFast% (
@@ -25,9 +46,11 @@ set /p channel=Preview^(1^)/Stable^(2^) ^[default: 1^]^>
 if %channel% == 1 (
 	echo Packing preview build
 	set channel=preview
+  set markChannel=-preview
 ) else if %channel% == 2 (
 	echo Packing stable build
 	set channel=stable
+  set markChannel=
 ) else (
     cls
 	echo Input is not valid! Available choice: 1 or 2
@@ -63,7 +86,7 @@ set latestPath=%squirrelPath%\latestKitchen-%channel%
 set releasePath=%squirrelPath%\specs\%channel%
 set app="%userprofile%\.nuget\packages\clowd.squirrel\2.9.42\tools\squirrel.exe"
 :: set brotli=brotli-mt-w64.exe -T %thread% -k -11 -f -B -v
-set brotli=brotli.exe -Z -f -k -v
+set brotli=ApplyUpdate.exe compress
 
 :squirrelCheck
 if not exist %app% (
@@ -73,6 +96,10 @@ if not exist %app% (
 	pause | echo Press any key to retry...
 	goto :squirrelCheck
 )
+
+:buildingInno
+title=Building installer...
+%_Inno% /O+ /O "..\%name%\InstallerProp\DeployInstaller-Preview.iss"
 
 :: Remove old folders and old fileindex.json
 if exist "%channel%\fileindex.json" del %channel%\fileindex.json
@@ -84,7 +111,9 @@ mkdir "%buildPath%"
 if not exist "%releasePath%" mkdir "%releasePath%"
 if not exist "%channel%" mkdir "%channel%"
 
+title=Copying build files...
 xcopy %channel%-build\ %buildPath% /S /H /C 
+title=Making Squirrel package...
 %app% pack --packId="%name%" --packVersion="%version%" --includePDB --packDir="%buildPath%" --releaseDir="%releasePath%"
 
 :: Build latest package file
@@ -96,13 +125,19 @@ copy Update.exe %latestPath%
 copy CollapseLauncher.exe %latestPath%
 
 :: Start archiving the latest package
+title=Archiving tar build files...
 cd %latestPath%
-%sevenzip% a -ttar ..\latest-%channel%.tar .
+%sevenzip% a -ttar "..\latest-%channel%.tar" .
+title=Archiving 7z build files...
+if exist "..\..\..\%name%\build\build-%channel%\CL-%version%%markChannel%_Portable.7z" del "..\..\..\%name%\build\build-%channel%\CL-%version%%markChannel%_Portable.7z"
+%sevenzip% a -t7z -m0=lzma2 -mx=9 -aoa -mmt=%thread% -mfb=273 -md=128m -ms=on "..\..\..\%name%\build\build-%channel%\CL-%version%%markChannel%_Portable.7z" .
+
 cd ..\..\
 rmdir /S /Q %latestPath%
 if not exist "%squirrelPath%\%channel%" mkdir %squirrelPath%\%channel%
+title=Packing build into brotli archive...
 echo Packing build into brotli archive...
-%brotli% -o %squirrelPath%\%channel%\latest %squirrelPath%\latest-%channel%.tar
+%brotli% %squirrelPath%\latest-%channel%.tar %squirrelPath%\%channel%\latest
 del %squirrelPath%\latest-%channel%.tar
 
 :: Copy the ApplyUpdate tool to channel folder
@@ -124,7 +159,6 @@ call :GetUnixTime unixtime
 echo ^{"ver":"%version%.0","time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^}>%channel%\fileindex.json
 
 goto :EOF
-
 
 :GetUnixTime
 setlocal enableextensions
