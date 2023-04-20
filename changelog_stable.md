@@ -91,6 +91,9 @@ On a more serious note though, due to how it is designed, Squirrel cannot genera
 
 Please keep in mind that should things break, we encourage you make a clean install of Collapse. This is a big change for all of us involved, and we're doing our best to sort everything out before we ship it to you, but some things may slip through the cracks. Your patience is therefore much appreciated.
 ***
+## Major Changes (Since 1.69.11):
+- **[i18n - en-US]** Adding Korean Localization (Thanks to: @despenser08)  ``PR: #89``[**!**](https://github.com/neon-nyan/Collapse/pull/89)
+
 ## Major Changes:
 - You can now repair Genshin Impact directly from the launcher! This works in the same way that Honkai Impact 3rd's interface does! ``a78f77d`` [**!**](https://github.com/neon-nyan/Collapse/commit/a78f77d50c3dfc6de27aa35f1e701b1448e1d282), ``a5e6be7`` [**!**](https://github.com/neon-nyan/Collapse/commit/a5e6be781b8b47cd494b37eae5f71f73a7d67907), ``4cd8675`` [**!**](https://github.com/neon-nyan/Collapse/commit/4cd867598f07fc9cb57b6b83822669f47b50928d), ``366c2df`` [**!**](https://github.com/neon-nyan/Collapse/commit/366c2dfeeac62761c2d993a857e5f4205640b0b7), ``e7e991c`` [**!**](https://github.com/neon-nyan/Collapse/commit/e7e991c32f0576b682d60af75080ec100fb45580), ``f0edf3f`` [**!**](https://github.com/neon-nyan/Collapse/commit/f0edf3fe97051b93ba8dd023044191c8cfc84867), ``353b74b`` [**!**](https://github.com/neon-nyan/Collapse/commit/353b74b875d28f0fbabb2f50cf801b7a083f4a2f), ``5f9f6ff`` [**!**](https://github.com/neon-nyan/Collapse/commit/5f9f6ffe3e5f203aa5a36b2f269aca370a42c6f6)
 - Game settings data is now read directly from registry instead of relying on `.ini` files. This paves the way for other game settings customization ``4deb985`` [**!**](https://github.com/neon-nyan/Collapse/commit/4deb9854235c540ba2841a9548f8214f715eb65f)
@@ -102,6 +105,10 @@ Please keep in mind that should things break, we encourage you make a clean inst
 - Collapse now supports downloading Cutscenes (CG) for Honkai Impact 3rd before launching the game. Yay for reduced download sizes in-game! ``0e33017`` [**!**](https://github.com/neon-nyan/Collapse/commit/0e33017a236a5fc4a5aab47fce1c02476837cbd1)
 - You now have the option between running a "Quick Check" or a "Full Check" for the "Game Repair" and "Caches Update" function. Quick Check will only check the required files, while Full Check will check all the installation files for any signs of corruption or to update them ``6c61359`` [**!**](https://github.com/neon-nyan/Collapse/commit/6c61359c072c96e6ebd1c9931d079e140c07c0a6)
 ***
+
+# Minor changes (Since 1.69.11):
+- **[Launcher - Backend]** Use legacy update for failback if squirrel is failing ``d74dfa1``[**!**](https://github.com/neon-nyan/Collapse/commit/d74dfa11abcee67cb866e7872c803ac5580dd424)
+- **[Launcher - Backend]** Always run background check routines first  ``6930607``[**!**](https://github.com/neon-nyan/Collapse/commit/693060759d8068c4bddb4e3b52e9f13d72e7d77a)
 
 ## Minor changes:
 - **[Launcher - HTTP]** Added `DownloadFromSessionStream()` function ``5673410``[**!**](https://github.com/neon-nyan/Hi3Helper.Http/commit/5673410cd19208dfe14666c5db7200449ae1e2ef)
