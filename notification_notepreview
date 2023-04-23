@@ -6,3 +6,5 @@ Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
 Region Push notification MsgId for Hi3JP starts from 7000001 to 7999999
 Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000021 Used
 Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000016 Used
+Region Push notification MsgId for SRGlb starts from 7000000 to 7999999 : 7000001 Used
+Region Push notification MsgId for SRCN starts from 8000000 to 8999999 : 8000001 Used
