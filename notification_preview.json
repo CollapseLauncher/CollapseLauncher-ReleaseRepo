@@ -5,7 +5,7 @@
             "IsDisposable": true,
             "Severity": "Informational",
             "Title": "[EN] Honkai: Star Rail Preload",
-            "Message": "Honkai: Star Rail will release on April 26th 2023. Collapse brings preloading support as well as game support starting from April 23th 2023. Check it out by selecting it in the dropdown! Please keep in mind that this is released in Beta first to iron out any bugs and will not have feature parity with other games supported by the launcher. May this journey lead us starward!",
+            "Message": "Honkai: Star Rail will release on April 26th 2023. Collapse brings preloading support as well as game support starting from April 23th 2023. Check it out by selecting it in the dropdown! Please keep in mind that this is released in Experimental first to iron out any bugs and will not have feature parity with other games supported by the launcher. May this journey lead us starward!",
             "Show": true,
             "TimeBegin": "2023-04-23T10:00:00+08:00",
             "TimeEnd": "2023-04-26T10:00:00+08:00",
@@ -20,17 +20,17 @@
             }
         },
         {
-            "MsgId": 15,
+            "MsgId": 17,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.12 preview) is up!",
-            "Message": "The new v1.69.12 patch is up with some hotfixes, including issues with installation and Game Repair mechanism. Please update your launcher to this patch if you have this problem.",
+            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.13 preview) is up!",
+            "Message": "The new v1.69.13 preview patch is up with some hotfixes for Honkai: Star Rail support. If you're looking for downloading the Honkai: Star Rail pre-load, please update your launcher to v1.69.13 preview to avoid issues.",
             "Show": true,
-            "ValidForVerBelow": "1.69.12.0",
+            "ValidForVerBelow": "1.69.13.0",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.12-pre",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.13-pre",
                     "Description": "See Bug Fixes",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
