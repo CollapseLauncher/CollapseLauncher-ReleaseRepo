@@ -7,7 +7,6 @@
             "Title": "[EN] Honkai: Star Rail Preload",
             "Message": "Honkai: Star Rail will release on April 26th 2023. Collapse brings preloading support as well as game support starting from April 23th 2023. Check it out by selecting it in the dropdown! Please keep in mind that this is released in Beta first to iron out any bugs and will not have feature parity with other games supported by the launcher. May this journey lead us starward!",
             "Show": true,
-            "ValidForVerBelow": "1.69.12.0",
             "TimeBegin": "2023-04-23T10:00:00+08:00",
             "TimeEnd": "2023-04-26T10:00:00+08:00",
             "ActionProperty": {
