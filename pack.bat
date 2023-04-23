@@ -3,7 +3,7 @@ set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _Inno="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=Collapse
-set version=1.69.12
+set version=1.69.13
 set channel=1
 
 :checkRepoLocation
@@ -99,7 +99,7 @@ if not exist %app% (
 
 :buildingInno
 title=Building installer...
-%_Inno% /O+ /O "..\%name%\InstallerProp\DeployInstaller-Preview.iss"
+%_Inno% /O+ /O "..\%name%\InstallerProp\DeployInstaller-%channel%.iss"
 
 :: Remove old folders and old fileindex.json
 if exist "%channel%\fileindex.json" del %channel%\fileindex.json
