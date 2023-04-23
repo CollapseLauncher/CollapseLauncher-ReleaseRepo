@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.69.13: Version Kiana
+# 1.69.14: Version Kiana
 We can't believe it's been over 2 years since this project was first launched. A big thank you to all our developers and users for continuing to work and use this application. We hope you're having as much fun using it as we did making it! 
 
 It's been a while since the last major release of Collapse (almost 4 months ago ^.^). We wanted to make sure we get this release right, as its name coincides with one in a game we (hopefully) all hold dear in our hearts. Honkai Impact 3rd was a turning point for a lot of us from the Collapse development team, and so we wanted to take the time to make this version extra special to commemorate its launch. That being said, please take note that we are all volunteers working on this project. This means that Collapse can receive slower, maintenance updates for an extended period of time should we have more pressing matters to attend to in the real world.
@@ -110,6 +110,7 @@ Please keep in mind that should things break, we encourage you make a clean inst
 - **[Launcher - Honkai: Star Rail]** Use proper classes for Star Rail installation ``16d196a``[**!**](https://github.com/neon-nyan/Collapse/commit/16d196aeeec67fc311980bf496ba9ec70c3f4611)
 - **[Launcher - UI]** Use "EXPER" as label for Experimental Games  ``efb2b7d``[**!**](https://github.com/neon-nyan/Collapse/commit/efb2b7d5f725e621dc162fdce3b00ec399a21c30)
 - **[Launcher - Backend]** Use GameType instead of VendorTypeProp.VendorType to determine game log name ``71e6d82``[**!**](https://github.com/neon-nyan/Collapse/commit/71e6d82a7f1f0407fe0d36694dc021ce8ed73eb8)
+- **[i18n - vi-VN]** Vietnamese Localization Update by @kleqing ``PR: #112``[**!**](https://github.com/neon-nyan/Collapse/pull/112)
 
 # Minor changes (Since 1.69.11):
 - **[Launcher - Backend]** Use legacy update for failback if squirrel is failing ``d74dfa1``[**!**](https://github.com/neon-nyan/Collapse/commit/d74dfa11abcee67cb866e7872c803ac5580dd424)

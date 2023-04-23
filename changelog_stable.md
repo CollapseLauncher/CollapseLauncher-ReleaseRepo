@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.69.12: Version Kiana
+# 1.69.14: Version Kiana
 We can't believe it's been over 2 years since this project was first launched. A big thank you to all our developers and users for continuing to work and use this application. We hope you're having as much fun using it as we did making it! 
 
 It's been a while since the last major release of Collapse (almost 4 months ago ^.^). We wanted to make sure we get this release right, as its name coincides with one in a game we (hopefully) all hold dear in our hearts. Honkai Impact 3rd was a turning point for a lot of us from the Collapse development team, and so we wanted to take the time to make this version extra special to commemorate its launch. That being said, please take note that we are all volunteers working on this project. This means that Collapse can receive slower, maintenance updates for an extended period of time should we have more pressing matters to attend to in the real world.
@@ -106,6 +106,12 @@ Please keep in mind that should things break, we encourage you make a clean inst
 - You now have the option between running a "Quick Check" or a "Full Check" for the "Game Repair" and "Caches Update" function. Quick Check will only check the required files, while Full Check will check all the installation files for any signs of corruption or to update them ``6c61359`` [**!**](https://github.com/neon-nyan/Collapse/commit/6c61359c072c96e6ebd1c9931d079e140c07c0a6)
 ***
 
+# Minor changes (Since 1.69.12):
+- **[Launcher - Honkai: Star Rail]** Use proper classes for Star Rail installation ``16d196a``[**!**](https://github.com/neon-nyan/Collapse/commit/16d196aeeec67fc311980bf496ba9ec70c3f4611)
+- **[Launcher - UI]** Use "EXPER" as label for Experimental Games  ``efb2b7d``[**!**](https://github.com/neon-nyan/Collapse/commit/efb2b7d5f725e621dc162fdce3b00ec399a21c30)
+- **[Launcher - Backend]** Use GameType instead of VendorTypeProp.VendorType to determine game log name ``71e6d82``[**!**](https://github.com/neon-nyan/Collapse/commit/71e6d82a7f1f0407fe0d36694dc021ce8ed73eb8)
+- **[i18n - vi-VN]** Vietnamese Localization Update by @kleqing ``PR: #112``[**!**](https://github.com/neon-nyan/Collapse/pull/112)
+
 # Minor changes (Since 1.69.11):
 - **[Launcher - Backend]** Use legacy update for failback if squirrel is failing ``d74dfa1``[**!**](https://github.com/neon-nyan/Collapse/commit/d74dfa11abcee67cb866e7872c803ac5580dd424)
 - **[Launcher - Backend]** Always run background check routines first  ``6930607``[**!**](https://github.com/neon-nyan/Collapse/commit/693060759d8068c4bddb4e3b52e9f13d72e7d77a)
@@ -193,6 +199,12 @@ Please keep in mind that should things break, we encourage you make a clean inst
 [comment]: <> (#################################################################)
 [comment]: <> (#################################################################)
 ***
+
+# What's Fixed? (Since 1.69.12)
+- **[Launcher - UI]** Fixed merging status not showing after download phase ``cd0e9f6``[**!**](https://github.com/neon-nyan/Collapse/commit/cd0e9f6094b51569107ce94c881602d5cfce5ccd)
+- **[Launcher - UI]** Fixed launcher won't fetch localized resources for games other than Honkai and Genshin ``6b00a3d``[**!**](https://github.com/neon-nyan/Collapse/commit/6b00a3d8a17441aeb693b2617f2db78cbd3ee60a)
+- **[Launcher - Backend]** Fixed log file sometimes not be able to be read for some games ``eb129fb``[**!**](https://github.com/neon-nyan/Collapse/commit/eb129fb01384e53c26f8fe7c69cb7b7586e84ea9)
+- **[Launcher - Backend]** Fixed the process watcher accidentally cancelled caused by shared token ``45f80ef``[**!**](https://github.com/neon-nyan/Collapse/commit/45f80ef67abb71009382b81a7e465ca572390429)
 
 # What's Fixed? (Since 1.69.10)
 - **[Genshin Impact]** Fixed installation to fail if the launcher is looking for audio package list file ``audio_lang_14`` ``bd682ca``[**!**](https://github.com/neon-nyan/Collapse/commit/bd682ca546f9e89bbc22040afdb55a93ef4059c1)
