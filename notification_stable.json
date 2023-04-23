@@ -20,17 +20,17 @@
             }
         },
         {
-            "MsgId": 15,
+            "MsgId": 17,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.12) is up!",
-            "Message": "The new v1.69.12 patch is up with some hotfixes, including issues with installation and Game Repair mechanism. Please update your launcher to this patch if you have this problem.",
+            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.14) is up!",
+            "Message": "The new v1.69.14 patch is up with some hotfixes for Honkai: Star Rail support. If you're looking for downloading the Honkai: Star Rail pre-load, please update your launcher to v1.69.14 to avoid issues.",
             "Show": true,
-            "ValidForVerBelow": "1.69.12.0",
+            "ValidForVerBelow": "1.69.14.0",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.12",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.14",
                     "Description": "See Bug Fixes",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
@@ -41,7 +41,7 @@
             "MsgId": 14,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse v1.69.12 - Codename: Version Kiana has arrived!",
+            "Title": "[EN] Collapse v1.69.14 - Codename: Version Kiana has arrived!",
             "Message": "Thank you for using Collapse over the last 2 years. You guys are awesome! Click \"Visit Release Notes Page\" button below to see what's new!",
             "Show": true,
             "ValidForVerAbove": "1.0.55.6",
@@ -50,7 +50,7 @@
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.12",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.14",
                     "Description": "Visit Release Notes Page",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
@@ -66,7 +66,7 @@
             "RegionProfile": "GIGlb",
             "ValidForVerBelow": "1.69.12.0",
             "Title": "[EN] Regarding Issues with Collapse on Genshin Impact 3.6 Update",
-            "Message": "Collapse 1.69.12 - Codename: Version Kiana was released. Please update to the latest version to ensure that you can continue playing Genshin Impact if you are updating from version 3.5 or earlier. This is to ensure that Collapse is able to properly update your game and prevent many of the issues present on previous Collapse versions. Thanks!",
+            "Message": "Collapse 1.69.14 - Codename: Version Kiana was released. Please update to the latest version to ensure that you can continue playing Genshin Impact if you are updating from version 3.5 or earlier. This is to ensure that Collapse is able to properly update your game and prevent many of the issues present on previous Collapse versions. Thanks!",
             "Show": true
         },
         {
@@ -76,8 +76,28 @@
             "RegionProfile": "GICN",
             "ValidForVerBelow": "1.69.12.0",
             "Title": "[EN] Regarding Issues with Collapse on Genshin Impact 3.6 Update",
-            "Message": "Collapse 1.69.12 - Codename: Version Kiana was released. Please update to the latest version to ensure that you can continue playing Genshin Impact if you are updating from version 3.5 or earlier. This is to ensure that Collapse is able to properly update your game and prevent many of the issues present on previous Collapse versions. Thanks!",
+            "Message": "Collapse 1.69.14 - Codename: Version Kiana was released. Please update to the latest version to ensure that you can continue playing Genshin Impact if you are updating from version 3.5 or earlier. This is to ensure that Collapse is able to properly update your game and prevent many of the issues present on previous Collapse versions. Thanks!",
             "Show": true
+        },
+        {
+            "MsgId": 7000001,
+            "IsDisposable": true,
+            "Severity": "Informational",
+            "RegionProfile": "SRGlb",
+            "Title": "[EN] Seele Character Trailer - \"Uneventful Night\"",
+            "Message": "\"Sometimes a sharp blade is the only way to get people to come to their senses.\"\r\n\r\nHey, Trailblazers! Today we have the character preview for Seele.",
+            "Show": true,
+            "TimeBegin": "2023-04-23T10:00:00+08:00",
+            "TimeEnd": "2023-04-26T10:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://www.youtube.com/watch?v=2eNfMIiBj-g",
+                    "Description": "Watch JP Trailer",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeBrand"
+                }
+            }
         }
     ]
 }
