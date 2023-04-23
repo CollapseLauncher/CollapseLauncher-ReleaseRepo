@@ -1,10 +1,30 @@
 {
     "AppPush": [
         {
+            "MsgId": 16,
+            "IsDisposable": true,
+            "Severity": "Informational",
+            "Title": "[EN] Honkai: Star Rail Preload",
+            "Message": "Honkai: Star Rail will release on April 26th 2023. Collapse brings preloading support as well as game support starting from April 23th 2023. Check it out by selecting it in the dropdown! Please keep in mind that this is released in Beta first to iron out any bugs and will not have feature parity with other games supported by the launcher. May this journey lead us starward!",
+            "Show": true,
+            "ValidForVerBelow": "1.69.12.0",
+            "TimeBegin": "2023-04-23T10:00:00+08:00",
+            "TimeEnd": "2023-04-26T10:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://www.youtube.com/watch?v=pyjvzyq9Xkg",
+                    "Description": "Watch Launch Ads",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeBrand"
+                }
+            }
+        },
+        {
             "MsgId": 15,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.11 preview) is up!",
+            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.12 preview) is up!",
             "Message": "The new v1.69.12 patch is up with some hotfixes, including issues with installation and Game Repair mechanism. Please update your launcher to this patch if you have this problem.",
             "Show": true,
             "ValidForVerBelow": "1.69.12.0",
