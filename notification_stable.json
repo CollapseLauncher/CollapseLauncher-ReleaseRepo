@@ -92,8 +92,8 @@
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://www.youtube.com/watch?v=2eNfMIiBj-g",
-                    "Description": "Watch JP Trailer",
+                    "URL": "https://www.youtube.com/watch?v=lXVQmHxAnAE",
+                    "Description": "Watch The Trailer",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeBrand"
                 }
