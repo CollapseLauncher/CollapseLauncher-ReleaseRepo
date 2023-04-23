@@ -1,8 +1,6 @@
-- Collapse [Elysia] - v1.0.52.5 (October 27th, 2022)
+WARNING: 
+Starting from v1.0.52.5 (Collapse [Elysia]), released on October 27, 2022, Collapse has transitioned to a new, markdown-based, version changelog rendering system.
 
-  ATTENTION:
-  We will change this release notes to the new markdown-based formatting version.
-  Also, this version has a lot of changes that might not possible to be written in this release notes.
-  
-  Please visit this link below for more information about the new release:
-  https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.52.5-stable
+Should you still be on an older version, you may attempt upgrading Collapse to the latest Stable (or Preview) release. Please note that, per our security policy (https://github.com/neon-nyan/Collapse/blob/main/SECURITY.md), we do not support versions of Collapse older than the latest Stable and Preview builds.
+
+Please visit the link below for more details regarding the latest Stable release: https://github.com/neon-nyan/Collapse/releases
