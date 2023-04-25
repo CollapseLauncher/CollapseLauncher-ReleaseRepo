@@ -5,7 +5,7 @@
             "IsDisposable": true,
             "Severity": "Informational",
             "Title": "[EN] Honkai: Star Rail Preload",
-            "Message": "Honkai: Star Rail will release on April 26th 2023. Collapse brings preloading support as well as game support starting from April 23th 2023. Check it out by selecting it in the dropdown! Please keep in mind that this is released in Experimental first to iron out any bugs and will not have feature parity with other games supported by the launcher. May this journey lead us starward!",
+            "Message": "Honkai: Star Rail will release on April 26th 2023. Collapse brings preloading support as well as game support starting from April 23th 2023. Check it out by selecting it in the dropdown! Please keep in mind that this is still in early Collapse integration testing and will not have feature parity with other games supported by the launcher.\r\nMay this journey lead us starward!",
             "Show": true,
             "TimeBegin": "2023-04-23T10:00:00+08:00",
             "TimeEnd": "2023-04-26T10:00:00+08:00",
@@ -80,20 +80,19 @@
             "Show": true
         },
         {
-            "MsgId": 7000001,
+            "MsgId": 7000002,
             "IsDisposable": true,
             "Severity": "Informational",
             "RegionProfile": "SRGlb",
-            "Title": "[EN] Seele Character Trailer - \"Uneventful Night\"",
-            "Message": "\"Sometimes a sharp blade is the only way to get people to come to their senses.\"\r\n\r\nHey, Trailblazers! Today we have the character preview for Seele.",
+            "Title": "[EN] Official Release Trailer - \"Interstellar Journey\"",
             "Show": true,
-            "TimeBegin": "2023-04-23T10:00:00+08:00",
+            "TimeBegin": "2023-04-25T10:00:00+08:00",
             "TimeEnd": "2023-04-26T10:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://www.youtube.com/watch?v=lXVQmHxAnAE",
-                    "Description": "Watch The Trailer",
+                    "URL": "https://www.youtube.com/watch?v=w8vPZrMFiZ4",
+                    "Description": "Watch Release Trailer",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeBrand"
                 }
