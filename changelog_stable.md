@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.69.14: Version Kiana
+# 1.69.15: Version Kiana
 We can't believe it's been over 2 years since this project was first launched. A big thank you to all our developers and users for continuing to work and use this application. We hope you're having as much fun using it as we did making it! 
 
 It's been a while since the last major release of Collapse (almost 4 months ago ^.^). We wanted to make sure we get this release right, as its name coincides with one in a game we (hopefully) all hold dear in our hearts. Honkai Impact 3rd was a turning point for a lot of us from the Collapse development team, and so we wanted to take the time to make this version extra special to commemorate its launch. That being said, please take note that we are all volunteers working on this project. This means that Collapse can receive slower, maintenance updates for an extended period of time should we have more pressing matters to attend to in the real world.
@@ -91,6 +91,7 @@ On a more serious note though, due to how it is designed, Squirrel cannot genera
 
 Please keep in mind that should things break, we encourage you make a clean install of Collapse. This is a big change for all of us involved, and we're doing our best to sort everything out before we ship it to you, but some things may slip through the cracks. Your patience is therefore much appreciated.
 ***
+
 ## Major Changes (Since 1.69.11):
 - **[i18n - en-US]** Adding Korean Localization (Thanks to: @despenser08)  ``PR: #89``[**!**](https://github.com/neon-nyan/Collapse/pull/89)
 
@@ -199,6 +200,9 @@ Please keep in mind that should things break, we encourage you make a clean inst
 [comment]: <> (#################################################################)
 [comment]: <> (#################################################################)
 ***
+
+# What's Fixed? (Since 1.69.14)
+- **[Launcher - Backend]** Fixed the ``InstallManager`` failed to determine remained existing size and space ``879f28b``[**!**](https://github.com/neon-nyan/Collapse/commit/879f28b4f02dbbd6d099eed749f0020c13db512c)
 
 # What's Fixed? (Since 1.69.12)
 - **[Launcher - UI]** Fixed merging status not showing after download phase ``cd0e9f6``[**!**](https://github.com/neon-nyan/Collapse/commit/cd0e9f6094b51569107ce94c881602d5cfce5ccd)
