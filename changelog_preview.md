@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.70.0-preview
+# 1.70.1-preview
 We're starting to roll out the preview build of the next release, 1.70.x for you to try. Please keep in mind that the new features introduced in this build are mostly in an early development stage and bugs are to be expected. Changelog descriptions may vary for the final version of this release.
 
 Please report your findings by [**opening an issue**](https://github.com/neon-nyan/Collapse/issues). Thank!
