@@ -1,57 +1,18 @@
 {
     "AppPush": [
         {
-            "MsgId": 16,
-            "IsDisposable": true,
-            "Severity": "Informational",
-            "Title": "[EN] Honkai: Star Rail Preload",
-            "Message": "Honkai: Star Rail will release on April 26th 2023. Collapse brings preloading support as well as game support starting from April 23th 2023. Check it out by selecting it in the dropdown! Please keep in mind that this is still in early Collapse integration testing and will not have feature parity with other games supported by the launcher.\r\nMay this journey lead us starward!",
-            "Show": true,
-            "TimeBegin": "2023-04-23T10:00:00+08:00",
-            "TimeEnd": "2023-04-26T10:00:00+08:00",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://www.youtube.com/watch?v=pyjvzyq9Xkg",
-                    "Description": "Watch Launch Ads",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeBrand"
-                }
-            }
-        },
-        {
-            "MsgId": 17,
+            "MsgId": 18,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.69.14 preview) is up!",
-            "Message": "The new v1.69.14 preview patch is up with some hotfixes for Honkai: Star Rail support. If you're looking for downloading the Honkai: Star Rail pre-load, please update your launcher to v1.69.14 preview to avoid issues.",
+            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.70.1 preview) is up!",
+            "Message": "The new v1.70.1 preview is up with some hotfixes and additional features, including a new Repair and Cache update feature for Honkai: Star Rail. Please update your launcher to the latest version to experience the new features.",
             "Show": true,
-            "ValidForVerBelow": "1.69.14.0",
+            "ValidForVerBelow": "1.70.1.0",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.14-pre",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.70.1-pre",
                     "Description": "See Bug Fixes",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        },
-        {
-            "MsgId": 14,
-            "IsDisposable": true,
-            "Severity": "Success",
-            "Title": "[EN] Collapse v1.69.14 preview - Codename: Version Kiana has arrived!",
-            "Message": "Thank you for using Collapse over the last 2 years. You guys are awesome! Click \"Visit Release Notes Page\" button below to see what's new!",
-            "Show": true,
-            "ValidForVerAbove": "1.0.55.6",
-            "TimeBegin": "2023-04-16T07:00:00+07:00",
-            "TimeEnd": "2023-04-30T07:00:00+07:00",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.14-pre",
-                    "Description": "Visit Release Notes Page",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
