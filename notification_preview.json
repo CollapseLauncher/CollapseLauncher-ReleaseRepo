@@ -1,17 +1,17 @@
 {
     "AppPush": [
         {
-            "MsgId": 18,
+            "MsgId": 19,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana patch (v1.70.1 preview) is up!",
-            "Message": "The new v1.70.1 preview is up with some hotfixes and additional features, including a new Repair and Cache update feature for Honkai: Star Rail. Please update your launcher to the latest version to experience the new features.",
+            "Title": "[EN] Collapse Codename: Version Kiana Hotfix (v1.70.2 preview) is up!",
+            "Message": "We've just pushed a hotfix to fix pre-load verification issue in Honkai Impact 3rd. Please update your launcher to the latest v1.70.2 preview if you have the problem mentioned.",
             "Show": true,
-            "ValidForVerBelow": "1.70.1.0",
+            "ValidForVerBelow": "1.70.2.0",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.70.1-pre",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.70.2-pre",
                     "Description": "See Bug Fixes",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
