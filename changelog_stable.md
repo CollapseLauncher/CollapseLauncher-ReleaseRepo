@@ -201,6 +201,12 @@ Please keep in mind that should things break, we encourage you make a clean inst
 [comment]: <> (#################################################################)
 ***
 
+# What's Fixed? (Since 1.69.15)
+- **[Launcher - UI]** Fixed the Discord Presence feature got accidentally compiled.
+  This feature shouldn't be supposed to show on current stable release.
+
+- **[Launcher - Backend]** Fixed the launcher to crash while doing pre-load verification ``62d6aa4``[**!**](https://github.com/neon-nyan/Collapse/commit/62d6aa4eca1079b8f2ffe2594cd9211e17d94df1)
+
 # What's Fixed? (Since 1.69.14)
 - **[Launcher - Backend]** Fixed the ``InstallManager`` failed to determine remained existing size and space ``879f28b``[**!**](https://github.com/neon-nyan/Collapse/commit/879f28b4f02dbbd6d099eed749f0020c13db512c)
 
