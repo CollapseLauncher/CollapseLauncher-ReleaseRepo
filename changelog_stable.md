@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.69.15: Version Kiana
+# 1.69.17: Version Kiana
 We can't believe it's been over 2 years since this project was first launched. A big thank you to all our developers and users for continuing to work and use this application. We hope you're having as much fun using it as we did making it! 
 
 It's been a while since the last major release of Collapse (almost 4 months ago ^.^). We wanted to make sure we get this release right, as its name coincides with one in a game we (hopefully) all hold dear in our hearts. Honkai Impact 3rd was a turning point for a lot of us from the Collapse development team, and so we wanted to take the time to make this version extra special to commemorate its launch. That being said, please take note that we are all volunteers working on this project. This means that Collapse can receive slower, maintenance updates for an extended period of time should we have more pressing matters to attend to in the real world.
@@ -200,6 +200,10 @@ Please keep in mind that should things break, we encourage you make a clean inst
 [comment]: <> (#################################################################)
 [comment]: <> (#################################################################)
 ***
+
+# What's Fixed? (Since 1.69.16)
+- **[Launcher - UI]** Fixed update window still showing 4-ver sematic format ``868bcbb``[**!**](https://github.com/neon-nyan/Collapse/commit/868bcbbc77f8a30c796dffa45b5a512100eb353d)
+- **[Launcher - Backend]** Fixed the launcher failed to detect delta-patch on pre-load ``0ae3add``[**!**](https://github.com/neon-nyan/Collapse/commit/0ae3add55a179421f675dd44de93b0412cf3f94e)
 
 # What's Fixed? (Since 1.69.15)
 - **[Launcher - UI]** Fixed the Discord Presence feature got accidentally compiled.
