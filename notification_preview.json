@@ -1,17 +1,17 @@
 {
     "AppPush": [
         {
-            "MsgId": 20,
+            "MsgId": 21,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana Hotfix (v1.70.3 preview) is up!",
-            "Message": "We've just pushed a hotfix to fix the pre-load not being detected by the launcher on pre-loading. Please update your launcher to the latest v1.70.3 preview if you have the problem mentioned.",
+            "Title": "[EN] Collapse Codename: Version Kiana Hotfix (v1.70.4 preview) is up!",
+            "Message": "We've just pushed a hotfix to fix the pre-load not being detected by the launcher on pre-loading and crashes on Game Repair and Update Caches. Please update your launcher to the latest v1.69.18 if you have the problem mentioned.",
             "Show": true,
-            "ValidForVerBelow": "1.70.3.0",
+            "ValidForVerBelow": "1.70.4.0",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.70.3-pre",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.70.4-pre",
                     "Description": "See Bug Fixes",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
