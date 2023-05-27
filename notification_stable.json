@@ -1,17 +1,17 @@
 {
     "AppPush": [
         {
-            "MsgId": 21,
+            "MsgId": 22,
             "IsDisposable": true,
             "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana Hotfix (v1.69.19) is up!",
-            "Message": "We've just pushed a hotfix to fix the pre-load not being detected by the launcher on pre-loading and crashes on Game Repair and Update Caches. Please update your launcher to the latest v1.69.19 if you have the problem mentioned.",
+            "Title": "[EN] Collapse Codename: Version Kiana Hotfix (v1.69.20) is up!",
+            "Message": "We've just pushed a hotfix to fix the Game Repair and Installation mechanism for Genshin Impact due to v3.7 changes. Please update your launcher to the latest v1.69.20 if you have the problem mentioned.",
             "Show": true,
-            "ValidForVerBelow": "1.69.19.0",
+            "ValidForVerBelow": "1.69.20.0",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.19#:~:text=What%27s%20Fixed%3F%20(Since%201.69.17)",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.69.20#:~:text=What%27s%20Fixed%3F%20(Since%201.69.19)",
                     "Description": "See Bug Fixes",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
