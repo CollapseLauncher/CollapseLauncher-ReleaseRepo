@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.69.19: Version Kiana
+# 1.69.20: Version Kiana
 We can't believe it's been over 2 years since this project was first launched. A big thank you to all our developers and users for continuing to work and use this application. We hope you're having as much fun using it as we did making it! 
 
 It's been a while since the last major release of Collapse (almost 4 months ago ^.^). We wanted to make sure we get this release right, as its name coincides with one in a game we (hopefully) all hold dear in our hearts. Honkai Impact 3rd was a turning point for a lot of us from the Collapse development team, and so we wanted to take the time to make this version extra special to commemorate its launch. That being said, please take note that we are all volunteers working on this project. This means that Collapse can receive slower, maintenance updates for an extended period of time should we have more pressing matters to attend to in the real world.
@@ -200,6 +200,10 @@ Please keep in mind that should things break, we encourage you make a clean inst
 [comment]: <> (#################################################################)
 [comment]: <> (#################################################################)
 ***
+
+# What's Fixed? (Since 1.69.19)
+- **[Launcher - Backend / Genshin Impact]** Fixed failure on Genshin Installation mechanism due to v3.7 update changes ``6dfe2e2``[**!**](https://github.com/neon-nyan/Collapse/commit/6dfe2e2430187669e7568d694f16f14f62c1b597) ``b4538ce``[**!**](https://github.com/neon-nyan/Collapse/commit/b4538ce50b633eaec0a742d0d58b4aa6231fec72) ``273ec06``[**!**](https://github.com/neon-nyan/Collapse/commit/273ec0681903f8db7438a63c8c72d44a8d7b34ca)
+- **[Launcher - Backend / Genshin Impact]** Fixed error while doing game repair due to v3.7 update changes ``468d745``[**!**](https://github.com/neon-nyan/Collapse/commit/468d745b0eca39946093a653aacb9063115026a7)
 
 # What's Fixed? (Since 1.69.17)
 - **[Launcher - Backend / Honkai Impact 3rd]** Fixed the Game Repair crashes while reading CGMetadata ``453aa12``[**!**](https://github.com/neon-nyan/Collapse/commit/453aa123b89bfada82026d933f5716d7d2745fa2)
