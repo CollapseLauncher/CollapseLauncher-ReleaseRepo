@@ -1,3 +1,8 @@
+# Attention
+### This build is supposed to provide some hotfixes for some bugs found in the last release. Please update your launcher to this v1.69.21 release if you encounter any issues with the game installation with the last v1.69.20 release.
+
+### Thank you~
+
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
 # 1.69.20: Version Kiana
