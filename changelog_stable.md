@@ -1,15 +1,15 @@
 # Attention
-### This build is supposed to provide some hotfixes for some bugs found in the last release. Please update your launcher to this v1.69.22 release if you encounter any issues with the game installation with the last v1.69.20 release.
+### This build is supposed to provide some hotfixes for some bugs found in the last release. Please update your launcher to this v1.69.23 release if you encounter any issues with the game installation with the last v1.69.20 release.
 
 ## Update: 2023/06/07 - 09:50 +7
-### We've noticed that the launcher still asking for another package to download while updating Honkai: Star Rail even the pre-load has already been downloaded. In this regards, please update your launcher to this latest v1.69.22 release to fix the issue.
+### We've noticed that the launcher still asking for another package to download while updating Honkai: Star Rail even the pre-load has already been downloaded. In this regards, please update your launcher to this latest v1.69.23 release to fix the issue.
 
 ### We apologize for the issues occured
 ### Thank you~
 
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.69.20: Version Kiana
+# 1.69.23: Version Kiana
 We can't believe it's been over 2 years since this project was first launched. A big thank you to all our developers and users for continuing to work and use this application. We hope you're having as much fun using it as we did making it! 
 
 It's been a while since the last major release of Collapse (almost 4 months ago ^.^). We wanted to make sure we get this release right, as its name coincides with one in a game we (hopefully) all hold dear in our hearts. Honkai Impact 3rd was a turning point for a lot of us from the Collapse development team, and so we wanted to take the time to make this version extra special to commemorate its launch. That being said, please take note that we are all volunteers working on this project. This means that Collapse can receive slower, maintenance updates for an extended period of time should we have more pressing matters to attend to in the real world.
