@@ -1,6 +1,10 @@
 # Attention
-### This build is supposed to provide some hotfixes for some bugs found in the last release. Please update your launcher to this v1.69.21 release if you encounter any issues with the game installation with the last v1.69.20 release.
+### This build is supposed to provide some hotfixes for some bugs found in the last release. Please update your launcher to this v1.69.22 release if you encounter any issues with the game installation with the last v1.69.20 release.
 
+## Update: 2023/06/07 - 09:50 +7
+### We've noticed that the launcher still asking for another package to download while updating Honkai: Star Rail even the pre-load has already been downloaded. In this regards, please update your launcher to this latest v1.69.22 release to fix the issue.
+
+### We apologize for the issues occured
 ### Thank you~
 
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)

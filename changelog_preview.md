@@ -1,11 +1,15 @@
 # Attention
-### This build is supposed to provide some hotfixes for some bugs found in the last release. Please update your launcher to this v1.70.6 release if you encounter any issues with the game installation with the last v1.70.4 release.
+### This build is supposed to provide some hotfixes for some bugs found in the last release. Please update your launcher to this v1.70.7 release if you encounter any issues with the game installation with the last v1.70.4 release.
 
+## Update: 2023/06/07 - 09:50 +7
+### We've noticed that the launcher still asking for another package to download while updating Honkai: Star Rail even the pre-load has already been downloaded. In this regards, please update your launcher to this latest v1.70.7 release to fix the issue.
+
+### We apologize for the issues occured
 ### Thank you~
 
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.70.4-preview
+# 1.70.7-preview
 We're just pushing another update for upcoming release, 1.70.x which includes some bug fixes and new additional feature for you to try. Please keep in mind that the new features introduced in this build are mostly in an early development stage and bugs are to be expected. Changelog descriptions may vary for the final version of this release.
 
 Please report your findings by [**opening an issue**](https://github.com/neon-nyan/Collapse/issues). Thanks!
@@ -20,6 +24,11 @@ Now, you can adjust some game settings within Collapse, including Graphics Setti
 
 ``0c40f32`` [**!**](https://github.com/neon-nyan/Collapse/commit/0c40f322d88d1d9434ca4f0aec66074c93dedd6e) 
 
+## Faster background image loading by optimizing ``ColorThief`` submodule (Feat. @Scighost)
+We are optimizing the way ``ColorThief`` generating the color palettes for the app. Please keep in mind that this changes may causes some issues if you're trying to load an image outside this supported bit-depth: 24bppRGB, 32bppRGB, 32bppRGBA.
+
+``05ad2db`` [**!**](https://github.com/neon-nyan/ColorThief/commit/05ad2db0f2982dbb8a3a7d0ef83a3b9def16f653) 
+
 ***
 
 ## Minor changes
@@ -29,6 +38,7 @@ Now, you can adjust some game settings within Collapse, including Graphics Setti
 
 # What's Fixed? (Since 1.70.4-preview)
 - **[Launcher - Backend / Honkai Impact 3rd]** Fixed the Game Repair crashes while reading CGMetadata ``453aa12``[**!**](https://github.com/neon-nyan/Collapse/commit/453aa123b89bfada82026d933f5716d7d2745fa2)
+- **[Launcher - Backend / Honkai Impact 3rd / Honkai: Star Rail]** Fixes some installation issues due to new code rewrite.
 
 # What's Fixed? (Since 1.70.3-preview)
 - **[Launcher - UI]** Fixed update window still showing 4-ver sematic format ``868bcbb``[**!**](https://github.com/neon-nyan/Collapse/commit/868bcbbc77f8a30c796dffa45b5a512100eb353d)
