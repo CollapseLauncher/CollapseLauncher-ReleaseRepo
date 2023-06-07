@@ -1,15 +1,15 @@
 # Attention
-### This build is supposed to provide some hotfixes for some bugs found in the last release. Please update your launcher to this v1.70.7 release if you encounter any issues with the game installation with the last v1.70.4 release.
+### This build is supposed to provide some hotfixes for some bugs found in the last release. Please update your launcher to this v1.70.8 release if you encounter any issues with the game installation with the last v1.70.4 release.
 
 ## Update: 2023/06/07 - 09:50 +7
-### We've noticed that the launcher still asking for another package to download while updating Honkai: Star Rail even the pre-load has already been downloaded. In this regards, please update your launcher to this latest v1.70.7 release to fix the issue.
+### We've noticed that the launcher still asking for another package to download while updating Honkai: Star Rail even the pre-load has already been downloaded. In this regards, please update your launcher to this latest v1.70.8 release to fix the issue.
 
 ### We apologize for the issues occured
 ### Thank you~
 
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# 1.70.7-preview
+# 1.70.8-preview
 We're just pushing another update for upcoming release, 1.70.x which includes some bug fixes and new additional feature for you to try. Please keep in mind that the new features introduced in this build are mostly in an early development stage and bugs are to be expected. Changelog descriptions may vary for the final version of this release.
 
 Please report your findings by [**opening an issue**](https://github.com/neon-nyan/Collapse/issues). Thanks!
