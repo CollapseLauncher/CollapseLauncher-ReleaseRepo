@@ -1,0 +1,21 @@
+name: Sync to Bitbucket
+
+on:
+  push:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Git checkout
+          uses: actions/checkout@v3
+          with:
+            fetch-depth: '0'
+            
+        - name: Push
+          uses: heussd/mirror-to-bitbucket-github-action@v2
+          with:
+            username: neon-nyan
+            password: ${{ secrets.BITBUCKET_PASSWORD }}
