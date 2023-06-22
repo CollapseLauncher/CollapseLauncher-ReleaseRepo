@@ -4,7 +4,7 @@
 # Collapse 1.70.8: Trailblazer
 Welcome to Collapse version 1.70.8 - Codename: Trailblazer! We packed a ton of new features that we thought you guys might enjoy, while also fixing lots of bugs and improving the overall launcher experience. We hope you enjoy using the launcher as much as we did making it!
 
-### <b>Note: Due to the overwhelming amount of commits that are done to this repository, it is no longer possible for us to individually tag each commit to explain what they do. Should you feel inclined to peruse our [commit history](https://github.com/neon-nyan/Collapse/commits/main). Thank you for supporting Collapse!</b>
+### <b>Note: Due to the overwhelming amount of commits that are done to this repository (almost 400 since the last major patch), it is no longer possible for us to individually tag each commit to explain what they do. Should you feel inclined, feel free to peruse our [commit history](https://github.com/neon-nyan/Collapse/commits/main). Thank you for supporting Collapse!</b>
 
 ***
 
@@ -19,10 +19,14 @@ As with Honkai Impact 3rd, you  can now adjust some game settings within Collaps
 ## New Feature: Community Tools
 After many requests from our community as well as interally, we are finally pleased to announce the implementation of a dedicated button for Community Tools. This allows the user to directly interact with those tools without having to leave Collapse, through the `WebView2` library, courtesy of Microsoft. While we currently do not support user modification of those tools, should there be enough demand for it, we may choose to implement it in the future. Let us know by providing feedback through the official Collapse support channels.
 
+https://github.com/neon-nyan/Collapse/assets/9833218/cd266ac7-1a2a-43cb-bf0b-07e555faa464
+
 ``cc2744e`` [**!**](https://github.com/neon-nyan/Collapse/pull/139)
 
 ## New Feature: Playtime Tracking (Thanks @gablm !)
 Another requested feature is the ability to track playtime. While Collapse will not be able to track the amount of time played prior to this update, rest assured that you can modify the time you have played in the game. Currently, the time played does not display in your Discord status.
+
+https://github.com/neon-nyan/Collapse/assets/9833218/6d914df6-a94e-4f5c-bc4d-61d7e8ab0b89
 
 ``a26ff8c`` [**!**](https://github.com/neon-nyan/Collapse/pull/132)
 
@@ -39,6 +43,7 @@ This feature comes toggled "Off" by default, but can be enabled by going into th
 ``0b49966`` [**!**](https://github.com/neon-nyan/Collapse/commit/0b49966f8cb0c27880189a9d2dafa69d91bc4751) 
 
 ## New Feature: Notification panel
+Collapse will now show you all your notifications in a dedicated panel to de-clutter the interface. This also has the added benefit that we can push more notifications at a given time if needed.
 
 https://user-images.githubusercontent.com/30566970/235456676-99a9a105-25bb-45d5-847f-10bfbec2a93d.mp4
 
@@ -54,7 +59,7 @@ We are optimizing the way ``ColorThief`` generates the color palettes for Collap
 
 ![image](https://user-images.githubusercontent.com/30566970/235457764-74862e30-26ed-4fd6-ac8a-4dd3eaa1de4e.png)
 
-- New Locales: Japanese, Deutsch, Thaiwanese. Thank you to all our contributors on Crowdin! A reminder that, if possible, please make sure to test your changes in the launcher BEFORE making the official contributions on Crowdin, as this saves us time when a string is too long/too short. Thanks again!
+- New Locales: Japanese, Deutsch, Thaiwanese, Traditional Chinese. Thank you to all our contributors on Crowdin! A reminder that, if possible, please make sure to test your changes in the launcher BEFORE making the official contributions on Crowdin, as this saves us time when a string is too long/too short. Thanks again!
 
 ***
 
