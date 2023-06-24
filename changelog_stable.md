@@ -1,8 +1,8 @@
 
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.70.8: Trailblazer
-Welcome to Collapse version 1.70.8 - Codename: Trailblazer! We packed a ton of new features that we thought you guys might enjoy, while also fixing lots of bugs and improving the overall launcher experience. We hope you enjoy using the launcher as much as we did making it!
+# Collapse 1.70.9: Trailblazer
+Welcome to Collapse version 1.70.9 - Codename: Trailblazer! We packed a ton of new features that we thought you guys might enjoy, while also fixing lots of bugs and improving the overall launcher experience. We hope you enjoy using the launcher as much as we did making it!
 
 ### <b>Note: Due to the overwhelming amount of commits that are done to this repository (almost 400 since the last major patch), it is no longer possible for us to individually tag each commit to explain what they do. Should you feel inclined, feel free to peruse our [commit history](https://github.com/neon-nyan/Collapse/commits/main). Thank you for supporting Collapse!</b>
 
@@ -10,7 +10,7 @@ Welcome to Collapse version 1.70.8 - Codename: Trailblazer! We packed a ton of n
 
 # What's New?
 ## New Feature: Game Settings for Honkai: Star Rail
-As with Honkai Impact 3rd, you  can now adjust some game settings within Collapse, including Graphics Settings, setting a custom FPS (up to 120 FPS) value, and tweaking various audio settings. Keep in mind that this feature is still experimental and it might break the Game Settings menu in-game.
+As with Honkai Impact 3rd, you can now adjust some game settings within Collapse, including Graphics Settings, setting a custom FPS (up to 120 FPS) value, and tweaking various audio settings. Keep in mind that this feature is still experimental and it might break the Game Settings menu in-game.
 
 ![image](https://github.com/neon-nyan/Collapse/assets/30566970/32cbaed2-3c6e-454d-875c-0f1b7c23daf1)
 
@@ -42,6 +42,15 @@ This feature comes toggled "Off" by default, but can be enabled by going into th
 
 ``0b49966`` [**!**](https://github.com/neon-nyan/Collapse/commit/0b49966f8cb0c27880189a9d2dafa69d91bc4751) 
 
+## Announcement: Official Collapse Launcher Discord Server
+![Discord-Banner-1-1500x680](https://github.com/neon-nyan/Collapse/assets/9833218/c284a953-bf37-4ff7-83de-c88d6d2eeeaf)
+
+We are pleased to finally announce, after many months of deliberation, that the Collapse Launcher Discord server is now open to the public! Everyone is welcome to join and hang out! This server will serve as the go-to place if you have any questions, ideas, or if you just want to chat about anything regarding the launcher, any currently published miHoYo games or, you know, how your day went! 
+
+Here's the invite link: https://discord.gg/vJd2exaS7j
+
+We hope to see you there!
+
 ## New Feature: Notification panel
 Collapse will now show you all your notifications in a dedicated panel to de-clutter the interface. This also has the added benefit that we can push more notifications at a given time if needed.
 
@@ -51,7 +60,7 @@ https://user-images.githubusercontent.com/30566970/235456676-99a9a105-25bb-45d5-
 
 ## Major Changes
 ### Faster background image loading by optimizing ``ColorThief`` submodule (Thanks @Scighost !)
-We are optimizing the way ``ColorThief`` generates the color palettes for Collapse. Please keep in mind that this changes may causes some issues if you're trying to load an image outside this supported bit-depth (24bppRGB, 32bppRGB, 32bppRGBA).
+We are optimizing the way ``ColorThief`` generates the color palettes for Collapse. Please keep in mind that this changes may causes some issues if you're trying to load an image the supported bit-depth (24bppRGB, 32bppRGB, 32bppRGBA).
 
 ``05ad2db`` [**!**](https://github.com/neon-nyan/ColorThief/commit/05ad2db0f2982dbb8a3a7d0ef83a3b9def16f653) +
 
@@ -61,6 +70,11 @@ We are optimizing the way ``ColorThief`` generates the color palettes for Collap
 
 - New Locales: Japanese, Deutsch, Thaiwanese, Traditional Chinese. Thank you to all our contributors on Crowdin! A reminder that, if possible, please make sure to test your changes in the launcher BEFORE making the official contributions on Crowdin, as this saves us time when a string is too long/too short. Thanks again!
 
+- Numerous fixes for new Honkai Impact 3rd 6.7 Dispatcher Key format: This will allow us to continue to support Honkai Impact 3rd on Collapse!
+
+- Internal adjustments to support new Genshin Impact download format: Previously, Genshin Impact would download bigger archives and we would take care of splitting the files into smaller chunks for easier merging and tracking. In preparation for version 4.0, it seems that the developer is splitting the game distribution into smaller archive bundles. This is now taken into account when downloading & updating Genshin Impact. 
+
+- Fixing Genshin Impact & Honkai: Star Rail dispatcher code to support developer changes.
 ***
 
 ## Minor changes
@@ -71,5 +85,4 @@ We are optimizing the way ``ColorThief`` generates the color palettes for Collap
 - **[Launcher - Backend]** Fixed the launcher failed to detect delta-patch on pre-load ``0ae3add``[**!**](https://github.com/neon-nyan/Collapse/commit/0ae3add55a179421f675dd44de93b0412cf3f94e)
 - **[Launcher - Backend / Honkai: Star Rail]** Fixed Video Metadata got incorrect URL ``8e264cf`` [**!**](https://github.com/neon-nyan/Collapse/commit/8e264cfef7ee4b7fdaa449442c71158326935c13)
 - **[Launcher - Backend]** Fixed the launcher to crash during pre-load verification ``62d6aa4``[**!**](https://github.com/neon-nyan/Collapse/commit/62d6aa4eca1079b8f2ffe2594cd9211e17d94df1)
-- **[Launcher - Backend]** Fixed the game not outputting any logs while "Show Console" is disabled ``30dbac1`` [**!**](https://github.com/neon-nyan/Collapse/commit/30dbac199d1d72a0939f8ebc45ab59985d53a562)
 - **[Launcher - Backend]** Fixed the game not outputting any logs while "Show Console" is disabled ``30dbac1`` [**!**](https://github.com/neon-nyan/Collapse/commit/30dbac199d1d72a0939f8ebc45ab59985d53a562)
