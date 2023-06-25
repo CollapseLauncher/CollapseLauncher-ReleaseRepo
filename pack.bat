@@ -3,7 +3,7 @@ set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _Inno="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=Collapse
-set version=1.69.19
+set version=1.70.9
 set channel=1
 
 :checkRepoLocation
@@ -156,7 +156,7 @@ FOR /F %%B IN ('certutil -hashfile %channel%\release MD5 ^| find /v "hash"') DO 
 :: Get current Unix timestamp
 call :GetUnixTime unixtime
 :: Print out the fileindex.json file
-echo ^{"ver":"%version%.0","time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^}>%channel%\fileindex.json
+echo ^{"ver":"%version%","time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^}>%channel%\fileindex.json
 
 goto :EOF
 
