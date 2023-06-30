@@ -18,4 +18,5 @@ jobs:
           uses: heussd/mirror-to-bitbucket-github-action@v2
           with:
             username: neon-nyan
+            spacename: neon-nyan
             password: ${{ secrets.BITBUCKET_PASSWORD }}
