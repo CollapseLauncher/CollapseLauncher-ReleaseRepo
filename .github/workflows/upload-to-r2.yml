@@ -1,0 +1,33 @@
+name: Upload to R2
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  Upload-to-R2:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          path: cl-cdn
+          
+      - name: cleanup
+        run: |
+          rm -rf ./cl-cdn/.git
+          rm -rf ./cl-cdn/.github
+          rm -rf ./cl-cdn/.gitignore
+          rm -rf ./cl-cdn/LICENSE
+          rm -rf ./cl-cdn/pack.bat
+          rm -rf ./cl-cdn/start_reindex.bat
+
+      - uses: ryand56/r2-upload-action@v1.2
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: cl-cdn
+          destination-dir: cl-cdn
