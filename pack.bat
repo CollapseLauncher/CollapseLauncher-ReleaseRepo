@@ -3,7 +3,7 @@ set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _Inno="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=Collapse
-set version=1.70.9
+set version=1.70.12
 set channel=1
 
 :checkRepoLocation
