@@ -1,14 +1,21 @@
 
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.70.10: Trailblazer
-Welcome to Collapse version 1.70.10 - Codename: Trailblazer! We packed a ton of new features that we thought you guys might enjoy, while also fixing lots of bugs and improving the overall launcher experience. We hope you enjoy using the launcher as much as we did making it!
+# Collapse 1.70.12: Trailblazer
+Welcome to Collapse version 1.70.12 - Codename: Trailblazer! We packed a ton of new features that we thought you guys might enjoy, while also fixing lots of bugs and improving the overall launcher experience. We hope you enjoy using the launcher as much as we did making it!
 
-### <b>Note: Due to the overwhelming amount of commits that are done to this repository (almost 400 since the last major patch), it is no longer possible for us to individually tag each commit to explain what they do. Should you feel inclined, feel free to peruse our [commit history](https://github.com/neon-nyan/Collapse/commits/main). Thank you for supporting Collapse!</b>
+### Note: Due to the overwhelming amount of commits that are done to this repository (almost 400 since the last major patch), it is no longer possible for us to individually tag each commit to explain what they do. Should you feel inclined, feel free to peruse our [commit history](https://github.com/neon-nyan/Collapse/commits/main). Thank you for supporting Collapse!
 
 ***
 
 # What's New?
+
+# 1.70.12
+- Several bugfixes for installation management & update extraction functions
+- Hot fix for `ApplyUpdate` since Bitbucket mirror no longer works
+- Added Cloudflare R2 as a temporary alternative to Bitbucket mirror
+- Temporarily removed Bitbucket as a repository mirror
+
 ## New Feature: Game Settings for Honkai: Star Rail
 As with Honkai Impact 3rd, you can now adjust some game settings within Collapse, including Graphics Settings, setting a custom FPS (up to 120 FPS) value, and tweaking various audio settings. Keep in mind that this feature is still experimental and it might break the Game Settings menu in-game.
 
