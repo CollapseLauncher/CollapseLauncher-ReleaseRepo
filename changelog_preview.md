@@ -1,13 +1,42 @@
 
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.3: Pending Name
-Welcome to Collapse version 1.71.3 [Version Name TBD]! This is a PREVIEW BUILD. NOTES ARE NOT FINAL. Please report any issues [here](https://github.com/neon-nyan/Collapse/issues/new/choose)!
-### <b>Note: Due to the overwhelming amount of commits that are done to this repository (almost 400 since the last major patch), it is no longer possible for us to individually tag each commit to explain what they do. Should you feel inclined, feel free to peruse our [commit history](https://github.com/neon-nyan/Collapse/commits/main). Thank you for supporting Collapse!</b>
-
+# Collapse 1.71.4: Pending Name
+Welcome to Collapse version 1.71.4 [Version Name TBD]! This is a PREVIEW BUILD. NOTES ARE NOT FINAL. Please report any issues [here](https://github.com/neon-nyan/Collapse/issues/new/choose)!
 ***
 
 # What's New?
+
+# 1.71.4
+This preview release is pretty big, with the most noticeable change being the early implementation of parallel download support, as well as background download support.
+
+Please report any issues through the usual channels, thanks!
+
+- New strings for locales
+- Upgrade WinAppSDK to 1.3.230724000
+- Reducing overhead while fetching launcher's sprites by using local ``FallbackCDNUtil``'s HTTP Client method.
+- Using direct JSON deserialization from ``FallbackCDNUtil``'s ``DownloadAsJSONType<T>()`` for fetching launcher's API
+- Improving Color Palette generation by using the latest ``ColorThief`` changes.
+- Moving unrelated methods from ``BackgroundManagement`` to ``RegionManagement``
+- Revert to legacy download mechanism for downloading game packages, where merging the chunk files is required before verification and extraction.
+- Removing overused ``GC.Collect()``
+- Minor UI Changes, including:
+    - Adding the ability to go back to the previous page
+    - Making title icon clickable for "Back to Homepage" button (Issue: [#131](https://github.com/neon-nyan/Collapse/issues/131))
+    - Adding the ability to disable acrylic effect (Issue: [#190](https://github.com/neon-nyan/Collapse/issues/190))
+    - Adding failsafe if the user chooses invalid folders to be used as "App Folder" for the launcher during the first set-up.
+- Replace ``Crc32.NET`` with ``System.IO.Hashing``
+- Always try and catch while disposing session stream in ``Hi3Helper.Http`` routines
+- Simplify value comparison by using Generics method of ``TypeExtensions.IsInstancePropertyEqual<T>()`` to compare property values between settings class for all Game Settings
+- Removing unused legacy ``CheckIntegrity`` and ``SteamConversion`` function calls from ``Hi3Helper.Core`` library
+- Make ``ApplyAccentColor()`` run asynchronously
+- Migrate from HDiffPatch to SharpHDiffPatch
+- Fixing broken HSR game repair and cache features
+- Fixing a rare state bug, where the foreground image is shown outside of the home page.
+- Making Game Conversion feature work again due to regression from ``InstallManagement`` rewrite.
+- Avoid deletion of certain files while using Honkai Impact 3rd's Game Repair feature
+- Fix ``GetVersion`` logic and package preload detection
+- Fix preload slices being detected as unused assets
 # 1.71.3
 - Updated locales 
 - Fixed small UI mode causing scaling issues for some elements
