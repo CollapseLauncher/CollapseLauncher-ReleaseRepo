@@ -10,6 +10,11 @@ Welcome to Collapse version 1.70.12 - Codename: Trailblazer! We packed a ton of 
 
 # What's New?
 
+# 1.70.13
+- Fix broken HI3 cache & game repair functionality
+- Adjust Honkai Cache changes to legacy property
+- Revert EncTool submodule to ``3abb4a``
+
 # 1.70.12
 - Several bugfixes for installation management & update extraction functions
 - Hot fix for `ApplyUpdate` since Bitbucket mirror no longer works
