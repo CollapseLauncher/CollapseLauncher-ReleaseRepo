@@ -1,11 +1,21 @@
-
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.4: Pending Name
-Welcome to Collapse version 1.71.4 [Version Name TBD]! This is a PREVIEW BUILD. NOTES ARE NOT FINAL. Please report any issues [here](https://github.com/neon-nyan/Collapse/issues/new/choose)!
+# Collapse 1.71.5: Pending Name
+Welcome to Collapse version 1.71.5 [Version Name TBD]! This is a PREVIEW BUILD. NOTES ARE NOT FINAL. Please report any issues [here](https://github.com/neon-nyan/Collapse/issues/new/choose)!
 ***
 
 # What's New?
+
+# 1.71.5
+- [**Honkai Impact 3rd**] Fixed Cache Update to detect "asb.dat" file as an "unused file"
+- [**Honkai Impact 3rd**] Fixed double slash while writing Verify.txt lines for Cache Update
+- [**Honkai Impact 3rd**] Fixed Game Repair causing redownload on the CG files in-game
+- [**Honkai Impact 3rd**] Fixed Game Repair not being able to detect CG file list
+- [**Honkai Impact 3rd**] Fixed broken HI3 cache & game repair functionality
+- [**Honkai Impact 3rd**] Adjust Honkai Cache changes to legacy property
+- [**Core**] Removed unused ``CheckIntegrity`` code
+- [**Core**] Enabling ReadyToRun compilation
+- [**UI**] Fixed background disappeared after cancelling update
 
 # 1.71.4
 This preview release is pretty big, with the most noticeable change being the early implementation of parallel download support, as well as background download support.
@@ -61,5 +71,3 @@ Please report any issues through the usual channels, thanks!
 - Locale updates
 
 ``a842f79`` [**!**](https://github.com/neon-nyan/Collapse/pull/183) 
-
-

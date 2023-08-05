@@ -1,14 +1,19 @@
-
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.70.12: Trailblazer
-Welcome to Collapse version 1.70.12 - Codename: Trailblazer! We packed a ton of new features that we thought you guys might enjoy, while also fixing lots of bugs and improving the overall launcher experience. We hope you enjoy using the launcher as much as we did making it!
+# Collapse 1.70.14: Trailblazer
+Welcome to Collapse version 1.70.14 - Codename: Trailblazer! We packed a ton of new features that we thought you guys might enjoy, while also fixing lots of bugs and improving the overall launcher experience. We hope you enjoy using the launcher as much as we did making it!
 
 ### Note: Due to the overwhelming amount of commits that are done to this repository (almost 400 since the last major patch), it is no longer possible for us to individually tag each commit to explain what they do. Should you feel inclined, feel free to peruse our [commit history](https://github.com/neon-nyan/Collapse/commits/main). Thank you for supporting Collapse!
 
 ***
 
 # What's New?
+# 1.70.14
+- [**Honkai Impact 3rd**] Fixed Cache Update to detect "asb.dat" file as an "unused file"
+- [**Honkai Impact 3rd**] Fixed double slash while writing Verify.txt lines for Cache Update
+- [**Honkai Impact 3rd**] Fixed Game Repair causing redownload on the CG files in-game
+- [**Honkai Impact 3rd**] Fixed Game Repair not being able to detect CG file list
+- [**Core**] Removed unused ``CheckIntegrity`` code
 
 # 1.70.13
 - Fix broken HI3 cache & game repair functionality
@@ -80,7 +85,7 @@ We are optimizing the way ``ColorThief`` generates the color palettes for Collap
 
 ![image](https://user-images.githubusercontent.com/30566970/235457764-74862e30-26ed-4fd6-ac8a-4dd3eaa1de4e.png)
 
-- New Locales: Japanese, Deutsch, Thaiwanese, Traditional Chinese. Thank you to all our contributors on Crowdin! A reminder that, if possible, please make sure to test your changes in the launcher BEFORE making the official contributions on Crowdin, as this saves us time when a string is too long/too short. Thanks again!
+- New Locales: Japanese, Deutsch and Traditional Chinese. Thank you to all our contributors on Crowdin! A reminder that, if possible, please make sure to test your changes in the launcher BEFORE making the official contributions on Crowdin, as this saves us time when a string is too long/too short. Thanks again!
 
 - Numerous fixes for new Honkai Impact 3rd 6.7 Dispatcher Key format: This will allow us to continue to support Honkai Impact 3rd on Collapse!
 
@@ -98,3 +103,5 @@ We are optimizing the way ``ColorThief`` generates the color palettes for Collap
 - **[Launcher - Backend / Honkai: Star Rail]** Fixed Video Metadata got incorrect URL ``8e264cf`` [**!**](https://github.com/neon-nyan/Collapse/commit/8e264cfef7ee4b7fdaa449442c71158326935c13)
 - **[Launcher - Backend]** Fixed the launcher to crash during pre-load verification ``62d6aa4``[**!**](https://github.com/neon-nyan/Collapse/commit/62d6aa4eca1079b8f2ffe2594cd9211e17d94df1)
 - **[Launcher - Backend]** Fixed the game not outputting any logs while "Show Console" is disabled ``30dbac1`` [**!**](https://github.com/neon-nyan/Collapse/commit/30dbac199d1d72a0939f8ebc45ab59985d53a562)
+
+**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.70.1-pre...CL-v1.70.12
