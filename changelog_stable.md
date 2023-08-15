@@ -1,13 +1,17 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.70.14: Trailblazer
-Welcome to Collapse version 1.70.14 - Codename: Trailblazer! We packed a ton of new features that we thought you guys might enjoy, while also fixing lots of bugs and improving the overall launcher experience. We hope you enjoy using the launcher as much as we did making it!
+# Collapse 1.70.15: Trailblazer
+Welcome to Collapse version 1.70.15 - Codename: Trailblazer! We packed a ton of new features that we thought you guys might enjoy, while also fixing lots of bugs and improving the overall launcher experience. We hope you enjoy using the launcher as much as we did making it!
 
 ### Note: Due to the overwhelming amount of commits that are done to this repository (almost 400 since the last major patch), it is no longer possible for us to individually tag each commit to explain what they do. Should you feel inclined, feel free to peruse our [commit history](https://github.com/neon-nyan/Collapse/commits/main). Thank you for supporting Collapse!
 
 ***
 
 # What's New?
+
+# 1.70.15
+_This update contains some hotfix for InstallManagerBase component. Any detailed information about the update will be informed soon._
+
 # 1.70.14
 - [**Honkai Impact 3rd**] Fixed Cache Update to detect "asb.dat" file as an "unused file"
 - [**Honkai Impact 3rd**] Fixed double slash while writing Verify.txt lines for Cache Update
