@@ -1,10 +1,13 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.5: Pending Name
-Welcome to Collapse version 1.71.5 [Version Name TBD]! This is a PREVIEW BUILD. NOTES ARE NOT FINAL. Please report any issues [here](https://github.com/neon-nyan/Collapse/issues/new/choose)!
+# Collapse 1.71.6: Pending Name
+Welcome to Collapse version 1.71.6 [Version Name TBD]! This is a PREVIEW BUILD. NOTES ARE NOT FINAL. Please report any issues [here](https://github.com/neon-nyan/Collapse/issues/new/choose)!
 ***
 
 # What's New?
+
+# 1.71.6
+_This update contains some hotfix for InstallManagerBase component and Background Installation. Any detailed information about the update will be informed soon._
 
 # 1.71.5
 - [**Honkai Impact 3rd**] Fixed Cache Update to detect "asb.dat" file as an "unused file"
