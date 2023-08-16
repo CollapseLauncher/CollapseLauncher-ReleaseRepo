@@ -10,7 +10,7 @@ jobs:
 
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: checkout@v3.5.3
         with:
           path: cl-cdn
           
@@ -31,3 +31,4 @@ jobs:
           r2-bucket: ${{ secrets.R2_BUCKET }}
           source-dir: cl-cdn
           destination-dir: cl-cdn
+          output-file-url: false
