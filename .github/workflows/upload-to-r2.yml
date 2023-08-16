@@ -7,10 +7,8 @@ on:
 jobs:
   Upload-to-R2:
     runs-on: ubuntu-latest
-
-
     steps:
-      - uses: checkout@v3.5.3
+      - uses: actions/checkout@v3.5.3
         with:
           path: cl-cdn
           
