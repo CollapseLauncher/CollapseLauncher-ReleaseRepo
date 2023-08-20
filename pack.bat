@@ -3,7 +3,7 @@ set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _Inno="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=Collapse
-set version=1.70.14
+set version=1.71.7
 set channel=1
 
 :checkRepoLocation
@@ -65,11 +65,6 @@ if not exist "%channel%-build" (
 )
 
 set thread=%NUMBER_OF_PROCESSORS%
-if %thread% == 1 (
-	set thread=1
-) else (
-	set /a thread=%thread%-1
-)
 
 :versionDefine
 echo.
