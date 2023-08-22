@@ -55,6 +55,7 @@ This allows us to easier help troubleshoot issues with our launcher depending on
 - Upgrade WinAppSDK to 1.3.230724000
 - When "Merge Package Chunk" is enabled, revert to legacy download mechanism for game package downloads
 - New Locale: German! Thank you to all our contributors on Crowdin! A reminder that, if possible, please make sure to test your changes in the launcher BEFORE making the official contributions on Crowdin, as this saves us time when a string is too long/too short. Thanks again!
+- New official community tool: Battle Chronicles! Should you want to add a community tool, please make sure to submit a PR!
 
 ***
 
