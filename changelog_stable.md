@@ -9,6 +9,8 @@ Welcome to Collapse version 1.71.7 - Codename: Focalors! This update does not co
 ## New Feature: Background Resource Installation
 This has been a feature that was requested multiple times, the first occurence of this being in October of last year. After almost a year of hard work, we are pleased to finally be able to ship this feature to Collapse. You are now able to install games across multiple regions at the same time! Keep in mind that there may be some quirks with the feature so we encourage you to come tell us if you have any issues either on our Discord or via GitHub Issues!
 
+https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/assets/28079733/b5af15da-0ae9-46c4-a4d9-05070be2ae66
+
 You can track the progress of installations via the new Notification panel introduced in our last major version release.
 
 ``0c40f32`` [**!**](https://github.com/neon-nyan/Collapse/commit/0c40f322d88d1d9434ca4f0aec66074c93dedd6e) 
@@ -16,10 +18,15 @@ You can track the progress of installations via the new Notification panel intro
 ## New Addition: Interface Update
 Shipping with Collapse 1.71.7 is a somewhat updated menu navigation system. The launcher logo has now been converted to a button, which will bring you to the home page of your currently selected game. The icons for Game Repair, Cache Repair (where applicable), Game Settings & App Settings are not permanently displayed as a vertical Navigation bar, with the ability to toggle the full-width menu by clicking on the hamburger icon. Furthermore, we've added the ability to go back to your previous page. Finally, there have been design tweaks here and there (notably in the "App Settings") to make the UI look and run better!
 
+https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/assets/28079733/d5e60d62-14f6-4c57-a155-7866673a1163
+
 We introduced this change as part of the feedback we've gotten from you guys. Please keep sharing your thoughts regarding this and future features, as it helps us improve the experience for all Collapse users!
 
 ## New Addition: Genshin Impact Settings (Thanks @Myp3a, @neon-nyan, @CryoTechnic, @bagusnl, @muscularcandy67 !)
-Genshin Impact finally gets Game Settings! That's all, that's the annoucement! 
+Genshin Impact finally gets Game Settings! Change graphics settings while outside the game and get it applied immediately as soon as you open the game!
+Also with this, we added option to run **ALL GAMES** in borderless windowed mode!
+
+https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/assets/28079733/d14fa053-2f31-4270-ad9b-76702bf0f485
 
 ``3fb04b`` [**!**](https://github.com/neon-nyan/Collapse/commit/3fb04bedc1a600b75495ac9bd05e89c87eddbf5b)
 
