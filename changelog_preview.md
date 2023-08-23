@@ -18,7 +18,7 @@ You can track the progress of installations via the new Notification panel intro
 ## New Addition: Interface Update
 Shipping with Collapse 1.71.7 is a somewhat updated menu navigation system. The launcher logo has now been converted to a button, which will bring you to the home page of your currently selected game. The icons for Game Repair, Cache Repair (where applicable), Game Settings & App Settings are not permanently displayed as a vertical Navigation bar, with the ability to toggle the full-width menu by clicking on the hamburger icon. Furthermore, we've added the ability to go back to your previous page. Finally, there have been design tweaks here and there (notably in the "App Settings") to make the UI look and run better!
 
-https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/assets/28079733/d5e60d62-14f6-4c57-a155-7866673a1163
+https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/assets/9833218/442daf57-b1f1-43ba-86b9-e83159e94db8
 
 We introduced this change as part of the feedback we've gotten from you guys. Please keep sharing your thoughts regarding this and future features, as it helps us improve the experience for all Collapse users!
 
