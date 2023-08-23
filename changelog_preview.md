@@ -1,7 +1,7 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.7: Focalors
-Welcome to Collapse version 1.71.7 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
+# Collapse 1.71.8: Focalors
+Welcome to Collapse version 1.71.8 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
 
 ***
 
@@ -16,7 +16,7 @@ You can track the progress of installations via the new Notification panel intro
 ``0c40f32`` [**!**](https://github.com/neon-nyan/Collapse/commit/0c40f322d88d1d9434ca4f0aec66074c93dedd6e) 
 
 ## New Addition: Interface Update
-Shipping with Collapse 1.71.7 is a somewhat updated menu navigation system. The launcher logo has now been converted to a button, which will bring you to the home page of your currently selected game. The icons for Game Repair, Cache Repair (where applicable), Game Settings & App Settings are not permanently displayed as a vertical Navigation bar, with the ability to toggle the full-width menu by clicking on the hamburger icon. Furthermore, we've added the ability to go back to your previous page. Finally, there have been design tweaks here and there (notably in the "App Settings") to make the UI look and run better!
+Shipping with Collapse 1.71.8 is a somewhat updated menu navigation system. The launcher logo has now been converted to a button, which will bring you to the home page of your currently selected game. The icons for Game Repair, Cache Repair (where applicable), Game Settings & App Settings are not permanently displayed as a vertical Navigation bar, with the ability to toggle the full-width menu by clicking on the hamburger icon. Furthermore, we've added the ability to go back to your previous page. Finally, there have been design tweaks here and there (notably in the "App Settings") to make the UI look and run better!
 
 https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/assets/9833218/442daf57-b1f1-43ba-86b9-e83159e94db8
 
@@ -42,9 +42,9 @@ Rewriting this part of Collapse allows us to more easily manage how games get un
 Previously, the version number was only listed in the Console, which you needed to enable and made troubleshooting and helping resolve issues much harder for us. From this version onwards, the "PRE" tag has been replaced by the full version descriptor, alongside the "PRE" indicator if the build is a Preview build. Furthermore, for those who like to compile Collapse, we've appended the character "d" to the version number, as well as "PRE" to indicate that this build is a Debug build, while also being in preview testing. 
 
 To summarize:
-- Stable: [Version Number] (e.g. 1.71.7)
-- Preview: [Version Number]-PRE (e.g. 1.71.7-PRE)
-- Debug: [Version Number]d-PRE (e.g. 1.71.7d-PRE)
+- Stable: [Version Number] (e.g. 1.71.8)
+- Preview: [Version Number]-PRE (e.g. 1.71.8-PRE)
+- Debug: [Version Number]d-PRE (e.g. 1.71.8d-PRE)
 
 This allows us to easier help troubleshoot issues with our launcher depending on the version that the user is using.
 
@@ -84,4 +84,4 @@ This allows us to easier help troubleshoot issues with our launcher depending on
 - Fix ``GetVersion`` logic and package preload detection
 - Fix preload slices being detected as unused assets
 
-**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.70.15...CL-v1.71.7
+**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.70.15...CL-v1.71.8
