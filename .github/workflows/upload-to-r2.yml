@@ -21,7 +21,7 @@ jobs:
           rm -rf ./cl-cdn/pack.bat
           rm -rf ./cl-cdn/start_reindex.bat
 
-      - uses: ryand56/r2-upload-action@v1.2.3
+      - uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -30,3 +30,11 @@ jobs:
           source-dir: cl-cdn
           destination-dir: cl-cdn
           output-file-url: false
+        continue-on-error: true
+
+      - name: Purge Cloudflare cache
+        run: |
+            curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_PURGE_CACHE_ZONEID }}/purge_cache" \
+                -H "Authorization: Bearer ${{ secrets.CF_PURGE_CACHE_TOKEN }}" \
+                -H "Content-Type: application/json" \
+                --data "{ \"purge_everything\": true }"
