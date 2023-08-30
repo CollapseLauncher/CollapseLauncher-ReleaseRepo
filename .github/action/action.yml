@@ -1,0 +1,25 @@
+﻿name: 'Fetch R2 For Other Jobs'
+description: 'Preparing for R2 sync'
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v3.5.3
+      shell: bash
+
+    - name: Cleanup
+      run: |
+        rm -rf ./cl-cdn/.git
+        rm -rf ./cl-cdn/.github
+        rm -rf ./cl-cdn/.gitignore
+        rm -rf ./cl-cdn/LICENSE
+        rm -rf ./cl-cdn/pack.bat
+        rm -rf ./cl-cdn/start_reindex.bat
+      shell: bash
+
+    - name: Restructurize
+      run: |
+        mkdir ./cl-cdn/folderroot
+        mv ./cl-cdn/ApplyUpdate.exe ./cl-cdn/changelog_preview.md ./cl-cdn/changelog_stable.md ./cl-cdn/CollapseLauncher.Hi3CacheUpdater.cmd ./cl-cdn/folderroot/
+        mv ./cl-cdn/notification_notepreview ./cl-cdn/notification_notestable ./cl-cdn/notification_preview.json ./cl-cdn/notification_stable.json ./cl-cdn/Update.exe ./cl-cdn/folderroot/
+      shell: bash
