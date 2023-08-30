@@ -8,7 +8,7 @@ jobs:
   Fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/r2-fetcher.yml
+      - uses: neon-nyan/CollapseLauncher-ReleaseRepo/.github/workflows/r2-fetcher.yml@main
           
   Sync-Root:
     runs-on: ubuntu-latest
