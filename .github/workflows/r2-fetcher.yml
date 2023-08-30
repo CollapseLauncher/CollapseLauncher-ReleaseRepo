@@ -1,7 +1,7 @@
 name: (DONT RUN MANUALLY) fetch r2 for other jobs 
 run-name: Preparing for R2 sync
 on:
-    workflow_dispatch
+    workflow_call:
 
 jobs:
     common-steps:
