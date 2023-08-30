@@ -8,25 +8,8 @@ jobs:
   Fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.5.3
-        with:
-          path: cl-cdn
+      - uses: ./.github/workflows/common-steps.yml
           
-      - name: Cleanup
-        run: |
-          rm -rf ./cl-cdn/.git
-          rm -rf ./cl-cdn/.github
-          rm -rf ./cl-cdn/.gitignore
-          rm -rf ./cl-cdn/LICENSE
-          rm -rf ./cl-cdn/pack.bat
-          rm -rf ./cl-cdn/start_reindex.bat
-
-      - name: Restructurize
-        run: |
-          mkdir ./cl-cdn/folderroot
-          mv ./cl-cdn/ApplyUpdate.exe ./cl-cdn/changelog_preview.md ./cl-cdn/changelog_stable.md ./cl-cdn/CollapseLauncher.Hi3CacheUpdater.cmd ./cl-cdn/folderroot/
-          mv ./cl-cdn/notification_notepreview ./cl-cdn/notification_notestable ./cl-cdn/notification_preview.json ./cl-cdn/notification_stable.json ./cl-cdn/Update.exe ./cl-cdn/folderroot/
-
   Sync-Root:
     runs-on: ubuntu-latest
     needs: Fetch
@@ -56,6 +39,7 @@ jobs:
           source-dir: cl-cdn/metadata
           destination-dir: cl-cdn/metadata
           output-file-url: false
+          
   Sync-ApplyUpdate:
     runs-on: ubuntu-latest
     needs: Fetch
