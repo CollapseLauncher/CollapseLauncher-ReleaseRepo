@@ -4,3 +4,4 @@ squirrel/specs/**
 packages/**
 squirrel/latest*
 squirrel/buildKitchen/**
+.idea
