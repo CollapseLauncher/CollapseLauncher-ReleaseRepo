@@ -1,11 +1,17 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.8: Focalors
-Welcome to Collapse version 1.71.8 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
+# Collapse 1.71.9: Focalors
+Welcome to Collapse version 1.71.9 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
 
 ***
+# What's New? - 1.71.9
+- Fixed an issue where the version indicator on the top-left of the launcher would not display the correct information when using the Stable release branch
+- Fixed an issue where debug statements would show in a production build
+- Fixed an issue where uninstalling the game would not actually delete the game files from disk
+- Fixed multiple issues where opening Genshin Impact's Game Settings page would crash the app
+- Improved accuracy for playtime tracking
 
-# What's New?
+# What's New? - 1.71.8
 ## New Feature: Background Resource Installation
 This has been a feature that was requested multiple times, the first occurence of this being in October of last year. After almost a year of hard work, we are pleased to finally be able to ship this feature to Collapse. You are now able to install games across multiple regions at the same time! Keep in mind that there may be some quirks with the feature so we encourage you to come tell us if you have any issues either on our Discord or via GitHub Issues!
 
