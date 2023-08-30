@@ -5,33 +5,98 @@ on:
   workflow_dispatch:
 
 jobs:
-  Upload-to-R2:
+  Fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.5.3
-        with:
-          path: cl-cdn
+      - uses: neon-nyan/CollapseLauncher-ReleaseRepo/actions/r2-fetcher@main
           
-      - name: cleanup
-        run: |
-          rm -rf ./cl-cdn/.git
-          rm -rf ./cl-cdn/.github
-          rm -rf ./cl-cdn/.gitignore
-          rm -rf ./cl-cdn/LICENSE
-          rm -rf ./cl-cdn/pack.bat
-          rm -rf ./cl-cdn/start_reindex.bat
-
-      - uses: ryand56/r2-upload-action@latest
+  Sync-Root:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Sync Root Folder
+        uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: cl-cdn
+          source-dir: cl-cdn/folderroot
           destination-dir: cl-cdn
           output-file-url: false
-        continue-on-error: true
 
+  Sync-Metadata:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Sync Metadata
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: cl-cdn/metadata
+          destination-dir: cl-cdn/metadata
+          output-file-url: false
+
+  Sync-ApplyUpdate:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Sync Stable ApplyUpdate
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: cl-cdn/stable
+          destination-dir: cl-cdn/stable
+          output-file-url: false
+
+      - name: Sync Preview ApplyUpdate
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: cl-cdn/preview
+          destination-dir: cl-cdn/preview
+          output-file-url: false
+
+  Sync-Squirell:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Sync Squirell\Preview folder
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: cl-cdn/squirell/preview
+          destination-dir: cl-cdn/squirell/preview
+          output-file-url: false
+
+      - name: Sync Squirell\Stable folder
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: cl-cdn/squirell/stable
+          destination-dir: cl-cdn/squirell/stable
+          output-file-url: false
+
+  Purge-Cache:
+    runs-on: ubuntu-latest
+    if: always() # always purge cache whenever it fails or succeed
+    needs: [Sync-Root, Sync-Metadata, Sync-ApplyUpdate, Sync-Squirell]
+    steps:
       - name: Purge Cloudflare cache
         run: |
             curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_PURGE_CACHE_ZONEID }}/purge_cache" \
