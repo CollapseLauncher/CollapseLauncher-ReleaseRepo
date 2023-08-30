@@ -3,7 +3,7 @@ description: 'Preparing for R2 sync'
 runs:
   using: 'composite'
   steps:
-    - run: git clone https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo.git cl-cdn
+    - run: git clone --depth 1 https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo.git cl-cdn
       shell: bash
     - run: |
         rm -rf ./cl-cdn/.git
