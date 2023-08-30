@@ -12,8 +12,10 @@ jobs:
           
   Sync-Root:
     runs-on: ubuntu-latest
-    needs: Fetch
     steps:
+      - name: Fetch
+        uses: neon-nyan/CollapseLauncher-ReleaseRepo/actions/r2-fetcher@main
+        
       - name: Sync Root Folder
         uses: ryand56/r2-upload-action@latest
         with:
@@ -29,6 +31,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: Fetch
     steps:
+      - name: Fetch
+        uses: neon-nyan/CollapseLauncher-ReleaseRepo/actions/r2-fetcher@main
+        
       - name: Sync Metadata
         uses: ryand56/r2-upload-action@latest
         with:
@@ -44,6 +49,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: Fetch
     steps:
+      - name: Fetch
+        uses: neon-nyan/CollapseLauncher-ReleaseRepo/actions/r2-fetcher@main
+          
       - name: Sync Stable ApplyUpdate
         uses: ryand56/r2-upload-action@latest
         with:
@@ -70,6 +78,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: Fetch
     steps:
+      - name: Fetch
+        uses: neon-nyan/CollapseLauncher-ReleaseRepo/actions/r2-fetcher@main
+        
       - name: Sync Squirell\Preview folder
         uses: ryand56/r2-upload-action@latest
         with:
