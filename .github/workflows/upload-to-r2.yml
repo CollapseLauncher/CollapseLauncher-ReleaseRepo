@@ -8,7 +8,7 @@ jobs:
   Fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: neon-nyan/CollapseLauncher-ReleaseRepo/actions/action.yml@main
+      - uses: neon-nyan/CollapseLauncher-ReleaseRepo/.github/actions/action.yml@main
           
   Sync-Root:
     runs-on: ubuntu-latest
