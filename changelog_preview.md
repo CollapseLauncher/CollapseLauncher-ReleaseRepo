@@ -1,8 +1,21 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.0: [Codename TBD]
-Welcome to Collapse version 1.72.0 - Codename: TBD! This is a (*very*) early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+# Collapse 1.72.1: [Codename TBD]
+Welcome to Collapse version 1.72.1 - Codename: TBD! This is a (*very*) early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 ***
+
+# What's New? - 1.72.1
+- Rollback WindowsAppSDK to 1.3.230724000
+- Fixed a developer toolset issue where compilation would fail when switching development branches
+- Fixed an issue with the notification panel caused by commit regression which would cause the app to crash unexpectedly
+- Fixed many issues related to Game Repair for Honkai Impact 3rd including:
+  - Increasing BSDiff buffer to 32k
+    - Moving ``EnsureCreationOfDirectory()`` to ``ProgressBase`` class
+    - Reviving output block from the dead (it tried to hide from us)
+- Switch to new ``JsonSerializerHelper`` class for parsing Game Settings
+- Remove ``netstandard2.0`` from compilation targets
+- Deprecate usage 32-bit build of ``SevenZipExtractor`` in Collapse
+- Use ``SevenZipExtractor`` as an independent assembly
 
 # What's New? - 1.72.0
 - Fixed automatic updating running twice
