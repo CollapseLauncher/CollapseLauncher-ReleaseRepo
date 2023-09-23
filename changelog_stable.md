@@ -1,11 +1,21 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.10: Focalors
-Welcome to Collapse version 1.71.10 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
+# Collapse 1.71.11: Focalors
+Welcome to Collapse version 1.71.11 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
 
-This version supersedes 1.71.9. We recommend you update to this version, which addresses the fixes listed below.
+This version supersedes 1.71.10. We recommend you update to this version, which addresses the fixes listed below.
 
 ***
+# What's New? - 1.71.11
+- Fixed a developer toolset issue where compilation would fail when switching development branches
+- Fixed an issue with the notification panel caused by commit regression which would cause the app to crash unexpectedly
+- Fixed many issues related to Game Repair for Honkai Impact 3rd including:
+  - Increasing BSDiff buffer to 32k
+    - Moving ``EnsureCreationOfDirectory()`` to ``ProgressBase`` class
+    - Reviving output block from the dead (it tried to hide from us)
+- Switch to new ``JsonSerializerHelper`` class for parsing Game Settings
+- Remove ``netstandard2.0`` from compilation targets
+
 # What's New? - 1.71.10
 - Fixed automatic updating running twice
 - Fixed `Primary` assets not getting recognized
@@ -105,4 +115,4 @@ This allows us to easier help troubleshoot issues with our launcher depending on
 - Fix ``GetVersion`` logic and package preload detection
 - Fix preload slices being detected as unused assets
 
-**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.71.9...CL-v1.71.10
+**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.71.10...CL-v1.71.11

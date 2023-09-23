@@ -1,18 +1,18 @@
 {
     "AppPush": [
         {
-            "MsgId": 21,
-            "IsDisposable": true,
-            "Severity": "Success",
-            "Title": "[EN] Collapse Codename: Version Kiana Hotfix (v1.70.4 preview) is up!",
-            "Message": "We've just pushed a hotfix to fix the pre-load not being detected by the launcher on pre-loading and crashes on Game Repair and Update Caches. Please update your launcher to the latest v1.69.18 if you have the problem mentioned.",
+            "MsgId": 25,
+            "IsDisposable": false,
+            "Severity": "Warning",
+            "Title": "[EN] Collapse Preview Hotfix (v1.72.1) is up!",
+            "Message": "We've just pushed a hotfix to fix the Game Repair on Honkai Impact 3rd v6.9 update and UI breaking issues. Please update your launcher to the latest version in the App Settings.",
             "Show": true,
-            "ValidForVerBelow": "1.70.4.0",
+            "ValidForVerBelow": "1.72.1",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.70.4-pre",
-                    "Description": "See Bug Fixes",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.72.1-pre",
+                    "Description": "See Full Changelogs",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
@@ -20,5 +20,45 @@
         }
     ],
     "RegionPush": [
+        {
+            "MsgId": 9,
+            "IsDisposable": true,
+            "Severity": "Informational",
+            "RegionProfile": "Hi3SEA",
+            "Title": "[EN] Honkai Impact 3rd Part 2 Latest Info Update",
+            "Message": "Ai-chan brings to you the latest info update about Honkai Impact 3rd Part 2 First Look!\r\nLet's find out in the info update~",
+            "Show": true,
+            "TimeBegin": "2023-09-23T00:00:00+08:00",
+            "TimeEnd": "2023-09-26T10:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://www.youtube.com/watch?v=L3tGgYUCeU4",
+                    "Description": "Watch Honkai Impact 3rd Part 2 First Look",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
+        },
+        {
+            "MsgId": 1000009,
+            "IsDisposable": true,
+            "Severity": "Informational",
+            "RegionProfile": "Hi3Global",
+            "Title": "[EN] Honkai Impact 3rd Part 2 Latest Info Update",
+            "Message": "Ai-chan brings to you the latest info update about Honkai Impact 3rd Part 2 First Look!\r\nLet's find out in the info update~",
+            "Show": true,
+            "TimeBegin": "2023-09-23T00:00:00+08:00",
+            "TimeEnd": "2023-09-26T10:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://www.youtube.com/watch?v=L3tGgYUCeU4",
+                    "Description": "Watch Honkai Impact 3rd Part 2 First Look",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
+        }
     ]
 }
