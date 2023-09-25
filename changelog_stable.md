@@ -1,11 +1,16 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.11: Focalors
-Welcome to Collapse version 1.71.11 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
+# Collapse 1.71.12: Focalors
+Welcome to Collapse version 1.71.12 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
 
-This version supersedes 1.71.10. We recommend you update to this version, which addresses the fixes listed below.
+This version supersedes 1.71.10 and 1.71.11. We recommend you update to this version, which addresses the fixes listed below.
 
 ***
+# What's New? - 1.71.12
+- Fixed a crash while downloading Genshin Impact v4.0.0 to v4.0.1 minor patch.
+- Update SharpHDiffPatch submodule to v1.4.2
+- Return null when Steam path is not found on Honkai Impact 3rd Global Installation.
+
 # What's New? - 1.71.11
 - Fixed a developer toolset issue where compilation would fail when switching development branches
 - Fixed an issue with the notification panel caused by commit regression which would cause the app to crash unexpectedly
