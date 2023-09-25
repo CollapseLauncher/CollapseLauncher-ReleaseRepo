@@ -1,8 +1,15 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.1: [Codename TBD]
-Welcome to Collapse version 1.72.1 - Codename: TBD! This is a (*very*) early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+# Collapse 1.72.2: [Codename TBD]
+Welcome to Collapse version 1.72.2 - Codename: TBD! This is a (*very*) early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+
+This version supersedes 1.72.0 and 1.72.1. We recommend you update to this version, which addresses the fixes listed below.
 ***
+
+# What's New? - 1.72.2
+- Fixed a crash while downloading Genshin Impact v4.0.0 to v4.0.1 minor patch.
+- Update SharpHDiffPatch submodule to v1.4.2
+- Return null when Steam path is not found on Honkai Impact 3rd Global Installation.
 
 # What's New? - 1.72.1
 - Rollback WindowsAppSDK to 1.3.230724000
