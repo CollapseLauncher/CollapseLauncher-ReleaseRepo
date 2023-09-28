@@ -58,6 +58,7 @@ jobs:
 
       - name: Sync Preview ApplyUpdate
         uses: ryand56/r2-upload-action@latest
+        if: always()
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -86,6 +87,7 @@ jobs:
 
       - name: Sync Squirrel\Stable folder
         uses: ryand56/r2-upload-action@latest
+        if: always()
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
