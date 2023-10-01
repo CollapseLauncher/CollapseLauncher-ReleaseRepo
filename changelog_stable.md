@@ -1,11 +1,16 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.12: Focalors
-Welcome to Collapse version 1.71.12 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
-
-This version supersedes 1.71.10 and 1.71.11. We recommend you update to this version, which addresses the fixes listed below.
+# Collapse 1.71.13: Focalors
+Welcome to Collapse version 1.71.13 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
 
 ***
+# What's new? - 1.71.13
+- Fixed Game Repair mechanism for Genshin
+  - Fixed the condition where the game will re-verify the entire game files after Game Repair has been performed from Collapse.
+  - Fixed the issue where some files still gone missing (especially patch file) after being downloaded.
+- Fixed background activity doesn't get raised for game update
+- Update SharpHDiffPatch library to 1.4.3
+
 # What's New? - 1.71.12
 - Fixed a crash while downloading Genshin Impact v4.0.0 to v4.0.1 minor patch.
 - Update SharpHDiffPatch submodule to v1.4.2
