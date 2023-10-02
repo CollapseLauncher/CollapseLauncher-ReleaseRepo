@@ -190,7 +190,8 @@
         "IsRepairEnabled": true,
         "IsCacheUpdateEnabled": true,
         "InternalGameNameFolder": "Honkai Impact 3rd tw",
-        "InternalGameNameInConfig": "崩壊3rd"
+        "InternalGameNameInConfig": "崩壊3rd",
+        "GameDataTemplates": {}
       },
       "Korea": {
         "ProfileName": "Hi3KR",
