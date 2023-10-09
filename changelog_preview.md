@@ -1,8 +1,82 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.3: [Codename TBD]
-Welcome to Collapse version 1.72.3 - Codename: TBD! This is a (*very*) early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+# Collapse 1.72.4: [Codename TBD]
+Welcome to Collapse version 1.72.4 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 ***
+
+This update brings some fixes but more importantly trimmable CommandLine NuGet packages, including NativeAOT compilation. Due to the removal of `SetHandler`, it has major changes in the codebase.
+
+# [CVE Disclosure]
+As part of our commitment to openness to our community, we are disclosing the following vulnerability which currently impacts **all** Collapse versions prior to 1.72.4. Due to the high severity score (7.5/10) that those have, an update is mandatory to protect our userbase. More information can be found below:
+
+- .Net.Http (4.3.0 -> 4.3.4):
+https://github.com/advisories/GHSA-7jgj-8wvc-jh57
+
+- .Text.RegularExpression:
+https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2019-0820
+
+If you are on a previous preview release, we urge you to update to the latest version.
+
+# What's New? - 1.72.4
+- Add optimization for `DevDrive` 
+- Use transitive copy for MSBuild to speed up build when using CoW file system like ReFS
+- Add git commit description on console
+- `ArgumentParser` fixes
+- Fix unexpected early end bracket
+- Cleanup unnecessary string statements
+- Fix some arguments migrations misses
+- Update nuget lock file
+- [VULN] Update Http and Regex NuGet
+- Early implementation for Taskbar
+- Make Taskbar toggle text change on condition
+- Add argument to start Collapse in tray
+- Add console hiding method (thanks @muscularcandy67)
+- Initialize locales properly
+- Add function to show Collapse windows to foreground
+- Add double click function to toggle both visibility
+- Handle toggle string with StartonTray AppMode
+- Use locales for TrayIcon
+- Update Package References
+- Delete unused `CsWinRT`
+- Include packages to `TrimmableAssembly`
+- Eliminate Flipflop Situation for ToggleAllVisibility
+- `TrayIcon.xaml.cs` Cleanup
+- Add code documentation
+- Remove unused `lastConsoleStatus`
+- Adjust locales statics
+- Also hide console when `StartOnTray`
+- Fix main window not being brought up when it is minimized
+- Make `consoleWindowHandle` not static
+- On `ToggleConsoleVisibility`, always check for `EnableConsole` before method is run
+- Adjust console output
+- Update packages lock file
+- Disable single file publishing
+- Move text handler outside if bracket
+- NICE workaround for console not showing up to foreground
+- Remove unused directive & typo fixes
+- Added `VersionIndicator` to Tray
+- Added commit information to Settings page
+- Fixed version string not being correct in debug
+- Updated copyright holders
+- Fix indentation in CollapseLauncher.csproj
+- Add Bilibili (Mainland China) region support for GI & HSR
+  - Add SDK Resource Key handling
+  - Fix SDK resource handling exception
+  - Initialize default INI for Bilibili
+  - Add adjustments for Bilibili client
+  - Update SharpHDiffPatch submodule
+  - Handle the Bilibili SDK download
+  - Adding support for repairing mechanism on Bilibili clients
+  - Show SDK loading progress while buffering to memory
+- Metered network detection
+  - Improve notMetered clause in StartCheckUpdate
+  - State both Unrestricted and Unknown as notMetered
+  - Skip the entire check sequence entirely instead of partially
+  - Prevent NullReferenceException by providing fallback value
+  - Flip Metered boolean state
+  - Implement `SimpleDialog` for Force Updating in Metered Connection state
+- Keyboard shortcuts support
+
 
 # What's New? - 1.72.3
 - Adding HDR Settings for Genshin
