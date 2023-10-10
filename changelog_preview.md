@@ -18,43 +18,35 @@ https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2019-0820
 If you are on a previous preview release, we urge you to update to the latest version.
 
 # What's New? - 1.72.4
-- Add optimization for `DevDrive` 
-- Use transitive copy for MSBuild to speed up build when using CoW file system like ReFS
+- Add optimization for `DevDrive/ReFS` for development 
+  - Use transitive copy for MSBuild to speed up build when using CoW file system like ReFS
 - Add git commit description on console
 - `ArgumentParser` fixes
-- Fix unexpected early end bracket
-- Cleanup unnecessary string statements
-- Fix some arguments migrations misses
+  - Fix unexpected early end bracket
+  - Cleanup unnecessary string statements
+  - Fix some arguments migrations misses
 - Update nuget lock file
 - [VULN] Update Http and Regex NuGet
 - Early implementation for Taskbar
-- Make Taskbar toggle text change on condition
-- Add argument to start Collapse in tray
-- Add console hiding method (thanks @muscularcandy67)
-- Initialize locales properly
-- Add function to show Collapse windows to foreground
-- Add double click function to toggle both visibility
-- Handle toggle string with StartonTray AppMode
-- Use locales for TrayIcon
+  - Make Taskbar toggle text change on condition
+  - Add argument to start Collapse in tray
+  - Add console hiding method (thanks @muscularcandy67)
+  - Add function to show Collapse windows to foreground
+  - Add double click function to toggle both visibility
+  - Handle toggle string with StartonTray AppMode
+  - Eliminate Flipflop Situation for ToggleAllVisibility
+  - Also hide console when `StartOnTray`
+  - Fix main window not being brought up when it is minimized
+  - Make `consoleWindowHandle` not static
+  - On `ToggleConsoleVisibility`, always check for `EnableConsole` before method is run
+  - NICE workaround for console not showing up to foreground
+  - Remove unused directive & typo fixes
+  - Added `VersionIndicator` to Tray
 - Update Package References
 - Delete unused `CsWinRT`
 - Include packages to `TrimmableAssembly`
-- Eliminate Flipflop Situation for ToggleAllVisibility
-- `TrayIcon.xaml.cs` Cleanup
-- Add code documentation
-- Remove unused `lastConsoleStatus`
-- Adjust locales statics
-- Also hide console when `StartOnTray`
-- Fix main window not being brought up when it is minimized
-- Make `consoleWindowHandle` not static
-- On `ToggleConsoleVisibility`, always check for `EnableConsole` before method is run
-- Adjust console output
 - Update packages lock file
 - Disable single file publishing
-- Move text handler outside if bracket
-- NICE workaround for console not showing up to foreground
-- Remove unused directive & typo fixes
-- Added `VersionIndicator` to Tray
 - Added commit information to Settings page
 - Fixed version string not being correct in debug
 - Updated copyright holders
