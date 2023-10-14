@@ -1,7 +1,7 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.4: [Codename TBD]
-Welcome to Collapse version 1.72.4 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+# Collapse 1.72.5: [Codename TBD]
+Welcome to Collapse version 1.72.5 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 ***
 
 This update brings some fixes but more importantly trimmable CommandLine NuGet packages, including NativeAOT compilation. Due to the removal of `SetHandler`, it has major changes in the codebase.
@@ -16,6 +16,22 @@ https://github.com/advisories/GHSA-7jgj-8wvc-jh57
 https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2019-0820
 
 If you are on a previous preview release, we urge you to update to the latest version.
+
+# What's New? - 1.72.5
+- i18n sync
+- Settings Page Improvements:
+  - Auto hide Shortcut Buttons when disabled
+  - Changes `Debug` section name to `Additional Settings`
+  - Add button to localization page
+  - Adjust `LowerCollapsePrioOnGameLaunch` toggle name
+  - Add tooltip to `LowerCollapsePrioOnGameLaunch` toggle
+- Disable trimming for `WinUI.UI.Controls.Markdown`, thus fixing the markdown changelog not rendering properly
+- Cleanup duplicate build properties
+- Lock writer while writing JSON on serializer
+- Make `JsonSerializers` `ILTrim`-friendly via `JsonSerializerHelper`
+- Fix popping crash on SR Cache update
+- Fix `msbuild` command
+- Fix wrong formatting in `.csproj` file
 
 # What's New? - 1.72.4
 - Add optimization for `DevDrive/ReFS` for development 
