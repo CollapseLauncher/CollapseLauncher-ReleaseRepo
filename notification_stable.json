@@ -1,18 +1,18 @@
 {
     "AppPush": [
         {
-            "MsgId": 26,
+            "MsgId": 27,
             "IsDisposable": true,
             "Severity": "Warning",
-            "Title": "[EN] Collapse Codename: Focalors Hotfix (v1.71.12) is up!",
-            "Message": "We've just pushed a hotfix to fix the Game Repair on Honkai Impact 3rd v6.9 update, UI breaking issues, Installation issue in Honkai Impact 3rd and Genshin v4.0.0 to v4.0.1 minor patch download issue. Please update your launcher to the latest version in the App Settings.",
+            "Title": "[EN] Collapse Codename: Focalors Hotfix (v1.71.14) is up!",
+            "Message": "This update fixes a critical flaw in an upstream dependency for Collapse. Please update your launcher to the latest version in the App Settings.",
             "Show": true,
-            "ValidForVerBelow": "1.71.12",
+            "ValidForVerBelow": "1.71.14",
             "IsForceShowNotificationPanel": true,
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.71.12",
+                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.71.14",
                     "Description": "See Full Changelogs",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"

@@ -1,9 +1,26 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.13: Focalors
-Welcome to Collapse version 1.71.13 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
+# Collapse 1.71.14: Focalors
+Welcome to Collapse version 1.71.14 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
+
+This version contains fixes for the CVE outlined in the last preview version. Below is the CVE Disclosure notice.
+
+# [CVE Disclosure]
+As part of our commitment to openness to our community, we are disclosing the following vulnerability which currently impacts **all** Collapse versions prior to 1.71.14. Due to the high severity score (7.5/10) that those have, an update is mandatory to protect our userbase. More information can be found below:
+
+- .Net.Http (4.3.0 -> 4.3.4):
+https://github.com/advisories/GHSA-7jgj-8wvc-jh57
+
+- .Text.RegularExpression:
+https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2019-0820
+
+If you are on a previous stable release, we urge you to update to the latest version.
 
 ***
+# What's new? - 1.71.14
+- Update submodules to support HSR 1.4
+- [VULN] Patched a transitive dependency to fix critical vulnerability in Collapse
+
 # What's new? - 1.71.13
 - Fixed Game Repair mechanism for Genshin
   - Fixed the condition where the game will re-verify the entire game files after Game Repair has been performed from Collapse.
