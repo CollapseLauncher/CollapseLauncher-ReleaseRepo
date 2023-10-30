@@ -28,15 +28,63 @@ jobs:
       - name: Fetch
         uses: neon-nyan/CollapseLauncher-ReleaseRepo/actions/r2-fetcher@main
         
-      - name: Sync Metadata
+      - name: Move Metadata Root Files
+        run: |
+          mkdir ./cl-cdn/metadata/metadata-root
+          mv ./cl-cdn/metadata/metadatav2_previewconfig.json ./cl-cdn/metadata/metadatav2_previewstamp.json ./cl-cdn/metadata/metadata-root/
+          mv ./cl-cdn/metadata/metadatav2_stableconfig.json ./cl-cdn/metadata/metadatav2_stablestamp.json ./cl-cdn/metadata/metadata-root/
+      
+      - name: Sync metadata-root
         uses: ryand56/r2-upload-action@latest
+        if: always()
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: cl-cdn/metadata
-          destination-dir: cl-cdn/metadata
+          source-dir: cl-cdn/metadata/metadata-root
+          destination-dir: cl-cdn/metadata/
+          output-file-url: false
+
+      - name: Sync repair_indexes
+        uses: Wandalen/wretry.action@master
+        if: always()
+        with:
+          attempt_limit: 3
+          attempt_delay: 30000
+          action: ryand56/r2-upload-action@latest
+          with: |
+            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+            r2-bucket: ${{ secrets.R2_BUCKET }}
+            source-dir: cl-cdn/metadata/repair_indexes
+            destination-dir: cl-cdn/metadata/repair_indexes
+            output-file-url: false
+
+
+      - name: Sync game_logos
+        uses: ryand56/r2-upload-action@latest
+        if: always()
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: cl-cdn/metadata/game_logos
+          destination-dir: cl-cdn/metadata/game_logos
+          output-file-url: false
+
+      - name: Sync game_posters
+        uses: ryand56/r2-upload-action@latest
+        if: always()
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: cl-cdn/metadata/game_posters
+          destination-dir: cl-cdn/metadata/game_posters
           output-file-url: false
 
   Sync-ApplyUpdate:
@@ -75,27 +123,35 @@ jobs:
         uses: neon-nyan/CollapseLauncher-ReleaseRepo/actions/r2-fetcher@main
         
       - name: Sync Squirrel\Preview folder
-        uses: ryand56/r2-upload-action@latest
+        uses: Wandalen/wretry.action@master
         with:
-          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: cl-cdn/squirrel/preview
-          destination-dir: cl-cdn/squirrel/preview
-          output-file-url: false
+          attempt_limit: 3
+          attempt_delay: 30000
+          action: ryand56/r2-upload-action@latest
+          with: |
+            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+            r2-bucket: ${{ secrets.R2_BUCKET }}
+            source-dir: cl-cdn/squirrel/preview
+            destination-dir: cl-cdn/squirrel/preview
+            output-file-url: false
 
       - name: Sync Squirrel\Stable folder
-        uses: ryand56/r2-upload-action@latest
+        uses: Wandalen/wretry.action@master
         if: always()
         with:
-          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: cl-cdn/squirrel/stable
-          destination-dir: cl-cdn/squirrel/stable
-          output-file-url: false
+          attempt_limit: 3
+          attempt_delay: 30000
+          action: ryand56/r2-upload-action@latest
+          with: |
+            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+            r2-bucket: ${{ secrets.R2_BUCKET }}
+            source-dir: cl-cdn/squirrel/stable
+            destination-dir: cl-cdn/squirrel/stable
+            output-file-url: false
 
   Purge-Cache:
     runs-on: ubuntu-latest
