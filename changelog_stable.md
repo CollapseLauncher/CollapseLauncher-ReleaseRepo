@@ -1,7 +1,7 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.71.15: Focalors
-Welcome to Collapse version 1.71.15 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
+# Collapse 1.71.16: Focalors
+Welcome to Collapse version 1.71.16 - Codename: Focalors! This update does not contain as many new flagship features as some of our previous releases, but it contains a lot of behind-the-scenes changes for our codebase so that we can keep delivering more quality updates for you guys in the future! Thanks for using Collapse! Welcome to Fontaine, Traveler!
 
 This version contains fixes for the CVE outlined in the last preview version. Below is the CVE Disclosure notice.
 
@@ -17,14 +17,18 @@ https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2019-0820
 If you are on a previous stable release, we urge you to update to the latest version.
 
 ***
-# What's new? - 1.71.15
+# What's New? - 1.71.16
+- Adjusted order of ComboBox dropdown for voicepack selection for HSR in Game Settings menu
+- Updated submodules to support HSR 1.5
+
+# What's New? - 1.71.15
 - Fixed Collapse crashing sometimes due to `AssetEntry` count not returning an expected value during Star Rail cache update
 
-# What's new? - 1.71.14
+# What's New? - 1.71.14
 - Update submodules to support HSR 1.4
 - [VULN] Patched a transitive dependency to fix critical vulnerability in Collapse
 
-# What's new? - 1.71.13
+# What's New? - 1.71.13
 - Fixed Game Repair mechanism for Genshin
   - Fixed the condition where the game will re-verify the entire game files after Game Repair has been performed from Collapse.
   - Fixed the issue where some files still gone missing (especially patch file) after being downloaded.
@@ -145,4 +149,4 @@ This allows us to easier help troubleshoot issues with our launcher depending on
 - Fix ``GetVersion`` logic and package preload detection
 - Fix preload slices being detected as unused assets
 
-**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.71.14...CL-v1.71.15
+**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.71.15...CL-v1.71.16
