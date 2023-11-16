@@ -54,48 +54,56 @@ jobs:
         with:
           name: root-cdn
           path: root-cdn.zip
+          retention-days: 1
 
       - name: Upload root-metadata
         uses: actions/upload-artifact@v3
         with:
           name: root-metadata
           path: root-metadata.zip
+          retention-days: 1
 
       - name: Upload root-metadata
         uses: actions/upload-artifact@v3
         with:
           name: gameimages
           path: gameimages.zip
+          retention-days: 1
 
       - name: Upload indexes_hi3
         uses: actions/upload-artifact@v3
         with:
           name: indexes_hi3
           path: indexes_hi3.zip
+          retention-days: 1
           
       - name: Upload indexes_hsr
         uses: actions/upload-artifact@v3
         with:
           name: indexes_hsr
           path: indexes_hsr.zip
+          retention-days: 1
 
       - name: Upload applyupdate
         uses: actions/upload-artifact@v3
         with:
           name: applyupdate
           path: applyupdate.zip
+          retention-days: 1
 
       - name: Upload squirrel-stable
         uses: actions/upload-artifact@v3
         with:
           name: squirrel-stable
           path: squirrel-stable.zip
+          retention-days: 1
         
       - name: Upload squirrel-preview
         uses: actions/upload-artifact@v3
         with:
           name: squirrel-preview
           path: squirrel-preview.zip
+          retention-days: 1
 
   Sync-Root:
     runs-on: ubuntu-latest
@@ -266,7 +274,7 @@ jobs:
           source-dir: squirrel-preview
           destination-dir: cl-cdn/squirrel/preview
           output-file-url: false
-          
+
   Purge-Cache:
     runs-on: ubuntu-latest
     if: always() # always purge cache whenever it fails or succeed
