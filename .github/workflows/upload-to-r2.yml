@@ -278,7 +278,7 @@ jobs:
   Purge-Cache:
     runs-on: ubuntu-latest
     if: always() # always purge cache whenever it fails or succeed
-    needs: [Sync-Root, Sync-Metadata, Sync-ApplyUpdate, Sync-Squirrel-Stable, Sync-Squirrel-Preview]
+    needs: [Sync-Root, Sync-Metadata, Sync-ApplyUpdate, Sync-Squirrel-Stable, Sync-Squirrel-Preview, Sync-Indexes-Hi3, Sync-Indexes-HSR]
     steps:
       - name: Purge Cloudflare cache
         run: |
