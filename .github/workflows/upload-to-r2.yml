@@ -110,7 +110,7 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: root-cdn
 
@@ -133,12 +133,12 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: root-metadata
 
       - name: Download Archive Artifact (gameimages)
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: gameimages
 
@@ -163,7 +163,7 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: indexes_hi3
 
@@ -187,7 +187,7 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: indexes_hsr
 
@@ -211,7 +211,7 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: applyupdate
 
@@ -234,7 +234,7 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: squirrel-stable
 
@@ -257,14 +257,14 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: squirrel-preview
 
       - name: Extract Archive
         run: unzip -qq squirrel-preview.zip -d squirrel-preview
         
-      - name: Sync Squirrel\Stable folder
+      - name: Sync Squirrel\Preview folder
         uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
