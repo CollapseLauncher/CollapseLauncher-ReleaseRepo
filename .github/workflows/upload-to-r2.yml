@@ -240,7 +240,7 @@ jobs:
       - name: Extract Archive
         run: unzip -qq applyupdate.zip -d applyupdate
           
-      - name: Sync ApplyUpdate
+      - name: Sync ApplyUpdate-Preview
         uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
@@ -248,9 +248,20 @@ jobs:
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
           source-dir: applyupdate/cl-cdn/applyupdate/preview
-          destination-dir: cl-cdn
+          destination-dir: cl-cdn/preview
           output-file-url: false
 
+      - name: Sync ApplyUpdate-stable
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: applyupdate/cl-cdn/applyupdate/stable
+          destination-dir: cl-cdn/stable
+          output-file-url: false
+  
   Sync-Squirrel-Stable:
     runs-on: ubuntu-latest
     needs: Fetch
