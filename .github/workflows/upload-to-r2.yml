@@ -42,7 +42,7 @@ jobs:
         run: |
           zip -r root-cdn.zip ./cl-cdn/folderroot
           zip -r root-metadata.zip ./cl-cdn/metadata/metadata-root
-          zip -r gameimages.zip ./cl-cdn/metadata/game_logos ./cl-cdn/metadata/game_posters
+          zip -r gameimages.zip ./cl-cdn/metadata/metadata-images
           zip -r indexes_hi3.zip ./cl-cdn/metadata/repair_indexes/Hi3CN ./cl-cdn/metadata/repair_indexes/Hi3Global ./cl-cdn/metadata/repair_indexes/Hi3JP ./cl-cdn/metadata/repair_indexes/Hi3KR ./cl-cdn/metadata/repair_indexes/Hi3SEA  ./cl-cdn/metadata/repair_indexes/Hi3TW
           zip -r indexes_hsr.zip ./cl-cdn/metadata/repair_indexes/SRCN ./cl-cdn/metadata/repair_indexes/SRCNBilibili ./cl-cdn/metadata/repair_indexes/SRGlb
           zip -r applyupdate.zip ./cl-cdn/applyupdate
@@ -124,7 +124,7 @@ jobs:
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: root-cdn
+          source-dir: root-cdn/cl-cdn/folderroot
           destination-dir: cl-cdn
           output-file-url: false
 
@@ -154,7 +154,7 @@ jobs:
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: root-metadata
+          source-dir: root-metadata/cl-cdn/metadata/metadata-root
           destination-dir: cl-cdn/metadata
           output-file-url: false
   
@@ -171,14 +171,14 @@ jobs:
         run: |
           unzip -qq indexes_hi3.zip -d indexes_hi3
 
-      - name: Sync Metadata root objects
+      - name: Sync Indexes
         uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: indexes_hi3
+          source-dir: indexes_hi3/cl-cdn/metadata/repair_indexes
           destination-dir: cl-cdn/metadata/repair_indexes
           output-file-url: false
 
@@ -195,14 +195,14 @@ jobs:
         run: |
           unzip -qq indexes_hsr.zip -d indexes_hsr
 
-      - name: Sync Metadata root objects
+      - name: Sync Indexes
         uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: indexes_hsr
+          source-dir: indexes_hsr/cl-cdn/metadata/repair_indexes
           destination-dir: cl-cdn/metadata/repair_indexes
           output-file-url: false
           
@@ -225,7 +225,7 @@ jobs:
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: applyupdate
+          source-dir: applyupdate/cl-cdn/applyupdate
           destination-dir: cl-cdn
           output-file-url: false
 
@@ -248,7 +248,7 @@ jobs:
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: squirrel-stable
+          source-dir: squirrel-stable/cl-cdn/squirrel/stable
           destination-dir: cl-cdn/squirrel/stable
           output-file-url: false
 
@@ -271,7 +271,7 @@ jobs:
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: squirrel-preview
+          source-dir: squirrel-preview/cl-cdn/squirrel/preview
           destination-dir: cl-cdn/squirrel/preview
           output-file-url: false
 
