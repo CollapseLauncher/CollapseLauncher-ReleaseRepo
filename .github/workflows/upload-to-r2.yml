@@ -35,8 +35,8 @@ jobs:
           mv ./cl-cdn/metadata/game_posters/* ./cl-cdn/metadata/metadata-images/game_posters/
           mkdir -p ./cl-cdn/applyupdate/stable
           mkdir -p ./cl-cdn/applyupdate/preview
-          mv ./cl-cdn/preview ./cl-cdn/applyupdate/preview
-          mv ./cl-cdn/stable ./cl-cdn/applyupdate/stable
+          mv ./cl-cdn/preview ./cl-cdn/applyupdate/
+          mv ./cl-cdn/stable ./cl-cdn/applyupdate/
 
       - name: Archive objects
         run: |
@@ -157,7 +157,29 @@ jobs:
           source-dir: root-metadata/cl-cdn/metadata/metadata-root
           destination-dir: cl-cdn/metadata
           output-file-url: false
-  
+
+      - name: Sync Metadata logos objects
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: root-metadata/cl-cdn/metadata/game_logos
+          destination-dir: cl-cdn/metadata/game_logos
+          output-file-url: false
+
+      - name: Sync Metadata posters objects
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: root-metadata/cl-cdn/metadata/game_posters
+          destination-dir: cl-cdn/metadata/game_posters
+          output-file-url: false
+
   Sync-Indexes-Hi3:
     runs-on: ubuntu-latest
     needs: Fetch
@@ -225,7 +247,7 @@ jobs:
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: applyupdate/cl-cdn/applyupdate
+          source-dir: applyupdate/cl-cdn/applyupdate/preview
           destination-dir: cl-cdn
           output-file-url: false
 
