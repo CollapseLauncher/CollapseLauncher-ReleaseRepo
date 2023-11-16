@@ -115,7 +115,7 @@ jobs:
           name: root-cdn
 
       - name: Extract Archive
-        run: unzip -qq root-cdn/root-cdn.zip -d root-cdn
+        run: unzip -qq root-cdn.zip -d root-cdn
 
       - name: Sync Root Folder
         uses: ryand56/r2-upload-action@latest
@@ -144,8 +144,8 @@ jobs:
 
       - name: Extract Archive
         run: |
-          unzip -qq root-metadata/root-metadata.zip -d root-metadata
-          unzip -qq gameimages/gameimages.zip -d root-metadata
+          unzip -qq root-metadata.zip -d root-metadata
+          unzip -qq gameimages.zip -d root-metadata
 
       - name: Sync Metadata root objects
         uses: ryand56/r2-upload-action@latest
@@ -169,7 +169,7 @@ jobs:
 
       - name: Extract Archive
         run: |
-          unzip -qq indexes_hi3/indexes_hi3.zip -d indexes_hi3
+          unzip -qq indexes_hi3.zip -d indexes_hi3
 
       - name: Sync Metadata root objects
         uses: ryand56/r2-upload-action@latest
@@ -193,7 +193,7 @@ jobs:
 
       - name: Extract Archive
         run: |
-          unzip -qq indexes_hsr/indexes_hsr.zip -d indexes_hsr
+          unzip -qq indexes_hsr.zip -d indexes_hsr
 
       - name: Sync Metadata root objects
         uses: ryand56/r2-upload-action@latest
@@ -216,7 +216,7 @@ jobs:
           name: applyupdate
 
       - name: Extract Archive
-        run: unzip -qq applyupdate/applyupdate.zip -d applyupdate
+        run: unzip -qq applyupdate.zip -d applyupdate
           
       - name: Sync ApplyUpdate
         uses: ryand56/r2-upload-action@latest
@@ -239,7 +239,7 @@ jobs:
           name: squirrel-stable
 
       - name: Extract Archive
-        run: unzip -qq squirrel-stable/squirrel-stable.zip -d squirrel-stable
+        run: unzip -qq squirrel-stable.zip -d squirrel-stable
         
       - name: Sync Squirrel\Stable folder
         uses: ryand56/r2-upload-action@latest
@@ -262,7 +262,7 @@ jobs:
           name: squirrel-preview
 
       - name: Extract Archive
-        run: unzip -qq squirrel-preview/squirrel-preview.zip -d squirrel-preview
+        run: unzip -qq squirrel-preview.zip -d squirrel-preview
         
       - name: Sync Squirrel\Stable folder
         uses: ryand56/r2-upload-action@latest
