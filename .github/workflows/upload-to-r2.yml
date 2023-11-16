@@ -44,7 +44,7 @@ jobs:
           zip -r root-metadata.zip ./cl-cdn/metadata/metadata-root
           zip -r gameimages.zip ./cl-cdn/metadata/metadata-images
           zip -r indexes_hi3.zip ./cl-cdn/metadata/repair_indexes/Hi3CN ./cl-cdn/metadata/repair_indexes/Hi3Global ./cl-cdn/metadata/repair_indexes/Hi3JP ./cl-cdn/metadata/repair_indexes/Hi3KR ./cl-cdn/metadata/repair_indexes/Hi3SEA  ./cl-cdn/metadata/repair_indexes/Hi3TW
-          zip -r indexes_hsr.zip ./cl-cdn/metadata/repair_indexes/SRCN ./cl-cdn/metadata/repair_indexes/SRCNBilibili ./cl-cdn/metadata/repair_indexes/SRGlb
+          zip -r indexes_hsr.zip ./cl-cdn/metadata/repair_indexes/SRCN ./cl-cdn/metadata/repair_indexes/HSRCNBilibili ./cl-cdn/metadata/repair_indexes/SRGlb
           zip -r applyupdate.zip ./cl-cdn/applyupdate
           zip -r squirrel-stable.zip ./cl-cdn/squirrel/stable
           zip -r squirrel-preview.zip ./cl-cdn/squirrel/preview
