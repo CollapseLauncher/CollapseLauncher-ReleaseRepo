@@ -1,63 +1,64 @@
 {
     "AppPush": [
-        {
-            "MsgId": 27,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "Title": "[EN] Collapse Codename: Focalors Hotfix (v1.71.14) is up!",
-            "Message": "This update fixes a critical flaw in an upstream dependency for Collapse. Please update your launcher to the latest version in the App Settings.",
-            "Show": true,
-            "ValidForVerBelow": "1.71.14",
-            "IsForceShowNotificationPanel": true,
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/neon-nyan/Collapse/releases/tag/CL-v1.71.14",
-                    "Description": "See Full Changelogs",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        }
     ],
     "RegionPush": [
         {
-            "MsgId": 9,
+            "MsgId": 7000003,
             "IsDisposable": true,
-            "Severity": "Informational",
-            "RegionProfile": "Hi3SEA",
-            "Title": "[EN] Honkai Impact 3rd Part 2 Latest Info Update",
-            "Message": "Ai-chan brings to you the latest info update about Honkai Impact 3rd Part 2 First Look!\r\nLet's find out in the info update~",
+            "Severity": "Warning",
+            "RegionProfile": "SRGlb",
+            "Title": "[EN] Honkai: Star Rail HDR Issue",
+            "Message": "Heyya Trailblazers!\r\nWe have noticed that HoYo have pushed a patch in a way that Collapse currently cannot handle. We are working on the fix but if you need the fix right now you can click the button below to read on how to apply the patch manually!",
             "Show": true,
-            "TimeBegin": "2023-09-23T00:00:00+08:00",
-            "TimeEnd": "2023-09-26T10:00:00+08:00",
+            "TimeBegin": "2023-11-17T00:00:00+08:00",
+            "TimeEnd": "2023-12-20T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://www.youtube.com/watch?v=L3tGgYUCeU4",
-                    "Description": "Watch Honkai Impact 3rd Part 2 First Look",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeBrand"
+                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
+                    "Description": "Patch Workaround",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
                 }
             }
         },
         {
-            "MsgId": 1000009,
+            "MsgId": 8000002,
             "IsDisposable": true,
-            "Severity": "Informational",
-            "RegionProfile": "Hi3Global",
-            "Title": "[EN] Honkai Impact 3rd Part 2 Latest Info Update",
-            "Message": "Ai-chan brings to you the latest info update about Honkai Impact 3rd Part 2 First Look!\r\nLet's find out in the info update~",
+            "Severity": "Warning",
+            "RegionProfile": "SRCN",
+            "Title": "[EN] Honkai: Star Rail HDR Issue",
+            "Message": "Heyya Trailblazers!\r\nWe have noticed that HoYo have pushed a patch in a way that Collapse currently cannot handle. We are working on the fix but if you need the fix right now you can click the button below to read on how to apply the patch manually!",
             "Show": true,
-            "TimeBegin": "2023-09-23T00:00:00+08:00",
-            "TimeEnd": "2023-09-26T10:00:00+08:00",
+            "TimeBegin": "2023-11-17T00:00:00+08:00",
+            "TimeEnd": "2023-12-20T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://www.youtube.com/watch?v=L3tGgYUCeU4",
-                    "Description": "Watch Honkai Impact 3rd Part 2 First Look",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeBrand"
+                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
+                    "Description": "Patch Workaround",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
+        },
+        {
+            "MsgId": 9000002,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "HSRCNBilibili",
+            "Title": "[EN] Honkai: Star Rail HDR Issue",
+            "Message": "Heyya Trailblazers!\r\nWe have noticed that HoYo have pushed a patch in a way that Collapse currently cannot handle. We are working on the fix but if you need the fix right now you can click the button below to read on how to apply the patch manually!",
+            "Show": true,
+            "TimeBegin": "2023-11-17T00:00:00+08:00",
+            "TimeEnd": "2023-12-20T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
+                    "Description": "Patch Workaround",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
                 }
             }
         }
