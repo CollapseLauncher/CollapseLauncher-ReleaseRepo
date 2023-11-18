@@ -43,6 +43,26 @@
             }
         },
         {
+            "MsgId": 8000003,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "SRCN",
+            "Title": "[ZH] 崩坏：星穹铁道 HDR 问题",
+            "Message": "嘿，开拓者！\r\n我们注意到米哈游以一种 Collapse 目前暂不支持的方式推送了补丁。我们正努力修复，但如果您已迫不及待，您可以点击下方按钮阅读关于如何手动应用补丁的指南！",
+            "Show": true,
+            "TimeBegin": "2023-11-17T00:00:00+08:00",
+            "TimeEnd": "2023-12-20T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
+                    "Description": "补丁解决方案",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
+        },
+        {
             "MsgId": 9000002,
             "IsDisposable": true,
             "Severity": "Warning",
@@ -57,6 +77,26 @@
                 "ActionValue": {
                     "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
                     "Description": "Patch Workaround",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
+        },
+        {
+            "MsgId": 9000003,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "HSRCNBilibili",
+            "Title": "[ZH] 崩坏：星穹铁道 HDR 问题",
+            "Message": "嘿，开拓者！\r\n我们注意到米哈游以一种 Collapse 目前暂不支持的方式推送了补丁。我们正努力修复，但如果您已迫不及待，您可以点击下方按钮阅读关于如何手动应用补丁的指南！",
+            "Show": true,
+            "TimeBegin": "2023-11-17T00:00:00+08:00",
+            "TimeEnd": "2023-12-20T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
+                    "Description": "补丁解决方案",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
