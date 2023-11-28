@@ -1,10 +1,11 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.76.6: [Codename TBD]
-Welcome to Collapse version 1.72.6 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+# Collapse 1.72.7: [Codename TBD]
+Welcome to Collapse version 1.72.7 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+Do note that this 1.72.7 preview update is MASSIVE. There is a lot of [codebase changed since last preview](https://github.com/CollapseLauncher/Collapse/pull/312). Update size is about ~34MB, make sure you're not using metered connection to prevent unnecessary charge!
 ***
 
-This update upgrades the project to .NET 8, which hit GA on the 14th of November. Furthermore, this fixes a lot of issues and further optimizes Collapse performance in preparation for 1.72 release imminently.
+This update (actually) upgrades the project to .NET 8, which hit GA on the 14th of November. Furthermore, this fixes a lot of issues and further optimizes Collapse performance in preparation for 1.72 release imminently.
 
 # [CVE Disclosure]
 As part of our commitment to openness to our community, we are disclosing the following vulnerability which currently impacts **all** Collapse versions prior to 1.72.4. Due to the high severity score (7.5/10) that those have, an update is mandatory to protect our userbase. More information can be found below:
@@ -17,58 +18,87 @@ https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2019-0820
 
 If you are on a previous preview release, we urge you to update to the latest version.
 
+# What's New? - 1.72.7
+- Upgrade to .NET 8.0, which hit General Availability on November 14th 2023
+- Remove unused define in `Hi3Helper.Core`
+- Begin applying Mica to window
+- Adjust workflow and publish to use net 8
+- Update `Drawing.Common` package to use net8
+- Update Windows SDK to version 22621
+- Add RuntimeIdentifier
+- Update Json nuget to 8.0.0
+- Adjust Trimmer
+- Remove unused Style Setter
+- Change Mica to DesktopAcrylic
+- Dump graphicsData and globalPerfData separately
+- Add "never show again" to HI3 MediaPack check
+- Adjust EncTool submodule changes
+- Make JSONSerializerHelper trimming friendly
+- Adjust SharpHDiffPatch submodule changes
+- Remove all `ILTrim` enforcer for dependencies
+- Rebase `FileDialogNative`
+- Dispose `_logStream` while disposing `LoggerBase`
+- Use Dialog for Unhandled Exception/Error
+- Load Genshin graphics settings from `globalPerfData` (thanks @shatyuka !)
+- Promote and update .NET dependencies
+- Run callbacks on Dispose for DiscordRPC
+- Improvements on Game Repair and Install detection
+  - Adding early Delta Patch implementation for Honkai: Star Rail
+  - Fixed Delta Patch doesn't always get detected
+  - Adding Generic Game Files repair for Honkai: Star Rail
+- Use `JsonStringEnumConverter<T>` for enum <-> string convert
+- Use .NET 8 COM Wrappers for `FileDialogNative`
+- Use .NET 8 COM Wrappers for `SevenZipExtractor`
+- Rearrange `MainPage.cs`
+- Partially update to .NET8 CommunityToolkit
+  - DataGrid & its primitives are not updated
+  - ImageEx & LinkClickedEventArgs are not updated
+- Change CsWinRT provider
+- Force Color to use Windows.UI refs
+- Fix duplicate MaxItemsWrapGrid
+- Remove unused XAML ref
+- Apply VS Code Analysis 
+- Update GeneralData Props for 4.2.0
+- Add Constant to Bypass GSP Game Running Check
+- Fix random crash while navigating back to HomePage
+- Fix Carousel restarting on LoPrio after Hover
+- Replace ImageEx package from WinUI.UI.Control 
+- Fix exception on published package 
+- Fix PropertyPath went missing on Popup type 
+- Submodule migration and Coderef cleanup 
+- Shrink `ArrayPool` size to 1 MB and use `MemoryStream` from 0
+- Use buffering on cover enumeration if size is allowed
+- Fix Compile Error on `InstallManagerBase`
+- Use `VarInt` as direct methods rather than extension
+- Fix DiscordRPC persistence issue when switching games
+- Move `GenshinHDREnforcer` before process starts
+- Add setting to control app behavior on game launch
+- Disable `QuickJit` Compilation 
+- Move reference of `SevenZipExtractor` from Core to App
+- Initial implementation for "game patch through launcher" detection
+- Cache HomePage and SettingsPage navigation
+- Fix transparent background while back to:
+  - AppSettings
+  - HomePage
+- Fix crash while navigating through cached HomePage
+- Fix HSR Delta-patching not working on moving files
+- Rearrange LauncherConfig.cs
+- Bring source generated `CoCreateInstance` into App project
+- Remove redundant methods in `FileDialogNative`
+- Change `Task<T>` to `ValueTask<T>` on `FileDialogNative`
+- Remove unnecessary `SystemBackdrop` define
+- Make `TrayIcon` methods usable publicly
+- Add "Minimize to Tray" option
+- Add action details to `TrayIcon` popup
+- Allow minimizing Collapse window from Taskbar (thanks @shatyuka)
+- Always update `TrayIcon`'s context menu (thanks @shatyuka)
+- Synced translations from Transifex
+- Disable trimming on `PInvoke` class
+(wysi)
+
 # What's New? - 1.72.6
-- Upgrade to .NET 8.0, which hit General Availability on November 14th 2023.
-  - Remove unused define in `Hi3Helper.Core`
-  - Begin applying Mica to window
-  - Adjust workflow and publish to use net 8
-  - Update `Drawing.Common` package to use net8
-  - Update Windows SDK to version 22621
-  - Add RuntimeIdentifier
-  - Update Json nuget to 8.0.0
-  - Adjust Trimmer
-  - Remove unused Style Setter
-  - Change Mica to DesktopAcrylic
-  - Dump graphicsData and globalPerfData separately
-  - Add "never show again" to HI3 MediaPack check
-  - Adjust EncTool submodule changes
-  - Make JSONSerializerHelper trimming friendly
-  - Adjust SharpHDiffPatch submodule changes
-  - Remove all `ILTrim` enforcer for dependencies
-  - Rebase `FileDialogNative`
-  - Dispose `_logStream` while disposing `LoggerBase`
-  - Use Dialog for Unhandled Exception/Error
-  - Load Genshin graphics settings from `globalPerfData` (thanks @shatyuka !)
-  - Promote and update .NET dependencies
-  - Run callbacks on Dispose for DiscordRPC
-  - Improvements on Game Repair and Install detection
-    - Adding early Delta Patch implementation for Honkai: Star Rail
-    - Fixed Delta Patch doesn't always get detected
-    - Adding Generic Game Files repair for Honkai: Star Rail
-  - Use `JsonStringEnumConverter<T>` for enum <-> string convert
-  - Use .NET 8 COM Wrappers for `FileDialogNative`
-  - Use .NET 8 COM Wrappers for `SevenZipExtractor`
-  - Rearrange `MainPage.cs`
-  - Partially update to .NET8 CommunityToolkit
-    - DataGrid & its primitives are not updated
-    - ImageEx & LinkClickedEventArgs are not updated
-  - Change CsWinRT provider
-  - Force Color to use Windows.UI refs
-  - Fix duplicate MaxItemsWrapGrid
-  - Remove unused XAML ref
-  - Apply VS Code Analysis 
-  - Update GeneralData Props for 4.2.0
-  - Add Constant to Bypass GSP Game Running Check
-  - Fix random crash while navigating back to HomePage
-  - Fix Carousel restarting on LoPrio after Hover
-  - Replace ImageEx package from WinUI.UI.Control 
-  - Fix exception on published package 
-  - Fix PropertyPath went missing on Popup type 
-  - Submodule migration and Coderef cleanup 
-  - Shrink `ArrayPool` size to 1 MB and use `MemoryStream` from 0
-  - Use buffering on cover enumeration if size is allowed
-  - Fix Compile Error on `InstallManagerBase`
-  - Use `VarInt` as direct methods rather than extension
+- Hotfixes for HSR submodule changes
+
 
 # What's New? - 1.72.5
 - i18n sync
