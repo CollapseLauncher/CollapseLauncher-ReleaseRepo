@@ -1,9 +1,8 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.7: [Codename TBD]
-Welcome to Collapse version 1.72.7 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
-Do note that this 1.72.7 preview update is MASSIVE. There is a lot of [codebase changed since last preview](https://github.com/CollapseLauncher/Collapse/pull/312). Update size is about ~34MB, make sure you're not using metered connection to prevent unnecessary charge!
-***
+# Collapse 1.72.8: [Codename TBD]
+Welcome to Collapse version 1.72.8 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+This release is a hotfix for HI3 repair function that broke on .NET 8 migration. This release also include other fixes, mainly backend for the UI bug and SevenZipExtractor module.
 
 This update (actually) upgrades the project to .NET 8, which hit GA on the 14th of November. Furthermore, this fixes a lot of issues and further optimizes Collapse performance in preparation for 1.72 release imminently.
 
@@ -17,6 +16,12 @@ https://github.com/advisories/GHSA-7jgj-8wvc-jh57
 https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2019-0820
 
 If you are on a previous preview release, we urge you to update to the latest version.
+
+# What's New? - 1.72.8
+- Update SevenZipExtractor submodule
+> Change property instead for progress update
+- Fix audio manifest repair bug due to buffer issue
+- Workaround to fix window trying to maximize on double tap to the titlebar (thanks @shatyuka !)
 
 # What's New? - 1.72.7
 - Upgrade to .NET 8.0, which hit General Availability on November 14th 2023
