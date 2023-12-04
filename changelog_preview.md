@@ -1,21 +1,18 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.8: [Codename TBD]
+# Collapse 1.72.9: [Codename TBD]
 Welcome to Collapse version 1.72.8 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
-This release is a hotfix for HI3 repair function that broke on .NET 8 migration. This release also include other fixes, mainly backend for the UI bug and SevenZipExtractor module.
 
-This update (actually) upgrades the project to .NET 8, which hit GA on the 14th of November. Furthermore, this fixes a lot of issues and further optimizes Collapse performance in preparation for 1.72 release imminently.
-
-# [CVE Disclosure]
-As part of our commitment to openness to our community, we are disclosing the following vulnerability which currently impacts **all** Collapse versions prior to 1.72.4. Due to the high severity score (7.5/10) that those have, an update is mandatory to protect our userbase. More information can be found below:
-
-- .Net.Http (4.3.0 -> 4.3.4):
-https://github.com/advisories/GHSA-7jgj-8wvc-jh57
-
-- .Text.RegularExpression:
-https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2019-0820
-
-If you are on a previous preview release, we urge you to update to the latest version.
+# What's New? - 1.72.9
+- **[Fix]** Fixed crash on Genshin Repair
+- **[New]** Run Collapse at startup
+> This is done using Task Scheduler. You can also set it to hide all Collapse window to Taskbar when it automatically started on startup.
+- **[Imp]** Improved images download handling
+> This fixes issues with background/event images being incompletely downloaded and also improved the image transition when it first appeared
+- **[Imp]** Add keyboard shortcut to reload the current page
+> You can use either F5 or Ctrl+R to refresh the current page you are in.
+> When you are in the homepage, it will reload the current region and retrieve latest state of the game (update, events, etc)
+- **[Loc]** Synced localization from Transifex
 
 # What's New? - 1.72.8
 - Update SevenZipExtractor submodule
