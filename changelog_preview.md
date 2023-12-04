@@ -1,17 +1,24 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.9: [Codename TBD]
+# Collapse 1.72.10: [Codename TBD]
 Welcome to Collapse version 1.72.8 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+
+# What's New? - 1.72.10
+- **[Fix]** Fixed Settings page crashing due to InvariantGlobalization
+- **[Fix]** Fixed typo in TrayIcon popup
 
 # What's New? - 1.72.9
 - **[Fix]** Fixed crash on Genshin Repair
 - **[New]** Run Collapse at startup
 > This is done using Task Scheduler. You can also set it to hide all Collapse window to Taskbar when it automatically started on startup.
+
 - **[Imp]** Improved images download handling
-> This fixes issues with background/event images being incompletely downloaded and also improved the image transition when it first appeared
+> This fixes issues with background/event images being incompletely downloaded and also improved the image transition when it first appeared.
+
 - **[Imp]** Add keyboard shortcut to reload the current page
 > You can use either F5 or Ctrl+R to refresh the current page you are in.
 > When you are in the homepage, it will reload the current region and retrieve latest state of the game (update, events, etc)
+
 - **[Loc]** Synced localization from Transifex
 
 # What's New? - 1.72.8
