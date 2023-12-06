@@ -3,7 +3,7 @@ set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _Inno="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=Collapse
-set version=1.72.7
+set version=1.71.12
 set channel=1
 
 :checkRepoLocation
@@ -79,7 +79,7 @@ set squirrelPath=squirrel
 set buildPath=%squirrelPath%\buildKitchen-%channel%
 set latestPath=%squirrelPath%\latestKitchen-%channel%
 set releasePath=%squirrelPath%\specs\%channel%
-set app="F:\Cache\nuget\packages\clowd.squirrel\2.11.1\tools\squirrel.exe"
+set app="%userprofile%\.nuget\packages\clowd.squirrel\2.11.1\tools\squirrel.exe"
 :: set brotli=brotli-mt-w64.exe -T %thread% -k -11 -f -B -v
 set brotli=ApplyUpdate.exe compress
 
