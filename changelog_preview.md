@@ -4,7 +4,6 @@
 Welcome to Collapse version 1.72.11 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 
 # What's New? - 1.72.11
-# What's New? - 1.72.11
 - **[Imp]** Carousel improvements
   - Regard pips pager as a part of carousel & only open link on left click.
   - Auto stop carousel scrolling when main window is minimized and also when on tray.
