@@ -1,7 +1,45 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.10: [Codename TBD]
-Welcome to Collapse version 1.72.8 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+# Collapse 1.72.11: [Codename TBD]
+Welcome to Collapse version 1.72.11 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+
+# What's New? - 1.72.11
+- Add @shatyuka as a contributor, welcome \o/
+- Translate the startup language select page (thanks @shatyuka !)
+- HomePage improvements:
+  - Cache `isGameRunning` in `HomePageXAML.cs` to reduce internal API calls
+  - Increase default `RefreshRate` by 100ms (now at 200ms)
+  - Increase default `RefreshRate` to 1000ms when in Tray
+- Fix missing event subscribe for language change
+- Make language changes without restarting
+> This now means that Collapse can dynamically reload for localization updates!
+- Remove unused `HPatchUtilStat` enum 
+- Use `TryGetCDNFallbackStream` for certain download operations
+- Set console output to new allocated console (thanks @shatyuka !)
+> This fixes a nasty Rider issue which prevented the app from launching in debug
+- Fixes and improvements for HI3:
+  - Update `CGMetadata`
+  - Fix issue where HI3 would redownload deleted CGs
+  - Made CG asset check asynchronous
+  - Made audio asset check asynchronous
+  - Update `AudioPCKType` enum
+  - Only fetch audio files that match selected language
+- Dispose `HTTPResponseMessage` when disposing `BridgedNetworkStream`
+- Fix disposal issue for `FallbackCDNUtil`
+- Properly handle game channel IDs
+> This forces Collapse to check the channel ID of a game at all times versus only during an update, initial setup and
+> initial installation.
+- Bring `TrayIcon` `popupHelp` to publish
+- Fixed some UI inconsistencies for file dialogs during Delta Patch update procedure
+- Use wrapper for disposing `CancellationTokenSource`
+> This is due to the fact that we do not have a way to know if the `CancellationTokenSource` is cancelled, so we wrap it
+> in `CancellationTokenSourceManager` and add an `IsDisposed` property.
+- Add support for LZMA2 compression for `HDIFF` format
+- Various performance improvements on `SharpHDIFF` library
+- Carousel improvements (thanks @shatyuka !):
+  - Open image links only if left click
+  - Consider pips as part of carousel module
+- Localization updates
 
 # What's New? - 1.72.10
 - **[Fix]** Fixed Settings page crashing due to InvariantGlobalization
