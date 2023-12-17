@@ -4,42 +4,42 @@
 Welcome to Collapse version 1.72.11 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 
 # What's New? - 1.72.11
-- Add @shatyuka as a contributor, welcome \o/
-- Translate the startup language select page (thanks @shatyuka !)
-- HomePage improvements:
-  - Cache `isGameRunning` in `HomePageXAML.cs` to reduce internal API calls
-  - Increase default `RefreshRate` by 100ms (now at 200ms)
-  - Increase default `RefreshRate` to 1000ms when in Tray
-- Fix missing event subscribe for language change
-- Make language changes without restarting
-> This now means that Collapse can dynamically reload for localization updates!
-- Remove unused `HPatchUtilStat` enum 
-- Use `TryGetCDNFallbackStream` for certain download operations
-- Set console output to new allocated console (thanks @shatyuka !)
-> This fixes a nasty Rider issue which prevented the app from launching in debug
-- Fixes and improvements for HI3:
-  - Update `CGMetadata`
-  - Fix issue where HI3 would redownload deleted CGs
-  - Made CG asset check asynchronous
-  - Made audio asset check asynchronous
-  - Update `AudioPCKType` enum
-  - Only fetch audio files that match selected language
-- Dispose `HTTPResponseMessage` when disposing `BridgedNetworkStream`
-- Fix disposal issue for `FallbackCDNUtil`
-- Properly handle game channel IDs
-> This forces Collapse to check the channel ID of a game at all times versus only during an update, initial setup and
-> initial installation.
-- Bring `TrayIcon` `popupHelp` to publish
-- Fixed some UI inconsistencies for file dialogs during Delta Patch update procedure
-- Use wrapper for disposing `CancellationTokenSource`
-> This is due to the fact that we do not have a way to know if the `CancellationTokenSource` is cancelled, so we wrap it
-> in `CancellationTokenSourceManager` and add an `IsDisposed` property.
-- Add support for LZMA2 compression for `HDIFF` format
-- Various performance improvements on `SharpHDIFF` library
-- Carousel improvements (thanks @shatyuka !):
-  - Open image links only if left click
-  - Consider pips as part of carousel module
-- Localization updates
+# What's New? - 1.72.11
+- **[Imp]** Carousel improvements
+  - Regard pips pager as a part of carousel & only open link on left click.
+  - Auto stop carousel scrolling when main window is minimized and also when on tray.
+
+- **[Imp]** Assign the correct `channel_id` and `sub_channel_id` on game's config.ini file
+  - This should help game that uses the same binaries for multiple region (mainly Bilibili).
+
+- **[Imp]** Performance improvements
+  - Change game state checker refresh rate to 200ms (before: 100ms).
+  - Automatically adjust game state checker refresh rate when main window is on tray (to 1000ms).
+  - Cache `IsGameRunning` to reduce CPU time.
+
+- **[Imp]** Language selector improvements
+  - Changing language now does not require app restart.
+  - Automatically select the language of current system when starting for the first time.
+  - Localize OOBE page.
+ 
+- **[Imp]** Updater routine improvements
+  - Run check update even on metered connection.
+  - Increase delay between checks every 60 minutes (15 minutes default).
+
+- **[Fix]** Honkai Impact 3rd game repair fixes
+  - Update game assets references for v7.1.
+  - Fixed game repair redownloading deleted assets (Audio and CGs, Language assets deletion is broken in-game).
+  - Parallelize CG status check (improved Game Repair fetch time).
+
+- **[Fix]** Fixed inconsistent behavior for delta patch dialog when game is corrupted
+
+- **[Fix]** Backend fixes
+  - Update SharpHDiff submodule for code cleanups.
+  - Fixed memory leak in `CancellationTokenSource`.
+  - Fixed console marshalling issue (for developing with JB Rider).
+  - Fixed disposing issue in `FallbackCDNUtil`.
+  - Fixed issue in tray's toggle not assigning its toggle texts correctly.
+
 
 # What's New? - 1.72.10
 - **[Fix]** Fixed Settings page crashing due to InvariantGlobalization
