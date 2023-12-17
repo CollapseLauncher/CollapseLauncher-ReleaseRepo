@@ -1,8 +1,44 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.10: [Codename TBD]
-Welcome to Collapse version 1.72.8 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+# Collapse 1.72.11: [Codename TBD]
+Welcome to Collapse version 1.72.11 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 
+# What's New? - 1.72.11
+- **[Imp]** Carousel improvements
+  - Regard pips pager as a part of carousel & only open link on left click.
+  - Auto stop carousel scrolling when main window is minimized and also when on tray.
+
+- **[Imp]** Assign the correct `channel_id` and `sub_channel_id` on game's config.ini file
+  - This should help game that uses the same binaries for multiple region (mainly Bilibili).
+
+- **[Imp]** Performance improvements
+  - Change game state checker refresh rate to 200ms (before: 100ms).
+  - Automatically adjust game state checker refresh rate when main window is on tray (to 1000ms).
+  - Cache `IsGameRunning` to reduce CPU time.
+
+- **[Imp]** Language selector improvements
+  - Changing language now does not require app restart.
+  - Automatically select the language of current system when starting for the first time.
+  - Localize OOBE page.
+ 
+- **[Imp]** Updater routine improvements
+  - Run check update even on metered connection.
+  - Increase delay between checks every 60 minutes (15 minutes default).
+
+- **[Fix]** Honkai Impact 3rd game repair fixes
+  - Update game assets references for v7.1.
+  - Fixed game repair redownloading deleted assets (Audio and CGs, Language assets deletion is broken in-game).
+  - Parallelize CG status check (improved Game Repair fetch time).
+
+- **[Fix]** Fixed inconsistent behavior for delta patch dialog when game is corrupted
+
+- **[Fix]** Backend fixes
+  - Update SharpHDiff submodule for code cleanups.
+  - Fixed memory leak in `CancellationTokenSource`.
+  - Fixed console marshalling issue (for developing with JB Rider).
+  - Fixed disposing issue in `FallbackCDNUtil`.
+  - Fixed issue in tray's toggle not assigning its toggle texts correctly.
+  
 # What's New? - 1.72.10
 - **[Fix]** Fixed Settings page crashing due to InvariantGlobalization
 - **[Fix]** Fixed typo in TrayIcon popup
