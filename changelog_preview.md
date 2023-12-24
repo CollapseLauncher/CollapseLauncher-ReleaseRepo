@@ -1,7 +1,19 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.11: [Codename TBD]
-Welcome to Collapse version 1.72.11 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+# Collapse 1.72.12: [Codename TBD]
+Welcome to Collapse version 1.72.12 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+
+# What's New? - 1.72.12
+- **[Fix]** Fixed error when exporting registry on Game Settings Page(s)
+- **[Fix]** Fixed game launch errors due to malformed working directory passed when starting game process
+- **[Fix]** Fixed error on deleting game package(s)
+- **[Imp]** Delete Collapse' metadata file when switching release branch
+- **[Imp]** Updated GI settings props for 4.3
+- **[Imp]** Added more HSR Community Tools: Pokke's Library https://pokkelibrary.com/about-us/
+- **[Imp]** Improved some console logs
+  - Removed unused padding on HI3 MediaPack skipInstall log
+  - Removed unnecessary log output on HSR game repair
+- **[Loc]** Update localizations from Transifex
 
 # What's New? - 1.72.11
 - **[Imp]** Carousel improvements
@@ -46,20 +58,20 @@ Welcome to Collapse version 1.72.11 - Codename: TBD! This is an early look at th
 # What's New? - 1.72.9
 - **[Fix]** Fixed crash on Genshin Repair
 - **[New]** Run Collapse at startup
-> This is done using Task Scheduler. You can also set it to hide all Collapse window to Taskbar when it automatically started on startup.
+  - This is done using Task Scheduler. You can also set it to hide all Collapse window to Taskbar when it automatically started on startup.
 
 - **[Imp]** Improved images download handling
-> This fixes issues with background/event images being incompletely downloaded and also improved the image transition when it first appeared.
+  - This fixes issues with background/event images being incompletely downloaded and also improved the image transition when it first appeared.
 
 - **[Imp]** Add keyboard shortcut to reload the current page
-> You can use either F5 or Ctrl+R to refresh the current page you are in.
-> When you are in the homepage, it will reload the current region and retrieve latest state of the game (update, events, etc)
+  - You can use either F5 or Ctrl+R to refresh the current page you are in.
+  - When you are in the homepage, it will reload the current region and retrieve latest state of the game (update, events, etc)
 
 - **[Loc]** Synced localization from Transifex
 
 # What's New? - 1.72.8
 - Update SevenZipExtractor submodule
-> Change property instead for progress update
+  - Change property instead for progress update
 - Fix audio manifest repair bug due to buffer issue
 - Workaround to fix window trying to maximize on double tap to the titlebar (thanks @shatyuka !)
 
@@ -143,7 +155,6 @@ Welcome to Collapse version 1.72.11 - Codename: TBD! This is an early look at th
 
 # What's New? - 1.72.6
 - Hotfixes for HSR submodule changes
-
 
 # What's New? - 1.72.5
 - i18n sync
