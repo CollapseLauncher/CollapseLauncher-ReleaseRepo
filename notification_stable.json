@@ -3,100 +3,60 @@
     ],
     "RegionPush": [
         {
-            "MsgId": 7000003,
+            "MsgId": 7000005,
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "SRGlb",
-            "Title": "[EN] Honkai: Star Rail HDR Issue",
-            "Message": "Heyya Trailblazers!\r\nWe have noticed that HoYo have pushed a patch in a way that Collapse currently cannot handle. We are working on the fix but if you need the fix right now you can click the button below to read on how to apply the patch manually!",
+            "Title": "[EN] Honkai: Star Rail Launch 'Global Distribution' error",
+            "Message": "Heyya Trailblazers!\r\nWe have noticed that on the latest update for HSR, there is a chance that your game will not start and give out 'Global Distribution' error. We have implemented a fix, but in the event that you still cannot open the game, click the button below for a workaround.",
             "Show": true,
-            "TimeBegin": "2023-11-17T00:00:00+08:00",
-            "TimeEnd": "2023-12-20T00:00:00+08:00",
+            "TimeBegin": "2023-12-30T00:00:00+08:00",
+            "TimeEnd": "2024-01-15T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
-                    "Description": "Patch Workaround",
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues/350",
+                    "Description": "Game Launch Workaround",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
         },
         {
-            "MsgId": 8000002,
+            "MsgId": 8000005,
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "SRCN",
-            "Title": "[EN] Honkai: Star Rail HDR Issue",
-            "Message": "Heyya Trailblazers!\r\nWe have noticed that HoYo have pushed a patch in a way that Collapse currently cannot handle. We are working on the fix but if you need the fix right now you can click the button below to read on how to apply the patch manually!",
+            "Title": "[EN] Honkai: Star Rail Launch 'Global Distribution' error",
+            "Message": "Heyya Trailblazers!\\r\\nWe have noticed that on the latest update for HSR, there is a chance that your game will not start and give out 'Global Distribution' error. We have implemented a fix, but in the event that you still cannot open the game, click the button below for a workaround.",
             "Show": true,
-            "TimeBegin": "2023-11-17T00:00:00+08:00",
-            "TimeEnd": "2023-12-20T00:00:00+08:00",
+            "TimeBegin": "2023-12-30T00:00:00+08:00",
+            "TimeEnd": "2023-01-15T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
-                    "Description": "Patch Workaround",
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues/350",
+                    "Description": "Game Launch Workaround",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
         },
         {
-            "MsgId": 8000003,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "SRCN",
-            "Title": "[ZH] 崩坏：星穹铁道 HDR 问题",
-            "Message": "嘿，开拓者！\r\n我们注意到米哈游以一种 Collapse 目前暂不支持的方式推送了补丁。我们正努力修复，但如果您已迫不及待，您可以点击下方按钮阅读关于如何手动应用补丁的指南！",
-            "Show": true,
-            "TimeBegin": "2023-11-17T00:00:00+08:00",
-            "TimeEnd": "2023-12-20T00:00:00+08:00",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
-                    "Description": "补丁解决方案",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        },
-        {
-            "MsgId": 9000002,
+            "MsgId": 9000005,
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "HSRCNBilibili",
-            "Title": "[EN] Honkai: Star Rail HDR Issue",
-            "Message": "Heyya Trailblazers!\r\nWe have noticed that HoYo have pushed a patch in a way that Collapse currently cannot handle. We are working on the fix but if you need the fix right now you can click the button below to read on how to apply the patch manually!",
+            "Title": "[EN] Honkai: Star Rail Launch 'Global Distribution' error",
+            "Message": "Heyya Trailblazers!\\r\\nWe have noticed that on the latest update for HSR, there is a chance that your game will not start and give out 'Global Distribution' error. We have implemented a fix, but in the event that you still cannot open the game, click the button below for a workaround.",
             "Show": true,
-            "TimeBegin": "2023-11-17T00:00:00+08:00",
-            "TimeEnd": "2023-12-20T00:00:00+08:00",
+            "TimeBegin": "2023-12-30T00:00:00+08:00",
+            "TimeEnd": "2023-01-15T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
-                    "Description": "Patch Workaround",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        },
-        {
-            "MsgId": 9000003,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "HSRCNBilibili",
-            "Title": "[ZH] 崩坏：星穹铁道 HDR 问题",
-            "Message": "嘿，开拓者！\r\n我们注意到米哈游以一种 Collapse 目前暂不支持的方式推送了补丁。我们正努力修复，但如果您已迫不及待，您可以点击下方按钮阅读关于如何手动应用补丁的指南！",
-            "Show": true,
-            "TimeBegin": "2023-11-17T00:00:00+08:00",
-            "TimeEnd": "2023-12-20T00:00:00+08:00",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/.github/blob/main/HSR-Issue-HDR-1.5.0.md",
-                    "Description": "补丁解决方案",
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues/350",
+                    "Description": "Game Launch Workaround",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
