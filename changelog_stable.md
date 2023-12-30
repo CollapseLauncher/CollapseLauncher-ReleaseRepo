@@ -1,11 +1,11 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.13: Senadina
+# Collapse 1.72.14: Senadina
 It's been a long time coming, and we've been quiet in the last few months to give you guys the **BIGGEST** Collapse update
 we've ever done this year. Packed with a ton of useful features and improvements, we hope you enjoy using this as much as we did
 making it!
 
-Welcome to Collapse version 1.72.13 - Codename: Senadina! 
+Welcome to Collapse version 1.72.14 - Codename: Senadina! 
 
 ***
 
@@ -23,7 +23,7 @@ You can also access this menu by using the default key combination of "<kbd>CTRL
 You can also rebind most of the keys, and swap modifiers should you want.
 
 ## New Addition: Bilibili Region
-Shipping with Collapse 1.72.12 is the inclusion of a brand new region for miHoYo / Cognosphere games: China Bilibili.
+Shipping with Collapse 1.72.14 is the inclusion of a brand new region for miHoYo / Cognosphere games: China Bilibili.
 Thank you to everyone involved in the integration of the SDK and for our community for providing us with the access to add
 region support!
 
@@ -58,7 +58,7 @@ KQM now has guides for Honkai: Star Rail, so we've decided to include them in ou
 ### New Localization: Thai & French (Thanks @kinodev, @armzyaec1234 @Hasukay, @Zeide, @CryoTechnic)
 New locales always help in making Collapse accessible to more people. Thanks everyone for their numerous contributions!
 
-Note: French is coming in the next minor build of Collapse.
+Note: Full French language support is coming in the next minor build of Collapse.
 
 ### Metered Connection Mode
 Collapse is now metered connection-aware. This means that if you are on a limited bandwidth, Collapse will ask you if you
@@ -68,4 +68,4 @@ would like to proceed before checking updates for Collapse and Game updates.
 Normally we would list all the minor changes here, but due to the amount of commits, we've decided against it for this release.
 Read the full changelog below!
 
-**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.72.13...CL-v1.71.16
+**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.72.14...CL-v1.71.16
