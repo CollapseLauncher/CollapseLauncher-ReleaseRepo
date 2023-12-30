@@ -1,7 +1,25 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.12: [Codename TBD]
-Welcome to Collapse version 1.72.12 - Codename: TBD! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+# Collapse 1.72.14: [Codename Senadina]
+Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+
+# What's New? - 1.72.14
+- **[Fix]** Fixed Double Empty issue on SevenZipExtractor that caused full crash
+- **[Fix]** Fixed missing `subChanneID` and `channeID` required on `config.ini` file
+  - This fix HSR `Distribution Error` when launching the game #350
+- **[Fix]** Fixed Collapse not uninstalled correctly due to missing entries on `InnoSetup log files`
+- **[Fix]** Fixed HI3 7.2 `CGMetadata` repair stating `NotFound` error
+- **[Fix]** Fixed `PropVariant` issue with `SevenZipExtractor` submodule
+- **[Imp]** Use the new `CollapseMetadata V2` on HI3 for smaller fetch and faster repair
+- **[Imp]** Update SharpHDiffPatch submodule
+- **[Imp]** Implement `plugin` API to fetch games hotfixes automatically (thanks @shatyuka !)
+- **[Imp]** Add warning for HSR GameSettings for those who got the new Settings mechanics
+  - The new settings save all game related settings into one registry key, similar to Genshin. While this is doable for us to implement, the early investigation revealed that the value of said registry is always nulled and something is indeed wrong with it. So we put a warning for those who got it that the behavior for Collapse' GSP for HSR might be unpredictable.
+  - To get rid of the A/B testing that they do, you can try to reset the entire HSR registry key by deleting them in `HKCU/Software/Cognosphere`, find the one related to your game region and (backup first, then) delete the entire key (folder).
+- **[Loc]** Sync translation from transifex
+
+# What's New? - 1.72.13
+- **[Fix]** Hotfix for HSR 1.6.0 repair/cache mechanism
 
 # What's New? - 1.72.12
 - **[Fix]** Fixed error when exporting registry on Game Settings Page(s)
