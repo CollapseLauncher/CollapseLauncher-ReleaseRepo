@@ -6,7 +6,7 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 # What's New? - 1.72.14
 - **[Fix]** Fixed Double Empty issue on SevenZipExtractor that caused full crash
 - **[Fix]** Fixed missing `subChanneID` and `channeID` required on `config.ini` file
-  - This fix HSR `Distribution Error` when launching the game #350
+    - This fix HSR `Distribution Error` when launching the game #350
 - **[Fix]** Fixed Collapse not uninstalled correctly due to missing entries on `InnoSetup log files`
 - **[Fix]** Fixed HI3 7.2 `CGMetadata` repair stating `NotFound` error
 - **[Fix]** Fixed `PropVariant` issue with `SevenZipExtractor` submodule
@@ -14,8 +14,8 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 - **[Imp]** Update SharpHDiffPatch submodule
 - **[Imp]** Implement `plugin` API to fetch games hotfixes automatically (thanks @shatyuka !)
 - **[Imp]** Add warning for HSR GameSettings for those who got the new Settings mechanics
-  - The new settings save all game related settings into one registry key, similar to Genshin. While this is doable for us to implement, the early investigation revealed that the value of said registry is always nulled and something is indeed wrong with it. So we put a warning for those who got it that the behavior for Collapse' GSP for HSR might be unpredictable.
-  - To get rid of the A/B testing that they do, you can try to reset the entire HSR registry key by deleting them in `HKCU/Software/Cognosphere`, find the one related to your game region and (backup first, then) delete the entire key (folder).
+    - The new settings save all game related settings into one registry key, similar to Genshin. While this is doable for us to implement, the early investigation revealed that the value of said registry is always nulled and something is indeed wrong with it. So we put a warning for those who got it that the behavior for Collapse' GSP for HSR might be unpredictable.
+    - To get rid of the A/B testing that they do, you can try to reset the entire HSR registry key by deleting them in `HKCU/Software/Cognosphere`, find the one related to your game region and (backup first, then) delete the entire key (folder).
 - **[Loc]** Sync translation from transifex
 
 # What's New? - 1.72.13
@@ -29,46 +29,46 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 - **[Imp]** Updated GI settings props for 4.3
 - **[Imp]** Added more HSR Community Tools: Pokke's Library https://pokkelibrary.com/about-us/
 - **[Imp]** Improved some console logs
-  - Removed unused padding on HI3 MediaPack skipInstall log
-  - Removed unnecessary log output on HSR game repair
+    - Removed unused padding on HI3 MediaPack skipInstall log
+    - Removed unnecessary log output on HSR game repair
 - **[Loc]** Update localizations from Transifex
 
 # What's New? - 1.72.11
 - **[Imp]** Carousel improvements
-  - Regard pips pager as a part of carousel & only open link on left click.
-  - Auto stop carousel scrolling when main window is minimized and also when on tray.
+    - Regard pips pager as a part of carousel & only open link on left click.
+    - Auto stop carousel scrolling when main window is minimized and also when on tray.
 
 - **[Imp]** Assign the correct `channel_id` and `sub_channel_id` on game's config.ini file
-  - This should help game that uses the same binaries for multiple region (mainly Bilibili).
+    - This should help game that uses the same binaries for multiple region (mainly Bilibili).
 
 - **[Imp]** Performance improvements
-  - Change game state checker refresh rate to 200ms (before: 100ms).
-  - Automatically adjust game state checker refresh rate when main window is on tray (to 1000ms).
-  - Cache `IsGameRunning` to reduce CPU time.
+    - Change game state checker refresh rate to 200ms (before: 100ms).
+    - Automatically adjust game state checker refresh rate when main window is on tray (to 1000ms).
+    - Cache `IsGameRunning` to reduce CPU time.
 
 - **[Imp]** Language selector improvements
-  - Changing language now does not require app restart.
-  - Automatically select the language of current system when starting for the first time.
-  - Localize OOBE page.
- 
+    - Changing language now does not require app restart.
+    - Automatically select the language of current system when starting for the first time.
+    - Localize OOBE page.
+
 - **[Imp]** Updater routine improvements
-  - Run check update even on metered connection.
-  - Increase delay between checks every 60 minutes (15 minutes default).
+    - Run check update even on metered connection.
+    - Increase delay between checks every 60 minutes (15 minutes default).
 
 - **[Fix]** Honkai Impact 3rd game repair fixes
-  - Update game assets references for v7.1.
-  - Fixed game repair redownloading deleted assets (Audio and CGs, Language assets deletion is broken in-game).
-  - Parallelize CG status check (improved Game Repair fetch time).
+    - Update game assets references for v7.1.
+    - Fixed game repair redownloading deleted assets (Audio and CGs, Language assets deletion is broken in-game).
+    - Parallelize CG status check (improved Game Repair fetch time).
 
 - **[Fix]** Fixed inconsistent behavior for delta patch dialog when game is corrupted
 
 - **[Fix]** Backend fixes
-  - Update SharpHDiff submodule for code cleanups.
-  - Fixed memory leak in `CancellationTokenSource`.
-  - Fixed console marshalling issue (for developing with JB Rider).
-  - Fixed disposing issue in `FallbackCDNUtil`.
-  - Fixed issue in tray's toggle not assigning its toggle texts correctly.
-  
+    - Update SharpHDiff submodule for code cleanups.
+    - Fixed memory leak in `CancellationTokenSource`.
+    - Fixed console marshalling issue (for developing with JB Rider).
+    - Fixed disposing issue in `FallbackCDNUtil`.
+    - Fixed issue in tray's toggle not assigning its toggle texts correctly.
+
 # What's New? - 1.72.10
 - **[Fix]** Fixed Settings page crashing due to InvariantGlobalization
 - **[Fix]** Fixed typo in TrayIcon popup
@@ -76,20 +76,20 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 # What's New? - 1.72.9
 - **[Fix]** Fixed crash on Genshin Repair
 - **[New]** Run Collapse at startup
-  - This is done using Task Scheduler. You can also set it to hide all Collapse window to Taskbar when it automatically started on startup.
+    - This is done using Task Scheduler. You can also set it to hide all Collapse window to Taskbar when it automatically started on startup.
 
 - **[Imp]** Improved images download handling
-  - This fixes issues with background/event images being incompletely downloaded and also improved the image transition when it first appeared.
+    - This fixes issues with background/event images being incompletely downloaded and also improved the image transition when it first appeared.
 
 - **[Imp]** Add keyboard shortcut to reload the current page
-  - You can use either F5 or Ctrl+R to refresh the current page you are in.
-  - When you are in the homepage, it will reload the current region and retrieve latest state of the game (update, events, etc)
+    - You can use either F5 or Ctrl+R to refresh the current page you are in.
+    - When you are in the homepage, it will reload the current region and retrieve latest state of the game (update, events, etc)
 
 - **[Loc]** Synced localization from Transifex
 
 # What's New? - 1.72.8
 - Update SevenZipExtractor submodule
-  - Change property instead for progress update
+    - Change property instead for progress update
 - Fix audio manifest repair bug due to buffer issue
 - Workaround to fix window trying to maximize on double tap to the titlebar (thanks @shatyuka !)
 
@@ -118,29 +118,29 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 - Promote and update .NET dependencies
 - Run callbacks on Dispose for DiscordRPC
 - Improvements on Game Repair and Install detection
-  - Adding early Delta Patch implementation for Honkai: Star Rail
-  - Fixed Delta Patch doesn't always get detected
-  - Adding Generic Game Files repair for Honkai: Star Rail
+    - Adding early Delta Patch implementation for Honkai: Star Rail
+    - Fixed Delta Patch doesn't always get detected
+    - Adding Generic Game Files repair for Honkai: Star Rail
 - Use `JsonStringEnumConverter<T>` for enum <-> string convert
 - Use .NET 8 COM Wrappers for `FileDialogNative`
 - Use .NET 8 COM Wrappers for `SevenZipExtractor`
 - Rearrange `MainPage.cs`
 - Partially update to .NET8 CommunityToolkit
-  - DataGrid & its primitives are not updated
-  - ImageEx & LinkClickedEventArgs are not updated
+    - DataGrid & its primitives are not updated
+    - ImageEx & LinkClickedEventArgs are not updated
 - Change CsWinRT provider
 - Force Color to use Windows.UI refs
 - Fix duplicate MaxItemsWrapGrid
 - Remove unused XAML ref
-- Apply VS Code Analysis 
+- Apply VS Code Analysis
 - Update GeneralData Props for 4.2.0
 - Add Constant to Bypass GSP Game Running Check
 - Fix random crash while navigating back to HomePage
 - Fix Carousel restarting on LoPrio after Hover
-- Replace ImageEx package from WinUI.UI.Control 
-- Fix exception on published package 
-- Fix PropertyPath went missing on Popup type 
-- Submodule migration and Coderef cleanup 
+- Replace ImageEx package from WinUI.UI.Control
+- Fix exception on published package
+- Fix PropertyPath went missing on Popup type
+- Submodule migration and Coderef cleanup
 - Shrink `ArrayPool` size to 1 MB and use `MemoryStream` from 0
 - Use buffering on cover enumeration if size is allowed
 - Fix Compile Error on `InstallManagerBase`
@@ -148,13 +148,13 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 - Fix DiscordRPC persistence issue when switching games
 - Move `GenshinHDREnforcer` before process starts
 - Add setting to control app behavior on game launch
-- Disable `QuickJit` Compilation 
+- Disable `QuickJit` Compilation
 - Move reference of `SevenZipExtractor` from Core to App
 - Initial implementation for "game patch through launcher" detection
 - Cache HomePage and SettingsPage navigation
 - Fix transparent background while back to:
-  - AppSettings
-  - HomePage
+    - AppSettings
+    - HomePage
 - Fix crash while navigating through cached HomePage
 - Fix HSR Delta-patching not working on moving files
 - Rearrange LauncherConfig.cs
@@ -169,7 +169,7 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 - Always update `TrayIcon`'s context menu (thanks @shatyuka)
 - Synced translations from Transifex
 - Disable trimming on `PInvoke` class
-(wysi)
+  (wysi)
 
 # What's New? - 1.72.6
 - Hotfixes for HSR submodule changes
@@ -177,11 +177,11 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 # What's New? - 1.72.5
 - i18n sync
 - Settings Page Improvements:
-  - Auto hide Shortcut Buttons when disabled
-  - Changes `Debug` section name to `Additional Settings`
-  - Add button to localization page
-  - Adjust `LowerCollapsePrioOnGameLaunch` toggle name
-  - Add tooltip to `LowerCollapsePrioOnGameLaunch` toggle
+    - Auto hide Shortcut Buttons when disabled
+    - Changes `Debug` section name to `Additional Settings`
+    - Add button to localization page
+    - Adjust `LowerCollapsePrioOnGameLaunch` toggle name
+    - Add tooltip to `LowerCollapsePrioOnGameLaunch` toggle
 - Disable trimming for `WinUI.UI.Controls.Markdown`, thus fixing the markdown changelog not rendering properly
 - Cleanup duplicate build properties
 - Lock writer while writing JSON on serializer
@@ -191,30 +191,30 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 - Fix wrong formatting in `.csproj` file
 
 # What's New? - 1.72.4
-- Add optimization for `DevDrive/ReFS` for development 
-  - Use transitive copy for MSBuild to speed up build when using CoW file system like ReFS
+- Add optimization for `DevDrive/ReFS` for development
+    - Use transitive copy for MSBuild to speed up build when using CoW file system like ReFS
 - Add git commit description on console
 - `ArgumentParser` fixes
-  - Fix unexpected early end bracket
-  - Cleanup unnecessary string statements
-  - Fix some arguments migrations misses
+    - Fix unexpected early end bracket
+    - Cleanup unnecessary string statements
+    - Fix some arguments migrations misses
 - Update nuget lock file
 - [VULN] Update Http and Regex NuGet
 - Early implementation for Taskbar
-  - Make Taskbar toggle text change on condition
-  - Add argument to start Collapse in tray
-  - Add console hiding method (thanks @muscularcandy67)
-  - Add function to show Collapse windows to foreground
-  - Add double click function to toggle both visibility
-  - Handle toggle string with StartonTray AppMode
-  - Eliminate Flipflop Situation for ToggleAllVisibility
-  - Also hide console when `StartOnTray`
-  - Fix main window not being brought up when it is minimized
-  - Make `consoleWindowHandle` not static
-  - On `ToggleConsoleVisibility`, always check for `EnableConsole` before method is run
-  - NICE workaround for console not showing up to foreground
-  - Remove unused directive & typo fixes
-  - Added `VersionIndicator` to Tray
+    - Make Taskbar toggle text change on condition
+    - Add argument to start Collapse in tray
+    - Add console hiding method (thanks @muscularcandy67)
+    - Add function to show Collapse windows to foreground
+    - Add double click function to toggle both visibility
+    - Handle toggle string with StartonTray AppMode
+    - Eliminate Flipflop Situation for ToggleAllVisibility
+    - Also hide console when `StartOnTray`
+    - Fix main window not being brought up when it is minimized
+    - Make `consoleWindowHandle` not static
+    - On `ToggleConsoleVisibility`, always check for `EnableConsole` before method is run
+    - NICE workaround for console not showing up to foreground
+    - Remove unused directive & typo fixes
+    - Added `VersionIndicator` to Tray
 - Update Package References
 - Delete unused `CsWinRT`
 - Include packages to `TrimmableAssembly`
@@ -225,21 +225,21 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 - Updated copyright holders
 - Fix indentation in CollapseLauncher.csproj
 - Add Bilibili (Mainland China) region support for GI & HSR
-  - Add SDK Resource Key handling
-  - Fix SDK resource handling exception
-  - Initialize default INI for Bilibili
-  - Add adjustments for Bilibili client
-  - Update SharpHDiffPatch submodule
-  - Handle the Bilibili SDK download
-  - Adding support for repairing mechanism on Bilibili clients
-  - Show SDK loading progress while buffering to memory
+    - Add SDK Resource Key handling
+    - Fix SDK resource handling exception
+    - Initialize default INI for Bilibili
+    - Add adjustments for Bilibili client
+    - Update SharpHDiffPatch submodule
+    - Handle the Bilibili SDK download
+    - Adding support for repairing mechanism on Bilibili clients
+    - Show SDK loading progress while buffering to memory
 - Metered network detection
-  - Improve notMetered clause in StartCheckUpdate
-  - State both Unrestricted and Unknown as notMetered
-  - Skip the entire check sequence entirely instead of partially
-  - Prevent NullReferenceException by providing fallback value
-  - Flip Metered boolean state
-  - Implement `SimpleDialog` for Force Updating in Metered Connection state
+    - Improve notMetered clause in StartCheckUpdate
+    - State both Unrestricted and Unknown as notMetered
+    - Skip the entire check sequence entirely instead of partially
+    - Prevent NullReferenceException by providing fallback value
+    - Flip Metered boolean state
+    - Implement `SimpleDialog` for Force Updating in Metered Connection state
 - Keyboard shortcuts support
 
 
@@ -248,8 +248,8 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 > This feature requires an HDR-Capable display. Otherwise, the feature will be unavailable.
 
 - Fixed Game Repair mechanism for Genshin
-  - Fixed the condition where the game will re-verify the entire game files after Game Repair has been performed from Collapse.
-  - Fixed the issue where some files still gone missing (especially patch file) after being downloaded.
+    - Fixed the condition where the game will re-verify the entire game files after Game Repair has been performed from Collapse.
+    - Fixed the issue where some files still gone missing (especially patch file) after being downloaded.
 - Fixed some COMException being thrown randomly due to issues with CsWinRT library that come with WindowsAppSDK.
 - Fixed background activity doesn't get raised for game update
 - Update SharpHDiffPatch library to 1.4.3
@@ -264,9 +264,9 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 - Fixed a developer toolset issue where compilation would fail when switching development branches
 - Fixed an issue with the notification panel caused by commit regression which would cause the app to crash unexpectedly
 - Fixed many issues related to Game Repair for Honkai Impact 3rd including:
-  - Increasing BSDiff buffer to 32k
-    - Moving ``EnsureCreationOfDirectory()`` to ``ProgressBase`` class
-    - Reviving output block from the dead (it tried to hide from us)
+    - Increasing BSDiff buffer to 32k
+        - Moving ``EnsureCreationOfDirectory()`` to ``ProgressBase`` class
+        - Reviving output block from the dead (it tried to hide from us)
 - Switch to new ``JsonSerializerHelper`` class for parsing Game Settings
 - Remove ``netstandard2.0`` from compilation targets
 - Deprecate usage 32-bit build of ``SevenZipExtractor`` in Collapse
@@ -303,7 +303,7 @@ Welcome to Collapse version 1.72.14 - Codename: Senadina! This is an early look 
 - Bring metadata update log to release
 - Change metadata update delay to 2 seconds
 - Clean up some logic related to DEBUG build detection
-- Stops auto update on metadata update 
+- Stops auto update on metadata update
 - Added Japanese localization for README
 - Check before emptying `AssetEntry`
 - Use `InvariantGlobalization` instead of separate Resource Language
