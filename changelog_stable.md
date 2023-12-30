@@ -1,11 +1,11 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.72.12: Senadina
+# Collapse 1.72.13: Senadina
 It's been a long time coming, and we've been quiet in the last few months to give you guys the **BIGGEST** Collapse update
-we've ever done. Packed with a ton of useful features and improvements, we hope you enjoy using this as much as we did
+we've ever done this year. Packed with a ton of useful features and improvements, we hope you enjoy using this as much as we did
 making it!
 
-Welcome to Collapse version 1.72.12 - Codename: Senadina! 
+Welcome to Collapse version 1.72.13 - Codename: Senadina! 
 
 ***
 
@@ -19,8 +19,6 @@ In its current iteration, this feature is **enabled** by default. If you would l
 App Settings page and toggle the "Keyboard Shorcuts" to "Disabled". No restart is required.
 
 You can also access this menu by using the default key combination of "<kbd>CTRL</kbd> + <kbd>Tab</kbd>".
-
-[VIDEO HERE]
 
 You can also rebind most of the keys, and swap modifiers should you want.
 
@@ -37,13 +35,9 @@ We introduced this change as part of the feedback we've gotten from you guys. Pl
 Honkai: Star Rail finally gets full repair support across most regions! This feature works exactly as for all the other regions.
 Please let us know if something doesn't feel right or needs to be changed!
 
-[VIDEO HERE]
-
 ## New Feature: System Tray
 Collapse can now be minimized to tray when launching a game. Collapse also has the capability to start minimized to your
 system tray when first booting it up. More screen real estate!
-
-[VIDEO HERE]
 
 ## New Feature: Launch on Boot
 Alongside the tray improvements, Collapse can also start itself automatically when you first boot up your computer. By
@@ -64,6 +58,8 @@ KQM now has guides for Honkai: Star Rail, so we've decided to include them in ou
 ### New Localization: Thai & French (Thanks @kinodev, @armzyaec1234 @Hasukay, @Zeide, @CryoTechnic)
 New locales always help in making Collapse accessible to more people. Thanks everyone for their numerous contributions!
 
+Note: French is coming in the next minor build of Collapse.
+
 ### Metered Connection Mode
 Collapse is now metered connection-aware. This means that if you are on a limited bandwidth, Collapse will ask you if you
 would like to proceed before checking updates for Collapse and Game updates.
@@ -72,4 +68,4 @@ would like to proceed before checking updates for Collapse and Game updates.
 Normally we would list all the minor changes here, but due to the amount of commits, we've decided against it for this release.
 Read the full changelog below!
 
-**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.71.15...CL-v1.71.16
+**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.72.13...CL-v1.71.16
