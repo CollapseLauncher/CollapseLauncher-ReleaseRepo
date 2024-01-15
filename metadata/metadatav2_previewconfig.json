@@ -11,10 +11,12 @@
         "ZoneURL": "https://honkaiimpact3.hoyoverse.com/asia/en-us/fab",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_honkai.png",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
-		"ZoneIconURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
-		"ZoneSteamBannerURL": "https://google.com",
-		"ZoneSteamPreviewURL": "https://microsoft.com",
-		"ZoneSteamHeroURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
+
+		"ZoneIconURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_icons/icon_honkai.ico",
+		"ZoneSteamBannerURL": "https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
+		"ZoneSteamPreviewURL": "https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
+		"ZoneSteamHeroURL": "https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
+
 		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Honkai Impact 3",
         "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3 sea",
         "ConfigRegistryLocation": "Software\\miHoYo\\Honkai Impact 3",
