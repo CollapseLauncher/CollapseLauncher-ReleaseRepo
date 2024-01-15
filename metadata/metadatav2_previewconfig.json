@@ -73,6 +73,11 @@
         "ZoneURL": "https://honkaiimpact3.hoyoverse.com/global/en-us/fab",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_honkai.png",
+
+		"ZoneSteamBannerURL": "https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
+		"ZoneSteamPreviewURL": "https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
+		"ZoneSteamHeroURL": "https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
+
         "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Honkai Impact 3rd",
         "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3rd glb",
         "ConfigRegistryLocation": "Software\\miHoYo\\Honkai Impact 3rd",
@@ -366,6 +371,11 @@
         "ZoneURL": "https://ys.mihoyo.com/main/",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshinCN.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_genshin.png",
+
+		"ZoneSteamBannerURL": "https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_genshin.png",
+		"ZoneSteamPreviewURL": "https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshinCN.png",
+		"ZoneSteamHeroURL": "https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_genshin.png",
+
         "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\原神",
         "DefaultGameLocation": "C:\\Program Files\\Genshin Impact",
         "ConfigRegistryLocation": "Software\\miHoYo\\原神",
