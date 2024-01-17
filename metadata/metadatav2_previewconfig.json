@@ -11,27 +11,25 @@
         "ZoneURL": "https://honkaiimpact3.hoyoverse.com/asia/en-us/fab",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_honkai.png",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
-		
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
-				"SHA1":"d4e12655d458ee49502e0662cfb5b7f8fa63468b"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
-				"SHA1":"e03ff4f3a24259257927901a12f7da3ebb3f779a"
-			},
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
+                "MD5":"7b07c28464bc3a0a3b9b757479ead2ef"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
+                "MD5":"f6eb046431f1f73ab0ce9c1166c4e43c"
+            },
 			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
-				"SHA1":"f4eb4ad038af9fdce47642f075d2ce067099684d"
-			},
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
+                "MD5":"4168447e27a2fc7bf7760805a351a8b0"
+            },
 			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
-				"SHA1":"c5ee8caf97d070c0dffcf404f9920bb3bb533e16"
-			}
-		},
-		
-		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Honkai Impact 3",
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
+                "MD5":"684969a42b83c13890b84ffac5057818"
+            }
+        },
+        "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Honkai Impact 3",
         "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3 sea",
         "ConfigRegistryLocation": "Software\\miHoYo\\Honkai Impact 3",
         "BetterHi3LauncherVerInfoReg": "VersionInfoSEA",
@@ -88,26 +86,24 @@
         "ZoneURL": "https://honkaiimpact3.hoyoverse.com/global/en-us/fab",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_honkai.png",
-
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
-				"SHA1":"d4e12655d458ee49502e0662cfb5b7f8fa63468b"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
-				"SHA1":"e03ff4f3a24259257927901a12f7da3ebb3f779a"
-			},
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkai.png",
+                "MD5":"7b07c28464bc3a0a3b9b757479ead2ef"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
+                "MD5":"f6eb046431f1f73ab0ce9c1166c4e43c"
+            },
 			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
-				"SHA1":"f4eb4ad038af9fdce47642f075d2ce067099684d"
-			},
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
+                "MD5":"4168447e27a2fc7bf7760805a351a8b0"
+            },
 			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
-				"SHA1":"c5ee8caf97d070c0dffcf404f9920bb3bb533e16"
-			}
-		},
-
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
+                "MD5":"684969a42b83c13890b84ffac5057818"
+            }
+        },
         "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Honkai Impact 3rd",
         "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3rd glb",
         "ConfigRegistryLocation": "Software\\miHoYo\\Honkai Impact 3rd",
@@ -166,27 +162,25 @@
         "ZoneURL": "https://www.bh3.com/",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiCN.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_honkai.png",
-        
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiCN.png",
-				"SHA1":"1864cf302880ef57083d5c3c797162fbb7e793ad"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
-				"SHA1":"e03ff4f3a24259257927901a12f7da3ebb3f779a"
-			},
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiCN.png",
+                "MD5":"37c2b488d16f0f63086d48eda36c0a6b"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
+                "MD5":"f6eb046431f1f73ab0ce9c1166c4e43c"
+            },
 			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
-				"SHA1":"f4eb4ad038af9fdce47642f075d2ce067099684d"
-			},
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
+                "MD5":"4168447e27a2fc7bf7760805a351a8b0"
+            },
 			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
-				"SHA1":"c5ee8caf97d070c0dffcf404f9920bb3bb533e16"
-			}
-		},
-		
-		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩坏3",
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
+                "MD5":"684969a42b83c13890b84ffac5057818"
+            }
+        },
+        "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩坏3",
         "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3",
         "ConfigRegistryLocation": "Software\\miHoYo\\崩坏3",
         "BetterHi3LauncherVerInfoReg": "VersionInfoCN",
@@ -233,27 +227,25 @@
         "ZoneURL": "https://honkaiimpact3.hoyoverse.com/tw/zh-tw/home",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiCN.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_honkai.png",
-        
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiCN.png",
-				"SHA1":"1864cf302880ef57083d5c3c797162fbb7e793ad"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
-				"SHA1":"e03ff4f3a24259257927901a12f7da3ebb3f779a"
-			},
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiCN.png",
+                "MD5":"37c2b488d16f0f63086d48eda36c0a6b"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
+                "MD5":"f6eb046431f1f73ab0ce9c1166c4e43c"
+            },
 			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
-				"SHA1":"f4eb4ad038af9fdce47642f075d2ce067099684d"
-			},
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
+                "MD5":"4168447e27a2fc7bf7760805a351a8b0"
+            },
 			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
-				"SHA1":"c5ee8caf97d070c0dffcf404f9920bb3bb533e16"
-			}
-		},
-
-		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩壊3rd",
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
+                "MD5":"684969a42b83c13890b84ffac5057818"
+            }
+        },
+        "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩壊3rd",
         "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3rd tw",
         "ConfigRegistryLocation": "Software\\miHoYo\\崩壊3rd",
         "BetterHi3LauncherVerInfoReg": "VersionInfoTW",
@@ -299,27 +291,25 @@
         "ZoneURL": "https://honkaiimpact3.hoyoverse.com/kr/ko-kr/home",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiKR.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_honkai.png",
-        
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiKR.png",
-				"SHA1":"ca7681123988be949e47bbf56c089d197a0c7f77"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
-				"SHA1":"e03ff4f3a24259257927901a12f7da3ebb3f779a"
-			},
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiKR.png",
+                "MD5":"e90e8a15c667a331e0c3d58b52bb517c"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
+                "MD5":"f6eb046431f1f73ab0ce9c1166c4e43c"
+            },
 			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
-				"SHA1":"f4eb4ad038af9fdce47642f075d2ce067099684d"
-			},
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
+                "MD5":"4168447e27a2fc7bf7760805a351a8b0"
+            },
 			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
-				"SHA1":"c5ee8caf97d070c0dffcf404f9920bb3bb533e16"
-			}
-		},
-
-		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\붕괴3rd",
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
+                "MD5":"684969a42b83c13890b84ffac5057818"
+            }
+        },
+        "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\붕괴3rd",
         "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3rd kr",
         "ConfigRegistryLocation": "Software\\miHoYo\\붕괴3rd",
         "BetterHi3LauncherVerInfoReg": "VersionInfoKR",
@@ -365,27 +355,25 @@
         "ZoneURL": "https://www.houkai3rd.com/home?utm_source=fab",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiJP.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_honkai.png",
-        
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiJP.png",
-				"SHA1":"3e9b54d5f8d9ee31df4c64bc61fb492eaffc46fb"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
-				"SHA1":"e03ff4f3a24259257927901a12f7da3ebb3f779a"
-			},
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_honkaiJP.png",
+                "MD5":"b50b286e6b3d10a3442b4d39361e6b5f"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_honkai.png",
+                "MD5":"f6eb046431f1f73ab0ce9c1166c4e43c"
+            },
 			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
-				"SHA1":"f4eb4ad038af9fdce47642f075d2ce067099684d"
-			},
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_honkai.png",
+                "MD5":"4168447e27a2fc7bf7760805a351a8b0"
+            },
 			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
-				"SHA1":"c5ee8caf97d070c0dffcf404f9920bb3bb533e16"
-			}
-		},
-		
-		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩壊3rd",
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_honkai.png",
+                "MD5":"684969a42b83c13890b84ffac5057818"
+            }
+        },
+        "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩壊3rd",
         "DefaultGameLocation": "C:\\Program Files\\Houkai3rd",
         "ConfigRegistryLocation": "Software\\miHoYo\\崩壊3rd",
         "FallbackLanguage": "jp",
@@ -433,27 +421,25 @@
         "ZoneURL": "https://genshin.hoyoverse.com/en/home",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshin.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_genshin.png",
-        
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshin.png",
-				"SHA1":"ee39bec29370b05f7c645de14c767c618c4838e4"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_genshin.png",
-				"SHA1":"23dc4f404c4226805df46fa4d1d37ab19e4b35cd"
-			},
-			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_genshin.png",
-				"SHA1":"757f62ba063265a26d059555e66f773d71f42295"
-			},
-			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshin.png",
-				"SHA1":"95786d83dcdd96ddd897dba368e229898028e8c7"
-			}
-		},
-
-		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Genshin Impact",
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshin.png",
+                "MD5":"886f30ed3c9b3e01bd196945eae8f242"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_genshin.png",
+                "MD5":"b503a687b87286002f9b408b64a42a27"
+            },
+            "Banner": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_genshin.png",
+                "MD5":"96c6b5f2ca0176f36ce735767304f768"
+            },
+            "Preview": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshin.png",
+                "MD5":"2ac8e684849fa9c061f5edbd2682b78e"
+            }
+        },
+        "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Genshin Impact",
         "DefaultGameLocation": "C:\\Program Files\\Genshin Impact",
         "ConfigRegistryLocation": "Software\\miHoYo\\Genshin Impact",
         "FallbackLanguage": "en",
@@ -501,26 +487,24 @@
         "ZoneURL": "https://ys.mihoyo.com/main/",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshinCN.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_genshin.png",
-
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshinCN.png",
-				"SHA1":"236602aac43831dc58677fba14b394e7ef5d7898"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_genshin.png",
-				"SHA1":"23dc4f404c4226805df46fa4d1d37ab19e4b35cd"
-			},
-			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_genshin.png",
-				"SHA1":"757f62ba063265a26d059555e66f773d71f42295"
-			},
-			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshin.png",
-				"SHA1":"95786d83dcdd96ddd897dba368e229898028e8c7"
-			}
-		},
-
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshinCN.png",
+                "MD5":"b3de675e3cfda58cac3fe2141702b861"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_genshin.png",
+                "MD5":"b503a687b87286002f9b408b64a42a27"
+            },
+            "Banner": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_genshin.png",
+                "MD5":"96c6b5f2ca0176f36ce735767304f768"
+            },
+            "Preview": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshin.png",
+                "MD5":"2ac8e684849fa9c061f5edbd2682b78e"
+            }
+        },
         "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\原神",
         "DefaultGameLocation": "C:\\Program Files\\Genshin Impact",
         "ConfigRegistryLocation": "Software\\miHoYo\\原神",
@@ -567,27 +551,25 @@
         "ZoneURL": "https://ys.mihoyo.com/main/",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshinCN.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_genshin.png",
-        
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshinCN.png",
-				"SHA1":"236602aac43831dc58677fba14b394e7ef5d7898"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_genshin.png",
-				"SHA1":"23dc4f404c4226805df46fa4d1d37ab19e4b35cd"
-			},
-			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_genshin.png",
-				"SHA1":"757f62ba063265a26d059555e66f773d71f42295"
-			},
-			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshin.png",
-				"SHA1":"95786d83dcdd96ddd897dba368e229898028e8c7"
-			}
-		},
-
-		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\原神",
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_genshinCN.png",
+                "MD5":"b3de675e3cfda58cac3fe2141702b861"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_genshin.png",
+                "MD5":"b503a687b87286002f9b408b64a42a27"
+            },
+            "Banner": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_genshin.png",
+                "MD5":"96c6b5f2ca0176f36ce735767304f768"
+            },
+            "Preview": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshin.png",
+                "MD5":"2ac8e684849fa9c061f5edbd2682b78e"
+            }
+        },
+        "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\原神",
         "DefaultGameLocation": "C:\\Program Files\\Genshin Impact",
         "ConfigRegistryLocation": "Software\\miHoYo\\原神",
         "FallbackLanguage": "cn",
@@ -635,27 +617,25 @@
         "ZoneURL": "https://hsr.hoyoverse.com/en-us/home",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_starrail.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_starrail.png",
-        
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_starrail.png",
-				"SHA1":"a8caacd5036217fb7347cc8669f0540c8316b8b5"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_starrail.png",
-				"SHA1":"4ef0b9352d8d4808784dc3e838c92a8658175193"
-			},
-			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_starrail.png",
-				"SHA1":"0900bc0894689da4526102036aea514141249e9f"
-			},
-			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_starrail.png",
-				"SHA1":"d17c5ab8663e57ead824a3922e7223ac563efaf6"
-			}
-		},
-
-		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Star Rail",
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_starrail.png",
+                "MD5":"2942de6278aebab64a3ccdc7904b0950"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_starrail.png",
+                "MD5":"00f4618447c23bc0c2ee29a30436622a"
+            },
+            "Banner": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_starrail.png",
+                "MD5":"361eed31c9dbd5bc097bf4d35ef3d22e"
+            },
+            "Preview": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_starrail.png",
+                "MD5":"92006c934a396c073f180d2eb8bdbd90"
+            }
+        },
+        "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Star Rail",
         "DefaultGameLocation": "C:\\Program Files\\Star Rail",
         "ConfigRegistryLocation": "Software\\Cognosphere\\Star Rail",
         "FallbackLanguage": "en",
@@ -698,27 +678,25 @@
         "ZoneURL": "https://sr.mihoyo.com/",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_starrailCN.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_starrail.png",
-        
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_starrailCN.png",
-				"SHA1":"5e8ca41586ae200fab9b533520aabaa1b2d61449"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_starrail.png",
-				"SHA1":"4ef0b9352d8d4808784dc3e838c92a8658175193"
-			},
-			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_starrail.png",
-				"SHA1":"0900bc0894689da4526102036aea514141249e9f"
-			},
-			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_starrail.png",
-				"SHA1":"d17c5ab8663e57ead824a3922e7223ac563efaf6"
-			}
-		},
-		
-		"InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Star Rail",
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_starrailCN.png",
+                "MD5":"c893eccb17d2e6e5f7bb08f4f1868a1e"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_starrail.png",
+                "MD5":"00f4618447c23bc0c2ee29a30436622a"
+            },
+            "Banner": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_starrail.png",
+                "MD5":"361eed31c9dbd5bc097bf4d35ef3d22e"
+            },
+            "Preview": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_starrail.png",
+                "MD5":"92006c934a396c073f180d2eb8bdbd90"
+            }
+        },
+        "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Star Rail",
         "DefaultGameLocation": "C:\\Program Files\\Star Rail",
         "ConfigRegistryLocation": "Software\\miHoYo\\崩坏：星穹铁道",
         "FallbackLanguage": "cn",
@@ -759,26 +737,24 @@
         "ZoneURL": "https://sr.mihoyo.com/",
         "ZoneLogoURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_starrailCN.png",
         "ZonePosterURL": "https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_posters/poster_starrail.png",
-
-		"ZoneSteamAssets": {
-			"Logo": {
-				"URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_starrailCN.png",
-				"SHA1":"5e8ca41586ae200fab9b533520aabaa1b2d61449"
-			},
-			"Hero": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_starrail.png",
-				"SHA1":"4ef0b9352d8d4808784dc3e838c92a8658175193"
-			},
-			"Banner": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_starrail.png",
-				"SHA1":"0900bc0894689da4526102036aea514141249e9f"
-			},
-			"Preview": {
-				"URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_starrail.png",
-				"SHA1":"d17c5ab8663e57ead824a3922e7223ac563efaf6"
-			}
-		},
-
+        "ZoneSteamAssets": {
+            "Logo": {
+                "URL":"https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo/raw/main/metadata/game_logos/logo_starrailCN.png",
+                "MD5":"c893eccb17d2e6e5f7bb08f4f1868a1e"
+            },
+            "Hero": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_heroes/hero_starrail.png",
+                "MD5":"00f4618447c23bc0c2ee29a30436622a"
+            },
+            "Banner": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_banners/banner_starrail.png",
+                "MD5":"361eed31c9dbd5bc097bf4d35ef3d22e"
+            },
+            "Preview": {
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_starrail.png",
+                "MD5":"92006c934a396c073f180d2eb8bdbd90"
+            }
+        },
         "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Star Rail",
         "DefaultGameLocation": "C:\\Program Files\\Star Rail",
         "ConfigRegistryLocation": "Software\\miHoYo\\崩坏：星穹铁道",
