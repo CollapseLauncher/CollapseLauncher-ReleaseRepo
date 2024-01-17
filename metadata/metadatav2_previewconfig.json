@@ -501,8 +501,8 @@
                 "MD5":"96c6b5f2ca0176f36ce735767304f768"
             },
             "Preview": {
-                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshin.png",
-                "MD5":"2ac8e684849fa9c061f5edbd2682b78e"
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshinCN.png",
+                "MD5":"b0ece19263d2213bfef60f5a43a2a7f2"
             }
         },
         "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\原神",
@@ -565,8 +565,8 @@
                 "MD5":"96c6b5f2ca0176f36ce735767304f768"
             },
             "Preview": {
-                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshin.png",
-                "MD5":"2ac8e684849fa9c061f5edbd2682b78e"
+                "URL":"https://github.com/gablm/CollapseLauncher-ReleaseRepo/raw/main/metadata/steam_assets/game_previews/preview_genshinCN.png",
+                "MD5":"b0ece19263d2213bfef60f5a43a2a7f2"
             }
         },
         "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\原神",
