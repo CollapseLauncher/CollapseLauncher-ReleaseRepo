@@ -1,9 +1,13 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Hotfix Update for 1.72.15 - Senadina Stable Branch!
+# Hotfix Update for 1.72.16 - Senadina Stable Branch!
 This update contains bugfixes for the Senadina release. If you encounter any bugs, please report to [GitHub](https://github.com/neon-nyan/Collapse/issues/new/choose).
 
 For faster releases and more experimental features, consider switching to Preview branch on Settings.
+
+## What's changed? - 1.72.15
+- **[Fix]** Fixed crashes on delta patch application
+- **[Imp]** Bring SignPath appsigning to Stable
 
 ## What's changed? - 1.72.15
 - **[Fix]** Fixed error on game repair caused by wrongly assigned value
