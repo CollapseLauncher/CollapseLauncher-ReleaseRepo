@@ -63,12 +63,12 @@
             }
         },
         {
-            "MsgId": 20000010,
+            "MsgId": 2000012,
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "Hi3CN",
             "Title": "[EN] Notice Regarding Honkai Impact 3rd 7.3.0 Breaking Feature",
-            "Message": "Hi Captains!\\r\\n7.3.0 Part 2 update is just around the corner and we all are excited for the update! Unfortunately, due to some breaking changes that we have to do on the backend, **Delta Patch** and **Repair/Cache Update** features will not be available until further notice. We are sorry for the inconvenience and we will be working to fix the broken feature ASAP. Don't worry as basic launcher functionality like the regular update method should work just fine.",
+            "Message": "Hi Captains!\r\n7.3.0 Part 2 update is just around the corner and we all are excited for the update! Unfortunately, due to some breaking changes that we have to do on the backend, **Delta Patch** and **Repair/Cache Update** features will not be available until further notice. We are sorry for the inconvenience and we will be working to fix the broken feature ASAP. Don't worry as basic launcher functionality like the regular update method should work just fine.",
             "Show": true,
             "TimeBegin": "2024-01-30T00:00:00+08:00",
             "TimeEnd": "2024-03-01T00:00:00+08:00",
@@ -83,12 +83,12 @@
             }
         },
         {
-            "MsgId": 20000011,
+            "MsgId": 2000013,
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "Hi3CN",
             "Title": "[CN] 关于崩坏3 7.3.0 破坏性功能的通知",
-            "Message": "舰长们好!\\r\\n7.3.0 第二部更新即将到来，我们都很期待这次更新！很不幸，由于我们必须在后台进行一些破坏性更改，**Delta Patch**和**游戏修复/缓存更新**功能直至另行通知前都将无法使用。很抱歉给您带来不便，我们将尽快修复损坏的功能。但不用担心，基本的启动器功能如常规更新等应该可以正常使用。",
+            "Message": "舰长们好!\r\n7.3.0 第二部更新即将到来，我们都很期待这次更新！很不幸，由于我们必须在后台进行一些破坏性更改，**Delta Patch**和**游戏修复/缓存更新**功能直至另行通知前都将无法使用。很抱歉给您带来不便，我们将尽快修复损坏的功能。但不用担心，基本的启动器功能如常规更新等应该可以正常使用。",
             "Show": true,
             "TimeBegin": "2024-01-30T00:00:00+08:00",
             "TimeEnd": "2024-03-01T00:00:00+08:00",
