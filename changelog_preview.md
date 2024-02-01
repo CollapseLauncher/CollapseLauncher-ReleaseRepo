@@ -1,7 +1,34 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.73.1: [Codename TBD]
+# Collapse 1.73.2: [Codename TBD]
 Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+
+# What's New? - 1.73.2
+- **[New]** Re-added Move Game to Different Location feature by, @neon-nyan
+  - With this feature, you can move your game to different location/folder and automatically adjust Collapse setting into it so you don't have to locate your game again
+  - This has been a long-time broken feature before the complete UI rehaul.
+- **[New]** Add to Steam feature, by @gablm
+  - Now you can add shortcut to the game region to Steam straight using Collapse! You can access this feature in the "Quick Settings" menu inside the home page.
+  - You can also add the shortcut to your desktop!
+  - Note that adding the shortcut to steam will add an entry for the region you choose to all Steam user profile that has logged in.
+- **[New]** Resizable Game Window, by @neon-nyan
+  - With this feature enabled, you can resize the game window to your liking after the game is launched.
+  - Note that this feature only work if the game is set to run in Windowed mode (does not work on Borderless).
+  - Also the game might launch in weird resolution on the next run due to the in-game logic trying to pick the nearest "logical" ratio unless you're using "Custom Resolution" option.
+  - More details and showcase are available on the [GitHub PR Ticket](https://github.com/CollapseLauncher/Collapse/pull/381)
+- **[New]** **[Loc]** New Ukrainian (uk_UA) localization, by @vitalitk
+- **[Fix]** Fixed Discord RPC error when rapidly changing pages, by @neon-nyan
+- **[Fix]** Fixed "Change Release" and "Force Update" causing wrong branch to be installed, by @gablm
+- **[Fix]** Fixed error when repairing fresh installation of Genshin Impact, by @neon-nyan
+- **[Fix]** Fixed crash when copying exception message, by @neon-nyan
+- **[Fix]** Fixed Honkai: Star Rail showing A/B test warning on region load, by @Cryotechnic
+  - This message is now only shown when opening HSR Game Settings page
+- **[Fix]** Fixed rare crash when `LauncherFrame`'s `backStack` has no element, by @neon-nyan
+- **[Fix]** Fixed crashing issue with SevenZipExtractor submodule, by @neon-nyan
+- **[Imp]** Add HTTP/3 support for Windows 11, by @neon-nyan
+- **[Imp]** Implement Borderless Settings for Genshin Impact, by @bagusnl
+  - Note: Collapse Borderless settings will have priority over GI's implementation.
+- **[Loc]** Localization sync from Transifex, by Localizers <3
 
 # What's New? - 1.73.1
 - **[New]** Open Collapse straight to specified region using command argument (thanks @gablm !)
