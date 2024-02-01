@@ -1,9 +1,19 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Hotfix Update for 1.72.16 - Senadina Stable Branch!
+# Hotfix Update for 1.72.17 - Senadina Stable Branch!
 This update contains bugfixes for the Senadina release. If you encounter any bugs, please report to [GitHub](https://github.com/neon-nyan/Collapse/issues/new/choose).
 
 For faster releases and more experimental features, consider switching to Preview branch on Settings.
+
+## What's changed? - 1.72.17
+- **[Fix]** Fixed "Change Release" and "Force Update" mechanism, by @gablm
+- **[Fix]** Fixed Honkai: Star Rail showing A/B test warning on region load, by @Cryotechnic
+    - This message is now only shown when opening HSR Game Settings page
+- **[Fix]** Fixed crashing issue with SevenZipExtractor submodule, by @neon-nyan
+- **[Fix]** Fixed error when repairing fresh installation of Genshin Impact, by @neon-nyan
+- **[Fix]** Fixed crash when copying exception message, by @neon-nyan
+- **[Imp]** Implement Borderless Settings for Genshin Impact, by @bagusnl
+    - Note: Collapse Borderless settings will have priority over GI's implementation.
 
 ## What's changed? - 1.72.16
 - **[Fix]** Fixed crashes on delta patch application
