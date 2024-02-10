@@ -1,9 +1,29 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Hotfix Update for 1.72.17 - Senadina Stable Branch!
+# Hotfix Update for 1.72.18 - Senadina Stable Branch!
 This update contains bugfixes for the Senadina release. If you encounter any bugs, please report to [GitHub](https://github.com/neon-nyan/Collapse/issues/new/choose).
 
 For faster releases and more experimental features, consider switching to Preview branch on Settings.
+
+## What's changed? - 1.72.18
+- **[New]** Adding Delta-Patch support for Honkai: Star Rail, by @neon-nyan
+    - Starting from Stable 1.72.18 and Preview 1.73.3, Delta-Patch update for Honkai: Star Rail will be added to Collapse. Bringing a significantly smaller update size than official method.
+    - This support was planned to be arrived at the start of 1.72.x release but postponed due to some complex changes need to be done (Including delta-patch download pre-requisite for applying audio packages)
+- **[Fix]** Fixed Repair/Cache Update for Honkai: Star Rail 2.0.0 Update, by @neon-nyan & @bagusnl
+- **[Fix]** Fixed Honkai: Star Rail showing A/B test warning on region load, by @Cryotechnic
+    - This message is now only shown when opening HSR Game Settings page
+- **[Fix]** Fixed crashing issue with SevenZipExtractor submodule, by @neon-nyan
+- **[Fix]** Fixed wrong message getting displayed if pre-load has already been downloaded. by @neon-nyan
+    - This causes some confusion while the bug is kinda derpy to get fixed. This should have been fixed now.
+    ### Before
+    ![image](https://github.com/CollapseLauncher/Collapse/assets/30566970/33b44593-5f65-4716-9d79-ec2e316933ad)
+    ### After
+    ![image](https://github.com/CollapseLauncher/Collapse/assets/30566970/7cbaa8a3-6a68-4d16-ab2c-a6f6a8de5ee1)
+- **[Imp]** Add HTTP/3 support for Windows 11, by @neon-nyan
+- **[Imp]** Add "Dynamic Character Resolution" settings for Genshin Impact, by @shatyuka
+  - This option is only going to be used by the game if the PC is supported, there is no information officially what kind of PC that supports this.
+- **[New]** **[Loc]** New Ukrainian (uk_UA) localization. by, @vitalitk
+- **[Loc]** Localization sync from Transifex, by Localizers <3
 
 ## What's changed? - 1.72.17
 - **[Fix]** Fixed "Change Release" and "Force Update" mechanism, by @gablm

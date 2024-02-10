@@ -1,7 +1,28 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.73.2: [Codename TBD]
+# Collapse 1.73.3: [Codename TBD]
 Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+
+# What's New? - 1.73.3
+
+- **[New]** Adding Delta-Patch support for Honkai: Star Rail. (by, @neon-nyan)
+    - Starting from Stable 1.72.18 and Preview 1.73.3, Delta-Patch update for Honkai: Star Rail will be added to Collapse. Bringing a significantly smaller update size than official method.
+    - This support was planned to be arrived at the start of 1.72.x release but postponed due to some complex changes need to be done (Including delta-patch download pre-requisite for applying audio packages)
+- **[Fix]** Fixed wrong message getting displayed if pre-load has already been downloaded. (by, @neon-nyan)
+    - This causes some confusion while the bug is kinda derpy to get fixed. This should have been fixed now.
+    ### Before
+    ![image](https://github.com/CollapseLauncher/Collapse/assets/30566970/33b44593-5f65-4716-9d79-ec2e316933ad)
+    ### After
+    ![image](https://github.com/CollapseLauncher/Collapse/assets/30566970/7cbaa8a3-6a68-4d16-ab2c-a6f6a8de5ee1)
+- **[Fix]** Fixed Repair/Cache Update for Honkai: Star Rail 2.0.0 Update, by @neon-nyan & @bagusnl
+- **[Fix]** Fixed several issues in Steam Shortcut integration, by @gablm 
+  - Fixes folders not being found if the steamID ended with an 0.
+  - Adds/improves some logging when searching for valid userdata folders
+  - Changes target exe/folder to the stub executable/folder
+  - Enable Steam overlay flag
+- **[Fix]** Fixed drag area not updating after changing window size, by @shatyuka 
+- **[Imp]** Add "Dynamic Character Resolution" settings for Genshin Impact, by @shatyuka
+  - This option is only going to be used by the game if the PC is supported, there is no information officially what kind of PC that supports this.
 
 # What's New? - 1.73.2
 - **[New]** Re-added Move Game to Different Location feature by, @neon-nyan
