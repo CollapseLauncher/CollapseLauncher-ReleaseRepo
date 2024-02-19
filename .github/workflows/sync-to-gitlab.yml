@@ -1,0 +1,21 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Git checkout
+          uses: actions/checkout@v3
+          with:
+            fetch-depth: '0'
+            
+        - uses: adambirds/sync-github-to-gitlab-action@v1.1.0
+          with:
+            destination_repository: git@gitlab.com:bagusnl/CollapseLauncher-ReleaseRepo.git
+            destination_branch_name: main
+            destination_ssh_key: ${{ secrets.GITLAB_SSH_KEY }}
