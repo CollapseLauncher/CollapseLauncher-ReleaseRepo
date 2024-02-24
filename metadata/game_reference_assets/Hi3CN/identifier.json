@@ -1,0 +1,39 @@
+{
+  "xmf\\Blocks_7_3_base.xmf": {
+    "lastIdentifier": "7.3.0",
+    "fileTime": 1708814469,
+    "stringStore": null
+  },
+  "xmf\\Blocks_7_3_current.xmf": {
+    "lastIdentifier": "6b68b0a323ef7fa2c5ef9478110a34da",
+    "fileTime": 1708814504,
+    "stringStore": {
+      "baseUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvU3RyZWFtaW5nQXNiL3swfV97MX1fezJ9L3BjL0hEL2FzYg==",
+      "xmfVersion": "BwAAAAMAAAAAAAAACwAAAA=="
+    }
+  },
+  "xmf\\PatchConfig_7_3_current.xmf": {
+    "lastIdentifier": "6b68b0a323ef7fa2c5ef9478110a34da",
+    "fileTime": 1708814533,
+    "stringStore": {
+      "baseUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvU3RyZWFtaW5nQXNiL3swfV97MX1fezJ9L3BjL0hEL3BhdGNo",
+      "xmfVersion": "BwAAAAMAAAAAAAAACwAAAA=="
+    }
+  },
+  "audio\\manifest_7_3_current.m": {
+    "lastIdentifier": "manifest_a51b8753f3e50b74968993b6c28fd196.m675955",
+    "fileTime": 1708814533,
+    "stringStore": {
+      "baseUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvQXVkaW8vV2luZG93cy97MH1fezF9L3syfQ==",
+      "revision": "c1AKAA=="
+    }
+  },
+  "audio\\manifest_7_3_preload.m": {
+    "lastIdentifier": "manifest_2d02c7afa6af19402dc1b6e5cc21dd4d.m673646",
+    "fileTime": 1708814533,
+    "stringStore": {
+      "baseUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvQXVkaW8vV2luZG93cy97MH1fezF9L3syfQ==",
+      "revision": "bkcKAA=="
+    }
+  }
+}
