@@ -1,37 +1,44 @@
 {
-  "xmf/Blocks_7_3_base.xmf": {
+  "7_3_bricksbase": {
     "lastIdentifier": "7.3.0",
-    "fileTime": 1708867110
+    "fileTime": 1708961238,
+    "stringStore": {
+      "origUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS9wdHB1YmxpYy9yZWwvMjAyNDAxMjkxMTAxMjhfOHZuTkVOMnR1S3lad1VoQi9QQy9leHRyYWN0L0JIM19EYXRhL1N0cmVhbWluZ0Fzc2V0cy9Bc2IvcGMvQmxvY2tzLnhtZg=="
+    }
   },
-  "xmf/Blocks_7_3_current.xmf": {
+  "7_3_brickscurrent": {
     "lastIdentifier": "6b68b0a323ef7fa2c5ef9478110a34da",
-    "fileTime": 1708867145,
+    "fileTime": 1708961278,
     "stringStore": {
       "baseUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvU3RyZWFtaW5nQXNiL3swfV97MX1fezJ9L3BjL0hEL2FzYg==",
+      "origUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvU3RyZWFtaW5nQXNiLzdfM18wL3BjL0hEL2FzYi9CbG9ja3NfN18zXzZiNjhiMGEzMjNlZjdmYTJjNWVmOTQ3ODExMGEzNGRhLnhtZg==",
       "xmfVersion": "BwAAAAMAAAAAAAAACwAAAA=="
     }
   },
-  "xmf/PatchConfig_7_3_current.xmf": {
+  "7_3_wandcurrent": {
     "lastIdentifier": "6b68b0a323ef7fa2c5ef9478110a34da",
-    "fileTime": 1708867174,
+    "fileTime": 1708961313,
     "stringStore": {
       "baseUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvU3RyZWFtaW5nQXNiL3swfV97MX1fezJ9L3BjL0hEL3BhdGNo",
+      "origUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvU3RyZWFtaW5nQXNiLzdfM18wL3BjL0hEL3BhdGNoL1BhdGNoQ29uZmlnXzZiNjhiMGEzMjNlZjdmYTJjNWVmOTQ3ODExMGEzNGRhLnhtZg==",
       "xmfVersion": "BwAAAAMAAAAAAAAACwAAAA=="
     }
   },
-  "audio/manifest_7_3_current.m": {
+  "7_3_chiptunecurrent": {
     "lastIdentifier": "manifest_a51b8753f3e50b74968993b6c28fd196.m675955",
-    "fileTime": 1708867174,
+    "fileTime": 1708961313,
     "stringStore": {
       "baseUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvQXVkaW8vV2luZG93cy97MH1fezF9L3syfQ==",
+      "origUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvQXVkaW8vV2luZG93cy83XzMvNjc1OTU1L21hbmlmZXN0X2E1MWI4NzUzZjNlNTBiNzQ5Njg5OTNiNmMyOGZkMTk2Lm0=",
       "revision": "c1AKAA=="
     }
   },
-  "audio/manifest_7_3_preload.m": {
+  "7_3_chiptunepreload": {
     "lastIdentifier": "manifest_2d02c7afa6af19402dc1b6e5cc21dd4d.m673646",
-    "fileTime": 1708867174,
+    "fileTime": 1708961313,
     "stringStore": {
       "baseUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvQXVkaW8vV2luZG93cy97MH1fezF9L3syfQ==",
+      "origUrl": "aHR0cHM6Ly9idW5kbGUuYmgzLmNvbS90bXAvT3JpZ2luYWwvQXVkaW8vV2luZG93cy83XzMvNjczNjQ2L21hbmlmZXN0XzJkMDJjN2FmYTZhZjE5NDAyZGMxYjZlNWNjMjFkZDRkLm0=",
       "revision": "bkcKAA=="
     }
   }
