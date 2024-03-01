@@ -3,7 +3,7 @@ set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=Collapse
 set channel=1
-set version=1.73.1
+set version=1.73.4
 set thread=%NUMBER_OF_PROCESSORS%
 
 :checkRepoLocation
@@ -109,7 +109,7 @@ if not exist "%channel%" mkdir "%channel%"
 title=Copying build files...
 xcopy %BuildArtifactDir% %buildPath% /S /H /C 
 title=Making Squirrel package...
-%appSquirrel% http-down --url=https://r2.bagelnl.my.id/cl-cdn/squirrel/%channel%/ -r "%releasePath%"
+:: %appSquirrel% http-down --url=https://r2.bagelnl.my.id/cl-cdn/squirrel/%channel%/ -r "%releasePath%"
 %appSquirrel% pack --packId="%name%" --packVersion="%version%" --includePDB --packDir="%buildPath%" --releaseDir="%releasePath%"
 
 :: Build latest package file
