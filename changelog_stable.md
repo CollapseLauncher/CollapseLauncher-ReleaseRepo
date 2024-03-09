@@ -1,4 +1,29 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
+# Collapse 1.73.5: Penacony
+Hi~ We have published an update for Collapse on Stable branch release that includes fixes and improvements for the launcher! Please update your launcher to maintain functionality for all games and regions~
+
+# What's New? - 1.73.5
+- **[New]** New Core maintainer!
+  - Please welcome @shatyuka and @gablm as they have recently joined into Collapse' Core maintainer team!
+- **[New]** Waifu2X background upscaling, by @shatyuka
+  - This feature only triggered if the background image resolution is lower than the window resolution for Collapse.
+  - It will use GPU Vulkan acceleration (using ncnn library), while having OpenMP CPU as fallback.
+- **[Fix]** Crashing issue when Repair/Cache update on small window mode, by @neon-nyan 
+- **[Fix]** Discord Rich Presence not updating when using protocol, by @gablm 
+- **[Fix]** Blurry console icon, by @shatyuka 
+- **[Fix]** Table for Repair/Cache update for small window mode hides some column, by @shatyuka 
+- **[Fix]** Honkai Impact 3rd Game Settings updates for 7.3.0, by @bagusnl, @neon-nyan, @Cryotechnic 
+  - This fixed errors when using new option for Shadow Quality (medium), and also added new settings that are available.
+  - Old settings that is not found in-game but still available in the settings data is moved to "Legacy Settings".
+  - Disabled preset function.
+- **[Fix]** Game launch errors when Game Boost is enabled on certain system, by @bagusnl 
+- **[Fix]** Crashing on launch for certain system caused by WindowsAppSDK, by @bagusnl 
+- **[Fix]** Discord RPC duplicating on game change, by @shatyuka
+- **[Fix]** Prevent launching game when using command line/protocol if the game is outdated, by @gablm
+- **[Imp]** Improved keyboard shortcut in-app logics, by @gablm 
+- **[Imp]** Update dependencies, by @bagusnl 
+- **[Imp]** Update License and Third Party Notice documentations, by @bagusnl 
+- **[Loc]** Sync localization from transifex
 
 # Collapse 1.73.4: Penacony
 While we had initially hoped to sit on this release for a little while, to finish polishing up and refactoring code, in light of the Honkai Impact 3rd v7.3.0 update, we felt the need to release this version on Stable in order to address several issues with the patching, repair, and settings features for the game.
