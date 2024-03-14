@@ -1,6 +1,39 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
-# Collapse 1.73.5: Penacony
+# Collapse 1.73.6: Penacony
 Hi~ We have published an update for Collapse on Stable branch release that includes fixes and improvements for the launcher! Please update your launcher to maintain functionality for all games and regions~
+
+# What's new? - 1.73.6
+- **[Fix]** Repair & Game settings adjustments for Genshin Impact 4.5.0, by @bagusnl 
+- **[Fix]** Crashes caused by waifu2x functionality on certain system, by @shatyuka 
+  - This fix also includes D3DLayersMapping detection to fallback using CPU processing if detected
+  - Also stop w2x to get initialized at startup when disabled in settings
+- **[Imp]** Auto install/update region when using `open` command/shortcut, by @gablm
+  - If `-p`/play is also used, game will automatically start after installation/update procedure
+  - User is still expected to go through dialogs for installation
+- **[Imp]** Enable Implicit Animation for the entire app, by @neon-nyan 
+- **[New]** Clear all notification button, by @neon-nyan 
+- **[Fix]** Crash when `ResizeImageStream` fails, by @neon-nyan 
+- **[Fix]** Light color luminosity too low, by @neon-nyan 
+- **[Imp]** Improved localization & UX, by @neon-nyan & @gablm 
+  - Fix/improvement list:
+    - Region selector combobox too small
+    - "No News" text box alignment issue
+    - "Quick Settings" elements wrapping issue
+    - "Application Threads" settings wrapping issue
+    - Miscellaneous wrapping issues in SettingsPage
+    - Text alignments in launcher update page
+    - Language selector combobox width too small
+    - Region loading message localization fallback to EN for no reason
+    - HI3 CG and Audio fetch not localized
+    - Certain elements in keyboard settings panel
+    - Localize data storage units
+    - Localize file selector dialogs
+    - Update copyright year
+    - Incorrect value listed for Download thread settings
+- **[Imp]** Removed unnecessary XAML elements, by @neon-nyan 
+- **[Imp]** Update .NET SDK used by AppVeyor for publishing release, by @bagusnl 
+- **[Imp]** Update dependencies, by @neon-nyan 
+- **[Loc]** Sync localizations from Transifex, by localizers <3
 
 # What's New? - 1.73.5
 - **[New]** New Core maintainer!
@@ -44,8 +77,8 @@ Please do note that you may still see Windows SmartScreen prompts until Microsof
 #### Code Signing Policy
 > Free code signing provided by [SignPath.io], certificate by [SignPath Foundation]
 - This program will not transfer any information to other networked systems.
-- Read our full [**Privacy Policy**](PRIVACY.md)
-- Also read our [**Third Party Notices**](THIRD_PARTY_NOTICES.md) for license used by third party libraries that we use.
+- Read our full [**Privacy Policy**](https://github.com/CollapseLauncher/Collapse/blob/main/PRIVACY.md)
+- Also read our [**Third Party Notices**](https://github.com/CollapseLauncher/Collapse/blob/main/THIRD_PARTY_NOTICES.md) for license used by third party libraries that we use.
 
 [SignPath Foundation]:https://signpath.org
 [SignPath.io]:https://signpath.io
