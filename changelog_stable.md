@@ -1,5 +1,6 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
-# Collapse 1.73.6: Penacony
+
+# Collapse 1.73.6: [Codename Penacony]
 Hi~ We have published an update for Collapse on Stable branch release that includes fixes and improvements for the launcher! Please update your launcher to maintain functionality for all games and regions~
 
 # What's new? - 1.73.6
