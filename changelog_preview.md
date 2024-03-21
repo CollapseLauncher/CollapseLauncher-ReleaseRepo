@@ -1,7 +1,29 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.73.6: [Codename Penacony]
+# Collapse 1.73.7: [Codename Penacony]
 Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+
+# What's New? - 1.73.7
+- **[Fix]** HI3 Repair tagged wrong file as unused, by @neon-nyan 
+- **[Fix]** Titlebar drag area overlapping with region selector, by @gablm 
+- **[Fix]** Multi-instance causing tray icon to destroy itself, by @bagusnl 
+- **[Fix]** Waifu2X Library Improvements, by @shatyuka
+  - Handle exceptions on initialization
+  - Fix chained crash when exiting via console
+  - Fix black output check
+- **[Fix]** Stop launcher update when updating game, by @gablm
+- **[Fix]** Error when trying to fetch from alternative CDN, by @neon-nyan 
+- **[Fix]** Exception while generating local app notification, by @neon-nyan
+- **[Fix]** Game Boost error when trying to boost exited game, by @shatyuka 
+- **[Fix]** Crash on pressing join Discord button, by @shatyuka 
+- **[Fix]** Tray icon stays after exit, by @bagusnl 
+- **[Imp]** Disable spell checker on Game Launch Command text boxes, by @bagusnl 
+- **[Imp]** Use new context menu on tray icon for Preview user, by @bagusnl 
+  - Let us know if you have problem with this as the feature is still in preview stage.
+- **[Imp]** Remove unused library, by @bagusnl 
+- **[Imp]** Update dependencies, by @bagusnl 
+  - WindowsAppSDK & MarkDig
+- **[Loc]** Sync localization from Transifex, by localizers <3
 
 # What's new? - 1.73.6
 - **[Fix]** Repair & Game settings adjustments for Genshin Impact 4.5.0, by @bagusnl 
