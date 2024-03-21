@@ -18,8 +18,6 @@ Welcome to Collapse Preview Release Branch! This is an early look at the next ve
 - **[Fix]** Crash on pressing join Discord button, by @shatyuka 
 - **[Fix]** Tray icon stays after exit, by @bagusnl 
 - **[Imp]** Disable spell checker on Game Launch Command text boxes, by @bagusnl 
-- **[Imp]** Use new context menu on tray icon for Preview user, by @bagusnl 
-  - Let us know if you have problem with this as the feature is still in preview stage.
 - **[Imp]** Remove unused library, by @bagusnl 
 - **[Imp]** Update dependencies, by @bagusnl 
   - WindowsAppSDK & MarkDig
