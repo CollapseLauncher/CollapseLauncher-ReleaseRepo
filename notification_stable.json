@@ -23,40 +23,40 @@
             }
         },
         {
-            "MsgId": 8000005,
+            "MsgId": 8000006,
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "SRCN",
-            "Title": "[EN] Honkai: Star Rail Launch 'Global Distribution' error",
-            "Message": "Heyya Trailblazers!\\r\\nWe have noticed that on the latest update for HSR, there is a chance that your game will not start and give out 'Global Distribution' error. We have implemented a fix, but in the event that you still cannot open the game, click the button below for a workaround.",
+            "Title": "[CN] 给中国大陆用户",
+            "Message": "如果您遇到了使用启动器预加载或正式更新过程中极为缓慢或反复断线的问题，可以尝试重新启动 Collapse 或更换网络环境。**这并不是启动器的技术错误造成的**。",
             "Show": true,
-            "TimeBegin": "2023-12-30T00:00:00+08:00",
-            "TimeEnd": "2024-01-15T00:00:00+08:00",
+            "TimeBegin": "2024-03-25T00:00:00+08:00",
+            "TimeEnd": "2024-04-01T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/Collapse/issues/350",
-                    "Description": "Game Launch Workaround",
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues/440#issuecomment-2017778004",
+                    "Description": "查看详情",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
         },
         {
-            "MsgId": 9000005,
+            "MsgId": 9000006,
             "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "HSRCNBilibili",
-            "Title": "[EN] Honkai: Star Rail Launch 'Global Distribution' error",
-            "Message": "Heyya Trailblazers!\\r\\nWe have noticed that on the latest update for HSR, there is a chance that your game will not start and give out 'Global Distribution' error. We have implemented a fix, but in the event that you still cannot open the game, click the button below for a workaround.",
+            "Title": "[CN] 给中国大陆用户",
+            "Message": "如果您遇到了使用启动器预加载或正式更新过程中极为缓慢或反复断线的问题，可以尝试重新启动 Collapse 或更换网络环境。**这并不是启动器的技术错误造成的**。",
             "Show": true,
-            "TimeBegin": "2023-12-30T00:00:00+08:00",
-            "TimeEnd": "2024-01-15T00:00:00+08:00",
+            "TimeBegin": "2024-03-25T00:00:00+08:00",
+            "TimeEnd": "2024-04-01T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/Collapse/issues/350",
-                    "Description": "Game Launch Workaround",
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues/440#issuecomment-2017778004",
+                    "Description": "查看详情",
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
