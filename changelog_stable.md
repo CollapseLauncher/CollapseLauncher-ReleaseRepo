@@ -1,7 +1,20 @@
 ![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
 
-# Collapse 1.73.7: [Codename Penacony]
+# Collapse 1.73.8: [Codename Penacony]
 Hi~ We have published an update for Collapse on Stable branch release that includes fixes and improvements for the launcher! Please update your launcher to maintain functionality for all games and regions~
+
+# What's New? - 1.73.8
+- **[Fix]** Adjust HSR repair logic for 2.1, by @bagusnl
+- **[Fix]** Fix Genshin Voice-Over packs installation, by @shatyuka
+- **[Fix]** Fix crash on app exit if Waifu2X feature was not enabled in some cases, by @shatyuka
+- **[New]** Show last time the game was launched, per region, by @gablm
+- **[Imp]** Compress punctuation marks of event titles, by @shatyuka
+- **[Imp]** Make commit info in settings page clickable, by @bagusnl
+  - This will now directly take you to the commit page on GitHub
+- **[Imp]** Update `EncTool` dependencies, by @bagusnl
+  - QoL for devs: fixed EncTool build getting triggered every build
+- **[Loc]** Sync localization from Transifex, by all our localizers <3
+  
 
 # What's New? - 1.73.7
 - **[Fix]** HI3 Repair tagged wrong file as unused, by @neon-nyan 
