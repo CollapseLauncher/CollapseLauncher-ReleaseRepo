@@ -3,6 +3,19 @@
 # Collapse 1.73.7: [Codename Penacony]
 Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 
+# What's New? - 1.73.8
+- **[Fix]** Adjust HSR repair logic for 2.1, by @bagusnl
+- **[Fix]** Fix Genshin Voice-Over packs installation, by @shatyuka
+- **[Fix]** Fix crash on app exit if Waifu2X feature was not enabled in some cases, by @shatyuka
+- **[New]** Show last time the game was launched, per region, by @gablm
+- **[Imp]** Compress punctuation marks of event titles, by @shatyuka
+- **[Imp]** Make commit info in settings page clickable, by @bagusnl
+  - This will now directly take you to the commit page on GitHub
+- **[Imp]** Update `EncTool` dependencies, by @bagusnl
+  - QoL for devs: fixed EncTool build getting triggered every build
+- **[Loc]** Sync localization from Transifex, by all our localizers <3
+
+
 # What's New? - 1.73.7
 - **[Fix]** HI3 Repair tagged wrong file as unused, by @neon-nyan 
 - **[Fix]** Titlebar drag area overlapping with region selector, by @gablm 
