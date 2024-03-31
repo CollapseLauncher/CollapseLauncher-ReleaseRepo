@@ -23,16 +23,27 @@ jobs:
       
       - name: Move folders around
         run: |
-          mkdir -p ./cl-cdn/folderroot
+          echo Root folder
+          mkdir -p ./cl-cdn/folderroot 
           mv ./cl-cdn/ApplyUpdate.exe ./cl-cdn/changelog_preview.md ./cl-cdn/changelog_stable.md ./cl-cdn/CollapseLauncher.Hi3CacheUpdater.cmd ./cl-cdn/folderroot/
           mv ./cl-cdn/notification_notepreview ./cl-cdn/notification_notestable ./cl-cdn/notification_preview.json ./cl-cdn/notification_stable.json ./cl-cdn/Update.exe ./cl-cdn/folderroot/
+
+          echo Metadata
           mkdir -p ./cl-cdn/metadata/metadata-root
+          mkdir -p ./cl-cdn/metadata/metadata-root/v3
+          mv ./cl-cdn/metadata/v3/* ./cl-cdn/metadata/metadata-root/v3/
           mv ./cl-cdn/metadata/metadatav2_previewconfig.json ./cl-cdn/metadata/metadatav2_previewstamp.json ./cl-cdn/metadata/metadata-root/
           mv ./cl-cdn/metadata/metadatav2_stableconfig.json ./cl-cdn/metadata/metadatav2_stablestamp.json ./cl-cdn/metadata/metadata-root/
+
+          echo Images
           mkdir -p ./cl-cdn/metadata/metadata-images/game_logos
           mkdir -p ./cl-cdn/metadata/metadata-images/game_posters
+          mkdir -p ./cl-cdn/metadata/metadata-images/steam_assets
           mv ./cl-cdn/metadata/game_logos/* ./cl-cdn/metadata/metadata-images/game_logos/
           mv ./cl-cdn/metadata/game_posters/* ./cl-cdn/metadata/metadata-images/game_posters/
+          mv ./cl-cdn/metadata/steam_assets/* ./cl-cdn/metadata/metadata-images/steam_assets/
+
+          echo ApplyUpdate
           mkdir -p ./cl-cdn/applyupdate/stable
           mkdir -p ./cl-cdn/applyupdate/preview
           mv ./cl-cdn/preview ./cl-cdn/applyupdate/
@@ -40,77 +51,85 @@ jobs:
 
       - name: Archive objects
         run: |
-          zip -r root-cdn.zip ./cl-cdn/folderroot
-          zip -r root-metadata.zip ./cl-cdn/metadata/metadata-root
-          zip -r gameimages.zip ./cl-cdn/metadata/metadata-images
-          zip -r indexes_hi3.zip ./cl-cdn/metadata/repair_indexes/Hi3CN ./cl-cdn/metadata/repair_indexes/Hi3Global ./cl-cdn/metadata/repair_indexes/Hi3JP ./cl-cdn/metadata/repair_indexes/Hi3KR ./cl-cdn/metadata/repair_indexes/Hi3SEA  ./cl-cdn/metadata/repair_indexes/Hi3TW
-          zip -r indexes_hsr.zip ./cl-cdn/metadata/repair_indexes/SRCN ./cl-cdn/metadata/repair_indexes/HSRCNBilibili ./cl-cdn/metadata/repair_indexes/SRGlb
-          zip -r applyupdate.zip ./cl-cdn/applyupdate
-          zip -r squirrel-stable.zip ./cl-cdn/squirrel/stable
-          zip -r squirrel-preview.zip ./cl-cdn/squirrel/preview
+          zip -0 -r root-cdn.zip ./cl-cdn/folderroot
+          zip -0 -r root-metadata.zip ./cl-cdn/metadata/metadata-root
+          zip -0 -r gameimages.zip ./cl-cdn/metadata/metadata-images
+          zip -0 -r indexes_hi3.zip ./cl-cdn/metadata/repair_indexes/Hi3CN ./cl-cdn/metadata/repair_indexes/Hi3Global ./cl-cdn/metadata/repair_indexes/Hi3JP ./cl-cdn/metadata/repair_indexes/Hi3KR ./cl-cdn/metadata/repair_indexes/Hi3SEA  ./cl-cdn/metadata/repair_indexes/Hi3TW
+          zip -0 -r indexes_hsr.zip ./cl-cdn/metadata/repair_indexes/SRCN ./cl-cdn/metadata/repair_indexes/HSRCNBilibili ./cl-cdn/metadata/repair_indexes/SRGlb
+          zip -0 -r applyupdate.zip ./cl-cdn/applyupdate
+          zip -0 -r squirrel-stable.zip ./cl-cdn/squirrel/stable
+          zip -0 -r squirrel-preview.zip ./cl-cdn/squirrel/preview
 
       - name: Upload root-cdn
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.1
         with:
           name: root-cdn
           path: root-cdn.zip
           retention-days: 1
+          compression-level: 0
 
       - name: Upload root-metadata
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.1
         with:
           name: root-metadata
           path: root-metadata.zip
           retention-days: 1
+          compression-level: 0
 
       - name: Upload root-metadata
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.1
         with:
           name: gameimages
           path: gameimages.zip
           retention-days: 1
+          compression-level: 0
 
       - name: Upload indexes_hi3
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.1
         with:
           name: indexes_hi3
           path: indexes_hi3.zip
           retention-days: 1
+          compression-level: 0
           
       - name: Upload indexes_hsr
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.1
         with:
           name: indexes_hsr
           path: indexes_hsr.zip
           retention-days: 1
+          compression-level: 0
 
       - name: Upload applyupdate
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.1
         with:
           name: applyupdate
           path: applyupdate.zip
           retention-days: 1
+          compression-level: 0
 
       - name: Upload squirrel-stable
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.1
         with:
           name: squirrel-stable
           path: squirrel-stable.zip
           retention-days: 1
+          compression-level: 0
         
       - name: Upload squirrel-preview
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.1
         with:
           name: squirrel-preview
           path: squirrel-preview.zip
           retention-days: 1
+          compression-level: 0
 
   Sync-Root:
     runs-on: ubuntu-latest
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.4
         with:
           name: root-cdn
 
@@ -133,19 +152,13 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.4
         with:
           name: root-metadata
-
-      - name: Download Archive Artifact (gameimages)
-        uses: actions/download-artifact@v3
-        with:
-          name: gameimages
 
       - name: Extract Archive
         run: |
           unzip -qq root-metadata.zip -d root-metadata
-          unzip -qq gameimages.zip -d root-metadata
 
       - name: Sync Metadata root objects
         uses: ryand56/r2-upload-action@latest
@@ -158,6 +171,19 @@ jobs:
           destination-dir: cl-cdn/metadata
           output-file-url: false
 
+  Sync-Images:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact (gameimages)
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: gameimages
+      
+      - name: Extract Archive
+        run: |
+          unzip -qq gameimages.zip -d root-metadata
+
       - name: Sync Metadata logos objects
         uses: ryand56/r2-upload-action@latest
         with:
@@ -168,7 +194,7 @@ jobs:
           source-dir: root-metadata/cl-cdn/metadata/metadata-images/game_logos
           destination-dir: cl-cdn/metadata/game_logos
           output-file-url: false
-
+  
       - name: Sync Metadata posters objects
         uses: ryand56/r2-upload-action@latest
         with:
@@ -180,12 +206,24 @@ jobs:
           destination-dir: cl-cdn/metadata/game_posters
           output-file-url: false
 
+      - name: Sync Metadata steam-asset objects
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: root-metadata/cl-cdn/metadata/metadata-images/steam_assets
+          destination-dir: cl-cdn/metadata/steam_assets
+          output-file-url: false
+      
+
   Sync-Indexes-Hi3:
     runs-on: ubuntu-latest
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.4
         with:
           name: indexes_hi3
 
@@ -209,7 +247,7 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.4
         with:
           name: indexes_hsr
 
@@ -233,7 +271,7 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.4
         with:
           name: applyupdate
 
@@ -267,7 +305,7 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.4
         with:
           name: squirrel-stable
 
@@ -290,7 +328,7 @@ jobs:
     needs: Fetch
     steps:
       - name: Download Archive Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.4
         with:
           name: squirrel-preview
 
