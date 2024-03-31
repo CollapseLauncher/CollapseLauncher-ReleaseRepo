@@ -137,19 +137,15 @@ jobs:
         run: unzip -qq root-cdn.zip -d root-cdn
 
       - name: Sync Root Folder
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: root-cdn/cl-cdn/folderroot
-            destination-dir: cl-cdn
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: root-cdn/cl-cdn/folderroot
+          destination-dir: cl-cdn
+          output-file-url: false
 
   Sync-Metadata:
     runs-on: ubuntu-latest
@@ -164,20 +160,16 @@ jobs:
         run: |
           unzip -qq root-metadata.zip -d root-metadata
 
-      - name: Sync Metadata
-        uses: Wandalen/wretry.action@master
+      - name: Sync Metadata root objects
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: root-metadata/cl-cdn/metadata/metadata-root
-            destination-dir: cl-cdn/metadata
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: root-metadata/cl-cdn/metadata/metadata-root
+          destination-dir: cl-cdn/metadata
+          output-file-url: false
 
   Sync-Images:
     runs-on: ubuntu-latest
@@ -193,49 +185,37 @@ jobs:
           unzip -qq gameimages.zip -d root-metadata
 
       - name: Sync Metadata logos objects
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: root-metadata/cl-cdn/metadata/metadata-images/game_logos
-            destination-dir: cl-cdn/metadata/game_logos
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: root-metadata/cl-cdn/metadata/metadata-images/game_logos
+          destination-dir: cl-cdn/metadata/game_logos
+          output-file-url: false
   
       - name: Sync Metadata posters objects
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: root-metadata/cl-cdn/metadata/metadata-images/game_posters
-            destination-dir: cl-cdn/metadata/game_posters
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: root-metadata/cl-cdn/metadata/metadata-images/game_posters
+          destination-dir: cl-cdn/metadata/game_posters
+          output-file-url: false
 
       - name: Sync Metadata steam-asset objects
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: root-metadata/cl-cdn/metadata/metadata-images/steam_assets
-            destination-dir: cl-cdn/metadata/steam_assets
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: root-metadata/cl-cdn/metadata/metadata-images/steam_assets
+          destination-dir: cl-cdn/metadata/steam_assets
+          output-file-url: false
       
 
   Sync-Indexes-Hi3:
@@ -252,19 +232,15 @@ jobs:
           unzip -qq indexes_hi3.zip -d indexes_hi3
 
       - name: Sync Indexes
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: indexes_hi3/cl-cdn/metadata/repair_indexes
-            destination-dir: cl-cdn/metadata/repair_indexes
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: indexes_hi3/cl-cdn/metadata/repair_indexes
+          destination-dir: cl-cdn/metadata/repair_indexes
+          output-file-url: false
 
   Sync-Indexes-HSR:
     runs-on: ubuntu-latest
@@ -280,19 +256,15 @@ jobs:
           unzip -qq indexes_hsr.zip -d indexes_hsr
 
       - name: Sync Indexes
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: indexes_hsr/cl-cdn/metadata/repair_indexes
-            destination-dir: cl-cdn/metadata/repair_indexes
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: indexes_hsr/cl-cdn/metadata/repair_indexes
+          destination-dir: cl-cdn/metadata/repair_indexes
+          output-file-url: false
           
   Sync-ApplyUpdate:
     runs-on: ubuntu-latest
@@ -307,34 +279,26 @@ jobs:
         run: unzip -qq applyupdate.zip -d applyupdate
           
       - name: Sync ApplyUpdate-Preview
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: applyupdate/cl-cdn/applyupdate/preview
-            destination-dir: cl-cdn/preview
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: applyupdate/cl-cdn/applyupdate/preview
+          destination-dir: cl-cdn/preview
+          output-file-url: false
 
       - name: Sync ApplyUpdate-stable
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: applyupdate/cl-cdn/applyupdate/stable
-            destination-dir: cl-cdn/stable
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: applyupdate/cl-cdn/applyupdate/stable
+          destination-dir: cl-cdn/stable
+          output-file-url: false
   
   Sync-Squirrel-Stable:
     runs-on: ubuntu-latest
@@ -349,19 +313,15 @@ jobs:
         run: unzip -qq squirrel-stable.zip -d squirrel-stable
         
       - name: Sync Squirrel\Stable folder
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: squirrel-stable/cl-cdn/squirrel/stable
-            destination-dir: cl-cdn/squirrel/stable
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: squirrel-stable/cl-cdn/squirrel/stable
+          destination-dir: cl-cdn/squirrel/stable
+          output-file-url: false
 
   Sync-Squirrel-Preview:
     runs-on: ubuntu-latest
@@ -376,19 +336,15 @@ jobs:
         run: unzip -qq squirrel-preview.zip -d squirrel-preview
         
       - name: Sync Squirrel\Preview folder
-        uses: Wandalen/wretry.action@master
+        uses: ryand56/r2-upload-action@latest
         with:
-          attempt_limit: 3
-          attempt_delay: 10000
-          action: ryand56/r2-upload-action@latest
-          with: |
-            r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-            r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-            r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-            r2-bucket: ${{ secrets.R2_BUCKET }}
-            source-dir: squirrel-preview/cl-cdn/squirrel/preview
-            destination-dir: cl-cdn/squirrel/preview
-            output-file-url: false
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: squirrel-preview/cl-cdn/squirrel/preview
+          destination-dir: cl-cdn/squirrel/preview
+          output-file-url: false
 
   Purge-Cache:
     runs-on: ubuntu-latest
