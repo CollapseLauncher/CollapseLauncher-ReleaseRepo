@@ -1,0 +1,72 @@
+{
+  "ProfileName": "SRGlb",
+  "GameChannel": "Stable",
+  "IsExperimental": false,
+  "ZoneName": "Global",
+  "ZoneFullname": "Honkai: Star Rail (Global)",
+  "ZoneDescription": "There are beings called \"Aeons\" in this galaxy. They construct reality, erase stars, and leave their marks on countless worlds. You, a special traveler, together with your companions who inherited the will of the Trailblaze, will travel across the galaxy on the Astral Express, following the path once traveled by an Aeon. From here, you will explore new civilizations, meet new comrades, and begin new adventures between the countless bizarre worlds. All the answers you seek can be found among the stars. So, are you ready to start on this Trailblazing journey?",
+  "ZoneURL": "https://hsr.hoyoverse.com/en-us/home",
+  "ZoneLogoURL": "metadata/game_logos/logo_starrail.png",
+  "ZonePosterURL": "metadata/game_posters/poster_starrail.png",
+  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Star Rail",
+  "DefaultGameLocation": "C:\\Program Files\\Star Rail",
+  "ConfigRegistryLocation": "Software\\Cognosphere\\Star Rail",
+  "FallbackLanguage": "en",
+  "GameDirectoryName": "Games",
+  "GameExecutableName": "StarRail.exe",
+  "GameType": "StarRail",
+  "VendorType": "Cognosphere",
+  "LauncherID": 35,
+  "ChannelID": 1,
+  "SubChannelID": 1,
+  "GameDispatchArrayURL": [
+    "Q29sbGFwc2UBAQAAAAAAAC4AAAAAAAAANwAAAAAAAABxbq0gYH25SCGdCTcalBR1vpCcaVctBQHMnV4+W7/WacrJr5dTzriRQTiA7TIvY8KQaLYrkyh7+RMhwpFldeAD8nLE4xf8hB8w9A43QITonyHAex23EqcmpRKaOjx2oqQc4zRaR1zsVYdu6eraJdHZYsj7/W4+SF3XpleKIzMEHA==",
+    "Q29sbGFwc2UBAQAAAAAAAC4AAAAAAAAANwAAAAAAAAAKZXPuyU5rhOKAPskTmnHnNSlKQJ826K73ARcKYCZQHeCedpiRapfuL7FfUorJ9XnALm8Ncnk9y2WWO9XiYhaPVZp67DhD4PcJs2fTJhNh4+l3U8dR8a0BbslLHzZcssy735QzoA318FdQc5j8jJ91sAtcw3tReLPj88XaKiZrbg=="
+  ],
+  "GameDispatchChannelName": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAACsdGueOrysIAOQgLBjUzEmZCSwDdpWU4lq4aqr7o/8hPp1tCXe3GBV86kG271GfgmZ/J/AlvmPIh/6EoJRze/OmfttYk+foS5NXr7eAKuzuEC9TKs9D1VpOo0MmzkmgaHb8wzUOiIwetOWv7QPcPnXpW4fImQEkjPMuUye22LTJA==",
+  "GameDispatchDefaultName": "Q29sbGFwc2UBAQAAAAAAABYAAAAAAAAAEgAAAAAAAAAEhq85Hhqx63E2KiCkat3lXZMfr6NJTSREdn4OlZne4HKyFiamFLHQ5fCtlCO3/+whRF6Lf687Of8km6ReHHomwTuI/lwEej13Bwms45FTsttMIth64/chlMkEijZTsXC3Ww+8muq2XGhumkz9gl1WxFHYUsuFJXoHJNKCVYcy4g==",
+  "GameDispatchURLTemplate": "Q29sbGFwc2UBAQAAAAAAAFAAAAAAAAAAYwAAAAAAAABDZWeRwdF8CghcnLhhQL9BWFipqcUtkPBJEJFM7KicsYn7AUa0SFHg45MOKFROISq1zPErZewsPNxm5IHV4NDsHm1J4dmuFts3TqI2TqlJbaPyNS7sRb1+RJKsnMuET/Qm5rmbOOjwANmPTt7s5r3I2bLFhc3wojzEsOFodFikSg==",
+  "GameGatewayURLTemplate": "Q29sbGFwc2UBAQAAAAAAAFoAAAAAAAAAeQAAAAAAAAChdoKBb1OD3HA6nBToKV3k+9zxhEjsNE+bDC68QRAqbvxWpU3LX6yq57X6fD9Mb50iWXEwvxR8DAHkeBYEVGc4k3TGmpw5TCG1/NuDJKuTSXz4J5b9JuXqrgUau1DsQ9AC3+h3l9HIaCneUrFX3HuicOQHzUKDI+dPtv+sEwHKnA==",
+  "ProtoDispatchKey": "Q29sbGFwc2UBAQAAAAAAAA4AAAAAAAAACgAAAAAAAAArELZhakc7f8bXS97KGlGCVPF/Gx/1OZmq2bYzGBA5KNiVctNW//JUEJpEQNiz5grtIbAR7Zu5C2mddNMf/ecz0i7DPzmR+R6Q90euRjVG5o/Cf+7KL6z2YD0DnZ465seX/JITllzLfPRZnnmFmomL6w0bxzfahR2PMqrpxAC/gA==",
+  "IsHideSocMedDesc": false,
+  "UseRightSideProgress": true,
+  "LauncherSpriteURLMultiLang": true,
+  "LauncherSpriteURLMultiLangFallback": "en-us",
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGsAAAAAAAAAkwAAAAAAAABW6pn8ysgWqDSP8YH3yossPCWaL6+tHTCvvPiO4gYCpMjxLJbxGxKqNyXwVzdpVCE3NRdFDwDYzB+p5P588F4TY7QgQDEbNG1T/okXaZLVOdSuqukIeXoEMh0qX/NdNQAzwMzs4Yn1t1hK7kyUN+3zlExCN5M4xjdosGKGrgbsQA==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGgAAAAAAAAAlAAAAAAAAABsXCU1yyGsSIfyZImOrY7D7IhvQfBQ+N+XaqIE+To+AB/zGjc3bQbFTA+40U2JoZ4DohcE3eOi1u2vOtevRMx/BiN9zfwkvR/dDgYUpAIHsC5e/y22XUeH608J0DjTiOiHBTNRdZNt1U/mVx6pcRmzaPesLJxKrz6nmF4jWJCfwA==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAF8AAAAAAAAAewAAAAAAAACo3aetfNrHwpuuA0vaoexHauFlXRculyLV7h0/PoMPD6DBRmJV0IuduNTDQTg3U5zRgrCdvU2XN/VUnmj3zAykvelec8ICF0FxhP5qOF3iu8MrTgYcNx1bsAKPL58njrfkMkTnzPDWulQ1WJbP82h7KGDtxZG+aaZH7uEFzrcDeg==",
+  "IsRepairEnabled": true,
+  "IsCacheUpdateEnabled": true,
+  "InternalGameNameFolder": "Star Rail",
+  "InternalGameNameInConfig": "Star Rail",
+  "GameDataTemplates": {
+    "MagicSpell": {
+      "DataVersion": {
+        "258": {
+          "Data": "Q29sbGFwc2UBAQAAAAAAAJwAAAAAAAAAKwEAAAAAAAAUp47SXIGneUKhtwQxyI5KzYDP6KttzrrS9INChy9uHsDn3NYNw612uDlBwvM6Us1g5AZWTXxdPu0jbT+nNdN2BvBqvXuSn2oSccKyrS8NpkE+viDXmTrGsp7FMqUKVyv2wmSIVqYJIuKgftd00s4Ng/6f4Q6/+dQ0giWbl03Vf6dfqKLZCFnBnCGsTKtMY0PyWHSutPL5TZwDEyHix2eXBE0BN3usF0QcV5R/YQXxo5xuG5udLnCwZyIa/vhFC4uP+B9Aaqnv+SykwCnHqECu+0DLSgr6tYNdOAlZYSQM9myMtoD4MXcMRWFIPdDy8tKsjQ/2PkSKJLKE5ugGxyx+",
+          "Length": 299,
+          "isCompressed": false
+        }
+      }
+    }
+  },
+  "ZoneSteamAssets": {
+    "Logo": {
+      "URL": "metadata/game_logos/logo_starrail.png",
+      "MD5": "2942de6278aebab64a3ccdc7904b0950"
+    },
+    "Hero": {
+      "URL": "metadata/steam_assets/game_heroes/hero_starrail.png",
+      "MD5": "00f4618447c23bc0c2ee29a30436622a"
+    },
+    "Banner": {
+      "URL": "metadata/steam_assets/game_banners/banner_starrail.png",
+      "MD5": "361eed31c9dbd5bc097bf4d35ef3d22e"
+    },
+    "Preview": {
+      "URL": "metadata/steam_assets/game_previews/preview_starrail.png",
+      "MD5": "92006c934a396c073f180d2eb8bdbd90"
+    }
+  },
+  "Hash": -6147124126473853429
+}

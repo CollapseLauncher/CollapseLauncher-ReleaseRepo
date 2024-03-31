@@ -1,0 +1,103 @@
+[
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_Hi3SEA.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Honkai Impact 3rd",
+    "GameRegion": "Southeast Asia"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_Hi3Global.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Honkai Impact 3rd",
+    "GameRegion": "Global"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_Hi3CN.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Honkai Impact 3rd",
+    "GameRegion": "Mainland China"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_Hi3TW.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Honkai Impact 3rd",
+    "GameRegion": "TW/HK/MO"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_Hi3KR.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Honkai Impact 3rd",
+    "GameRegion": "Korea"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_Hi3JP.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Honkai Impact 3rd",
+    "GameRegion": "Japan"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_GIGlb.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Genshin Impact",
+    "GameRegion": "Global"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_GICN.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Genshin Impact",
+    "GameRegion": "Mainland China"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_GICNBilibili.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Genshin Impact",
+    "GameRegion": "Bilibili"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_SRGlb.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Honkai: Star Rail",
+    "GameRegion": "Global"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_SRCN.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Honkai: Star Rail",
+    "GameRegion": "Mainland China"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataPath": "metadata/v3/stable/config_HSRCNBilibili.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Honkai: Star Rail",
+    "GameRegion": "Bilibili"
+  },
+  {
+    "LastUpdated": 20240331172005,
+    "MetadataType": "MasterKey",
+    "MetadataInclude": true
+  }
+]
