@@ -1,0 +1,70 @@
+{
+  "ProfileName": "HSRCNBilibili",
+  "GameChannel": "Stable",
+  "IsExperimental": false,
+  "ZoneName": "Bilibili",
+  "ZoneFullname": "崩坏：星穹铁道 (Bilibili)",
+  "ZoneDescription": "这片银河中有名为「星神」的存在，祂们造就现实，抹消星辰，在无数「世界」中留下祂们的痕迹。\r\n你——一名特殊的旅客，将与继承「开拓」意志的同伴一起，乘坐星穹列车穿越银河，沿着某位「星神」曾经所行之途前进。\r\n你将由此探索新的文明，结识新的伙伴，在无数光怪陆离的「世界」与「世界」之间展开新的冒险。所有你想知道的，都将在群星中找到答案。那么，准备好开始这段「开拓」之旅了吗？",
+  "ZoneURL": "https://sr.mihoyo.com/",
+  "ZoneLogoURL": "metadata/game_logos/logo_starrailCN.png",
+  "ZonePosterURL": "metadata/game_posters/poster_starrail.png",
+  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Star Rail",
+  "DefaultGameLocation": "C:\\Program Files\\Star Rail",
+  "ConfigRegistryLocation": "Software\\miHoYo\\崩坏：星穹铁道",
+  "FallbackLanguage": "cn",
+  "GameDirectoryName": "Games",
+  "GameExecutableName": "StarRail.exe",
+  "GameType": "StarRail",
+  "VendorType": "miHoYo",
+  "LauncherID": 28,
+  "ChannelID": 14,
+  "SubChannelID": 0,
+  "GameDispatchArrayURL": [
+    "Q29sbGFwc2UBAQAAAAAAACoAAAAAAAAAMgAAAAAAAABjl9JmQWAaWcBBKTRwTYbHAo6yP+D57wqhvi4piccRqPflcaWf03mKYoUNgls/iUydSNcy7MWYCDiHl9amzDj/1bLbKY68J1xDbqBqyeccZIB5yh2915FHS9wTrMoe9dmzPJPFJTw9eaF4oYu5FcAQ7S6IUJrTUyWfyuVFDUf34g==",
+    "Q29sbGFwc2UBAQAAAAAAACoAAAAAAAAAMgAAAAAAAAA2hMcLCsndA/IY3YrYuvWJgT/Xvs9++FSa7QPPGC41/zZoxy/bnyD8j4twb1B3ngYebDrgWf3AGWR+e4DCbD85c70FoiyzFO0Iwl1uPKS0nlQ+YFCqaff/8dCCWaeQ8RfE5mV9/q+Cxo49+nDmHgHiwgivG2tw7Dy55oC3yRc70g=="
+  ],
+  "GameDispatchChannelName": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAAAau4EpwCLJ46Iid09y/0Kz8Fy7/csdfriQUvEWvhuSefmiugbs99bOa5FbDlASern/alHq032AoAzw3N9DSIbHIL0sSOHlOpvtSExlW9tYyfRniRz5Suu/n6c4jHSPhdWY2d+P8grCtxQDqT6pDf6He8WqqK+uGWixZXvYNj/iKA==",
+  "GameDispatchDefaultName": "Q29sbGFwc2UBAQAAAAAAAA4AAAAAAAAACgAAAAAAAACKLw9BjwUQUgQ7RVKgqaeeakRX8lwYl1TxvfLk8F0Qi/lnbuX4e11C3HTkyYh2RXKe+fXZ3cVFzuUcoV2X5ANZbh2bWs2+P7NsfHKupvhbHzmeH7fp9DGtvmUYSiPWG0ouSK1cGl8/VOI0/607UV5txfuJbydPr1wlLSaslZOZKQ==",
+  "GameDispatchURLTemplate": "Q29sbGFwc2UBAQAAAAAAAFAAAAAAAAAAYwAAAAAAAACCVRNrB/UlKdhFc15T1QJhnBnyj3bbNCjuPXHpPGFTUrd5TY+yiyCqHt+f2LjPhQ8d1sm0HJiYwR52ggY654SAxZzee7nvxyNMQ0vQgwwYg9U4t3J/p7rCZG4olxWodA6mhv3vEoHkksxqYnxeh0aHWZz5pezKsBY0lDElNLdnqQ==",
+  "GameGatewayURLTemplate": "Q29sbGFwc2UBAQAAAAAAAFoAAAAAAAAAeQAAAAAAAABf71Ap36DLSycsqqVQjhEaF5iG6j9R3b1YUUuvKB1JO1+11SiqarE/jICidk+KLZSQuQ1DvPCy5KcxF0Nz0qHwHZ3p1CS9B6Pp8okrybJxWEtLcQTOFqGu7gqshBCrkXhpK3JtHirocCPh/AoJxoBb7W2km61k2D0YAfVt9RNdeQ==",
+  "ProtoDispatchKey": "Q29sbGFwc2UBAQAAAAAAAA4AAAAAAAAACgAAAAAAAAABRw8s78eVpkij+ml/KaDU5rL9ZxACfOXq03oWvsclTFYl6IbwGh29xNBrqCsK3dvNNsh2i3b8iSv9zw71NCB3oncxPhF5G3vjth3HjzJGUrgOaPN0Pp9gxzGEkJcEWacJc3+oZFUOPN0i3oeSzeFbY7JFkNSc2P4MfCJinCQ+vQ==",
+  "IsHideSocMedDesc": true,
+  "UseRightSideProgress": true,
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGgAAAAAAAAAjAAAAAAAAAAzik7c53wro9e5S1bx7ln0z8kBQ4jsxdYc5gSE4O+mBe9WQrCbI80pwMuYODzWhnknC3eHOtatCVI2zpsKPdsOIDU0ml5v5YII8h8kyQn9l2xe+QBPidBHzzxOQMk/Af1FFl+79+WRq+f6vjW/ayFBFjOhjtyH0EczUg664GdjxA==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGwAAAAAAAAAjAAAAAAAAACYn+u8z6lVY/gNCkb/t3Ai3dmgpPSHQMNggSqqJRQ//9SaCQ7KU9zPXxeE6/hY306++MAwEZevTzvkKyLsDAbqW2VPAXIgqaM1NxYpLYxc54/CfOpXAK8S9Eq9gtx5ITI5uCXCwrjbTAI4Emx3ysDzf1wd25oNh7+U5xT2j3Rz+w==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAF4AAAAAAAAAeQAAAAAAAACEiPDXzq8FzKEEMyd103uRP5LBXYNXze9tmAjMr2S78b920p3epPIoduiPFkDMegR+k9uaJthJcfTWIaneprWxItVfSblG1TSeiZWO2Hu2vVHKRxPttkhxSOEF5jTgd2VHlngXxAZ+7YVMfhLuyR6UqfWKB6RNnUFfl6HZ7yWVgA==",
+  "IsRepairEnabled": true,
+  "IsCacheUpdateEnabled": true,
+  "InternalGameNameFolder": "Star Rail",
+  "InternalGameNameInConfig": "崩坏：星穹铁道",
+  "GameDataTemplates": {
+    "MagicSpell": {
+      "DataVersion": {
+        "258": {
+          "Data": "Q29sbGFwc2UBAQAAAAAAAJwAAAAAAAAAKwEAAAAAAABpg613S94hrL3e5HKe4ZjzWeyJFy8xyh5H801710F/O85G7+QwVMgclpsidvoq+MP0SDFKqCaSp+epF5jU0SQmRMOhBxQ3KoNfe8krk4u715j+PWW/RGW8vTnV+FTVHHCbb+Jvyj1JlyRVuOMN+1LMNmDs/piGDsgsb6uNVB1ZlHWM80COR+TAlnka9KxiNrYDpavXbJegsdU4RVlwvZaFEUtM6y/VUsWs3DUrk82y1kndC02n0fLkDN5Xjr4Wge/bY05p5mm4QJ+tKmjgneIVnY5esy5MrOECLm+GGw1aZqQPtSpu3BYzvZ87Gjuxd9sZ27E5dOZuizL1s206IUGl",
+          "Length": 299,
+          "isCompressed": false
+        }
+      }
+    }
+  },
+  "ZoneSteamAssets": {
+    "Logo": {
+      "URL": "metadata/game_logos/logo_starrailCN.png",
+      "MD5": "c893eccb17d2e6e5f7bb08f4f1868a1e"
+    },
+    "Hero": {
+      "URL": "metadata/steam_assets/game_heroes/hero_starrail.png",
+      "MD5": "00f4618447c23bc0c2ee29a30436622a"
+    },
+    "Banner": {
+      "URL": "metadata/steam_assets/game_banners/banner_starrail.png",
+      "MD5": "361eed31c9dbd5bc097bf4d35ef3d22e"
+    },
+    "Preview": {
+      "URL": "metadata/steam_assets/game_previews/preview_starrail.png",
+      "MD5": "92006c934a396c073f180d2eb8bdbd90"
+    }
+  },
+  "Hash": -6941150407106893889
+}

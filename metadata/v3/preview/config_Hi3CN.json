@@ -1,0 +1,65 @@
+{
+  "ProfileName": "Hi3CN",
+  "GameChannel": "Stable",
+  "IsExperimental": false,
+  "ZoneName": "Mainland China",
+  "ZoneFullname": "崩坏3 (Mainland China)",
+  "ZoneDescription": "崩坏3 - 在被崩坏侵蚀的世界中，勇敢的少女组成的女武神部队，为守护世界而展开了战斗.",
+  "ZoneURL": "https://www.bh3.com/",
+  "ZoneLogoURL": "metadata/game_logos/logo_honkaiCN.png",
+  "ZonePosterURL": "metadata/game_posters/poster_honkai.png",
+  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩坏3",
+  "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3",
+  "ConfigRegistryLocation": "Software\\miHoYo\\崩坏3",
+  "BetterHi3LauncherVerInfoReg": "VersionInfoCN",
+  "FallbackLanguage": "cn",
+  "GameDirectoryName": "Games",
+  "GameExecutableName": "BH3.exe",
+  "GameType": "Honkai",
+  "VendorType": "miHoYo",
+  "LauncherID": 4,
+  "ChannelID": 1,
+  "SubChannelID": 1,
+  "GameSupportedLanguages": [
+    "Chinese"
+  ],
+  "GameDispatchArrayURL": [
+    "Q29sbGFwc2UBAQAAAAAAACcAAAAAAAAAJgAAAAAAAAAeo62wijJBBm73E20Lm8JfWx24kOjt8zIwZupAAqGoFVN+pFdSLVBIJ7XsnymcdjeBNtryf8+QZKGVNRgV5CA8wZ0vomB+v0cSiM/R7SeQ+qbPGqb+nhF9GiNvvksjflComaiW4ZBhuvwDXrDywCNKISCyDk1H+yKFDhrA1vJUZA==",
+    "Q29sbGFwc2UBAQAAAAAAAC8AAAAAAAAANQAAAAAAAACIgJDah7seOtMR5Kkx8mQ+kzYJisPtnmA4X0rclOnMr2INDV6G1MlC4YqH9WhoBrDtfflqCHv/4IrYLysX6oWuIeN14silK8YzswZjVifTzJg4jnOUwLgpdtWicFZ3054/m7mTh6zf7658IMMRmtj3/uc2vU6zWPWH71jIOBbPqQ=="
+  ],
+  "GameDispatchChannelName": "Q29sbGFwc2UBAQAAAAAAAAkAAAAAAAAABQAAAAAAAAABfgpffqnnpHL5LifHbj5adfjjt/ipRMYulcJWlDkbkXiNKT3YeCirg1RidXh+Pu2sCZRN1MibroqxDncqL8lBPZxB4Aa3myt4+z1pgUyd9leEIKFrQqR33JJVJ0GZkdZTZuh+3DPj4FuuyPfXH2vNxG2skguEK7XmwgTHaauJSQ==",
+  "GameDispatchURLTemplate": "Q29sbGFwc2UBAQAAAAAAABoAAAAAAAAAFgAAAAAAAACFVzMPmMBpaj1JzzJaBynpQKvdqfFzVYSHWdM9EgBlr5ZzVedFlro10ExXWogJpH4u9cxFH4un8iIPGh4qB7YYzBWujtHBcCR2PvV6saroesHZdGD2xnGnhj+7rEK7urv+f62Pt47YeulJPJNMpkQ0ZVYbT5Y8guGGkL7U4e6FNg==",
+  "GameGatewayURLTemplate": "Q29sbGFwc2UBAQAAAAAAACAAAAAAAAAAHAAAAAAAAAAQlWH04NFnIq7J60+HbKCHKP7XJyQV0zuGjo+q3q0JBmMkeMI9aCj2mQuJcWA2Kqu1AUbVoehZGQG4/0uM6HwAqHLO15zZ4KE8MEmigPXXlYH2O44i8zUF19A3RXpFf99sfDHrSuy+WZh5XQWxwEXBqTK25QikcIeSwkWZqLCMSw==",
+  "GameGatewayDefault": "Q29sbGFwc2UBAQAAAAAAAAgAAAAAAAAABAAAAAAAAACW3LTnvUw5bJLHhAZlCRuzWZVkEpk7pX5x6fnXFCLetqlQD8QCoPzJITaMQ2flfOtukl3KEdZWtygFYjiVIAwjEOPGtw7Bs6TT0D/R72QbCakvtaPyEYf5Fq4yzryZC+4VXE7tRFr5Xjb9CC514xNTqXgBRakamLcIUvC81xgJ2Q==",
+  "GameDefaultCVLanguage": "Chinese",
+  "IsHideSocMedDesc": false,
+  "UseRightSideProgress": true,
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAHIAAAAAAAAAgQAAAAAAAACJQqXhjHqU1bgT6m1HJSx/oA6rnWvlAszUvqpZWxiYW4mrYqEOFg23BCLRs39Td8tsSg7YGMAR2gWWyK7ydSojQW9py4mvfxn6oNFnybE3t5km96ZR+CGDxJeD0AAKcbSiLruoqi2A06wUkXlUOk80qsLiUDxbGzVQ7+Yc7lnY6A==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGwAAAAAAAAAgAAAAAAAAABq6NQGVaUIe0gFZ1x3ul2l11AfeFvH3HCcX4f2TaqXhf/6xmYnaODIWHY0NngzFTC0YQt5tcU1/aHN0oXHuWfDAIbMbk+/kxGTaI1VFhleEJxCl/8yH3iYmGJAQZGWAwRDhTtBAofDOJVjNGp1SsMoa4X6EdTRH0mnr4P+MMbiVA==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAGIAAAAAAAAAbgAAAAAAAAA5bnIEJWQp71ikUCDzl+C8fpDoN+Sl5V5LNWeY3I//M4l9dqMkvOu5pnd6xgGq3yaGX4omAgx7qkuoTm23A30w/PBlMS7mCYvPqUOkpaZo/DpcsZhfsFmnPHGUUPB9h/55xVp4x1T7/anTQgztmFf9/jsHrmVNiBXlg2I6JHvNPQ==",
+  "DispatcherKey": "Q29sbGFwc2UBAQAAAAAAAAwAAAAAAAAACAAAAAAAAACiT77HwmVx3FqcPz1+NJ7JAAtcGKPNGGprY2i6dXJoM/mLcDQoC8KvqOiC7VT3w94E7kNn8+L07Rha1aVpxXQxDqszd50ZarNB4drEm3uwiAhAkuFNHYl3sxl3/jFbQcXIAmVpvNJIyA2FNqalfkqTVyuZ638HNZWflokx5SxH1Q==",
+  "IsRepairEnabled": true,
+  "IsCacheUpdateEnabled": true,
+  "InternalGameNameFolder": "Honkai Impact 3",
+  "InternalGameNameInConfig": "崩坏3",
+  "GameDataTemplates": {},
+  "ZoneSteamAssets": {
+    "Logo": {
+      "URL": "metadata/game_logos/logo_honkaiCN.png",
+      "MD5": "37c2b488d16f0f63086d48eda36c0a6b"
+    },
+    "Hero": {
+      "URL": "metadata/steam_assets/game_heroes/hero_honkai.png",
+      "MD5": "f6eb046431f1f73ab0ce9c1166c4e43c"
+    },
+    "Banner": {
+      "URL": "metadata/steam_assets/game_banners/banner_honkai.png",
+      "MD5": "4168447e27a2fc7bf7760805a351a8b0"
+    },
+    "Preview": {
+      "URL": "metadata/steam_assets/game_previews/preview_honkai.png",
+      "MD5": "684969a42b83c13890b84ffac5057818"
+    }
+  },
+  "Hash": -691099271387239033
+}
