@@ -1,0 +1,77 @@
+{
+  "ProfileName": "Hi3Global",
+  "GameChannel": "Stable",
+  "IsExperimental": false,
+  "ZoneName": "Global",
+  "ZoneFullname": "Honkai Impact 3rd (Global - North America - Europe)",
+  "ZoneDescription": "Honkai Impact 3rd - In this Honkai-corrupted world, the Valkyries, brave girls with Honkai resistance, have been fighting for all that is beautiful in the world.",
+  "ZoneURL": "https://honkaiimpact3.hoyoverse.com/global/en-us/fab",
+  "ZoneLogoURL": "metadata/game_logos/logo_honkai.png",
+  "ZonePosterURL": "metadata/game_posters/poster_honkai.png",
+  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Honkai Impact 3rd",
+  "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3rd glb",
+  "ConfigRegistryLocation": "Software\\miHoYo\\Honkai Impact 3rd",
+  "BetterHi3LauncherVerInfoReg": "VersionInfoGlobal",
+  "FallbackLanguage": "en",
+  "SteamInstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam App 1671200",
+  "SteamGameID": 1671200,
+  "GameDirectoryName": "Games",
+  "GameExecutableName": "BH3.exe",
+  "GameType": "Honkai",
+  "VendorType": "miHoYo",
+  "LauncherID": 10,
+  "ChannelID": 1,
+  "SubChannelID": 1,
+  "GameSupportedLanguages": [
+    "Chinese",
+    "English",
+    "French",
+    "German"
+  ],
+  "GameDispatchArrayURL": [
+    "Q29sbGFwc2UBAQAAAAAAAC8AAAAAAAAANQAAAAAAAAAheXo5gYc0rLVFxoZm3ajyFhWZefcYD8tjAzKZw2ysHc+S7VdihGEAOkdm/IOxQsVzsXTZoMUuksLFwwbrsca2Fr7wwTQZF9YYqAQWi2osb30hT41VTf8orOA8p8JRAqp5MQ/y+FvyjzHIt4YMskM1znlLe8+y67ZtTH7WtURChA==",
+    "Q29sbGFwc2UBAQAAAAAAAC8AAAAAAAAANQAAAAAAAACkeP080syRrU4dL7r8cUi1M0d6nxHJg976yvwako6E1ebFc4JSlYebydbf2UKJLRPXcdxLZp5/6je14WktxyFmFPQU2iwcQvwSxMrXl/haqqLSRH/m+ubvpo9uEPjn8hFjSOsNrBawtJGSTIlkpVGOm+UPF9Bhr2xlsIngz5sHQA==",
+    "Q29sbGFwc2UBAQAAAAAAADAAAAAAAAAAMwAAAAAAAAAL9+y0p1SMnxzCx1CxVu656e61FU9YVkt+IyXYHXOekII2q/XY+AQvIufDxUOgxFoU7vA2ULK5E2jKl5b0H5Puit+c/ZO6lyO0LlFd0T8qxfrTjUmsJ146vdHU2J0QSGk2XH0uzNdslvwUqSWSWOxIGUt9qaujTJ3nM8LZXX+x5Q=="
+  ],
+  "GameDispatchChannelName": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAAAHqjdzJhUz1UH2NwHMlmfYrd/axcTyGzMbgdpN7kw0AS4lUi08HrYUQsFrCnJC8bf1yeejTCwqXwHMUoVWK5g1g87xdrJ3EiFv2AQnS2Jx2ImkIR0/KYj7Q1fvEgATrVW+jDI3b8DbsMosNEQlmzjyhyrXHMPCVrUU0sqsbhovmg==",
+  "GameDispatchURLTemplate": "Q29sbGFwc2UBAQAAAAAAACIAAAAAAAAAHgAAAAAAAAALWaR15vX5PMePuM8rqNuT+WfcDBNZEHx/P8zBl9Bx6DKJuBZVj6pA5xgz7cVJNsDg0Ulpx2HQ0Leyx/Jkz7QWLW1s36vbIOMjYddIFYdlf+iFzUZEGV3e/8U9Tn4U9cAhgKxpvC+hiegKaSd9nIhPSa7feEnxmEaPc154nmfihA==",
+  "GameGatewayURLTemplate": "Q29sbGFwc2UBAQAAAAAAACIAAAAAAAAAHgAAAAAAAABoTXY/HxdPClq5bF0jkTEpL46jGibh01HCn6B53dx0wX1gXAm6pwIAV12JcAjbBSipbogYiRPHY+NUz+GE5BVIfq5opo+qv2MHjHZXcajfdVbtLU1HrYE4+RmFdAned50kQGPoU9b45j0UBJfUNUZ0TZOeicn0D0TqMGPSAsiWkA==",
+  "GameGatewayDefault": "Q29sbGFwc2UBAQAAAAAAAAkAAAAAAAAABQAAAAAAAAA2K1H9ihiV2wrNQUaNbwZlTSu8kdgYeHH+x1xirwRKYTtYfnBTB5h2Ck1tMiYTpIFJZQRI+QP+uiecHKsMv859x92Ln58h+GtMKqrI7Kx/VQI6iJgMEx5g4Cto2FVlLcYs+Cn52E/BjXs7xdyYG7lPDJlvjEbFtbb9LS3B9iCrzA==",
+  "GameDefaultCVLanguage": "Japanese",
+  "IsConvertible": true,
+  "IsHideSocMedDesc": false,
+  "ConvertibleTo": [
+    "Southeast Asia"
+  ],
+  "UseRightSideProgress": true,
+  "LauncherSpriteURLMultiLang": true,
+  "LauncherSpriteURLMultiLangFallback": "en-us",
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGYAAAAAAAAAhwAAAAAAAACFUOiXCZUipNWVl4pm3uB649d6XfnewLX7Qy/m8E/u6iJ7wjjOWYLyXOAY+cYV/zJnAD6Y92zNqALGNSrBUKVEoJd8e7g144QFD6KT+YaJWV1euMlO0erQx7GFD4oXHWn+AnI7mDkAOBpVLeCNjy7lC6CTNDSinbxJNKdm4HPAdg==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAG0AAAAAAAAAiAAAAAAAAABK9+4t0ahaDiciCosL++zlQ5gTmowHmsJpZtRBhpu8wt3+nAwVbkY9//FJs8dvjbWxKPAuJ/bfKQ0ZWBX4VuaeLwZ1sD/RakvCIiRhPpBeZ1rCmHp2df8bydmiEGpGrBu2EXyoZJtnLVMRb2jDWoAap2P7IsrBlMIh7CxP2NWfIQ==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAGQAAAAAAAAAdgAAAAAAAAAwPXxb+Q9MZQta3f2enVxjmVViX0xgGGPj/dIXzah0D7+Hv4EgD1LD8twlhXIblYnfMBooQMrfeMAgb2bo94rPlyFZCEeiduP7TETnuPIVum9gFKQG9wxog5ozzLvCpqYw+0POQzNusqyLSa7ZPpLjxMyWyUD3CkQ+rJvbO3nwcA==",
+  "DispatcherKey": "Q29sbGFwc2UBAQAAAAAAAAwAAAAAAAAACAAAAAAAAACiIqkgrrIMNTX6uzlsha51klZj8AvdMxw3ru9CdoetpXPnsHhc/JSFWe9hM4dOfddAatxH8SzEeR/pvbBauZ2lzTWaiV1MOpj9dMxPZehIpB5aP+hReZ1hIwUjg1DemUNvEvEoo0L084wOZA3WqSOiLf8tu5LyS9C3s8TOLN6PXA==",
+  "IsRepairEnabled": true,
+  "IsCacheUpdateEnabled": true,
+  "InternalGameNameFolder": "Honkai Impact 3rd",
+  "InternalGameNameInConfig": "Honkai Impact 3rd",
+  "GameDataTemplates": {},
+  "ZoneSteamAssets": {
+    "Logo": {
+      "URL": "metadata/game_logos/logo_honkai.png",
+      "MD5": "7b07c28464bc3a0a3b9b757479ead2ef"
+    },
+    "Hero": {
+      "URL": "metadata/steam_assets/game_heroes/hero_honkai.png",
+      "MD5": "f6eb046431f1f73ab0ce9c1166c4e43c"
+    },
+    "Banner": {
+      "URL": "metadata/steam_assets/game_banners/banner_honkai.png",
+      "MD5": "4168447e27a2fc7bf7760805a351a8b0"
+    },
+    "Preview": {
+      "URL": "metadata/steam_assets/game_previews/preview_honkai.png",
+      "MD5": "684969a42b83c13890b84ffac5057818"
+    }
+  },
+  "Hash": -8975190576558581836
+}

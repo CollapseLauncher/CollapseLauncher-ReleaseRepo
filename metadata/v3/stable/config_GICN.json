@@ -1,0 +1,65 @@
+{
+  "ProfileName": "GICN",
+  "GameChannel": "Stable",
+  "IsExperimental": false,
+  "ZoneName": "Mainland China",
+  "ZoneFullname": "原神 (Mainland China)",
+  "ZoneDescription": "《原神》是由米哈游自研的一款开放世界冒险RPG。你将在游戏中探索一个被称作「提瓦特」的幻想世界。在这广阔的世界中，你可以踏遍七国，邂逅性格各异、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不带目的地漫游，沉浸在充满生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……直到你与分离的血亲重聚，在终点见证一切事物的沉淀。",
+  "ZoneURL": "https://ys.mihoyo.com/main/",
+  "ZoneLogoURL": "metadata/game_logos/logo_genshinCN.png",
+  "ZonePosterURL": "metadata/game_posters/poster_genshin.png",
+  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\原神",
+  "DefaultGameLocation": "C:\\Program Files\\Genshin Impact",
+  "ConfigRegistryLocation": "Software\\miHoYo\\原神",
+  "FallbackLanguage": "cn",
+  "GameDirectoryName": "Genshin Impact game",
+  "GameExecutableName": "YuanShen.exe",
+  "GameType": "Genshin",
+  "VendorType": "miHoYo",
+  "LauncherID": 18,
+  "ChannelID": 1,
+  "SubChannelID": 1,
+  "GameDispatchURL": "Q29sbGFwc2UBAQAAAAAAAHsAAAAAAAAAoAAAAAAAAABbwJ0iXPmwRpDXWowfzZi/LMLgBEVa1KMwr/PjN4vgPHFasc609MM/UFl1Rlj5zjZUroMkPWez7W2v53/dtidzRkpDiPwz7NGVr45M9uIJRdnw9RQ96D86cGwRLsGGNKdTw/rhXLtjtpBO3XXugYUW3xCyi9Zjdvo0pNr79wqaxjoJwwSXTeDGevFIXkYLphZN4+ubPceL6SdnrG+EYau9yYaoxBAW6FiSVCuqTX30vgvEsJ1U4CfYIfHlUA2i11PC0g8cAwCw6KOOZc7Vr9aKekZfkjqEVMyY43DWtrdueVV5pFsT25Za80+lce105jO81k1Odb6q9IuA3aVZ33k3",
+  "ProtoDispatchKey": "Q29sbGFwc2UBAQAAAAAAABQAAAAAAAAAEAAAAAAAAAAL7unQ0wuK4cx3aUVbwj25jr475EW7IQFEMHQV0HUe6vO+sGUxOrnFvjSsPutCqu8V0qTpK1CaZqhtigt6oSw9r4OaKknM6b/WeZe25J9K+2aCT8qw9u1n/KM2iO9x4UjCTooEydO62NQgKQt5eWOc4eKHN1JF7wuktcoOHLLATg==",
+  "IsGenshin": true,
+  "IsHideSocMedDesc": false,
+  "UseRightSideProgress": true,
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGIAAAAAAAAAegAAAAAAAACICghVlhFl68+OPNhfRb2VmWFPp3HSZUTuPnbTbGoHYtu9Wk4MhIlJxyd407WlUlGjG/V4AmQxcckKN3KihQ+wWY/TCAD5RT+XM6Nfu1M/aV6GVV+sT/sOcCPfIqqF4vWDIZMRtt4VIobNXoiPiLMLo/1EX1WpByl9QXB51Vd7og==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGAAAAAAAAAAeQAAAAAAAACawtYTeSYNpgH4HWN9HGL2bscJUB4TzfKD1+XaQ5SLW3UX5iWlOarWKCjakNL0A8TxEh1RSZbL6AnMjn+04rAZu9nd7TQNwBRlEcIzBs8OwleIxohUkbmNC4mcrtIrSxKdrZ+iBTM5ScRCJPfdJJMU4gS9mZQ6uHfBweKKA00lxw==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAFsAAAAAAAAAZwAAAAAAAAB9PnZjlYulfOvaw4d6CdJ2cIM9E8AJ1bzxsv8lM3MJPREUrRshASqLKkXIZLSbNqPsefSwqZ8lwPKGfVg5b5NLF9jNINyG8uLR35Xq5pdzor4K87boHxPjG9APOI5m6wCX1gvnDxlPzTYExyCpXnXrb5naSzlH6u0cgNJM1Ub+uQ==",
+  "DispatcherKey": "Q29sbGFwc2UBAQAAAAAAAAMFAAAAAAAAjwYAAAAAAACrxmoKGNmoTKxyFhmiisruRq3/YuRTePMSRvCSOBkmG8n93rJNho9134m3NcJnkMHZijrddQQAaMh8rUWv2mH1hF0h2NGoHwu3ZZi26fbtDsGCOPNef0r+iLIc9rGZo0iIag3g3y1eZs2Tin99b89/ceklyOEXZafR1GjPc48jI0CR52p3JhZwKiUN8qbTlAuKXUi37kQQSYsw6fg82UIWk3q2W1fCDw17XzPFm1Wknvr9Y1ouw1oxHaZptSoEEckM9vdw8ndpJ3FMqAB1Sho09CcA3dH0NsvVulRIHhb7T0Hj+tdEYtkCHmLRLftAEVXH2JSGYvTPoD5Dt04gUYPAnKmJygO0WSkn2/KS6ML1t5+7DmozfAI/19DR+p2f/t52f93VnKPiWP/CFqH0E3Aihvsf3Zwj5cWYe+lsEtF32p2MKF5JsD66KyvGwqATeofNphitrXsJhv93t6NqKzrb0Y3IzSn4+94q99Hx4u2p9MuZV+e4/xRGz45j3eqxCVNv/eyHuVSkPKlgi1INgJiXbjuqTW8chm4J7cHj0Ur6Ea48HUUUYqYkqsihAyflwPrM/bV+BvrMNuJk2F7nN7OyysKR3IHpeGlrRWiVWb7KvHMRkRoCC1gTIb0xHasC/MN6/eDCvY/mLL5IHraiINfBDrIUyREml8VBspMu7O1AuTVAASF0EHJzt8KIjuO65VSsXVO+oGixPKL9CzM7FOVXU/01X+JkXgD3fq7ARLc+0NWk8f2WCe4CR/APf8eQv/wuh3bCsr2fD5zi3THU18PcsZC1UqS+PvPjxCaCWxXo+lofcW0AW4BZ/8d9lCme1l0yhsO2XGgroEap3euCjli7PvDZ+wRbk+8h0IUdmfHmNEERideGmTtT6cwSivAVzyF7sM5h/p7UnhCr+Bn4do7P2z9fObqhZRDCCzDT6kQFx6Dg1ARn+eJeB49n624sF1K4Y5z9Xk0HaxkzRK5/3IeWjDMzSAslatrurtD104bC/kh02bojjuujsQ8I2SnCKhQwwOJkwPW4Te6YVOFNK5PgWdlAcwW1Lc1jjis9MGlCJFBjDEy7SJsnKJhNwe8u1nlO2nk+V/RWgTQKOjW1o+PmU2Lz1x6n9V8iC2bKnGgZcgBE2O2QYp0gejiwQhTz3CdMenK7Ov9HvfCfmWNiWgk3Prj67L3Jyno98eudXOFvQh/GXwblN/g0I585vivT+Vh++1jfWP8WPoQVEhps6iO95kQbxyji5oVl8629E0hGr4+KvaiH4Jeod5KXqHzzRWQIrHXjDC+cP2CUqGwCARcBZ3e+TR1m63QaTZBNL17nO10RW0q47h5frG7nb35wlD3K3iLQnJpToqpmVLNbYf+2JqQ5G6D58ZFPJ+CJMjW2puvgvNWikedGwTs7VlhVciSPM0sGgl+XjQHg94i40gg1UG5w7stzGoLf1riQKpfWftZaariZPH0t02CLRRbXYDFYXacDb7SEUEJ1vtMDil5mfFrJvVHV9zKeOGxfpu0iGgmbQIN0ZyCy9VmgvonC23hbnkV4kdHgzuo8zEjG0HMF07ZhN+ZVUATEInSkdJ0Vx/YS/FHDN1d1za2ApicrzTJieG6kx6KOnjz+s56ri9ekb/ZheUQjHMpzyyxOG3UgN/mFrHNwcQsMfoftNqexK4550AqkWle64az9q6UuAymHzvT0aWKT4dJ4TaA9UnVQVYWCHydTi+fQySSHnxSOU3txyMk2Ev66hncmp7Hm9BLVJwrWX3Fh5gWR2/c6yLe589jmdapUFaJ4Gy/DSHZeNvfDmktq52beMiA351Y+RLfJnLwvZ3litfLMhQR/y0ZdBAcik4fEIrKU5VzhIwFGKQXNLQD11IPhbgBgEEmmcXaE",
+  "DispatcherKeyBitLength": 256,
+  "IsRepairEnabled": true,
+  "InternalGameNameFolder": "Genshin Impact",
+  "InternalGameNameInConfig": "原神",
+  "GameDataTemplates": {
+    "DownloadPref": {
+      "DataVersion": {
+        "260": {
+          "Data": "Q29sbGFwc2UBAQAAAAAAAHIAAAAAAAAAbgAAAAAAAABzMY0MQ9nERRlc7WORTm7ShzTUSY7HKGN9+l5inDizpwgmZ8/a2glN4hyH58vQWWtyEp93DE9LC2A2WZVUBa95acqE6XSv1XRr4SylbWVPr/nT6BAIL0ZeTn3XQ+Qn2QBL0y57FgkcaJsd7cNK+gvzRdYKGH8VVN3GmMgh8ok9mA==",
+          "Length": 110,
+          "isCompressed": false
+        }
+      }
+    }
+  },
+  "ZoneSteamAssets": {
+    "Logo": {
+      "URL": "metadata/game_logos/logo_genshinCN.png",
+      "MD5": "b3de675e3cfda58cac3fe2141702b861"
+    },
+    "Hero": {
+      "URL": "metadata/steam_assets/game_heroes/hero_genshin.png",
+      "MD5": "b503a687b87286002f9b408b64a42a27"
+    },
+    "Banner": {
+      "URL": "metadata/steam_assets/game_banners/banner_genshin.png",
+      "MD5": "96c6b5f2ca0176f36ce735767304f768"
+    },
+    "Preview": {
+      "URL": "metadata/steam_assets/game_previews/preview_genshinCN.png",
+      "MD5": "b0ece19263d2213bfef60f5a43a2a7f2"
+    }
+  },
+  "Hash": 1626688814678686436
+}
