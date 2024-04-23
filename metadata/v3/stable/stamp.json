@@ -48,7 +48,7 @@
     "GameRegion": "Japan"
   },
   {
-    "LastUpdated": 20240331202957,
+    "LastUpdated": 20240424063053,
     "MetadataPath": "config_GIGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -56,7 +56,7 @@
     "GameRegion": "Global"
   },
   {
-    "LastUpdated": 20240331202957,
+    "LastUpdated": 20240424063053,
     "MetadataPath": "config_GICN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -64,7 +64,7 @@
     "GameRegion": "Mainland China"
   },
   {
-    "LastUpdated": 20240331202957,
+    "LastUpdated": 20240424063053,
     "MetadataPath": "config_GICNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
