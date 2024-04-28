@@ -1,6 +1,17 @@
 # Collapse Preview Update Changelog
 Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 
+# What's New - 1.80.1
+- **[Fix]** Fixed Honkai Impact 3rd Repair and Cache issues, by @neon-nyan
+- **[Fix]** Fixed double region load when using Keyboard Shortcut, by @gablm
+- **[Fix]** Refactored API responses to fix inconsistency with data parsing, by @neon-nyan
+- **[Imp]** Updated Settings references for Genshin Impact 4.6, by @bagusnl
+- **[Imp]** Use new SharpCompress for zip decompression, by @neon-nyan
+- **[Imp]** Improved App Settings page, by @neon-nyan
+- **[New]** Add warning for Video BG on OOBE, by @neon-nyan
+- **[Loc]** Sync localization from Transifex, by localizers <3
+- **[Doc]** Add contributors to the list, by @bagusnl
+
 > [!NOTE]
 > ### Releasing Collapse v1.80.0 - Codename: TBA  
 > We have decided to skip a few major version number due to the number of changes that happened since the last update being released.

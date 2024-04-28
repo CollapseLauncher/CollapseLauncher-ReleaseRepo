@@ -3,8 +3,9 @@ set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=Collapse
 set channel=1
-set version=1.73.4
+set version=1.80.1
 set thread=%NUMBER_OF_PROCESSORS%
+set forceUpdate="forceUpdate":false,
 
 :checkRepoLocation
 if not exist "..\%name%" (
@@ -55,6 +56,15 @@ if not "%versionPrompt%" == "" (
 	echo Set to defined version: %versionPrompt%
 	set version=%versionPrompt%
 )
+
+:isForceUpdatePrompt
+echo.
+echo Use Force Update?
+set /p forceUpdatePrompt=^[default: Y^]^> 
+if /I "%forceUpdatePrompt%" == "Y" (
+    set forceUpdate="forceUpdate":true,
+)
+echo Force Update Parameter: %forceUpdate%
 
 :setBuildPath
 echo Input the extracted folder path of the signed artifact
@@ -151,7 +161,7 @@ FOR /F %%B IN ('certutil -hashfile %channel%\release MD5 ^| find /v "hash"') DO 
 :: Get current Unix timestamp
 call :GetUnixTime unixtime
 :: Print out the fileindex.json file
-echo ^{"ver":"%version%","time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^}>%channel%\fileindex.json
+echo ^{"ver":"%version%",%forceUpdate%"time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^}>%channel%\fileindex.json
 
 goto :EOF
 
