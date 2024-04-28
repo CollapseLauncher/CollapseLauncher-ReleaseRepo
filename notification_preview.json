@@ -1,5 +1,24 @@
 {
     "AppPush": [
+        {
+            "MsgId": 69,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "Title": "[EN] Update regarding to Honkai Impact 3rd v7.4.0 Game Repair issue",
+            "Message": "Hi Captains!\r\nThe Game Repair issue should be fixed as of version 1.80.1! That being said, should you be running on 1.80.0, you may encounter some issues related to memory and/or Cache Update functionality. Please update as soon as possible!",
+            "Show": true,
+            "TimeBegin": "2024-04-29T00:00:00+08:00",
+            "TimeEnd": "2024-05-29T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/orgs/CollapseLauncher/discussions/451",
+                    "Description": "Discussion Thread",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
+        }
     ],
     "RegionPush": [
         {
