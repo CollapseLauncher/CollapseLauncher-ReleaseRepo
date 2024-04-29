@@ -60,7 +60,7 @@ if not "%versionPrompt%" == "" (
 :isForceUpdatePrompt
 echo.
 echo Use Force Update?
-set /p forceUpdatePrompt=^[default: Y^]^> 
+set /p forceUpdatePrompt=^[default: N^]^> 
 if /I "%forceUpdatePrompt%" == "Y" (
     set forceUpdate="forceUpdate":true,
 )

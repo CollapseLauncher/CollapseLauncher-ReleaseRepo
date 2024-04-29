@@ -1,6 +1,12 @@
 # Collapse Preview Update Changelog
 Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 
+# What's new? - 1.80.2
+- **[Fix]** Crash on launch when using certain language, by @bagusnl & @shatyuka 
+  - This due to HoYo does not have response in their API for `es-419` and `pt-br` locales. For background and news area, fallback `es-419` to `es-es` and `pt-br` to `pt-pt`.
+- **[Imp]** Adjusted Update page tittle padding, by @shatyuka 
+- **[Loc]** Sync localization from Transifex, by localizers <3
+
 # What's New - 1.80.1
 - **[Fix]** Fixed Honkai Impact 3rd Repair and Cache issues, by @neon-nyan
 - **[Fix]** Fixed double region load when using Keyboard Shortcut, by @gablm
@@ -12,10 +18,12 @@ Welcome to Collapse Preview Release Branch! This is an early look at the next ve
 - **[Loc]** Sync localization from Transifex, by localizers <3
 - **[Doc]** Add contributors to the list, by @bagusnl
 
+
 > [!NOTE]
 > ### Releasing Collapse v1.80.0 - Codename: TBA  
 > We have decided to skip a few major version number due to the number of changes that happened since the last update being released.
 > If you have the time, please send us a feedback on how you feel about the new UI look (and/or new features or improvements) in [this GitHub Discussion thread](https://github.com/orgs/CollapseLauncher/discussions/451#discussion-6492348) or in [#issues-and-suggestion Discord channel](https://discord.gg/vJd2exaS7j)
+
 
 # What's New - 1.80.0
 - **[Imp]** UI Adjustments and Use `UIElementExtension` to create UI elements in-code, by @neon-nyan @shatyuka @gablm
