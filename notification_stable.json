@@ -1,5 +1,24 @@
 {
     "AppPush": [
+		{
+            "MsgId": 69,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "Title": "[EN] Update regarding to Honkai Impact 3rd v7.4.0 Game Repair issue",
+            "Message": "Hi Captains!\r\nRepair/Cache functionality is still (partially) broken in Stable for Honkai Impact 3. Please wait until we are ready for making the changes available for Stable or switch to Preview release via App Settings.",
+            "Show": true,
+            "TimeBegin": "2024-04-29T00:00:00+08:00",
+            "TimeEnd": "2024-05-29T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/orgs/CollapseLauncher/discussions/451",
+                    "Description": "Discussion Thread",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
+        }
     ],
     "RegionPush": [
         {
