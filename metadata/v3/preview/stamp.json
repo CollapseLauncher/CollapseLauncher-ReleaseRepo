@@ -1,104 +1,117 @@
 [
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_Hi3SEA.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
-    "GameRegion": "Southeast Asia"
+    "GameRegion": "Southeast Asia",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_Hi3Global.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
-    "GameRegion": "Global"
+    "GameRegion": "Global",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_Hi3CN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
-    "GameRegion": "Mainland China"
+    "GameRegion": "Mainland China",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_Hi3TW.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
-    "GameRegion": "TW/HK/MO"
+    "GameRegion": "TW/HK/MO",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_Hi3KR.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
-    "GameRegion": "Korea"
+    "GameRegion": "Korea",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_Hi3JP.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
-    "GameRegion": "Japan"
+    "GameRegion": "Japan",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240424063053,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_GIGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Genshin Impact",
-    "GameRegion": "Global"
+    "GameRegion": "Global",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240424063053,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_GICN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Genshin Impact",
-    "GameRegion": "Mainland China"
+    "GameRegion": "Mainland China",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240424063053,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_GICNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Genshin Impact",
-    "GameRegion": "Bilibili"
+    "GameRegion": "Bilibili",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240508080130,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_SRGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai: Star Rail",
-    "GameRegion": "Global"
+    "GameRegion": "Global",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240508080130,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_SRCN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai: Star Rail",
-    "GameRegion": "Mainland China"
+    "GameRegion": "Mainland China",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240508080130,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_HSRCNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai: Star Rail",
-    "GameRegion": "Bilibili"
+    "GameRegion": "Bilibili",
+    "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240509063558,
     "MetadataPath": "config_master.json",
     "MetadataType": "MasterKey",
-    "MetadataInclude": true
+    "MetadataInclude": true,
+    "PresetConfigVersion": "3.1.0"
   }
 ]
