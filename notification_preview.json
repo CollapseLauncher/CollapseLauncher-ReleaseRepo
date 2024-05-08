@@ -22,42 +22,63 @@
     ],
     "RegionPush": [
         {
-            "MsgId": 7000007,
-            "IsDisposable": false,
+            "MsgId": 7000010,
+            "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "SRGlb",
-            "Title": "[EN] Honkai: Star Rail Delta Patch Error",
-            "Message": "Heyya Trailblazers!\r\nWe have noticed there are errors when trying to apply Delta Patch. We are working on the fix and please do not apply the update if you are planning to use delta patch until next announcement.",
+            "Title": "[EN] Honkai: Star Rail Delta Patch Fix",
+            "Message": "Heyya Trailblazers!\r\nWe have fixed the error found in Delta Patch mechanism for Star Rail. Please update your Collapse instance to the latest preview (1.80.3) then apply the delta patch.\r\nIf you previously attempted to do the delta patch and it gave an error, please refer to the instruction in Collapse's Discord announcement channel",
             "Show": true,
             "TimeBegin": "2024-05-08T00:00:00+08:00",
-            "TimeEnd": "2024-05-09T00:00:00+08:00",
+            "TimeEnd": "2024-05-10T00:00:00+08:00",
             "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/orgs/CollapseLauncher/discussions/451",
+                    "Description": "Discussion Thread",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
             }
         },
-        {
-            "MsgId": 8000007,
-            "IsDisposable": false,
+		{
+            "MsgId": 8000010,
+            "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "SRCN",
-            "Title": "[EN] Honkai: Star Rail Delta Patch Error",
-            "Message": "Heyya Trailblazers!\r\nWe have noticed there are errors when trying to apply Delta Patch. We are working on the fix and please do not apply the update if you are planning to use delta patch until next announcement.",
+            "Title": "[EN] Honkai: Star Rail Delta Patch Fix",
+            "Message": "Heyya Trailblazers!\r\nWe have fixed the error found in Delta Patch mechanism for Star Rail. Please update your Collapse instance to the latest preview (1.80.3) then apply the delta patch.\r\nIf you previously attempted to do the delta patch and it gave an error, please refer to the instruction in Collapse's Discord announcement channel",
             "Show": true,
             "TimeBegin": "2024-05-08T00:00:00+08:00",
-            "TimeEnd": "2024-05-09T00:00:00+08:00",
+            "TimeEnd": "2024-05-10T00:00:00+08:00",
             "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/orgs/CollapseLauncher/discussions/451",
+                    "Description": "Discussion Thread",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
             }
         },
-        {
-            "MsgId": 9000007,
-            "IsDisposable": false,
+		{
+            "MsgId": 9000010,
+            "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "HSRCNBilibili",
-            "Title": "[EN] Honkai: Star Rail Delta Patch Error",
-            "Message": "Heyya Trailblazers!\r\nWe have noticed there are errors when trying to apply Delta Patch. We are working on the fix and please do not apply the update if you are planning to use delta patch until next announcement.",
+            "Title": "[EN] Honkai: Star Rail Delta Patch Fix",
+            "Message": "Heyya Trailblazers!\r\nWe have fixed the error found in Delta Patch mechanism for Star Rail. Please update your Collapse instance to the latest preview (1.80.3) then apply the delta patch.\r\nIf you previously attempted to do the delta patch and it gave an error, please refer to the instruction in Collapse's Discord announcement channel",
             "Show": true,
             "TimeBegin": "2024-05-08T00:00:00+08:00",
-            "TimeEnd": "2024-05-09T00:00:00+08:00",
+            "TimeEnd": "2024-05-10T00:00:00+08:00",
             "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/orgs/CollapseLauncher/discussions/451",
+                    "Description": "Discussion Thread",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
             }
         },
         {
