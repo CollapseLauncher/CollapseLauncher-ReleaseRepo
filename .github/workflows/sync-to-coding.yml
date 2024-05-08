@@ -1,0 +1,26 @@
+name: Sync to Coding
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+
+      - name: Setup ssh-agent
+        uses: tanmancan/action-setup-ssh-agent-key@1.0.0
+        with:
+          ssh-private-key: ${{ secrets.CODING_SSH_KEY }}
+          ssh-public-key: ${{ secrets.CODING_KNOWN_HOSTS }}
+
+      - name: Push
+        run: |
+          git remote add coding git@e.coding.net:ohly/collapse/ReleaseRepo.git
+          git push coding main
