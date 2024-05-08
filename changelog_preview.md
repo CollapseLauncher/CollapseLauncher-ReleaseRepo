@@ -1,6 +1,23 @@
 # Collapse Preview Update Changelog
 Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 
+# What's new? - 1.80.3
+- **[Fix]** [WORKAROUND] Use legacy parser for SR repair/cache update, by @bagusnl 
+  - This due to emergency fix that caused by protobuf incorrectly parsing the data when using static parser.
+  - This also fixes SR repair/cache function for v2.2.0
+- **[New]** Add way to skip Star Rail audio patch, by @bagusnl 
+  - _**NOT RECOMMENDED, ONLY USE FOR DEBUG OR WHEN INSTRUCTED**_
+  - Add empty file named `@NoAudioPatch` in the game data to skip Collapse adding, download, and patching audio patch during update.
+- **[Fix]** Crashes when Repair/Cache update went too fast, by @bagusnl 
+  - Clamp TimeSpan in ProgressBase to not get out of bound
+- **[Fix]** Fixed text alignment on "Check Update" button in Settings, by @neon-nyan 
+- **[Imp]** Adjusted Windows button style, by @neon-nyan 
+- **[Imp]** Extend maximum download thread to 16, by @neon-nyan 
+- **[Fix]** Fixed multithreading issue(s) with Install, Repair, and Cache mechanisms, by @neon-nyan 
+- **[Imp]** Updated NuGet dependencies, by @bagusnl 
+- **[Imp]** Localize Discord RPC details, by @bagusnl 
+- **[Fix]** Delta patch for Honkai: Star Rail crashing, by @bagusnl 
+
 # What's new? - 1.80.2
 - **[Fix]** Crash on launch when using certain language, by @bagusnl & @shatyuka 
   - This due to HoYo does not have response in their API for `es-419` and `pt-br` locales. For background and news area, fallback `es-419` to `es-es` and `pt-br` to `pt-pt`.
