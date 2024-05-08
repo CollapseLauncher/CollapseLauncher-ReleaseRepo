@@ -72,7 +72,7 @@
     "GameRegion": "Bilibili"
   },
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240508080130,
     "MetadataPath": "config_SRGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -80,7 +80,7 @@
     "GameRegion": "Global"
   },
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240508080130,
     "MetadataPath": "config_SRCN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -88,7 +88,7 @@
     "GameRegion": "Mainland China"
   },
   {
-    "LastUpdated": 20240331202956,
+    "LastUpdated": 20240508080130,
     "MetadataPath": "config_HSRCNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
