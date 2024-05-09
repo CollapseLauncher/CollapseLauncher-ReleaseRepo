@@ -17,7 +17,17 @@
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
-            }
+        },
+		{
+            "MsgId": 70,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "Title": "[EN] Bitbucket CDN Deprecation Notice",
+            "Message": "Heyya Collapse users!\r\nBitbucket CDN is getting deprecated and soon will be fully removed from Collapse. This is due to the maintenance and downtime that could be caused when the CDN is nearing its capacity might cause users to not get the latest data and require quite a long time to recover.\r\nAll users using this CDN is advised to change to other CDN. For Mainland China users, please try Coding or Cloudflare.",
+            "Show": true,
+            "TimeBegin": "2024-05-09T00:00:00+08:00",
+            "TimeEnd": "2024-06-09T00:00:00+08:00",
+            "ActionProperty": {}
         }
     ],
     "RegionPush": [
