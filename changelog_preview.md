@@ -1,6 +1,19 @@
 # Collapse Preview Update Changelog
 Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 
+# What's new? - 1.80.4
+- **[Fix]** Properly fix TimeSpan overflow, by @neon-nyan 
+- **[Fix]** Corruption on Game Migration with >8 CPU threads, by @neon-nyan 
+- **[Fix]** Region loading related crashes, by @gablm 
+  - Fixes crash when cancelling
+  - Fixes Instant Region Change not working if the the first region load is cancelled
+- **[New]** Coding CDN for Mainland China users, by @shatyuka 
+- **[Fix]** Exception on high download thread count, by @neon-nyan 
+- **[Doc]** Deprecate Bitbucket mirror, by @bagusnl
+  - This due to the not so good GC implementation on Bitbucket causing CDN downtime whenever repo size touches 4GB
+  - All users currently using this CDN is advised to change to other CDN option. For Mainland China users you can try Coding or Cloudflare mirror.
+- **[Loc]** Localization sync from Transifex, by localizers <3
+
 # What's new? - 1.80.3
 - **[Fix]** [WORKAROUND] Use legacy parser for SR repair/cache update, by @bagusnl 
   - This due to emergency fix that caused by protobuf incorrectly parsing the data when using static parser.
