@@ -1,6 +1,57 @@
 # Collapse Preview Update Changelog
 Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
 
+> Please send your feedback on [this GitHub discussion thread](https://github.com/orgs/CollapseLauncher/discussions) or via our Discord server.
+
+# What's New? - 1.80.5
+- **[New]** Use Sophon chunk download system when available, by @neon-nyan
+    - Add the new [``Hi3Helper.Sophon``](https://github.com/CollapseLauncher/Hi3Helper.Sophon) library for Sophon chunk download system.
+> This library is also [**Available on NuGet**](https://www.nuget.org/packages/Hi3Helper.Sophon) in-case any third-party launcher developer need to use it.
+    - Adjustments on the API code to be compatible with the old launcher and HoYoPlay API responses.
+- **[New]** Move to HoYoPlay API where its available via metadata update, by @neon-nyan
+    - Using the new ILauncherApi to unify the integration with other types of API (like: HoYoPlay)
+    - Adding conversion from HoYoPlay API response to our own format.
+- **[New]** Prevent sleep on certain occasion, by @bagusnl and @neon-nyan 
+   - Prevent system from sleeping when doing some core task.
+   - Currently implemented on downloading, extracting, patching, and while repair/cache update.
+- **[New]** Mobile layout mode for Genshin Impact and Honkai: Star Rail, by @bagusnl 
+   - Use mobile control layout for GI and HSR by enabling it in game settings page.
+   - Useful for those using Windows tablet or using local streaming software like Steam Link or Sunshine/Moonlight.
+- **[Imp]** Use transparent sidebar, by @shatyuka
+   - Sidebar now should blend nicely with the background until its hovered in which it will use the opaque sidebar.
+-  **[Imp]** Backend improvements, by @neon-nyan and @bagusnl 
+   - Use async JSON serializer.
+   - Use proper nullable for game package return list.
+   - CodeQA on InnoSetup helper.
+   - Update NuGet dependencies.
+- **[Imp]** Adjusted CDN selector radio button style, by @neon-nyan 
+- **[Imp]** Add option to delay game launch when using pre-launch command, by @bagusnl 
+- **[Imp]** Update Honkai: Star Rail 120 FPS warning message, by @Cryotechnic 
+- **[Imp]** Revamped launcher main menu, by @neon-nyan
+   - Moved play time counter to the right side.
+   - Adjusted buttons size.
+   - News panel now zooms when user hovers over it.
+   - Revamped preload box UI.
+- **[Fix]** Background error after reloading main page, by @neon-nyan
+- **[Fix]** Region selector not responding after reloading main page, by @neon-nyan 
+- **[Fix]** Certain values not represented correctly in Star Rail game settings page, by @shatyuka 
+- **[Fix]** Region initializer is not localized, by @shatyuka 
+- **[Fix]** Launcher crashing when launching game on RDP/Virtual monitor setup, by @shatyuka 
+- **[Fix]** Throw error when repairing HI3 with broken metadata, by @bagusnl 
+   - This prevents user from nuking their installation when our metadata is invalid/broken.
+   - If you see the message, please report the issue on our GitHub or Discord server.
+- **[Fix]** Avoid crashes when news API is empty, by @neon-nyan
+- **[Fix]** Incorrect package size preventing user to resume download, by @Cryotechnic 
+- **[Imp/Fix]** Refactor API Loaders and Runtime stuffs
+    - Fix some typo and avoid unnecessary buffer alloc on ``ServeV3Data``
+    - Fix crash while changing launcher release channel
+    - Fix background throw due to null preload property
+    - Move constant JSON class into inner extension class
+    - Fix escaped JSON characters don't get parsed correctly
+    - Use ``Enum.GetValues<T>()`` instead of ``Enum.GetValues(typeof(T))``
+    - Use the new ``TaskExtensions`` extension tasks for managing task retrying routine.
+- **[Loc]** Updated localization from Transifex, by localizers <3
+
 # What's new? - 1.80.4
 - **[Fix]** Properly fix TimeSpan overflow, by @neon-nyan 
 - **[Fix]** Corruption on Game Migration with >8 CPU threads, by @neon-nyan 
