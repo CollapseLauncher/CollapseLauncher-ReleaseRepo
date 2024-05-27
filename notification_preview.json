@@ -1,24 +1,5 @@
 {
     "AppPush": [
-        {
-            "MsgId": 69,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "Title": "[EN] Update regarding to Honkai Impact 3rd v7.4.0 Game Repair issue",
-            "Message": "Hi Captains!\r\nThe Game Repair issue should be fixed as of version 1.80.1! That being said, should you be running on 1.80.0, you may encounter some issues related to memory and/or Cache Update functionality. Please update as soon as possible!",
-            "Show": true,
-            "TimeBegin": "2024-04-29T00:00:00+08:00",
-            "TimeEnd": "2024-05-29T00:00:00+08:00",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/orgs/CollapseLauncher/discussions/451",
-                    "Description": "Discussion Thread",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        },
 		{
             "MsgId": 70,
             "IsDisposable": true,
@@ -29,6 +10,25 @@
             "TimeBegin": "2024-05-09T00:00:00+08:00",
             "TimeEnd": "2024-06-09T00:00:00+08:00",
             "ActionProperty": {}
+        },
+        {
+            "MsgId": 71,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "Title": "[EN] HoYoPlay API Migration Notice",
+            "Message": "Heyya Collapse users!\r\nWe have updated some game APIs to the new HoYoPlay API. The API update is applied for Genshin Impact (Glb/CN) and Honkai Impact 3rd (CN). Please make sure you're on latest Collapse version (1.80.5+) to prevent issues. Also if you encounter any issues please inform us via Discord or GitHub discussion thread below.",
+            "Show": true,
+            "TimeBegin": "2024-05-27T00:00:00+08:00",
+            "TimeEnd": "2024-06-10T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/orgs/CollapseLauncher/discussions/451",
+                    "Description": "Discussion Thread",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            } 
         }
     ],
     "RegionPush": [
@@ -131,6 +131,30 @@
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
+        },
+        {
+            "MsgId": 5000022,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "GIGlb",
+            "Title": "[EN] Game Update is Expected",
+            "Message": "Hi Travelers!\r\nUpon updating to the new API, it's expected to have 'Update Game' notice in Collapse. You can press the button and Collapse *will not* redownload the whole game, only some files are being updated.",
+            "Show": true,
+            "TimeBegin": "2024-05-27T00:00:00+08:00",
+            "TimeEnd": "2024-06-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
+            "MsgId": 6000022,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "GICN",
+            "Title": "[EN] Game Update is Expected",
+            "Message": "Hi Travelers!\r\nUpon updating to the new API, it's expected to have 'Update Game' notice in Collapse. You can press the button and Collapse *will not* redownload the whole game, only some files are being updated.",
+            "Show": true,
+            "TimeBegin": "2024-05-27T00:00:00+08:00",
+            "TimeEnd": "2024-06-10T00:00:00+08:00",
+            "ActionProperty": {}
         }
     ]
 }
