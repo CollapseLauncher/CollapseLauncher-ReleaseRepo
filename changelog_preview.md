@@ -3,6 +3,46 @@ Welcome to Collapse Preview Release Branch! This is an early look at the next ve
 
 > Please send your feedback on [this GitHub discussion thread](https://github.com/orgs/CollapseLauncher/discussions) or via our Discord server.
 
+# What's new? - 1.80.6
+### Notes:
+> We have updated our [Privacy Policy](https://github.com/CollapseLauncher/Collapse/blob/main/PRIVACY.md) and [Third Party Notices](https://github.com/CollapseLauncher/Collapse/blob/main/THIRD_PARTY_NOTICES.md).
+> Please review the updated policies regarding our software.
+> Notable changes are addition of CODING CDN policy and removal of BitBucket CDN policy.
+
+- **[Fix]** Crash/No background image when using certain languages, by @bagusnl 
+- **[Fix]** Blurry scaling on news panel, by @shatyuka 
+- **[Fix]** Updated overlay for custom background image cropper, by @shatyuka 
+- **[Fix]** Game migration might nuke installation on certain occasion, by @neon-nyan 
+  - Added a check to prevent migration to the same folder from happening.
+  - Fixed wrong move method used when moving files to the same partition.
+  - Fixed UI text overlapping.
+  - Force overwrite if same file is found.
+- **[Fix]** Global Illumination combo box for Genshin Impact settings not aligned, by @bagusnl 
+- **[Fix]** Parsing issues for preload response on HoYoPlay API, by @neon-nyan 
+- **[Fix]** Further fix on disk free space determination calculation, by @gablm 
+- **[Fix]** Prevent applying uncompleted sophon chunk when target file is downloaded completely, by @neon-nyan 
+- **[Fix]** Intermittent errors when restoring Collapse from taskbar when video BG is used, by @neon-nyan 
+- **[Fix]** Sophon method related fixes, by @neon-nyan 
+  - Fixed garbage collection disposing methods early causing cascading errors.
+  - Remove read-only attribute on game files when using sophon methods.
+  - Plugin update now wont require full game verification.
+  - Reduce download threads on Sophon method to prevent connection from throwing.
+  - **Note**: You may see some errors/warnings in the console log when downloading using sophon method. This is caused by slow internet connection. Collapse will keep retrying to download the chunk until completion regardless of how many errors (except when the network is completely down, Collapse will retry to reestablish connection 10x then pauses the download completely).
+- **[Imp]** Adjusted Audio VO install selection UI, by @neon-nyan 
+- **[Imp]** Reduced delay to enlarge news panel, by @neon-nyan 
+- **[Imp]** Reduce Collapse installation size, by @neon-nyan 
+  - This is done by disabling ReadyToRun compilation on Collapse.
+  - This meant that the first time user launch it after an install/update it will take longer, though shouldn't be too noticeable for modern systems.
+- **[Imp]** Reduced resource overhead in launcher loop logic, by @neon-nyan 
+  - Improved the loop logic for checking if the game is running.
+  - Reduced launcher default loop logic refresh rate from 10Hz to 5Hz, when on tray/minimized Collapse logic refresh rate stays at 1Hz to save resources.
+- **[Imp]** Make the log label spacing uniform for easier reading, by @bagusnl 
+- **[Doc]** Updated Privacy Policy and Third Party Software notices, by @shatyuka & @bagusnl 
+  - Added CODING CDN policies.
+  - Removed BitBucket policies.
+- **[Doc]** Update list of used modules and third party libraries, by @neon-nyan & @bagusnl 
+- **[Loc]** Update localizations, by localizers <3
+
 # What's New? - 1.80.5
 - **[New]** Use Sophon chunk download system when available, by @neon-nyan
     - Add the new [``Hi3Helper.Sophon``](https://github.com/CollapseLauncher/Hi3Helper.Sophon) library for Sophon chunk download system.
