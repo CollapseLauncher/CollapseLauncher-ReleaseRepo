@@ -3,6 +3,11 @@ Welcome to Collapse Preview Release Branch! This is an early look at the next ve
 
 > Please send your feedback on [this GitHub discussion thread](https://github.com/orgs/CollapseLauncher/discussions) or via our Discord server.
 
+# What's new? - 1.80.7
+> This is a Hotfix Release addressing some of the issues from 1.80.6. 
+- **[Fix]** Crashing while downloading Hi3 Preload, by @neon-nyan
+- **[Fix]** Crashing when opening social media buttons on HYP API, by @neon-nyan
+
 # What's new? - 1.80.6
 ### Notes:
 > We have updated our [Privacy Policy](https://github.com/CollapseLauncher/Collapse/blob/main/PRIVACY.md) and [Third Party Notices](https://github.com/CollapseLauncher/Collapse/blob/main/THIRD_PARTY_NOTICES.md).
