@@ -1,6 +1,6 @@
 [
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606125204,
     "MetadataPath": "config_Hi3SEA.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -9,7 +9,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606125204,
     "MetadataPath": "config_Hi3Global.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -27,7 +27,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606125204,
     "MetadataPath": "config_Hi3TW.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -36,7 +36,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606125204,
     "MetadataPath": "config_Hi3KR.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -45,7 +45,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606125204,
     "MetadataPath": "config_Hi3JP.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
