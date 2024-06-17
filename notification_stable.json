@@ -9,6 +9,7 @@
             "Show": true,
             "TimeBegin": "2024-06-17T00:00:00+08:00",
             "TimeEnd": "2024-07-31T00:00:00+08:00",
+            "ValidForVerBelow": "1.80.9.0",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
