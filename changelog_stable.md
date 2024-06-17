@@ -1,6 +1,6 @@
-![](https://raw.githubusercontent.com/neon-nyan/CollapseLauncher-Page/main/images/banner202304.webp)
+![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
-# Collapse 1.80.7: New Eridu
+# Collapse 1.80.9: New Eridu
 Greetings fellow HoYo-games enjoyers, here comes another release of Collapse! (*This time with more spice and flavor than ever!*)
 
 We keep saying this with every release, but this release is somehow *even bigger* than the previous ones. Thank you guys for your tremendous support, without it, we wouldn't be where we are today.
@@ -74,9 +74,9 @@ Sophon would provide the following benefits:
 
 For now, this new implementation is largely limited in scope, as we are still trying to understand the entire API structure. The new downloader is only currently working for **new installations** of the following titles:
 - Genshin Impact: CN & Global
-- Honkai Impact 3rd: CN
+- Honkai: Star Rail
 
-We hope to be able to bring you support for more titles in the upcoming future.
+We hope to be able to bring you support for more titles in the upcoming future. Please be advised that full support for some regions is still pending.
 
 ### Instant Region Change Feature
 This feature allows for bypassing the confirmation dialog when switching regions and games, thus speeding up user access to their desired game(s)!

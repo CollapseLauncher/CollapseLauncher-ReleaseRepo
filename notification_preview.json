@@ -1,16 +1,5 @@
 {
     "AppPush": [
-		{
-            "MsgId": 70,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "Title": "[EN] Bitbucket CDN Deprecation Notice",
-            "Message": "Hi Collapse users!\r\nBitbucket CDN is getting deprecated and will soon be fully removed from Collapse. This is due to the maintenance and downtime that were caused when the CDN was nearing its capacity, and, as such, would cause users to not get the latest data.\r\nAll users using this CDN are advised to change to another one as soon as possible. For Mainland China users, please try using Coding or Cloudflare.",
-            "Show": true,
-            "TimeBegin": "2024-05-09T00:00:00+08:00",
-            "TimeEnd": "2024-06-09T00:00:00+08:00",
-            "ActionProperty": {}
-        },
         {
             "MsgId": 71,
             "IsDisposable": true,
