@@ -3,12 +3,25 @@ Welcome to Collapse Preview Release Branch! This is an early look at the next ve
 
 > Please send your feedback on [this GitHub discussion thread](https://github.com/orgs/CollapseLauncher/discussions) or via our Discord server.
 
+# What's New? - 1.80.9
+
+- **[Fix]**: Skip pustaka file if not present, by @neon-nyan
+- **[Imp]**: Add new GI 4.7 field, by @bagusnl
+- **[Fix]**: Used file being called twice, for Hi3, by @neon-nyan
+- **[Fix]**: Stop Windows from opening files sometimes for no reason, by @neon-nyan
+  - "File is being used by another process" should be resolved, by @neon-nyan
+- **[Fix]**: Windows 10 client size should be normal now, by @shatyuka
+- **[Fix]**: Remove 1px border offset on Windows 10, by @shatyuka
+- **[Imp]**: Add missing attribute, `SetLastError` to interop calls, by @shatyuka
+- **[New]**: Move `Hi3Helper.Sophon.Test` to its own solution, by @neon-nyan
+- **[Fix]**: Sometimes the console would just crash when in legacy, by @shatyuka
+- **[New]** Add Sophon-based download and preload capabilities for games that support it, by @neon-nyan
+
 # What's New ? - 1.80.8
-> Another hotfix to address issues preventing users who use delta patch for Hi3.
-- **[Fix]** Black top border on Windows 10, by @shatyuka 
-- **[Fix]** Delta patch for Hi3 not applying due to Blocks.xmf added into the assets list, by @bagusnl 
-- **[Fix]** Blocks and BlocksMeta keep reappearing in Hi3 Repair, by @neon-nyan 
-- **[Imp]** Disable "Region Change Warning" for new users, by @bagusnl 
+- **[Fix]** Black top border on Windows 10, by @shatyuka
+- **[Fix]** Delta patch for Hi3 not applying due to Blocks.xmf added into the assets list, by @bagusnl
+- **[Fix]** Blocks and BlocksMeta keep reappearing in Hi3 Repair, by @neon-nyan
+- **[Imp]** Disable "Region Change Warning" for new users, by @bagusnl
   - This also auto-enables "Instant Region Change" as well
 
 # What's new? - 1.80.7
