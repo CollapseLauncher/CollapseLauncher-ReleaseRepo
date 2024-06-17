@@ -1,6 +1,6 @@
 [
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606133513,
     "MetadataPath": "config_Hi3SEA.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -9,7 +9,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606133513,
     "MetadataPath": "config_Hi3Global.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -27,7 +27,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606133513,
     "MetadataPath": "config_Hi3TW.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -36,7 +36,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606133513,
     "MetadataPath": "config_Hi3KR.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -45,7 +45,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240606133513,
     "MetadataPath": "config_Hi3JP.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -54,7 +54,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240527213938,
+    "LastUpdated": 20240606125906,
     "MetadataPath": "config_GIGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -63,7 +63,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240527213938,
+    "LastUpdated": 20240606125906,
     "MetadataPath": "config_GICN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -72,7 +72,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240512143920,
+    "LastUpdated": 20240616005146,
     "MetadataPath": "config_GICNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -81,7 +81,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240616004500,
     "MetadataPath": "config_SRGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -90,7 +90,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240616005205,
     "MetadataPath": "config_SRCN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -99,7 +99,7 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-    "LastUpdated": 20240509063558,
+    "LastUpdated": 20240616005205,
     "MetadataPath": "config_HSRCNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
