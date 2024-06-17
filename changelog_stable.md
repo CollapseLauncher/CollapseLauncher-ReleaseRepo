@@ -18,16 +18,15 @@ For faster releases and more experimental features, consider switching to the Pr
 ***
 
 ## Improvement: New UI Design Language
-We've improved the overall look and feel of the launcher by adding more transparency throughout our UI elements. You'll notice them most prominently in the following sections of the app: 
+Well, let's not beat around the bush. We have a new logo, graciously designed & animated by @neon-nyan. Our design philosophy was "Moon" this time around, and we hope you guys like it!
 
-**Notification and Navigation Panel**
-Image
+With the introduction of the new logo, we've also improved the overall look and feel of the launcher by adding more transparency throughout our UI elements. You'll notice them most prominently in the following sections of the app: 
 
-**Page Background Acrylic**
-Image
-
-**Auto-close After Clearing All Notifications**
-Image
+- **Notification and Navigation Panel**
+- **Page Background Acrylic**
+- **Auto-close After Clearing All Notifications**
+- **Out-of-Box Experience**, when you set up Collapse for the first time
+- Every time you start the launcher, unless you have "_Use Intro Animation Sequence_" disabled in the App Settings
 
 ## New Feature: Video Background Support
 Well, the title says it all! By popular demand, and after many months of hard work, we have finally added support for video files as a background.
@@ -64,6 +63,11 @@ This is useful for those using a Windows-enabled tablet or using a local streami
 ### Implementation of new HoYoPlay API
 This will allow us to support existing and new HoYoverse titles when using the new API that was introduced with the release of HoYoverse's new launcher: HoYoPlay.
 
+Currently supported games are:
+- Honkai Impact 3rd: Mainland Chine
+- Genshin Impact: All regions
+- Honkai: Star Rail: All regions
+
 ### Introduction of Sophon Chunk Download System
 This new system will allow us to, eventually, repair, update and install games in a much more efficient manner than is currently available.
 
@@ -74,7 +78,6 @@ Sophon would provide the following benefits:
 
 For now, this new implementation is largely limited in scope, as we are still trying to understand the entire API structure. The new downloader is only currently working for **new installations** of the following titles:
 - Genshin Impact: CN & Global
-- Honkai: Star Rail
 
 We hope to be able to bring you support for more titles in the upcoming future. Please be advised that full support for some regions is still pending.
 
@@ -96,4 +99,4 @@ We would list all the minor changes here, but due to the amount of commits, we'v
 
 Read the full changelog below!
 
-**Full Changelog**: https://github.com/neon-nyan/Collapse/compare/CL-v1.72.18...CL-v1.73.4
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.73.8...CL-v1.80.9
