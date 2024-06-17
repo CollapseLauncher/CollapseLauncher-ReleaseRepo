@@ -1,14 +1,14 @@
 {
     "AppPush": [
-		{
-            "MsgId": 69,
-            "IsDisposable": true,
+        {
+            "MsgId": 72,
+            "IsDisposable": false,
             "Severity": "Warning",
-            "Title": "[EN] Update regarding to Honkai Impact 3rd v7.4.0 Game Repair issue",
-            "Message": "Hi Captains!\r\nRepair/Cache functionality is still (partially) broken in Stable for Honkai Impact 3. Please wait until we are ready for making the changes available for Stable or switch to Preview release via App Settings.",
+            "Title": "[EN] HoYoPlay API Migration Notice",
+            "Message": "Heyya Collapse users!\r\nWe have updated some game APIs to the new HoYoPlay API. The API update is currently applied for Genshin Impact (Glb/CN), Honkai Impact 3rd (CN) and Honkai: Star Rail (Glb/CN), for all mechanisms (updates, preloads, initial install and launcher assets). Please make sure you're on latest Collapse version (1.80.9+) to prevent any issues. Should you encounter any, please inform us via Discord or in the GitHub discussion thread below.",
             "Show": true,
-            "TimeBegin": "2024-04-29T00:00:00+08:00",
-            "TimeEnd": "2024-05-29T00:00:00+08:00",
+            "TimeBegin": "2024-06-17T00:00:00+08:00",
+            "TimeEnd": "2024-07-31T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
@@ -18,95 +18,8 @@
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
-        },
-		{
-            "MsgId": 70,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "Title": "[EN] Bitbucket CDN Deprecation Notice",
-            "Message": "Heyya Collapse users!\r\nBitbucket CDN is getting deprecated and soon will be fully removed from Collapse. This is due to the maintenance and downtime that could be caused when the CDN is nearing its capacity might cause users to not get the latest data and require quite a long time to recover.\r\nAll users using this CDN is advised to change to other CDN. For Mainland China users, please try Coding or Cloudflare.",
-            "Show": true,
-            "TimeBegin": "2024-05-09T00:00:00+08:00",
-            "TimeEnd": "2024-06-09T00:00:00+08:00",
-            "ActionProperty": {}
         }
     ],
     "RegionPush": [
-        {
-            "MsgId": 7000008,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "SRGlb",
-            "Title": "[EN] Honkai: Star Rail Delta Patch Fix | Switch to Preview",
-            "Message": "Heyya Trailblazers!\r\nWe have fixed the error found in Delta Patch mechanism for Star Rail. Please update your Collapse instance to the latest preview (1.80.3) then apply the delta patch.\r\nIf you previously attempted to do the delta patch and it gave an error, please refer to the instruction in Collapse's Discord announcement channel",
-            "Show": true,
-            "TimeBegin": "2024-05-08T00:00:00+08:00",
-            "TimeEnd": "2024-05-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-        {
-            "MsgId": 8000008,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "SRCN",
-            "Title": "[EN] Honkai: Star Rail Delta Patch Fix | Switch to Preview",
-            "Message": "Heyya Trailblazers!\r\nWe have fixed the error found in Delta Patch mechanism for Star Rail. Please update your Collapse instance to the latest preview (1.80.3) then apply the delta patch.\r\nIf you previously attempted to do the delta patch and it gave an error, please refer to the instruction in Collapse's Discord announcement channel",
-            "Show": true,
-            "TimeBegin": "2024-05-08T00:00:00+08:00",
-            "TimeEnd": "2024-05-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-		{
-            "MsgId": 9000008,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "HSRCNBilibili",
-            "Title": "[EN] Honkai: Star Rail Delta Patch Fix | Switch to Preview",
-            "Message": "Heyya Trailblazers!\r\nWe have fixed the error found in Delta Patch mechanism for Star Rail. Please update your Collapse instance to the latest preview (1.80.3) then apply the delta patch.\r\nIf you previously attempted to do the delta patch and it gave an error, please refer to the instruction in Collapse's Discord announcement channel",
-            "Show": true,
-            "TimeBegin": "2024-05-08T00:00:00+08:00",
-            "TimeEnd": "2024-05-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-        {
-            "MsgId": 2000012,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "Hi3CN",
-            "Title": "[EN] Notice Regarding Honkai Impact 3rd 7.3.0 Breaking Feature",
-            "Message": "Hi Captains!\r\n7.3.0 Part 2 update is just around the corner and we all are excited for the update! Unfortunately, due to some breaking changes that we have to do on the backend, **Delta Patch** and **Repair/Cache Update** features will not be available until further notice. We are sorry for the inconvenience and we will be working to fix the broken feature ASAP. Don't worry as basic launcher functionality like the regular update method should work just fine.",
-            "Show": true,
-            "TimeBegin": "2024-01-30T00:00:00+08:00",
-            "TimeEnd": "2024-03-01T00:00:00+08:00",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/Collapse/issues/383",
-                    "Description": "Notice",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        },
-        {
-            "MsgId": 2000013,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "Hi3CN",
-            "Title": "[CN] 关于崩坏3 7.3.0 破坏性功能的通知",
-            "Message": "舰长们好!\r\n7.3.0 第二部更新即将到来，我们都很期待这次更新！很不幸，由于我们必须在后台进行一些破坏性更改，**Delta Patch**和**游戏修复/缓存更新**功能直至另行通知前都将无法使用。很抱歉给您带来不便，我们将尽快修复损坏的功能。但不用担心，基本的启动器功能如常规更新等应该可以正常使用。",
-            "Show": true,
-            "TimeBegin": "2024-01-30T00:00:00+08:00",
-            "TimeEnd": "2024-03-01T00:00:00+08:00",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/Collapse/issues/383",
-                    "Description": "通知",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        }
     ]
 }

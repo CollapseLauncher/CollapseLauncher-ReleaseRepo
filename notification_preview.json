@@ -1,14 +1,14 @@
 {
     "AppPush": [
         {
-            "MsgId": 71,
-            "IsDisposable": true,
+            "MsgId": 72,
+            "IsDisposable": false,
             "Severity": "Warning",
             "Title": "[EN] HoYoPlay API Migration Notice",
-            "Message": "Heyya Collapse users!\r\nWe have updated some game APIs to the new HoYoPlay API. The API update is currently applied for Genshin Impact (Glb/CN) and Honkai Impact 3rd (CN), for new game installations only. Please make sure you're on latest Collapse version (1.80.5+) to prevent any issues. Should you encounter any, please inform us via Discord or in the GitHub discussion thread below.",
+            "Message": "Heyya Collapse users!\r\nWe have updated some game APIs to the new HoYoPlay API. The API update is currently applied for Genshin Impact (Glb/CN), Honkai Impact 3rd (CN) and Honkai: Star Rail (Glb/CN), for all mechanisms (updates, preloads, initial install and launcher assets). Please make sure you're on latest Collapse version (1.80.9+) to prevent any issues. Should you encounter any, please inform us via Discord or in the GitHub discussion thread below.",
             "Show": true,
-            "TimeBegin": "2024-05-27T00:00:00+08:00",
-            "TimeEnd": "2024-06-10T00:00:00+08:00",
+            "TimeBegin": "2024-06-17T00:00:00+08:00",
+            "TimeEnd": "2024-07-31T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
@@ -17,33 +17,9 @@
                     "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
-            } 
+            }
         }
     ],
     "RegionPush": [
-        {
-            "MsgId": 5000022,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "GIGlb",
-            "Title": "[EN] Game Update is Expected",
-            "Message": "Hi Travelers!\r\nUpon updating to the new API, it is expected to have an 'Update Game' notice in Collapse. You can press the button. Collapse *will not* re-download the entire game package, rather, only some files will updated. This is normal.",
-            "Show": true,
-            "TimeBegin": "2024-05-27T00:00:00+08:00",
-            "TimeEnd": "2024-06-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-        {
-            "MsgId": 6000022,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "GICN",
-            "Title": "[EN] Game Update is Expected",
-            "Message": "Hi Travelers!\nUpon updating to the new API, it is expected to have an 'Update Game' notice in Collapse. You can press the button. Collapse *will not* re-download the entire game package, rather, only some files will updated. This is normal.",
-            "Show": true,
-            "TimeBegin": "2024-05-27T00:00:00+08:00",
-            "TimeEnd": "2024-06-10T00:00:00+08:00",
-            "ActionProperty": {}
-        }
     ]
 }
