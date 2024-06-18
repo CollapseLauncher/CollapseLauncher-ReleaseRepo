@@ -1,5 +1,31 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# Collapse 1.80.10 Hotfix: New Eridu
+Hi there,
+We have recently received some issues back to our GitHub and Discord Server regarding the new release, especially with the pre-load mechanism for Honkai: Star Rail causing the wrong voice-over files to get downloaded, UI issues and performance regression.
+
+This hotfix is a "Mandatory" update, means the launcher would perform a forced update in-case of this update.
+We hope that by publishing this hotfix, we improves your experience on using Collapse Launcher and on in the future.
+
+# What's New? - 1.80.10
+
+- **[Fix]** Wrong Voice-Over pre-load files getting downloaded for Honkai: Star Rail, by @neon-nyan
+- **[Fix]** ``NullReferenceException`` in some occasions, by @neon-nyan 
+- **[Fix]** Background activity notification (such as Game Installation) does not get detached properly, by @neon-nyan
+- **[Fix]** UI Related Issues, by @neon-nyan
+    - Update Countdown Cancel button went missing
+    - Install progress ring layout gets misplaced
+    - Executable still uses the old logo for its icon
+    - Loading "action" button cannot receive click events
+    - Buttons with ``TransparentDefaultButtonStyle`` have intermitten focus
+    - App window will not restore if video background is being used
+- **[Fix]** Performance degradation due to VRAM leak when Collapse runs with Intro Sequence enabled, by @neon-nyan @bagusnl 
+![image](https://github.com/CollapseLauncher/Collapse/assets/30566970/19b47baf-73f7-449c-9394-e31744b232be)
+- **[Imp]** Unify some installation APIs on Genshin Impact and Honkai: Star Rail, by @neon-nyan 
+- **[Imp]** Adding more options on ``DisconnectedPage``, by @neon-nyan
+- **[Doc]** Update list of used modules and third party libraries, by @neon-nyan 
+- **[Loc]** Update localizations, by localizers <3
+
 # Collapse 1.80.9: New Eridu
 Greetings fellow HoYo-games enjoyers, here comes another release of Collapse! (*This time with more spice and flavor than ever!*)
 
