@@ -3,6 +3,22 @@ Welcome to Collapse Preview Release Branch! This is an early look at the next ve
 
 > Please send your feedback on [this GitHub discussion thread](https://github.com/orgs/CollapseLauncher/discussions) or via our Discord server.
 
+# What's New? - 1.80.12
+
+- **[Fix]** Threading exception on certain UI components, causing the launcher to crash, by @shatyuka 
+- **[Fix]** Sophon Installer crashed due to invalid type of Language String to Locale Code converter, by @neon-nyan 
+- **[Fix]** Honkai: Star Rail Game Repair and Cache Update issues, by @bagusnl and @neon-nyan 
+    - Adding fallback method to lookup values in Honkai: Star Rail gateway API if the metadata KVP is not updated/unmatched
+    - Updating metadata's Key-Value pairs.
+    - Adding debug information for the Gateway API parser under ``Debug`` build
+    - Check for End-Of-File on the buffer
+    - Fix the location of certain patch-marked files under Persistent Folder
+    - Fix FileNotFound error on certain file marked under Persistent but found under StreamingAssets by hardlinking the file
+- **[Imp]** Add new game settings for Honkai: Star Rail, by @bagusnl 
+    - `Character Shadow in Map Exploration`: self explanatory
+    - `Half Resolution Transparency`: Controls resolution of objects behind transparent plane (window, etc.)
+- **[Loc]** Update localizations, by localizers <3
+
 # What's New? - 1.80.11
 - **[Fix]** Crashing on launch on certain system due to value casting failure on shadow, by @neon-nyan 
   - Thanks Microsoft.
