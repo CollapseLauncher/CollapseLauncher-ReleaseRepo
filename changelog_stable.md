@@ -1,11 +1,27 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
-# Collapse 1.80.10 Hotfix: New Eridu
+# Collapse 1.80.12 Hotfix: New Eridu
 Hi there,
 We have recently received some issues back to our GitHub and Discord Server regarding the new release, especially with the pre-load mechanism for Honkai: Star Rail causing the wrong voice-over files to get downloaded, UI issues and performance regression.
 
 This hotfix is a "Mandatory" update, means the launcher would perform a forced update in-case of this update.
 We hope that by publishing this hotfix, we improves your experience on using Collapse Launcher and on in the future.
+
+# What's New? - 1.80.12
+
+- **[Fix]** Threading exception on certain UI components, causing the launcher to crash, by @shatyuka 
+- **[Fix]** Sophon Installer crashed due to invalid type of Language String to Locale Code converter, by @neon-nyan 
+- **[Fix]** Honkai: Star Rail Game Repair and Cache Update issues, by @bagusnl and @neon-nyan 
+    - Adding fallback method to lookup values in Honkai: Star Rail gateway API if the metadata KVP is not updated/unmatched
+    - Updating metadata's Key-Value pairs.
+    - Adding debug information for the Gateway API parser under ``Debug`` build
+    - Check for End-Of-File on the buffer
+    - Fix the location of certain patch-marked files under Persistent Folder
+    - Fix FileNotFound error on certain file marked under Persistent but found under StreamingAssets by hardlinking the file
+- **[Imp]** Add new game settings for Honkai: Star Rail, by @bagusnl 
+    - `Character Shadow in Map Exploration`: self explanatory
+    - `Half Resolution Transparency`: Controls resolution of objects behind transparent plane (window, etc.)
+- **[Loc]** Update localizations, by localizers <3
 
 # What's New? - 1.80.11
 - **[Fix]** Crashing on launch on certain system due to value casting failure on shadow, by @neon-nyan 
@@ -95,7 +111,7 @@ This is useful for those using a Windows-enabled tablet or using a local streami
 This will allow us to support existing and new HoYoverse titles when using the new API that was introduced with the release of HoYoverse's new launcher: HoYoPlay.
 
 Currently supported games are:
-- Honkai Impact 3rd: Mainland Chine
+- Honkai Impact 3rd: Mainland China
 - Genshin Impact: All regions
 - Honkai: Star Rail: All regions
 
