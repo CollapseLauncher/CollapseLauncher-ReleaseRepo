@@ -1,11 +1,28 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
-# Collapse 1.80.12 Hotfix: New Eridu
+# Collapse 1.80.13 Hotfix: New Eridu
 Hi there,
 We have recently received some issues back to our GitHub and Discord Server regarding the new release, especially with the pre-load mechanism for Honkai: Star Rail causing the wrong voice-over files to get downloaded, UI issues and performance regression.
 
 This hotfix is a "Mandatory" update, means the launcher would perform a forced update in-case of this update.
 We hope that by publishing this hotfix, we improves your experience on using Collapse Launcher and on in the future.
+
+# What's New? - 1.80.13
+
+- **[Fix]** Game's preset config not always reinitialized in certain conditions.
+- **[Fix]** Potential Error Code: 4302-x on Genshin Impact after performing Game Repair.
+- **[Fix]** Emptied VO audio list file on Genshin Impact and Honkai: Star Rail after Plugin/SDK updates.
+- **[Fix]** Carousel auto-scroll routine called twice after going back from the game.
+- **[Fix]** COM Threading error on spawning "Extract Anyway" dialog.
+- **[Fix]** Exception on extracting corrupted zip files on installation.
+- **[New]** Adding full SDK files update required for Bilibili client.
+- **[New]** Adding ``GameVersion``'s ``Equals()`` extension.
+- **[Imp]** Move activator to App's OnLaunched() override.
+- **[Imp]** Move notification trigger from base class to the caller.
+- **[Imp]** Switch ``StringComparer``s to ``OrdinalIgnoreCase``.
+- **[Imp]** Return if the TryDeleteReadOnlyFile argument is not exist.
+- **[Imp]** Always reinitialize game ``config.ini`` file on reloading.
+- **[Loc]** Update localizations, by localizers <3
 
 # What's New? - 1.80.12
 
