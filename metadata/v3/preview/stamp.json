@@ -1,111 +1,111 @@
 [
   {
-    "LastUpdated": 20240606133513,
+    "LastUpdated": 20240630164056,
     "MetadataPath": "config_Hi3SEA.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
     "GameRegion": "Southeast Asia",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240606133513,
+    "LastUpdated": 20240630164056,
     "MetadataPath": "config_Hi3Global.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
     "GameRegion": "Global",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240627204739,
+    "LastUpdated": 20240630164058,
     "MetadataPath": "config_Hi3CN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
     "GameRegion": "Mainland China",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240606133513,
+    "LastUpdated": 20240630164058,
     "MetadataPath": "config_Hi3TW.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
     "GameRegion": "TW/HK/MO",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240606133513,
+    "LastUpdated": 20240630164058,
     "MetadataPath": "config_Hi3KR.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
     "GameRegion": "Korea",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240606133513,
+    "LastUpdated": 20240630164058,
     "MetadataPath": "config_Hi3JP.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai Impact 3rd",
     "GameRegion": "Japan",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240606125906,
+    "LastUpdated": 20240630164058,
     "MetadataPath": "config_GIGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Genshin Impact",
     "GameRegion": "Global",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240606125906,
+    "LastUpdated": 20240630164058,
     "MetadataPath": "config_GICN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Genshin Impact",
     "GameRegion": "Mainland China",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240616005146,
+    "LastUpdated": 20240630164058,
     "MetadataPath": "config_GICNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Genshin Impact",
     "GameRegion": "Bilibili",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240619150419,
+    "LastUpdated": 20240630164058,
     "MetadataPath": "config_SRGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai: Star Rail",
     "GameRegion": "Global",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240619150419,
+    "LastUpdated": 20240630164059,
     "MetadataPath": "config_SRCN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai: Star Rail",
     "GameRegion": "Mainland China",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240619150419,
+    "LastUpdated": 20240630164059,
     "MetadataPath": "config_HSRCNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Honkai: Star Rail",
     "GameRegion": "Bilibili",
-    "PresetConfigVersion": "3.1.0"
+    "PresetConfigVersion": "3.2.0"
   },
   {
     "LastUpdated": 20240509063558,
@@ -113,5 +113,32 @@
     "MetadataType": "MasterKey",
     "MetadataInclude": true,
     "PresetConfigVersion": "3.1.0"
+  },
+  {
+    "LastUpdated": 20240630164059,
+    "MetadataPath": "config_ZZZGlb.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Zenless Zone Zero",
+    "GameRegion": "Global",
+    "PresetConfigVersion": "3.2.0"
+  },
+  {
+    "LastUpdated": 20240630164059,
+    "MetadataPath": "config_ZZZCN.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Zenless Zone Zero",
+    "GameRegion": "Mainland China",
+    "PresetConfigVersion": "3.2.0"
+  },
+  {
+    "LastUpdated": 20240222231139,
+    "MetadataPath": "config_communitytools.json",
+    "MetadataType": "CommunityTools",
+    "MetadataInclude": true,
+    "GameName": "Community Tools",
+    "GameRegion": "config_communitytools.json",
+    "PresetConfigVersion": "3.2.0"
   }
 ]
