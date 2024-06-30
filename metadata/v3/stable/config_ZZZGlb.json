@@ -1,0 +1,57 @@
+{
+  "ProfileName": "ZZZGlb",
+  "LauncherType": "HoYoPlay",
+  "GameChannel": "Stable",
+  "IsExperimental": false,
+  "ZoneName": "Global",
+  "ZoneFullname": "Zenless Zone Zero (Global)",
+  "ZoneDescription": "Don't go into the Hollows. I know, I know, there's Ether in the Hollows, bizarre creations, even heritage of the old civilization, all precious treasures. But don't forget, there's also spatial disorder, monsters and mutants running rampant, and ultimately, a disaster that could swallow the world. They are not a place where ordinary people should go. So don't go into Hollows. Or at least, don't go in alone. If you insist on getting into danger, go to New Eridu first. This city where the good and the bad mix has many people who need the Hollows: Powerful wealthy tycoons, gangs that stalk the streets, conspiracy nuts, and ruthless officials. Make your preparations there, find strong allies, and most importantly—\r\n\r\nFind a \"Proxy\". Only they can guide people out of the maze-like Hollows. Good luck!",
+  "ZoneURL": "https://zenless.hoyoverse.com/en-us/",
+  "ZoneLogoURL": "metadata/game_logos/logo_zzz.png",
+  "ZonePosterURL": "metadata/game_posters/poster_zzz.png",
+  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\HYP_1_0_global",
+  "DefaultGameLocation": "C:\\Program Files\\ZenlessZoneZero",
+  "ConfigRegistryLocation": "Software\\Cognosphere\\ZenlessZoneZero",
+  "FallbackLanguage": "en",
+  "GameDirectoryName": "games/ZenlessZoneZero Game",
+  "GameExecutableName": "ZenlessZoneZero.exe",
+  "GameType": "Zenless",
+  "VendorType": "Cognosphere",
+  "LauncherID": 0,
+  "ChannelID": 1,
+  "SubChannelID": 0,
+  "IsHideSocMedDesc": false,
+  "LauncherSpriteURLMultiLang": true,
+  "LauncherSpriteURLMultiLangFallback": "en-us",
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGYAAAAAAAAAfwAAAAAAAAA+hyn+jHStBA8i1lWHU+NukRjoOx2mfwB3k7Q5bQM6jd/Oded29m1tUzs4idJkMiDq0khzc+yt2TWnhDPKxWV5lkdn3gbnb+zL8DN7pgPBmW87oeLWrEep7E9KWsqm/o04xnwC6uyEvNYD0mqqcAJ1y5TK4kPJ/5gn6Gy1HmWScg==",
+  "LauncherCPSType": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAACP4Ni0EJaut1qbUgfRd7GL4Dpx90ISHyF7Pxtazl1KDrM+Phsn5LNuLiMfh2qwK+F3FJaPCqaAOIC+imGGUTqSmS4RsDksEb48oAj6ExQzxYc+EUKHAP/InUupwwlG40gw4o+KP6avZNDFogXdtIBaRFcbt+pfpEmLRxXqqwyCYQ==",
+  "LauncherNewsURL": "Q29sbGFwc2UBAQAAAAAAAGMAAAAAAAAAegAAAAAAAACZ0u0vFuOifwe/JfA9X8YAi3aCt5Ik614OkjIxnwSZaaVA+S7JJ0SLjtJbcv/K3lSKpb+nfKR91OLT7cnKCUIlgjxl0gFtNX1VBl3f9JljT2BLJO7rkwDpr4ksC/ShdDMqV9XtjziE3zQQjHYvgKDFsCFnAneNEdE+maarVMYpww==",
+  "LauncherGameInfoDisplayURL": "Q29sbGFwc2UBAQAAAAAAAGQAAAAAAAAAYQAAAAAAAAAKRMKmjBsa7mWSH8CMD3Ym4sq3JULUB/bqdedFYO6IdGq0YJa8yjnZ6AzUJcpCnisCBohrRPyhQT5fZ+0neoQ28EmIIkkIG11o5EZgsOavh8NQoiDwQdzlQBJ1KLSjUJgK/PnaxN1e4jdhcSxuPFejUByVLfTpgnGINC7LrwVl4A==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGAAAAAAAAAAcQAAAAAAAACbWBOFbSVa6XhU4anDG7KsULPXNlK/ylVr5IrUd0IZ0XaKZbezdBlV4YPN6KLCtmI6uzpX2E6gPLPi//NAwPURfMYhi2qVFCHdv6nTY+ODPJR/cKCJ3pzf8mRxSf4aGFCsp/iSwhsTL3ULMN9UlSWdtCZOO84iNgoN1ZaGbYivag==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAGEAAAAAAAAAcAAAAAAAAABXrcS3NEs3ee8uQqhdTyFXnCVYqT+/AYEZFcWT8ekeDv4XY/V0/k0R6wc6Lv74/EbJQYOeX+qKmugWDFbGAnFp575S9fJl7GTLpA2IfcRL8WypBs6OHr1u+nb8TKD8/A7xTb4NJyGLtAvcKRAnSuCeW//u9e6qRKGh1wDvJCibqQ==",
+  "LauncherGameChannelSDKURL": "Q29sbGFwc2UBAQAAAAAAAG0AAAAAAAAAhgAAAAAAAACVQXFJmBzPP/oPryByOOBOtaM7p+hQfw023p1eUT79GLQo3BD6DdVKIOuRXIXrj0WgXaKI0LAcJu9HHMOw3naHtPd8Xwnc5210ekebyXPq1Yj5Wkzd4MhxsREtwVSEyZgqfbJ0RNFzL3XAiHsDwwfdHHPzhwnLo1LyBVeLvqwWjw==",
+  "LauncherBizName": "Q29sbGFwc2UBAQAAAAAAAA4AAAAAAAAACgAAAAAAAABXRz1gUtM0DaJIqLjuoor6TDFGWdR1XKyeR2H/Q+mOje/j7rX24e2JpTaQeIRJMme4WUxEsKsoumGJL98kGA3BGT2nZ7gd3U+jwUzytok7uA5egfNxHO61ymynZg37pctTJRYL35sEdFCwPCZNOngqiTN5v7HNnQ24YiXA9swsqg==",
+  "IsPluginUpdateEnabled": false,
+  "InternalGameNameFolder": "Zenless Zone Zero",
+  "InternalGameNameInConfig": "Zenless Zone Zero",
+  "GameDataTemplates": {},
+  "ZoneSteamAssets": {
+    "Logo": {
+      "URL": "metadata/game_logos/logo_zzz.png",
+      "MD5": "4d2dfaf9bad348089abdc28f128acac9"
+    },
+    "Hero": {
+      "URL": "metadata/steam_assets/game_heroes/hero_zzz.png",
+      "MD5": "361d358a854ba105c6867948cc5d60b6"
+    },
+    "Banner": {
+      "URL": "metadata/steam_assets/game_banners/banner_zzz.png",
+      "MD5": "eb7b770f96f260aab6255b818da6eb7a"
+    },
+    "Preview": {
+      "URL": "metadata/steam_assets/game_previews/preview_zzz.png",
+      "MD5": "f14da954ac888467101f4e8dc4c368a9"
+    }
+  },
+  "Hash": -7366489371161996744
+}

@@ -1,0 +1,57 @@
+{
+  "ProfileName": "ZZZCN",
+  "LauncherType": "HoYoPlay",
+  "GameChannel": "Stable",
+  "IsExperimental": false,
+  "ZoneName": "Mainland China",
+  "ZoneFullname": "Zenless Zone Zero (Mainland China)",
+  "ZoneDescription": "它的故事发生在被神秘的超自然灾害「空洞」所侵袭的近未来。在这灾祸频仍的世界里，崛起了一座另类的城市——「新艾利都」。这座最后的「绿洲」掌握了与「空洞」共生的技术，盘踞着错综复杂的势力，它混乱、喧嚣、危险又充满活力。而你将成为串联起空洞与都市的关键少数派，名为「绳匠」的特殊职业人士。这里正等待着见证你的故事。",
+  "ZoneURL": "https://zzz.mihoyo.com/",
+  "ZoneLogoURL": "metadata/game_logos/logo_zzzCN.png",
+  "ZonePosterURL": "metadata/game_posters/poster_zzz.png",
+  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\HYP_1_1_cn",
+  "DefaultGameLocation": "C:\\Program Files\\ZenlessZoneZero",
+  "ConfigRegistryLocation": "Software\\miHoYo\\绝区零",
+  "FallbackLanguage": "en",
+  "GameDirectoryName": "games/ZenlessZoneZero Game",
+  "GameExecutableName": "ZenlessZoneZero.exe",
+  "GameType": "Zenless",
+  "VendorType": "Cognosphere",
+  "LauncherID": 0,
+  "ChannelID": 1,
+  "SubChannelID": 1,
+  "IsHideSocMedDesc": false,
+  "LauncherSpriteURLMultiLang": false,
+  "LauncherSpriteURLMultiLangFallback": "zh-cn",
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGMAAAAAAAAAeQAAAAAAAACjxnSB+0DAok4CJdxzXqHzqHKt/DfuRLGDxxxGNRGlAzSjb9bdtwPE1N9Ba7HDXIGJVCW7Gw+Sh3w94wbhugZaaqAo9wWuvSecFGVt1BHjSpYWAEFbLYOXrcvN/XXfOXTKZywkUqTniMXgtJozt30dxn9MUntSskGSmwoahKMkjA==",
+  "LauncherCPSType": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAABoop1EI/n0Km6tIXiLXetLzHgGLrJAy4sRRRJz0+baIYG14+Z2j33R268Bob1cx/9PRaqveLGs4VbqOs55lUdCVOfIrRDzJlZo+luXoNb7ITd20oBsNRM4+vn8MEaiPGBK7amaee04x59dOIWT7KXxoUbsbeKhRNuVhdyghJ2zFw==",
+  "LauncherNewsURL": "Q29sbGFwc2UBAQAAAAAAAF8AAAAAAAAAdAAAAAAAAAAc062S0fGPUsaYHU3bhS1Dn5lDn6WAKjugZdW66I4IPaerAjH7MRuWCtLtS50qU1slCcHBTg2fnFvoieD0ziCLmuHXF32STqanhjJ1wE2tFjhqeOPCfYsj9fGwBrknhS88FqijVozche3fGaSITfA5Poa4QHlILeod/OdFLKvkNQ==",
+  "LauncherGameInfoDisplayURL": "Q29sbGFwc2UBAQAAAAAAAE8AAAAAAAAAWwAAAAAAAABs3QGCwGfkbLLA0Vmg2GZ0hzeYEUIf2g/N/hUpWQkgyKM+TOuWGTdRJYBZ3GMUVgAMQa3zgLJXf40GT1bD9EhN7S1Cz5+Irf5Q7LtpgRoo3gwZIQ8Luscf2BL+67YEpsY69qGq3eneYLrgPD+50aQh+1vMP7xlvsOvcNJlU9STUA==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAFwAAAAAAAAAawAAAAAAAAARxzEqtJrXb5U+ucEsh04oQk0AOAdRGZTNpwwEvgyE4fgx7egPgjvyyTdDlZB5rBofuv198PF0lgGRQouX+KnCRqq9kR1gpxS1S7BOGJVAn8glJhlg8EiP6b+fBEU1ElyqDET9yOEGkIo6vhkLKX1G2b2b+pSMiE/ko+FA6m2RWw==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAFwAAAAAAAAAagAAAAAAAAApsP3cK4o4Nqurmh/6uQmK+oQ3d57f1nmQBBF3GUKp4dbhqB1J3wdrT3z0fidETKgNE7/M7Nc0w9ejBQZOno7GPG2AQabw92p5W4+8d7tiL3KvI3muE/QhC8ol3159mnMrDJOezg6xkxBTtvT05eg8rAb+O8oTzXmmLGx4dlitrg==",
+  "LauncherGameChannelSDKURL": "Q29sbGFwc2UBAQAAAAAAAGkAAAAAAAAAhgAAAAAAAAByDRLYs8SRE7DksU1Fl/wnABgEyAoiLyraMQt3UYPNksbzQzqqzg5lOHVnm/9GQbK4lDeeTguFM6TL0+qE9NKm+cnfpN/0V5KW367dC5TZH0IfCs8GSiVUMBYA2rb9R7kQc2UQVC3FTxE544Gz4LizgPLfrk6rWKsAf6iJvgweSA==",
+  "LauncherBizName": "Q29sbGFwc2UBAQAAAAAAAAoAAAAAAAAABgAAAAAAAAB1hj0JhlJ3Mc+qPWmKqbl1e/oqq35K6EkCFoMSCKK2tqIBU+wD1F9lrRv7pcVEHPZ/bIfJI9qSgSP+je5FS5aPe2xX5tk9uBzZGuj9nrt+/7lmp8UESM7GWBX2eZ1ltSlgow+QbnYEdElvR/4xTUK5XcfsJufrGEe1tU+dOa6sIQ==",
+  "IsPluginUpdateEnabled": false,
+  "InternalGameNameFolder": "Zenless Zone Zero",
+  "InternalGameNameInConfig": "绝区零",
+  "GameDataTemplates": {},
+  "ZoneSteamAssets": {
+    "Logo": {
+      "URL": "metadata/game_logos/logo_zzzCN.png",
+      "MD5": "04e0d85a2edc59ea5635b942635a3483"
+    },
+    "Hero": {
+      "URL": "metadata/steam_assets/game_heroes/hero_zzz.png",
+      "MD5": "361d358a854ba105c6867948cc5d60b6"
+    },
+    "Banner": {
+      "URL": "metadata/steam_assets/game_banners/banner_zzz.png",
+      "MD5": "eb7b770f96f260aab6255b818da6eb7a"
+    },
+    "Preview": {
+      "URL": "metadata/steam_assets/game_previews/preview_zzz.png",
+      "MD5": "f14da954ac888467101f4e8dc4c368a9"
+    }
+  },
+  "Hash": 1170551270141558818
+}
