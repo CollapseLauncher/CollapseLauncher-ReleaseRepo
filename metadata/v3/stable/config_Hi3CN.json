@@ -9,7 +9,7 @@
   "ZoneURL": "https://www.bh3.com/",
   "ZoneLogoURL": "metadata/game_logos/logo_honkaiCN.png",
   "ZonePosterURL": "metadata/game_posters/poster_honkai.png",
-  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\崩坏3",
+  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\HYP_1_1_cn",
   "DefaultGameLocation": "C:\\Program Files\\Honkai Impact 3",
   "ConfigRegistryLocation": "Software\\miHoYo\\崩坏3",
   "BetterHi3LauncherVerInfoReg": "VersionInfoCN",
@@ -25,25 +25,24 @@
     "Chinese"
   ],
   "GameDispatchArrayURL": [
-    "Q29sbGFwc2UBAQAAAAAAACcAAAAAAAAAJgAAAAAAAABPi5Md4MSWvB+EGJPjHvQXh57SmjHGSUCWRwqH+yaRYyUZ0Qq6e0w6GZBvp0Sf8jhECCWQV6anS6P4aFR2cQt7Q+0zQN5mWQlIkg1bsP7QbX3qD8z2v8f0Y+cL4k/Nk//0h3ohgnocaMt0X9B2NQ8cFyyUKjDjoxKd9WrlA93Ulg==",
-    "Q29sbGFwc2UBAQAAAAAAAC8AAAAAAAAANQAAAAAAAABps+XndcirGuKFx0EzzSYsx2IYpr8OmiHrTUQuRLRIBZgfp4UJ741DAnJSKXe9FIhS9yE+7rGG9rgUedX21wBReKINy25Wpgy3hLaewhW80fbzP/rA6477oXTgQcDM+mvXmlN3s/MyFlVGLRADtE7CRh6DhlIqveQO6pvlAawV7w=="
+    "Q29sbGFwc2UBAQAAAAAAACcAAAAAAAAAJgAAAAAAAACQtGRh+icrW3cuLX/OjERtu7213cJhiNs0N31QmPRmECiTddj6DelvVJfyi6FhYz9Vrz5Fe4zhSBFwA5lRuxCms7aMw00th/+ac4VcxbWRpxvV5TH/3JseHYKXXRoAQkNtHyLqQuUs2Ux0yXyfGdaMA2VXdFV4+cOgxvveBRPMfw==",
+    "Q29sbGFwc2UBAQAAAAAAAC8AAAAAAAAANQAAAAAAAAAtKd3NQIno/DDGB4Zo0d1hpRDbdGT+QNcMzykyJQNsOeLsr1/xA2KfOeTiZ1uTjXVXQsMMxfymh0drzd6f4e13R1/BqWaTPyAopoE0hivamG+B5KyyZIePR4WuqXGDBDNzlCJRsMcqCKDuHQENpNWui3JAeM9OGdnjrGLobGMlPQ=="
   ],
-  "GameDispatchChannelName": "Q29sbGFwc2UBAQAAAAAAAAkAAAAAAAAABQAAAAAAAABZp5pMH6UjHK1E+LpjRS9BTuniZNpCVUcy+DyCD8SXSx+vfgwF4ozzzn2SdjtaiAcLX8pmtvC81Sg7SpbDIAi0DVLqGjzFQwTD3ooH3QuVN0Vd/HDUSC8FosFzMMXKlNvhW0yivurHjmgEFeZdK9FLYE3mFXkjRpFQVa0xHDEptw==",
-  "GameDispatchURLTemplate": "Q29sbGFwc2UBAQAAAAAAAEAAAAAAAAAAPQAAAAAAAACg7GlrWcs6a43Qevjhro0x3eqzrX0duw+Nk5WGHdZatTvCmbBfo0eLOE5Vc738gXpN/MpMFYNzU+QVv4nG7e/8B2q3VvjM1mVvLJLkrpQN10IYAYTISULRHqCk60P8+qOdO9+TeZgr92o6ku3fvIkbaLnxs3mqHJZfWJSJk06BWg==",
-  "GameGatewayURLTemplate": "Q29sbGFwc2UBAQAAAAAAAEIAAAAAAAAAQwAAAAAAAACabkYoqa4VLoyM9+1MOcWWGO6SzjvHIk/+ZvzwPrvzGn3/qhlahU/KJkvpctZcOY0YiiUoO6MgS5v8FI2y6fn150NVlHWbgRRvxqaZRQxsxHKqFQFg2aJIpJkVvPuRUCBq/mlMMvjC7HalzkSEKJ1H72cjJ8y44omEUa7DoWabkg==",
-  "GameGatewayDefault": "Q29sbGFwc2UBAQAAAAAAAAgAAAAAAAAABAAAAAAAAAA2PWB7Zfrsy7wj0o4NPPEJsa5nH/d2Ryta+HGxrGWzP1WaTNy1XpW+7chWlBhwT0L/PO8G/JBVYxfZqYeCGYxi72LtIrGGdks8PC6aX3fkiahlkg/NLflVhW6tOAZv5J1KxoGrUQE6EvvsEGiUoZsTmd4KAovivUcxKH+Yx/+MjA==",
+  "GameDispatchChannelName": "Q29sbGFwc2UBAQAAAAAAAAkAAAAAAAAABQAAAAAAAACgTEFQGGGkr/XoU3/e0dHxtpREIT+CGCgF5hDnzO+frv3hPNId+r/rNK3XihqKiLjNMlQ0O88P2trfCt3ybjZMVwq2d0q6vromA80MLMz6+dSuh0ZZjC1wh23kR45ANsH8Thsvs7diUukTxwGijC4yrv/vmcahL/D4P6VbMcVbqw==",
+  "GameDispatchURLTemplate": "Q29sbGFwc2UBAQAAAAAAAEAAAAAAAAAAPQAAAAAAAABRx1Dsw1nuzsnNuWc71y/awdI+ZigxEGiSxkR2/n20LtEn6t4elv2gdirP2EMAE8JxmgqtrvzOsQ43ZK44CcUPZ7ANl+TjHeEixY4tdwylb6+QuqtEYP+MW4AQM0ljWrKcy8xzWWEguNzStpDd6GWKrLMrYgH12/ACtwb5UcoNFg==",
+  "GameGatewayURLTemplate": "Q29sbGFwc2UBAQAAAAAAAEIAAAAAAAAAQwAAAAAAAAAVMmZavP2nfJZruFDNxn3QgtQaalP81AoHnYaYrQiu+0LxWgVUOmJIqYYxj7RxodLnM98mlDlLJUrcI2ehRxaapzWLUNPbCYWb3Yfnf4pD4llCj/A8NEaSMQApyIGrwLPzuhr4JBViaoWV4rPgWtzjxD3/mrFjzK3pq++EUaW1Dg==",
+  "GameGatewayDefault": "Q29sbGFwc2UBAQAAAAAAAAgAAAAAAAAABAAAAAAAAABM10YjyDx9QrhkYCHYfVqO8X9xGc2vIp+ER+8cc+sY9seEA1IqpmXC834lBxF9U4xcQFeV9UOQ9IHYu9FHi29uZEC09Znb2RbDQCPBLgTD/LO6muBVQZl3zub9yx5psEwhd2S357AtJ9HUQ5vdFD2h0MSKYkz34yYoBdCo0h9rxQ==",
   "GameDefaultCVLanguage": "Chinese",
   "IsHideSocMedDesc": false,
-  "UseRightSideProgress": true,
   "LauncherSpriteURLMultiLang": false,
   "LauncherSpriteURLMultiLangFallback": "zh-cn",
-  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGsAAAAAAAAAeQAAAAAAAAAXXG4puC0L1cMdv7MfNCd2+/E2MRckHGbhQP7+usaKqlRIdsGeIC4deiRkwdht/fTYZ5sRUguVpP4Ys8ms0VJDbua7UNEzcC31JTUDVKLoVn57RS3Fnjj5ZHjC45YfMxVualx/oluNbNnFQHcUI8/JLbbcIEYMR50uQ9gjvwJrJQ==",
-  "LauncherCPSType": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAACp/L7iki5WYg04wk2AiuTyJsQl7aYxMKpOiKpxyQ/nRYRh5JWUcDUWcJ4ww3JkRZFY1bkB6X3ZydveFCQ3Y0+Aw5JSTxLZ475XBcWEJ2WypyG03RrdImVDxNScCbG6BJsK0f3c/vZhNYg0z5HsPSQ5+imA0XjIxdlcGjDOzM2s1g==",
-  "LauncherNewsURL": "Q29sbGFwc2UBAQAAAAAAAGQAAAAAAAAAdAAAAAAAAAAWXCDdjYoUdRQhFCTvNBl1BedD3ofJFXHP4CtJ0J8/AVRc1jf0U6/HAeOpba8hJ+umh1U6DRCz5GhoxUNt5EuICOEU+YZok4gPE/19s4mAEYtibAC2EoYu+7rNKoFxXUuKX4/RGPrXBKKui8iRpmQmPklzTFOHFDOcJnVH69898g==",
-  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGoAAAAAAAAAgQAAAAAAAABU1i9KFF6xkv8UrHjUvzSfVSRROi+JElNM8gtnmYHOZ9zGGQQV/4igaAb6BIug/yNT9kTjvGwFZGK40aqeIKG1ab6F9X7mrZeRPAulsNGdzOGF0+0EAaEdxEsddcHwirb2+3zVt450nxM5wKy1UlHGlzJWgfeMzyl+7x4ZXgXifw==",
-  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAGoAAAAAAAAAgAAAAAAAAACZOFx7fvO26PxW/dF9Byp2Lb6KM1NFsdX+Ss491e1kVVMaEyFI5GwKBvV9b+e0skHuavm7C3OJwDwryFfgmhoxxtOfYj7M3N8VQp+CH7naeQF0aCN4wNhTPOva+gugrw/+EFvphyVbG0DBpwFyusLh6YpUuU9HcNUDFaGBxIuUeQ==",
-  "LauncherBizName": "Q29sbGFwc2UBAQAAAAAAAAoAAAAAAAAABgAAAAAAAAANxynWTrdOfxqs6kGmApcdtU+/1K1SLUY+bDDCoiOU4V8qJOeGVbiX0/brPTXZiuU6PttdkNTh674akaiEcliKbLocPvrtZpK+mv8zvcrlPKwQ4/qGbhCe4eKMmZrSrhjlq5ybLBk38/4kMgktVaY8fFMymjkZ7YAw3R3rgB2uMQ==",
-  "DispatcherKey": "Q29sbGFwc2UBAQAAAAAAAAwAAAAAAAAACAAAAAAAAAAU2xEl/gW7FuyD3dwwxqtLBxnytI0QATgbxMY74rb1dI8t8dxZSRBjsluX5Hq5LkLrTIFvI5eedF354Wq0fyxGl8eZyY0JJgGjWICN6/rVyJJD7h2z7KeMmtckhypJfwHNvNlWJRY10vUVQ7fRafY/Xc472x8KKHgy/jvHEgz3gw==",
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGsAAAAAAAAAeQAAAAAAAACaUVd6u8nxH26+xYxmlKXJVp5Xjb8Tzxgvv7BD2DahNhG8q+JYqe7FKLRC+1zBT3gP5/XuxzX5zgYOBHA8X0EhXw1i9woxR2bdfB4P3MM8WYOymPWFWPq+Lccz4jk9CbuQT/0ixI3pUQ1g7g2ImZ0o+o5jO193K+IYDx7oLRvmFw==",
+  "LauncherCPSType": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAABOfRYynzrbBEcoS7ur42DcPSaPBlIhoYl6VIJqYNYzybuQasF24I4VYORPdrPhVV7yculmAR4pS1I8sZV8GpOZLVH0rvZ+yCbvMtox2/i54WBbmtD7bUHaoQcF4g3GJ/GQQ6XaAzQZpBBA2jTYv4fwMa/rG9XjxN74XJqmsDw0YQ==",
+  "LauncherNewsURL": "Q29sbGFwc2UBAQAAAAAAAGQAAAAAAAAAdAAAAAAAAAAX4e756i99eCY+ixCKDbQvXcHduxkzyHt7YpZ/BhWLL31N/RuDxrbLy2p66wJOd1LoSC4zmmltss5+SS5vle1fGP/H0SVb+lds3SFOh1mu4Ql1KNYB9nSvhpG1NfWhb5EV7/wJlA9MfWURl96WWL28yHAOuMV5jZ1a8lVZoxWgsg==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGoAAAAAAAAAgQAAAAAAAACr0peNzsFwy/ilyvx7haIcVD+qJi+dJl5dCXH+iMTGp/xf820ZHIRPrVOm27YfM4lArJonyQNkjyT36K8wYZUm8tDTynQ+CSVMZo9uDqkIalg4NI+lrT0vf54vgzG7CkP4Ur6lww7txVEoObVrupX6pI1yMuHwJbjPYKsQqYpz+A==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAGoAAAAAAAAAgAAAAAAAAACiA2Ns1tQUvvjlf/TUdgmexROkED5v/qTpvqOn+zUkVhdyLTi4m9QgoymX4ikQDXpfxfaDDvYcT6FNiH6QVbnv28fBdQk+plbB4O5WYGCQ16Dmnxk1wfpry02plhH74sShJRCoVpCGdF6+A5L/77YJGsM655EbzkBOfnryg1bRfQ==",
+  "LauncherBizName": "Q29sbGFwc2UBAQAAAAAAAAoAAAAAAAAABgAAAAAAAAARGsvwuzpopwYzgSJpdusGNOaKvDRinFWPPYJ1mD4BkPHzySg7GyZbad+8kNFWRF6DT6fnhPc/ysUe0g3dLgHB5JmtP8V43AlwLcwBPjpkoZHw8aA+iALq8xeOtvcfIM5J000dLC+e01VWFHVBnk9KmJblvyvQyzV4Xcgi1WWq1Q==",
+  "DispatcherKey": "Q29sbGFwc2UBAQAAAAAAAAwAAAAAAAAACAAAAAAAAAA4BI0YPxTQPjAJj0pEMtg0rpSdWgBd7p6uVp23T6FJoSPsAXc/M/l4Mo5oSbvHkjgkLnLnZNqZ0fVk8ZYI466QxrByMCeaL/JfQxTPgn5LWkNqgJ+7l5IzB6gueYWpORpr+VMicF3rNT+layTko9vz6xMjEKTD1yst7ZEXxT0ovw==",
   "IsPluginUpdateEnabled": false,
   "IsRepairEnabled": true,
   "IsCacheUpdateEnabled": true,
@@ -53,20 +52,20 @@
   "ZoneSteamAssets": {
     "Logo": {
       "URL": "metadata/game_logos/logo_honkaiCN.png",
-      "MD5": "37c2b488d16f0f63086d48eda36c0a6b"
+      "MD5": "c94bc33c077afe3765f40dd70ee592b5"
     },
     "Hero": {
       "URL": "metadata/steam_assets/game_heroes/hero_honkai.png",
-      "MD5": "f6eb046431f1f73ab0ce9c1166c4e43c"
+      "MD5": "51c3e1bc9dc3e087684dddaa59555cdb"
     },
     "Banner": {
       "URL": "metadata/steam_assets/game_banners/banner_honkai.png",
-      "MD5": "4168447e27a2fc7bf7760805a351a8b0"
+      "MD5": "a40c78e5c5a26990acf47df79be187ba"
     },
     "Preview": {
       "URL": "metadata/steam_assets/game_previews/preview_honkai.png",
-      "MD5": "684969a42b83c13890b84ffac5057818"
+      "MD5": "53f3874d5dfba82e737b08cde3d62e9c"
     }
   },
-  "Hash": -8360725554176608990
+  "Hash": 4239050830054609773
 }
