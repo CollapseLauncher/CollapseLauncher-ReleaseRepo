@@ -9,7 +9,7 @@
   "ZoneURL": "https://hsr.hoyoverse.com/en-us/home",
   "ZoneLogoURL": "metadata/game_logos/logo_starrail.png",
   "ZonePosterURL": "metadata/game_posters/poster_starrail.png",
-  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Star Rail",
+  "InstallRegistryLocation": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\HYP_1_0_global",
   "DefaultGameLocation": "C:\\Program Files\\Star Rail",
   "ConfigRegistryLocation": "Software\\Cognosphere\\Star Rail",
   "FallbackLanguage": "en",
@@ -21,23 +21,23 @@
   "ChannelID": 1,
   "SubChannelID": 1,
   "GameDispatchArrayURL": [
-    "Q29sbGFwc2UBAQAAAAAAAC4AAAAAAAAANwAAAAAAAABUQJve1kwfK5x7sb7bvoveh6KtgcGDvGyU16ERxlO/EZVhCny/VVhE1c0Rt5Cjf2bHHmm+To9s0j2aRcQQNCga3VpeI5v3a5NrHbnJEQUJs+cXN3vJnxB+Vx8wcsxKzhyS3GSSC+gS08B1fKUMV6fmjawE2N9WgrJ2VToiobZkEw==",
-    "Q29sbGFwc2UBAQAAAAAAAC4AAAAAAAAANwAAAAAAAAAB/88H3a4i4lPkmCybz0rmvAb7F6LXloxUvRrOyK+WD/QEagw2Vg/ZR3w1EKElmkx7C1jNbUwAGq7AQKt3j7Gep4V1M3/Wwsih/v5W7WZz4toQh1iE1QGhUMlRWDNfX7ocAPbGqaR4Ka2J7+GLbOp5gh+XwcCQlQLWC2X+BgroMA=="
+    "Q29sbGFwc2UBAQAAAAAAAC4AAAAAAAAANwAAAAAAAAAJlo7X3skv93GeRhSkk8iH2h935nYa2dMW7bLMco1UuMtfaYVfnoNwDj9JdIXh/C/XOC4USglqDVj/snJhA5e99cwS5GhiOfePbvxfG9t09P7juAf176kNb0pxEm3LKAIiki6yw/t62RQMKIckxShBTRZ8Hs8O2QmVt6tOLv41nw==",
+    "Q29sbGFwc2UBAQAAAAAAAC4AAAAAAAAANwAAAAAAAABHnlPhDxMyh0dFAdNzFgjlJObl2fBb94yiRFwzpiM9VccJk0J7NdOoda9puwhjFdKSQiogBQhHmDqWe04svfdFUOSvKgyGYD4gSYyg+1L6X3UK6spN61QVZFD2RUQP1s34feZfKS80SLky/IR6iuulj1ddwW8rOy87+RsS+4pnRg=="
   ],
-  "GameDispatchChannelName": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAAChxQWmJmYAy+x8/3l4gAOVMBKMfCThnXqWmgT/vqt5CpudRNdVMK2keQOK3zl/ZBucDr2DopOWEOLJNYoGvm3k+Nyaos5SyYKBE032n+dbZi90c7uXbcx9rn0FMwUSiviGcLrrj1AmULPQMRJD2XahOr0OstqcTGPWJAeVzYP+0A==",
-  "GameDispatchDefaultName": "Q29sbGFwc2UBAQAAAAAAABYAAAAAAAAAEgAAAAAAAAB3dWkq8sTnCEkil8H3Bh1qe9aSFj2zAAY+8G1C/+kwgYL2wx4Go4f9NE2z3fkUbaSaiR9p+kElY5xh8rnc1pMAGrYnRpaU6DZzOEa+0SOSRt2IYB44NevolMWqvbwadbeePuIqt5xotCO27iboqzVrmF4fHN6AVvIvccntlZId5A==",
-  "GameDispatchURLTemplate": "Q29sbGFwc2UBAQAAAAAAAFAAAAAAAAAAYwAAAAAAAACiscLE+OxgqX3cacXduHU9T8PlrRLLC+whD3pvv/L+Y90728dicUZC7DPZV8Nh7ZcxsAvKSQ8BAMbGBUSTQoUd/8RIMjkF/4vFIU1ccGqBPTme6T6hk3HOBVadIZc/jYK8mMMzCF76hbzk6l14bXQYvDntvIoUJu0LQr52nd2IsA==",
-  "GameGatewayURLTemplate": "Q29sbGFwc2UBAQAAAAAAAFoAAAAAAAAAeQAAAAAAAAB1ziRNwZX7lUYDrpTV5VvcYTnZZDFUR200T7DzLz0fi5yPv42oE/GhRCJpE/oaVKzRTSNVhr6CRNcch5I9iJxMNqdD9dkzYCFgikqWiYKNmMVaKAqxkDlIy/rR3MlX8knYdxp+CWToSajMSLzqnEqqL3lcuGetFvDas7lEXcjFCQ==",
-  "ProtoDispatchKey": "Q29sbGFwc2UBAQAAAAAAAA4AAAAAAAAACgAAAAAAAABGXwV6t9Es4qj7HYq04XebY5s6oG2yVIzO822ghA40TAz/vx87DnSJ/TKhmF+ZweTa2fdOO2Y6T51muQjm090YdmfW7DsrchaqoItmf0K1CWOK3JQ6zzoXWaJ45kKql7vpESihLtThk7yfAavWjI4J+ZI9syv00qc+t79SowjFCQ==",
+  "GameDispatchChannelName": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAAAPibhvfGZV1Bh8q18pH7/Z8xvCYrvWB3JFgTsLDGf797UV5QTnVpXhx6+kq+Ml09qa3juZT+yISMyBq3dVmNJIuel5j/ypVaMe2hk3x8lLClvcjU/ILe5Nnp7x8CMXyiT/OLILYNzsurrvuRQRxnl4cISzzLvnXgsaBx96JqVLaQ==",
+  "GameDispatchDefaultName": "Q29sbGFwc2UBAQAAAAAAABYAAAAAAAAAEgAAAAAAAABC1oAqPvfRF4fTO1IrUFiPisl34ceMvfJYGPChfalH5r6PLU0aGqT72zy2qlWm+Eboc38K+gN0SQarmaTNv4IvVDJ8u1tGtIBGQQLTzj1EDIUWhFHdDUCcq10Tq0kKv9qJc5flgrxxYHAg7j1d0M5pt1zJjtxUuGZ2VI2eS8Eoqg==",
+  "GameDispatchURLTemplate": "Q29sbGFwc2UBAQAAAAAAAFAAAAAAAAAAYwAAAAAAAAAiJEBQRdLUtakke/o3CzVNV5zGi3AWugN6DVNgeh82MwuTmpoYOD0W5NQ26Z4eHT0LLzfhyfb2KUZ1oa+rEVkyHIeARUrHPlx8ILFdJYYvGs6rQkUI7PWan9pUbGc/ocpSLrB0jyYwclcBBCRRgFWqBd6GwltKpURKdlzEPAPYxg==",
+  "GameGatewayURLTemplate": "Q29sbGFwc2UBAQAAAAAAAFoAAAAAAAAAeQAAAAAAAACpMik4v+Ip0z56qXUFedmpq/xiydkal0KUWTq1yEPS5NP15JoDSIVOAzjLJDYdorJOvVfkDZ2Jh7u3ANwVebMfRPuQ79oVLrav9E+7TyralY7JiaB945dmNFNCImfMnYVUxXqnpFUm/p8k8dLZwKE5zjo6HwOpbu7z06MB1HodoQ==",
+  "ProtoDispatchKey": "Q29sbGFwc2UBAQAAAAAAAA4AAAAAAAAACgAAAAAAAAAPUXOakjIhLjI7QV6VxWCo5cx4F3c3huEn99PMV12SRxZiZiJhSihts4f210xgwBGiMbhNY7kaFqs/ZPORw50eIaZwhR8Y9ZGamGn94wHGT+fcjhLhECxEgA418U+iWTr8I4ZpkqvVuicJlK/oFGQRGBRsNtUTqM/IgY1Mvgr/ZA==",
   "IsHideSocMedDesc": false,
   "LauncherSpriteURLMultiLang": true,
   "LauncherSpriteURLMultiLangFallback": "en-us",
-  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAG4AAAAAAAAAfwAAAAAAAAAMVwaJxNjJ/mloMLMCsB5LDGLdgVAvXiAc4IMRXFAvhKCZzug0WgGTUyWouUNqSMbxfgLkkZ/iRyxuLmWVQdWw2ui0N+WfSTxRRmVN4tTtJLzmFM0Lgv+M2civgXOLtQwsgsXqWU21/OWhMhwU98S+8LqD6e/qBHjJnwHSQumHdw==",
-  "LauncherCPSType": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAABa+wnUsc+ER5xZQJJSIuW/5fnQ7CL9Ale6Y2ZtRKxAYWpHLzI3Vc+YraBnVDlajquy/H0CRfRdmz+N22nKpX8iyidFd8saZr8ThVcRvxE+28MffQQCzoBZpcGfpQw+nKe4gMX4Xh862QSTdlMQj1+ei7xpqLcGh5T0T2J/bnyRxg==",
-  "LauncherNewsURL": "Q29sbGFwc2UBAQAAAAAAAGQAAAAAAAAAegAAAAAAAABfOGzUuyt6IdlJy4GiImqrX0jrUzBQQWVKdJl/hJ4TO8DBjSIKEc7lPOLkDY2ckRZc46nyBkseTirgd7rWeoPBJM1xEW4XYdpr9e+6i1QdaKrwQrvWiJEdEgM2PTYOgv68AcRSg2SWZvMdoPDBSOg+LBH84foS9i/CztKPcPGcKw==",
-  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGgAAAAAAAAAcQAAAAAAAACBH8Oz5EWw0Kt2v4peuFPwSz8yD/MqTadRhRC3kIKcz5jZGLwvnTaz9DwPAIGDyi/wdC1Agh6USNDYMrGPXBFjYDH83nf3k/c7hm+046pYVudJQXqaB02Q38z3ZwCt1hUVEGAEAg/J61G52nWhm5eP4Dnc9KBr5jFvoV/hkvedRw==",
-  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAGkAAAAAAAAAcAAAAAAAAAAsJ5cFxyzpFY1gHehyu1vfoPmUBxX4cWLe8tqO3PGHoyKtoC4tn2+EjuzaSgbw/K+sQ3zFousjOiH6B37+66PsiaWfNPIxnDZ4624eGBG0v1dqTj9QoPYuqeW7mmBGHkwIubPqWkZEyFUjKsYTdXAz/Q4+JZdEzaNZE1LZxOpijw==",
-  "LauncherBizName": "Q29sbGFwc2UBAQAAAAAAABAAAAAAAAAADAAAAAAAAACU9yLTRlYTmRHcdIsA/7dyrku/XmcU1aQinDm3mphbBpSPZkXfwympmcxYMPUpUcRbvfuDZsf392EqI6FpQN73qI6HjR5XXpF3ypt273GldiqS2RAyMeDYV1Czw7NgCcLhPO8qPS2LYajyiAfk8m05HbYLHqr+is1uN6w0X5ZxeA==",
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAG4AAAAAAAAAfwAAAAAAAABPqetNKav1jOs6DHDwqPaGSXAQk9xLtSwshumWd/zdRikkjpYqC72MfCbpkqtCr4Taq/Clb6K906pPTLeNTwXEA4uqX3dIxcXD3J4ALeW3fXDGFznDceMydxynqpixrbSGVKfO6fRt4AgXGOJdAuCBZygt8aMZYKZOrwuis9p27w==",
+  "LauncherCPSType": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAAAkyqlIyNoQTEQ27dsU0CokDVXccaUT4MxY0BCtndFBCK0VueMUNL/ybl0Q/8xmUTJgLvauTW2DFnSDqyh3RvCsA/k1HwUclPlfBabjwFbgWiVb21rmFIGm51OAuGGoJyxr27mbpEXDtxHDt2fSxTqHOEANg70xB39NZOyq9NqDOQ==",
+  "LauncherNewsURL": "Q29sbGFwc2UBAQAAAAAAAGQAAAAAAAAAegAAAAAAAACnDa7io5HvrdQB5Th38rRy34ZnTBPjOAB+1GtndW/4Kk7RzZ7PCLbHdAXwM0W6VapMScPrWa/w52HBSXFSfsqjcJn4F7QkGMJuimP908GGy+4qvwy1QJyPuOdgi0oUuaaGA/DcrB7kkfl72MLi91ByA/mmZwYAxPVfhTLagetwGg==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGgAAAAAAAAAcQAAAAAAAABeXOyY+Q0Yw0CaxMIuzxZngsPIdfxuAmcpmt3Avmrmpj5isHp8L7aHbJ3KDAX61P2zt5odnBLszdA45uVx9wtXb8t//teeRL7QiHpekwEkZecHE//KNCI3KJAWgL44wdpitZQADzJQlSbAnaaIY0GBa9b3vizcee9koP+pzOYYLg==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAGkAAAAAAAAAcAAAAAAAAACoNzF+K6SBizad8BDRu1sHT4r+9uiVFRTxB8R9iaZu4EoRLpmV5xaA4rSguDb1Ml15rJhjmkVmHJ6n9T0tWZTKGzXB9s8a7rd0tWEWbM/9xS7XbMl+nPms4y6ghztwbhgWv3N/VSoOHNSs43YdMcymfBPQBFFoPrEDWpo/F8G7yw==",
+  "LauncherBizName": "Q29sbGFwc2UBAQAAAAAAABAAAAAAAAAADAAAAAAAAACJMK9oXxu9LztSRHRPVAvgK3ESYXgHFvJprac4S8wNVY11xNcZGOAktkX0IndP19AVLZYaQYKDOaIOhMNSgBSicbT0irtZrJbe/LGzGEobZwVAesUYvWoermzk7msviCMIBrqTrEMzW2gLAS0fQyAt50YlSM0knHri3jWKVoZl3g==",
   "IsPluginUpdateEnabled": false,
   "IsRepairEnabled": true,
   "IsCacheUpdateEnabled": true,
@@ -47,7 +47,7 @@
     "MagicSpell": {
       "DataVersion": {
         "770": {
-          "Data": "Q29sbGFwc2UBAQAAAAAAAKEAAAAAAAAALgEAAAAAAABOMYU75c8glQAgWscfHFAKOgQQNs37YDgJqCBLyJwFctN9S1Hj+CZFE73asBEzVbLRmSBrxskiPxLaK/opLLypF4T+a/H/zc2FwF2n17AQRNo8uwssJfxEtEvMWnET1Sufk/Tq5OV4vMJ3yW47+abnGf5jqtrCHW8uVo9WtD36zG69+OpGJmdxDAEm96SR6BLOnV4RLek0LiRGG2v5EgQItOqqHEQjKSXxCrZziZFpZarJFSxbxiF9t9rqoULGnkcWdGCav/llxLebPR4Et5DF6d/rkws0KCMivkPRxm0oKJJQPn8JTHmYt4Bcv0UoPR+LpL4IjFrbOSYal90s4kLs",
+          "Data": "Q29sbGFwc2UBAQAAAAAAAKEAAAAAAAAALgEAAAAAAABr/tqaGHGEd2H9Mx6+7+yRtZiBRV49DdI6UnsYruI6Y4RZB1MkIPQeON6Nxry4yYbFJJxTBEq0j41OJgIht3PMhmtPY1qOCBJFOWfZWQFzABi22jipTHuyY7SXhbxZv97niAOEJV+oJBY4v7XBDkOyLD8PshkPC9GTTa9khiRNyIQejb9azLqmeIo+KjVw30Xzy8xs+Vn2nexzV9W9WV+ybC2tAKcJAvSlRL+F4wNASn/DeFXsR5Qf2Th8gaUcDP+3Jft9SjN2q0nJTH/HeYzqmOkZAEPwMrlbO/vk2cBN69OKGFiRlf/jebEjLBW51Gi4M4djw4nbLmwAxezDEeTF",
           "Length": 302,
           "isCompressed": false
         }
@@ -57,20 +57,20 @@
   "ZoneSteamAssets": {
     "Logo": {
       "URL": "metadata/game_logos/logo_starrail.png",
-      "MD5": "2942de6278aebab64a3ccdc7904b0950"
+      "MD5": "a716b32054f9f59051cdf4bd53d36658"
     },
     "Hero": {
       "URL": "metadata/steam_assets/game_heroes/hero_starrail.png",
-      "MD5": "00f4618447c23bc0c2ee29a30436622a"
+      "MD5": "8a90047bd1a11a98bea953bb60cd4faf"
     },
     "Banner": {
       "URL": "metadata/steam_assets/game_banners/banner_starrail.png",
-      "MD5": "361eed31c9dbd5bc097bf4d35ef3d22e"
+      "MD5": "c5f750a76ab9ab4cf790595c71dedfe4"
     },
     "Preview": {
       "URL": "metadata/steam_assets/game_previews/preview_starrail.png",
-      "MD5": "92006c934a396c073f180d2eb8bdbd90"
+      "MD5": "6ff34bf8a86a423f910d425bc7e15979"
     }
   },
-  "Hash": -6519077224930215228
+  "Hash": -2947703050691898636
 }
