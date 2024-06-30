@@ -1,7 +1,46 @@
-# Collapse Preview Update Changelog
-Welcome to Collapse Preview Release Branch! This is an early look at the next version of Collapse. This preview is shipped "AS-IS" and we encourage you to report any issues on Discord or by submitting an issue on [Github](https://github.com/neon-nyan/Collapse/issues/new/choose). This changelog is subject to change, with or without notice.
+![image](https://github.com/CollapseLauncher/Collapse/assets/30566970/82f57c50-ea99-4ad0-817a-2889c253804f)
 
-> Please send your feedback on [this GitHub discussion thread](https://github.com/orgs/CollapseLauncher/discussions) or via our Discord server.
+# Welcome to New Eridu!
+To celebrate the release of Zenless Zone Zero, we are finally bringing a support for this HoYo's new title to Collapse Launcher. The launcher will be supporting the initial preloading on **July 2nd, 2024** and the installation process on release date (**July 4th, 2024**).
+
+Also, as a commitment to continuously improving the quality of the app and in suppose to bring more better experience, we are also bringing bug fixes and some minor performance improvement in this release.
+
+Some metadata changes might need to be pushed during the initial preload if necessary.
+
+With our excitement and hopefully so are you, we hope that you're enjoying to play this new title!
+
+### See you soon in New Eridu, Proxies!
+
+![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
+
+# Collapse What's New? - 1.80.14
+- **[New]** Zenless Zone Zero Support.
+- **[Imp]** Ignore the use of sophon download if delta patch is detected.
+- **[Imp]** Enable nullable on ``RegionClasses``
+- **[Imp]** Move some ``GameSettings`` properties to ``SettingsBase``.
+- **[Imp]** Bring ``InitializeSettings()`` into ``IGameSettings`` Interface.
+- **[Imp]** Update Game Logo and Icon.
+- **[Imp]** Bring copyright and other properties to executable's info, by @bagusnl 
+- **[Imp]** Code QA
+- **[Fix]** Potential ``NullReferenceException`` throw if some ``GamePreset`` and ``GameSettings`` values are null.
+- **[Fix]** Launcher unaware of HoYoPlay's Game Info API status.
+- **[Fix]** Duplicated SDK entry in the Install routine's ``List<T>``.
+- **[Fix]** Sophon Download not removing redundant ``DXSetup`` folder.
+- **[Fix]** Hard crash when the game region failed to load.
+- **[Fix]** Existing Games installed with HoYoPlay were unable to be detected for migration.
+- **[New]** Moving Community Tools informations to Metadata.
+- **[New]** Steam Shortcut support for ZZZ, by @gablm 
+- **[New]** Showing "Sophon mode" label under Installation Progress indicator if detected.
+
+![image](https://github.com/CollapseLauncher/Collapse/assets/30566970/317c9662-fa72-48b1-bbc2-946359812a3b)
+
+- **[Fix]** CPU and Memory Usage overhead due to unnecessary loops on "Running Game Check" routine.
+
+![image](https://github.com/CollapseLauncher/Collapse/assets/30566970/7ad97eaf-b170-4212-aeee-b5303f6d9d4d)
+
+- **[Loc]** Update localizations, by localizers <3
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.80.13-pre...CL-v1.80.14-pre
 
 # What's New? - 1.80.13
 
