@@ -13,27 +13,27 @@
   "DefaultGameLocation": "C:\\Program Files\\ZenlessZoneZero",
   "ConfigRegistryLocation": "Software\\Cognosphere\\ZenlessZoneZero",
   "FallbackLanguage": "en",
-  "GameDirectoryName": "games/ZenlessZoneZero Game",
+  "GameDirectoryName": "ZenlessZoneZero Game",
   "GameExecutableName": "ZenlessZoneZero.exe",
   "GameType": "Zenless",
-  "VendorType": "Cognosphere",
+  "VendorType": "miHoYo",
   "LauncherID": 0,
   "ChannelID": 1,
   "SubChannelID": 0,
   "IsHideSocMedDesc": false,
   "LauncherSpriteURLMultiLang": true,
   "LauncherSpriteURLMultiLangFallback": "en-us",
-  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGYAAAAAAAAAfwAAAAAAAAA+hyn+jHStBA8i1lWHU+NukRjoOx2mfwB3k7Q5bQM6jd/Oded29m1tUzs4idJkMiDq0khzc+yt2TWnhDPKxWV5lkdn3gbnb+zL8DN7pgPBmW87oeLWrEep7E9KWsqm/o04xnwC6uyEvNYD0mqqcAJ1y5TK4kPJ/5gn6Gy1HmWScg==",
-  "LauncherCPSType": "Q29sbGFwc2UBAQAAAAAAAA0AAAAAAAAACQAAAAAAAACP4Ni0EJaut1qbUgfRd7GL4Dpx90ISHyF7Pxtazl1KDrM+Phsn5LNuLiMfh2qwK+F3FJaPCqaAOIC+imGGUTqSmS4RsDksEb48oAj6ExQzxYc+EUKHAP/InUupwwlG40gw4o+KP6avZNDFogXdtIBaRFcbt+pfpEmLRxXqqwyCYQ==",
-  "LauncherNewsURL": "Q29sbGFwc2UBAQAAAAAAAGMAAAAAAAAAegAAAAAAAACZ0u0vFuOifwe/JfA9X8YAi3aCt5Ik614OkjIxnwSZaaVA+S7JJ0SLjtJbcv/K3lSKpb+nfKR91OLT7cnKCUIlgjxl0gFtNX1VBl3f9JljT2BLJO7rkwDpr4ksC/ShdDMqV9XtjziE3zQQjHYvgKDFsCFnAneNEdE+maarVMYpww==",
-  "LauncherGameInfoDisplayURL": "Q29sbGFwc2UBAQAAAAAAAGQAAAAAAAAAYQAAAAAAAAAKRMKmjBsa7mWSH8CMD3Ym4sq3JULUB/bqdedFYO6IdGq0YJa8yjnZ6AzUJcpCnisCBohrRPyhQT5fZ+0neoQ28EmIIkkIG11o5EZgsOavh8NQoiDwQdzlQBJ1KLSjUJgK/PnaxN1e4jdhcSxuPFejUByVLfTpgnGINC7LrwVl4A==",
-  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGAAAAAAAAAAcQAAAAAAAACbWBOFbSVa6XhU4anDG7KsULPXNlK/ylVr5IrUd0IZ0XaKZbezdBlV4YPN6KLCtmI6uzpX2E6gPLPi//NAwPURfMYhi2qVFCHdv6nTY+ODPJR/cKCJ3pzf8mRxSf4aGFCsp/iSwhsTL3ULMN9UlSWdtCZOO84iNgoN1ZaGbYivag==",
-  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAGEAAAAAAAAAcAAAAAAAAABXrcS3NEs3ee8uQqhdTyFXnCVYqT+/AYEZFcWT8ekeDv4XY/V0/k0R6wc6Lv74/EbJQYOeX+qKmugWDFbGAnFp575S9fJl7GTLpA2IfcRL8WypBs6OHr1u+nb8TKD8/A7xTb4NJyGLtAvcKRAnSuCeW//u9e6qRKGh1wDvJCibqQ==",
-  "LauncherGameChannelSDKURL": "Q29sbGFwc2UBAQAAAAAAAG0AAAAAAAAAhgAAAAAAAACVQXFJmBzPP/oPryByOOBOtaM7p+hQfw023p1eUT79GLQo3BD6DdVKIOuRXIXrj0WgXaKI0LAcJu9HHMOw3naHtPd8Xwnc5210ekebyXPq1Yj5Wkzd4MhxsREtwVSEyZgqfbJ0RNFzL3XAiHsDwwfdHHPzhwnLo1LyBVeLvqwWjw==",
-  "LauncherBizName": "Q29sbGFwc2UBAQAAAAAAAA4AAAAAAAAACgAAAAAAAABXRz1gUtM0DaJIqLjuoor6TDFGWdR1XKyeR2H/Q+mOje/j7rX24e2JpTaQeIRJMme4WUxEsKsoumGJL98kGA3BGT2nZ7gd3U+jwUzytok7uA5egfNxHO61ymynZg37pctTJRYL35sEdFCwPCZNOngqiTN5v7HNnQ24YiXA9swsqg==",
+  "LauncherSpriteURL": "Q29sbGFwc2UBAQAAAAAAAGYAAAAAAAAAfwAAAAAAAAA3Yb9HDH6E+68aidaM5nNScX2Maqs9T4p1B2c2sSk9b5SgJxShQyBQzLi/fpk5mipzxQyNEKHsaddA3wKW7XPgb6NfwWVrdLYVTbtmwnj3liLzIY7VSWYsVZ9cOMANGULRcjuExxZBMWW7+1WYiLNqxYh1DFJExp4DVM1s6HSLKA==",
+  "LauncherCPSType": "Q29sbGFwc2UBAQAAAAAAAAoAAAAAAAAABgAAAAAAAAB5/OO6UAyVE4XhvRDPADSDLRflEcWO915i6UkkZl8C20BLIt53ru1lDzm5f3uoeaJBA+HfnzHvLb8277kfbHCF83sH82XEDtJrVawHRn+NjBaYM5G0g+xs2Z2yDNeqg4QsQpsDmsLcSwmQXXbhjqOwSpGZs5s2HkDu/f08Xr/kGg==",
+  "LauncherNewsURL": "Q29sbGFwc2UBAQAAAAAAAGMAAAAAAAAAegAAAAAAAABCwbJi+IOg1bwi8CkOKS7AIq4l863CxU6YeOHJuqfazuQ6LOIOqlbP+aYePtAGT4ExuIsdzoeSdlgesgV3Ktu3r+piLYln2aUYR5L93rB1A2iVqVZfD6YFkdJn2BAWL2fpwAcdukDBoe3P2FotqmINquK6T6msfiV3/DPNdv+SmQ==",
+  "LauncherGameInfoDisplayURL": "Q29sbGFwc2UBAQAAAAAAAGQAAAAAAAAAYQAAAAAAAAAjbfjJh35RHTm1OD6YhxivMclifAJPTQbI9kwSlkM1AT9567NIWXk0rlU09Myg57nJ62wRpcKenzKT4LuHC6wsxjvXwAwTtmqYD0IRX7N9gJskfucfMOn+nWp3ICBVNjOsJ+JfR+VF8VtwhFvtW7ybjfdFWU/GOvKumoXmtR1HkA==",
+  "LauncherResourceURL": "Q29sbGFwc2UBAQAAAAAAAGAAAAAAAAAAcQAAAAAAAAAkbatfYBa7NZ+2iYv9BHBHSrB5Yd54EfoMZd5Hb1yLFzyjTwdVciEIXzvxnS9GjSWMvoCBaGTUWGe+hqkER1jWDmRv0zW23qWle3KfumTRRStaE3Yhj3+hEZKyznkeboL7fipSn1JQw/KcTriAP4A9kNV6a9OT7yKMIbKL6KTJ/Q==",
+  "LauncherPluginURL": "Q29sbGFwc2UBAQAAAAAAAGEAAAAAAAAAcAAAAAAAAACskbCNbZiAzdfDYEhLnKo2CW45HIgG1ECeSTybiWLsv7BxxK0METIzvOupuZ1sY4wkVM8aEe4ZVOwAV216wZVlDsnBY3MpIGEc19N2M5J3PZ2f7JW4W0H6bLpQiHgQzWDotnPrWOs5WXQOwpffIylwgYmMRhwlGL6+xuhPWRIs7Q==",
+  "LauncherGameChannelSDKURL": "Q29sbGFwc2UBAQAAAAAAAHIAAAAAAAAAjAAAAAAAAABPypz9ELdeVHmgJ6lZLBcGyi8Dyq1fSvxNtGbrQBxgjyiVe/a1OwN8i5+rkkJXuQxfGjjHgrF1d3O7wZYjwuCx+VJ2cSA99jMYEQB3s78wojTSTDMz2QNoWbZtF8TfYQJVkiAU8KKrYzG1BeipUVmjvHZh9z/D8PglQKdO9v+1SA==",
+  "LauncherBizName": "Q29sbGFwc2UBAQAAAAAAAA4AAAAAAAAACgAAAAAAAACNNJui8aAW/4WGwlXF1HBal6/nK8Rm0lxP9hOBhw7cXMWmbSNNWtXkBjkgFNPRKv0XT7QnHUvD/bWH10HqdlD/OKRqAdQqDcQM3XhRfRyFyN6GOOdl/gyl1WtpIHqXS6C6q9jgV9O0ikl0buelOWsx+1eXZRDTxyL+czZbHEsOCg==",
   "IsPluginUpdateEnabled": false,
   "InternalGameNameFolder": "Zenless Zone Zero",
-  "InternalGameNameInConfig": "Zenless Zone Zero",
+  "InternalGameNameInConfig": "ZenlessZoneZero",
   "GameDataTemplates": {},
   "ZoneSteamAssets": {
     "Logo": {
@@ -53,5 +53,5 @@
       "MD5": "f14da954ac888467101f4e8dc4c368a9"
     }
   },
-  "Hash": -7366489371161996744
+  "Hash": 6514401989664688415
 }
