@@ -14,8 +14,8 @@ jobs:
           with:
             fetch-depth: '0'
             
-        - uses: adambirds/sync-github-to-gitlab-action@v1.1.0
+        - uses: keninkujovic/gitlab-sync@2.0.0
           with:
-            destination_repository: git@gitlab.com:bagusnl/CollapseLauncher-ReleaseRepo.git
-            destination_branch_name: main
-            destination_ssh_key: ${{ secrets.GITLAB_SSH_KEY }}
+            gitlab_url: https://gitlab.com/bagusnl/CollapseLauncher-ReleaseRepo.git
+            username: bagusnl
+            gitlab_pat: ${{ secrets.GITLAB_PAT }}
