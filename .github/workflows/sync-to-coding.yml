@@ -23,4 +23,4 @@ jobs:
       - name: Push
         run: |
           git remote add coding git@e.coding.net:ohly/collapse/ReleaseRepo.git
-          git push coding main
+          git push coding main --force
