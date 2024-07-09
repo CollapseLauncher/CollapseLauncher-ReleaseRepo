@@ -1,17 +1,31 @@
 ![image](https://github.com/CollapseLauncher/Collapse/assets/30566970/82f57c50-ea99-4ad0-817a-2889c253804f)
 
 # Welcome to New Eridu!
-To celebrate the release of Zenless Zone Zero, we are finally bringing a support for this HoYo's new title to Collapse Launcher. The launcher will be supporting the initial preloading on **July 2nd, 2024** and the installation process on release date (**July 4th, 2024**).
+As the title says, welcome to New Eridu! Collapse currently supports updating, installing and pre-loading game updates. Support for remaining repair features is pending Hoyoverse's API availability.
 
-Also, as a commitment to continuously improving the quality of the app and in suppose to bring more better experience, we are also bringing bug fixes and some minor performance improvement in this release.
+This release brings much-needed bugfixes to Discord RPC, app stability and Zenless Zone Zero installation, as well as performance improvements in various areas.
 
-Some metadata changes might need to be pushed during the initial preload if necessary.
-
-With our excitement and hopefully so are you, we hope that you're enjoying to play this new title!
-
-### See you soon in New Eridu, Proxies!
+For details, read on!
 
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
+
+# Collapse: What's New? - 1.80.15
+- **[Fix]** Crashing/Not responding issue caused by `ConfigureAwait`, by @neon-nyan
+- **[Fix]** Discord RPC weird behaviors, by @bagusnl & @neon-nyan
+  - RPC wont update between idle/play status
+  - RPC stuck between game changes
+- **[Fix]** Game Settings "reset" between game changes, by @bagusnl
+  - This is caused by recent rewrite did not take into account refreshing `RegistryRoot` which is used by all GameSettings backend to load values from registry.
+  - Now `RegistryRoot` is always retrieve the latest value instead of caching it.
+- **[Fix]** `MIT License` string in Settings page not localized, by @bagusnl
+- **[Imp]** Allow user to Cancel when asked to either resume or redownload an ongoing download, by @neon-nyan
+- **[Fix]** Zip extraction not using multithread, by @neon-nyan
+- **[Imp]** Use Uncompressed Size when calculating disk space requirements, by @neon-nyan
+- **[Fix]** "Stop Game" button always enabled even when game is not running, by @neon-nyan
+- **[Fix]** Game selector ComboBox fixes, by @shatyuka
+  - Fixed being unable to change game/region after a metadata update
+  - Fixed ComboBox not using acrylic theme
+- **[Fix]** Zenless Zone Zero uninstall error, by @NSPC911
 
 # Collapse What's New? - 1.80.14
 - **[New]** Zenless Zone Zero Support.
