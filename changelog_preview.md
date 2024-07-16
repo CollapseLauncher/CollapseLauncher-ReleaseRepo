@@ -3,11 +3,37 @@
 # Welcome to New Eridu!
 As the title says, welcome to New Eridu! Collapse currently supports updating, installing and pre-loading game updates. Support for remaining repair features is pending Hoyoverse's API availability.
 
-This release brings much-needed bugfixes to Discord RPC, app stability and Zenless Zone Zero installation, as well as performance improvements in various areas.
+This release brings much-needed bugfixes to the new Sophon downloader function, mitigates a vulnerability in transient packages, adds Zenless Zone Zero settings, as well as performance improvements in various areas.
 
 For details, read on!
 
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
+
+# Collapse: What's New? - 1.80.16
+> ### Note regarding Sophon / Genshin Preload saying `Download` after preload is completed
+> A fix has been deployed in this release, _but_ you have **must** click the button once update the identifier file responsible for validating that the preload is completed. There will should be no download operation performerd, as it will just verify the downloaded chunks.
+> After that, the button should update to `Verify Package Integrity`.
+> While verifying it will still say "Downloading", this _is not_ true, as both download and verification happened during package download. Check network activity in the Task Manager if you are curious.
+
+- **[New]** Zenless Zone Zero Game Settings Integration, by @bagusnl, @neon-nyan, @shatyuka
+  - You can now change Graphics, Audio, and Language settings for your game before running it!
+  - This was a fun one, over 4k lines of code in the single PR (mostly) for this feature.
+  - Almost half of them was just the necessary code for Collapse to be able to read and write the settings to the necessary places. Thanks @shatyuka and @neon-nyan for all of the help that @bagusnl can't even comprehend with a cup of coffee, or three.
+  - For more fun details, you can go view this [pull request](https://github.com/CollapseLauncher/Collapse/pull/532)
+- **[Fix]** Various fixes for Sophon download method, by @neon-nyan
+  - Adding an indicator if Sophon Mode is used on both Pre-load & new installations
+  - Fix Sophon preload completion not being detectable. Now, a finished Sophon download should show `Verify Package Integrity` button instead of `Download`
+  - Fix thread exhaustion caused by too many connections being made leading to premature download stop (stuck download)
+  - Fix (hopefully) unknown thrown, causing the preload download to gets finished prematurely (surely)
+- **[Fix]** Bump NuGets and dotNET SDK to mitigate vulnerability, by @bagusnl
+  - While Collapse is not affected by this, we always try to be up to date with our packages, dotNET included, as we publish them with all the necessary runtime DLLs (notice how you've never had to update dotNET runtime for Collapse?)
+  - This mitigates a vulnerability found in System.Text.Json built-in JSON parser for dotNET. See more [here](https://github.com/CollapseLauncher/Collapse/security/dependabot/2)
+- **[Fix]** Clearing log files causing launcher to crash, by @neon-nyan
+- **[Fix]** Console might get displayed for a brief moment on launch when it is disabled, by @neon-nyan
+- **[Fix]** Allow system to sleep after Sophon download is completed, by @bagusnl
+- **[Imp]** New slider style for certain elements in Game Settings (go find them!), by @neon-nyan
+- **[Imp]** Use same GUID for Tray Icon on launch, by @bagusnl
+  - This is to prevent Tray Icon preference (visibility, order, etc.) to change when the app path changed like after an update
 
 # Collapse: What's New? - 1.80.15
 - **[Fix]** Crashing/Not responding issue caused by `ConfigureAwait`, by @neon-nyan
