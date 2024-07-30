@@ -9,6 +9,25 @@ For details, read on!
 
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# What's New? - 1.80.17
+- **[Fix]** Sophon update crashes, by @bagusnl & @neon-nyan 
+  - Fixed crashes for users with =< 2 CPU threads by clamping the multithread number to 2-64.
+  - Fixed crashes due to read-only file attribute.
+- **[Imp]** Updated Genshin's game settings template for 4.8.0, by @bagusnl 
+- **[Fix]** Background scaling artifacts due to wrong image encoder setting, by @shatyuka 
+  - To see the effects immediately, go to Settings then press `Clear Image Files`
+- **[Fix]** Blocking exception caused by region translation unavailability, by @bagusnl 
+- **[New]** Genshin Impact Google Play region support, by @bagusnl 
+- **[Fix]** Uncaught exception due to late event subscription, by @neon-nyan 
+- **[Imp]** Improved repair console/log output, by @Cryotechnic 
+- **[New]** Option to hide Playtime view/button, by @bagusnl 
+  - The setting is accessible under Quick Settings menu.
+  - Disabling this will not affect play time calculation, just hides it.
+- **[Imp]** Various UI/UX adjustments, by @neon-nyan 
+- **[Imp]** Don't raise unhandled exception window when failed to download sprite images, by @neon-nyan 
+- **[Fix]** Crashing when applying delta patch with duplicate files, by @neon-nyan 
+- **[Fix]** Uninstall game does not work on Genshin Impact - Bilibili region, by @bagusnl 
+
 # Collapse: What's New? - 1.80.16
 > ### Note regarding Sophon / Genshin Preload saying `Download` after preload is completed
 > A fix has been deployed in this release, _but_ you have **must** click the button once update the identifier file responsible for validating that the preload is completed. There will should be no download operation performerd, as it will just verify the downloaded chunks.
