@@ -133,12 +133,21 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240702090651,
+    "LastUpdated": 20240222231139,
     "MetadataPath": "config_communitytools.json",
     "MetadataType": "CommunityTools",
     "MetadataInclude": true,
     "GameName": "Community Tools",
     "GameRegion": "config_communitytools.json",
+    "PresetConfigVersion": "3.2.0"
+  },
+  {
+    "LastUpdated": 20240731001634,
+    "MetadataPath": "config_GIGlbGPlay.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Genshin Impact",
+    "GameRegion": "Google Play",
     "PresetConfigVersion": "3.2.0"
   }
 ]
