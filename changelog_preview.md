@@ -1,4 +1,6 @@
-![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp" height="200px"/>
+</p>
 
 Welcome to the 1.81 branch of Collapse, we decided to skip the 1.80.17 and goes straight to preview so you don't get a double update!
 Here are changelog for both 1.80.17 and 1.81.0:
