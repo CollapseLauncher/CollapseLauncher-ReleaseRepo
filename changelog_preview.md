@@ -1,9 +1,28 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp" height="200px"/>
-</p>
+![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
-Welcome to the 1.81 branch of Collapse, we decided to skip the 1.80.17 and goes straight to preview so you don't get a double update!
-Here are changelog for both 1.80.17 and 1.81.0:
+# Welcome to Preview Branch of Collapse Launcher!
+Here we do more experimental features and changes so expect more frequent updates than Stable branch. 
+
+# What's New? - 1.81.1
+- **[New]** App-Wide Proxy Support, by @neon-nyan 
+  - You can now use Proxy on Collapse, it will detect system wide proxy by default and you can configure them manually from App Settings.
+  - Supported proxy protocols: HTTP, HTTPS, and SOCKS5.
+- **[New]** See Latest Changelog, by @bagusnl 
+  - You can now read the latest changelog of the branch you are using by going to the App Settings and pressing the "See Latest Changelog" button on the right panel.
+- **[New]** Ensuring Game Config Correctness, by @neon-nyan 
+  - On Collapse launch (or after region changed), Collapse will now check and fix any game config mistakes and correct them with the set value.
+  - Game configs are responsible for dealing with Payment APIs mostly, let us know if your payment option when buying in-game purchase is wrong.
+- **[Fix]** Certain Files Flagged as Unused in Honkai: Star Rail, by @neon-nyan 
+- **[Fix]** Cache Update Button Glyph Not Showing on Windows 10, by @neon-nyan 
+- **[Fix]** Certain in-App Slider Style Errors when using Video Background, by @neon-nyan 
+- **[Fix]** Shadow Sometime Gets Applied to Wrong UI Elements, by @neon-nyan 
+- **[Fix]** Zenless Zone Zero Custom Resolution Not Getting Applied, by @bagusnl & @neon-nyan 
+- **[Fix]** Flaky Game Running Detection, by @neon-nyan 
+- **[Imp]** Improve Moving Files to Recycle Bin in File Cleanup Method, by @bagusnl 
+  - Who would've know that running a command one time is faster than running it 1000 times in a loop? Not me obviously -bagusnl
+  - You should be able to see the usual Windows' "Moving Files to Recycle Bin" dialog when deleting many files at once.
+- **[Imp]** Parallel Download for Game Repair/Cache Update, by @neon-nyan 
+- **[Loc]** Localization Sync from Transifex, by Localizers <3
 
 # What's New? - 1.81.0 Preview
 - **[Imp]** Massively fixed UI/UX for Sophon Predownload/Update mechanism, by @neon-nyan 
