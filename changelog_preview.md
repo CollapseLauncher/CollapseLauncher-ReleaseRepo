@@ -3,7 +3,26 @@
 # Welcome to Preview Branch of Collapse Launcher!
 Here we do more experimental features and changes so expect more frequent updates than Stable branch. 
 
-# What's New? - 1.81.1
+# What's New? - 1.81.3 Preview
+- **[New]** ZZZ Pre-download Support, by @neon-nyan
+- **[New]** Bilibili Region Support for ZZZ, by @bagusnl & @neon-nyan
+- **[New]** Burst Download Mode, by @neon-nyan
+  - This will make download process of multiple files faster by downloading them in parallel.
+  - NOT recommended for those with slower internet, thus disabled by default.
+  - As its a very experimental settings, if you want to try, edit the Collapse config file:
+    `%AppData%\..\CollapseLauncher\config.ini`, add/modify `IsBurstDownloadModeEnabled` key to "True".
+- **[Fix]** Use the Custom Resolution Enforcer for ALL Games, by @bagusnl
+  - Practically when you use Custom Res, forces all game to obey the resolution by changing its Window property.
+- **[Fix]** Black Bar on top of Image Carousel, by @shatyuka
+- **[Fix]** Reimplement Migrate from Steam Feature for Hi3, by @neon-nyan
+- **[Fix]** Random "File is being used by another process" Errors when Downloading, by @neon-nyan
+- **[Imp]** Bring back the old file download behavior to store chunk files as sequential ``.001`` files, by @neon-nyan
+  This change however, is backward compatible if you still have the hash-based (``.xxxxx``) extension chunks.
+- **[Fix]** Potentially skipping HDiff patching and old files removal routine while applying ZZZ Update, by @neon-nyan
+- **[Fix]** ``Hi3Helper.Http`` submodule causing size miscalculation while downloading files, by @neon-nyan
+- **[Loc]** Localization Sync from Transifex, by Localizers <3
+
+# What's New? - 1.81.1 Preview
 - **[New]** App-Wide Proxy Support, by @neon-nyan 
   - You can now use Proxy on Collapse, it will detect system wide proxy by default and you can configure them manually from App Settings.
   - Supported proxy protocols: HTTP, HTTPS, and SOCKS5.
