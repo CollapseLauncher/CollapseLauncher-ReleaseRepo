@@ -9,6 +9,16 @@ For details, read on!
 
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# What's New? - 1.80.19
+- **[New]** ZZZ Pre-download Support, by @neon-nyan
+- **[New]** Bilibili Region Support for ZZZ, by @bagusnl & @neon-nyan
+  However, this change is happening at the back-end and Bilibili region might not be available for stable at the moment as it needs some testing to be done on our end first. You can change your channel release to Preview in order to bring a support for ZZZ Bilibili client.
+- **[Imp]** Bring back the old file download behavior to store chunk files as sequential ``.001`` files, by @neon-nyan
+  This change however, is backward compatible if you still have the hash-based (``.xxxxx``) extension chunks.
+- **[Fix]** Random "File is being used by another process" Errors when Downloading, by @neon-nyan
+- **[Fix]** Potentially skipping HDiff patching and old files removal routine while applying ZZZ Update, by @neon-nyan
+- **[Fix]** ``Hi3Helper.Http`` submodule causing size miscalculation while downloading files, by @neon-nyan
+
 # What's New? - 1.80.17
 - **[Fix]** Sophon update crashes, by @bagusnl & @neon-nyan 
   - Fixed crashes for users with =< 2 CPU threads by clamping the multithread number to 2-64.
