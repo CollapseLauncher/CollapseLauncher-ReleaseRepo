@@ -3,8 +3,7 @@
         {
             "MsgId": 73,
             "IsDisposable": false,
-            "Severity": "Warn
-ing",
+            "Severity": "Warning",
             "Title": "[EN] Genshin Preload Unavailability Notice",
             "Message": "Due to bug in the launcher code, Genshin preload is unavailable in the current Preview version. Please switch to Stable branch by going to App Settings then press Switch to Stable button. We are sorry that this happens and working soon to release a fix.",
             "Show": true,
