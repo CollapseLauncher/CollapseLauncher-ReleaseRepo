@@ -3,6 +3,27 @@
 # Welcome to Preview Branch of Collapse Launcher!
 Here we do more experimental features and changes so expect more frequent updates than Stable branch. 
 
+# What's New? - 1.81.4 Preview
+- **[Fix]** Inability to download preload for Genshin Impact due to wrong variable assignment, by @Cryotechnic 
+- **[New]** Regional Custom Background, by @Cryotechnic, @neon-nyan, & @bagusnl 
+  - You can now set a custom background of your choice per game region. You can access the settings in the Home Page -> Quick Settings (bottom right) -> Custom Background for Region.
+  - This feature does not require you to enable the global custom background settings. Background priority as follows: Regional Custom BG -> Global App Custom BG -> API provided BG -> Paimon deadge fallback.
+  - Yes, support video background as well.
+- **[Fix]** Events button stacked with API provided background, by @bagusnl 
+  - Literally just need to kick the event button 10px down...
+- **[Imp]** Game Launch Commands code improvements, by @bagusnl 
+  - Made PostGLC as static method so for those who runs an app that keeps running wayyyy after the game exited, this won't cause any issues anymore when this method gets invoked again.
+  - Unsubscribe from the command events after they exited to free resources.
+- **[Fix]** Errors when doing Game Files Cleanup due to multi-thread download, by @neon-nyan 
+- **[Fix]** Game Settings backend code adjustments, by @bagusnl 
+  - Don't force save settings that is not yet loaded to prevent crashes.
+  - **[StarRail]** Don't save Graphics settings if A/B settings flag is found.
+- **[Fix]** Inability to switch custom background from video to image without launcher restart, by @neon-nyan 
+  - Caused by the opacity for still image background handler to be set to 0 when loading video background, but never get sets back to 1 when loading still image afterwards.
+  - Cumulative man hours wasted: 6+ hours.
+- **[Fix]** Prevent ACE (Anti-Cheat Expert) binaries to get removed from File Game Cleanup, by @Cryotechnic 
+- **[Fix]** Event panel is not shown when "Event" news tag is empty, by @neon-nyan 
+
 # What's New? - 1.81.3 Preview
 - **[New]** ZZZ Pre-download Support, by @neon-nyan
 - **[New]** Bilibili Region Support for ZZZ, by @bagusnl & @neon-nyan
