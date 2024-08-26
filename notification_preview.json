@@ -1,11 +1,12 @@
 {
     "AppPush": [
         {
-            "MsgId": 72,
+            "MsgId": 73,
             "IsDisposable": false,
-            "Severity": "Warning",
-            "Title": "[EN] HoYoPlay API Migration Notice",
-            "Message": "Heyya Collapse users!\r\nWe have updated some game APIs to the new HoYoPlay API. The API update is currently applied for Genshin Impact (Glb/CN), Honkai Impact 3rd (CN) and Honkai: Star Rail (Glb/CN), for all mechanisms (updates, preloads, initial install and launcher assets). Please make sure you're on latest Collapse version (1.80.9+) to prevent any issues. Should you encounter any, please inform us via Discord or in the GitHub discussion thread below.",
+            "Severity": "Warn
+ing",
+            "Title": "[EN] Genshin Preload Unavailability Notice",
+            "Message"Due to bug in the launcher code, Genshin preload is unavailable in the current Preview version. Please switch to Stable branch by going to App Settings then press Switch to Stable button. We are sorry that this happens and working soon to release a fix.",
             "Show": true,
             "TimeBegin": "2024-06-17T00:00:00+08:00",
             "TimeEnd": "2024-07-31T00:00:00+08:00",
