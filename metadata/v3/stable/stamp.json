@@ -54,7 +54,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240730210114,
+    "LastUpdated": 20240828062002,
     "MetadataPath": "config_GIGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -63,7 +63,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240730210114,
+    "LastUpdated": 20240828062002,
     "MetadataPath": "config_GICN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -72,7 +72,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240730210114,
+    "LastUpdated": 20240828062002,
     "MetadataPath": "config_GICNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -133,7 +133,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240819214107,
+    "LastUpdated": 20240828061356,
     "MetadataPath": "config_communitytools.json",
     "MetadataType": "CommunityTools",
     "MetadataInclude": true,
@@ -142,12 +142,21 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240731001635,
+    "LastUpdated": 20240828062002,
     "MetadataPath": "config_GIGlbGPlay.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
     "GameName": "Genshin Impact",
     "GameRegion": "Google Play",
+    "PresetConfigVersion": "3.2.0"
+  },
+  {
+    "LastUpdated": 20240828062002,
+    "MetadataPath": "config_ZZZBilibili.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Zenless Zone Zero",
+    "GameRegion": "Bilibili",
     "PresetConfigVersion": "3.2.0"
   }
 ]
