@@ -3,6 +3,70 @@
 # Welcome to Preview Branch of Collapse Launcher!
 Here we do more experimental features and changes so expect more frequent updates than Stable branch. 
 
+# What's New? - 1.81.5 Preview
+### **[New]** Adding Acrylic Effect support for Video Background, by @neon-nyan
+Previously, the acrylic effect while using Video Background is disabled due to a bug under WindowsAppSDK's Direct3D component which causes the entire UI to have solid dark color. After few releases later, we finally figured out a method to possibly blend the UI's Acrylic effect with the Video Background frame under it by passing video frames as a ``CanvasDevice`` and project it into ``Image.Source``. This feature, however is single-threaded and might get choppy when switching between pages.
+
+![image](https://github.com/user-attachments/assets/c14e7181-5aa6-46a1-8fab-f803c9321b37)
+
+This feature, however is disabled by default. In order to enable this, go to the ``App Settings`` and check the ``Use Acrylic Effect while using Video Background`` toggle under ``Video Background Settings`` setting.
+
+![image](https://github.com/user-attachments/assets/4f3ed7d6-19a0-4aad-8573-6cf23339e49d)
+
+### **[New]** Notification Toast Support for Background Activities, by @bagusnl & @neon-nyan 
+This feature will help users to get notified when a background activity is completed. The notification toast includes support for Game Installation, Game Update, Pre-load Download, Game Repair and Cache Update features.
+
+As per current implementation, the notification only supports text-based content.
+
+https://github.com/user-attachments/assets/4f15d484-d7e2-4015-9331-25b0afc2c56a
+
+### **[New]** Rewritten Http/Downloader submodule, by @neon-nyan 
+As this brings many things, and pains (in terms of code time), we finally decided to rewrite our downloader submodule: [``Hi3Helper.Http``](https://github.com/CollapseLauncher/Hi3Helper.Http). The code has been running since the very beginning of this project was created and had been the most cluttered codebase that we have ever managed. Hundreds of bugs have been squashed from this submodule alone and it was very inefficient.
+
+In this refactor, we managed to pulled out many features into this codebase, including one of the **MOST REQUESTED** feature in this project: **Bandwidth/Speed Limiter**.
+
+https://github.com/user-attachments/assets/952cf15d-7d0d-4099-9669-a267349b0c8f
+
+Thanks to this rewrite, the download now does not require the launcher to split the downloaded file into separated chunks and all the chunk data will be written and pre-allocated directly into a single file.
+
+Furthermore, here's list of what's been changed:
+  - **[New]** Bandwidth/Speed Limited
+    - With this new feature, the user can now set the download speed limit.
+    -  Limit your download speed so your parents won't bash you for taking all the bandwidth to download anime game (tm).
+  - **[New]** Download File Size Pre-allocation.
+    - Thanks to this feature, the download file would not need to have merged before the file can be used.
+  - **[Imp]** Reduce unnecessary ``async`` thread overhead.
+    - Performance stonks.
+  - **[Imp]** Use delegates in replacement for event-based ``DownloadEvent`` to notify the download progress.
+    - This has benefits if you're performing download multiple files within a single Downloader instance for other purposes. By using delegates, you can subscribe the download progress to a specific file you wanted to track.
+  - **[Imp]** Adding zero-bytes data redundancy check
+    - This feature is being added to (hopefully) fix a common issue where some area in the data might get zero-ed out while a write routine is not completely flushed properly due to hot-disposal or cancellation trigger. This feature utilizes **AVX2** and/or **SSE2** (if available) to check a much bigger portion of data (for 256-bit and 128-bit chunk of data respectively).
+
+### **[Imp]** Update Playtime when Game has been opened before the Launcher, by @neon-nyan 
+Previously, the playtime will not get updated when the game was launched before you open Collapse. Thanks to this change, the launcher will now be able to resume and save the last playtime when the game was launched first before the launcher and it also affect the timestamp on Discord RPC to get resumed as well.
+
+https://github.com/user-attachments/assets/7202d6cc-f743-402c-9f65-cdc958c5fab6
+
+# Minor Changes
+- **[Fix]** Keyboard shortcut for stopping game, by @gablm 
+- **[Fix]** Prevent app to hard crash when logger module sent an exception, by @bagusnl 
+  - Also automatically clear log files if disk space for log folder is full (please don't ever do that).
+- **[Fix]** Disposal issues under ``BackgroundMediaUtility`` static class.
+- **[Imp]** Update GI GSP reference for 5.0, by @bagusnl 
+- **[New]** Tray Notifications, by @bagusnl & @neon-nyan 
+  - Collapse now will show a Windows notification when certain function has finished (eg. Cache Update, Repair, Predownload, Install, etc)
+- **[Imp]** Update many NuGet packages, by @bagusnl & @neon-nyan 
+  - This also includes WindowsAppSDK update to [**1.6.240829007**](https://learn.microsoft.com/en-gb/windows/apps/windows-app-sdk/stable-channel#version-16). Please let us know if there is something wrong with our launcher with this update.
+- **[Imp]** Region aware ``
+- **[New]** Prevent user from installing/moving their game to the root of a drive, by @bagusnl 
+  - Please.... No more....
+- **[Loc]** Localization Sync from Transifex, by Localizers <3
+
+## New Contributors
+* @Cactism made their first contribution in https://github.com/CollapseLauncher/Collapse/pull/570
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.81.4-pre...CL-v1.81.5-pre
+
 # What's New? - 1.81.4 Preview
 - **[Fix]** Inability to download preload for Genshin Impact due to wrong variable assignment, by @Cryotechnic 
 - **[New]** Regional Custom Background, by @Cryotechnic, @neon-nyan, & @bagusnl 
