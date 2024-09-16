@@ -3,6 +3,32 @@
 # Welcome to Preview Branch of Collapse Launcher!
 Here we do more experimental features and changes so expect more frequent updates than Stable branch. 
 
+# What's new? 1.81.6
+> We did a force update this one due to download corruption issue caused by the Http submodule.
+- **[Fix]** Image cropper causing crash due to .NET trimming error, by @neon-nyan 
+- **[Imp]** Move the logic for changing user cursor to use `UnsafeAccessor` instead of reflection setter, by @neon-nyan 
+- **[Imp]** Reduce the amount of buffer allocation adjustment by sharing the amount across methods, by @neon-nyan 
+- **[Imp]** Change user cursor to hand on Social Media buttons, by @neon-nyan 
+- **[Fix]** Crashing when clicking Social Media buttons that has no assigned links, by @neon-nyan 
+- **[Imp]** Set .NET's `IlcOptimizationPreference` to `Speed` to hopefully less crashes caused by missing types due to trimming, by @neon-nyan 
+- **[Fix]** HTTP Submodule fixes, by @neon-nyan 
+  - Fixed file overwrite argument being ignored.
+  - Fixed fetching URI that has no content-length (eg. chunked encoding or malformed HTTP response).
+  - Bypass disk write cache to reduce chance of data corruption.
+  - Use `Parallel.ForEachAsync()` for delegates on .NET > 6.
+- **[Imp]** Adjusted event panel size and event button position also updated the ImageCropper overlay, by @shatyuka
+- **[Fix]** ScrollBar rounded corner radius error in collaspe state, by @shatyuka
+- **[Fix]** Window border having 1px outline, by @shatyuka
+- **[Imp]** Reduced delay in Genshin Impact's HDR adjustment settings, by @shatyuka
+- **[Fix]** Updated and fixed missing glyphs for FontAwesome in certain build of Windows, by @neon-nyan & @shatyuka
+- **[Imp]** Updated NuGet packages, by @neon-nyan 
+  - CommunityToolkit 8.3.0 -> 8.3.1
+  - CsWinRT 2.1.1 -> 2.1.3
+- **[Fix]** Clamp HTTP Client Builder's Max HTTP Connections to be at least 2, by @neon-nyan 
+- **[Imp]** Use `HTTPS` by default when fetching Honkai Impact 3rd's CG metadata, by @bagusnl & @neon-nyan 
+- **[Fix]** Game log for Zenless is not read to console, by @bagusnl 
+  - Zenless now has a different logging system than other games, it doesn't use Unity style logs anymore. Do not ask how long this took me to realize.
+
 # What's New? - 1.81.5 Preview
 ### **[New]** Adding Acrylic Effect support for Video Background, by @neon-nyan
 Previously, the acrylic effect while using Video Background is disabled due to a bug under WindowsAppSDK's Direct3D component which causes the entire UI to have solid dark color. After few releases later, we finally figured out a method to possibly blend the UI's Acrylic effect with the Video Background frame under it by passing video frames as a ``CanvasDevice`` and project it into ``Image.Source``. This feature, however is single-threaded and might get choppy when switching between pages.
