@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone --depth 1 https://github.com/neon-nyan/CollapseLauncher-ReleaseRepo.git cl-cdn
+          git clone --depth 1 https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo.git cl-cdn
 
       - name: Clean unused objects
         run: |
