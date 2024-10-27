@@ -138,6 +138,17 @@ Aside from all the bugfixes in this release (which you can view in the full chan
 
 https://github.com/user-attachments/assets/7202d6cc-f743-402c-9f65-cdc958c5fab6
 
+### Updater Improvements
+We've (once again) switched updaters for Collapse! As the Squirrel project is in a semi-deprecated state, its users are
+encouraged to switch over to Velopack. And that's what we did!
+
+Velopack is a drop-in replacement for Squirrel. As a user, you won't even see the difference, though it does offer some notable benefits:
+- Smaller delta sizes for apps
+- Background updates, though we don't support this yet
+- All the other improvements from Squirrel, but better
+
+Your Collapse install will automatically migrate over to Velopack with this release, no action is required on your part.
+
 ### Sophon Downloader Improvements
 - Separate package size and speed from game size and I/O speed
 
