@@ -25,7 +25,7 @@ to do so in a timely manner because of the amount of time we'd need to spend fix
 
 Well, no more! We've rewritten the entire module so that it is not only more efficient in terms of downloading, but also uses far less memory!
 
-Due to this rewrite, we've been able to finally implement a bandwidth limiter for Collapse. 
+Due to this rewrite, we've been able to finally implement a bandwidth limiter for Collapse.
 
 Here's what it can do:
 
@@ -34,7 +34,7 @@ Here's what it can do:
 - Increased performance by removing *a lot* of asynchronous function calls
 - Improved redundancy checks
 
-![](https://github-production-user-asset-6210df.s3.amazonaws.com/30566970/365381741-952cf15d-7d0d-4099-9669-a267349b0c8f.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241026%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241026T183450Z&X-Amz-Expires=300&X-Amz-Signature=d547319833fa1c1cd09469390c3130cb84baa91b3d693651cc76416df0a926d2&X-Amz-SignedHeaders=host)
+[https://github.com/user-attachments/assets/7202d6cc-f743-402c-9f65-cdc958c5fab6](https://github.com/user-attachments/assets/952cf15d-7d0d-4099-9669-a267349b0c8f)
 
 See for yourself in your App Settings!
 
@@ -55,7 +55,7 @@ This feature will help users get notified when a background activity is complete
 
 In its current implementation, the notification only supports text-based content.
 
-![](https://github.com/user-attachments/assets/4f15d484-d7e2-4015-9331-25b0afc2c56a)
+https://github.com/user-attachments/assets/4f15d484-d7e2-4015-9331-25b0afc2c56a
 
 ## New Feature: Playtime Synchronization across devices
 Collapse now supports tracking playtime across multiple devices through an online SQLite database.
@@ -92,6 +92,8 @@ The Game Cleanup feature is accessible in Quick Settings -> "Files Clean-up".
 
 When deleting, you can also chose between moving them to your Recycle Bin or deleting them permanently from your drive.
 
+https://github.com/user-attachments/assets/eff71a6e-746d-48d1-ae15-ec17c5443a73
+
 ## New Feature: Proxy Support
 Collapse now supports using a proxy server for the entire app. By default, it will use whatever proxy settings you have configured in Windows.
 
@@ -127,12 +129,19 @@ Aside from all the bugfixes in this release (which you can view in the full chan
 - Collapse will now ensure game configuration correctness to prevent errors when running the game
 - Collapse will now notify you when an action has completed (Repair, Preload, Install, etc.)
 - Fix issues with acrylic effects not being applied when using a video background
+  ![image](https://github.com/user-attachments/assets/c14e7181-5aa6-46a1-8fab-f803c9321b37)
   - To enable, go to App Settings and toggle "Use Acrylic Effect while using Video Background"
     - This feature is single-threaded, so you may experience lag when switching between pages.
+
+    ![image](https://github.com/user-attachments/assets/4f3ed7d6-19a0-4aad-8573-6cf23339e49d)
 - Update playtime when game was opened before the launcher
+
+https://github.com/user-attachments/assets/7202d6cc-f743-402c-9f65-cdc958c5fab6
 
 ### Sophon Downloader Improvements
 - Separate package size and speed from game size and I/O speed
+
+https://github.com/user-attachments/assets/e00a0648-4904-45ea-bf30-3201f4fc3896
 - Update wording for download panel to help users understand what each element does
 - Added help button for the installer modal
 - Add ability to specify number of Download Threads
@@ -150,13 +159,15 @@ Aside from all the bugfixes in this release (which you can view in the full chan
   - Daily/Weekly/Monthly playtime
   - Last played session
 
+https://github.com/user-attachments/assets/224e1048-947a-4bef-9809-8acc05f70945
+
 ### Various Localization Updates
 As always, we want to thank are awesome community for providing an amazing localization for our project. Collapse is now localizable in 17 languages and dialects! <3
 
 ***
 # Minor changes
 ***
-We would list all the minor changes here, but due to the amount of commits, we've decided against it for this release. 
+We would list all the minor changes here, but due to the amount of commits, we've decided against it for this release.
 
 Read the full changelog below!
 
