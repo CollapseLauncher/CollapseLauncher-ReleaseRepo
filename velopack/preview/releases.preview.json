@@ -1,0 +1,13 @@
+{
+  "Assets": [
+    {
+      "PackageId": "CollapseLauncher",
+      "Version": "1.82.0",
+      "Type": "Full",
+      "FileName": "CollapseLauncher-1.82.0-preview-full.nupkg",
+      "SHA1": "E39F96F036911A12D235FEF5D28C138D891622D2",
+      "SHA256": "751A776FF2AF244AC1D2556D273B746EBD6A1810FF49FBF83FC66A09223F1047",
+      "Size": 58713393
+    }
+  ]
+}
