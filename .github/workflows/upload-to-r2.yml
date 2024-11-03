@@ -59,6 +59,7 @@ jobs:
           zip -0 -r applyupdate.zip ./cl-cdn/applyupdate
           zip -0 -r squirrel-stable.zip ./cl-cdn/squirrel/stable
           zip -0 -r squirrel-preview.zip ./cl-cdn/squirrel/preview
+          zip -0 -r velopack-preview.zip ./cl-cdn/velopack/preview
 
       - name: Upload root-cdn
         uses: actions/upload-artifact@v4.3.1
@@ -121,6 +122,14 @@ jobs:
         with:
           name: squirrel-preview
           path: squirrel-preview.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload velopack-preview
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: velopack-preview
+          path: velopacks-preview.zip
           retention-days: 1
           compression-level: 0
 
@@ -344,6 +353,29 @@ jobs:
           r2-bucket: ${{ secrets.R2_BUCKET }}
           source-dir: squirrel-preview/cl-cdn/squirrel/preview
           destination-dir: cl-cdn/squirrel/preview
+          output-file-url: false
+
+  Sync-Velopack-Preview:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: velopack-preview
+
+      - name: Extract Archive
+        run: unzip -qq squirrel-preview.zip -d squirrel-preview
+        
+      - name: Sync Squirrel\Preview folder
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: squirrel-preview/cl-cdn/velopack/preview
+          destination-dir: cl-cdn/velopack/preview
           output-file-url: false
 
   Purge-Cache:
