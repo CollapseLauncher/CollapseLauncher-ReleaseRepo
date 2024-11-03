@@ -129,7 +129,7 @@ jobs:
         uses: actions/upload-artifact@v4.3.1
         with:
           name: velopack-preview
-          path: velopacks-preview.zip
+          path: velopack-preview.zip
           retention-days: 1
           compression-level: 0
 
@@ -365,7 +365,7 @@ jobs:
           name: velopack-preview
 
       - name: Extract Archive
-        run: unzip -qq squirrel-preview.zip -d squirrel-preview
+        run: unzip -qq velopack-preview.zip -d velopack-preview
         
       - name: Sync Squirrel\Preview folder
         uses: ryand56/r2-upload-action@latest
@@ -374,14 +374,14 @@ jobs:
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: squirrel-preview/cl-cdn/velopack/preview
+          source-dir: velopack-preview/cl-cdn/velopack/preview
           destination-dir: cl-cdn/velopack/preview
           output-file-url: false
 
   Purge-Cache:
     runs-on: ubuntu-latest
     if: always() # always purge cache whenever it fails or succeed
-    needs: [Sync-Root, Sync-Metadata, Sync-Images, Sync-ApplyUpdate, Sync-Squirrel-Stable, Sync-Squirrel-Preview, Sync-Indexes-Hi3, Sync-Indexes-HSR]
+    needs: [Sync-Root, Sync-Metadata, Sync-Images, Sync-ApplyUpdate, Sync-Squirrel-Stable, Sync-Squirrel-Preview, Sync-Indexes-Hi3, Sync-Indexes-HSR, Sync-Velopack-Preview]
     steps:
       - name: Purge Cloudflare cache
         run: |
