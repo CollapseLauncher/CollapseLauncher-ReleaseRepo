@@ -56,6 +56,7 @@ jobs:
           zip -0 -r gameimages.zip ./cl-cdn/metadata/metadata-images
           zip -0 -r indexes_hi3.zip ./cl-cdn/metadata/repair_indexes/Hi3CN ./cl-cdn/metadata/repair_indexes/Hi3Global ./cl-cdn/metadata/repair_indexes/Hi3JP ./cl-cdn/metadata/repair_indexes/Hi3KR ./cl-cdn/metadata/repair_indexes/Hi3SEA  ./cl-cdn/metadata/repair_indexes/Hi3TW
           zip -0 -r indexes_hsr.zip ./cl-cdn/metadata/repair_indexes/SRCN ./cl-cdn/metadata/repair_indexes/HSRCNBilibili ./cl-cdn/metadata/repair_indexes/SRGlb
+          zip -0 -r indexes_zzz.zip ./cl-cdn/metadata/repair_indexes/ZZZBilibili ./cl-cdn/metadata/repair_indexes/ZZZCN ./cl-cdn/metadata/repair_indexes/ZZZGlb
           zip -0 -r applyupdate.zip ./cl-cdn/applyupdate
           zip -0 -r squirrel-stable.zip ./cl-cdn/squirrel/stable
           zip -0 -r squirrel-preview.zip ./cl-cdn/squirrel/preview
@@ -98,6 +99,14 @@ jobs:
         with:
           name: indexes_hsr
           path: indexes_hsr.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload indexes_zzz
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: indexes_zzz
+          path: indexes_zzz.zip
           retention-days: 1
           compression-level: 0
 
@@ -274,6 +283,30 @@ jobs:
           source-dir: indexes_hsr/cl-cdn/metadata/repair_indexes
           destination-dir: cl-cdn/metadata/repair_indexes
           output-file-url: false
+
+  Sync-Indexes-ZZZ:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: indexes_hsr
+
+      - name: Extract Archive
+        run: |
+          unzip -qq indexes_zzz.zip -d indexes_zzz
+
+      - name: Sync Indexes
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: indexes_zzz/cl-cdn/metadata/repair_indexes
+          destination-dir: cl-cdn/metadata/repair_indexes
+          output-file-url: false
           
   Sync-ApplyUpdate:
     runs-on: ubuntu-latest
@@ -381,7 +414,7 @@ jobs:
   Purge-Cache:
     runs-on: ubuntu-latest
     if: always() # always purge cache whenever it fails or succeed
-    needs: [Sync-Root, Sync-Metadata, Sync-Images, Sync-ApplyUpdate, Sync-Squirrel-Stable, Sync-Squirrel-Preview, Sync-Indexes-Hi3, Sync-Indexes-HSR, Sync-Velopack-Preview]
+    needs: [Sync-Root, Sync-Metadata, Sync-Images, Sync-ApplyUpdate, Sync-Squirrel-Stable, Sync-Squirrel-Preview, Sync-Indexes-Hi3, Sync-Indexes-HSR, Sync-Indexes-ZZZ, Sync-Velopack-Preview]
     steps:
       - name: Purge Cloudflare cache
         run: |
