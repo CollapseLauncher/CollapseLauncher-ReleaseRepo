@@ -1,5 +1,21 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# What's New? - 1.82.1
+- **[Fix]** Revert NativeAOT publishing and use regular trimmed builds instead, by @bagusnl 
+  - This due to several reports about freezing and memory leaks. We will try to evaluate this kind of builds more in the future once .NET 9 is fully released.
+- **[Imp]** Add new settings for Zenless Zone Zero, by @bagusnl 
+  - The setting in English is called "High-Precision Character Animation" but in Indonesian its roughly translated as "Dynamic Character Resolution". I honestly don't know what they are doing LMAO
+- **[Fix]** Adjusted Star Rail game repair mechanism, by @neon-nyan 
+- **[Fix]** Sophon pre-download showing the wrong size, by @neon-nyan 
+- **[Fix]** Plugin update launch errors, by @bagusnl 
+- **[Fix]** NullReferenceException when checking for launcher update when it's on the latest, by @bagusnl 
+- **[Imp]** Use async when opening folders from buttons, by @bagusnl 
+  - Reduces time that the launcher UI freezes when Windows Explorer is taking its time to open
+- **[Imp]** Add "Updating" status for Discord RPC that is raised when installing/updating game, by @bagusnl 
+- **[Fix]** Disable page caching for Repair, Cache Update, and Game Settings Pages, by @neon-nyan 
+  - This fixes behaviour where those pages are stuck in certain state and F5 does not work.
+
+
 # Collapse 1.82.0: Natlan
 
 Long time no see! Welcome back to another (quarterly) release of Collapse. This time around, we're bringing many performance

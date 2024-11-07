@@ -1,13 +1,1 @@
-{
-  "Assets": [
-    {
-      "PackageId": "CollapseLauncher",
-      "Version": "1.82.0",
-      "Type": "Full",
-      "FileName": "CollapseLauncher-1.82.0-preview-full.nupkg",
-      "SHA1": "E39F96F036911A12D235FEF5D28C138D891622D2",
-      "SHA256": "751A776FF2AF244AC1D2556D273B746EBD6A1810FF49FBF83FC66A09223F1047",
-      "Size": 58713393
-    }
-  ]
-}
+{"Assets":[{"PackageId":"CollapseLauncher","Version":"1.82.1","Type":"Full","FileName":"CollapseLauncher-1.82.1-preview-full.nupkg","SHA1":"A8752D47FBA5A05CEC96FB07119C8237968AAB06","SHA256":"D851EBBDEFE7BA5AAB741134689A3D2B8AA22846FC6C9ED62B85BEBFF3859FBA","Size":74677906},{"PackageId":"CollapseLauncher","Version":"1.82.1","Type":"Delta","FileName":"CollapseLauncher-1.82.1-preview-delta.nupkg","SHA1":"3C4EE07E55CF4972DE6459583634020C1E06B684","SHA256":"A9E567A0DCE7B1EEE4E13CB2DC3AFC3E0C90230ECF8D7491B6646306E329E796","Size":45312282},{"PackageId":"CollapseLauncher","Version":"1.82.0","Type":"Full","FileName":"CollapseLauncher-1.82.0-preview-full.nupkg","SHA1":"E39F96F036911A12D235FEF5D28C138D891622D2","SHA256":"751A776FF2AF244AC1D2556D273B746EBD6A1810FF49FBF83FC66A09223F1047","Size":58713393}]}
