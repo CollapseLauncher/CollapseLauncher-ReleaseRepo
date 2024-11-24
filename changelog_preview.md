@@ -7,49 +7,32 @@
 > For those who does not want error reporting enabled, please set system environment variable "DISABLE_SENTRY" to "true" before updating to this version.
 
 - **[Fix]** Remove the use of Stub for launching Collapse, by @bagusnl 
-- As we moved to Velopack, the use of stub is no longer needed as the
-latest version will always be in the "current" folder.
+  - As we moved to Velopack, the use of stub is no longer needed as the latest version will always be in the "current" folder.
 - **[New]** Automatic Error Data Collection, by @bagusnl & @Cryotechnic 
-- Every time either a crash or error happened, upload the error data
-alongside with the latest log to Sentry server for further analysis by
-developers.
+  - Every time either a crash or error happened, upload the error data alongside with the latest log to Sentry server for further analysis by developers.
   - Thanks Sentry for giving us free access to their Business plan <3
-- **[New]** Rewrite Icon generator code to be trim/NativeAOT friendly,
-by @neon-nyan
+- **[New]** Rewrite Icon generator code to be trim/NativeAOT friendly, by @neon-nyan 
 - **[Imp]** Updated .NET to GA (Release) version, by @bagusnl 
-- **[Imp]** Decouples PInvoke code from Hi3Helper.Core to its own
-Hi3Helper.Win32 submodule, by @neon-nyan
-- **[Fix]** Fixed DllNotFoundException when trying to turn on Database
-Sync feature, by @bagusnl
-- This is caused by missing Microsoft Visual C/C++ Redistributable
-required for the database handler.
-- Currently, user will be notified about the missing redist and told to
-download and install them.
-- **[Fix]** SharingViolation Exception and other issues on Sophon
-submodule, by @neon-nyan
+- **[Imp]** Decouples PInvoke code from Hi3Helper.Core to its own Hi3Helper.Win32 submodule, by @neon-nyan 
+- **[Fix]** Fixed DllNotFoundException when trying to turn on Database Sync feature, by @bagusnl 
+  - This is caused by missing Microsoft Visual C/C++ Redistributable required for the database handler.
+  - Currently, user will be notified about the missing redist and told to download and install them.
+- **[Fix]** SharingViolation Exception and other issues on Sophon submodule, by @neon-nyan
   - Fix wrong URL path for manifestToProtoTaskCallback.
   - Fix non-existence files not getting renamed on update.
   - Fix SharedViolation exception by unassigning ReadOnly attribute.
 - **[Imp]** Improvement on Sophon submodule, by @neon-nyan
-- Reduce overhead on async I/O by removing unnecessary bridging
-``Stream``.
-- Directly invoking ``.GetAsync()`` on getting ``HttpResponseMessage``.
-- Move to .NET 9's ``Convert.ToHexStringLower()`` to convert ``byte[]``
-or ``ReadOnlySpan<byte>`` to Hex string.
-- Always check for file availability on enumerating updates. This to
-avoid unused files from old version to be written into new version.
+  - Reduce overhead on async I/O by removing unnecessary bridging ``Stream``.
+  - Directly invoking ``.GetAsync()`` on getting ``HttpResponseMessage``.
+  - Move to .NET 9's ``Convert.ToHexStringLower()`` to convert ``byte[]`` or ``ReadOnlySpan<byte>`` to Hex string.
+  - Always check for file availability on enumerating updates. This to avoid unused files from old version to be written into new version.
   - Reuse code to deserializing Protobuf response and its callbacks.
 - **[Fix]** Fixed IODenied error in Genshin repair, by @bagusnl 
-- This is caused by an asset wrongly marked as Persistent while actually
-being in StreamingAssets
-- **[Imp]** Use local placeholder background while waiting for dispatch
-background to download, by @bagusnl
-- Also include fixes for IOSharingViolation errors for both background
-and carousel event images
-- **[Imp]** Let user know that Database sync is processing after manual
-sync, by @bagusnl & @neon-nyan
-- **[Fix]** Type casting mistakes on Zenless Zone Zero game settings
-methods, by @neon-nyan
+  - This is caused by an asset wrongly marked as Persistent while actually being in StreamingAssets
+- **[Imp]** Use local placeholder background while waiting for dispatch background to download, by @bagusnl 
+  - Also include fixes for IOSharingViolation errors for both background and carousel event images
+- **[Imp]** Let user know that Database sync is processing after manual sync, by @bagusnl & @neon-nyan 
+- **[Fix]** Type casting mistakes on Zenless Zone Zero game settings methods, by @neon-nyan 
 
 # What's New? - 1.82.1
 - **[Fix]** Revert NativeAOT publishing and use regular trimmed builds instead, by @bagusnl 
