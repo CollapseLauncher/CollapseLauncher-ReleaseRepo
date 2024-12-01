@@ -1,5 +1,34 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# What's changed ? - 1.82.3
+> **IMPORTANT**
+> If you are running installed version of Collapse and having issues with updates (either failing to update or Crashing after), please reinstall Collapse.
+> You won't lose any of your data and configs.
+> Also, do note that after installation, the installer won't be able to run Collapse due to not having admin access, fix is in the works by Velopack team.
+
+- **[Imp]** Exception data improvements, by @bagusnl 
+  - Add CPU and GPU details to make it easier for us to debug
+  - Use AssemblyVersion for Release tag so it's handled in the dashboard nicely
+  - Detach Enable/Disable setter so it won't freeze the UI when toggling
+- **[Fix]** Fixed launcher update logic, by @neon-nyan 
+  - Fixed errors when/after updating via Velopack
+  - Users are advised to freshly installed Collapse (will not affect settings) in this update
+- **[Imp]** Updated submodules, by @bagusnl 
+  - Synced both H.NotifyIcon and DiscordRPC submodules from its main repository
+- **[Imp]** Refactor file asset checking mechanism by matching in-game repair behavior for Genshin Impact, by @neon-nyan 
+   - Hopefully this would fix unwanted behavior which causes the game repair to fail for some reason.
+   - Preferring XXH64 hash to be used for file integrity (if available)
+- **[Imp]** Improved Full Check Speed on HDD, by @bagusnl & @neon-nyan 
+  - Limit thread number for checking to 1 if the mechanism detects HDD. Any errors in the mechanism will fallback to detect as HDD and use multithreaded check.
+  - Currently only implemented in Genshin Impact repair.
+- **[Fix]** More IOSharingViolation fixes for multithreaded ForeachAsync, by @bagusnl 
+- **[Fix]** AccessDenied error in GameBoost mechanism, by @bagusnl 
+  - This is probably due to the game not being fully launched yet. The default delay for the mechanism is 10s, slower systems might take longer to load the game.
+  - Now game boost mechanism have a retry system that will retry for at least 3 times in the background
+- **[Fix]** Retry mechanism in Database operation `StoreKeyValue` not correctly defined, by @bagusnl 
+- **[Fix]** App crash when logger fails to get console width, by @bagusnl 
+- **[Fix]** FileNotFound errors on Hi3 repair mechanisms, by @neon-nyan 
+
 # What's changed? - 1.82.2
 > **IMPORTANT**
 > Due to changes in our data collection mechanism, our Privacy Policy has changed!
