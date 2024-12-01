@@ -101,7 +101,8 @@ title=Copying build files...
 xcopy %BuildArtifactDir% %buildPath% /S /H /C 
 title=Making velopack package...
 vpk download http --url=https://r2.bagelnl.my.id/cl-cdn/velopack/%channel%/ --channel=%channel% --outputDir="%releasePath%"
-vpk pack --packId="%name%" --mainExe "%name%.exe" --packVersion="%version%" --packDir="%buildPath%" --packTitle="Collapse" --packAuthors="Collapse Project Team" --icon="%buildPath%\icon.ico" --channel "%channel%" --shortcuts Desktop,StartMenuRoot --delta BestSize --outputDir "%releasePath%" --skipVeloAppCheck --exclude .pdb --skipVeloAppCheck --yes
+vpk pack --packId="%name%" --mainExe "%name%.exe" --packVersion="%version%" --packDir="%buildPath%" --packTitle="Collapse" --packAuthors="Collapse Project Team" --icon="%buildPath%\icon.ico" --channel "%channel%" --shortcuts Desktop,StartMenuRoot --delta BestSize --outputDir "%releasePath%" --skipVeloAppCheck --exclude .pdb --skipVeloAppCheck --yes --splashImage="InstallerSprite.gif"
+ApplyUpdate.exe changevelopackinstperms requireAdministrator "%releasePath%\%name%-%channel%-Setup.exe"
 del "%releasePath%\%name%-%channel%-Portable.zip"
 
 :: Build latest package file
