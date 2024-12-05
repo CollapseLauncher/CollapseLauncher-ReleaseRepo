@@ -1,13 +1,13 @@
 {
     "AppPush": [
         {
-            "MsgId": 74,
+            "MsgId": 75,
             "IsDisposable": false,
             "Severity": "Error",
             "Title": "[EN] Collapse Launcher Update Issue",
             "Message": "Due to bug in the launcher code, Launcher's update system might be bugged for some users. If you're still on 1.82.2 or below, please reinstall your launcher using link provided below! You won't lose your settings/game data. For more questions, please hit us up in GitHub discussion or issues.",
             "Show": true,
-            "TimeBegin": "2024-12-1T00:00:00+08:00",
+            "TimeBegin": "2024-12-01T00:00:00+08:00",
             "TimeEnd": "2025-12-31T00:00:00+08:00",
             "ValidForVerBelow": "1.82.3.0",
             "ActionProperty": {
