@@ -1,21 +1,21 @@
 {
     "AppPush": [
         {
-            "MsgId": 73,
+            "MsgId": 74,
             "IsDisposable": false,
-            "Severity": "Warning",
-            "Title": "[EN] Genshin Preload Unavailability Notice",
-            "Message": "Due to bug in the launcher code, Genshin preload is unavailable in the current Preview version. Please switch to Stable branch by going to App Settings then press Switch to Stable button. We are sorry that this happens and working soon to release a fix.",
-            "Show": false,
-            "TimeBegin": "2024-01-17T00:00:00+08:00",
-            "TimeEnd": "2024-01-31T00:00:00+08:00",
-            "ValidForVerBelow": "1.80.9.0",
+            "Severity": "Error",
+            "Title": "[EN] Collapse Launcher Update Issue",
+            "Message": "Due to bug in the launcher code, Launcher's update system might be bugged for some users. If you're still on 1.82.2 or below, please reinstall your launcher using link provided below! You won't lose your settings/game data. For more questions, please hit us up in GitHub discussion or issues.",
+            "Show": true,
+            "TimeBegin": "2024-12-1T00:00:00+08:00",
+            "TimeEnd": "2025-12-31T00:00:00+08:00",
+            "ValidForVerBelow": "1.82.3.0",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://github.com/orgs/CollapseLauncher/discussions/451",
-                    "Description": "Discussion Thread",
-                    "GlyphIcon": "",
+                    "URL": "https://github.com/CollapseLauncher/Collapse/releases/tag/CL-v1.82.3-pre",
+                    "Description": "1.82.3 Download Page",
+                    "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
