@@ -1,5 +1,16 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# What's changed ? - 1.82.4
+- **[Fix]** (GI/SR/ZZZ Repair) Fixed Quick Repair does not check for file size matching, by @neon-nyan & @bagusnl
+- **[Fix]** Tray icon not appearing in any builds before Windows 11 21H2 (inc W10), by @shatyuka & @bagusnl
+- **[Imp]** Sentry enhancements, by @bagusnl
+  - Disable error collection in debug builds
+  - Add current loaded game location and CDN preference to breadcrumbs
+  - Add a way to enable debug logging via console by adding "DEBUG_SENTRY" env var and setting it to true
+- **[Imp]** Update dependencies, by @bagusnl
+- **[Imp]** Save last known working CDN to config, by @bagusnl
+- **[Fix]** ArgumentNull crash on StartCarouselAutoScroll, by @bagusnl
+
 # What's changed ? - 1.82.3
 > **IMPORTANT**
 > If you are running installed version of Collapse and having issues with updates (either failing to update or Crashing after), please reinstall Collapse.
