@@ -4,7 +4,7 @@ set _Inno="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set repoName=Collapse
 set name=CollapseLauncher
-set version=1.81.8
+set version=1.82.4
 set channel=1
 set isRemovePdb=1
 
