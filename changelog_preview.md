@@ -1,5 +1,20 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# What's new? - 1.82.5
+- **[Fix]** Various weird errors that might be caused by Optimization preference, by @neon-nyan & @bagusnl 
+  - We are noticing quite odd behaviors with some functions, critically Sophon and Http downloader and also SevenZipExtractor modules
+  - This error does not seem to be reproducible in Debug environment, but recent development by @neon-nyan found that setting the optimization profile to `Speed` may cause compiler over optimization in certain areas.
+  - This fix set the project's compiler optimization to `Size` instead (which is the default .NET behaviour).
+  - If this fixes those errors that were problematic then good, if not then we have to rethink about those problematic modules...
+- **[Fix]** Exceptions in Carousel methods, by @bagusnl 
+  - Third time the charm 🤞 
+- **[Fix]** DirectoryNotFound exception in HTTP module, by @bagusnl 
+- **[Imp]** Only recreate shortcut once, by @bagusnl 
+  - Please, no more re-pinning my shortcut...
+- **[Fix]** App crash when finalizing update, by @bagusnl 
+- **[Fix]** Prevent image load fails when waifu2x failes to load / nulled, by @shatyuka 
+- **[Fix]** (Attempt to) Fix corruption when extracting packages via SevenZipExtractor, by @neon-nyan 
+
 # What's changed ? - 1.82.4
 - **[Fix]** (GI/SR/ZZZ Repair) Fixed Quick Repair does not check for file size matching, by @neon-nyan & @bagusnl
 - **[Fix]** Tray icon not appearing in any builds before Windows 11 21H2 (inc W10), by @shatyuka & @bagusnl
