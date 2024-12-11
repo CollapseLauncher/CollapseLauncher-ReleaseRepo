@@ -155,7 +155,7 @@ jobs:
         run: unzip -qq root-cdn.zip -d root-cdn
 
       - name: Sync Root Folder
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -179,7 +179,7 @@ jobs:
           unzip -qq root-metadata.zip -d root-metadata
 
       - name: Sync Metadata root objects
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -203,7 +203,7 @@ jobs:
           unzip -qq gameimages.zip -d root-metadata
 
       - name: Sync Metadata logos objects
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -214,7 +214,7 @@ jobs:
           output-file-url: false
   
       - name: Sync Metadata posters objects
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -225,7 +225,7 @@ jobs:
           output-file-url: false
 
       - name: Sync Metadata steam-asset objects
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -250,7 +250,7 @@ jobs:
           unzip -qq indexes_hi3.zip -d indexes_hi3
 
       - name: Sync Indexes
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -274,7 +274,7 @@ jobs:
           unzip -qq indexes_hsr.zip -d indexes_hsr
 
       - name: Sync Indexes
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -298,7 +298,7 @@ jobs:
           unzip -qq indexes_zzz.zip -d indexes_zzz
 
       - name: Sync Indexes
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -321,7 +321,7 @@ jobs:
         run: unzip -qq applyupdate.zip -d applyupdate
           
       - name: Sync ApplyUpdate-Preview
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -332,7 +332,7 @@ jobs:
           output-file-url: false
 
       - name: Sync ApplyUpdate-stable
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -355,7 +355,7 @@ jobs:
         run: unzip -qq squirrel-stable.zip -d squirrel-stable
         
       - name: Sync Squirrel\Stable folder
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -378,7 +378,7 @@ jobs:
         run: unzip -qq squirrel-preview.zip -d squirrel-preview
         
       - name: Sync Squirrel\Preview folder
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -401,7 +401,7 @@ jobs:
         run: unzip -qq velopack-preview.zip -d velopack-preview
         
       - name: Sync Squirrel\Preview folder
-        uses: ryand56/r2-upload-action@latest
+        uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
