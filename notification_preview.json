@@ -22,5 +22,41 @@
         }
     ],
     "RegionPush": [
+        {
+            "MsgId": 7000011,
+            "IsDisposable": false,
+            "Severity": "Error",
+            "RegionProfile": "SRGlb",
+            "Title": "[EN] Notice About Game Repair Post-Plugin Update",
+            "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes might get reversed. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
+            "Show": true,
+            "TimeBegin": "2024-12-13T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
+            "MsgId": 8000011,
+            "IsDisposable": false,
+            "Severity": "Error",
+            "RegionProfile": "SRCN",
+            "Title": "[EN] Notice About Game Repair Post-Plugin Update",
+            "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes might get reversed. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
+            "Show": true,
+            "TimeBegin": "2024-12-13T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
+            "MsgId": 9000011,
+            "IsDisposable": false,
+            "Severity": "Error",
+            "RegionProfile": "SRGlb",
+            "Title": "[EN] Notice About Game Repair Post-Plugin Update",
+            "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes might get reversed. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
+            "Show": true,
+            "TimeBegin": "2024-12-13T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        }
     ]
 }
