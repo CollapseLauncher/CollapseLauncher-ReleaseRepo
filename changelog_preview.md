@@ -1,5 +1,23 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# What's new? - 1.82.6
+- **[Fix]** Download corruption due to download chunk size being too small, by @neon-nyan
+- **[Fix]** Double taskbar entry if console is enabled, by @bagusnl
+- **[Fix]** Repair function for GI/SR/HI3 detected updated plugin as corrupted, by @bagusnl
+- **[Imp]** Update 7z dll to 24.09, by @neon-nyan
+- **[Imp]** Http downloader module improvements, by @neon-nyan
+  - Bypass drive write cache
+  - Use multi threaded file writer
+- **[Imp]** ``IniFile`` parser improvements, by @neon-nyan
+  + Improving implicit casting on IniValue to numbers
+    This to allow maintainers to directly assign the IniValue to variable types.
+  + Reduce memory allocation on loading and saving IniFile
+  + Improving saving performance to file or a stream.
+  + More safety bound check to IniSection
+  + Reduce overhead on checking Section Keys and Value Keys
+  + Add more checks on loading values
+  + Splitting class and structs into their own files
+
 # What's new? - 1.82.5
 - **[Fix]** Various weird errors that might be caused by Optimization preference, by @neon-nyan & @bagusnl 
   - We are noticing quite odd behaviors with some functions, critically Sophon and Http downloader and also SevenZipExtractor modules
