@@ -19,6 +19,26 @@
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
+        },
+        {
+            "MsgId": 76,
+            "IsDisposable": false,
+            "Severity": "Error",
+            "Title": "[EN] Collapse Launcher Update Issue",
+            "Message": "Due to bug in the launcher code, some users might not be able to access certain game regions where the user has never been open. If you're still on 1.82.6 or below, please update your launcher via \"Force Update\" or by reinstall your launcher using the link provided below! You won't lose your settings/game data. For more questions, please hit us up in GitHub discussion or issues.",
+            "Show": true,
+            "TimeBegin": "2024-12-01T00:00:00+08:00",
+            "TimeEnd": "2025-12-31T00:00:00+08:00",
+            "ValidForVerBelow": "1.82.7.0",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/CollapseLauncher/Collapse/releases/tag/CL-v1.82.7-pre",
+                    "Description": "1.82.7 Download Page",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
         }
     ],
     "RegionPush": [

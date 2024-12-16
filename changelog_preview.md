@@ -1,5 +1,17 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# What's new? - 1.82.7 Hotfix
+- **[Fix]** Fix redundant Ini save-load mechanism and FileNotFoundException upon loading, by @neon-nyan 
+  This caused the launcher to throw ``FileNotFoundException`` error in the background and causing the region fail to load.
+- **[Imp]** Improvement on ``IniValue``, by @neon-nyan 
+  - Always cache ``IsEmpty`` property and update it only if the ``Value`` property is being set.
+  - Add missing casting for ``Size`` struct
+  - Add ``Create()`` static method
+  - Add ``ToGuid()`` method and cast support
+  - Add support for creating ``IniValue`` from ``Enum``
+- **[Fix]** Avoid double desktop shortcut by using user's Desktop path, by @neon-nyan 
+- **[Fix]** Fix wrong casting on implicit IniValue operator for Int32, by @neon-nyan 
+
 # What's new? - 1.82.6
 - **[Fix]** Download corruption due to download chunk size being too small, by @neon-nyan
 - **[Fix]** Double taskbar entry if console is enabled, by @bagusnl

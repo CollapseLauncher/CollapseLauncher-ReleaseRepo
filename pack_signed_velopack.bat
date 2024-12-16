@@ -3,7 +3,7 @@ set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=CollapseLauncher
 set channel=1
-set version=1.82.6
+set version=1.82.7
 set thread=%NUMBER_OF_PROCESSORS%
 set forceUpdate="forceUpdate":false,
 
