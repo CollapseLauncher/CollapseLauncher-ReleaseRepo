@@ -61,6 +61,7 @@ jobs:
           zip -0 -r squirrel-stable.zip ./cl-cdn/squirrel/stable
           zip -0 -r squirrel-preview.zip ./cl-cdn/squirrel/preview
           zip -0 -r velopack-preview.zip ./cl-cdn/velopack/preview
+          zip -0 -r velopack-stable.zip ./cl-cdn/velopack/stable
 
       - name: Upload root-cdn
         uses: actions/upload-artifact@v4.3.1
@@ -139,6 +140,14 @@ jobs:
         with:
           name: velopack-preview
           path: velopack-preview.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload velopack-stable
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: velopack-stable
+          path: velopack-stable.zip
           retention-days: 1
           compression-level: 0
 
@@ -400,7 +409,7 @@ jobs:
       - name: Extract Archive
         run: unzip -qq velopack-preview.zip -d velopack-preview
         
-      - name: Sync Squirrel\Preview folder
+      - name: Sync Velopack\Preview folder
         uses: ryand56/r2-upload-action@master
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
@@ -409,6 +418,29 @@ jobs:
           r2-bucket: ${{ secrets.R2_BUCKET }}
           source-dir: velopack-preview/cl-cdn/velopack/preview
           destination-dir: cl-cdn/velopack/preview
+          output-file-url: false
+
+  Sync-Velopack-Stable:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: velopack-stable
+
+      - name: Extract Archive
+        run: unzip -qq velopack-stable.zip -d velopack-stable
+        
+      - name: Sync Velopack\Stable folder
+        uses: ryand56/r2-upload-action@master
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: velopack-stable/cl-cdn/velopack/stable
+          destination-dir: cl-cdn/velopack/stable
           output-file-url: false
 
   Purge-Cache:
