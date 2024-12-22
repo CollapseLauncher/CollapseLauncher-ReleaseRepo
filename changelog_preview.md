@@ -1,5 +1,25 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
+# What's new? - 1.82.8
+> We have just published our new landing page, which you can view at https://collapselauncher.com !
+
+- **[Fix]** Game repair methods failing to check for plugin existence, by @bagusnl
+  - This happened because string matching error between `/` and `\`
+- **[Fix]** ZZZ Repair failing due to unknown return code, by @bagusnl
+  - is this even a fix? idk, I just ignored the return code LMAO
+- **[Fix]** AppUserModelID conflicting between ToastCOM and Velopack, by @neon-nyan
+- **[Imp]** Performance improvement for 7z extractor method, by @neon-nyan
+- **[Imp]** Performance improvement for any unmanaged calls by increasing buffer size, by @neon-nyan
+- **[Imp]** Avoid UI locking when loading Sophon metadata, by @neon-nyan
+- **[Imp]** Refactored Progress handler, by @neon-nyan
+- **[Fix]** Game File Cleanup freeze when trying to cleanup >1000 items, by @bagusnl & @neon-nyan
+  - Use SelectAllSafe and UnselectAll to do as described
+    - Improved speed when selecting all items by (from ~140000 ms to  ~170ms) when selecting 25000 files.
+  - Use .NET's built-in SIMD calculation for summing all the asset sizes
+  - Use batching when injecting files to the ListViewTable source
+- **[Fix]** Cannot close the app from taskbar, by @shatyuka
+- **[Fix]** COMException when trying to install game with Sophon, by @bagusnl
+
 # What's new? - 1.82.7 Hotfix
 - **[Fix]** Fix redundant Ini save-load mechanism and FileNotFoundException upon loading, by @neon-nyan 
   This caused the launcher to throw ``FileNotFoundException`` error in the background and causing the region fail to load.
