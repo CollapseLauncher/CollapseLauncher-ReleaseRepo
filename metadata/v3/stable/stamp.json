@@ -54,7 +54,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20241126224357,
+    "LastUpdated": 20241222212906,
     "MetadataPath": "config_GIGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -63,7 +63,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20241126224357,
+    "LastUpdated": 20241222212906,
     "MetadataPath": "config_GICN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -72,7 +72,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20241126224357,
+    "LastUpdated": 20241222212906,
     "MetadataPath": "config_GICNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -115,34 +115,34 @@
     "PresetConfigVersion": "3.1.0"
   },
   {
-      "LastUpdated": 20240730210114,
-      "MetadataPath": "config_ZZZGlb.json",
-      "MetadataType": "PresetConfigV2",
-      "MetadataInclude": true,
-      "GameName": "Zenless Zone Zero",
-      "GameRegion": "Global",
-      "PresetConfigVersion": "3.2.0"
+    "LastUpdated": 20241222212906,
+    "MetadataPath": "config_ZZZGlb.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Zenless Zone Zero",
+    "GameRegion": "Global",
+    "PresetConfigVersion": "3.2.0"
   },
   {
-      "LastUpdated": 20240730210114,
-      "MetadataPath": "config_ZZZCN.json",
-      "MetadataType": "PresetConfigV2",
-      "MetadataInclude": true,
-      "GameName": "Zenless Zone Zero",
-      "GameRegion": "Mainland China",
-      "PresetConfigVersion": "3.2.0"
+    "LastUpdated": 20241222212906,
+    "MetadataPath": "config_ZZZCN.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Zenless Zone Zero",
+    "GameRegion": "Mainland China",
+    "PresetConfigVersion": "3.2.0"
   },
   {
-      "LastUpdated": 20240828062002,
-      "MetadataPath": "config_ZZZBilibili.json",
-      "MetadataType": "PresetConfigV2",
-      "MetadataInclude": true,
-      "GameName": "Zenless Zone Zero",
-      "GameRegion": "Bilibili",
-      "PresetConfigVersion": "3.2.0"
+    "LastUpdated": 20241222212906,
+    "MetadataPath": "config_ZZZBilibili.json",
+    "MetadataType": "PresetConfigV2",
+    "MetadataInclude": true,
+    "GameName": "Zenless Zone Zero",
+    "GameRegion": "Bilibili",
+    "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20240904213332,
+    "LastUpdated": 20241022211615,
     "MetadataPath": "config_communitytools.json",
     "MetadataType": "CommunityTools",
     "MetadataInclude": true,
@@ -151,7 +151,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20241126224357,
+    "LastUpdated": 20241222212906,
     "MetadataPath": "config_GIGlbGPlay.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
