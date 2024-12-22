@@ -10,13 +10,40 @@ Thank you for being patient with us while we work on bringing you the best versi
 
 Because of the particularity of this update, instead of listing it off in topics and subtopics, we're simply going to list off all the changes since the last version sync.
 
-> [!IMPORTANT]
 > Due to changes in our data collection mechanism, our Privacy Policy has changed!
 > Please [read them here](https://github.com/CollapseLauncher/Collapse/blob/main/PRIVACY.md)
 > For those who does not want error reporting enabled, please set system environment variable "DISABLE_SENTRY" to "true" before updating to this version.
 
-> [!NOTE]
 > Collapse now has its own website, hosted on a brand new domain! Visit [https://collapselauncher.com/](https://collapselauncher.com/) for an in-depth documentation of Collapse's features!
+
+### **[New]** Adding Acrylic Effect support for Video Background, by @neon-nyan
+Previously, the acrylic effect while using Video Background is disabled due to a bug under WindowsAppSDK's Direct3D component which causes the entire UI to have solid dark color. After few releases later, we finally figured out a method to possibly blend the UI's Acrylic effect with the Video Background frame under it by passing video frames as a ``CanvasDevice`` and project it into ``Image.Source``. This feature, however is single-threaded and might get choppy when switching between pages.
+
+![image](https://github.com/user-attachments/assets/c14e7181-5aa6-46a1-8fab-f803c9321b37)
+
+This feature, however is disabled by default. In order to enable this, go to the ``App Settings`` and check the ``Use Acrylic Effect while using Video Background`` toggle under ``Video Background Settings`` setting.
+
+![image](https://github.com/user-attachments/assets/4f3ed7d6-19a0-4aad-8573-6cf23339e49d)
+
+### **[New]** Notification Toast Support for Background Activities, by @bagusnl & @neon-nyan
+This feature will help users to get notified when a background activity is completed. The notification toast includes support for Game Installation, Game Update, Pre-load Download, Game Repair and Cache Update features.
+
+As per current implementation, the notification only supports text-based content.
+
+https://github.com/user-attachments/assets/4f15d484-d7e2-4015-9331-25b0afc2c56a
+
+### **[New]** Rewritten Http/Downloader submodule, by @neon-nyan
+As this brings many things, and pains (in terms of code time), we finally decided to rewrite our downloader submodule: [``Hi3Helper.Http``](https://github.com/CollapseLauncher/Hi3Helper.Http). The code has been running since the very beginning of this project was created and had been the most cluttered codebase that we have ever managed. Hundreds of bugs have been squashed from this submodule alone and it was very inefficient.
+
+In this refactor, we managed to pulled out many features into this codebase, including one of the **MOST REQUESTED** feature in this project: **Bandwidth/Speed Limiter**.
+
+https://github.com/user-attachments/assets/952cf15d-7d0d-4099-9669-a267349b0c8f
+
+Thanks to this rewrite, the download now does not require the launcher to split the downloaded file into separated chunks and all the chunk data will be written and pre-allocated directly into a single file.
+
+### **[Imp]** Update Playtime when Game has been opened before the Launcher, by @neon-nyan
+Previously, the playtime will not get updated when the game was launched before you open Collapse. Thanks to this change, the launcher will now be able to resume and save the last playtime when the game was launched first before the launcher and it also affect the timestamp on Discord RPC to get resumed as well.
+
 
 - **[Imp]** Massively fixed UI/UX for Sophon Predownload/Update mechanism, by @neon-nyan
   - Separated download size and speed from overall game size and I/O speed.
@@ -105,32 +132,6 @@ Because of the particularity of this update, instead of listing it off in topics
   - Cumulative man hours wasted: 6+ hours.
 - **[Fix]** Prevent ACE (Anti-Cheat Expert) binaries to get removed from File Game Cleanup, by @Cryotechnic
 - **[Fix]** Event panel is not shown when "Event" news tag is empty, by @neon-nyan
-### **[New]** Adding Acrylic Effect support for Video Background, by @neon-nyan
-Previously, the acrylic effect while using Video Background is disabled due to a bug under WindowsAppSDK's Direct3D component which causes the entire UI to have solid dark color. After few releases later, we finally figured out a method to possibly blend the UI's Acrylic effect with the Video Background frame under it by passing video frames as a ``CanvasDevice`` and project it into ``Image.Source``. This feature, however is single-threaded and might get choppy when switching between pages.
-
-![image](https://github.com/user-attachments/assets/c14e7181-5aa6-46a1-8fab-f803c9321b37)
-
-This feature, however is disabled by default. In order to enable this, go to the ``App Settings`` and check the ``Use Acrylic Effect while using Video Background`` toggle under ``Video Background Settings`` setting.
-
-![image](https://github.com/user-attachments/assets/4f3ed7d6-19a0-4aad-8573-6cf23339e49d)
-
-### **[New]** Notification Toast Support for Background Activities, by @bagusnl & @neon-nyan
-This feature will help users to get notified when a background activity is completed. The notification toast includes support for Game Installation, Game Update, Pre-load Download, Game Repair and Cache Update features.
-
-As per current implementation, the notification only supports text-based content.
-
-https://github.com/user-attachments/assets/4f15d484-d7e2-4015-9331-25b0afc2c56a
-
-### **[New]** Rewritten Http/Downloader submodule, by @neon-nyan
-As this brings many things, and pains (in terms of code time), we finally decided to rewrite our downloader submodule: [``Hi3Helper.Http``](https://github.com/CollapseLauncher/Hi3Helper.Http). The code has been running since the very beginning of this project was created and had been the most cluttered codebase that we have ever managed. Hundreds of bugs have been squashed from this submodule alone and it was very inefficient.
-
-In this refactor, we managed to pulled out many features into this codebase, including one of the **MOST REQUESTED** feature in this project: **Bandwidth/Speed Limiter**.
-
-https://github.com/user-attachments/assets/952cf15d-7d0d-4099-9669-a267349b0c8f
-
-Thanks to this rewrite, the download now does not require the launcher to split the downloaded file into separated chunks and all the chunk data will be written and pre-allocated directly into a single file.
-
-Furthermore, here's list of what's been changed:
 - **[New]** Bandwidth/Speed Limited
   - With this new feature, the user can now set the download speed limit.
   -  Limit your download speed so your parents won't bash you for taking all the bandwidth to download anime game (tm).
@@ -275,9 +276,6 @@ Furthermore, here's list of what's been changed:
   - Add support for creating ``IniValue`` from ``Enum``
 - **[Fix]** Avoid double desktop shortcut by using user's Desktop path, by @neon-nyan
 - **[Fix]** Fix wrong casting on implicit IniValue operator for Int32, by @neon-nyan
-
-### **[Imp]** Update Playtime when Game has been opened before the Launcher, by @neon-nyan
-Previously, the playtime will not get updated when the game was launched before you open Collapse. Thanks to this change, the launcher will now be able to resume and save the last playtime when the game was launched first before the launcher and it also affect the timestamp on Discord RPC to get resumed as well.
 
 ### Various Localization Updates
 As always, we want to thank are awesome community for providing an amazing localization for our project. Collapse is now localizable in 17 languages and dialects! <3
