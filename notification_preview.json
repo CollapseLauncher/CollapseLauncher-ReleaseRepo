@@ -43,6 +43,42 @@
     ],
     "RegionPush": [
         {
+            "MsgId": 10000001,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "ZZZGlb",
+            "Title": "[EN] 'Game data has been updated' message in-game",
+            "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
+            "Show": true,
+            "TimeBegin": "2024-12-22T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
+            "MsgId": 11000001,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "ZZZCN",
+            "Title": "[EN] 'Game data has been updated' message in-game",
+            "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
+            "Show": true,
+            "TimeBegin": "2024-12-22T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
+            "MsgId": 12000001,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "ZZZBilibili",
+            "Title": "[EN] 'Game data has been updated' message in-game",
+            "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
+            "Show": true,
+            "TimeBegin": "2024-12-22T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
             "MsgId": 7000011,
             "IsDisposable": false,
             "Severity": "Error",
