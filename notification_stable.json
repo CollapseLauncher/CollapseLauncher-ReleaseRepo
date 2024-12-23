@@ -1,27 +1,55 @@
 {
     "AppPush": [
-        {
-            "MsgId": 72,
-            "IsDisposable": false,
-            "Severity": "Warning",
-            "Title": "[EN] HoYoPlay API Migration Notice",
-            "Message": "Heyya Collapse users!\r\nWe have updated some game APIs to the new HoYoPlay API. The API update is currently applied for Genshin Impact (Glb/CN), Honkai Impact 3rd (CN) and Honkai: Star Rail (Glb/CN), for all mechanisms (updates, preloads, initial install and launcher assets). Please make sure you're on latest Collapse version (1.80.9+) to prevent any issues. Should you encounter any, please inform us via Discord or in the GitHub discussion thread below.",
-            "Show": true,
-            "TimeBegin": "2024-06-17T00:00:00+08:00",
-            "TimeEnd": "2024-07-31T00:00:00+08:00",
-            "ValidForVerBelow": "1.80.9.0",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/orgs/CollapseLauncher/discussions/451",
-                    "Description": "Discussion Thread",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        }
     ],
     "RegionPush": [
+        {
+            "MsgId": 10000001,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "ZZZGlb",
+            "Title": "[EN] 'Game data has been updated' message in-game",
+            "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
+            "Show": true,
+            "TimeBegin": "2024-12-22T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
+            "MsgId": 11000001,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "ZZZCN",
+            "Title": "[EN] 'Game data has been updated' message in-game",
+            "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
+            "Show": true,
+            "TimeBegin": "2024-12-22T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
+            "MsgId": 12000001,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "ZZZBilibili",
+            "Title": "[EN] 'Game data has been updated' message in-game",
+            "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
+            "Show": true,
+            "TimeBegin": "2024-12-22T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
+            "MsgId": 7000009,
+            "IsDisposable": false,
+            "Severity": "Error",
+            "RegionProfile": "SRGlb",
+            "Title": "[EN] Notice About Game Repair Post-Plugin Update",
+            "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes may get reverted. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
+            "Show": true,
+            "TimeBegin": "2024-12-13T00:00:00+08:00",
+            "TimeEnd": "2025-01-10T00:00:00+08:00",
+            "ActionProperty": {}
+        },
         {
             "MsgId": 7000009,
             "IsDisposable": false,
