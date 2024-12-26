@@ -1,8 +1,27 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
-# What's new? - 1.82.8
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
+# What's new? - 1.82.10 [Hotfix]
+- **[Fix]** ``NullReferenceException`` crash caused by null ``voice_packs`` property, by @neon-nyan
+- **[Fix]** Some migration dialog still provides install choices, by @neon-nyan
+- **[Fix]** TimeSpan overflow + Number to Percentage and TimeSpan converter refactor, by @neon-nyan and @bagusnl
+- **[Fix]** Minor Audio Selection UI bug, by @neon-nyan
+- **[Fix]** More ``SharingViolation`` exceptions on ``InstallManagerBase``, by @neon-nyan
+- **[Fix]** ``DirectoryNotFoundException`` on HSR's Game Repair -> ``RemoveHashMarkFile()`` method, by @neon-nyan
+- **[Fix]** Relative URL for the Velopack packages getting cut-off, by @neon-nyan
+
+# What's new? - 1.82.9 [Hotfix]
+- **[Fix]** Sophon failing to install games, by @bagusnl & @neon-nyan 
+  - Errors such as `EnumFailedVersion` or `InvalidOperationException`
+  - Caused by Sophon data got modified mid-flight before the finalization
+- **[Fix]** App crashing when minimized to tray on certain system, by @bagusnl 
+  - This is caused by missing Windows feature causing the method to be missing, please contact your custom ISOs creator if other errors happened caused by similar 'Incorrect function' error
+- **[Fix]** Error when trying to uninstall games that do not have AppData entry, by @neon-nyan 
+- **[Fix]** Installation starts before audio package is selected, by @neon-nyan & @bagusnl 
+- **[Imp]** Improved Sophon performance by increasing minimum thread pool available for processing files, by @neon-nyan 
+
+# What's new? - 1.82.8
 - **[Fix]** Game repair methods failing to check for plugin existence, by @bagusnl
   - This happened because string matching error between `/` and `\`
 - **[Fix]** ZZZ Repair failing due to unknown return code, by @bagusnl
