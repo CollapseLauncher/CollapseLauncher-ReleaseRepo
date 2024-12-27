@@ -2,6 +2,12 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
+# Notice: Regarding Update Issue from 1.82.8 to 1.82.9 & 1.82.10
+We have previously pushed an update which causing some users unable to run their launcher. This due to a transition to the update management library that we use, from Squirrel to Velopack. This hotfix will hopefully fix the issue.
+
+If you encounter the same problem where the launcher won't run, please follow an instruction in a link below:
+[**How to fix "This application is missing a package manifest (.nuspec)" error**](https://github.com/CollapseLauncher/Collapse/issues/642#issuecomment-2561964296)
+
 # What's new? - 1.82.10 [Hotfix]
 - **[Fix]** ``NullReferenceException`` crash caused by null ``voice_packs`` property, by @neon-nyan
 - **[Fix]** Some migration dialog still provides install choices, by @neon-nyan
