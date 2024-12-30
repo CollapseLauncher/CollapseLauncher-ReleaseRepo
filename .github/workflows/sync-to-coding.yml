@@ -21,6 +21,9 @@ jobs:
           ssh-public-key: ${{ secrets.CODING_KNOWN_HOSTS }}
 
       - name: Push
+        env:
+            FILTER_BRANCH_SQUELCH_WARNING: 1
         run: |
           git remote add coding git@e.coding.net:ohly/collapse/ReleaseRepo.git
+          git filter-branch -- --all
           git push coding main --force
