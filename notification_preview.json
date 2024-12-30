@@ -113,6 +113,30 @@
             "TimeBegin": "2024-12-13T00:00:00+08:00",
             "TimeEnd": "2025-01-10T00:00:00+08:00",
             "ActionProperty": {}
+        },
+        {
+            "MsgId": 5000023,
+            "IsDisposable": false,
+            "Severity": "Warning",
+            "RegionProfile": "GIGlb",
+            "Title": "[EN] Notice about Sophon Pre-Download Download Size",
+            "Message": "Hi Travelers!\r\nYou may have noticed the pre-download size might be quite bigger than the official launcher.\r\nThis is caused by some faults in the asset chunks deduplication method that should be fixed in the next launcher version (1.82.11)\r\nYou are free to ignore this message if you are on the updated version. We are sorry for the inconvenience.",
+            "Show": true,
+            "TimeBegin": "2024-12-29T00:00:00+08:00",
+            "TimeEnd": "2025-01-20T00:00:00+08:00",
+            "ActionProperty": {}
+        },
+        {
+            "MsgId": 6000023,
+            "IsDisposable": false,
+            "Severity": "Warning",
+            "RegionProfile": "GIGlb",
+            "Title": "[EN] Notice about Sophon Pre-Download Download Size",
+            "Message": "Hi Travelers!\r\nYou may have noticed the pre-download size might be quite bigger than the official launcher.\r\nThis is caused by some faults in the asset chunks deduplication method that should be fixed in the next launcher version (1.82.11)\r\nYou are free to ignore this message if you are on the updated version. We are sorry for the inconvenience.",
+            "Show": true,
+            "TimeBegin": "2024-12-29T00:00:00+08:00",
+            "TimeEnd": "2025-01-20T00:00:00+08:00",
+            "ActionProperty": {}
         }
     ]
 }
