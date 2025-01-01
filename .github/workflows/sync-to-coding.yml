@@ -26,4 +26,5 @@ jobs:
         run: |
           git remote add coding git@e.coding.net:ohly/collapse/ReleaseRepo.git
           git filter-branch -- --all
+          curl -X POST -u ${{ secrets.CODING_AUTH_NAME }}:${{ secrets.CODING_AUTH_TOKEN }} https://ohly.coding.net/api/user/ohly/project/collapse/depot/ReleaseRepo/reset
           git push coding main --force
