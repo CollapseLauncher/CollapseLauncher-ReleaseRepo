@@ -2,11 +2,41 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
-# Notice: Regarding Update Issue from 1.82.8 to 1.82.9 & 1.82.10
+# Notice: Regarding Update Issue from 1.82.8 to 1.82.9 - 1.82.11
 We have previously pushed an update which causing some users unable to run their launcher. This due to a transition to the update management library that we use, from Squirrel to Velopack. This hotfix will hopefully fix the issue.
-
 If you encounter the same problem where the launcher won't run, please follow an instruction in a link below:
+
 [**How to fix "This application is missing a package manifest (.nuspec)" error**](https://github.com/CollapseLauncher/Collapse/issues/642#issuecomment-2561964296)
+
+# What's new? - 1.82.11 [Hotfix]
+- **[New]** Toggle "Playing" Discord RPC status per-region, by @bagusnl 
+  - You can disable "Playing" status per-region now by going to Quick Settings (bottom right on Homepage) and toggling it off.
+  - This is enabled by default (as it always is)
+- **[Fix]** Bloated Sophon pre-download/update size due to duplicate entries, by @neon-nyan 
+- **[Imp]** Match API requests headers, by @neon-nyan 
+- **[Fix]** Cannot copy error message caused by ``HGlobal`` buffer misallocation for some users, by @neon-nyan 
+- **[Fix]** IOSharingViolation due to file/directory handling in some methods, by @neon-nyan 
+- **[Fix]** Repair causing application crashes due to value overflow, by @bagusnl 
+- **[Fix]** Game installation error due to invalid VO language selection, by @neon-nyan 
+- **[Imp]** Sentry improvements, by @bagusnl 
+  - Filter exceptions to be sent
+    + Exceptions caused by users' internet situation are filtered
+  - Add loaded modules info to breadcrumb
+  - Detach inner exception handler method
+- **[Imp]** Sophon Download Improvements, by @neon-nyan 
+  - Adding disk-space check on Game Installation/Update and Pre-load Download.
+  - Ignore if VO's LanguageString is not valid on non-debug build
+  - Separate Sophon methods to its own code files
+- **[Imp]** UI/UX Improvements, by @shatyuka @neon-nyan and @bagusnl 
+  - New fallback background when the background sprite is not yet downloaded
+  > The official HoYoPlay's default background is used for the fallback background
+  - Disable some tab focus within the PostPanel
+  - Resize Pivot header in PostPanel
+  - Make ScrollViewer receive focus as a whole
+  - Enable navigation via arrow keys in ScrollViewer
+  - Adjust Audio-related setting's Grid layout on Genshin Game Settings Page
+- **[Fix]** DB sync buttons on App Settings page doesn't get disabled when the toggle is off
+- **[Loc]** Localization Sync from Transifex, by Localizers <3
 
 # What's new? - 1.82.10 [Hotfix]
 - **[Fix]** ``NullReferenceException`` crash caused by null ``voice_packs`` property, by @neon-nyan
