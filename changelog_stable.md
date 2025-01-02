@@ -2,11 +2,22 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
-# Notice: Regarding Update Issue from 1.82.8 to 1.82.9 - 1.82.11
+# Notice: Regarding Update Issue from 1.82.8 to 1.82.9 - 1.82.12
 We have previously pushed an update which causing some users unable to run their launcher. This due to a transition to the update management library that we use, from Squirrel to Velopack. This hotfix will hopefully fix the issue.
 If you encounter the same problem where the launcher won't run, please follow an instruction in a link below:
 
 [**How to fix "This application is missing a package manifest (.nuspec)" error**](https://github.com/CollapseLauncher/Collapse/issues/642#issuecomment-2561964296)
+
+# What's new? - 1.82.12 [Hotfix]
+- **[Fix]** Failure when installing sophon, by @neon-nyan 
+  - neon forgor to put the variable into the right line
+- **[Fix]** Disk space recognition when resuming game install with sophon, by @neon-nyan
+  - neon forgor to return the right value
+- **[Fix]** Game update with sophon failing if its updating from a version that is too old, by @neon-nyan
+- neon too eepy and forgor to check if the manifest exist for those older game version
+- if the game is too old then fallback to use install method and replace any assets that is not matching with the target version.
+- **[Fix]** `EnumFailedVersion` errors when installing games and (super rarely) in early launch, by @bagusnl
+- **[Imp]** Use Attachment instead of breadcrumbs for LoadedModules reporting in Sentry, by @bagusnl
 
 # What's new? - 1.82.11 [Hotfix]
 - **[New]** Toggle "Playing" Discord RPC status per-region, by @bagusnl 
