@@ -2,7 +2,7 @@
     "AppPush": [
         {
             "MsgId": 75,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Error",
             "Title": "[EN] Collapse Launcher Update Issue",
             "Message": "Due to bug in the launcher code, Collapse's update mechanism may not work or work incorrectly for some users. If you are still on 1.82.2 or below, please reinstall your launcher using link provided below. You will not lose your settings/game data. For more questions, please hit us up in GitHub discussion or issues. We're sorry for the inconvenience this may have caused.",
@@ -22,7 +22,7 @@
         },
         {
             "MsgId": 76,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Error",
             "Title": "[EN] Collapse Launcher Update Issue",
             "Message": "Due to bug in the launcher code, some users might not be able to access certain game regions where the user has never been open. If you're still on 1.82.6 or below, please update your launcher via \"Force Update\" or by reinstall your launcher using the link provided below! You won't lose your settings/game data. For more questions, please hit us up in GitHub discussion or issues.",
@@ -49,7 +49,7 @@
             "RegionProfile": "ZZZGlb",
             "Title": "[EN] 'Game data has been updated' message in-game",
             "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
-            "Show": true,
+            "Show": false,
             "TimeBegin": "2024-12-22T00:00:00+08:00",
             "TimeEnd": "2025-01-10T00:00:00+08:00",
             "ActionProperty": {}
@@ -61,7 +61,7 @@
             "RegionProfile": "ZZZCN",
             "Title": "[EN] 'Game data has been updated' message in-game",
             "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
-            "Show": true,
+            "Show": false,
             "TimeBegin": "2024-12-22T00:00:00+08:00",
             "TimeEnd": "2025-01-10T00:00:00+08:00",
             "ActionProperty": {}
@@ -73,50 +73,50 @@
             "RegionProfile": "ZZZBilibili",
             "Title": "[EN] 'Game data has been updated' message in-game",
             "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
-            "Show": true,
+            "Show": false,
             "TimeBegin": "2024-12-22T00:00:00+08:00",
             "TimeEnd": "2025-01-10T00:00:00+08:00",
             "ActionProperty": {}
         },
         {
             "MsgId": 7000011,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "SRGlb",
             "Title": "[EN] Notice About Game Repair Post-Plugin Update",
             "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes may get reverted. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
-            "Show": true,
+            "Show": false,
             "TimeBegin": "2024-12-13T00:00:00+08:00",
             "TimeEnd": "2025-01-10T00:00:00+08:00",
             "ActionProperty": {}
         },
         {
             "MsgId": 8000011,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "SRCN",
             "Title": "[EN] Notice About Game Repair Post-Plugin Update",
             "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes may get reverted. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
-            "Show": true,
+            "Show": false,
             "TimeBegin": "2024-12-13T00:00:00+08:00",
             "TimeEnd": "2025-01-10T00:00:00+08:00",
             "ActionProperty": {}
         },
         {
             "MsgId": 9000011,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "SRGlb",
             "Title": "[EN] Notice About Game Repair Post-Plugin Update",
             "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes may get reverted. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
-            "Show": true,
+            "Show": false,
             "TimeBegin": "2024-12-13T00:00:00+08:00",
             "TimeEnd": "2025-01-10T00:00:00+08:00",
             "ActionProperty": {}
         },
         {
             "MsgId": 5000023,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GIGlb",
             "Title": "[EN] Notice about Sophon Pre-Download Download Size",
@@ -129,7 +129,7 @@
         },
         {
             "MsgId": 6000023,
-            "IsDisposable": false,
+            "IsDisposable": true,
             "Severity": "Warning",
             "RegionProfile": "GICN",
             "Title": "[EN] Notice about Sophon Pre-Download Download Size",
