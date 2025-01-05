@@ -2,11 +2,23 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
-# Notice: Regarding Update Issue from 1.82.8 to 1.82.9 - 1.82.12
-We have previously pushed an update which causing some users unable to run their launcher. This due to a transition to the update management library that we use, from Squirrel to Velopack. This hotfix will hopefully fix the issue.
-If you encounter the same problem where the launcher won't run, please follow an instruction in a link below:
-
-[**How to fix "This application is missing a package manifest (.nuspec)" error**](https://github.com/CollapseLauncher/Collapse/issues/642#issuecomment-2561964296)
+# What's new? - 1.82.13 [Hotfix]
+- **[Loc]** Localization Sync from Transifex, by Localizers <3
+- **[Fix]** **[Regression]** False "Obsolete Version" detection on Sophon method while the update is actually available, by @neon-nyan
+- **[Fix]** Crash due to ``NullReferenceException`` while ``ToastCOM``'s ``NotificationService`` is failing to initialize, by @neon-nyan
+- **[Imp + Fix]** UI Improvements, by @shatyuka
+  - Update overlay mask on Image Cropping dialog
+  - Hide all invisible system buttons
+  - Implement Taskbar State/Progress API (will be used in the future)
+  - Fix repair status flicker
+- **[Fix]** **[Regression]** Crash while checking Cache files on Honkai Impact 3rd, by @neon-nyan
+- **[Fix]** Fix more Issues on Sophon, by @neon-nyan
+  - 0 total size on display while falling back from Update to Install mode on Sophon
+  - Double logging while falling back from Update to Install mode on Sophon
+- **[Fix]** **[ZZZ GSP]** Wrong index assigned to the resolution list and width rounding issue, by @neon-nyan
+  - If the default resolution exist on the fullscreen resolution list, the index of that resolution will be shifted to the first index. Previously in Collapse, it was manually added to the top while it actually not deleted to the fullscreen list, making it duplicated. Now, it should matches the behaviour
+  - Some resolution which have rounding digits might have displayed incorrectly.
+  ![Untitled-4](https://github.com/user-attachments/assets/c54c4a4d-5983-4833-8478-a727e41b28a6)
 
 # What's new? - 1.82.12 [Hotfix]
 - **[Fix]** Failure when installing sophon, by @neon-nyan 
