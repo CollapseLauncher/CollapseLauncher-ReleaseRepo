@@ -2,6 +2,42 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
+# What's new? - 1.82.14
+- **[Imp]** Optimize Toggling Backdrop Blur effect, by @shatyuka 
+- **[Imp]** Enhanced network exception filtering, by @bagusnl 
+- **[Fix]** Playtime flyout not opening/closing in certain conditions, by @shatyuka 
+- **[Imp]** Optimize language resource loading time, by @shatyuka 
+- **[Imp]** Refactor SteamShortcut methods, by @shatyuka 
+  - Fix types mismatches
+  - Support for multi-languages
+  - Compatibility with new Steam formats
+  - Cache Steam grid images
+  - Waiting for asynchronous image downloads
+- **[Fix]** Text formatting for Git commit link in SettingsPage, by @shatyuka 
+- **[Imp]** SevenZipExtractor improvements, by @neon-nyan 
+  - Add async method for extraction
+  - Add ability to adjust buffer size per method call
+  - Use .NET's built-in COMVariant
+  - Fix archive signature-based checking in ArchiveFile(string) method
+  - Ability to use locally installed 7z xtra binaries
+  - Fix wrong types in IInStream and IOutStream
+  - Use sealed class when needed
+  - Use faster GetDataRawRef unmanaged method when initializing entry
+  - Add proper HResult throw when IInArchive method is failing
+  - Set last write time on extracted files
+  - Added support for extracting encrypted archives
+- **[Imp]** CodeQA on Main project and ColorThief & Win32 submodules, by @neon-nyan 
+- **[New]** Add the ability to disable Zooming behavior for Events panel, by @shatyuka 
+- **[Fix]** [SR] Repair method did not properly write reference file, by @neon-nyan 
+- **[Fix]** Fix performance regression in Zenless settings methods, by @neon-nyan 
+- **[Imp]** Update nuggies, by @neon-nyan 
+- **[New]** Show download and repair progress in Taskbar, by @shatyuka
+- **[New]** Adding HoYoPlay's HDiffMap implementation for patching files with HDiff, by @neon-nyan
+  - This process is going to be used starting on Honkai: Star Rail 3.0 update. Also, this feature is implemented to avoid files being unable to get patched due to changes in HDiff mapping format.
+  - The entire reason this version had to be pushed early, tank
+- **[New]** Implement DLSS option for Honkai: Star Rail Game Settings, by @Cryotechnic & @shatyuka 
+- **[Loc]** Sync locales, by localizers <3
+
 # What's new? - 1.82.13 [Hotfix]
 - **[Loc]** Localization Sync from Transifex, by Localizers <3
 - **[Fix]** **[Regression]** False "Obsolete Version" detection on Sophon method while the update is actually available, by @neon-nyan
