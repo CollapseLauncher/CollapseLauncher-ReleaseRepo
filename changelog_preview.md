@@ -2,6 +2,29 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
+# What's new? - 1.82.15
+- **[Fix]** Taskbar progress did not disappear after game install/update, by @shatyuka 
+- **[Imp]** Use Persistent folder for Audio VO when possible, by @neon-nyan 
+- **[Fix]** Lock .NET SDK version to 9.0.1, by @bagusnl 
+- **[New]** Check for UAC availability status, by @shatyuka 
+  - UAC is needed for the game, when it's disabled it might give "Anti-cheat error" message and refusing to run the game. In this case, we might not recommend you to use debloated Windows Scripts/ISOs to avoid any compatibility issues.
+- **[Imp]** CodeQA based on Qodana and ReSharper suggestions, by @neon-nyan 
+- **[New]** Introducing ``Hash`` extension for hashing ``FileStream``, ``string``, ``Span<T>`` and ``FileInfo`` with both synchronous and asynchronous version of the methods. The methods uses generic type of any member of ``HashAlgorithm`` (Such as: ``MD5``, ``SHA#``, ``HMACSHA#``, etc.) and ``NonCryptographicHashAlgorithm`` (Such as: ``Crc32``, ``XxHash#``, etc.) to specify which kind of hash to be used, by @neon-nyan 
+- **[Imp]** Separating ``InternalAppJSONContext`` members into its own ``JsonContext``, by @neon-nyan 
+- **[Imp]** Update H.NotifyIcon to work with CsWin32 v0.3.162, by @neon-nyan 
+- **[Imp]** Update NuGet packages, by @neon-nyan & @bagusnl 
+- **[Imp]** Recompile and Update StaticLibs for NativeAOT libraries link, by @neon-nyan 
+  - Update Rust compiler for ``csharp_bindings`` to rustc 1.84.0 (9fc6b4312 2025-01-07) (Stable)
+  - Remove dependency to ``MSVCRT`` library (Manual VC++ 2019/2022 Redist installation should no longer be needed) and fully utilize ``UCRT`` as its runtime library.
+  - Update libwebp libraries to: https://github.com/webmproject/libwebp/tree/f8f241071001e1a3807f34a26a03a742ea843458
+  - Favor speed + inline optimizaton build (/O2 + /Ob2 + /Oi + /Ot)
+  - Recompile all static libraries using Microsoft Visual C++ 2022 (19.43.34618) compiler.
+  - Optimize Rust library, ``csharp_bindings`` to use full LTO.
+- **[Imp]** Update dependency submodules, by @neon-nyan
+- **[Imp]** Switch from managed ``Process`` to directly use Win32 APIs on ``ProcessChecker``, by @neon-nyan
+- **[Imp] [ZZZ GSP]** Change ``High-Precision Character Animation`` option from Checkbox to ComboBox and add two other options: ``Dynamic`` and ``Global``, by @neon-nyan
+- **[Loc]** Sync locales, by localizers <3
+
 # What's new? - 1.82.14
 - **[Imp]** Optimize Toggling Backdrop Blur effect, by @shatyuka 
 - **[Imp]** Enhanced network exception filtering, by @bagusnl 
