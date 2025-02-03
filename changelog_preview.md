@@ -2,6 +2,22 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
+# Note
+Due to amount of changes being made into our codebases, we only push 1.82.16 update to preview release. Another thing to mention is that due to some bug fixes and performance related improvements in 1.82.16, we are moving the schedule for the next update of stable release (1.82.17) to at least, in the next week. If you feel this build is buggy for you, let us know and fallback to stable until further notice.
+We are sorry for the inconvenience.
+
+# What's new? - 1.82.16
+- **[Fix]** Errors when updating game that uses HDiff, by @neon-nyan 
+- **[Imp]** Update dependencies, by @neon-nyan
+- **[Imp]** Reduce CPU overhead by swapping ``SoftwareBitmap`` to ``CanvasDevice`` and ``CanvasBitmap`` to draw video frames while "Acrylic Effect" mode enabled, by @neon-nyan 
+  - This reduces CPU overhead by removing routines to copy the video frames from software-based ``SoftwareBitmap``, and instead use Direct3D-based ``CanvasBitmap`` as the frame source.
+  - However, this improvement still runs single-threaded due to the copy routine still being done on the same thread as the UI thread.
+- **[Imp]** Execute metadata config download and loading in parallel, by @neon-nyan 
+  - Instead of running the metadata download/update/load routine sequentially, the process will now be running in parallel at the same time. Making the metadata loading runs faster.
+- **[Imp]** Reduce UI hangs while switching between regions, by @neon-nyan 
+- **[Fix]** Crash when clicking any Community Tools buttons, by @neon-nyan 
+- **[Fix]** Regression where some Game Settings might not refresh the page when Registry changes occurred outside of the launcher, by @neon-nyan
+
 # What's new? - 1.82.15
 - **[Fix]** Taskbar progress did not disappear after game install/update, by @shatyuka 
 - **[Imp]** Use Persistent folder for Audio VO when possible, by @neon-nyan 
