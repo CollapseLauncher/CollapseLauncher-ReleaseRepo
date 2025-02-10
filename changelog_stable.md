@@ -2,6 +2,73 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
+# Hello Sharks! 🦈 
+We are releasing another version for stable release after a month since the last one (1.82.14).
+This version focused on Bug Fixes, especially with IO_SharingViolationException errors, other bunch of minor performance improvements on Video background playback with Acrylic Effects enabled and reducing UI hangs while navigating between games/regions.
+
+# Servicing/Maintenance Mode Phase
+Version 1.82.17 will mark as the 1.82.xxx releases enters "**Servicing/Maintenance Mode**", meaning that 1.82.xxx releases will no longer get any improvements or new features, unless any urgent changes or bug fixes that need to be pushed or backported.
+
+We are going to plan other new features, improvements and changes to be pushed in later release, 1.83.xxx.
+Hit us on our Official Discord or Create an Issue if you have ideas what features or changes you want to have in later 1.83.xxx or future release.
+
+More information regarding the changes can also be found in the changelog below👇
+
+# What's new ? - 1.82.17
+- **[Fix]** Regex calculation timed out, by @neon-nyan 
+- **[Imp]** Optimize CombineUrlFromString function, by @neon-nyan 
+  - Up to 58% faster while using 75% less memory.
+  - [Read more](https://github.com/CollapseLauncher/Hi3Helper.EncTool/commit/2834b5d1ed03ee55ce968358b7333a449fceabc5#commitcomment-152132480)
+- **[New]** Confirm before doing forced launcher update, by @neon-nyan 
+- **[Fix]** Retry game property loading if it fails, by @neon-nyan 
+- **[Imp]** Update dependencies, by @bagusnl 
+  - Win2D 1.3.1 -> 1.3.2
+  - Sentry 5.0.1 -> 5.1.0
+- **[New]** Prevent user to close launcher when critical operation is in progress, by @bagusnl 
+- **[Fix]** Taskbar progress does not disappear after game installation, by @shatyuka 
+- **[Fix]** Keyboard shortcut that depends on game property (e.g. open Screenshot button) not working, by @gablm 
+- **[Fix]** Local notification data not saved, by @gablm 
+- **[Imp]** Bring window to the top before closing launcher, by @neon-nyan 
+- **[New]** User feedback form on exception dialog, by @neon-nyan & @bagusnl 
+  - User now can fill a feedback form telling us what happened when an Exception dialog is raised
+  - This feature (currently) **requires** error collection to be enabled and working (able to connect to Sentry's server)
+  - [Read more](https://github.com/CollapseLauncher/Collapse/pull/683)
+
+# What's new? - 1.82.16
+- **[Fix]** Errors when updating game that uses HDiff, by @neon-nyan 
+- **[Imp]** Update dependencies, by @neon-nyan
+- **[Imp]** Reduce CPU overhead by swapping ``SoftwareBitmap`` to ``CanvasDevice`` and ``CanvasBitmap`` to draw video frames while "Acrylic Effect" mode enabled, by @neon-nyan 
+  - This reduces CPU overhead by removing routines to copy the video frames from software-based ``SoftwareBitmap``, and instead use Direct3D-based ``CanvasBitmap`` as the frame source.
+  - However, this improvement still runs single-threaded due to the copy routine still being done on the same thread as the UI thread.
+- **[Imp]** Execute metadata config download and loading in parallel, by @neon-nyan 
+  - Instead of running the metadata download/update/load routine sequentially, the process will now be running in parallel at the same time. Making the metadata loading runs faster.
+- **[Imp]** Reduce UI hangs while switching between regions, by @neon-nyan 
+- **[Fix]** Crash when clicking any Community Tools buttons, by @neon-nyan 
+- **[Fix]** Regression where some Game Settings might not refresh the page when Registry changes occurred outside of the launcher, by @neon-nyan
+
+# What's new? - 1.82.15
+- **[Fix]** Taskbar progress did not disappear after game install/update, by @shatyuka 
+- **[Imp]** Use Persistent folder for Audio VO when possible, by @neon-nyan 
+- **[Fix]** Lock .NET SDK version to 9.0.1, by @bagusnl 
+- **[New]** Check for UAC availability status, by @shatyuka 
+  - UAC is needed for the game, when it's disabled it might give "Anti-cheat error" message and refusing to run the game. In this case, we might not recommend you to use debloated Windows Scripts/ISOs to avoid any compatibility issues.
+- **[Imp]** CodeQA based on Qodana and ReSharper suggestions, by @neon-nyan 
+- **[New]** Introducing ``Hash`` extension for hashing ``FileStream``, ``string``, ``Span<T>`` and ``FileInfo`` with both synchronous and asynchronous version of the methods. The methods uses generic type of any member of ``HashAlgorithm`` (Such as: ``MD5``, ``SHA#``, ``HMACSHA#``, etc.) and ``NonCryptographicHashAlgorithm`` (Such as: ``Crc32``, ``XxHash#``, etc.) to specify which kind of hash to be used, by @neon-nyan 
+- **[Imp]** Separating ``InternalAppJSONContext`` members into its own ``JsonContext``, by @neon-nyan 
+- **[Imp]** Update H.NotifyIcon to work with CsWin32 v0.3.162, by @neon-nyan 
+- **[Imp]** Update NuGet packages, by @neon-nyan & @bagusnl 
+- **[Imp]** Recompile and Update StaticLibs for NativeAOT libraries link, by @neon-nyan 
+  - Update Rust compiler for ``csharp_bindings`` to rustc 1.84.0 (9fc6b4312 2025-01-07) (Stable)
+  - Remove dependency to ``MSVCRT`` library (Manual VC++ 2019/2022 Redist installation should no longer be needed) and fully utilize ``UCRT`` as its runtime library.
+  - Update libwebp libraries to: https://github.com/webmproject/libwebp/tree/f8f241071001e1a3807f34a26a03a742ea843458
+  - Favor speed + inline optimizaton build (/O2 + /Ob2 + /Oi + /Ot)
+  - Recompile all static libraries using Microsoft Visual C++ 2022 (19.43.34618) compiler.
+  - Optimize Rust library, ``csharp_bindings`` to use full LTO.
+- **[Imp]** Update dependency submodules, by @neon-nyan
+- **[Imp]** Switch from managed ``Process`` to directly use Win32 APIs on ``ProcessChecker``, by @neon-nyan
+- **[Imp] [ZZZ GSP]** Change ``High-Precision Character Animation`` option from Checkbox to ComboBox and add two other options: ``Dynamic`` and ``Global``, by @neon-nyan
+- **[Loc]** Sync locales, by localizers <3
+
 # What's new? - 1.82.14
 - **[Imp]** Optimize Toggling Backdrop Blur effect, by @shatyuka 
 - **[Imp]** Enhanced network exception filtering, by @bagusnl 
