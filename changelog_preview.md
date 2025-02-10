@@ -2,6 +2,26 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
+# What's new ? - 1.82.17
+- **[Fix]** Regex calculation timed out, by @neon-nyan
+- **[Imp]** Optimize CombineUrlFromString function, by @neon-nyan
+  - Up to 58% faster while using 75% less memory.
+  - [Read more](https://github.com/CollapseLauncher/Hi3Helper.EncTool/commit/2834b5d1ed03ee55ce968358b7333a449fceabc5#commitcomment-152132480)
+- **[New]** Confirm before doing forced launcher update, by @neon-nyan
+- **[Fix]** Retry game property loading if it fails, by @neon-nyan
+- **[Imp]** Update dependencies, by @bagusnl
+  - Win2D 1.3.1 -> 1.3.2
+  - Sentry 5.0.1 -> 5.1.0
+- **[New]** Prevent user to close launcher when critical operation is in progress, by @bagusnl
+- **[Fix]** Taskbar progress does not disappear after game installation, by @shatyuka
+- **[Fix]** Keyboard shortcut that depends on game property (e.g. open Screenshot button) not working, by @gablm
+- **[Fix]** Local notification data not saved, by @gablm
+- **[Imp]** Bring window to the top before closing launcher, by @neon-nyan
+- **[New]** User feedback form on exception dialog, by @neon-nyan & @bagusnl
+  - User now can fill a feedback form telling us what happened when an Exception dialog is raised
+  - This feature (currently) **requires** error collection to be enabled and working (able to connect to Sentry's server)
+  - [Read more](https://github.com/CollapseLauncher/Collapse/pull/683)
+
 # Note
 Due to amount of changes being made into our codebases, we only push 1.82.16 update to preview release. Another thing to mention is that due to some bug fixes and performance related improvements in 1.82.16, we are moving the schedule for the next update of stable release (1.82.17) to at least, in the next week. If you feel this build is buggy for you, let us know and fallback to stable until further notice.
 We are sorry for the inconvenience.
