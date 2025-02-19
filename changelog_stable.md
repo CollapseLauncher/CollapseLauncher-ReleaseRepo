@@ -2,10 +2,6 @@
 
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
-# Hello Sharks! 🦈 
-We are releasing another version for stable release after a month since the last one (1.82.14).
-This version focused on Bug Fixes, especially with IO_SharingViolationException errors, other bunch of minor performance improvements on Video background playback with Acrylic Effects enabled and reducing UI hangs while navigating between games/regions.
-
 # Servicing/Maintenance Mode Phase
 Version 1.82.17 will mark as the 1.82.xxx releases enters "**Servicing/Maintenance Mode**", meaning that 1.82.xxx releases will no longer get any improvements or new features, unless any urgent changes or bug fixes that need to be pushed or backported.
 
@@ -13,6 +9,13 @@ We are going to plan other new features, improvements and changes to be pushed i
 Hit us on our Official Discord or Create an Issue if you have ideas what features or changes you want to have in later 1.83.xxx or future release.
 
 More information regarding the changes can also be found in the changelog below👇
+
+# What's changed? - 1.82.18
+- **[Fix]** Launcher crashing when the main game thread unexpectedly closes, by @neon-nyan
+- **[Fix]** Taskbar progress not reset after game install/update, by @shatyuka
+- **[Fix]** Ensures temporary files availability, by @neon-nyan
+- **[Fix]** 7z COMException errors, by @neon-nyan
+- **[Fix]** Genshin's repair missing a few files, by @neon-nyan
 
 # What's new ? - 1.82.17
 - **[Fix]** Regex calculation timed out, by @neon-nyan 
