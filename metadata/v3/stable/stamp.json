@@ -1,6 +1,6 @@
 [
   {
-    "LastUpdated": 20250109101416,
+    "LastUpdated": 20250220135200,
     "MetadataPath": "config_Hi3SEA.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -9,7 +9,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20250109101416,
+    "LastUpdated": 20250220135200,
     "MetadataPath": "config_Hi3Global.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
