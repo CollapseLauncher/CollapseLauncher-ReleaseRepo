@@ -3,29 +3,12 @@
 > We have just published our new landing page, which you can view at https://collapselauncher.com !
 
 # Servicing/Maintenance Mode Phase
-Version 1.82.17 onwards will mark as the 1.82.xxx releases enters "**Servicing/Maintenance Mode**", meaning that 1.82.xxx releases will no longer get any improvements or new features, unless any urgent changes or bug fixes that need to be pushed or backported.
+Version 1.82.17 will mark as the 1.82.xxx releases enters "**Servicing/Maintenance Mode**", meaning that 1.82.xxx releases will no longer get any improvements or new features, unless any urgent changes or bug fixes that need to be pushed or backported.
 
 We are going to plan other new features, improvements and changes to be pushed in later release, 1.83.xxx.
 Hit us on our Official Discord or Create an Issue if you have ideas what features or changes you want to have in later 1.83.xxx or future release.
 
 More information regarding the changes can also be found in the changelog below👇
-
-# What's changed? - 1.82.19
-- **[Fix]** Carousel keep running in background, by @neon-nyan 
-- **[Fix]** [ZZZ GSP] Windowed resolution is in wrong order, by @neon-nyan 
-- **[Fix]** Crash when spawning background activity notification, by @neon-nyan 
-- **[Fix]** [SR Repair] Prevent hash file marked as unused, by @neon-nyan 
-- **[Fix]** Notification not bring up window after click, by @neon-nyan 
-- **[New]** [SR GSP] Deprecate Mobile mode feature, by @bagusnl 
-  - Due to the last game changes causing the feature to not work anymore and fixing it requires memory injection which we do not do (see contribution guidelines) 
-  - Users can still toggle the settings, but warning is in place
-- **[Fix]** Notification toast does not bring up the main window, by @neon-nyan 
-  - Thanks Microsoft, for another undocumented thing you need to do to have a Windows app working!
-- **[Loc]** Sync localization, thanks localizers <3
-  - Massive sync up for ko-KR locale, thanks Youras65, DY3413, @despenser08 (sorry if I missed any one)
-- **[Doc]** Updated legal documentations to match up the year, by @bagusnl 
-
-![march7tpn](https://github.com/user-attachments/assets/42c8befb-bbab-46c9-852b-06626e341f48)
 
 # What's changed? - 1.82.18
 - **[Fix]** Launcher crashing when the main game thread unexpectedly closes, by @neon-nyan
