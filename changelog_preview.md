@@ -10,6 +10,17 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog below👇
 
+# What's changed? - 1.82.21 (9+10 Edition)
+- **[Fix]** Update .NET to 9.0.3 due to CVE-2025-24070, by @bagusnl 
+  - We are not directly affected but due to the high score of the vuln, we have to update.
+  - Read more about the vuln here https://github.com/advisories/GHSA-2865-hh9g-w894
+- **[Fix]** Proxy with password always return invalid password, by @neon-nyan 
+- **[Fix]** Duplicated entries in Zenless repair, by @neon-nyan 
+- **[Fix]** Missing margin in HomePage's Additional Settings subpanel, by @shatyuka 
+- **[Fix]** Taskbar progress bar did not reset after update is finished, by @shatyuka 
+- **[New]** Anisotropic Filtering in Zenless game settings, by @Cryotechnic 
+- **[Fix]** Playtime database did not sync if database stamp is null, by @bagusnl 
+
 # What's changed? - 1.82.20
 - **[Fix]** Hard crash on portable build due to missing Shortcut containing AUMID needed for toast notification, from @neon-nyan
 
