@@ -246,8 +246,15 @@
                 "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
                 "IconGlyph": "",
                 "Text": "ER Build Guide",
-                "URL": "https://rentry.org/ElysianRealm",
+                "URL": "https://risbi0.github.io/Elysian-Realm",
                 "Profiles": ["Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP"]
+            },
+            {
+              "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+              "IconGlyph": "\uF02D",
+              "Text": "Marisa Impact",
+              "URL": "https://marisaimpact.com/",
+              "Profiles": ["Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP"]
             },
             {
                 "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeBrand6.otf#Font Awesome 6 Brands",
