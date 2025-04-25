@@ -1,505 +1,505 @@
 {
-    "OfficialToolsDictionary": {
-        "Honkai": [
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Daily Check-in",
-                "URL": "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111",
-                "Profiles": ["Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "HoYoLab Website",
-                "URL": "https://www.hoyolab.com/circles/1/34",
-                "Profiles": ["Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Honkai Impact 3rd Wiki",
-                "URL": "https://honkaiimpact3.fandom.com",
-                "Profiles": ["Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Battle Chronicle",
-                "URL": "https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=1",
-                "Profiles": ["Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "米游社",
-                "URL": "https://www.miyoushe.com/bh3/",
-                "Profiles": ["Hi3CN"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "官方 Wiki",
-                "URL": "https://bbs.mihoyo.com/bh3/wiki/",
-                "Profiles": ["Hi3CN"]
-            }
-        ],
-        "Genshin": [
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Daily Check-in",
-                "URL": "https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "HoYoLab Website",
-                "URL": "https://www.hoyolab.com/circles/2/28",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Genshin Impact Wiki",
-                "URL": "https://wiki.hoyolab.com/pc/genshin/home",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Redeem Codes",
-                "URL": "https://genshin.hoyoverse.com/gift",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Battle Chronicle",
-                "URL": "https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=2",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "\uF1B0",
-                "Text": "Card Plaza",
-                "URL": "https://act.hoyolab.com/ys/event/bbs-lineup-qskp/index.html",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "米游社",
-                "URL": "https://www.miyoushe.com/ys/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "观测枢·攻略",
-                "URL": "https://bbs.mihoyo.com/ys/strategy/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "观测枢·Wiki",
-                "URL": "https://bbs.mihoyo.com/ys/obc/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "\uF1B0",
-                "Text": "卡牌广场",
-                "URL": "https://webstatic.mihoyo.com/ys/event/bbs-lineup-qskp/index.html",
-                "Profiles": ["GICN", "GICNBilibili"]
-            }
-        ],
-        "StarRail": [
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Daily Check-in",
-                "URL": "https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "HoYoLab Website",
-                "URL": "https://www.hoyolab.com/circles/6/42",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Honkai: Star Rail Wiki",
-                "URL": "https://wiki.hoyolab.com/pc/hsr/home",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Redeem Codes",
-                "URL": "https://hsr.hoyoverse.com/gift",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Battle Records",
-                "URL": "https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=6",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "\uF552",
-                "Text": "Game Tools",
-                "URL": "https://act.hoyolab.com/sr/event/cultivation-tool/index.html",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "米游社",
-                "URL": "https://www.miyoushe.com/sr/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "官方 Wiki",
-                "URL": "https://bbs.mihoyo.com/sr/wiki/",
-                "Profiles": ["SRCN", "HSRCNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "\uF552",
-                "Text": "游戏工具",
-                "URL": "https://act.mihoyo.com/sr/event/cultivation-tool/index.html",
-                "Profiles": ["SRCN", "HSRCNBilibili"]
-            }
-        ],
-        "Zenless": [
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Daily Check-in",
-                "URL": "https://act.hoyolab.com/bbs/event/signin/zzz/index.html?act_id=e202406031448091",
-                "Profiles": ["ZZZGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "HoYoLab Website",
-                "URL": "https://www.hoyolab.com/circles/8/46",
-                "Profiles": ["ZZZGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Zenless Zone Zero Wiki",
-                "URL": "https://wiki.hoyolab.com/pc/zzz/home",
-                "Profiles": ["ZZZGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Redeem Codes",
-                "URL": "https://zenless.hoyoverse.com/redemption",
-                "Profiles": ["ZZZGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Battle Records",
-                "URL": "https://act.hoyolab.com/app/mihoyo-zzz-game-record/index.html",
-                "Profiles": ["ZZZGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "米游社",
-                "URL": "https://www.miyoushe.com/zzz/",
-                "Profiles": ["ZZZCN"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "绳网情报站",
-                "URL": "https://baike.mihoyo.com/zzz/wiki/",
-                "Profiles": ["ZZZCN"]
-            }
-        ]
-    },
-    "CommunityToolsDictionary": {
-        "Honkai": [
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Reddit Community",
-                "URL": "https://www.reddit.com/r/HonkaiImpact3rd",
-                "Profiles": ["Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "ER Build Guide",
-                "URL": "https://rentry.org/ElysianRealm",
-                "Profiles": ["Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP"]
-            },
-            {
-              "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-              "IconGlyph": "\uF02D",
-              "Text": "Marisa Impact",
-              "URL": "https://marisaimpact.com/",
-              "Profiles": ["Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeBrand6.otf#Font Awesome 6 Brands",
-                "IconGlyph": "",
-                "Text": "BWIKI",
-                "URL": "https://wiki.biligame.com/bh3/",
-                "Profiles": ["Hi3CN"]
-            }
-        ],
-        "Genshin": [
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "paimon.moe",
-                "URL": "https://paimon.moe",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Enka Network",
-                "URL": "https://enka.network",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "seelie.me",
-                "URL": "https://seelie.me",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Genshin Optimizer",
-                "URL": "https://frzyc.github.io/genshin-optimizer",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Inventory Kamera",
-                "URL": "https://github.com/Andrewthe13th/Inventory_Kamera$OpenExternalApp:ApplicationName=Inventory Kamera,ApplicationExecName=InventoryKamera.exe,RunAsAdmin=true$OpenUrlIfCancel",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Kongying Map",
-                "URL": "https://yuanshen.site/docs/en/$OpenExternalApp:ApplicationName=Kongying Map,ApplicationExecName=Map.exe,RunAsAdmin=true$OpenUrlIfCancel",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "akasha.cv",
-                "URL": "https://akasha.cv",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Genshin Configurator",
-                "URL": "https://github.com/Myp3a/GenshinConfigurator/$OpenExternalApp:ApplicationName=Genshin Impact Configurator,ApplicationExecName=GenshinConfigurator*.exe,RunAsAdmin=true$OpenUrlIfCancel",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Guides by KQM",
-                "URL": "https://keqingmains.com",
-                "Profiles": ["GIGlb", "GIGlbGPlay"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "非小酋",
-                "URL": "https://feixiaoqiu.com/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "椰羊",
-                "URL": "https://cocogoat.work/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "莫娜占卜铺",
-                "URL": "https://mona-uranai.com/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "胡桃工具箱",
-                "URL": "https://hut.ao/zh/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeBrand6.otf#Font Awesome 6 Brands",
-                "IconGlyph": "",
-                "Text": "BWIKI",
-                "URL": "https://wiki.biligame.com/ys/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "爱丽丝工坊",
-                "URL": "https://genshin.kchlu.com/",
-                "Profiles": ["GICN", "GICNBilibili"]
-            }
-        ],
-        "StarRail": [
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "pom.moe",
-                "URL": "https://pom.moe/",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Project Yatta (HSR)",
-                "URL": "https://hsr.yatta.top/",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Star Rail Station",
-                "URL": "https://starrailstation.com/",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "prydwen.gg",
-                "URL": "https://www.prydwen.gg/star-rail/",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Guides by KQM",
-                "URL": "https://hsr.keqingmains.com",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "\uE0BB",
-                "Text": "Pokke's Library",
-                "URL": "https://pokkelibrary.com/",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "Enka Network",
-                "URL": "https://enka.network/?hsr",
-                "Profiles": ["SRGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "非小酋",
-                "URL": "https://feixiaoqiu.com/",
-                "Profiles": ["SRCN", "HSRCNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeBrand6.otf#Font Awesome 6 Brands",
-                "IconGlyph": "",
-                "Text": "BWIKI",
-                "URL": "https://wiki.biligame.com/sr/",
-                "Profiles": ["SRCN", "HSRCNBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "爱丽丝工坊",
-                "URL": "https://starrail.kchlu.com/",
-                "Profiles": ["SRCN", "HSRCNBilibili"]
-            },
-            {
-              "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-              "IconGlyph": "",
-              "Text": "椰羊",
-              "URL": "https://cocogoat.work/",
-              "Profiles": ["SRCN", "HSRCNBilibili"]
-            }
-        ],
-        "Zenless": [
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "prydwen.gg",
-                "URL": "https://www.prydwen.gg/zenless/",
-                "Profiles": ["ZZZGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "\uF1C0",
-                "Text": "zzz.gg",
-                "URL": "https://zzz.gg/",
-                "Profiles": ["ZZZGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "\uF002",
-                "Text": "GameGazer",
-                "URL": "https://www.gamegazer.gg/zenless-zone-zero/",
-                "Profiles": ["ZZZGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "",
-                "Text": "rng.moe Signal Tracker",
-                "URL": "https://zzz.rng.moe/en/tracker",
-                "Profiles": ["ZZZGlb"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeBrand6.otf#Font Awesome 6 Brands",
-                "IconGlyph": "",
-                "Text": "BWIKI",
-                "URL": "https://wiki.biligame.com/zzz/",
-                "Profiles": ["ZZZCN", "ZZZBilibili"]
-            },
-            {
-                "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-                "IconGlyph": "\uF1C0",
-                "Text": "中文数据库",
-                "URL": "https://www.zzzwiki.cn/",
-                "Profiles": ["ZZZCN", "ZZZBilibili"]
-            },
-            {
-              "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
-              "IconGlyph": "",
-              "Text": "椰羊",
-              "URL": "https://cocogoat.work/",
-              "Profiles": ["ZZZCN", "ZZZBilibili"]
-            }
-        ]
-    }
+  "OfficialToolsDictionary": {
+    "Honkai": [
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Daily Check-in",
+        "URL": "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111",
+        "Profiles": [ "Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "HoYoLab Website",
+        "URL": "https://www.hoyolab.com/circles/1/34",
+        "Profiles": [ "Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Honkai Impact 3rd Wiki",
+        "URL": "https://honkaiimpact3.fandom.com",
+        "Profiles": [ "Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Battle Chronicle",
+        "URL": "https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=1",
+        "Profiles": [ "Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "米游社",
+        "URL": "https://www.miyoushe.com/bh3/",
+        "Profiles": [ "Hi3CN" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "官方 Wiki",
+        "URL": "https://bbs.mihoyo.com/bh3/wiki/",
+        "Profiles": [ "Hi3CN" ]
+      }
+    ],
+    "Genshin": [
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Daily Check-in",
+        "URL": "https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "HoYoLab Website",
+        "URL": "https://www.hoyolab.com/circles/2/28",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Genshin Impact Wiki",
+        "URL": "https://wiki.hoyolab.com/pc/genshin/home",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Redeem Codes",
+        "URL": "https://genshin.hoyoverse.com/gift",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Battle Chronicle",
+        "URL": "https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=2",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "\uF1B0",
+        "Text": "Card Plaza",
+        "URL": "https://act.hoyolab.com/ys/event/bbs-lineup-qskp/index.html",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "米游社",
+        "URL": "https://www.miyoushe.com/ys/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "观测枢·攻略",
+        "URL": "https://bbs.mihoyo.com/ys/strategy/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "观测枢·Wiki",
+        "URL": "https://bbs.mihoyo.com/ys/obc/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "\uF1B0",
+        "Text": "卡牌广场",
+        "URL": "https://webstatic.mihoyo.com/ys/event/bbs-lineup-qskp/index.html",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      }
+    ],
+    "StarRail": [
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Daily Check-in",
+        "URL": "https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "HoYoLab Website",
+        "URL": "https://www.hoyolab.com/circles/6/42",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Honkai: Star Rail Wiki",
+        "URL": "https://wiki.hoyolab.com/pc/hsr/home",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Redeem Codes",
+        "URL": "https://hsr.hoyoverse.com/gift",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Battle Records",
+        "URL": "https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=6",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "\uF552",
+        "Text": "Game Tools",
+        "URL": "https://act.hoyolab.com/sr/event/cultivation-tool/index.html",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "米游社",
+        "URL": "https://www.miyoushe.com/sr/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "官方 Wiki",
+        "URL": "https://bbs.mihoyo.com/sr/wiki/",
+        "Profiles": [ "SRCN", "HSRCNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "\uF552",
+        "Text": "游戏工具",
+        "URL": "https://act.mihoyo.com/sr/event/cultivation-tool/index.html",
+        "Profiles": [ "SRCN", "HSRCNBilibili" ]
+      }
+    ],
+    "Zenless": [
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Daily Check-in",
+        "URL": "https://act.hoyolab.com/bbs/event/signin/zzz/index.html?act_id=e202406031448091",
+        "Profiles": [ "ZZZGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "HoYoLab Website",
+        "URL": "https://www.hoyolab.com/circles/8/46",
+        "Profiles": [ "ZZZGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Zenless Zone Zero Wiki",
+        "URL": "https://wiki.hoyolab.com/pc/zzz/home",
+        "Profiles": [ "ZZZGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Redeem Codes",
+        "URL": "https://zenless.hoyoverse.com/redemption",
+        "Profiles": [ "ZZZGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Battle Records",
+        "URL": "https://act.hoyolab.com/app/mihoyo-zzz-game-record/index.html",
+        "Profiles": [ "ZZZGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "米游社",
+        "URL": "https://www.miyoushe.com/zzz/",
+        "Profiles": [ "ZZZCN" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "绳网情报站",
+        "URL": "https://baike.mihoyo.com/zzz/wiki/",
+        "Profiles": [ "ZZZCN" ]
+      }
+    ]
+  },
+  "CommunityToolsDictionary": {
+    "Honkai": [
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Reddit Community",
+        "URL": "https://www.reddit.com/r/HonkaiImpact3rd",
+        "Profiles": [ "Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "ER Build Guide",
+        "URL": "https://risbi0.github.io/Elysian-Realm",
+        "Profiles": [ "Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "\uF02D",
+        "Text": "Marisa Impact",
+        "URL": "https://marisaimpact.com/",
+        "Profiles": [ "Hi3SEA", "Hi3Global", "Hi3TW", "Hi3KR", "Hi3JP" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeBrand6.otf#Font Awesome 6 Brands",
+        "IconGlyph": "",
+        "Text": "BWIKI",
+        "URL": "https://wiki.biligame.com/bh3/",
+        "Profiles": [ "Hi3CN" ]
+      }
+    ],
+    "Genshin": [
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "paimon.moe",
+        "URL": "https://paimon.moe",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Enka Network",
+        "URL": "https://enka.network",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "seelie.me",
+        "URL": "https://seelie.me",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Genshin Optimizer",
+        "URL": "https://frzyc.github.io/genshin-optimizer",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Inventory Kamera",
+        "URL": "https://github.com/Andrewthe13th/Inventory_Kamera$OpenExternalApp:ApplicationName=Inventory Kamera,ApplicationExecName=InventoryKamera.exe,RunAsAdmin=true$OpenUrlIfCancel",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Kongying Map",
+        "URL": "https://yuanshen.site/docs/en/$OpenExternalApp:ApplicationName=Kongying Map,ApplicationExecName=Map.exe,RunAsAdmin=true$OpenUrlIfCancel",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "akasha.cv",
+        "URL": "https://akasha.cv",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Genshin Configurator",
+        "URL": "https://github.com/Myp3a/GenshinConfigurator/$OpenExternalApp:ApplicationName=Genshin Impact Configurator,ApplicationExecName=GenshinConfigurator*.exe,RunAsAdmin=true$OpenUrlIfCancel",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Guides by KQM",
+        "URL": "https://keqingmains.com",
+        "Profiles": [ "GIGlb", "GIGlbGPlay" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "非小酋",
+        "URL": "https://feixiaoqiu.com/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "椰羊",
+        "URL": "https://cocogoat.work/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "莫娜占卜铺",
+        "URL": "https://mona-uranai.com/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "胡桃工具箱",
+        "URL": "https://hut.ao/zh/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeBrand6.otf#Font Awesome 6 Brands",
+        "IconGlyph": "",
+        "Text": "BWIKI",
+        "URL": "https://wiki.biligame.com/ys/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "爱丽丝工坊",
+        "URL": "https://genshin.kchlu.com/",
+        "Profiles": [ "GICN", "GICNBilibili" ]
+      }
+    ],
+    "StarRail": [
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "pom.moe",
+        "URL": "https://pom.moe/",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Project Yatta (HSR)",
+        "URL": "https://hsr.yatta.top/",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Star Rail Station",
+        "URL": "https://starrailstation.com/",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "prydwen.gg",
+        "URL": "https://www.prydwen.gg/star-rail/",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Guides by KQM",
+        "URL": "https://hsr.keqingmains.com",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "\uE0BB",
+        "Text": "Pokke's Library",
+        "URL": "https://pokkelibrary.com/",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "Enka Network",
+        "URL": "https://enka.network/?hsr",
+        "Profiles": [ "SRGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "非小酋",
+        "URL": "https://feixiaoqiu.com/",
+        "Profiles": [ "SRCN", "HSRCNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeBrand6.otf#Font Awesome 6 Brands",
+        "IconGlyph": "",
+        "Text": "BWIKI",
+        "URL": "https://wiki.biligame.com/sr/",
+        "Profiles": [ "SRCN", "HSRCNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "爱丽丝工坊",
+        "URL": "https://starrail.kchlu.com/",
+        "Profiles": [ "SRCN", "HSRCNBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "椰羊",
+        "URL": "https://cocogoat.work/",
+        "Profiles": [ "SRCN", "HSRCNBilibili" ]
+      }
+    ],
+    "Zenless": [
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "prydwen.gg",
+        "URL": "https://www.prydwen.gg/zenless/",
+        "Profiles": [ "ZZZGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "\uF1C0",
+        "Text": "zzz.gg",
+        "URL": "https://zzz.gg/",
+        "Profiles": [ "ZZZGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "\uF002",
+        "Text": "GameGazer",
+        "URL": "https://www.gamegazer.gg/zenless-zone-zero/",
+        "Profiles": [ "ZZZGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "rng.moe Signal Tracker",
+        "URL": "https://zzz.rng.moe/en/tracker",
+        "Profiles": [ "ZZZGlb" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeBrand6.otf#Font Awesome 6 Brands",
+        "IconGlyph": "",
+        "Text": "BWIKI",
+        "URL": "https://wiki.biligame.com/zzz/",
+        "Profiles": [ "ZZZCN", "ZZZBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "\uF1C0",
+        "Text": "中文数据库",
+        "URL": "https://www.zzzwiki.cn/",
+        "Profiles": [ "ZZZCN", "ZZZBilibili" ]
+      },
+      {
+        "IconFontFamily": "ms-appx:///Assets/Fonts/FontAwesomeSolid6.otf#Font Awesome 6 Free Solid",
+        "IconGlyph": "",
+        "Text": "椰羊",
+        "URL": "https://cocogoat.work/",
+        "Profiles": [ "ZZZCN", "ZZZBilibili" ]
+      }
+    ]
+  }
 }
