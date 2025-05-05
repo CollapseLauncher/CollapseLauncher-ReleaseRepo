@@ -6,6 +6,8 @@ Region Push notification MsgId for Hi3KR starts from 4000000 to 4999999
 Region Push notification MsgId for Hi3JP starts from 7000001 to 7999999
 Region Push notification MsgId for GIGlb starts from 5000000 to 5999999 : 5000024 Used
 Region Push notification MsgId for GICN starts from 6000000 to 6999999 : 6000017 Used
+Region Push notification MsgId for GICNBilibili starts from 13000000 to 13999999 : 13000000 Used
+Region Push notification MsgId for GIGlbGPlay starts from 14000000 to 14999999 : 14000000 Used
 Region Push notification MsgId for SRGlb starts from 7000000 to 7999999 : 7000009 Used
 Region Push notification MsgId for SRCN starts from 8000000 to 8999999 : 8000009 Used
 Region Push notification MsgId for HSRCNBilibili starts from 9000000 to 9999999 : 9000009 Used
