@@ -43,48 +43,48 @@
     ],
     "RegionPush": [
         {
-            "MsgId": 5000024,
+            "MsgId": 5000025,
             "IsDisposable": true,
-            "Severity": "Error",
+            "Severity": "Warning",
             "RegionProfile": "GIGlb",
             "Title": "[EN] Notice about Pre-Download Availability",
-            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nThis means that the pre-download feature is no longer available for the time being.\r\nWe are sorry for the inconvenience. A fix is underway, we will release an update to the launcher once validation is complete.",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.83.0 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
-            "TimeBegin": "2025-05-04T00:00:00+08:00",
-            "TimeEnd": "2025-05-12T00:00:00+08:00"
+            "TimeBegin": "2025-05-05T00:00:00+08:00",
+            "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
         {
-            "MsgId": 6000024,
+            "MsgId": 6000025,
             "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "GICN",
-            "Title": "[EN] Notice about Sophon Pre-Download Download Size",
-            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nThis means that the pre-download feature is no longer available for the time being.\r\nWe are sorry for the inconvenience. A fix is underway, we will release an update to the launcher once validation is complete.",
+            "Title": "[EN] Notice about Pre-Download Availability",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.83.0 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
-            "TimeBegin": "2025-05-04T00:00:00+08:00",
-            "TimeEnd": "2025-05-12T00:00:00+08:00"
+            "TimeBegin": "2025-05-05T00:00:00+08:00",
+            "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
         {
-            "MsgId": 13000000,
+            "MsgId": 13000001,
             "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "GICNBilibili",
-            "Title": "[EN] Notice about Sophon Pre-Download Download Size",
-            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nThis means that the pre-download feature is no longer available for the time being.\r\nWe are sorry for the inconvenience. A fix is underway, we will release an update to the launcher once validation is complete.",
+            "Title": "[EN] Notice about Pre-Download Availability",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.83.0 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
-            "TimeBegin": "2025-05-04T00:00:00+08:00",
-            "TimeEnd": "2025-05-12T00:00:00+08:00"
+            "TimeBegin": "2025-05-05T00:00:00+08:00",
+            "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
         {
-            "MsgId": 14000000,
+            "MsgId": 14000001,
             "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "GIGlbGPlay",
-            "Title": "[EN] Notice about Sophon Pre-Download Download Size",
-            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nThis means that the pre-download feature is no longer available for the time being.\r\nWe are sorry for the inconvenience. A fix is underway, we will release an update to the launcher once validation is complete.",
+            "Title": "[EN] Notice about Pre-Download Availability",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.83.0 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
-            "TimeBegin": "2025-05-04T00:00:00+08:00",
-            "TimeEnd": "2025-05-12T00:00:00+08:00"
+            "TimeBegin": "2025-05-05T00:00:00+08:00",
+            "TimeEnd": "2025-05-19T00:00:00+08:00"
         }
     ]
 }
