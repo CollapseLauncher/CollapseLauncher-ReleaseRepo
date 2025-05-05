@@ -10,6 +10,19 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog below👇
 
+# What's changed? - 1.82.22
+- **[Fix]** Honkai Impact 3rd 8.2 Game Repair Changes - Annotated from [**8e9aee2**](https://github.com/CollapseLauncher/Collapse/commit/8e9aee2cd642c08cb3533af5a34b9c0199bf5b72)
+  - This main change was to bring back Game Repair and Delta-Patch support for Stable due to breaking changes that were introduced by HoYo in Honkai Impact 3rd v8.2 update.
+  - The hash have been changed from MD5 to MMH64B and it should now be fully implemented in Collapse.
+  - Let us know if you have any issue with it!
+- **[Imp]** Introduce Sophon Patch Mode - Annotated from [**#714**](https://github.com/CollapseLauncher/Collapse/pull/714)
+  - This changes implements a new update mode for Sophon which is currently in A/B Testing phase for the official HoYoPlay launcher.
+  - Sophon Patch Update mode brings a much improved download pipeline and update efficiency as this method involves not only Copy-Over method, but also Patch-Over method via HDiffPatch.
+  - This results a much smaller download footprint compared to the old Copy-Over only method. As an example of this, we compared Genshin Impact 5.4.0 -> 5.5.0 update between the Old and New method.
+- **[Fix]** Zip to Sophon force fallback - Annotated from [**#733**](https://github.com/CollapseLauncher/Collapse/pull/733)
+  - As per Genshin Impact 5.6.0 preload today, miHoYo just removed Zip packages on HoYoPlay API. This caused our launcher unable to detect or determine update state due to the main dependencies to Zip packages only.
+  - This release fixes the issue by checking if Zip is unavailable, then tell the GameVersionManager to fallback by forcefully redirect the install/update/preload methods to Sophon mode. This releases also fixes the same issue if HoYo might remove the Zip packages to other games in the future.
+
 # What's changed? - 1.82.21 (9+10 Edition)
 - **[Fix]** Update .NET to 9.0.3 due to CVE-2025-24070, by @bagusnl 
   - We are not directly affected but due to the high score of the vuln, we have to update.
