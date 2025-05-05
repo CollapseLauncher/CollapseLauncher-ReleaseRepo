@@ -3,102 +3,48 @@
     ],
     "RegionPush": [
         {
-            "MsgId": 10000001,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "ZZZGlb",
-            "Title": "[EN] 'Game data has been updated' message in-game",
-            "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
-            "Show": false,
-            "TimeBegin": "2024-12-22T00:00:00+08:00",
-            "TimeEnd": "2025-01-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-        {
-            "MsgId": 11000001,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "ZZZCN",
-            "Title": "[EN] 'Game data has been updated' message in-game",
-            "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
-            "Show": false,
-            "TimeBegin": "2024-12-22T00:00:00+08:00",
-            "TimeEnd": "2025-01-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-        {
-            "MsgId": 12000001,
-            "IsDisposable": true,
-            "Severity": "Warning",
-            "RegionProfile": "ZZZBilibili",
-            "Title": "[EN] 'Game data has been updated' message in-game",
-            "Message": "Hi Proxies!\r\nPlease be advised that a bug has been reported from HoYoverse, where, under certain circumstances, Proxies may see a pop-up message saying 'Game data has been updated. Please log in again', which can prevent Proxies from accessing the game should they click 'Cancel'.\r\nTo resolve the issue, Proxies are asked to log out and log back in again.\r\nThis is *not* an issue on Collapse's end.\r\nSee you in New Eridu!",
-            "Show": false,
-            "TimeBegin": "2024-12-22T00:00:00+08:00",
-            "TimeEnd": "2025-01-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-        {
-            "MsgId": 7000009,
-            "IsDisposable": true,
-            "Severity": "Error",
-            "RegionProfile": "SRGlb",
-            "Title": "[EN] Notice About Game Repair Post-Plugin Update",
-            "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes may get reverted. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
-            "Show": false,
-            "TimeBegin": "2024-12-13T00:00:00+08:00",
-            "TimeEnd": "2025-01-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-        {
-            "MsgId": 8000009,
-            "IsDisposable": true,
-            "Severity": "Error",
-            "RegionProfile": "SRCN",
-            "Title": "[EN] Notice About Game Repair Post-Plugin Update",
-            "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes may get reverted. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
-            "Show": false,
-            "TimeBegin": "2024-12-13T00:00:00+08:00",
-            "TimeEnd": "2025-01-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-        {
-            "MsgId": 9000009,
-            "IsDisposable": true,
-            "Severity": "Error",
-            "RegionProfile": "SRGlb",
-            "Title": "[EN] Notice About Game Repair Post-Plugin Update",
-            "Message": "Hi Trailblazers!\r\nYou may have noticed the game needed an update recently, this is normal as HoYo has pushed an update to their logging mechanism.\r\nDue to errors in the Repair Mechanism, this changes may get reverted. For the time being, please do not use the 'Repair Game' feature until the next launcher/game update. We are sorry for the inconvenience.",
-            "Show": false,
-            "TimeBegin": "2024-12-13T00:00:00+08:00",
-            "TimeEnd": "2025-01-10T00:00:00+08:00",
-            "ActionProperty": {}
-        },
-        {
             "MsgId": 5000024,
             "IsDisposable": true,
-            "Severity": "Warning",
+            "Severity": "Error",
             "RegionProfile": "GIGlb",
-            "Title": "[EN] Notice about Sophon Pre-Download Download Size",
-            "Message": "Hi Travelers!\r\nYou may have noticed the pre-download size might be quite bigger than the official launcher.\r\nThis is caused by some faults in the asset chunks deduplication method that should be fixed in the next launcher version (1.82.11)\r\nYou are free to ignore this message if you are on the updated version. We are sorry for the inconvenience.",
+            "Title": "[EN] Notice about Pre-Download Availability",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nThis means that the pre-download feature is no longer available for the time being.\r\nWe are sorry for the inconvenience. A fix is underway, we will release an update to the launcher once validation is complete.",
             "Show": true,
-            "TimeBegin": "2024-12-29T00:00:00+08:00",
-            "TimeEnd": "2025-01-20T00:00:00+08:00",
-            "ValidForVerBelow": "1.82.11.0",
-            "ActionProperty": {}
+            "TimeBegin": "2025-05-04T00:00:00+08:00",
+            "TimeEnd": "2025-05-12T00:00:00+08:00"
         },
         {
-            "MsgId": 6000017,
+            "MsgId": 6000024,
             "IsDisposable": true,
-            "Severity": "Warning",
+            "Severity": "Error",
             "RegionProfile": "GICN",
             "Title": "[EN] Notice about Sophon Pre-Download Download Size",
-            "Message": "Hi Travelers!\r\nYou may have noticed the pre-download size might be quite bigger than the official launcher.\r\nThis is caused by some faults in the asset chunks deduplication method that should be fixed in the next launcher version (1.82.11)\r\nYou are free to ignore this message if you are on the updated version. We are sorry for the inconvenience.",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nThis means that the pre-download feature is no longer available for the time being.\r\nWe are sorry for the inconvenience. A fix is underway, we will release an update to the launcher once validation is complete.",
             "Show": true,
-            "TimeBegin": "2024-12-29T00:00:00+08:00",
-            "TimeEnd": "2025-01-20T00:00:00+08:00",
-            "ValidForVerBelow": "1.82.11.0",
-            "ActionProperty": {}
+            "TimeBegin": "2025-05-04T00:00:00+08:00",
+            "TimeEnd": "2025-05-12T00:00:00+08:00"
+        },
+        {
+            "MsgId": 13000000,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "RegionProfile": "GICNBilibili",
+            "Title": "[EN] Notice about Sophon Pre-Download Download Size",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nThis means that the pre-download feature is no longer available for the time being.\r\nWe are sorry for the inconvenience. A fix is underway, we will release an update to the launcher once validation is complete.",
+            "Show": true,
+            "TimeBegin": "2025-05-04T00:00:00+08:00",
+            "TimeEnd": "2025-05-12T00:00:00+08:00"
+        },
+        {
+            "MsgId": 14000000,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "RegionProfile": "GIGlbGPlay",
+            "Title": "[EN] Notice about Sophon Pre-Download Download Size",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nThis means that the pre-download feature is no longer available for the time being.\r\nWe are sorry for the inconvenience. A fix is underway, we will release an update to the launcher once validation is complete.",
+            "Show": true,
+            "TimeBegin": "2025-05-04T00:00:00+08:00",
+            "TimeEnd": "2025-05-12T00:00:00+08:00"
         }
     ]
 }
