@@ -39,6 +39,16 @@
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
+        },
+        {
+            "MsgId": 77,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "Title": "[EN] Repair Feature Unavailability - Genshin Impact 5.5",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to their repair system, which resulted in the unavailability of the repair feature for Genshin Impact 5.5 in Collapse.\r\nWhile we have resolved the issue for pre-downloads, repair still requires a launcher patch, which is underway and should be released shortly.\r\n\nIn the meantime, we ask you to refrain from using the Game File Clean-up feature.\r\n\nWe apologize for the inconvenience that this may have caused.",
+            "Show": true,
+            "TimeBegin": "2025-05-06T00:00:00+08:00",
+            "TimeEnd": "2025-05-31T00:00:00+08:00"
         }
     ],
     "RegionPush": [
