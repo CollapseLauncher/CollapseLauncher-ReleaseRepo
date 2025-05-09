@@ -6,7 +6,7 @@ on:
 
 env:
   DESTINATION-PATH: 'cl-cdn'
-  CDN-URL: 'https://cdn.collapselauncher.com/'
+  CDN-URL: 'https://cdn.collapselauncher.com'
 
 jobs:
   Fetch:
