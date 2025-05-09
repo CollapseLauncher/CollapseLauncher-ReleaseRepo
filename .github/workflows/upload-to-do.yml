@@ -1,0 +1,406 @@
+name: Upload to DigitalOcean
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+env:
+  DESTINATION-PATH: 'cl-cdn'
+  CDN-URL: 'https://collapse-cdn.sfo3.cdn.digitaloceanspaces.com'
+
+jobs:
+  Fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        run: |
+          git clone --depth 1 https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo.git cl-cdn
+
+      - name: Clean unused objects
+        run: |
+          rm -rf ./cl-cdn/.git
+          rm -rf ./cl-cdn/.github
+          rm -rf ./cl-cdn/actions
+          rm -rf ./cl-cdn/.gitignore
+          rm -rf ./cl-cdn/LICENSE
+          rm -rf ./cl-cdn/pack.bat
+      
+      - name: Move folders around
+        run: |
+          echo Root folder
+          mkdir -p ./cl-cdn/folderroot 
+          mv ./cl-cdn/ApplyUpdate.exe ./cl-cdn/changelog_preview.md ./cl-cdn/changelog_stable.md ./cl-cdn/CollapseLauncher.Hi3CacheUpdater.cmd ./cl-cdn/folderroot/
+          mv ./cl-cdn/notification_notepreview ./cl-cdn/notification_notestable ./cl-cdn/notification_preview.json ./cl-cdn/notification_stable.json ./cl-cdn/Update.exe ./cl-cdn/folderroot/
+
+          echo Metadata
+          mkdir -p ./cl-cdn/metadata/metadata-root
+          mkdir -p ./cl-cdn/metadata/metadata-root/v3
+          mv ./cl-cdn/metadata/v3/* ./cl-cdn/metadata/metadata-root/v3/
+          mv ./cl-cdn/metadata/metadatav2_previewconfig.json ./cl-cdn/metadata/metadatav2_previewstamp.json ./cl-cdn/metadata/metadata-root/
+          mv ./cl-cdn/metadata/metadatav2_stableconfig.json ./cl-cdn/metadata/metadatav2_stablestamp.json ./cl-cdn/metadata/metadata-root/
+
+          echo Images
+          mkdir -p ./cl-cdn/metadata/metadata-images/game_logos
+          mkdir -p ./cl-cdn/metadata/metadata-images/game_posters
+          mkdir -p ./cl-cdn/metadata/metadata-images/steam_assets
+          mv ./cl-cdn/metadata/game_logos/* ./cl-cdn/metadata/metadata-images/game_logos/
+          mv ./cl-cdn/metadata/game_posters/* ./cl-cdn/metadata/metadata-images/game_posters/
+          mv ./cl-cdn/metadata/steam_assets/* ./cl-cdn/metadata/metadata-images/steam_assets/
+
+          echo ApplyUpdate
+          mkdir -p ./cl-cdn/applyupdate/stable
+          mkdir -p ./cl-cdn/applyupdate/preview
+          mv ./cl-cdn/preview ./cl-cdn/applyupdate/
+          mv ./cl-cdn/stable ./cl-cdn/applyupdate/
+
+      - name: Archive objects
+        run: |
+          zip -0 -r root-cdn.zip ./cl-cdn/folderroot
+          zip -0 -r root-metadata.zip ./cl-cdn/metadata/metadata-root
+          zip -0 -r gameimages.zip ./cl-cdn/metadata/metadata-images
+          zip -0 -r indexes_hi3.zip ./cl-cdn/metadata/repair_indexes/Hi3CN ./cl-cdn/metadata/repair_indexes/Hi3Global ./cl-cdn/metadata/repair_indexes/Hi3JP ./cl-cdn/metadata/repair_indexes/Hi3KR ./cl-cdn/metadata/repair_indexes/Hi3SEA  ./cl-cdn/metadata/repair_indexes/Hi3TW
+          zip -0 -r indexes_hsr.zip ./cl-cdn/metadata/repair_indexes/SRCN ./cl-cdn/metadata/repair_indexes/HSRCNBilibili ./cl-cdn/metadata/repair_indexes/SRGlb
+          zip -0 -r indexes_zzz.zip ./cl-cdn/metadata/repair_indexes/ZZZBilibili ./cl-cdn/metadata/repair_indexes/ZZZCN ./cl-cdn/metadata/repair_indexes/ZZZGlb
+          zip -0 -r applyupdate.zip ./cl-cdn/applyupdate
+          zip -0 -r velopack-preview.zip ./cl-cdn/velopack/preview
+          zip -0 -r velopack-stable.zip ./cl-cdn/velopack/stable
+
+      - name: Upload root-cdn
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: root-cdn
+          path: root-cdn.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload root-metadata
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: root-metadata
+          path: root-metadata.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload root-metadata
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: gameimages
+          path: gameimages.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload indexes_hi3
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: indexes_hi3
+          path: indexes_hi3.zip
+          retention-days: 1
+          compression-level: 0
+          
+      - name: Upload indexes_hsr
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: indexes_hsr
+          path: indexes_hsr.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload indexes_zzz
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: indexes_zzz
+          path: indexes_zzz.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload applyupdate
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: applyupdate
+          path: applyupdate.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload velopack-preview
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: velopack-preview
+          path: velopack-preview.zip
+          retention-days: 1
+          compression-level: 0
+
+      - name: Upload velopack-stable
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: velopack-stable
+          path: velopack-stable.zip
+          retention-days: 1
+          compression-level: 0
+
+  Sync-Root:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: root-cdn
+
+      - name: Extract Archive
+        run: unzip -qq root-cdn.zip -d root-cdn
+
+      - name: Upload
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: root-cdn/cl-cdn/folderroot
+          out_dir: ${{ env.DESTINATION-PATH }}
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+  Sync-Metadata:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: root-metadata
+
+      - name: Extract Archive
+        run: |
+          unzip -qq root-metadata.zip -d root-metadata
+
+      - name: Upload
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: root-metadata/cl-cdn/metadata/metadata-root
+          out_dir: '${{ env.DESTINATION-PATH }}/metadata'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+  Sync-Images:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact (gameimages)
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: gameimages
+      
+      - name: Extract Archive
+        run: |
+          unzip -qq gameimages.zip -d root-metadata
+
+      - name: Upload logos
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: root-metadata/cl-cdn/metadata/metadata-images/game_logos
+          out_dir: '${{ env.DESTINATION-PATH }}/metadata/game_logos'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+      - name: Upload posters
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: root-metadata/cl-cdn/metadata/metadata-images/game_posters
+          out_dir: '${{ env.DESTINATION-PATH }}/metadata/game_posters'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+      - name: Upload steam_assets
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: root-metadata/cl-cdn/metadata/metadata-images/steam_assets
+          out_dir: '${{ env.DESTINATION-PATH }}/metadata/steam_assets'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+  Sync-Indexes-Hi3:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: indexes_hi3
+
+      - name: Extract Archive
+        run: |
+          unzip -qq indexes_hi3.zip -d indexes_hi3
+
+      - name: Upload
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: indexes_hi3/cl-cdn/metadata/repair_indexes
+          out_dir: '${{ env.DESTINATION-PATH }}/metadata/repair_indexes'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+  Sync-Indexes-HSR:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: indexes_hsr
+
+      - name: Extract Archive
+        run: |
+          unzip -qq indexes_hsr.zip -d indexes_hsr
+
+      - name: Upload
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: indexes_hsr/cl-cdn/metadata/repair_indexes
+          out_dir: '${{ env.DESTINATION-PATH }}/metadata/repair_indexes'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+  Sync-Indexes-ZZZ:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: indexes_zzz
+
+      - name: Extract Archive
+        run: |
+          unzip -qq indexes_zzz.zip -d indexes_zzz
+          
+      - name: Upload
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: indexes_zzz/cl-cdn/metadata/repair_indexes
+          out_dir: '${{ env.DESTINATION-PATH }}/metadata/repair_indexes'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+  Sync-ApplyUpdate:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: applyupdate
+
+      - name: Extract Archive
+        run: unzip -qq applyupdate.zip -d applyupdate
+
+      - name: Upload preview
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: applyupdate/cl-cdn/applyupdate/preview
+          out_dir: '${{ env.DESTINATION-PATH }}/metadata/preview'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+      - name: Sync ApplyUpdate-stable
+        uses: ryand56/r2-upload-action@master
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: applyupdate/cl-cdn/applyupdate/stable
+          destination-dir: cl-cdn/stable
+          output-file-url: false
+
+      - name: Upload
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: applyupdate/cl-cdn/applyupdate/stable
+          out_dir: '${{ env.DESTINATION-PATH }}/stable'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+  Sync-Velopack-Preview:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: velopack-preview
+
+      - name: Extract Archive
+        run: unzip -qq velopack-preview.zip -d velopack-preview
+        
+      - name: Upload
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: velopack-preview/cl-cdn/velopack/preview
+          out_dir: '${{ env.DESTINATION-PATH }}/velopack/preview'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
+
+  Sync-Velopack-Stable:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: velopack-stable
+
+      - name: Extract Archive
+        run: unzip -qq velopack-stable.zip -d velopack-stable
+
+      - name: Upload
+        uses: BetaHuhn/do-spaces-action@v2
+        with:
+          access_key: ${{ secrets.DO_SPACES_KEY}}
+          secret_key: ${{ secrets.DO_SPACES_SECRET }}
+          space_name: ${{ secrets.DO_SPACES_NAME }}
+          space_region: ${{ secrets.DO_SPACES_REGION }}
+          source: velopack-stable/cl-cdn/velopack/stable
+          out_dir: '${{ env.DESTINATION-PATH }}/velopack/stable'
+          cdn_domain: ${{ env.CDN-URL }}
+          versioning: false
