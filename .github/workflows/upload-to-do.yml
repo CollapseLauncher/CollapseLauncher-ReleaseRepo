@@ -334,17 +334,6 @@ jobs:
           cdn_domain: ${{ env.CDN-URL }}
           versioning: false
 
-      - name: Sync ApplyUpdate-stable
-        uses: ryand56/r2-upload-action@master
-        with:
-          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          r2-bucket: ${{ secrets.R2_BUCKET }}
-          source-dir: applyupdate/cl-cdn/applyupdate/stable
-          destination-dir: cl-cdn/stable
-          output-file-url: false
-
       - name: Upload
         uses: BetaHuhn/do-spaces-action@v2
         with:
