@@ -7,6 +7,16 @@ We began to roll-out new releases by bringing new upcoming features and improvem
 
 ### Welcome to 1.83 Release!
 
+# What's changed? - 1.83.1
+- **[Fix - Genshin Impact]** Infinite Loop/Getting Stuck while Updating Game to 5.6.0, by @neon-nyan 
+- **[Fix - Genshin Impact]** Crash on File Cleanup feature due to missing Zip's pkg_version ScatteredFiles reference, by @neon-nyan 
+- **[Fix - Genshin Impact]** Crash on Game Repair feature due to missing Zip's pkg_version ScatteredFiles reference, by @neon-nyan 
+- **[Fix]** Possible crash when user defines ``version`` field in ``config.ini`` with 2-numbers or less format, by @neon-nyan 
+- **[Fix]** [**#736**](https://github.com/CollapseLauncher/Collapse/issues/736) GameIniVersion ignores mismatched value, by @neon-nyan 
+- **[Fix]** [**#737**](https://github.com/CollapseLauncher/Collapse/issues/737) Multi-instance doesn't work, by @neon-nyan 
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.83.0-pre...CL-v1.83.1-pre
+
 # What's New? - 1.83.0
 ## External DNS Support, by @neon-nyan 
 Ability to set the DNS request to specific server just for the launcher. Supports plain DNS (UDP/53), DNS over HTTPS (DoH), and DNS over TLS (DoT). Includes 3 predefined DNS providers, Cloudflare (`$cloudflare`), Google (`$google`), and quad9 (`$quad9`). User can customize to use other DNS provider(s) and use multiple all at once as a fallback. 
@@ -42,6 +52,8 @@ With our implementation, everyone can use them! (As long as it's provided in the
 - **[Fix]** Zip to Sophon force fallback - Annotated from [**#733**](https://github.com/CollapseLauncher/Collapse/pull/733)
   - As per Genshin Impact 5.6.0 preload today, miHoYo just removed Zip packages on HoYoPlay API. This caused our launcher unable to detect or determine update state due to the main dependencies to Zip packages only.
   - This release fixes the issue by checking if Zip is unavailable, then tell the GameVersionManager to fallback by forcefully redirect the install/update/preload methods to Sophon mode. This releases also fixes the same issue if HoYo might remove the Zip packages to other games in the future.
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.82.21-pre...CL-v1.83.0-pre
 	
 # Code Signing Policy
 > Free code signing provided by [SignPath.io], certificate by [SignPath Foundation]

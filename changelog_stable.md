@@ -10,6 +10,15 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog belowðŸ‘‡
 
+# What's changed? - 1.82.23
+- **[Fix - Genshin Impact]** Infinite Loop/Getting Stuck while Updating Game to 5.6.0, by @neon-nyan 
+- **[Fix - Genshin Impact]** Crash on File Cleanup feature due to missing Zip's pkg_version ScatteredFiles reference, by @neon-nyan
+- **[Fix - Genshin Impact]** Crash on Game Repair feature due to missing Zip's pkg_version ScatteredFiles reference, by @neon-nyan 
+- **[Fix]** Possible crash when user defines ``version`` field in ``config.ini`` with 2-numbers or less format, by @neon-nyan 
+- **[Fix]** [**#736**](https://github.com/CollapseLauncher/Collapse/issues/736) GameIniVersion ignores mismatched value, by @neon-nyan 
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.82.22...CL-v1.82.23
+
 # What's changed? - 1.82.22
 - **[Fix]** Honkai Impact 3rd 8.2 Game Repair Changes - Annotated from [**8e9aee2**](https://github.com/CollapseLauncher/Collapse/commit/8e9aee2cd642c08cb3533af5a34b9c0199bf5b72)
   - This main change was to bring back Game Repair and Delta-Patch support for Stable due to breaking changes that were introduced by HoYo in Honkai Impact 3rd v8.2 update.
@@ -22,6 +31,8 @@ More information regarding the changes can also be found in the changelog belowð
 - **[Fix]** Zip to Sophon force fallback - Annotated from [**#733**](https://github.com/CollapseLauncher/Collapse/pull/733)
   - As per Genshin Impact 5.6.0 preload today, miHoYo just removed Zip packages on HoYoPlay API. This caused our launcher unable to detect or determine update state due to the main dependencies to Zip packages only.
   - This release fixes the issue by checking if Zip is unavailable, then tell the GameVersionManager to fallback by forcefully redirect the install/update/preload methods to Sophon mode. This releases also fixes the same issue if HoYo might remove the Zip packages to other games in the future.
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.82.21...CL-v1.82.22
 
 # What's changed? - 1.82.21 (9+10 Edition)
 - **[Fix]** Update .NET to 9.0.3 due to CVE-2025-24070, by @bagusnl 
