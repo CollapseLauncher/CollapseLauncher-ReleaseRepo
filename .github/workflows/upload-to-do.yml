@@ -393,3 +393,24 @@ jobs:
           out_dir: '${{ env.DESTINATION-PATH }}/velopack/stable'
           cdn_domain: ${{ env.CDN-URL }}
           versioning: false
+
+  Purge-Cache:
+    runs-on: ubuntu-latest
+    if: always() # always purge cache whenever it fails or succeed
+    needs: [Sync-Root, Sync-Metadata, Sync-Images, Sync-ApplyUpdate, Sync-Indexes-Hi3, Sync-Indexes-HSR, Sync-Indexes-ZZZ, Sync-Velopack-Preview, Sync-Velopack-Stable]
+    steps:
+      - name: Purge Cloudflare cache
+        run: |
+            curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_PURGE_CACHE_ZONEID_CL }}/purge_cache" \
+                -H "Authorization: Bearer ${{ secrets.CF_PURGE_CACHE_TOKEN_CL }}" \
+                -H "Content-Type: application/json" \
+                --data "{ \"purge_everything\": true }"
+
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DO_PURGE_TOKEN }}
+
+      - name: Purge DigitalOcean cache
+        run: |
+          doctl compute cdn flush a94b5dfc-8dfe-4060-99ec-14526d813c22 --verbose --files ${{ env.DESTINATION-PATH }}/*
