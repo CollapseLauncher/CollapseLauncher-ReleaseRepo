@@ -7,6 +7,19 @@ We began to roll-out new releases by bringing new upcoming features and improvem
 
 ### Welcome to 1.83 Release!
 
+# What's changed? - 1.83.2
+- **[Fix]** SharingViolation errors while installing/updating games with Sophon mode (eg. Genshin Impact and Zenless Zone Zero), by @neon-nyan
+- **[Imp]** Streamline submodule branches to main for Hi3Helper.EncTool, Hi3Helper.Http and Hi3Helper.Sophon for easier maintainability, by @neon-nyan
+- **[Imp+Fix]** Rewriting the whole Genshin Impact's Game Repair pipelines to match game in-game download behavior, by @neon-nyan.
+  This fixes most bugs, including some NotFound error, misplaced files and duplicate files due to the code still runs in how Genshin's in-game download behaves prior < 5.x
+- **[Fix]** Binding issues causing lags on SettingsPage's initial load, by @neon-nyan 
+- **[Fix]** ``FileMigrationProcess`` pipelines, by @neon-nyan 
+  - Fix where the migration might remove unwanted non-game files.
+  - Fix where some old empty folders aren't getting removed.
+  - Fix [#727](https://github.com/CollapseLauncher/Collapse/issues/727) where user can't move the game files into a subfolder inside of the current folder.
+- **[Imp]** Borrow some functions from ``GenshinRepair`` instance on File Clean-up on Genshin Impact, by @neon-nyan 
+- **[Fix]** Some race condition due to ``Lock`` misuses, by @neon-nyan 
+
 # What's changed? - 1.83.1
 - **[Fix - Genshin Impact]** Infinite Loop/Getting Stuck while Updating Game to 5.6.0, by @neon-nyan 
 - **[Fix - Genshin Impact]** Crash on File Cleanup feature due to missing Zip's pkg_version ScatteredFiles reference, by @neon-nyan 
