@@ -1,52 +1,13 @@
 {
     "AppPush": [
         {
-            "MsgId": 75,
-            "IsDisposable": true,
-            "Severity": "Error",
-            "Title": "[EN] Collapse Launcher Update Issue",
-            "Message": "Due to a bug in the launcher code, Collapse's update mechanism may not work or work incorrectly for some users. If you are still on 1.82.2 or below, please reinstall your launcher using link provided below. You will not lose your settings/game data. For more questions, please hit us up in GitHub discussion or issues. We're sorry for the inconvenience this may have caused.",
-            "Show": true,
-            "TimeBegin": "2024-12-01T00:00:00+08:00",
-            "TimeEnd": "2025-12-31T00:00:00+08:00",
-            "ValidForVerBelow": "1.82.3.0",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/Collapse/releases/tag/CL-v1.82.7-pre",
-                    "Description": "1.82.7 Download Page",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        },
-        {
-            "MsgId": 76,
-            "IsDisposable": true,
-            "Severity": "Error",
-            "Title": "[EN] Collapse Launcher Update Issue",
-            "Message": "Due to bug in the launcher code, some users might not be able to access certain game regions where the user has never been open. If you're still on 1.82.6 or below, please update your launcher via \"Force Update\" or by reinstall your launcher using the link provided below! You won't lose your settings/game data. For more questions, please hit us up in GitHub discussion or issues.",
-            "Show": true,
-            "TimeBegin": "2024-12-01T00:00:00+08:00",
-            "TimeEnd": "2025-12-31T00:00:00+08:00",
-            "ValidForVerBelow": "1.82.7.0",
-            "ActionProperty": {
-                "ActionType": "ClickLink",
-                "ActionValue": {
-                    "URL": "https://github.com/CollapseLauncher/Collapse/releases/tag/CL-v1.82.7-pre",
-                    "Description": "1.82.7 Download Page",
-                    "GlyphIcon": "",
-                    "GlyphFont": "FontAwesomeSolid"
-                }
-            }
-        },
-        {
             "MsgId": 77,
             "IsDisposable": true,
             "Severity": "Error",
             "Title": "[EN] Repair Feature Unavailability - Genshin Impact 5.5",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to their repair system, which resulted in the unavailability of the repair feature for Genshin Impact 5.5 in Collapse.\r\nWhile we have resolved the issue for pre-downloads, repair still requires a launcher patch, which is underway and should be released shortly.\r\n\nIn the meantime, we ask you to refrain from using the Game File Clean-up feature.\r\n\nWe apologize for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.83.2.0",
             "TimeBegin": "2025-05-06T00:00:00+08:00",
             "TimeEnd": "2025-05-31T00:00:00+08:00"
         }
@@ -60,6 +21,7 @@
             "Title": "[EN] Notice about Pre-Download Availability",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.83.0 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.83.2.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
@@ -71,6 +33,7 @@
             "Title": "[EN] Notice about Pre-Download Availability",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.83.0 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.83.2.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
@@ -82,6 +45,7 @@
             "Title": "[EN] Notice about Pre-Download Availability",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.83.0 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.83.2.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
@@ -93,6 +57,7 @@
             "Title": "[EN] Notice about Pre-Download Availability",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.83.0 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.83.2.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         }
