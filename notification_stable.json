@@ -7,6 +7,7 @@
             "Title": "[EN] Repair Feature Unavailability - Genshin Impact 5.5",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to their repair system, which resulted in the unavailability of the repair feature for Genshin Impact 5.5 in Collapse.\r\nWhile we have resolved the issue for pre-downloads, repair still requires a launcher patch, which is underway and should be released shortly.\r\n\nIn the meantime, we ask you to refrain from using the Game File Clean-up feature.\r\n\nWe apologize for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.82.24.0",
             "TimeBegin": "2025-05-06T00:00:00+08:00",
             "TimeEnd": "2025-05-31T00:00:00+08:00"
         }
@@ -20,6 +21,7 @@
             "Title": "[EN] Notice about Pre-Download Availability",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.82.22 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.82.24.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
@@ -31,6 +33,7 @@
             "Title": "[EN] Notice about Pre-Download Availability",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.82.22 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.82.24.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
@@ -42,6 +45,7 @@
             "Title": "[EN] Notice about Pre-Download Availability",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.82.22 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.82.24.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
@@ -53,6 +57,7 @@
             "Title": "[EN] Notice about Pre-Download Availability",
             "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.82.22 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
             "Show": true,
+            "ValidForVerBelow": "1.82.24.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         }
