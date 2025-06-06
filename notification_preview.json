@@ -60,6 +60,42 @@
             "ValidForVerBelow": "1.83.2.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
+        },
+        {
+            "MsgId": 10000002,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "RegionProfile": "ZZZGlb",
+            "Title": "[EN] Notice Regarding Sophon Update Issues",
+            "Message": "Hi Proxy!\r\nWe have received some issues regarding the Update for the latest version: 2.0 which caused the game to get corrupted while the update is being applied. We recommend you to update your game using the official HoYoPlay launcher for now as we are currently working on the fix. We are sorry for the inconvenience that caused.",
+            "Show": true,
+            "ValidForVerBelow": "1.83.3.0",
+            "TimeBegin": "2025-06-01T00:00:00+08:00",
+            "TimeEnd": "2025-06-30T00:00:00+08:00"
+        },
+        {
+            "MsgId": 11000002,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "RegionProfile": "ZZZCN",
+            "Title": "[EN] Notice Regarding Sophon Update Issues",
+            "Message": "Hi Proxy!\r\nWe have received some issues regarding the Update for the latest version: 2.0 which caused the game to get corrupted while the update is being applied. We recommend you to update your game using the official HoYoPlay launcher for now as we are currently working on the fix. We are sorry for the inconvenience that caused.",
+            "Show": true,
+            "ValidForVerBelow": "1.83.3.0",
+            "TimeBegin": "2025-06-01T00:00:00+08:00",
+            "TimeEnd": "2025-06-30T00:00:00+08:00"
+        },
+        {
+            "MsgId": 12000002,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "RegionProfile": "ZZZBilibili",
+            "Title": "[EN] Notice Regarding Sophon Update Issues",
+            "Message": "Hi Proxy!\r\nWe have received some issues regarding the Update for the latest version: 2.0 which caused the game to get corrupted while the update is being applied. We recommend you to update your game using the official HoYoPlay launcher for now as we are currently working on the fix. We are sorry for the inconvenience that caused.",
+            "Show": true,
+            "ValidForVerBelow": "1.83.3.0",
+            "TimeBegin": "2025-06-01T00:00:00+08:00",
+            "TimeEnd": "2025-06-30T00:00:00+08:00"
         }
     ]
 }
