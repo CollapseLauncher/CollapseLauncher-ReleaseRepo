@@ -76,15 +76,8 @@ set releasePath=%velopackPath%\%channel%
 set brotli=ApplyUpdate.exe compress
 
 :velopackCheck
-dotnet tool list vpk -g | findstr /I "vpk" || goto :velopackCheckError
-goto :buildPreparation
-
-:velopackCheckError
-echo Velopack Tool does not exist locally or globally!
-echo Please install the tool first using this command:
-echo   dotnet tool install -g vpk
-pause | echo Press any key to retry...
-goto :velopackCheck
+echo Installing/Updating velopack tool...
+dotnet tool install -g vpk
 
 :buildPreparation
 :: Remove old folders and old fileindex.json
