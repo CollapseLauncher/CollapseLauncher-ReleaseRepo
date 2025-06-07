@@ -3,7 +3,7 @@ set _7zFast="C:\Program Files\7-Zip-Zstandard\7z.exe"
 set _7z="C:\Program Files\7-Zip\7z.exe"
 set name=CollapseLauncher
 set channel=1
-set version=1.82.18
+set version=1.83.3
 set thread=%NUMBER_OF_PROCESSORS%
 set forceUpdate="forceUpdate":false,
 
@@ -93,7 +93,7 @@ if not exist "%channel%" mkdir "%channel%"
 title=Copying build files...
 xcopy %BuildArtifactDir% %buildPath% /S /H /C 
 title=Making velopack package...
-vpk download http --url=https://r2.bagelnl.my.id/cl-cdn/velopack/%channel%/ --channel=%channel% --outputDir="%releasePath%"
+vpk download http --url=https://collapse-cdn.sfo3.digitaloceanspaces.com/cl-cdn/velopack/%channel%/ --channel=%channel% --outputDir="%releasePath%"
 vpk pack --packId="%name%" --mainExe "%name%.exe" --packVersion="%version%" --packDir="%buildPath%" --packTitle="Collapse" --packAuthors="Collapse Project Team" --icon="%buildPath%\icon.ico" --channel "%channel%" --shortcuts Desktop,StartMenuRoot --delta BestSize --outputDir "%releasePath%" --skipVeloAppCheck --exclude .pdb --skipVeloAppCheck --yes --splashImage="InstallerSprite.gif"
 ApplyUpdate.exe changevelopackinstperms requireAdministrator "%releasePath%\%name%-%channel%-Setup.exe"
 del "%releasePath%\%name%-%channel%-Portable.zip"

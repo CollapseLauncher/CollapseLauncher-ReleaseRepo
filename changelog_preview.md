@@ -1,11 +1,34 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
-> We have just published our new landing page, which you can view at https://collapselauncher.com !
+> We've recently released a new launcher status tracker! Head on over to https://status.collapselauncher.com to see it!
 
 # A New Version is Approaching!
 We began to roll-out new releases by bringing new upcoming features and improvements to the launcher in-front of your door. As a preparation, you might receives new builds while the release is still in development, so the new features you can try out sooner.
 
 ### Welcome to 1.83 Release!
+
+# What's changed? - 1.83.3
+- **[Fix]** Update .NET to 9.0.5 to address [CVE-2025-26646](https://github.com/advisories/GHSA-h4j7-5rxr-p4wc), by @bagusnl 
+- **[Imp]** Update project dependencies, by @bagusnl
+  - Microsoft.Windows.SDK.BuildTools (10.0.26100.3916 -> 10.0.26100.4188)
+  - Velopack (0.0.1053 -> 0.0.1297)
+  - Sentry (5.6.0 -> 5.10.0)
+  - Protobuf (3.30.0 -> 3.31.1)
+  - WindowsAppSDK (1.8.250410001-experimental1 -> 1.8.250515001-experimental2)
+  - Webview (1.0.3240.44 -> 1.0.3296-prerelease)
+  - Markdig.Signed (0.41.1 -> 0.41.2)
+- **[Fix]** Avoid initializing `config.ini` on initialization, by @neon-nyan 
+- **[Fix]** Make Collapse aware of alternate game executable names, by @neon-nyan 
+- **[Fix]** Remove unused string on delta patch repair mechanism, by @neon-nyan 
+- **[Fix]** Fix wrong indicator if the game has both Sophon and Delta-patch file during update, by @neon-nyan 
+- **[Fix]** Resolve an issue where the app would crash when the user creates a Steam shortcut for the game, by @neon-nyan 
+- **[Imp]** Prevent repair from nuking the install for Genshin Impact, by @bagusnl 
+- **[Imp]** Add image loading retry function, by @bagusnl 
+- **[Fix]** Remove Velopack update error in console window due to the app not being installed (e.g., when ran as a nightly build or in Debug mode), by @bagusnl 
+- **[Fix]**: Ignore 404 error when repairing files. The repair function will now simply skip the file and log the file that returns the 404 in the console window instead of interrupting the process altogether, by @bagusnl 
+- **[Fix]**: Fix Sophon running while fallback ZIP mode is enabled, by @neon-nyan 
+- **[New]**: Support game patching following ZZZ 2.0 update, by @neon-nyan 
+- **[New]**: Adding "Ambient Noise Volume" on ZZZ Game Settings page, by @neon-nyan 
 
 # What's changed? - 1.83.2
 - **[Fix]** SharingViolation errors while installing/updating games with Sophon mode (eg. Genshin Impact and Zenless Zone Zero), by @neon-nyan
@@ -66,7 +89,7 @@ With our implementation, everyone can use them! (As long as it's provided in the
   - As per Genshin Impact 5.6.0 preload today, miHoYo just removed Zip packages on HoYoPlay API. This caused our launcher unable to detect or determine update state due to the main dependencies to Zip packages only.
   - This release fixes the issue by checking if Zip is unavailable, then tell the GameVersionManager to fallback by forcefully redirect the install/update/preload methods to Sophon mode. This releases also fixes the same issue if HoYo might remove the Zip packages to other games in the future.
 
-**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.82.21-pre...CL-v1.83.0-pre
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.83.2-pre...CL-v1.83.3-pre
 	
 # Code Signing Policy
 > Free code signing provided by [SignPath.io], certificate by [SignPath Foundation]
