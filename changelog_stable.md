@@ -1,14 +1,31 @@
 ![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
 
-> We have just published our new landing page, which you can view at https://collapselauncher.com !
+> We've recently released a new launcher status tracker! Head on over to https://status.collapselauncher.com to see it!
 
 # Servicing/Maintenance Mode Phase
-Version 1.82.17 onwards will mark as the 1.82.xxx releases enters "**Servicing/Maintenance Mode**", meaning that 1.82.xxx releases will no longer get any improvements or new features, unless any urgent changes or bug fixes that need to be pushed or backported.
+Version 1.82.17 onwards will mark the "**Servicing/Maintenance Mode**" part of our development cycle, meaning that 1.82.xxx releases will no longer get any improvements or new features, unless any urgent changes or bug fixes need to be pushed or backported from our Preview branch.
 
 We are going to plan other new features, improvements and changes to be pushed in later release, 1.83.xxx.
 Hit us on our Official Discord or Create an Issue if you have ideas what features or changes you want to have in later 1.83.xxx or future release.
 
 More information regarding the changes can also be found in the changelog below👇
+
+# What's changed? - 1.82.25
+
+- **[Fix]** Update .NET to 9.0.5 to address [CVE-2025-26646](https://github.com/advisories/GHSA-h4j7-5rxr-p4wc), by @bagusnl 
+- **[Imp]**: Update project dependencies, by @bagusnl 
+- **[Fix]** Avoid initializing `config.ini` on initialization, by @neon-nyan 
+- **[Fix]** Make Collapse aware of alternate game executable names, by @neon-nyan 
+- **[Fix]** Remove unused string on delta patch repair mechanism, by @neon-nyan 
+- **[Fix]** Fix wrong indicator if the game has both Sophon and Delta-patch file during update, by @neon-nyan 
+- **[Fix]** Resolve an issue where the app would crash when the user creates a Steam shortcut for the game, by @neon-nyan 
+- **[Imp]** Prevent repair from nuking the install for Genshin Impact, by @bagusnl 
+- **[Imp]** Add image loading retry function, by @bagusnl 
+- **[Fix]** Remove Velopack update error in console window due to the app not being installed (e.g., when ran as a nightly build or in Debug mode), by @bagusnl 
+- **[Fix]**: Ignore 404 error when repairing files. The repair function will now simply skip the file and log the file that returns the 404 in the console window instead of interrupting the process altogether, by @bagusnl 
+- **[Fix]**: Fix Sophon running while fallback ZIP mode is enabled, by @neon-nyan 
+- **[New]**: Support game patching following ZZZ 2.0 update, by @neon-nyan 
+- **[New]**: Adding "Ambient Noise Volume" on ZZZ Game Settings page, by @neon-nyan 
 
 # What's changed? - 1.82.24
 - **[Fix]** SharingViolation errors while installing/updating games with Sophon mode (eg. Genshin Impact and Zenless Zone Zero), by @neon-nyan
@@ -552,4 +569,4 @@ As always, we want to thank are awesome community for providing an amazing local
 
 Read the full changelog below!
 
-**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.73.8...CL-v1.80.9
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.82.24...CL-v1.82.25
