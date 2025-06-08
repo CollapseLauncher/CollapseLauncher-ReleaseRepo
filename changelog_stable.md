@@ -10,6 +10,17 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog below👇
 
+# What's changed? - 1.82.26
+- **[Fix]**: Ignore 404 error when repairing files. The repair function will now simply skip the file and log the file that returns the 404 in the console window instead of interrupting the process altogether, by @bagusnl 
+- **[Fix]** Re-introduce shared webp libraries on non-AOT builds, by @neon-nyan 
+- **[Fix]** Avoid using long directory paths for ZZZ assets, by @neon-nyan 
+- **[Fix]** Resolve taskbar progress being shown incorrectly during ZZZ game repair, by @neon-nyan 
+- **[Imp]** Re-align subproject commits for main project (and update package-lock.json), by @bagusnl 
+- **[New]** Prevent Windows from shutting down if a critical operation within Collapse is underway (update, install, repair), by @bagusnl, @neon-nyan 
+- **[Fix]** Resolve an issue where a race condition could occur when loading a background, by @neon-nyan 
+- **[Imp]** Introduce a delay if database communication fails for some reason, by @bagusnl 
+
+
 # What's changed? - 1.82.25
 
 - **[Fix]** Update .NET to 9.0.5 to address [CVE-2025-26646](https://github.com/advisories/GHSA-h4j7-5rxr-p4wc), by @bagusnl 
