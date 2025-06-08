@@ -5,7 +5,16 @@
 # A New Version is Approaching!
 We began to roll-out new releases by bringing new upcoming features and improvements to the launcher in-front of your door. As a preparation, you might receives new builds while the release is still in development, so the new features you can try out sooner.
 
-### Welcome to 1.83 Release!
+### Welcome to the 1.83 Release!
+
+# What's changed - 1.83.4?
+- **[Fix]** Re-introduce shared webp libraries on non-AOT builds, by @neon-nyan 
+- **[Fix]** Avoid using long directory paths for ZZZ assets, by @neon-nyan 
+- **[Fix]** Resolve taskbar progress being shown incorrectly during ZZZ game repair, by @neon-nyan 
+- **[Imp]** Re-align subproject commits for main project (and update package-lock.json), by @bagusnl 
+- **[New]** Prevent Windows from shutting down if a critical operation within Collapse is underway (update, install, repair), by @bagusnl, @neon-nyan 
+- **[Fix]** Resolve an issue where a race condition could occur when loading a background, by @neon-nyan 
+- **[Imp]** Introduce a delay if database communication fails for some reason, by @bagusnl 
 
 # What's changed? - 1.83.3
 - **[Fix]** Update .NET to 9.0.5 to address [CVE-2025-26646](https://github.com/advisories/GHSA-h4j7-5rxr-p4wc), by @bagusnl 
