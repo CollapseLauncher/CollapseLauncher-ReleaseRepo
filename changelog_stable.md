@@ -10,6 +10,20 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog below👇
 
+# What's changed? - 1.82.27
+- **[Fix]** File sharing error on background image file, by @shatyuka 
+- **[Fix]** Crashing during startup in certain system caused by race condition in EnableWindowNonClientArea method, by @bagusnl 
+- **[Fix]** Incorrect per-file size if patch file has already been downloaded, by @neon-nyan 
+- **[Fix]** NRE spam on DB initializer when DB URL/Token is empty, by @bagusnl 
+- **[Fix]** ObjectDisposed exception rare occassion when calling DispatcherQueue.HasThreadAccess, by @bagusnl 
+- **[Imp]** Sophon improvements, by @neon-nyan 
+  - Reduce memory overhead
+  - Reduce timed-out occurrence when downloading objects
+  - Adding check to include additional packages if they were installed
+  - Only trigger full download (with additional packages) on initial installation
+    - No dialog involved. If you need to the dialog in order to download the base file, add a blank file with name: @AskAdditionalSophonPackage in your game directory
+- **[Imp]** [BACKPORT] Implement changes in feedback Sentry API + enable generic feedback menu, by @bagusnl 
+
 # What's changed? - 1.82.26
 - **[Fix]**: Ignore 404 error when repairing files. The repair function will now simply skip the file and log the file that returns the 404 in the console window instead of interrupting the process altogether, by @bagusnl 
 - **[Fix]** Re-introduce shared webp libraries on non-AOT builds, by @neon-nyan 
