@@ -10,6 +10,9 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog below👇
 
+# What's changed? - 1.82.28
+- **[Fix]** Fix webp dlls missing from build, by @bagusnl 
+
 # What's changed? - 1.82.27
 - **[Fix]** File sharing error on background image file, by @shatyuka 
 - **[Fix]** Crashing during startup in certain system caused by race condition in EnableWindowNonClientArea method, by @bagusnl 
