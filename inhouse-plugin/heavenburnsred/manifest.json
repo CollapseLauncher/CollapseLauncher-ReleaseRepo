@@ -1,0 +1,18 @@
+{
+  "MainLibraryName": "main.dll",
+  "PluginVersion": "0.7.0.0",
+  "PluginCreationDate": "2025-06-29T19:02:52.9272642+07:00",
+  "ManifestDate": "2025-06-29T19:14:30.153916+07:00",
+  "Assets": [
+    {
+      "FilePath": "main.dll",
+      "Size": 13555712,
+      "FileHash": "K71dDqdjvcGrd/hcYPyV4w=="
+    },
+    {
+      "FilePath": "main.pdb",
+      "Size": 47140864,
+      "FileHash": "MGj34h/n36ksSW4xpSmGlQ=="
+    }
+  ]
+}
