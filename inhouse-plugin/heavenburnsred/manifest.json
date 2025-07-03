@@ -1,18 +1,22 @@
 {
   "MainLibraryName": "main.dll",
-  "PluginVersion": "0.7.0.0",
-  "PluginCreationDate": "2025-06-29T21:02:58.7521415+07:00",
-  "ManifestDate": "2025-06-29T21:03:13.0980156+07:00",
+  "MainPluginName": "Heaven Burns Red Plugin",
+  "MainPluginAuthor": "neon-nyan, Collapse Project Team",
+  "MainPluginDescription": "A plugin for Heaven Burns Red on Collapse Launcher",
+  "PluginStandardVersion": "0.1.0.0",
+  "PluginVersion": "0.8.0.0",
+  "PluginCreationDate": "2025-05-04T09:15:00+00:00",
+  "ManifestDate": "2025-07-04T00:42:03.2617003+07:00",
   "Assets": [
     {
       "FilePath": "main.dll",
-      "Size": 5761024,
-      "FileHash": "lsKNCV1wEFFrYLqtyimp1A=="
+      "Size": 5762560,
+      "FileHash": "9xKowYZ+rWtf+t/emJfBhg=="
     },
     {
       "FilePath": "main.pdb",
-      "Size": 24653824,
-      "FileHash": "GXjvMWeeoDlUwnozkrN+MQ=="
+      "Size": 29601792,
+      "FileHash": "AX3KYlauSzaWWoJh+XajhQ=="
     }
   ]
 }
