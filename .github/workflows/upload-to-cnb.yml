@@ -25,7 +25,7 @@ jobs:
         run: |
           cat > ./cl-cdn/package.json << 'EOF'
           {
-            "name": "collapse",
+            "name": "collapse-launcher-release",
             "version": "1.0.0",
             "license": "MIT",
             "description": "Collapse Launcher Release",
