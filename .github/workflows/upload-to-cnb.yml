@@ -1,0 +1,49 @@
+name: Upload to CNB
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        run: |
+          git clone --depth 1 https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo.git cl-cdn
+
+      - name: Cleanup
+        run: |
+          rm -rf ./cl-cdn/.git
+          rm -rf ./cl-cdn/.github
+          rm -rf ./cl-cdn/.gitignore
+          find ./cl-cdn -type f -empty -delete
+          find ./cl-cdn -type d -empty -delete
+
+      - name: Create package.json
+        run: |
+          cat > ./cl-cdn/package.json << 'EOF'
+          {
+            "name": "collapse",
+            "version": "1.0.0",
+            "license": "MIT",
+            "description": "Collapse Launcher Release",
+            "repository": {
+              "type": "git",
+              "url": "https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo.git"
+            }
+          }
+          EOF
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Publish
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.CNB_TOKEN }}
+          registry: https://npm.cnb.cool/CollapseLauncher/release/-/packages/
+          package: ./cl-cdn
