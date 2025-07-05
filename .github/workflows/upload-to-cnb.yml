@@ -11,19 +11,19 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone --depth 1 https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo.git cl-cdn
+          git clone --depth 1 https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo.git .
 
       - name: Cleanup
         run: |
-          rm -rf ./cl-cdn/.git
-          rm -rf ./cl-cdn/.github
-          rm -rf ./cl-cdn/.gitignore
-          find ./cl-cdn -type f -empty -delete
-          find ./cl-cdn -type d -empty -delete
+          rm -rf .git
+          rm -rf .github
+          rm -rf .gitignore
+          find . -type f -empty -delete
+          find . -type d -empty -delete
 
       - name: Create package.json
         run: |
-          cat > ./cl-cdn/package.json << 'EOF'
+          cat > package.json << 'EOF'
           {
             "name": "collapse-launcher-release",
             "version": "1.0.0",
@@ -31,19 +31,16 @@ jobs:
             "description": "Collapse Launcher Release",
             "repository": {
               "type": "git",
-              "url": "https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo.git"
+              "url": "git+https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo.git"
             }
           }
           EOF
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          node-version: 22
+          bun-version: latest
 
       - name: Publish
-        uses: JS-DevTools/npm-publish@v3
-        with:
-          token: ${{ secrets.CNB_TOKEN }}
-          registry: https://npm.cnb.cool/CollapseLauncher/release/-/packages/
-          package: ./cl-cdn
+        run: |
+          bun publish --force --registry=https://npm.cnb.cool/CollapseLauncher/release/-/packages/:_authToken=${{ secrets.CNB_TOKEN }}
