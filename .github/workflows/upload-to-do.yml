@@ -29,8 +29,11 @@ jobs:
         run: |
           echo Root folder
           mkdir -p ./cl-cdn/folderroot 
+          mkdir -p ./cl-cdn/folderroot/inhouse-plugin
+          mv ./cl-cdn/inhouse-plugin/* ./cl-cdn/folderroot/inhouse-plugin/
           mv ./cl-cdn/ApplyUpdate.exe ./cl-cdn/changelog_preview.md ./cl-cdn/changelog_stable.md ./cl-cdn/CollapseLauncher.Hi3CacheUpdater.cmd ./cl-cdn/folderroot/
           mv ./cl-cdn/notification_notepreview ./cl-cdn/notification_notestable ./cl-cdn/notification_preview.json ./cl-cdn/notification_stable.json ./cl-cdn/Update.exe ./cl-cdn/folderroot/
+          mv ./cl-cdn/InstallerSprite.gif ./cl-cdn/folderroot/
 
           echo Metadata
           mkdir -p ./cl-cdn/metadata/metadata-root
