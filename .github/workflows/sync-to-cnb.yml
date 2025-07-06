@@ -17,4 +17,4 @@ jobs:
       - name: Push
         run: |
           git remote add cnb https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/CollapseLauncher/ReleaseRepo.git
-          git push cnb main
+          git push cnb main --force
