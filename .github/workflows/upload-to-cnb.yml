@@ -43,6 +43,6 @@ jobs:
 
       - name: Publish
         env:
-          BUN_AUTH_TOKEN: ${{ secrets.CNB_TOKEN }}
+          NPM_CONFIG_TOKEN: ${{ secrets.CNB_TOKEN }}
         run: |
           bun publish --force --registry=https://npm.cnb.cool/CollapseLauncher/release/-/packages/
