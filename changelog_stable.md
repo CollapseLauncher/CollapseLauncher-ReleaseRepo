@@ -10,6 +10,23 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog below👇
 
+# What's changed? - 1.82.29
+- **[Fix]** Deprecating CODING CDN and Replace it with CNB CDN (Cloud Native Build by Tencent Cloud Computing (Beijing) Co., Ltd) for Mainland China users, by @shatyuka
+  [**Click here**](https://docs.cnb.cool/en/saas/privacy.html) to see details about its Privacy Policy (in Simplified Chinese).
+- **[Fix]** Fix FileNotFoundException while changing HDR Settings on Genshin Impact GSP, by @shatyuka 
+- **[Imp]** Accept the use of Symbolic Links on Zip package installation mode, by @bagusnl 
+- **[Fix]** Fix game priority booster returning error on success operations, by @bagusnl 
+- **[Imp]** Update NuGet Packages, by @bagusnl, @neon-nyan 
+  - Microsoft.Extensions.DependencyInjection.Abstractions: 9.0.5 -> 9.0.6
+  - Microsoft.Extensions.Logging.Abstractions: 9.0.5 -> 9.0.6
+  - Markdig.Signed: 0.41.2 -> 0.41.3
+  - System.Security.Cryptography.ProtectedData: 9.0.5 -> 9.0.6
+  - System.Text.Encoding.CodePages: 9.0.5 -> 9.0.6
+  - System.Text.Json: 9.0.5 -> 9.0.6
+- **[Fix]** Unmatched download size + ZZZ Sophon issue, by @neon-nyan,
+- **[Fix]** @DisableSophon and Disabling Sophon on Settings won't work, by @neon-nyan,
+- **[Loc]** Update Localizations for zh_CN, es_es/419, ja_JP, by Localizers
+
 # What's changed? - 1.82.28
 - **[Fix]** Fix webp dlls missing from build, by @bagusnl 
 

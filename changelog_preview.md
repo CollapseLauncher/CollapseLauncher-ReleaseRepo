@@ -7,6 +7,25 @@ We began to roll-out new releases by bringing new upcoming features and improvem
 
 ### Welcome to the 1.83 Release!
 
+# What's changed - 1.83.6? 
+- **[Fix]** Deprecating CODING CDN and Replace it with CNB CDN (Cloud Native Build by Tencent Cloud Computing (Beijing) Co., Ltd) for Mainland China users, by @shatyuka
+  [**Click here**](https://docs.cnb.cool/en/saas/privacy.html) to see details about its Privacy Policy (in Simplified Chinese).
+- **[Fix]** Fix FileNotFoundException while changing HDR Settings on Genshin Impact GSP, by @shatyuka 
+- **[Imp]** Accept the use of Symbolic Links on Zip package installation mode, by @bagusnl 
+- **[Fix]** Fix game priority booster returning error on success operations, by @bagusnl 
+- **[Imp]** Update NuGet Packages, by @bagusnl 
+  - Microsoft.Extensions.DependencyInjection.Abstractions: 9.0.5 -> 9.0.6
+  - Microsoft.Extensions.Logging.Abstractions: 9.0.5 -> 9.0.6
+  - Markdig.Signed: 0.41.2 -> 0.41.3
+  - System.Security.Cryptography.ProtectedData: 9.0.5 -> 9.0.6
+  - System.Text.Encoding.CodePages: 9.0.5 -> 9.0.6
+  - System.Text.Json: 9.0.5 -> 9.0.6
+- **[New]** Adds debug dialog spawning UI in settings, by @Cryotechnic
+  - Though, this feature isn't enabled on release builds.
+- **[Fix]** Unmatched download size + ZZZ Sophon issue, by @neon-nyan,
+- **[Fix]** @DisableSophon and Disabling Sophon on Settings won't work, by @neon-nyan,
+- **[Loc]** Update Localizations for zh_CN, es_es/419, ja_JP, by Localizers
+
 # What's changed - 1.83.5? 
 - **[Fix]** File sharing error on background image file, by @shatyuka 
 - **[Fix]** Crashing during startup in certain system caused by race condition in EnableWindowNonClientArea method, by @bagusnl 
