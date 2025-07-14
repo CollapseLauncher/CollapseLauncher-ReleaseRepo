@@ -54,48 +54,75 @@
             "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "GIGlbGPlay",
-            "Title": "[EN] Notice about Pre-Download Availability",
-            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.82.22 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
+            "Title": "[EN] Notice Regarding Sophon Pre-load/Update Issues",
+            "Message": "Hi Proxy!\r\nWe have acknowleged some issues might occur while you perform Pre-load or Update due to changes on the Sophon versioning.\r\nA fix is underway and if you happen to have the fix ASAP, please download a test build from our Official Discord Server below. We are sorry for the inconvenience.",
             "Show": true,
             "ValidForVerBelow": "1.82.24.0",
             "TimeBegin": "2025-05-05T00:00:00+08:00",
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
         {
-            "MsgId": 10000002,
+            "MsgId": 10000003,
             "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "ZZZGlb",
-            "Title": "[EN] Notice Regarding Sophon Update Issues",
-            "Message": "Hi Proxy!\r\nWe have received some issues regarding the Update for the latest version: 2.0 which caused the game to get corrupted while the update is being applied. We recommend you to update your game using the official HoYoPlay launcher for now as we are currently working on the fix. We are sorry for the inconvenience that caused.",
+            "Title": "[EN] Notice Regarding Sophon Pre-load/Update Issues",
+            "Message": "Hi Proxy!\r\nWe have acknowleged some issues might occur while you perform Pre-load or Update due to changes on the Sophon versioning.\r\nA fix is underway and if you happen to have the fix ASAP, please download a test build from our Official Discord Server below. We are sorry for the inconvenience.",
             "Show": true,
-            "ValidForVerBelow": "1.82.25.0",
-            "TimeBegin": "2025-06-01T00:00:00+08:00",
-            "TimeEnd": "2025-06-30T00:00:00+08:00"
+            "ValidForVerBelow": "1.82.28.0",
+            "TimeBegin": "2025-07-14T00:00:00+08:00",
+            "TimeEnd": "2025-07-17T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://discord.com/channels/1116150300324139131/1116164960217731113/1394261074530009099",
+                    "Description": "Download Test Build",
+                    "GlyphIcon": "FontAwesomeSolid",
+                    "GlyphFont": "\uf019"
+                }
+            }
         },
         {
-            "MsgId": 11000002,
+            "MsgId": 11000003,
             "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "ZZZCN",
-            "Title": "[EN] Notice Regarding Sophon Update Issues",
-            "Message": "Hi Proxy!\r\nWe have received some issues regarding the Update for the latest version: 2.0 which caused the game to get corrupted while the update is being applied. We recommend you to update your game using the official HoYoPlay launcher for now as we are currently working on the fix. We are sorry for the inconvenience that caused.",
+            "Title": "[EN] Notice Regarding Sophon Pre-load/Update Issues",
+            "Message": "Hi Proxy!\r\nWe have acknowleged some issues might occur while you perform Pre-load or Update due to changes on the Sophon versioning.\r\nA fix is underway and if you happen to have the fix ASAP, please download a test build from our Official Discord Server below. We are sorry for the inconvenience.",
             "Show": true,
-            "ValidForVerBelow": "1.82.25.0",
-            "TimeBegin": "2025-06-01T00:00:00+08:00",
-            "TimeEnd": "2025-06-30T00:00:00+08:00"
+            "ValidForVerBelow": "1.82.28.0",
+            "TimeBegin": "2025-07-14T00:00:00+08:00",
+            "TimeEnd": "2025-07-17T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://discord.com/channels/1116150300324139131/1116164960217731113/1394261074530009099",
+                    "Description": "Download Test Build",
+                    "GlyphIcon": "FontAwesomeSolid",
+                    "GlyphFont": "\uf019"
+                }
+            }
         },
         {
-            "MsgId": 12000002,
+            "MsgId": 12000003,
             "IsDisposable": true,
             "Severity": "Error",
             "RegionProfile": "ZZZBilibili",
             "Title": "[EN] Notice Regarding Sophon Update Issues",
             "Message": "Hi Proxy!\r\nWe have received some issues regarding the Update for the latest version: 2.0 which caused the game to get corrupted while the update is being applied. We recommend you to update your game using the official HoYoPlay launcher for now as we are currently working on the fix. We are sorry for the inconvenience that caused.",
             "Show": true,
-            "ValidForVerBelow": "1.82.25.0",
-            "TimeBegin": "2025-06-01T00:00:00+08:00",
-            "TimeEnd": "2025-06-30T00:00:00+08:00"
+            "ValidForVerBelow": "1.82.28.0",
+            "TimeBegin": "2025-07-14T00:00:00+08:00",
+            "TimeEnd": "2025-07-17T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://discord.com/channels/1116150300324139131/1116164960217731113/1394261074530009099",
+                    "Description": "Download Test Build",
+                    "GlyphIcon": "FontAwesomeSolid",
+                    "GlyphFont": "\uf019"
+                }
+            }
         }
     ]
 }
