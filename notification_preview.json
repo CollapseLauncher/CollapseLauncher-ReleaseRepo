@@ -77,8 +77,8 @@
                 "ActionValue": {
                     "URL": "https://discord.com/channels/1116150300324139131/1116164960217731113/1394261074530009099",
                     "Description": "Download Test Build",
-                    "GlyphIcon": "FontAwesomeSolid",
-                    "GlyphFont": "\uf019"
+                    "GlyphIcon": "\uf019",
+                    "GlyphFont": "FontAwesomeSolid"
                 }
             }
         },
@@ -98,8 +98,8 @@
                 "ActionValue": {
                     "URL": "https://discord.com/channels/1116150300324139131/1116164960217731113/1394261074530009099",
                     "Description": "Download Test Build",
-                    "GlyphIcon": "FontAwesomeSolid",
-                    "GlyphFont": "\uf019"
+                    "GlyphIcon": "\uf019",
+                    "GlyphFont": "FontAwesomeSolid"
                 }
             }
         },
@@ -119,8 +119,8 @@
                 "ActionValue": {
                     "URL": "https://discord.com/channels/1116150300324139131/1116164960217731113/1394261074530009099",
                     "Description": "Download Test Build",
-                    "GlyphIcon": "FontAwesomeSolid",
-                    "GlyphFont": "\uf019"
+                    "GlyphIcon": "\uf019",
+                    "GlyphFont": "FontAwesomeSolid"
                 }
             }
         }
