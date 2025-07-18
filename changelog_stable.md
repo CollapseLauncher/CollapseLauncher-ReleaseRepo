@@ -10,6 +10,12 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog below👇
 
+# What's changed? - 1.82.30
+- **[Fix]** [Sophon] Avoid Patch mode accidentally deleting files with no patch reference, by @neon-nyan 
+- **[New]** [Sophon] Support / Adding compatibility to Read/Download Pre-loads From/To HoYoPlay's "Ldiff" folder, by @neon-nyan 
+  > Collapse will now automatically use "Ldiff" folder as its default destination for reading/downloading pre-load, making Collapse able to use patch that already been downloaded by HoYoPlay and use it for patch, or vice versa (Download the pre-load on Collapse, apply on HoYoPlay later)
+- **[Imp]** [Sophon] Reducing I/O overhead and improve read performances for Patch/Asset checking, by @neon-nyan 
+
 # What's changed? - 1.82.29
 - **[Fix]** Deprecating CODING CDN and Replace it with CNB CDN (Cloud Native Build by Tencent Cloud Computing (Beijing) Co., Ltd) for Mainland China users, by @shatyuka
   [**Click here**](https://docs.cnb.cool/en/saas/privacy.html) to see details about its Privacy Policy (in Simplified Chinese).
