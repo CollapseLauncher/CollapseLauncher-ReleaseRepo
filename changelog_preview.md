@@ -7,6 +7,15 @@ We began to roll-out new releases by bringing new upcoming features and improvem
 
 ### Welcome to the 1.83 Release!
 
+# What's changed - 1.83.7? 
+- **[Fix]** [Sophon] Avoid Patch mode accidentally deleting files with no patch reference, by @neon-nyan 
+- **[New]** [Sophon] Support / Adding compatibility to Read/Download Pre-loads From/To HoYoPlay's "Ldiff" folder, by @neon-nyan 
+  > Collapse will now automatically use "Ldiff" folder as its default destination for reading/downloading pre-load, making Collapse able to use patch that already been downloaded by HoYoPlay and use it for patch, or vice versa (Download the pre-load on Collapse, apply on HoYoPlay later)
+- **[Imp]** [Sophon] Reducing I/O overhead and improve read performances for Patch/Asset checking, by @neon-nyan 
+- **[Imp]** Update NuGet, by @bagusnl 
+  - Microsoft.Web.WebView2: 1.0.3344-prerelease -> 1.0.3415-prerelease
+  - Microsoft.WindowsAppSDK: 1.8.250515001-experimental2 -> 1.8.250702007-experimental4
+
 # What's changed - 1.83.6? 
 - **[Fix]** Deprecating CODING CDN and Replace it with CNB CDN (Cloud Native Build by Tencent Cloud Computing (Beijing) Co., Ltd) for Mainland China users, by @shatyuka
   [**Click here**](https://docs.cnb.cool/en/saas/privacy.html) to see details about its Privacy Policy (in Simplified Chinese).

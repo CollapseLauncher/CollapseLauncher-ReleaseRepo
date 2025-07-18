@@ -1,0 +1,147 @@
+[lib-csharp:75260] [11:06:01] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:75260] [11:06:01] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:75260] [11:06:01] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.82.29
+[lib-csharp:75260] [11:06:01] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:75260] [11:06:16] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:75260] [11:06:16] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:75260] [11:06:16] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.82.29
+[lib-csharp:75260] [11:06:16] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:75260] [11:06:16] [Debug] Retrieving latest release feed.
+[lib-csharp:75260] [11:06:16] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:75260] [11:06:17] [Information] Found newer remote release available (1.82.29 -> 1.83.6).
+[lib-csharp:75260] [11:06:17] [Information] There is no local/base package available for this update, so delta updates will be disabled.
+[lib-csharp:75260] [11:06:19] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:75260] [11:06:19] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:75260] [11:06:19] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.82.29
+[lib-csharp:75260] [11:06:19] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:75260] [11:06:19] [Debug] Retrieving latest release feed.
+[lib-csharp:75260] [11:06:19] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:75260] [11:06:19] [Information] Found newer remote release available (1.82.29 -> 1.83.6).
+[lib-csharp:75260] [11:06:19] [Information] There is no local/base package available for this update, so delta updates will be disabled.
+[lib-csharp:75260] [11:06:19] [Information] Downloading full release (CollapseLauncher-1.83.6-preview-full.nupkg)
+[lib-csharp:75260] [11:06:19] [Information] Downloading 'CollapseLauncher-1.83.6-preview-full.nupkg' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/CollapseLauncher-1.83.6-preview-full.nupkg'.
+[lib-csharp:189040] [09:12:24] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:189040] [09:12:24] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:189040] [09:12:24] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.82.29
+[lib-csharp:189040] [09:12:24] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:189040] [09:12:49] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:189040] [09:12:49] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:189040] [09:12:49] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.82.29
+[lib-csharp:189040] [09:12:49] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:189040] [09:12:49] [Debug] Retrieving latest release feed.
+[lib-csharp:189040] [09:12:49] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:189040] [09:12:49] [Information] Found newer remote release available (1.82.29 -> 1.83.6).
+[lib-csharp:189040] [09:12:49] [Information] There is no local/base package available for this update, so delta updates will be disabled.
+[lib-csharp:189040] [09:12:51] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:189040] [09:12:51] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:189040] [09:12:51] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.82.29
+[lib-csharp:189040] [09:12:51] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:189040] [09:12:51] [Debug] Retrieving latest release feed.
+[lib-csharp:189040] [09:12:51] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:189040] [09:12:51] [Information] Found newer remote release available (1.82.29 -> 1.83.6).
+[lib-csharp:189040] [09:12:51] [Information] There is no local/base package available for this update, so delta updates will be disabled.
+[lib-csharp:189040] [09:12:51] [Information] Downloading full release (CollapseLauncher-1.83.6-preview-full.nupkg)
+[lib-csharp:189040] [09:12:51] [Information] Downloading 'CollapseLauncher-1.83.6-preview-full.nupkg' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/CollapseLauncher-1.83.6-preview-full.nupkg'.
+[lib-csharp:71016] [14:12:04] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:71016] [14:12:04] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:71016] [14:12:04] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.82.29
+[lib-csharp:71016] [14:12:04] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:71016] [14:12:15] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:71016] [14:12:15] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:71016] [14:12:15] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:71016] [14:12:15] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:71016] [14:12:15] [Debug] Retrieving latest release feed.
+[lib-csharp:71016] [14:12:15] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:71016] [14:12:16] [Information] No updates, remote version (1.83.6) is not newer than current version (1.83.6) and / or downgrade is not enabled.
+[lib-csharp:200052] [22:41:27] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:200052] [22:41:27] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:200052] [22:41:27] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:200052] [22:41:27] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:200720] [22:47:00] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:200720] [22:47:00] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:200720] [22:47:00] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:200720] [22:47:00] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:200720] [22:47:11] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:200720] [22:47:11] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:200720] [22:47:11] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:200720] [22:47:13] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:200720] [22:47:13] [Debug] Retrieving latest release feed.
+[lib-csharp:200720] [22:47:13] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:200720] [22:47:14] [Information] No updates, remote version (1.83.6) is not newer than current version (1.83.6) and / or downgrade is not enabled.
+[lib-csharp:155764] [22:52:29] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:155764] [22:52:29] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:155764] [22:52:29] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:155764] [22:52:29] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:155764] [22:52:46] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:155764] [22:52:46] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:155764] [22:52:46] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:155764] [22:52:46] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:155764] [22:52:46] [Debug] Retrieving latest release feed.
+[lib-csharp:155764] [22:52:46] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:155764] [22:52:47] [Information] No updates, remote version (1.83.6) is not newer than current version (1.83.6) and / or downgrade is not enabled.
+[lib-csharp:81216] [23:41:00] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:81216] [23:41:00] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:81216] [23:41:00] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:81216] [23:41:00] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:81216] [23:41:12] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:81216] [23:41:12] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:81216] [23:41:12] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:81216] [23:41:15] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:81216] [23:41:15] [Debug] Retrieving latest release feed.
+[lib-csharp:81216] [23:41:15] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:81216] [23:41:17] [Information] No updates, remote version (1.83.6) is not newer than current version (1.83.6) and / or downgrade is not enabled.
+[lib-csharp:2844] [00:09:57] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:2844] [00:09:57] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:2844] [00:09:57] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:2844] [00:09:57] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:2844] [00:10:12] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:2844] [00:10:12] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:2844] [00:10:12] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:2844] [00:10:12] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:2844] [00:10:12] [Debug] Retrieving latest release feed.
+[lib-csharp:2844] [00:10:12] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:2844] [00:10:13] [Information] No updates, remote version (1.83.6) is not newer than current version (1.83.6) and / or downgrade is not enabled.
+[lib-csharp:65952] [00:13:51] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:65952] [00:13:51] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:65952] [00:13:51] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:65952] [00:13:51] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:65952] [00:14:02] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:65952] [00:14:02] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:65952] [00:14:02] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:65952] [00:14:02] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:65952] [00:14:02] [Debug] Retrieving latest release feed.
+[lib-csharp:65952] [00:14:02] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:65952] [00:14:04] [Information] No updates, remote version (1.83.6) is not newer than current version (1.83.6) and / or downgrade is not enabled.
+[lib-csharp:49080] [00:17:49] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:49080] [00:17:49] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:49080] [00:17:49] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:49080] [00:17:49] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:49080] [00:18:07] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:49080] [00:18:07] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:49080] [00:18:07] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:49080] [00:18:07] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:49080] [00:18:07] [Debug] Retrieving latest release feed.
+[lib-csharp:49080] [00:18:07] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:49080] [00:18:09] [Information] No updates, remote version (1.83.6) is not newer than current version (1.83.6) and / or downgrade is not enabled.
+[lib-csharp:192016] [01:40:22] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:192016] [01:40:22] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:192016] [01:40:22] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.6
+[lib-csharp:192016] [01:40:22] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:192016] [01:40:41] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:192016] [01:40:41] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:192016] [01:40:41] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.7
+[lib-csharp:192016] [01:40:41] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:192016] [01:40:41] [Debug] Retrieving latest release feed.
+[lib-csharp:192016] [01:40:41] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:192016] [01:40:43] [Information] Latest remote release is older than current, and downgrade is enabled (1.83.7 -> 1.83.6).
+[lib-csharp:3804] [14:17:50] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:3804] [14:17:50] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:3804] [14:17:50] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.7
+[lib-csharp:3804] [14:17:50] [Information] Starting VelopackApp.Run (library version 0.0.1297).
+[lib-csharp:3804] [14:18:02] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:3804] [14:18:02] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: E:\myGit\CollapseLauncher-ReleaseRepo\preview-build\sq.version
+[lib-csharp:3804] [14:18:02] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.83.7
+[lib-csharp:3804] [14:18:02] [Information] Loaded existing staging userId: a68912f0-3a95-5640-811a-639c3d8a5219
+[lib-csharp:3804] [14:18:02] [Debug] Retrieving latest release feed.
+[lib-csharp:3804] [14:18:02] [Information] Downloading release file 'releases.preview.json' from 'https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/main/velopack/preview/releases.preview.json?arch=x64&os=win&rid=win-x64'.
+[lib-csharp:3804] [14:18:03] [Information] Latest remote release is older than current, and downgrade is enabled (1.83.7 -> 1.83.6).
