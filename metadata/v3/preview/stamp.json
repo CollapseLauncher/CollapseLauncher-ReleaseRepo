@@ -18,7 +18,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20250530110416,
+    "LastUpdated": 20250724004136,
     "MetadataPath": "config_Hi3CN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -133,7 +133,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20250429070601,
+    "LastUpdated": 20250412120346,
     "MetadataPath": "config_communitytools.json",
     "MetadataType": "CommunityTools",
     "MetadataInclude": true,
