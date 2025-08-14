@@ -7,6 +7,34 @@ We began to roll-out new releases by bringing new upcoming features and improvem
 
 ### Welcome to the 1.83 Release!
 
+# What's changed - 1.83.8? 
+- **[Imp]** Update `System.Commandline` to `2.0.0beta6`, by @bagusnl, @shatyuka & @gablm 
+- **[Imp]** Migrate `BridgedNetworkStream` & `CopyToStream` functions to `EncTool` submodule, by @neon-nyan 
+- **[New]** Add caching for CDN responses, which will hopefully reduce the amount of network calls Collapse makes, by @neon-nyan 
+    - This is used as a cache utility for `HttpResponseMessage` saving responses locally based on the cache method used. Two cache methods are currently supported, including:
+         - Time-based cache (based on Expire headers)
+         - Hash-based cache (based on ETag or Content-MD5 headers) 
+- **[Fix]** Restore deleted Sentry `csproj` entries for AOT builds, by @neon-nyan 
+- **[Loc]** Add Thai localization to README (thanks!), by @armzyaec 
+- **[Imp]** Improve Settings page based on changes made to CDN caching, by @neon-nyan:
+    - Allow Cache Garbage Collection if the cache file age is more than allowed maximum time.
+    - Allow time-based cache to be clamped if the CDN expire time is larger than allowed maximum time.
+    - Adding Aggressive Caching mode.
+      > This mode allow the response to be always cached based on how long the allowed maximum time.
+    - Add new method: `SetCacheDirSkipGC`
+    > This method is used to set the cache directory and skipping the garbage collection.
+    - Ensure to always set `Length` as 0 if source stream's `.Length` isn't supported on `CopyToStream`
+- **[Imp]** Add new async methods for `DnsQuery` & fix marshalling issues in `Hi3Helper.Win32`, by @neon-nyan  
+- **[Imp]** `HttpClientBuilder` improvements, by @neon-nyan:
+    - Make DNS resolve from Client -> OS fully asynchronous
+    - Use shared DNS Nameservers instead of per-`HttpClient`
+    > This way, the users can change the DNS settings without restarting the app.
+    - Remove `HttpClientBuilder<THandler>` and instead explicitly use `SocketsHttpHandler` via `HttpClientBuilder`
+- **[Fix]** Fix incorrect i18n string used for Anisotropic Filtering in ZZZ, by @shatyuka
+- **[Imp]** Update `SRAM` version & parsing to account for new HSR asset type in version 3.5.0.
+- **[Imp]** Update .NET components NuGet to 9.0.7, by @bagusnl 
+- **[Loc]** Update localizations, by our Localizers. Thanks for all your hard work ❤️ 
+
 # What's changed - 1.83.7? 
 - **[Fix]** [Sophon] Avoid Patch mode accidentally deleting files with no patch reference, by @neon-nyan 
 - **[New]** [Sophon] Support / Adding compatibility to Read/Download Pre-loads From/To HoYoPlay's "Ldiff" folder, by @neon-nyan 

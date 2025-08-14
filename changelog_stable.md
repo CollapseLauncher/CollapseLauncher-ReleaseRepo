@@ -10,6 +10,19 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog below👇
 
+# What's changed? - 1.82.31
+- **[Imp]** Migrate `BridgedNetworkStream` & `CopyToStream` functions to `EncTool` submodule, by @neon-nyan 
+- **[Imp]** Add new async methods for `DnsQuery` & fix marshalling issues in `Hi3Helper.Win32`, by @neon-nyan  
+- **[Imp]** `HttpClientBuilder` improvements, by @neon-nyan:
+    - Make DNS resolve from Client -> OS fully asynchronous
+    - Use shared DNS Nameservers instead of per-`HttpClient`
+    > ~~This way, the users can change the DNS settings without restarting the app.~~ This functionality isn't applied to Stable, yet the component is left behind due to submodule shared with preview branch.
+    - Remove `HttpClientBuilder<THandler>` and instead explicitly use `SocketsHttpHandler` via `HttpClientBuilder`
+- **[Fix]** Fix incorrect i18n string used for Anisotropic Filtering in ZZZ, by @shatyuka
+- **[Imp]** Update `SRAM` version & parsing to account for new HSR asset type in version 3.5.0.
+- **[Imp]** Update .NET components NuGet to 9.0.7, by @bagusnl 
+- **[Loc]** Update localizations, by our Localizers. Thanks for all your hard work ❤️ 
+
 # What's changed? - 1.82.30
 - **[Fix]** [Sophon] Avoid Patch mode accidentally deleting files with no patch reference, by @neon-nyan 
 - **[New]** [Sophon] Support / Adding compatibility to Read/Download Pre-loads From/To HoYoPlay's "Ldiff" folder, by @neon-nyan 
