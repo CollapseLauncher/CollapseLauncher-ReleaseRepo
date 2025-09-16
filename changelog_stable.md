@@ -2,6 +2,9 @@
 
 > We've recently released a new launcher status tracker! Head on over to https://status.collapselauncher.com to see it!
 
+# Asset Availability post-delete Feature Status
+Currently, only Zenless Zone Zero and Honkai: Impact 3rd support ignoring assets for past mission resources. Support for other titles is pending and will be released in the next version. 
+
 # Servicing/Maintenance Mode Phase
 Version 1.82.17 onwards will mark the "**Servicing/Maintenance Mode**" part of our development cycle, meaning that 1.82.xxx releases will no longer get any improvements or new features, unless any urgent changes or bug fixes need to be pushed or backported from our Preview branch.
 
@@ -9,6 +12,12 @@ We are going to plan other new features, improvements and changes to be pushed i
 Hit us on our Official Discord or Create an Issue if you have ideas what features or changes you want to have in later 1.83.xxx or future release.
 
 More information regarding the changes can also be found in the changelog below👇
+
+# What's changed? - 1.82.32
+- **[Imp]** Update .NET components NuGet to 9.0.9, by @bagusnl @neon-nyan 
+- **[Fix]** ``NotSupportedException`` error while performing Game Repair on Honkai Impact 3rd and Honkai: Star Rail, by @neon-nyan 
+- **[Fix]** Legacy Sophon won't recognize already existed files while installing games from scratch, by @neon-nyan 
+- **[Fix/Imp]** Ignore assets that marked as "unused/deleted" on ZZZ Game Installation/Update and Game Repair, by @neon-nyan
 
 # What's changed? - 1.82.31
 - **[Imp]** Migrate `BridgedNetworkStream` & `CopyToStream` functions to `EncTool` submodule, by @neon-nyan 
