@@ -1,11 +1,120 @@
-![](https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/ReleaseHeader-Wide-2024v2.webp)
+![UpdateIsAvailable-Campaign](https://github.com/user-attachments/assets/5c5df62c-8570-4018-b6e7-66d5decf8278)
 
-> We've recently released a new launcher status tracker! Head on over to https://status.collapselauncher.com to see it!
+### Hi there, neon-nyan here~
 
-# A New Version is Approaching!
-We began to roll-out new releases by bringing new upcoming features and improvements to the launcher in-front of your door. As a preparation, you might receives new builds while the release is still in development, so the new features you can try out sooner.
+It's been almost 3 weeks since the last preview update. To commemorate Genshin Impact 6.0 (aka: Luna I) update, we have decided to use a new codename for this release: "**Luna**"
 
-### Welcome to the 1.83 Release!
+With this release, we are bringing a long-awaited feature, the Plugin System. This will catapult the development of Collapse to become not only an exclusively third-party launcher for HoYoverse/miHoYo titles, but also others in the future.
+
+Without further ado, let's get into details of this update!
+
+# What's New?
+## [Plugin System for Other Non-miHoYo Titles Support](https://github.com/CollapseLauncher/Collapse/pull/752), by @neon-nyan
+3 Months, 9000+ of lines changes later, we have finally finished the first iteration of Plugin System implementation. For now, only basic functionalities are implemented into this system, per the [v0.1-update1 API Standard](https://github.com/CollapseLauncher/Hi3Helper.Plugin.Core/tree/98ac5f08e48661f50f34b6d2bb2571fb9bd26730), including:
+- Game Installation
+- Game Update/Preload
+
+> Note: Other features like Game Repair, Game Caches and Game Settings are going to be implemented in the future.
+
+We are planning to make our own in-house plugins which will bring support to two games and are expected to be finished once the Luna release makes it to Stable:
+- **Heaven Burns Red**
+  Developed and Maintained by: Collapse Project Team (@neon-nyan)
+  Status: Completed
+- **Wuthering Waves**
+  Developed and Maintained by: Collapse Project Team (@Cryotechnic)
+  Status: Final Validation Phase
+
+This implementation took more time due to a NativeAOT redesign of the system. We are trying to make the plugin to not only work inside our own codebase, but also usable for any code/launchers implementation out there (if they want to).
+
+We are making the compiled plugin footprint as small as possible by removing any dependencies, with .NET Reflections, stripping out .NET Runtime and implementing COM-Like interfaces to bridge the communication with plugins and the launcher, making the plugin compiled as a native library instead of a .NET standard library. With this, we are achieving 6-7 MB for the plugin library.
+
+The plugin can be managed by using the Plugin Manager menu under the App Settings. Here's how it works:
+
+[2025-09-14 21-51-48.webm](https://github.com/user-attachments/assets/0e972c82-c6d1-41ac-a2a4-b705b703d234)
+
+> **PS:** Plugin download for Heaven Burns Red will be available soon. Join our official Discord to get your hands on that first!~ 👀
+
+## Bring Back NativeAOT Build
+The latest .NET 9 Runtime comes with a fix and the UI hang issue has been fixed in most scenarios, which allows us to ship NativeAOT builds again!
+
+Publishing a NativeAOT Build brings some benefits, including faster cold start-up time, slight improvements on overall code performance (which relies on frequent inline calls) and smaller compiled code.
+
+This demo shows an improvement to the cold start-up time while the launcher is launched. We took Stable v1.82.31 as a baseline to the comparison and as a result, old `ILCompile` build start-up finished in 916 milliseconds while `NativeAOT` build start-up finished in just 466 milliseconds.
+
+[ComparisonAOTvsNonAOT.webm](https://github.com/user-attachments/assets/5b659198-76c9-4f42-9836-6901e231da31)
+
+This also results in a much smaller build as most of the .NET runtime code are stripped. Here's the comparison of the build size between two builds (with debug symbols removed):
+
+<img width="731" height="515" alt="image" src="https://github.com/user-attachments/assets/5fb87181-7a00-4169-8903-874111024267" />
+
+## [Revamp Post-Download Behavior Settings](https://github.com/CollapseLauncher/Collapse/pull/777), by @gablm 
+We have added few options on how the launcher will behave after a game installation/update. You can also set the Download Speed Limit while performing game installation or update.
+
+<img width="802" height="454" alt="image" src="https://github.com/user-attachments/assets/2df669e5-c44a-4d51-b3e7-a98f203f951d" />
+
+## Cached API Response for Application-wide Functions, by @neon-nyan
+Tired of waiting for the launcher to load up each of the regions? Now, you can make it faster. With the new HTTP Cache method, you can make game region loading much faster (almost immediate). Previously, this feature was only available for few features internally, including Game Repair and Cache Updates, but was not controllable. Now, every API calls from the launcher can be cached so the launcher loads everything much-much faster.
+
+[2025-09-14 22-10-08.webm](https://github.com/user-attachments/assets/012d13cb-5bb9-4bf9-8fcf-d7ef43ddb8fa)
+
+# Other Changes - 1.83.9
+- **[Removed]** Remove CODING from CDN Mirror list
+- **[Imp]** Recompile Static Libraries with MSVC for NativeAOT builds, by @neon-nyan
+- **[Imp]** Update .NET components NuGet to 9.0.9, by @bagusnl @neon-nyan 
+- **[Imp]** Update WindowsAppSDK to 1.8-stable, by @neon-nyan 
+- **[Imp]** [Improve DBHandler reliability and error handling](https://github.com/CollapseLauncher/Collapse/pull/791), by @bagusnl 
+  - Implements a retry mechanism with exponential backoff for database operations
+  - Adds detailed logging for debugging and troubleshooting
+  - Uses internal methods for querying and storing data to streamline error handling
+  - Integrates with Sentry for exception reporting
+  - Improves stream expiration handling
+- **[Imp]** Decouple Hashing Extensions from Collapse Launcher's Main Code, by @neon-nyan
+- **[Imp]** [Improve app-wide logger extensions](https://github.com/CollapseLauncher/Collapse/commit/6acea347768b277a438bc8bd99d3a34314c307ef#commitcomment-164583504), by @neon-nyan
+  - Remove memory allocation entirely by writing string directly to Win32 handles
+  - Add asynchronous variant for the overloads
+  - Add ``DefaultInterpolatedStringHandler`` overload for passing interpolated string.
+- **[Imp]** [Improve Sentry Logging](https://github.com/CollapseLauncher/Collapse/pull/795), by @bagusnl
+  - Now the telemetry will upload only the last 100 lines from the log instead of sending everything to Sentry. This will reduce time and guarantee the log is successfully sent for analysis.
+  - If multiple errors occur, the exceptions will be queued and sent one-by-one. This avoid issues with other reports being sent at the same time.
+- **[Imp]** Improve I/O Performance on Sophon submodule, by @neon-nyan
+  - Use OS-level file caching
+  - Limit `FileStream` handle's access and share parameter
+  - Automatically increase `FileStream`'s buffer to now depend on target file size
+  - Move ``ChunkStream.CopyToAsync`` into `Task.Factory` and run it synchronously in the background
+  - Increase maximum buffer size budget on patch mode from 4 MiB to 32 MiB
+  - Allocate only a certain amount of buffer based on target data size (this to avoid buffer overprovision, causing memory and CPU usage spikes)
+- **[Fix/Imp]** Ignore assets that marked as "unused/deleted" on ZZZ Game Installation/Update and Game Repair, by @neon-nyan
+- **[Fix]** ``NotSupportedException`` error while performing Game Repair on Honkai Impact 3rd and Honkai: Star Rail, by @neon-nyan 
+- **[Fix]** Legacy Sophon won't recognize already existed files while installing games from scratch, by @neon-nyan 
+- **[Locale]** Update Localizations for vn_VN, es_ES/419, ja_JP, id_ID, zh_CN, by Localizers ❤
+
+# What's changed - 1.83.8? 
+- **[Imp]** Update `System.Commandline` to `2.0.0beta6`, by @bagusnl, @shatyuka & @gablm 
+- **[Imp]** Migrate `BridgedNetworkStream` & `CopyToStream` functions to `EncTool` submodule, by @neon-nyan 
+- **[New]** Add caching for CDN responses, which will hopefully reduce the amount of network calls Collapse makes, by @neon-nyan 
+    - This is used as a cache utility for `HttpResponseMessage` saving responses locally based on the cache method used. Two cache methods are currently supported, including:
+         - Time-based cache (based on Expire headers)
+         - Hash-based cache (based on ETag or Content-MD5 headers) 
+- **[Fix]** Restore deleted Sentry `csproj` entries for AOT builds, by @neon-nyan 
+- **[Loc]** Add Thai localization to README (thanks!), by @armzyaec 
+- **[Imp]** Improve Settings page based on changes made to CDN caching, by @neon-nyan:
+    - Allow Cache Garbage Collection if the cache file age is more than allowed maximum time.
+    - Allow time-based cache to be clamped if the CDN expire time is larger than allowed maximum time.
+    - Adding Aggressive Caching mode.
+      > This mode allow the response to be always cached based on how long the allowed maximum time.
+    - Add new method: `SetCacheDirSkipGC`
+    > This method is used to set the cache directory and skipping the garbage collection.
+    - Ensure to always set `Length` as 0 if source stream's `.Length` isn't supported on `CopyToStream`
+- **[Imp]** Add new async methods for `DnsQuery` & fix marshalling issues in `Hi3Helper.Win32`, by @neon-nyan  
+- **[Imp]** `HttpClientBuilder` improvements, by @neon-nyan:
+    - Make DNS resolve from Client -> OS fully asynchronous
+    - Use shared DNS Nameservers instead of per-`HttpClient`
+    > This way, the users can change the DNS settings without restarting the app.
+    - Remove `HttpClientBuilder<THandler>` and instead explicitly use `SocketsHttpHandler` via `HttpClientBuilder`
+- **[Fix]** Fix incorrect i18n string used for Anisotropic Filtering in ZZZ, by @shatyuka
+- **[Imp]** Update `SRAM` version & parsing to account for new HSR asset type in version 3.5.0.
+- **[Imp]** Update .NET components NuGet to 9.0.7, by @bagusnl 
+- **[Loc]** Update localizations, by our Localizers. Thanks for all your hard work ❤️ 
 
 # What's changed - 1.83.8? 
 - **[Imp]** Update `System.Commandline` to `2.0.0beta6`, by @bagusnl, @shatyuka & @gablm 
