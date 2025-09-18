@@ -8,6 +8,9 @@ With this release, we are bringing a long-awaited feature, the Plugin System. Th
 
 Without further ado, let's get into details of this update!
 
+# Information about 1.83.10 Hotfix
+This hotfix includes some bug fixes related with Sophon Update mechanism and some code compilation changes.
+
 # What's New?
 ## [Plugin System for Other Non-miHoYo Titles Support](https://github.com/CollapseLauncher/Collapse/pull/752), by @neon-nyan
 3 Months, 9000+ of lines changes later, we have finally finished the first iteration of Plugin System implementation. For now, only basic functionalities are implemented into this system, per the [v0.1-update1 API Standard](https://github.com/CollapseLauncher/Hi3Helper.Plugin.Core/tree/98ac5f08e48661f50f34b6d2bb2571fb9bd26730), including:
@@ -56,6 +59,13 @@ We have added few options on how the launcher will behave after a game installat
 Tired of waiting for the launcher to load up each of the regions? Now, you can make it faster. With the new HTTP Cache method, you can make game region loading much faster (almost immediate). Previously, this feature was only available for few features internally, including Game Repair and Cache Updates, but was not controllable. Now, every API calls from the launcher can be cached so the launcher loads everything much-much faster.
 
 [2025-09-14 22-10-08.webm](https://github.com/user-attachments/assets/012d13cb-5bb9-4bf9-8fcf-d7ef43ddb8fa)
+
+# Other Changes - 1.83.10 - Hotfix
+- **[Fix]** Sophon Update Issues, by @neon-nyan 
+  - Fix invalid FileAccess and FileShare on Patch Download
+  - Fix Sophon's IsSkipHashCheckOnWrite logic
+  - Increase Sophon Patch download buffer to 64 KB max
+- **[Fix]** Bring back detailed exception messages for better diagnostic, by @neon-nyan 
 
 # Other Changes - 1.83.9
 - **[Removed]** Remove CODING from CDN Mirror list

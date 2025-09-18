@@ -13,6 +13,12 @@ Hit us on our Official Discord or Create an Issue if you have ideas what feature
 
 More information regarding the changes can also be found in the changelog below👇
 
+# What's changed? - 1.82.33
+- **[Fix]** Sophon Update Issues, by @neon-nyan 
+  - Fix invalid FileAccess and FileShare on Patch Download
+  - Fix Sophon's IsSkipHashCheckOnWrite logic
+  - Increase Sophon Patch download buffer to 64 KB max
+
 # What's changed? - 1.82.32
 - **[Imp]** Update .NET components NuGet to 9.0.9, by @bagusnl @neon-nyan 
 - **[Fix]** ``NotSupportedException`` error while performing Game Repair on Honkai Impact 3rd and Honkai: Star Rail, by @neon-nyan 
