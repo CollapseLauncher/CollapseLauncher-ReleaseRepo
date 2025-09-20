@@ -72,8 +72,8 @@ set velopackPath=velopack
 set buildPath=%velopackPath%\buildKitchen-%channel%
 set latestPath=%velopackPath%\latestKitchen-%channel%
 set releasePath=%velopackPath%\%channel%
-:: set brotli=brotli-mt-w64.exe -T %thread% -k -11 -f -B -v
-set brotli=ApplyUpdate.exe compress
+:: set archiver=brotli-mt-w64.exe -T %thread% -k -11 -f -B -v
+set archiver=ApplyUpdate.exe compress
 
 :velopackCheck
 echo Installing/Updating velopack tool...
@@ -107,13 +107,9 @@ copy Update.exe %latestPath%
 
 :: Start archiving latest package
 if not exist "%velopackPath%\%channel%" mkdir %velopackPath%\%channel%
-title=Packing build into brotli archive...
-echo Packing build into brotli archive...
-cd %latestPath%
-%sevenzip% a -ttar "..\latest-%channel%.tar" .
-cd ..\..\
-%brotli% %velopackPath%\latest-%channel%.tar %velopackPath%\%channel%\latest
-del %velopackPath%\latest-%channel%.tar
+title=Packing build into archive...
+echo Packing build into archive...
+%archiver% %latestPath% %velopackPath%\%channel%\latest
 
 :: Start archiving portable package
 title=Archiving tar build files...
@@ -131,20 +127,23 @@ rmdir /S /Q %latestPath%
 :: Copy the ApplyUpdate tool to channel folder
 rmdir /S /Q %channel% && mkdir %channel%
 copy ApplyUpdate.exe %channel%
+copy av_libglesv2.dll %channel%
 
 :: Write release stamp file
 echo %channel%>%channel%\release
 
 :: Get the size of ApplyUpdate tool
 FOR /F "usebackq" %%A IN ('%channel%\ApplyUpdate.exe') DO set applyupdatesize=%%~zA
+FOR /F "usebackq" %%A IN ('%channel%\av_libglesv2.dll') DO set applyupdatelibsize=%%~zA
 FOR /F "usebackq" %%A IN ('%channel%\release') DO set releasesize=%%~zA
 :: Get the MD5 hash of ApplyUpdate tool
 FOR /F %%B IN ('certutil -hashfile %channel%\ApplyUpdate.exe MD5 ^| find /v "hash"') DO set applyupdatehash=%%B
+FOR /F %%B IN ('certutil -hashfile %channel%\av_libglesv2.dll MD5 ^| find /v "hash"') DO set applyupdatelibhash=%%B
 FOR /F %%B IN ('certutil -hashfile %channel%\release MD5 ^| find /v "hash"') DO set releasehash=%%B
 :: Get current Unix timestamp
 call :GetUnixTime unixtime
 :: Print out the fileindex.json file
-echo ^{"ver":"%version%",%forceUpdate%"time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^}>%channel%\fileindex.json
+echo ^{"ver":"%version%",%forceUpdate%"time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"av_libglesv2.dll","crc":"%applyupdatelibhash%","s":%applyupdatelibsize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^}>%channel%\fileindex.json
 
 goto :EOF
 
