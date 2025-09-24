@@ -8,10 +8,24 @@ With this release, we are bringing a long-awaited feature, the Plugin System. Th
 
 Without further ado, let's get into details of this update!
 
-# Information about 1.83.10 Hotfix
-This hotfix includes some bug fixes related with Sophon Update mechanism and some code compilation changes.
+# What's New? - 1.83.11
+## Enable Discord Presence Support for Plugin Games
+With the addition of the new extension for Plugin API Standard v0.1-update2, we bring Discord Presence support for Plugin-based Games. You can now display your Plugin-based games on Discord just like built-in games.
 
-# What's New?
+![](https://github.com/user-attachments/assets/2d03f285-220d-4dd8-91d4-4f1a37550501)
+
+# Other Changes - 1.83.11
+- **[Fix]** ``ExecutionEngineException`` hard-crash while finishing game installation on plugin-based games, by @neon-nyan
+- **[Imp]** [RegistryExtension] Improve error handling in TryGetValue method, by @bagusnl 
+- **[Fix]** [GameSettings] Reload RegistryRoot when detecting error during GetValue, by @bagusnl 
+- **[Fix]** Color Palette went unchanged after background image is loaded, by @neon-nyan 
+- **[Fix]** Wrong version displayed on Preload Box, by @neon-nyan 
+- **[Imp/Fix]** [HSR] Skip removed assets from Sophon patch list, by @neon-nyan 
+
+# Information about 1.83.10 Hotfix
+This hotfix includes some bug fixes related with Sophon Update mechanism, Plugin System and some code compilation changes. 
+
+# What's New? - 1.83.10
 ## [Plugin System for Other Non-miHoYo Titles Support](https://github.com/CollapseLauncher/Collapse/pull/752), by @neon-nyan
 3 Months, 9000+ of lines changes later, we have finally finished the first iteration of Plugin System implementation. For now, only basic functionalities are implemented into this system, per the [v0.1-update1 API Standard](https://github.com/CollapseLauncher/Hi3Helper.Plugin.Core/tree/98ac5f08e48661f50f34b6d2bb2571fb9bd26730), including:
 - Game Installation
@@ -97,34 +111,6 @@ Tired of waiting for the launcher to load up each of the regions? Now, you can m
 - **[Fix]** ``NotSupportedException`` error while performing Game Repair on Honkai Impact 3rd and Honkai: Star Rail, by @neon-nyan 
 - **[Fix]** Legacy Sophon won't recognize already existed files while installing games from scratch, by @neon-nyan 
 - **[Locale]** Update Localizations for vn_VN, es_ES/419, ja_JP, id_ID, zh_CN, by Localizers ❤
-
-# What's changed - 1.83.8? 
-- **[Imp]** Update `System.Commandline` to `2.0.0beta6`, by @bagusnl, @shatyuka & @gablm 
-- **[Imp]** Migrate `BridgedNetworkStream` & `CopyToStream` functions to `EncTool` submodule, by @neon-nyan 
-- **[New]** Add caching for CDN responses, which will hopefully reduce the amount of network calls Collapse makes, by @neon-nyan 
-    - This is used as a cache utility for `HttpResponseMessage` saving responses locally based on the cache method used. Two cache methods are currently supported, including:
-         - Time-based cache (based on Expire headers)
-         - Hash-based cache (based on ETag or Content-MD5 headers) 
-- **[Fix]** Restore deleted Sentry `csproj` entries for AOT builds, by @neon-nyan 
-- **[Loc]** Add Thai localization to README (thanks!), by @armzyaec 
-- **[Imp]** Improve Settings page based on changes made to CDN caching, by @neon-nyan:
-    - Allow Cache Garbage Collection if the cache file age is more than allowed maximum time.
-    - Allow time-based cache to be clamped if the CDN expire time is larger than allowed maximum time.
-    - Adding Aggressive Caching mode.
-      > This mode allow the response to be always cached based on how long the allowed maximum time.
-    - Add new method: `SetCacheDirSkipGC`
-    > This method is used to set the cache directory and skipping the garbage collection.
-    - Ensure to always set `Length` as 0 if source stream's `.Length` isn't supported on `CopyToStream`
-- **[Imp]** Add new async methods for `DnsQuery` & fix marshalling issues in `Hi3Helper.Win32`, by @neon-nyan  
-- **[Imp]** `HttpClientBuilder` improvements, by @neon-nyan:
-    - Make DNS resolve from Client -> OS fully asynchronous
-    - Use shared DNS Nameservers instead of per-`HttpClient`
-    > This way, the users can change the DNS settings without restarting the app.
-    - Remove `HttpClientBuilder<THandler>` and instead explicitly use `SocketsHttpHandler` via `HttpClientBuilder`
-- **[Fix]** Fix incorrect i18n string used for Anisotropic Filtering in ZZZ, by @shatyuka
-- **[Imp]** Update `SRAM` version & parsing to account for new HSR asset type in version 3.5.0.
-- **[Imp]** Update .NET components NuGet to 9.0.7, by @bagusnl 
-- **[Loc]** Update localizations, by our Localizers. Thanks for all your hard work ❤️ 
 
 # What's changed - 1.83.8? 
 - **[Imp]** Update `System.Commandline` to `2.0.0beta6`, by @bagusnl, @shatyuka & @gablm 
