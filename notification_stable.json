@@ -1,15 +1,15 @@
 {
     "AppPush": [
         {
-            "MsgId": 77,
-            "IsDisposable": true,
+            "MsgId": 78,
+            "IsDisposable": false,
             "Severity": "Error",
-            "Title": "[EN] Repair Feature Unavailability - Genshin Impact 5.5",
-            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to their repair system, which resulted in the unavailability of the repair feature for Genshin Impact 5.5 in Collapse.\r\nWhile we have resolved the issue for pre-downloads, repair still requires a launcher patch, which is underway and should be released shortly.\r\n\nIn the meantime, we ask you to refrain from using the Game File Clean-up feature.\r\n\nWe apologize for the inconvenience that this may have caused.",
+            "Title": "[EN] [DANGER] IMMEDIATELY DISABLE MOBILE MODE IN GENSHIN AND HSR!",
+            "Message": "Hi Collapse users!\r\nHoYoverse has made it a bannable offense in GI (Co-op ban) to use Mobile Mode feature, so please DISABLE it immediately. We will work push an update to disable this feature in-code but so long you are seeing this message, DISABLE IT BEFORE OPENING THE GAME!",
             "Show": true,
-            "ValidForVerBelow": "1.82.24.0",
-            "TimeBegin": "2025-05-06T00:00:00+08:00",
-            "TimeEnd": "2025-05-31T00:00:00+08:00"
+            "ValidForVerBelow": "1.82.35.0",
+            "TimeBegin": "2025-10-25T00:00:00+08:00",
+            "TimeEnd": "2026-05-31T00:00:00+08:00"
         }
     ],
     "RegionPush": [
