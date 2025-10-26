@@ -17,7 +17,7 @@
             "IsDisposable": true,
             "Severity": "Warning",
             "Title": "[EN] Notice Regarding Preview Release Update Unavailability for Some Users",
-            "Message": "Hi everyone!, We noticed that some users might have not receive a new 1.83.12 update for those of you which have \"HTTP Cache Settings\" enabled. Please try to trigger the update manually by disabling the \"HTTP Cache Settings\" feature on the Settings Page at the moment, then click \"Check for Updates\" button to trigger the update.",
+            "Message": "Hi everyone!, We noticed that some users might have not receive the new 1.83.12 update for those of you which have \"HTTP Cache Settings\" enabled.\r\n\r\nPlease try to trigger the update manually by disabling the \"HTTP Cache Settings\" feature on the Settings Page at the moment, then click \"Check for Updates\" button to trigger the update.",
             "Show": true,
             "IsForceShowNotificationPanel": true,
             "ValidForVerBelow": "1.83.13.0"
