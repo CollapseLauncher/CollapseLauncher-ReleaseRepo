@@ -1,12 +1,48 @@
 ![UpdateIsAvailable-Campaign](https://github.com/user-attachments/assets/5c5df62c-8570-4018-b6e7-66d5decf8278)
 
-### Hi there, neon-nyan here~
+### Hi, CryoTechnic here o/
 
-It's been almost 3 weeks since the last preview update. To commemorate Genshin Impact 6.0 (aka: Luna I) update, we have decided to use a new codename for this release: "**Luna**"
+It's been a bit since the last preview update. While we've been hard at work with Plugins and other cool things, we've had to release this update. This isn't something we wanted to do, but to preserve the safety of our users, it's what has to be done.
 
-With this release, we are bringing a long-awaited feature, the Plugin System. This will catapult the development of Collapse to become not only an exclusively third-party launcher for HoYoverse/miHoYo titles, but also others in the future.
+Due to a reported recent ban for using the Mobile Layout feature, we are disabling it for now by force. While the ban seems to be only applicable for co-op play and is currently limited to Genshin Impact, we're not taking a risk with it and are choosing to disable this feature until we are sure that it is safe to use for our users.
 
-Without further ado, let's get into details of this update!
+If you have similar issues with this feature and/or other features that are known to cause issues with account standing (whether it be a suspension or a ban), please contact us immediately.
+
+If you are from HoYo, thank you, for doing this to your players, I'm sure that the cloud subscription you guys are offering (among other things but we won't be opening that can of worms today) is worth it!
+
+# What's New? - 1.83.12
+
+Due to a reported recent ban for using this feature, we are disabling it for now by force. While the ban seems to be only applicable for co-op, we are not taking the report lightly and are disabling this feature until we are sure that it is safe to use.
+
+If you have similar issue with this feature and/or other feature that causes something to your account, please contact us immediately.
+
+If you are from HoYo, thank you, for doing this to your players, I'm sure that game cloud subscription is worth it.
+
+The other changes pertain to Honkai: Impact 3rd's switch to the new Sophon downloader system, thus requiring a complete rewrite of the codebase for that game's installation management to support it.
+
+- **[Imp]** Update Discord RPC submodule, by @bagusnl 
+- **[New]** Update backend install and repair systems for Honkai: Impact 3rd Sophon changes:
+    - Add fetcher for Block files. This implementation should now accepts patching for block files which are older than current version (e.g. 8.4 -> 8.5)
+    - Re-implement Generic file parsing and updating
+    - Process Audio and Block fetching in parallel simulatneously
+    - Make `KianaDispatch` and `SenadinaFileResult` fetch asynchronously
+    - Improve CDN caching mechanism
+    - Reimplement Audio & Video file parsing and updating
+    - Add mechanism to fix basic asset
+    - `ProgressPerFile` counters are now containing how many bytes of downloadable data instead of the byte size of each of progressing files
+    - Add additional speed counter on `ProgressAll` status to the UI
+    - Simplify `base.ProgressBase` `PopRepairAssetEntry()`
+    - Refactor Unused files checking mechanism
+    - `HonkaiRepairV2` now uses its own new `UpdateProgressCounter()` method to update the `ProgressAll` or `ProgressPerFile` counters
+    - Add matching field exclude mechanism
+    - Use `HashSet` for checking ignored assets
+    - Implement repair for Block/BlockUpdate and Audio/AudioUpdate kind
+- **[New]** Keep ScreenShot folder post-uninstall for Genshin Impact, by @Cryotechnic 
+- **[Fix]** Use MemoryStream instead of FileStream for image background, by @shatyuka
+    - This prevents file conflict issues when possible
+- **[Imp]** Use `CDNCacheUtil`'s `GetCachedUrlStatus` to reduce duplicate code, by @neon-nyan 
+- **[Regression]** Disable MobileMode on all games, by @bagusnl 
+- **[Loc]** Update Localizations by Localizers ❤️ 
 
 # What's New? - 1.83.11
 ## Enable Discord Presence Support for Plugin Games
@@ -234,8 +270,6 @@ Tired of waiting for the launcher to load up each of the regions? Now, you can m
 - **[Fix]** [**#736**](https://github.com/CollapseLauncher/Collapse/issues/736) GameIniVersion ignores mismatched value, by @neon-nyan 
 - **[Fix]** [**#737**](https://github.com/CollapseLauncher/Collapse/issues/737) Multi-instance doesn't work, by @neon-nyan 
 
-**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.83.0-pre...CL-v1.83.1-pre
-
 # What's New? - 1.83.0
 ## External DNS Support, by @neon-nyan 
 Ability to set the DNS request to specific server just for the launcher. Supports plain DNS (UDP/53), DNS over HTTPS (DoH), and DNS over TLS (DoT). Includes 3 predefined DNS providers, Cloudflare (`$cloudflare`), Google (`$google`), and quad9 (`$quad9`). User can customize to use other DNS provider(s) and use multiple all at once as a fallback. 
@@ -272,7 +306,7 @@ With our implementation, everyone can use them! (As long as it's provided in the
   - As per Genshin Impact 5.6.0 preload today, miHoYo just removed Zip packages on HoYoPlay API. This caused our launcher unable to detect or determine update state due to the main dependencies to Zip packages only.
   - This release fixes the issue by checking if Zip is unavailable, then tell the GameVersionManager to fallback by forcefully redirect the install/update/preload methods to Sophon mode. This releases also fixes the same issue if HoYo might remove the Zip packages to other games in the future.
 
-**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.83.2-pre...CL-v1.83.3-pre
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.83.11-pre...CL-v1.83.12-pre
 	
 # Code Signing Policy
 > Free code signing provided by [SignPath.io], certificate by [SignPath Foundation]
