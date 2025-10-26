@@ -2,6 +2,14 @@
 
 > We've recently released a new launcher status tracker! Head on over to https://status.collapselauncher.com to see it!
 
+Heyo, it's been a bit since the last stable update. Preparations are underway to get the new 1.83 branch onto stable, but we've had to pause that recently to focus on a more pressing issue.
+
+Due to a reported recent ban for using the Mobile Layout feature, we are disabling it for now by force. While the ban seems to be only applicable for co-op play and is currently limited to Genshin Impact, we're not taking a risk with it and are choosing to disable this feature until we are sure that it is safe to use for our users.
+
+If you have similar issues with this feature and/or other features that are known to cause issues with account standing (whether it be a suspension or a ban), please contact us immediately.
+
+If you are from HoYo, thank you, for doing this to your players, I'm sure that the cloud subscription you guys are offering (among other things but we won't be opening that can of worms today) is worth it!
+
 # Asset Availability post-delete Feature Status
 Currently, only Zenless Zone Zero and Honkai: Impact 3rd support ignoring assets for past mission resources. Support for other titles is pending and will be released in the next version. 
 
@@ -12,6 +20,9 @@ We are going to plan other new features, improvements and changes to be pushed i
 Hit us on our Official Discord or Create an Issue if you have ideas what features or changes you want to have in later 1.83.xxx or future release.
 
 More information regarding the changes can also be found in the changelog below👇
+
+# What's changed? - 1.82.35
+- **[Imp]** Disable Mobile Mode in all available games, by @bagusnl
 
 # What's changed? - 1.82.34
 - **[Fix]** Unrolled fixes for Sophon Update Issues, causing the same issue to still occur, by @neon-nyan
