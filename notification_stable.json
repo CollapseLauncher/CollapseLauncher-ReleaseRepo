@@ -7,6 +7,7 @@
             "Title": "[EN] [DANGER] IMMEDIATELY DISABLE MOBILE MODE IN GENSHIN AND HSR!",
             "Message": "Hi Collapse users!\r\nHoYoverse has made it a bannable offense in GI (Co-op ban) to use Mobile Mode feature, so please DISABLE it immediately. We will work push an update to disable this feature in-code but so long you are seeing this message, DISABLE IT BEFORE OPENING THE GAME!",
             "Show": true,
+            "IsForceShowNotificationPanel": true,
             "ValidForVerBelow": "1.82.35.0",
             "TimeBegin": "2025-10-25T00:00:00+08:00",
             "TimeEnd": "2026-05-31T00:00:00+08:00"
