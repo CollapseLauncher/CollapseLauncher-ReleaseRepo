@@ -8,6 +8,41 @@ With this release, we are bringing a long-awaited feature, the Plugin System. Th
 
 Without further ado, let's get into details of this update!
 
+# What's New? - 1.83.12
+Due to a reported recent ban for using the Mobile Layout feature, we are disabling it for now by force. While the ban seems to be only applicable for co-op play and is currently limited to Genshin Impact, we're not taking a risk with it and are choosing to disable this feature until we are sure that it is safe to use for our users.
+
+If you have similar issues with this feature and/or other features that are known to cause issues with account standing (whether it be a suspension or a ban), please contact us immediately.
+
+If you are from HoYo, thank you, for doing this to your players, I'm sure that the cloud subscription you guys are offering (among other things but we won't be opening that can of worms today) is worth it!
+
+The other changes pertain to Honkai: Impact 3rd's switch to the new Sophon downloader system, thus requiring a complete rewrite of the codebase for that game's installation management to support it.
+
+- **[Imp]** Update Discord RPC submodule, by @bagusnl 
+- **[New]** Update backend install and repair systems for Honkai: Impact 3rd Sophon changes:
+    - Add fetcher for Block files. This implementation should now accepts patching for block files which are older than current version (e.g. 8.4 -> 8.5)
+    - Re-implement Generic file parsing and updating
+    - Process Audio and Block fetching in parallel simulatneously
+    - Make `KianaDispatch` and `SenadinaFileResult` fetch asynchronously
+    - Improve CDN caching mechanism
+    - Reimplement Audio & Video file parsing and updating
+    - Add mechanism to fix basic asset
+    - `ProgressPerFile` counters are now containing how many bytes of downloadable data instead of the byte size of each of progressing files
+    - Add additional speed counter on `ProgressAll` status to the UI
+    - Simplify `base.ProgressBase` `PopRepairAssetEntry()`
+    - Refactor Unused files checking mechanism
+    - `HonkaiRepairV2` now uses its own new `UpdateProgressCounter()` method to update the `ProgressAll` or `ProgressPerFile` counters
+    - Add matching field exclude mechanism
+    - Use `HashSet` for checking ignored assets
+    - Implement repair for Block/BlockUpdate and Audio/AudioUpdate kind
+- **[New]** Keep ScreenShot folder post-uninstall for Genshin Impact, by @Cryotechnic 
+- **[Fix]** Use MemoryStream instead of FileStream for image background, by @shatyuka
+    - This prevents file conflict issues when possible
+- **[Imp]** Use `CDNCacheUtil`'s `GetCachedUrlStatus` to reduce duplicate code, by @neon-nyan 
+- **[Regression]** Disable MobileMode on all games, by @bagusnl 
+- **[Fix]** Fix metadata update causing file.Length == 0, by @neon-nyan 
+- **[Fix]** Fix updater window crashing due to early application resource sets, by @neon-nyan
+- **[Loc]** Update Localizations by Localizers ❤️
+
 # What's New? - 1.83.11
 ## Enable Discord Presence Support for Plugin Games
 With the addition of the new extension for Plugin API Standard v0.1-update2, we bring Discord Presence support for Plugin-based Games. You can now display your Plugin-based games on Discord just like built-in games.
