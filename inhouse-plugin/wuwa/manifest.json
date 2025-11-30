@@ -1,0 +1,23 @@
+{
+  "MainLibraryName": "Waves.dll",
+  "MainPluginName": "Wuthering Waves Plugin",
+  "MainPluginAuthor": "CryoTechnic, Collapse Project Team",
+  "MainPluginDescription": "A plugin for Wuthering Waves in Collapse Launcher",
+  "PluginStandardVersion": "0.1.2.0",
+  "PluginVersion": "0.4.0.0",
+  "PluginCreationDate": "2025-07-20T05:06:00+00:00",
+  "ManifestDate": "2025-11-30T09:03:44.0672529+00:00",
+  "PluginAlternativeIcon": "https://play-lh.googleusercontent.com/g-47eiWo7LYLBFOQrYNzjrsTf4HRzUT--lSGrqJ9BPJFV72FEdYo5rSMI6AXBDyzrA",
+  "Assets": [
+    {
+      "FilePath": "Waves.dll",
+      "Size": 6167040,
+      "FileHash": "scd7R5vP1dXq0Hcf0Z52kg=="
+    },
+    {
+      "FilePath": "Waves.pdb",
+      "Size": 29200384,
+      "FileHash": "gWFoKP8eOXFNti3LOJdMNQ=="
+    }
+  ]
+}
