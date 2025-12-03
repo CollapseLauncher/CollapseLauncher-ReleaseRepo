@@ -63,7 +63,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20251118120633,
+    "LastUpdated": 20251203090249,
     "MetadataPath": "config_GICN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -72,7 +72,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20251118120405,
+    "LastUpdated": 20251203090249,
     "MetadataPath": "config_GICNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
