@@ -1,12 +1,67 @@
 ![UpdateIsAvailable-Campaign](https://github.com/user-attachments/assets/5c5df62c-8570-4018-b6e7-66d5decf8278)
 
-### Hi there, neon-nyan here~
+### Heyo~ CryoTechnic here!
 
-It's been almost 3 weeks since the last preview update. To commemorate Genshin Impact 6.0 (aka: Luna I) update, we have decided to use a new codename for this release: "**Luna**"
-
-With this release, we are bringing a long-awaited feature, the Plugin System. This will catapult the development of Collapse to become not only an exclusively third-party launcher for HoYoverse/miHoYo titles, but also others in the future.
+It's been a while since the last preview update. This release aims to fix a lot of issues in our backend code, ensuring that the release is stable for our other branch. This also contains new features, like a couple of new buttons, both in Quick Settings and in the Plugin Management menu! Let us know what you think.
 
 Without further ado, let's get into details of this update!
+
+# What's New - 1.83.13
+- **[Fix]** Fix Honkai Repair crash due to 2x dispose on SenadinaFileIdentifier by @neon-nyan
+- **[Imp]** Use reload mechanism when registry value is not found by @neon-nyan
+- **[Fix]** Avoid double load conflict on metadata update by @neon-nyan
+- **[Fix]** Fix unwanted disposed callback on plugin disposal by @neon-nyan
+- **[Imp]** Remove WASDK ML junk on publish by @neon-nyan
+- **[Fix]** Fix UI conflicts while loading regions by @neon-nyan
+  - Fix where sometimes the region has 1 second delay on loading region
+  - Fix where an error occur, user will unable to switch to other region
+  - Fix where sometimes, when a fatal error occur, a loading frame spawns, causing the buttons inside of the exception page become unclickable
+- **[Fix]** Fix DiscordPresence initialized even if it's disabled by @neon-nyan
+- **[Imp]** Move RegistryRoot and its dependencies to each GameSettings instance by @neon-nyan
+- **[Fix]** Avoid nested JSON serialization on CollapseScreenSetting by @neon-nyan
+- **[Imp]** Create game process with with explorer as parent by @shatyuka
+- **[New]** Re-map HYP API by @neon-nyan
+- **[Imp]** Simplify binding process on content data by @neon-nyan
+- **[Imp]** Make FlipView respects content alignment by @neon-nyan
+- **[New]** Add keybind to open Plugin Manager by @gablm
+- **[Fix]** Fix crash changing window size when bg is a video by @gablm
+- **[Imp]** Decouple ProgressBase and GamePropertyBase from Generics by @neon-nyan
+- **[Imp]** Make GamePropertyBase inherit NotifyPropertyChanged by @neon-nyan
+- **[Imp]** Adjust Progress classes to be bindable by @neon-nyan
+  - Also adjust some changes due to field changed to property
+- **[Fix]** Fix nullable warning on LookupableApiResponse by @neon-nyan
+- **[Fix]** Fix severe UI thread lockups due to rapid GC for HashUtility by @neon-nyan
+- **[Fix]** Fix GamePath property ambiguity by @neon-nyan
+- **[Fix]** Fix COMException on spawning region-specific notification due to detached thread @neon-nyan
+- **[Imp]** Make CancellationTokenSourceWrapper state volatile by @neon-nyan
+- **[New]** Add IGameVersionCheck.SaveVersionConfig by @neon-nyan
+- **[Fix]** Fix thread-lock on accessing TaskSchedulerHelper by @neon-nyan
+- **[Fix]** Fix NRE while loading plugin-based games by @neon-nyan
+- **[Fix]** Fix double event assignment due to the absent of DataContext by @neon-nyan
+- **[Fix]** Fix default RegionID for Genshin if registry doesn't exist by @neon-nyan
+- **[Fix]** Fix attempt for MeasureOverride throw by @neon-nyan
+- **[Imp]** Use the new SimpleZipArchiveReader to read Zip entries on the fly, by @neon-nyan
+- **[Imp]** Reset taskbar status on GenshinRepair.ResetAndFetchAssets by @neon-nyan
+- **[Fix]** Fix wrong logic on GameVersionAPIPreload by @neon-nyan
+- **[Fix]** Fix compile error on AOT by @neon-nyan
+- **[Imp]** Prefer direct enumeration for ZipArchiveReader by @neon-nyan
+- **[Fix]** Fix Zip64 reading on SimpleZipArchiveReader by @neon-nyan
+- **[New]** Enhance release workflow with build attestation by @CryoTechnic
+- **[New]** Add button to change Game Location to Game Setting by @gablm
+- **[New]** Add support for custom Resizable Window Hook by @gablm
+- **[New]** Add plugin download button to page after plugins are installed by CryoTechnic
+- **[Fix]** Fix WPF package enabled if game isn't updated by @neon-nyan
+- **[Fix]** Fix WPF package version not changing after update by @neon-nyan
+- **[Fix]** Fix RPC not clearing status when idle status is disabled by @bagusnl
+- **[Fix]** Fix Tray not showing up due to GUID conflict by @bagusnl
+- **[New]** Add detection for ExplorerPatcher's OldTaskbar behaviour by @bagusnl
+- **[Fix]** Fake position to make CopyToAsync happy by @shatyuka
+- **[Fix]** Read ContentLength from HEAD request if response is chunked by @shatyuka
+- **[Fix]** Fix "Add to Steam" not working correctly by @gablm
+- **[Fix]** Fix calling UserFeedback dialog crashes app due to nulled game property by @neon-nyan 
+- **[Fix]** Fix DbConfig.Init causing blocking on DbHandler.Init by @neon-nyan 
+- **[Fix]** Fix double dispose on LazyLoadBitmap, by @bagusnl 
+- **[Loc]** Update Localizations by Localizers ❤️
 
 # What's New? - 1.83.12
 Due to a reported recent ban for using the Mobile Layout feature, we are disabling it for now by force. While the ban seems to be only applicable for co-op play and is currently limited to Genshin Impact, we're not taking a risk with it and are choosing to disable this feature until we are sure that it is safe to use for our users.
