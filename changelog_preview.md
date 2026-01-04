@@ -1,10 +1,39 @@
 ![UpdateIsAvailable-Campaign](https://github.com/user-attachments/assets/5c5df62c-8570-4018-b6e7-66d5decf8278)
 
-### Heyo~ CryoTechnic here!
+### idk what to put here, just read the changelog lol
 
-It's been a while since the last preview update. This release aims to fix a lot of issues in our backend code, ensuring that the release is stable for our other branch. This also contains new features, like a couple of new buttons, both in Quick Settings and in the Plugin Management menu! Let us know what you think.
-
-Without further ado, let's get into details of this update!
+# What's changed? - 1.83.14
+- **[New]** Allow game process to be run as child process of Collapse, by @gablm 
+  - This allows stuff like Steam Overlay/controls to work.
+  - User can enable it under Game Settings -> Advanced Settings.
+- **[New]** [ZZZ] DirectX 12 and Ray Tracing experimental settings, by @neon-nyan 
+  - User can use DirectX 12 and RT/Upscaling in-game natively. You will need to enable the DirectX 12 option under game settings.
+  - Availability of certain options depends on the system you are running on.
+  - Do note that the game **MIGHT stutter** on any new scene/sprite loads, and depending on your system it might be slow/fast.
+  - The longer you play, the stutter should go away.
+  - Ray tracing comparison: https://github.com/CollapseLauncher/Collapse/pull/853#issuecomment-3707225530
+- **[Fix]** Misc settings not loading, by @gablm 
+  - This affected stuff like Advanced game settings, command line, etc
+- **[Imp]** Reduce CPU usage in Discord RPC module, by @neon-nyan 
+  - More details: https://github.com/CollapseLauncher/Collapse/pull/845
+- **[Fix]** Plugin news not reloaded on page/region refresh, by @gablm 
+- **[Fix]** [ZZZ] Game Settings reset after using Collapse' GSP, by @shatyuka 
+- **[Fix]** Discord RPC did not get disabled globally, by @bagusnl @neon-nyan 
+  - More details: https://github.com/CollapseLauncher/Collapse/pull/849
+- **[Fix]** HSR Repair/Cache update method, by @neon-nyan 
+  - More details: https://github.com/CollapseLauncher/Collapse/pull/852
+  - TL;DR: Completely rewritten
+- **[Fix]** Sophon not resuming update, by @neon-nyan 
+  - After cancelling/pausing game update, the launcher should now perform checks on which assets already updated so only the necessary files are getting downloaded.
+- **[Fix]** [ZZZ] Deleted assets gets redownloaded on update, by @neon-nyan 
+  - More details: https://github.com/CollapseLauncher/Collapse/pull/854
+- **[Fix]** Game update does not work on games without separate audio package, by @gablm 
+- **[Fix]** Playtime counter not stopped after user switched game/region mid-session, by @gablm 
+- **[Fix]** Directory might not get created when updating game through Sophon, by @neon-nyan 
+- **[Fix]** Main Page's Carousel did not get stopped/paused when told to, by @bagusnl 
+  - Carousel now should get paused if you sent Collapse to tray or when Collapse is not on the foreground.
+  - This is interim fix while the whole background subsystem is getting rewritten by @neon-nyan.
+  - More details: https://github.com/CollapseLauncher/Collapse/pull/846
 
 # What's New - 1.83.13
 - **[Fix]** Fix Honkai Repair crash due to 2x dispose on SenadinaFileIdentifier by @neon-nyan
