@@ -54,7 +54,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20251217103214,
+    "LastUpdated": 20260114074742,
     "MetadataPath": "config_GIGlb.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -63,7 +63,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20251217103214,
+    "LastUpdated": 20260114074742,
     "MetadataPath": "config_GICN.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -72,7 +72,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20251217103214,
+    "LastUpdated": 20260114074742,
     "MetadataPath": "config_GICNBilibili.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
@@ -151,7 +151,7 @@
     "PresetConfigVersion": "3.2.0"
   },
   {
-    "LastUpdated": 20251217103214,
+    "LastUpdated": 20260114074742,
     "MetadataPath": "config_GIGlbGPlay.json",
     "MetadataType": "PresetConfigV2",
     "MetadataInclude": true,
