@@ -1,6 +1,7 @@
 ![UpdateIsAvailable-Campaign](https://github.com/user-attachments/assets/5c5df62c-8570-4018-b6e7-66d5decf8278)
 
-### idk what to put here, just read the changelog lol
+# What's changed? - 1.83.15
+- **[Fix]** Sophon Preload for Some Games (Honkai Impact 3rd and Honkai: Star Rail) causing some files not getting patched properly, by @neon-nyan
 
 # What's changed? - 1.83.14
 - **[New]** Allow game process to be run as child process of Collapse, by @gablm 
