@@ -42,9 +42,11 @@ jobs:
           echo Metadata
           mkdir -p ./cl-cdn/metadata/metadata-root
           mkdir -p ./cl-cdn/metadata/metadata-root/v3
+          mkdir -p ./cl-cdn/metadata/metadata-root/media_codecs
           mv ./cl-cdn/metadata/v3/* ./cl-cdn/metadata/metadata-root/v3/
           mv ./cl-cdn/metadata/metadatav2_previewconfig.json ./cl-cdn/metadata/metadatav2_previewstamp.json ./cl-cdn/metadata/metadata-root/
           mv ./cl-cdn/metadata/metadatav2_stableconfig.json ./cl-cdn/metadata/metadatav2_stablestamp.json ./cl-cdn/metadata/metadata-root/
+          mv ./cl-cdn/metadata/media_codecs/* ./cl-cdn/metadata/metadata-root/media_codecs/
 
           echo Images
           mkdir -p ./cl-cdn/metadata/metadata-images/game_logos
