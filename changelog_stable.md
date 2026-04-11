@@ -1,5 +1,10 @@
 ![UpdateIsAvailable-Campaign](https://github.com/user-attachments/assets/5c5df62c-8570-4018-b6e7-66d5decf8278)
 
+# What's changed? - 1.83.16
+- **[Fix]** Deleted assets still getting downloaded while updating Honkai: Star Rail and Zenless Zone Zero, by @neon-nyan
+  This caused by the filtering of the asset is still being redirected to FilterSophonPatchAssetList, which is unused rather than to FilterAssetList. This causes the supposedly deleted assets to get included, causing files to be redownloaded if not exist.
+- **[Fix]** Fix Honkai Impact 3rd cutscene detection on Game Repair, by @neon-nyan 
+
 # What's changed? - 1.83.15
 - **[Fix]** Sophon Preload for Some Games (Honkai Impact 3rd and Honkai: Star Rail) causing some files not getting patched properly, by @neon-nyan
 
