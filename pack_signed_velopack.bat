@@ -5,7 +5,7 @@ set name=CollapseLauncher
 set channel=1
 set version=1.83.16
 set thread=%NUMBER_OF_PROCESSORS%
-set forceUpdate="forceUpdate":false,
+set forceUpdate=false
 
 :sevenZipCheck
 if exist %_7zFast% (
@@ -52,7 +52,7 @@ echo.
 echo Use Force Update?
 set /p forceUpdatePrompt=^[default: N^]^> 
 if /I "%forceUpdatePrompt%" == "Y" (
-    set forceUpdate="forceUpdate":true,
+    set forceUpdate=true
 )
 echo Force Update Parameter: %forceUpdate%
 
@@ -132,26 +132,5 @@ copy av_libglesv2.dll %channel%
 :: Write release stamp file
 echo %channel%>%channel%\release
 
-:: Get the size of ApplyUpdate tool
-FOR /F "usebackq" %%A IN ('%channel%\ApplyUpdate.exe') DO set applyupdatesize=%%~zA
-FOR /F "usebackq" %%A IN ('%channel%\av_libglesv2.dll') DO set applyupdatelibsize=%%~zA
-FOR /F "usebackq" %%A IN ('%channel%\release') DO set releasesize=%%~zA
-:: Get the MD5 hash of ApplyUpdate tool
-FOR /F %%B IN ('certutil -hashfile %channel%\ApplyUpdate.exe MD5 ^| find /v "hash"') DO set applyupdatehash=%%B
-FOR /F %%B IN ('certutil -hashfile %channel%\av_libglesv2.dll MD5 ^| find /v "hash"') DO set applyupdatelibhash=%%B
-FOR /F %%B IN ('certutil -hashfile %channel%\release MD5 ^| find /v "hash"') DO set releasehash=%%B
-:: Get current Unix timestamp
-call :GetUnixTime unixtime
-:: Print out the fileindex.json file
-echo ^{"ver":"%version%",%forceUpdate%"time":%unixtime%,"f":^[^{"p":"ApplyUpdate.exe","crc":"%applyupdatehash%","s":%applyupdatesize%^},^{"p":"av_libglesv2.dll","crc":"%applyupdatelibhash%","s":%applyupdatelibsize%^},^{"p":"release","crc":"%releasehash%","s":%releasesize%^}^]^}>%channel%\fileindex.json
-
-goto :EOF
-
-:GetUnixTime
-setlocal enableextensions
-for /f %%x in ('wmic path win32_utctime get /format:list ^| findstr "="') do (
-    set %%x)
-set /a z=(14-100%Month%%%100)/12, y=10000%Year%%%10000-z
-set /a ut=y*365+y/4-y/100+y/400+(153*(100%Month%%%100+12*z-3)+2)/5+Day-719469
-set /a ut=ut*86400+100%Hour%%%100*3600+100%Minute%%%100*60+100%Second%%%100
-endlocal & set "%1=%ut%" & goto :EOF
+:: Generate fileindex.json
+ApplyUpdate.exe fileindex "%channel%" %version% %forceUpdate%

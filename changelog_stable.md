@@ -1,5 +1,12 @@
 ![UpdateIsAvailable-Campaign](https://github.com/user-attachments/assets/5c5df62c-8570-4018-b6e7-66d5decf8278)
 
+# What's changed? - 1.83.17
+- **[HSR][Fix]** Crash due to Missing URLs on Audio and Video files while performing Game Repair, by @neon-nyan 
+- **[Plugin][Fix]** File URL formatting and ensure successful HTTP response in plugin, by @Cryotechnic  
+- **[Sophon][Fix]** Excessive File Package Size on Preload, by @Cryotechnic  
+- **[Sophon][Fix]** Incorrect state display based on preload status, by @Cryotechnic  
+- **[Imp]** Update WindowsAppSDK from v1.8 to v2.0 build
+
 # What's changed? - 1.83.16
 - **[Fix]** Deleted assets still getting downloaded while updating Honkai: Star Rail and Zenless Zone Zero, by @neon-nyan
   This caused by the filtering of the asset is still being redirected to FilterSophonPatchAssetList, which is unused rather than to FilterAssetList. This causes the supposedly deleted assets to get included, causing files to be redownloaded if not exist.
