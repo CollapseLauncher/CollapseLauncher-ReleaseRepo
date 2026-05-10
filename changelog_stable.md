@@ -1,5 +1,10 @@
 ![UpdateIsAvailable-Campaign](https://github.com/user-attachments/assets/5c5df62c-8570-4018-b6e7-66d5decf8278)
 
+# What's changed? - 1.83.18
+- **[Fix][Hi3 Game Repair]** [Fix Audio_Default_Manifest.m always get detected as broken asset](https://github.com/CollapseLauncher/Collapse/pull/877/changes/5d407b0acb3fc63e3847324707243185db7d2642), by @neon-nyan 
+- **[Imp][Hi3 Game Repair]** [Verbose error report on game repair for `HttpRequestException`](https://github.com/CollapseLauncher/Collapse/commit/f804cb16def5424d269c5cb0bfb00ab54ef57f65), by @neon-nyan 
+- **[Fix][Hi3 Game Repair]** [Game Asset URL reporting invalid `streamingasb:80` URL while downloading in some cases](https://github.com/CollapseLauncher/Collapse/pull/877/commits/9113085eaba10b329b56c9717179e62ad9ff3963), by @neon-nyan 
+
 # What's changed? - 1.83.17
 - **[HSR][Fix]** Crash due to Missing URLs on Audio and Video files while performing Game Repair, by @neon-nyan 
 - **[Plugin][Fix]** File URL formatting and ensure successful HTTP response in plugin, by @Cryotechnic  

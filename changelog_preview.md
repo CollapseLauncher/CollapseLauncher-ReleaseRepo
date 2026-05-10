@@ -8,6 +8,31 @@ That being said, this 1.84 update will be the marked as the last V1 release afte
 ![UpdateIsAvailable-Campaign-Columbina](https://github.com/user-attachments/assets/e7043018-4d49-48f2-adf1-3c846fd3c3e4)
 And so without further ado, let's dig into what's new in this release so far.
 
+# Preview 1.84.3 - Emergency Hotfix (Codename: Columbina) - What's new?
+- **[Fix]** [Fix crash when started with other arguments](https://github.com/CollapseLauncher/Collapse/commit/87be59ac155610a3a57fabd7a101ef376e1e9190), by @neon-nyan
+- **[Fix][Background Image]** [Crash if WIC Codec is unavailable](https://github.com/CollapseLauncher/Collapse/pull/877/changes/f1491e1be2d9d72043e52a7b95ea6598b4ec10ab), by @neon-nyan 
+  - Removing the use of WIC Codec on MagicScaler (External image decoder)
+- **[Fix][Hi3 Game Repair]** [Fix Audio_Default_Manifest.m always get detected as broken asset](https://github.com/CollapseLauncher/Collapse/pull/877/changes/5d407b0acb3fc63e3847324707243185db7d2642), by @neon-nyan 
+- **[Imp][Hi3 Game Repair]** [Verbose error report on game repair for `HttpRequestException`](https://github.com/CollapseLauncher/Collapse/commit/f804cb16def5424d269c5cb0bfb00ab54ef57f65), by @neon-nyan 
+- **[Fix][Hi3 Game Repair]** [Game Asset URL reporting invalid `streamingasb:80` URL while downloading in some cases](https://github.com/CollapseLauncher/Collapse/pull/877/commits/9113085eaba10b329b56c9717179e62ad9ff3963), by @neon-nyan 
+- **[Imp]** Localization updates, by localizers 🥳
+  - de-DE - German (Progress: 99%)
+  - es-419 - Spanish (Latin America)(Progress: 99%)
+  - fr-FR - French (Progress: 98%)
+  - id-ID - Bahasa Indonesia (Progress: 100%)
+  - it-IT - Italian (Progress: 44%)
+  - ja-JP - Japanese (Progress: 100%)
+  - ko-KR - Korean (Progress: 90%)
+  - nl-NL - Dutch (Progress: 99%)
+  - pl-PL - Polish (Progress: 55%)
+  - pt-BR - Portuguese (Brazil)(Progress: 72%)
+  - pt-PT - Portuguese (Portugal)(Progress: 65%)
+  - ru-RU - Russian (Progress: 75%)
+  - th-TH - Thai (Progress: 94%)
+  - uk-UA - Ukrainian (Progress: 84%)
+  - zh-CN - Chinese Simplified (Progress: 100%)
+  - zh-TW - Chinese Traditional (Progress: 60%)
+
 # Preview 1.84.2 (Codename: Columbina) - What's new?
 - **[Fix]** [ImageCropper crash for small image](https://github.com/CollapseLauncher/Collapse/commit/d35a4fcaf2358acdb2bc1f6b00c6f95e253ec614), by @shatyuka 
 - **[Imp]** [Update tooling version requirements](https://github.com/CollapseLauncher/Collapse/commit/fdc8215d6e34ca194cd907a9678725450c618b07), by @Cryotechnic 

@@ -1,0 +1,70 @@
+[lib-csharp:57684] [00:30:04] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:57684] [00:30:04] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:57684] [00:30:04] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:57684] [00:30:04] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:44188] [00:46:02] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:44188] [00:46:02] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:44188] [00:46:02] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:44188] [00:46:02] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:68256] [00:59:54] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:68256] [00:59:54] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:68256] [00:59:54] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:68256] [00:59:54] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:54664] [01:01:40] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:54664] [01:01:40] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:54664] [01:01:40] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:54664] [01:01:40] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:68748] [01:14:32] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:68748] [01:14:32] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:68748] [01:14:32] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:68748] [01:14:32] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:63948] [01:14:46] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:63948] [01:14:46] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:63948] [01:14:46] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:63948] [01:14:46] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:56712] [01:45:04] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:56712] [01:45:04] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:56712] [01:45:04] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:56712] [01:45:04] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[stub:10296] [15:58:19] [INFO] --
+[stub:10296] [15:58:19] [INFO] Starting Velopack Stub (at "G:\\myGit\\CollapseLauncher-ReleaseRepo\\CollapseLauncher.exe")
+[stub:10296] [15:58:19] [INFO] Stub about to start Update.exe (G:\myGit\CollapseLauncher-ReleaseRepo\Update.exe) with args: ["start", "--", "tray"]
+[stub:7008] [05:47:27] [INFO] --
+[stub:7008] [05:47:27] [INFO] Starting Velopack Stub (at "G:\\myGit\\CollapseLauncher-ReleaseRepo\\CollapseLauncher.exe")
+[stub:7008] [05:47:27] [INFO] Stub about to start Update.exe (G:\myGit\CollapseLauncher-ReleaseRepo\Update.exe) with args: ["start", "--", "tray"]
+[lib-csharp:28372] [12:31:16] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:28372] [12:31:16] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:28372] [12:31:16] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:28372] [12:31:16] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:34752] [13:19:07] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:34752] [13:19:07] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:34752] [13:19:07] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:34752] [13:19:07] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:21704] [13:19:29] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:21704] [13:19:29] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:21704] [13:19:29] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:21704] [13:19:29] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:36320] [13:19:43] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:36320] [13:19:43] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:36320] [13:19:43] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:36320] [13:19:43] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:37192] [21:11:10] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:37192] [21:11:10] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:37192] [21:11:10] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.2
+[lib-csharp:37192] [21:11:10] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:5300] [21:45:02] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:5300] [21:45:02] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:5300] [21:45:02] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.3
+[lib-csharp:5300] [21:45:02] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:17324] [22:08:59] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:17324] [22:08:59] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:17324] [22:08:59] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.3
+[lib-csharp:17324] [22:08:59] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:19728] [22:16:01] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:19728] [22:16:01] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:19728] [22:16:01] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.3
+[lib-csharp:19728] [22:16:01] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:30080] [23:30:00] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:30080] [23:30:00] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
+[lib-csharp:30080] [23:30:00] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.3
+[lib-csharp:30080] [23:30:00] [Information] Starting VelopackApp.Run (library version 0.0.1298).
