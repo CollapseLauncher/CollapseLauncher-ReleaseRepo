@@ -1,12 +1,70 @@
-### Hewwo, it's neon-nyan here~
+# Important
+We have streamlined 1.84.x codebase to [**Stable**](https://github.com/CollapseLauncher/Collapse/releases/tag/CL-v1.84.4) release. If you happened to use **Preview** release temporarily due to certain bugs, now it's the right time to come back to the Stable release to enjoy the last update (and the last journey) of the Version 1 branch ;)
 
-It's beeeeeen a while since the last 1.83.x update. For now, this release is focusing on more quality improvements, bug fixes and internal code reworks rather than new features as we are preparing on reworking Collapse for new codebase. 
-
-That being said, this 1.84 update will be the marked as the last V1 release after roughly 4 years since the start of this project as we are going to move into V2 codebase starting this year (at Q3 or Q4 2026). Thank you so much for your continous support and interest in this project💖
-
-### Welcome to 1.84.x Release (Codename: Columbina)
 ![UpdateIsAvailable-Campaign-Columbina](https://github.com/user-attachments/assets/e7043018-4d49-48f2-adf1-3c846fd3c3e4)
-And so without further ado, let's dig into what's new in this release so far.
+
+# Preview 1.84.4 (Codename: Columbina) - What's new?
+### Aggressive Cache Mode is Now Enabled by Default for HTTP-related Calls
+This feature has been introduced since 1.83. Although, the aggressive cache mode isn't enabled by default. This release bring the feature enabled by default if you haven't change the related settings from the settings. It enables the launcher to re-use API call response which have been written and cached from the disk for certain amount of duration, thus making the HTTP-related calls duration shorter.
+
+If you happened to changed the related settings before, you might need to re-enable it by simply going to the App Settings page -> Search for "**HTTP Cache Settings**" and make sure to enable both "**Cache Mode**" and "**Aggressive Cache Mode**".
+
+<img width="400" height="Auto" alt="image" src="https://github.com/user-attachments/assets/8ada93ef-dd9e-426d-9346-32ad94e0ef7a" />
+
+### New Options for "Advanced Graphics Settings" for Zenless Zone Zero.
+In this v3.0 update, ZZZ Team has introduced "Frame Generation" and "Super Scaling" technology for both **DLSS** and **FSR**, adding "Ultra" quality option for the **Ray Tracing** feature and also giving two new option: "Ultra Performance" and "DLAA" for **Super Scaling Priority**. And so in this release, we are also adding those necessary feature to the Game Settings.
+
+[Screen Recording 2026-06-21 201212.webm](https://github.com/user-attachments/assets/c9c6ae7f-5216-4ed2-87c1-cb07c3d431ff)
+
+## Other Changes - 1.84.4-preview
+- **[Imp]** [Update NuGet, Submodules and Bump Version](https://github.com/CollapseLauncher/Collapse/commit/a427a4fcca9c9957bc5988410207b34d05fdaa53)
+- **[Fix][Hi3 Game Settings]** [Throw while saving empty game settings](https://github.com/CollapseLauncher/Collapse/commit/ddcb0254133964cdb6dff62338ce4f50a9cc8a95), by @neon-nyan 
+- **[Fix][Hi3 Game Repair]** [Audio_Default.pck keeps getting redownloaded after game repair](https://github.com/CollapseLauncher/Collapse/commit/fff9820b87e0f9cd45991f9d3c982d27ae7da2b7), by @neon-nyan 
+- **[Fix][Hi3 Game Repair]** [Data hash calculation based on `MhyMurmurHash264B` (like Blocks and Audio files) sometimes causes exception if data length doesn't match](https://github.com/CollapseLauncher/Collapse/commit/b549b810d21448100f32915cb3e2d547488b4b3d), by @neon-nyan 
+- **[Imp][Hi3 Game Repair]** [Use Hardware/SIMD-based (AVX2) on addition operation for BSDiff patching (for Block and Audio files)](https://github.com/CollapseLauncher/Collapse/commit/ef59be01018f319d9ac6581abb244845b1c9d9c0), by @neon-nyan 
+  > It will fallback to scalar method if no AVX2 support is present.
+- **[Fix][Hi3 Game Repair]** [HTTP 404 (Not Found) error for some present CGs (including Birthday and In-game cutscenes)](https://github.com/CollapseLauncher/Collapse/commit/9a5de6f5db7224ce2fa23a0e351e165e26decc97), by @neon-nyan 
+- **[Fix]** [Preload progress not updating to 100% on Sophon method](https://github.com/CollapseLauncher/Collapse/commit/a569e0fcb257b22a9832bef26a4f7c72230db747), by @neon-nyan 
+- **[Fix][HSR Game Repair]** Honkai: Star Rail v4.3 Broke Game Repair and Cache Updates due to changes on Internal Game Struct format., by @neon-nyan 
+  - [[HSR 4.3] Adjustment on data struct (DesignDataV)](https://github.com/CollapseLauncher/Collapse/commit/fba6eb25be68e28819088588fc784f5e92b9dd4e)
+  - [[HSR 4.3] Adjustment on data struct (IFixV)](https://github.com/CollapseLauncher/Collapse/commit/5b89dfd2595d1087add22b89cdcd62c28a7aeecb)
+- **[Fix][Hi3 Game Repair]** [Wrong VA files getting downloaded on Mainland China Servers](https://github.com/CollapseLauncher/Collapse/commit/d089ad1a34674d89b31c615317f1ad60ff2e33a3), by @neon-nyan 
+- **[Imp][Perf]** [Moving to -O2 for AOT compilation](https://github.com/CollapseLauncher/Collapse/commit/28ef47501b15af4329376d4d74e3a8c3e03b2187), by @neon-nyan 
+- **[Imp][Perf]** Internal COM Marshalling Improvements and Fixes, by @neon-nyan 
+  - [Fix COM Marshalling + Memory Leaks](https://github.com/CollapseLauncher/Collapse/commit/a266cc0d40c63dcefc39751e66e347be75f2cda4)
+  - [Fix early release of Plugin's COM object](https://github.com/CollapseLauncher/Collapse/commit/2af63f648f30107c0e37064453d826c04d4aadfb)
+  - [Remove finalizer on custom controls](https://github.com/CollapseLauncher/Collapse/commit/ba50086703d8d5213a1ff4b3743d9046c8b6d6b0)
+  - [Refactor COM Marshal](https://github.com/CollapseLauncher/Collapse/commit/3bd0796fda8a41fef46fa59299c239d53bad354d)
+- **[Fix][Game Settings]** [Early reload due to RegistryMonitor events](https://github.com/CollapseLauncher/Collapse/commit/c39aae987f10bb99c99225876bb1a896d2b1a25f), by @neon-nyan 
+- **[Imp][Perf]** [Use Storyboard on Carousel's Slideshow ticker](https://github.com/CollapseLauncher/Collapse/commit/4a32388b74a3e8cede9e8c0a07bf7078947bc9da), by @neon-nyan 
+  Switching from Timer + Background Thread based to Storyboard. This to avoiding UI Thread overhead due to frequent DispatcherQueue.TryEnqueue calls.
+- **[Imp][UI]** Minor adjustment on News Carousel Image Panel, by @neon-nyan 
+  - Adjust piper and previous-next button styles
+  - Make carousel height adjusted automatically based on Image's height.
+- **[Fix][ImageEx]** Double-event fired for ImageOpened., by @neon-nyan 
+- **[Fix]** [Speed limiter doesn't work on Sophon-related download routine](https://github.com/CollapseLauncher/Collapse/pull/881/commits/38b1dfaa1f7318891f3d83a30cc7fc18be75dc99), by @neon-nyan 
+- **[Imp]** Localization updates, by localizers 🥳
+  - de-DE - German (Progress: 100%)
+  - es-419 - Spanish (Latin America)(Progress: 100%)
+  - fr-FR - French (Progress: 98%)
+  - id-ID - Bahasa Indonesia (Progress: 100%)
+  - it-IT - Italian (Progress: 44%)
+  - ja-JP - Japanese (Progress: 100%)
+  - ko-KR - Korean (Progress: 87%)
+  - nl-NL - Dutch (Progress: 99%)
+  - pl-PL - Polish (Progress: 55%)
+  - pt-BR - Portuguese (Brazil)(Progress: 72%)
+  - pt-PT - Portuguese (Portugal)(Progress: 65%)
+  - ru-RU - Russian (Progress: 100%)
+  - th-TH - Thai (Progress: 94%)
+  - uk-UA - Ukrainian (Progress: 83%)
+  - zh-CN - Simplified Chinese (Progress: 100%)
+  - zh-TW - Traditional Chinese (Progress: 60%)
+
+## Known Issue
+Unfortunately, there are some known issues that didn't make into this release and still under our investigation, including:
+- Fresh Installation and updates in some games might fail with: "System.FormatException: Unable to guess the format automatically" error if Sophon Download Mode is not enabled.
+  - We suggest to re-enable Sophon Download Mode under the App Settings at the moment while we still investigate the issue. 
 
 # Preview 1.84.3 - Emergency Hotfix (Codename: Columbina) - What's new?
 - **[Fix]** [Fix crash when started with other arguments](https://github.com/CollapseLauncher/Collapse/commit/87be59ac155610a3a57fabd7a101ef376e1e9190), by @neon-nyan
@@ -76,38 +134,38 @@ And so without further ado, let's dig into what's new in this release so far.
 
 # Preview 1.84.1 (Codename: Columbina) - What's new?
 ## Reworked Background System
-Since months, HoYoverse has updated HoYoPlay to support multiple background to display, including static image and dynamic background ones. This has been our backlog since this release as due to "spaghetti-code" nature of our entire codebase, this made us harder to adapt the changes and thus making Collapse still only support one static background image.
+Since months, HoYoverse has updated HoYoPlay to support multiple background display, including static image and dynamic background ones. This has been our backlog since this release as due to "spaghetti-code" nature of our entire codebase, this made us harder to adapt the changes and thus making Collapse still only support one static background image.
 
 Thanks to [this massive rework](https://github.com/CollapseLauncher/Collapse/pull/862), we are now able to pull-off this feature by splitting the parts of the code into its own element, making it more easier and more manageable for the change and for incoming improvements.
 
 We are also moving to [**FFmpeg**](https://www.ffmpeg.org/) as our secondary library for background video decoder if no built-in codec is present. You will be prompted to install the FFmpeg library if none of the required built-in Windows Media Foundation codec for VP9 or any codec is present.
 
-> [**FFmpeg**](https://www.ffmpeg.org/legal.html) is licensed and distributed under [GNU Lesser General Public License, version 2.1 **(LGPLv2.1)**](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+> [**FFmpeg**](https://www.ffmpeg.org/legal.html) is licensed and distributed under [GNU Lesser General Public License, version 2.1 **(LGPLv2.1)**](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html). All rights reserved.
 
-[2026-04-11 16-22-41.webm](https://github.com/user-attachments/assets/2587251d-5132-4c83-a331-a7d75816cd5c)
+[2026-06-21 18-35-13.webm](https://github.com/user-attachments/assets/47311425-b36a-4ae0-816e-821db9d21a3f)
 
-The experience might still be sluggish due to rushed implementation. But this will be improved in future updates🤞
-
-### Update: 2026/03/27
-Due to corrupted video background situation in any regions for Zenless Zone Zero game, FFmpeg has been set as a default decoder for Collapse Launcher now (You can opt-in for using built-in Windows Media Foundation decoder, though). You might be asked to install a new one if you don't have any defined in your system's Environment Variable.
-
-[2026-03-27 11-55-13.webm](https://github.com/user-attachments/assets/670dd6d4-a3d3-44ba-9ee5-48866a0362da)
-
-## Reworked Localization System
+## Reworked Localization System #861 
 This is more like development-experience improvement rather than user focused ones. Previously in order to implement the localization for new elements, we have to manually map each class properties to represented JSON entries. Thanks to newly source-generated class mapper, every JSON entries will be mapped automatically. Each class properties can now be bind into UI element directly, making the UI able to update the visual itself rather than being told manually, one-by-one (which is expensive).
 
-## Reworked Download Speed Limiter
+## Reworked Download Speed Limiter #859 
 The feature has been long broken since last 1.83.x release due to inconsistency and changes to other download-related libraries. Even though if you're enabling this feature, you might experience that the download speed "isn't actually being limited" and noticing that your bandwidth is still being fully utilized. This feature should now be fully fixed by decentralizing the code of the feature into its own library and making it easier to maintain.
 
 This feature could also be applied for any game plugins whose have v1-update4 API standard fully implemented.
 
+[2026-06-21 19-33-07.webm](https://github.com/user-attachments/assets/be51f149-03a5-4e89-96c3-19ea0615c481)
+
 ## Minor UI Adjustments
 Not so noticeable UI changes at all. But it's worth to mention here.
-#### 1. News Carousel Design
-<img width="1282" height="457" alt="image" src="https://github.com/user-attachments/assets/3f3df571-63b5-42d5-9d54-6b6e005a8b83" />
+### 1. News Carousel Design
+<img width="640" height="Auto" alt="image" src="https://github.com/user-attachments/assets/3f3df571-63b5-42d5-9d54-6b6e005a8b83" />
 
-#### 2. About Card
-<img width="810" height="535" alt="image" src="https://github.com/user-attachments/assets/66b826b0-219d-4733-ba49-8a600705ede1" />
+### 2. About Card
+<img width="640" height="Auto" alt="image" src="https://github.com/user-attachments/assets/66b826b0-219d-4733-ba49-8a600705ede1" />
+
+### 3. New Options for "Advanced Graphics Settings" for Zenless Zone Zero.
+In this v3.0 update, ZZZ Team has introduced "Frame Generation" and "Super Scaling" technology for both **DLSS** and **FSR**, adding "Ultra" quality option for the **Ray Tracing** feature and also giving two new option: "Ultra Performance" and "DLAA" for **Super Scaling Priority**. And so in this release, we are also adding those necessary feature to the Game Settings.
+
+[Screen Recording 2026-06-21 201212.webm](https://github.com/user-attachments/assets/c9c6ae7f-5216-4ed2-87c1-cb07c3d431ff)
 
 ## Other Changes
 - **[New]** Adding Files Clean-up Button to the Menu Bar, by @bagusnl 

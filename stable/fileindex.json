@@ -1,1 +1,1 @@
-{"ver":"1.83.18","forceUpdate":false,"time":1778415467,"f":[{"p":"ApplyUpdate.exe","crc":"375905df9c04f16de428bc7326a29595","s":30548992},{"p":"av_libglesv2.dll","crc":"11a4a07f31e4a91fff678c019b7736af","s":5426176},{"p":"release","crc":"2e9abc0ed69b2b68ac69a426311e8104","s":8}]}
+{"ver":"1.84.4","forceUpdate":true,"time":1782031380,"f":[{"p":"ApplyUpdate.exe","crc":"375905df9c04f16de428bc7326a29595","s":30548992},{"p":"av_libglesv2.dll","crc":"11a4a07f31e4a91fff678c019b7736af","s":5426176},{"p":"release","crc":"2e9abc0ed69b2b68ac69a426311e8104","s":8}]}
