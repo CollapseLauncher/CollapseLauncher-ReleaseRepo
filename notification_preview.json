@@ -61,16 +61,16 @@
             "TimeEnd": "2025-05-19T00:00:00+08:00"
         },
         {
-            "MsgId": 14000001,
+            "MsgId": 14000002,
             "IsDisposable": true,
-            "Severity": "Error",
+            "Severity": "Warning",
             "RegionProfile": "GIGlbGPlay",
-            "Title": "[EN] Notice about Pre-Download Availability",
-            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to the pre-download system, which resulted in the removal of ZIP archive for pre-download.\r\nWe have pushed an update to fix this issue, you should update your launcher to 1.83.0 to get the fix.\r\nWe are sorry for the inconvenience that this may have caused.",
+            "Title": "[EN] Google Play Region now requires running Google Play Games",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to how Google Play region is launched. You now have to run Google Play runtime before launching the game or the game wont run.\r\nAs of now, no workaround is available other than launching the GPlay runtime/launcher. You can start the GPlay runtime by adding the executable to the 'Pre-launch Commands' you can find under 'Game Settings'->'Advanced Settings'\r\nLet us know if you need help on setting them up either in Discord or in GitHub issue!",
             "Show": true,
-            "ValidForVerBelow": "1.83.2.0",
-            "TimeBegin": "2025-05-05T00:00:00+08:00",
-            "TimeEnd": "2025-05-19T00:00:00+08:00"
+            "ValidForVerBelow": "1.84.8.0",
+            "TimeBegin": "2026-07-04T00:00:00+08:00",
+            "TimeEnd": "2026-09-01T00:00:00+08:00"
         },
         {
             "MsgId": 10000003,

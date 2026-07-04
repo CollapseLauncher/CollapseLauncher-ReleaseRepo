@@ -11,6 +11,18 @@
             "ValidForVerBelow": "1.82.35.0",
             "TimeBegin": "2025-10-25T00:00:00+08:00",
             "TimeEnd": "2026-05-31T00:00:00+08:00"
+        },
+        {
+            "MsgId": 14000002,
+            "IsDisposable": true,
+            "Severity": "Warning",
+            "RegionProfile": "GIGlbGPlay",
+            "Title": "[EN] Google Play Region now requires running Google Play Games",
+            "Message": "Hi Travelers!\r\nHoYoVerse has done some changes to how Google Play region is launched. You now have to run Google Play runtime before launching the game or the game wont run.\r\nAs of now, no workaround is available other than launching the GPlay runtime/launcher. You can start the GPlay runtime by adding the executable to the 'Pre-launch Commands' you can find under 'Game Settings'->'Advanced Settings'\r\nLet us know if you need help on setting them up either in Discord or in GitHub issue!",
+            "Show": true,
+            "ValidForVerBelow": "1.84.8.0",
+            "TimeBegin": "2026-07-04T00:00:00+08:00",
+            "TimeEnd": "2026-09-01T00:00:00+08:00"
         }
     ],
     "RegionPush": [
