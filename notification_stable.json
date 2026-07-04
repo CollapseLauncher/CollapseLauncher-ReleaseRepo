@@ -11,7 +11,10 @@
             "ValidForVerBelow": "1.82.35.0",
             "TimeBegin": "2025-10-25T00:00:00+08:00",
             "TimeEnd": "2026-05-31T00:00:00+08:00"
-        },
+        }
+
+    ],
+    "RegionPush": [
         {
             "MsgId": 14000002,
             "IsDisposable": true,
@@ -24,7 +27,5 @@
             "TimeBegin": "2026-07-04T00:00:00+08:00",
             "TimeEnd": "2026-09-01T00:00:00+08:00"
         }
-    ],
-    "RegionPush": [
     ]
 }
