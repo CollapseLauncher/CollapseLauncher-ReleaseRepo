@@ -1,4 +1,27 @@
 ![UpdateIsAvailable-Campaign-Columbina](https://github.com/user-attachments/assets/e7043018-4d49-48f2-adf1-3c846fd3c3e4)
+
+# Stable 1.84.5 (Codename: Columbina) - What's new?
+- **[Imp]** [Optimize background image load](https://github.com/CollapseLauncher/Collapse/pull/891), by @shatyuka 
+- **[Imp]** [Cache background URLs for instant background on game switch](https://github.com/CollapseLauncher/Collapse/pull/896), by @shatyuka 
+- **[Imp]** [Fix drag mechanism in Plugin Management Menu](https://github.com/CollapseLauncher/Collapse/pull/894), by @Cryotechnic 
+- **[Misc]** [docs: fix broken links in Thai localized README](https://github.com/CollapseLauncher/Collapse/pull/898), by @latent-9 
+- **[Imp]** [Reconciling progress state](https://github.com/CollapseLauncher/Collapse/commit/5103e5dc58fd7654bf894ddd37349b92fded9987), by @Cryotechnic 
+- **[Imp]** [Use Async API for Honkai Impact 3rd's Game Repair](https://github.com/CollapseLauncher/Collapse/commit/6cecd09afdc9e2eda721b0337686ee40cf69a049)
+- **[Fix]** #895 [Fix False "insufficient space" error on NTFS volume mount points](https://github.com/CollapseLauncher/Collapse/commit/0d472e9bddbe1a0898a06d7cb13039daabd9d0e6), by @shatyuka 
+- **[Imp]** [Skip cps value validation](https://github.com/CollapseLauncher/Collapse/commit/63f7d7c553ab26750ea1478f53a0b55981bf5c7b), by @shatyuka 
+- **[Fix][Imp]** Bunch of Windows App SDK fixes and improvements, by @shatyuka and @neon-nyan 
+  - [Fix maximize disable not working after AOT](https://github.com/CollapseLauncher/Collapse/commit/257916040c72c0c77aefcc1ca3370a4a6072dcf7)
+  - [Fix trim in non-AOT mode](https://github.com/CollapseLauncher/Collapse/commit/5f6273f39f0ad5f64e5be12631ad6262ec6dba53)
+  - [Fix NativeAOT Debug build freeze](https://github.com/CollapseLauncher/Collapse/commit/5d610db3360211afc840930c6366f69d86a449a3)
+  - [Enable Windows App SDK experimental optimizations](https://github.com/CollapseLauncher/Collapse/commit/46a82415a5bb267e7ccc898699cba82cfd6afb9b), [See Microsoft Documentation here](https://github.com/sundaramramaswamy/microsoft-ui-xaml/blob/069fbc9683b3b07df5549961e00251439a6916cd/specs/XamlOptionalChanges/XamlOptionalChanges-Spec.md#xamlchangeid-enum) for more info.
+  - [Fix crash due to unnecessary assertion in generated code](https://github.com/CollapseLauncher/Collapse/commit/6474dd8fd8a7f4e0735aa6a6acb5b00db1881a89)
+- **[Fix]** [Fix preload package detection](https://github.com/CollapseLauncher/Collapse/commit/d1d9f70514ef6865ee33f12f2e4116fc43e00aea), by @neon-nyan 
+- **[Fix]** [Fix Sophon force redirect logic](https://github.com/CollapseLauncher/Collapse/commit/92f49beb69a9e09fef91b0433e8e5e0b4d0febb5), by @neon-nyan
+- **[Imp]** Upgrade FFmpeg to 8.x + Includes in-house, LGPLv2.1 compliance library with the build, by @neon-nyan 
+- **[Imp]** CI/CD Workflows and Pipelines, by @bagusnl 
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.84.4...CL-v1.84.5
+
 # Stable 1.84.4 (Codename: Columbina)
 
 ### Hewwo, it's neon-nyan here~
