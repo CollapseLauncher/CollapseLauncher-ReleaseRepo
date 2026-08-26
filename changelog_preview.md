@@ -3,6 +3,11 @@ We have streamlined 1.84.x codebase to [**Stable**](https://github.com/CollapseL
 
 ![UpdateIsAvailable-Campaign-Columbina](https://github.com/user-attachments/assets/e7043018-4d49-48f2-adf1-3c846fd3c3e4)
 
+# [EMERGENCY HOTFIX] Preview 1.84.6 (Codename: Columbina) - What's new?
+- **[Fix]** Fix Game Update might redownload all the files instead of using preload, by @neon-nyan.
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.84.5-pre...CL-v1.84.6-pre
+
 # Preview 1.84.5 (Codename: Columbina) - What's new?
 - **[Imp]** [Optimize background image load](https://github.com/CollapseLauncher/Collapse/pull/891), by @shatyuka 
 - **[Imp]** [Cache background URLs for instant background on game switch](https://github.com/CollapseLauncher/Collapse/pull/896), by @shatyuka 
