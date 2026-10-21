@@ -73,67 +73,67 @@
             "TimeEnd": "2026-09-01T00:00:00+08:00"
         },
         {
-            "MsgId": 10000003,
+            "MsgId": 10000004,
             "IsDisposable": true,
             "Severity": "Error",
             "IsForceShowNotificationPanel": true,
             "RegionProfile": "ZZZGlb",
-            "Title": "[EN] Notice Regarding Sophon Pre-load/Update Issues",
-            "Message": "Hi Proxy!\r\nWe have acknowleged some issues might occur while you perform Pre-load or Update due to changes on the Sophon versioning.\r\n\r\nA fix is underway and if you happen to have the fix ASAP, please download a test build from our Official Discord Server below. We are sorry for the inconvenience.",
+            "Title": "[EN] Notice Regarding Pre-load Notification",
+            "Message": "Hi Proxies!\r\nWe have noticed that after installing the update for ZZZ 3.3.0 there is notification about Pre-downloading 3.3.0 again.\r\n\r\nFeel free to ignore this as long as the game is fine to open. We will check on fixing this issue.\r\nShall there cause a problem on you, please let us know in GitHub/Discord channel(s)",
             "Show": true,
-            "ValidForVerBelow": "1.83.6.0",
-            "TimeBegin": "2025-07-14T00:00:00+08:00",
-            "TimeEnd": "2025-07-17T00:00:00+08:00",
+            "ValidForVerBelow": "1.84.7.0",
+            "TimeBegin": "2026-10-21T00:00:00+08:00",
+            "TimeEnd": "2026-11-21T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://discord.com/channels/1116150300324139131/1116164960217731113/1394261074530009099",
-                    "Description": "Download Test Build",
-                    "GlyphIcon": "\uf019",
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues",
+                    "Description": "GitHub Issue",
+                    "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
         },
         {
-            "MsgId": 11000003,
+            "MsgId": 11000004,
             "IsDisposable": true,
             "Severity": "Error",
             "IsForceShowNotificationPanel": true,
             "RegionProfile": "ZZZCN",
-            "Title": "[EN] Notice Regarding Sophon Pre-load/Update Issues",
-            "Message": "Hi Proxy!\r\nWe have acknowleged some issues might occur while you perform Pre-load or Update due to changes on the Sophon versioning.\r\n\r\nA fix is underway and if you happen to have the fix ASAP, please download a test build from our Official Discord Server below. We are sorry for the inconvenience.",
+            "Title": "[EN] Notice Regarding Pre-load Notification",
+            "Message": "Hi Proxies!\r\nWe have noticed that after installing the update for ZZZ 3.3.0 there is notification about Pre-downloading 3.3.0 again.\r\n\r\nFeel free to ignore this as long as the game is fine to open. We will check on fixing this issue.\r\nShall there cause a problem on you, please let us know in GitHub/Discord channel(s)",
             "Show": true,
-            "ValidForVerBelow": "1.83.6.0",
-            "TimeBegin": "2025-07-14T00:00:00+08:00",
-            "TimeEnd": "2025-07-17T00:00:00+08:00",
+            "ValidForVerBelow": "1.84.7.0",
+            "TimeBegin": "2026-10-21T00:00:00+08:00",
+            "TimeEnd": "2026-11-21T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://discord.com/channels/1116150300324139131/1116164960217731113/1394261074530009099",
-                    "Description": "Download Test Build",
-                    "GlyphIcon": "\uf019",
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues",
+                    "Description": "GitHub Issue",
+                    "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }
         },
         {
-            "MsgId": 12000003,
+            "MsgId": 12000004,
             "IsDisposable": true,
             "Severity": "Error",
             "IsForceShowNotificationPanel": true,
             "RegionProfile": "ZZZBilibili",
-            "Title": "[EN] Notice Regarding Sophon Pre-load/Update Issues",
-            "Message": "Hi Proxy!\r\nWe have acknowleged some issues might occur while you perform Pre-load or Update due to changes on the Sophon versioning.\r\n\r\nA fix is underway and if you happen to have the fix ASAP, please download a test build from our Official Discord Server below. We are sorry for the inconvenience.",
+            "Title": "[EN] Notice Regarding Pre-load Notification",
+            "Message": "Hi Proxies!\r\nWe have noticed that after installing the update for ZZZ 3.3.0 there is notification about Pre-downloading 3.3.0 again.\r\n\r\nFeel free to ignore this as long as the game is fine to open. We will check on fixing this issue.\r\nShall there cause a problem on you, please let us know in GitHub/Discord channel(s)",
             "Show": true,
-            "ValidForVerBelow": "1.83.6.0",
-            "TimeBegin": "2025-07-14T00:00:00+08:00",
-            "TimeEnd": "2025-07-17T00:00:00+08:00",
+            "ValidForVerBelow": "1.84.7.0",
+            "TimeBegin": "2026-10-21T00:00:00+08:00",
+            "TimeEnd": "2026-11-21T00:00:00+08:00",
             "ActionProperty": {
                 "ActionType": "ClickLink",
                 "ActionValue": {
-                    "URL": "https://discord.com/channels/1116150300324139131/1116164960217731113/1394261074530009099",
-                    "Description": "Download Test Build",
-                    "GlyphIcon": "\uf019",
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues",
+                    "Description": "GitHub Issue",
+                    "GlyphIcon": "",
                     "GlyphFont": "FontAwesomeSolid"
                 }
             }

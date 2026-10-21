@@ -12,7 +12,6 @@
             "TimeBegin": "2025-10-25T00:00:00+08:00",
             "TimeEnd": "2026-05-31T00:00:00+08:00"
         }
-
     ],
     "RegionPush": [
         {
@@ -26,6 +25,72 @@
             "ValidForVerBelow": "1.84.8.0",
             "TimeBegin": "2026-07-04T00:00:00+08:00",
             "TimeEnd": "2026-09-01T00:00:00+08:00"
+        },
+        {
+            "MsgId": 10000004,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "IsForceShowNotificationPanel": true,
+            "RegionProfile": "ZZZGlb",
+            "Title": "[EN] Notice Regarding Pre-load Notification",
+            "Message": "Hi Proxies!\r\nWe have noticed that after installing the update for ZZZ 3.3.0 there is notification about Pre-downloading 3.3.0 again.\r\n\r\nFeel free to ignore this as long as the game is fine to open. We will check on fixing this issue.\r\nShall there cause a problem on you, please let us know in GitHub/Discord channel(s)",
+            "Show": true,
+            "ValidForVerBelow": "1.84.7.0",
+            "TimeBegin": "2026-10-21T00:00:00+08:00",
+            "TimeEnd": "2026-11-21T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues",
+                    "Description": "GitHub Issue",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
+        },
+        {
+            "MsgId": 11000004,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "IsForceShowNotificationPanel": true,
+            "RegionProfile": "ZZZCN",
+            "Title": "[EN] Notice Regarding Pre-load Notification",
+            "Message": "Hi Proxies!\r\nWe have noticed that after installing the update for ZZZ 3.3.0 there is notification about Pre-downloading 3.3.0 again.\r\n\r\nFeel free to ignore this as long as the game is fine to open. We will check on fixing this issue.\r\nShall there cause a problem on you, please let us know in GitHub/Discord channel(s)",
+            "Show": true,
+            "ValidForVerBelow": "1.84.7.0",
+            "TimeBegin": "2026-10-21T00:00:00+08:00",
+            "TimeEnd": "2026-11-21T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues",
+                    "Description": "GitHub Issue",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
+        },
+        {
+            "MsgId": 12000004,
+            "IsDisposable": true,
+            "Severity": "Error",
+            "IsForceShowNotificationPanel": true,
+            "RegionProfile": "ZZZBilibili",
+            "Title": "[EN] Notice Regarding Pre-load Notification",
+            "Message": "Hi Proxies!\r\nWe have noticed that after installing the update for ZZZ 3.3.0 there is notification about Pre-downloading 3.3.0 again.\r\n\r\nFeel free to ignore this as long as the game is fine to open. We will check on fixing this issue.\r\nShall there cause a problem on you, please let us know in GitHub/Discord channel(s)",
+            "Show": true,
+            "ValidForVerBelow": "1.84.7.0",
+            "TimeBegin": "2026-10-21T00:00:00+08:00",
+            "TimeEnd": "2026-11-21T00:00:00+08:00",
+            "ActionProperty": {
+                "ActionType": "ClickLink",
+                "ActionValue": {
+                    "URL": "https://github.com/CollapseLauncher/Collapse/issues",
+                    "Description": "GitHub Issue",
+                    "GlyphIcon": "",
+                    "GlyphFont": "FontAwesomeSolid"
+                }
+            }
         }
     ]
 }
