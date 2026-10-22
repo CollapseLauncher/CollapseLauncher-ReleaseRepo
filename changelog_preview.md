@@ -2,18 +2,18 @@
 
 # Preview 1.84.7 (Codename: Columbina) - What's new?
 ## **[Fix]** Property Assignment Race Condition on Game Update State, by @neon-nyan 
-This bug causes some issues in some games update mechanism (in this example: Zenless Zone Zero 3.3 Update) where it cannot recognize the update and causing the game to left behind the previous version. A bug discovered under our legacy code where it causes certain values for the game version from Sophon API went missing due to race condition and false assignment on the loader properties, causing a domino effect to the game version went null and assigning a version from a deprecated ZIP API.
+This bug caused some issues in some game update mechanisms (in this example: Zenless Zone Zero Update 3.3.0), where it was previously unable to recognize the update and caused the game to be left erroneously on the previous version. The bug caused certain values for the game version from the Sophon API to go missing due to a race condition and false assignments on the loader properties, causing a domino effect which resulted the game version being null and assigning a version from a deprecated ZIP API.
 
 ## **[Imp]** Memory Allocation Optimization on Sophon and SharpHPatchZ Submodules
-Thanks to [SharpHPatchZ (formerly SharpHDiffPatch)](https://github.com/CollapseLauncher/SharpHDiffPatch.Core) rewrites to its V3 codebase, the library provides a significant improvements primarily in Memory Allocation and the support for real multi-threading processing. This improvements reflects on Sophon as it primarily uses SharpHPatchZ to perform patching mechanism to update each files to its new version. Instead of allocating more than 2 GB+, the memory allocation will undergo to only allocate **~400-700 MB of memory** (as tested in 16 threads systems). If you want to see more what's happening, you can check out [**this PR**](https://github.com/CollapseLauncher/SharpHDiffPatch.Core/pull/11) for more geeky information :eyes:.
+Thanks to the [SharpHPatchZ (formerly SharpHDiffPatch)](https://github.com/CollapseLauncher/SharpHDiffPatch.Core) rewrite (V3), the library provides significant improvements primarily in Memory Allocation and in supporting real multi-threading processing. These improvements are mainly targeted at Sophon, as it primarily uses SharpHPatchZ to update each file to its newer version. Instead of allocating more than 2 GB, the memory allocation is now around **400-700 MB** (as tested in 16-thread systems). You can check out [**this PR**](https://github.com/CollapseLauncher/SharpHDiffPatch.Core/pull/11) for more of that juicy info! :eyes:.
 
 ## **[New]** [Game Settings Subsystem Support for Plugin-based Games](https://github.com/CollapseLauncher/Collapse/pull/900), by @Cryotechnic 
-We have implemented a new Update 6 extension for v1 API Standard. The plugin developer could now add customizations to the game into Collapse Launcher. To see the example of the implementation, see the source code of our Wuthering Waves plugin [here](https://github.com/CollapseLauncher/Hi3Helper.Plugin.Wuwa/tree/main/Hi3Helper.Plugin.Wuwa/Management/Settings).
+We have implemented a new Update 6 extension for the v1 API Standard. The plugin developer can now add customizations to the game into Collapse Launcher. To see the example of the implementation, see the source code of our Wuthering Waves plugin [here](https://github.com/CollapseLauncher/Hi3Helper.Plugin.Wuwa/tree/main/Hi3Helper.Plugin.Wuwa/Management/Settings).
 
 <img width="962" height="541" alt="image" src="https://github.com/user-attachments/assets/1f668111-fbf7-445a-b90c-70c1693ba87b" />
 
 ## **[Imp]** [Optimizing Background Video/Image Renderer](https://github.com/CollapseLauncher/Collapse/pull/915), by @neon-nyan 
-Optimizing the Background Video/Image Load routines and provides better memory allocation after dispose/use of each frames. The following PR also provides major improvements on the frame renderer for the background video playback, including direct GPU drawn to the frame's IDirect3DTexture outside of the UI thread, which reduces the VRAM usage and (hopefully) stutters.
+Optimized the Background Video/Image Load routines which provides better memory allocation after dispose/use of each frame. This release also provides major improvements on the frame renderer for background video playback, including direct GPU draw calls to the frame's IDirect3DTexture outside of the UI thread, which reduces the VRAM usage and (hopefully) stutters.
 
 ### Video Background Playing (Honkai Impact 3rd - Mainland China - Picture 2 1080p)
 | Mem: Current Release | Mem: This PR | VRAM: Current Release | VRAM: This PR |
@@ -26,14 +26,14 @@ Optimizing the Background Video/Image Load routines and provides better memory a
 
 # Other Notable Changes
 - **[Imp]** Migrating our Game Files Indexing System "Daftar-Pustaka" from V2 to V3, by @neon-nyan 
-- **[Fix]** Race Conditions in Sophon API Loader causing Available Game Version reverted to Deprecated ZIP API, by @neon-nyan 
+- **[Fix]** Race Conditions in Sophon API Loader causing Available Game Version to be reverted to Deprecated ZIP API, by @neon-nyan 
 - **[New]** Sync game settings to database by @bagusnl, @neon-nyan 
-  - Now users with DB subsystem set-up can backup their game settings to the configured DB endpoint. Uses Collapse' way of saving registry so storage shouldn't be a problem.
+  - Now users with DB subsystem set-up can back up their game settings to the configured DB endpoint. Uses Collapse' way of saving registry so storage shouldn't be a problem.
   - Guide on setting Collapse' DB subsystem is here https://collapselauncher.com/feature/database.html
 - **[Imp]** DiscordRPC fixes and stability improvements by @neon-nyan 
-- **[Imp]** Improved Collapse settings loading time by initializing Waifu2x at startup time by @neon-nyan 
+- **[Imp]** Improved Collapse settings loading time by initializing Waifu2x at startup by @neon-nyan 
 - **[Imp]** Improved video background playback by reducing animation in carousel by @neon-nyan 
-  - Should be smoother and less prone of frame skip now
+  - Should be smoother and less prone to frame skipping now
 - **[Imp]** Background CPU and Memory utilizations by @neon-nyan 
   - CPU utilization should be next to 0 when Collapse is minimized (and to tray) by hiding WinUI elements.
   - Memory utilization is improved by running more aggressive garbage-collections
