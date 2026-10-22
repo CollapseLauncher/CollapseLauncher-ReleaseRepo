@@ -1,7 +1,45 @@
-# Important
-We have streamlined 1.84.x codebase to [**Stable**](https://github.com/CollapseLauncher/Collapse/releases/tag/CL-v1.84.4) release. If you happened to use **Preview** release temporarily due to certain bugs, now it's the right time to come back to the Stable release to enjoy the last update (and the last journey) of the Version 1 branch ;)
-
 ![UpdateIsAvailable-Campaign-Columbina](https://github.com/user-attachments/assets/e7043018-4d49-48f2-adf1-3c846fd3c3e4)
+
+# Preview 1.84.7 (Codename: Columbina) - What's new?
+## **[Fix]** Property Assignment Race Condition on Game Update State, by @neon-nyan 
+This bug causes some issues in some games update mechanism (in this example: Zenless Zone Zero 3.3 Update) where it cannot recognize the update and causing the game to left behind the previous version. A bug discovered under our legacy code where it causes certain values for the game version from Sophon API went missing due to race condition and false assignment on the loader properties, causing a domino effect to the game version went null and assigning a version from a deprecated ZIP API.
+
+## **[Imp]** Memory Allocation Optimization on Sophon and SharpHPatchZ Submodules
+Thanks to [SharpHPatchZ (formerly SharpHDiffPatch)](https://github.com/CollapseLauncher/SharpHDiffPatch.Core) rewrites to its V3 codebase, the library provides a significant improvements primarily in Memory Allocation and the support for real multi-threading processing. This improvements reflects on Sophon as it primarily uses SharpHPatchZ to perform patching mechanism to update each files to its new version. Instead of allocating more than 2 GB+, the memory allocation will undergo to only allocate **~400-700 MB of memory** (as tested in 16 threads systems). If you want to see more what's happening, you can check out [**this PR**](https://github.com/CollapseLauncher/SharpHDiffPatch.Core/pull/11) for more geeky information :eyes:.
+
+## **[New]** [Game Settings Subsystem Support for Plugin-based Games](https://github.com/CollapseLauncher/Collapse/pull/900), by @Cryotechnic 
+We have implemented a new Update 6 extension for v1 API Standard. The plugin developer could now add customizations to the game into Collapse Launcher. To see the example of the implementation, see the source code of our Wuthering Waves plugin [here](https://github.com/CollapseLauncher/Hi3Helper.Plugin.Wuwa/tree/main/Hi3Helper.Plugin.Wuwa/Management/Settings).
+
+<img width="962" height="541" alt="image" src="https://github.com/user-attachments/assets/1f668111-fbf7-445a-b90c-70c1693ba87b" />
+
+## **[Imp]** [Optimizing Background Video/Image Renderer](https://github.com/CollapseLauncher/Collapse/pull/915), by @neon-nyan 
+Optimizing the Background Video/Image Load routines and provides better memory allocation after dispose/use of each frames. The following PR also provides major improvements on the frame renderer for the background video playback, including direct GPU drawn to the frame's IDirect3DTexture outside of the UI thread, which reduces the VRAM usage and (hopefully) stutters.
+
+### Video Background Playing (Honkai Impact 3rd - Mainland China - Picture 2 1080p)
+| Mem: Current Release | Mem: This PR | VRAM: Current Release | VRAM: This PR |
+|----|----|----|----|
+| ![](https://github.com/user-attachments/assets/571431d9-aebc-438b-b2de-6386eb91654f) | ![](https://github.com/user-attachments/assets/81a8c619-c29c-44cf-b35a-c17b92399c4a) | ![](https://github.com/user-attachments/assets/29a3d4b7-fc4d-4e2c-9795-793d089efde9) | ![](https://github.com/user-attachments/assets/455d75ae-bba1-4b73-aa0b-350114b6227b) |
+### Video Background On-Pause/Window minimized (Custom Video 2160p)
+| Mem: Current Release | Mem: This PR | VRAM: Current Release | VRAM: This PR |
+|----|----|----|----|
+| ![](https://github.com/user-attachments/assets/8894a3f4-f67c-4d17-a008-189ad2299a75) | ![](https://github.com/user-attachments/assets/4da743c4-ba44-4859-bd8f-b080bd61038b) | ![](https://github.com/user-attachments/assets/1f1dcb14-5998-4ec3-b967-bd4cc2a1bd0f) | ![](https://github.com/user-attachments/assets/a5101117-eb56-41c5-84da-ca28f1d02fcf) |
+
+# Other Notable Changes
+- **[Imp]** Migrating our Game Files Indexing System "Daftar-Pustaka" from V2 to V3, by @neon-nyan 
+- **[Fix]** Race Conditions in Sophon API Loader causing Available Game Version reverted to Deprecated ZIP API, by @neon-nyan 
+- **[New]** Sync game settings to database by @bagusnl, @neon-nyan 
+  - Now users with DB subsystem set-up can backup their game settings to the configured DB endpoint. Uses Collapse' way of saving registry so storage shouldn't be a problem.
+  - Guide on setting Collapse' DB subsystem is here https://collapselauncher.com/feature/database.html
+- **[Imp]** DiscordRPC fixes and stability improvements by @neon-nyan 
+- **[Imp]** Improved Collapse settings loading time by initializing Waifu2x at startup time by @neon-nyan 
+- **[Imp]** Improved video background playback by reducing animation in carousel by @neon-nyan 
+  - Should be smoother and less prone of frame skip now
+- **[Imp]** Background CPU and Memory utilizations by @neon-nyan 
+  - CPU utilization should be next to 0 when Collapse is minimized (and to tray) by hiding WinUI elements.
+  - Memory utilization is improved by running more aggressive garbage-collections
+- **[Fix]** Region without static images uses last loaded region background resources by @neon-nyan 
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.84.6-pre...CL-v1.84.7-pre
 
 # [EMERGENCY HOTFIX] Preview 1.84.6 (Codename: Columbina) - What's new?
 - **[Fix]** Fix Game Update might redownload all the files instead of using preload, by @neon-nyan.
