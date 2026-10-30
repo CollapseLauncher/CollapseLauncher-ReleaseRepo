@@ -1,5 +1,28 @@
 ![UpdateIsAvailable-Campaign-Columbina](https://github.com/user-attachments/assets/e7043018-4d49-48f2-adf1-3c846fd3c3e4)
 
+# Preview 1.84.8 (Codename: Columbina) - What's new?
+## **[Fix]** Stutters While Switching Image/Video Backgrounds, by @neon-nyan
+The presenter frame of the Image and Video Background previously stutters while transitioning from the previous to the current one, noticeable especially on high-refresh rate monitors. This issue should be fixed now and the fade transitions should be a lot smoother.
+
+> [!NOTE]
+> The video was recorded in 240 FPS. To illustrate the comparison better, please try to reduce the playback speed to 0.5x or lower.
+
+[2026-10-27 00-38-19.webm](https://github.com/user-attachments/assets/5e4a511e-6e79-487b-9e2a-3fc086d4a739)
+
+## **[New]** https://github.com/CollapseLauncher/Collapse/issues/889 https://github.com/CollapseLauncher/Collapse/issues/906 [Add toggle to force static image on dynamic background](https://github.com/CollapseLauncher/Collapse/pull/920/commits/4767fb3f7e81b09a9dc159f55626a74d27e13f42)
+The new "Force Static Image over Dynamic Background" has been added under the "Video Background Settings" section. While enabled, the dynamic background will use static image and video background will be disabled. However, if the background has only video file in it, the video will be kept playing. This setting is disabled by default.
+
+<img width="320" alt="image" src="https://github.com/user-attachments/assets/fd8d8e14-5381-4bb4-8221-d087d4bf36f3" />
+
+# Other Notable Changes
+- **[Fix]** https://github.com/CollapseLauncher/Collapse/issues/917 [Background state went blank while restored/minimized from tray](https://github.com/CollapseLauncher/Collapse/pull/920/commits/f337d68ed98101080fec4bbf72574ca874a414b8), by @neon-nyan 
+- **[Fix]** https://github.com/CollapseLauncher/Collapse/issues/918 [Maximized window not restored when disabling maximize](https://github.com/CollapseLauncher/Collapse/pull/920/commits/f0a1318ee71dfcf0f484ae60db7b14e60e81348f), by @shatyuka 
+- **[Fix]** https://github.com/CollapseLauncher/Collapse/issues/910 Honkai: Star Rail Game Repair and Cache Update went Broken after v4.6 Update, by @neon-nyan 
+- **[Fix]** Honkai Impact 3rd Game Repair went Broken after Back-end Metadata Format Migration to V3, by @neon-nyan 
+- **[Fix]** Several HEIF/HEIC/AVIF Encoded Image Cannot be Read, by @neon-nyan
+
+**Full Changelog**: https://github.com/CollapseLauncher/Collapse/compare/CL-v1.84.7-pre...CL-v1.84.8-pre
+
 # Preview 1.84.7 (Codename: Columbina) - What's new?
 ## **[Fix]** Property Assignment Race Condition on Game Update State, by @neon-nyan 
 This bug caused some issues in some game update mechanisms (in this example: Zenless Zone Zero Update 3.3.0), where it was previously unable to recognize the update and caused the game to be left erroneously on the previous version. The bug caused certain values for the game version from the Sophon API to go missing due to a race condition and false assignments on the loader properties, causing a domino effect which resulted the game version being null and assigning a version from a deprecated ZIP API.

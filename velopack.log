@@ -68,3 +68,6 @@
 [lib-csharp:30080] [23:30:00] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: G:\myGit\CollapseLauncher-ReleaseRepo\preview-localdev-build\sq.version
 [lib-csharp:30080] [23:30:00] [Information] Initialised WindowsVelopackLocator for CollapseLauncher v1.84.3
 [lib-csharp:30080] [23:30:00] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[stub:11728] [22:35:42] [INFO] --
+[stub:11728] [22:35:42] [INFO] Starting Velopack Stub (at "G:\\myGit\\CollapseLauncher-ReleaseRepo\\CollapseLauncher.exe")
+[stub:11728] [22:35:42] [INFO] Stub about to start Update.exe (G:\myGit\CollapseLauncher-ReleaseRepo\Update.exe) with args: ["start", "--", "tray"]
