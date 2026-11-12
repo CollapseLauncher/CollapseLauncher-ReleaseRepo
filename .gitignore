@@ -1,6 +1,6 @@
 preview/_Extract/**
 squirrel/specs/**
-*-build/**
+*-build*/**
 packages/**
 squirrel/latest*
 squirrel/buildKitchen/**
