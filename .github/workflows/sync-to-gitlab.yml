@@ -9,7 +9,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:  
-        - uses: keninkujovic/gitlab-sync@2.1.0
+        - uses: kujov/gitlab-sync@2255578444d23f254d08592bb8434084d29474d5 # 2.1.0
           with:
             gitlab_url: https://gitlab.com/bagusnl/CollapseLauncher-ReleaseRepo.git
             username: bagusnl
